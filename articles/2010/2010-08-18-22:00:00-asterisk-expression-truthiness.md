@@ -2,32 +2,25 @@
 %
 %
 
-Asterisk Expression Truthiness
-==============================
+# Asterisk Expression Truthiness
 
-Ever done any extensive [Asterisk](http://www.asterisk.org/) dialplan
-coding? If so, chances are you’ve been frustrated with Asterisk
-expresisons at one point or another.
+Ever done any extensive [Asterisk][] dialplan coding? If so, chances are you’ve
+been frustrated with Asterisk expresisons at one point or another.
 
-If you’re unfamiliar with Asterisk coding, you should read this [awesome
-book](http://www.amazon.com/gp/product/0596510489?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0596510489)
+If you’re unfamiliar with Asterisk coding, you should read this [awesome book][]
 (affiliate link) on the subject.
 
-**NOTE**: The following is written with Asterisk 1.6+ in mind. If you’re
-using an older version of Asterisk, this may not be *completely* true.
+**NOTE**: The following is written with Asterisk 1.6+ in mind. If you’re using
+an older version of Asterisk, this may not be *completely* true.
 
-Asterisk Expression Basics
---------------------------
+## Asterisk Expression Basics
 
-Asterisk
-[expressions](http://www.voip-info.org/wiki/view/Asterisk+Expressions)
-are used in various Asterisk dialplan applications, to help control the
-flow of your program. They are typically used as if statements to help
-branch logic.
+Asterisk [expressions][] are used in various Asterisk dialplan applications, to
+help control the flow of your program. They are typically used as if statements
+to help branch logic.
 
-Let’s look at an example from the latest version of
-[FreePBX](http://www.freepbx.org/), an extremely popular open source
-Asterisk web frontend:
+Let’s look at an example from the latest version of [FreePBX][], an extremely
+popular open source Asterisk web frontend:
 
     ; Rings one or more extensions.  Handles things like call forwarding and
     ; DND. We don't call dial directly for anything internal anymore.
@@ -41,8 +34,8 @@ Asterisk web frontend:
     exten => s,n,NoOp(Returned from dialparties with no extensions to call and DIALSTATUS: ${DIALSTATUS})
 
 In this short snippet, we see the Asterisk expression
-`$["${MOHCLASS}" = ""]?dial`. This short expression is the equivalent of
-the following pseudo code (which looks curiously like python):
+`$["${MOHCLASS}" = ""]?dial`. This short expression is the equivalent of the
+following pseudo code (which looks curiously like python):
 
     def macro_dial(*args):
         global MOHCLASS
@@ -52,26 +45,24 @@ the following pseudo code (which looks curiously like python):
 
         dial(*args)
 
-Makes sense so far, right? Basically, if `MOHCLASS` is false, then the
-code will not execute the `SetMusicOnHold` application before performing
-a dial.
+Makes sense so far, right? Basically, if `MOHCLASS` is false, then the code will
+not execute the `SetMusicOnHold` application before performing a dial.
 
-And of course, expressions aren’t limited to a single statement, they
-can be used pretty much anywhere. Here’s another snippet from the latest
-version of FreePBX:
+And of course, expressions aren’t limited to a single statement, they can be
+used pretty much anywhere. Here’s another snippet from the latest version of
+FreePBX:
 
     exten => s,n,Set(DIALSTATUS=${IF($["${DIALSTATUS_CW}"!="" ]?${DIALSTATUS_CW}:${DIALSTATUS})})
 
     exten => s,n,GosubIf($["${SCREEN}" != "" | "${DIALSTATUS}" = "ANSWER"]?${DIALSTATUS},1)
 
-As you can see, expressions provide most common logical operators like
-AND, OR, NOT, etc.
+As you can see, expressions provide most common logical operators like AND, OR,
+NOT, etc.
 
-Truthiness
-----------
+## Truthiness
 
-In an attempt to demonstrate the truthiness of Asterisk expression, I’ll
-dissect the FreePBX code shown in the previous section.
+In an attempt to demonstrate the truthiness of Asterisk expression, I’ll dissect
+the FreePBX code shown in the previous section.
 
 Let’s start by testing all aspects of the original FreePBX expression:
 
@@ -79,40 +70,37 @@ Let’s start by testing all aspects of the original FreePBX expression:
 
 In order to test it, let’s run some dialplan code.
 
-**NOTE**: I’m not showing the Asterisk output for any of the tests,
-because it would take an enormous amount of space and be essentially
-useless. So you can take my answers to be true (I’ve tested them, I
-promise!), or test it for yourself.
+**NOTE**: I’m not showing the Asterisk output for any of the tests, because it
+would take an enormous amount of space and be essentially useless. So you can
+take my answers to be true (I’ve tested them, I promise!), or test it for
+yourself.
 
 ### Test 1
 
-The first thing we’ll test is what happens if the `MOHCLASS` doesn’t
-exist?
+The first thing we’ll test is what happens if the `MOHCLASS` doesn’t exist?
 
     exten => s,n,GotoIf($["${MOHCLASS}" = ""]?dial)
     exten => s,n(dial),NoOp()
 
-The output of our first test shows that the expression resolves to true
-(1). That means that, `$["${MOHCLASS}" = ""]` can be used to test
-whether or not the `MOHCLASS` variable exists.
+The output of our first test shows that the expression resolves to true (1).
+That means that, `$["${MOHCLASS}" = ""]` can be used to test whether or not the
+`MOHCLASS` variable exists.
 
 ### Test 2
 
-In this test, we’ll see what happens if `MOHCLASS` has been defined, and
-set to a line of text.
+In this test, we’ll see what happens if `MOHCLASS` has been defined, and set to
+a line of text.
 
     exten => s,n,Set(MOHCLASS=hithere)
     exten => s,n,GotoIf($["${MOHCLASS}" = ""]?dial)
     exten => s,n(dial),NoOp()
 
-This time, the expressions returns false (0). This makes sense, as we
-wouldn’t expect Asterisk to think that both `""` and `hithere` are
-equal.
+This time, the expressions returns false (0). This makes sense, as we wouldn’t
+expect Asterisk to think that both `""` and `hithere` are equal.
 
 ### Test 3
 
-Now, let’s see what happens if `MOHCLASS` is defined, and set to 0
-(false).
+Now, let’s see what happens if `MOHCLASS` is defined, and set to 0 (false).
 
     exten => s,n,Set(MOHCLASS=0)
     exten => s,n,GotoIf($["${MOHCLASS}" = ""]?dial)
@@ -128,9 +116,9 @@ How about if `MOHCLASS` is defined, but not assigned any value?
     exten => s,n,GotoIf($["${MOHCLASS}" = ""]?dial)
     exten => s,n(dial),NoOp()
 
-This time, we get true (1). So if a variable is set, but has no value,
-the checking of the variable is equal to an empty string, eg: `""`, will
-return true.
+This time, we get true (1). So if a variable is set, but has no value, the
+checking of the variable is equal to an empty string, eg: `""`, will return
+true.
 
 ### Test 5
 
@@ -142,8 +130,7 @@ And what if `MOHCLASS` is set to the empty string?
 
 Again, it resolves to true (1). So, as expected, `""` = `""`.
 
-Truthiness Table
-----------------
+## Truthiness Table
 
 To summarize what we’ve learned, here’s a simple truthiness table:
 
@@ -155,17 +142,22 @@ To summarize what we’ve learned, here’s a simple truthiness table:
     blah = ""       0
     undef = ""      0
 
-As you can see, Asterisk is (for the most part) relatively easy to
-comprehend when it comes to truthiness. The only surprising expression
-we encountered was the: `0 = ""` expression, which is *not* true.
+As you can see, Asterisk is (for the most part) relatively easy to comprehend
+when it comes to truthiness. The only surprising expression we encountered was
+the: `0 = ""` expression, which is *not* true.
 
-Questions?
-----------
+## Questions?
 
 Got any questions? I’d be happy to answer them.
 
-Subscribe to my [rss feed](http://feeds.feedburner.com/projectb14ck) or
-follow me on [twitter](http://twitter.com/comradeb14ck) if you want to
-get information on the next few articles.
+Subscribe to my [rss feed][] or follow me on [twitter][] if you want to get
+information on the next few articles.
 
 Next time, I’ll be covering expression reduction.
+
+  [Asterisk]: http://www.asterisk.org/
+  [awesome book]: http://www.amazon.com/gp/product/0596510489?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0596510489
+  [expressions]: http://www.voip-info.org/wiki/view/Asterisk+Expressions
+  [FreePBX]: http://www.freepbx.org/
+  [rss feed]: http://feeds.feedburner.com/projectb14ck
+  [twitter]: http://twitter.com/comradeb14ck

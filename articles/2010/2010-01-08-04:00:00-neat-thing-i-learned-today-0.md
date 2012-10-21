@@ -2,19 +2,17 @@
 %
 %
 
-Neat Thing I Learned Today
-==========================
+# Neat Thing I Learned Today
 
-In C, you can index arrays with either the array subscript inside of the
-typical square brackets `arr[0]` or with the less common (and somewhat
-mistifying): `0[arr]`.
+In C, you can index arrays with either the array subscript inside of the typical
+square brackets `arr[0]` or with the less common (and somewhat mistifying):
+`0[arr]`.
 
-Now, I’ve been using C for quite a while, but never realized that you
-could do this. It is definitely awesome, and could be really useful in
-some obfuscated programs. I wrote a really small sample program that
-runs a test (if it doesn’t work, please leave a comment with your
-compiler as I’d be interested to know if it doesn’t work on all
-platforms:
+Now, I’ve been using C for quite a while, but never realized that you could do
+this. It is definitely awesome, and could be really useful in some obfuscated
+programs. I wrote a really small sample program that runs a test (if it doesn’t
+work, please leave a comment with your compiler as I’d be interested to know if
+it doesn’t work on all platforms:
 
     /*
      * This example program demonstrates a weird way to reference array
@@ -37,11 +35,11 @@ platforms:
 
     }
 
-The really interesting thing about this, is why it works. On the Stack
-Overflow discussion page for Strangest language feature, the user Michel
-explains why it works.
+The really interesting thing about this, is why it works. On the Stack Overflow
+discussion page for Strangest language feature, the user Michel explains why it
+works.
 
 > … that’s because a[10] means *(a+10) … and 10[a] means*(10+a) :)
 
-Pretty awesome. Anyhow, hope you learned something new, I did. Thanks
-Stack Overflow :)
+Pretty awesome. Anyhow, hope you learned something new, I did. Thanks Stack
+Overflow :)

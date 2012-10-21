@@ -2,48 +2,47 @@
 %
 %
 
-Don't Panic! Frustration is an Anti-Pattern
-===========================================
+# Don't Panic! Frustration is an Anti-Pattern
 
-![Frustration](http://getfile9.posterous.com/getfile/files.posterous.com/temp-2012-10-04/HdwuyjeaxavAizauwckkjBbFtxjpGEmtEaawypcFoGeeslJztjDxblgCGuvk/frustration.gif.scaled696.gif)
+![Frustration][]
 
-Frustration and programming seem to go hand in hand. When solving
-problems with code, there are an unlimited amount of things that can go
-wrong, and very few things that can go right:
+Frustration and programming seem to go hand in hand. When solving problems with
+code, there are an unlimited amount of things that can go wrong, and very few
+things that can go right:
 
--   The third party library you're using to implement a piece of
-    functionality doesn't work as stated in the documentation.
--   Your co-worker unknowingly reverted a bugfix you made the previous
-    week.
+-   The third party library you're using to implement a piece of functionality
+    doesn't work as stated in the documentation.
+-   Your co-worker unknowingly reverted a bugfix you made the previous week.
 -   You accidentally deployed code that corrupted user data.
 
-Unfortunately, this means that if you write a lot of code, you'll be
-spending quite a lot of time frustrated on a day-to-day basis.
+Unfortunately, this means that if you write a lot of code, you'll be spending
+quite a lot of time frustrated on a day-to-day basis.
 
-What I've noticed, however, is that lots of people tend to *embrace*
-their frustration instead of doing the opposite and *letting it go*.
+What I've noticed, however, is that lots of people tend to *embrace* their
+frustration instead of doing the opposite and *letting it go*.
 
-When you bump into problems, if you tell yourself that it is difficult,
-and convince yourself that you are a victim of issues you can't
-control--your frustration will simply keep building and building, and
-your work will quickly dwindle in quality.
+When you bump into problems, if you tell yourself that it is difficult, and
+convince yourself that you are a victim of issues you can't control--your
+frustration will simply keep building and building, and your work will quickly
+dwindle in quality.
 
 The more you embrace your frustration, the more frustrated you become.
 
 Through my own experience, I know that some individuals (and companies!)
-actually *thrive* off frustration. Instead of acknowledging the issues
-at hand, some people simply press each other harder, and make each other
-feel worse. In the workplace, this manifests as a boss pressuring his
-subordinates when they're in a tight spot, adding to the frustration and
-intensity of the whole organization--and delivery subpar results.
+actually *thrive* off frustration. Instead of acknowledging the issues at hand,
+some people simply press each other harder, and make each other feel worse. In
+the workplace, this manifests as a boss pressuring his subordinates when they're
+in a tight spot, adding to the frustration and intensity of the whole
+organization--and delivery subpar results.
 
-There is no way to stop yourself from being frustated. Instead, however,
-you can consciously make a decision to acknowledge your frustration
-(that broken third party library, your reverted bugfix, whatever),
-realize that your frustration isn't helping you make progress, and let
-it go.
+There is no way to stop yourself from being frustated. Instead, however, you
+can consciously make a decision to acknowledge your frustration (that broken
+third party library, your reverted bugfix, whatever), realize that your
+frustration isn't helping you make progress, and let it go.
 
-With a clear head, you can now tackle the next most important problem
-(fixing that broken library) without compromising your sanity.
+With a clear head, you can now tackle the next most important problem (fixing
+that broken library) without compromising your sanity.
 
 Just *let it go*.
+
+  [Frustration]: http://getfile9.posterous.com/getfile/files.posterous.com/temp-2012-10-04/HdwuyjeaxavAizauwckkjBbFtxjpGEmtEaawypcFoGeeslJztjDxblgCGuvk/frustration.gif.scaled696.gif

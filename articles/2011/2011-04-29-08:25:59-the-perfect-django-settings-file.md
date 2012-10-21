@@ -2,36 +2,33 @@
 %
 %
 
-The Perfect Django Settings File
-================================
+# The Perfect Django Settings File
 
-I know this isn't the best way to start an article, but *I lied*. This
-article won't show you how to make the perfect Django settings file.
-Instead, it will show you how to build the perfect Django settings
-*module*.
+I know this isn't the best way to start an article, but *I lied*. This article
+won't show you how to make the perfect Django settings file. Instead, it will
+show you how to build the perfect Django settings *module*.
 
-When I'm first starting a new Django project, I like to make sure that
-my settings file(s) are crafted in an organized, ideal manner. My
-settings file(s) should allow me to:
+When I'm first starting a new Django project, I like to make sure that my
+settings file(s) are crafted in an organized, ideal manner. My settings file(s)
+should allow me to:
 
--   Maintain as many specific deployment environment settings as I
-    choose in a clear and separate manner. For example: *production*,
-    *staging*, *development*, etc.
--   Maintain common project settings that are used by all specific
-    deployment environments. For example: maybe *production*, *staging*,
-    and *development* all share a common **ADMINS** setting. I don't
-    want to duplicate this code in all of my enviornment specific
-    settings files.
+-   Maintain as many specific deployment environment settings as I choose in a
+    clear and separate manner. For example: *production*, *staging*,
+    *development*, etc.
+-   Maintain common project settings that are used by all specific deployment
+    environments. For example: maybe *production*, *staging*, and *development*
+    all share a common **ADMINS** setting. I don't want to duplicate this code
+    in all of my enviornment specific settings files.
 -   Easily test and deploy code to each specific environment.
 
 Old Habits Die Hard
 
-I'd like to quickly discuss why I think most people design their
-settings file(s) wrong.
+I'd like to quickly discuss why I think most people design their settings
+file(s) wrong.
 
-The approach to settings that I see many people take is
-simplistic--they'll define all of their values in their settings.py
-file, and then at the bottom of the file write something like this:
+The approach to settings that I see many people take is simplistic--they'll
+define all of their values in their settings.py file, and then at the bottom of
+the file write something like this:
 
 ~~~~ {.line_numbers}
 1
@@ -48,41 +45,37 @@ except ImportError:
 
     pass
 
-What sucks about this approach is that you now need to maintain a
-file--in this case **settings\_local.py** for each of your environments,
-and it isn't going to be easy to version control. Why? Because you have
-two choices in this scenario of fail:
+What sucks about this approach is that you now need to maintain a file--in this
+case **settings\_local.py** for each of your environments, and it isn't going to
+be easy to version control. Why? Because you have two choices in this scenario
+of fail:
 
-1.  Don't version control the **settings\_local.py** files on your
-    various servers. This sucks because now you've got stuff like
-    database credentials that will lay around, and gradually break
-    future deployments when you forget to update them. It also sucks
-    because you've got to constantly worry about that file. It isn't
-    part of your source repository, so you have to back it up manually,
-    and take special care of it.
-2.  Version control the **settings\_local.py** files for each
-    environment you have, and then manually change the **settings.py**
-    file (or **\_\_init\_\_.py** file) in your project folder on each
-    server. Now you've got the same problem as before--you've got to
-    manually manage some source files, and constantly worry about
-    breaking shit.
+1.  Don't version control the **settings\_local.py** files on your various
+    servers. This sucks because now you've got stuff like database credentials
+    that will lay around, and gradually break future deployments when you forget
+    to update them. It also sucks because you've got to constantly worry about
+    that file. It isn't part of your source repository, so you have to back it
+    up manually, and take special care of it.
+2.  Version control the **settings\_local.py** files for each environment you
+    have, and then manually change the **settings.py** file (or
+    **\_\_init\_\_.py** file) in your project folder on each server. Now you've
+    got the same problem as before--you've got to manually manage some source
+    files, and constantly worry about breaking shit.
 
 There's a better way.
 
 Write a Settings Module
 
-Instead of maintaining multiple flat settings files, build a settings
-module. Go ahead and **rm** your **settings.py** file, and in its place,
-create a new directory, called **settings**, and put in a blank
-**\_\_init\_\_.py** file to start.
+Instead of maintaining multiple flat settings files, build a settings module. Go
+ahead and **rm** your **settings.py** file, and in its place, create a new
+directory, called **settings**, and put in a blank **\_\_init\_\_.py** file to
+start.
 
 The goal here will be to do meet all the criteria that I defined in the
-beginning of this article. In order to meet all those requirements, we
-need to:
+beginning of this article. In order to meet all those requirements, we need to:
 
-1.  Define a **common.py** file inside of our settings module. This file
-    will contain all of our 'shared' settings between all environments.
-    For example:\
+1.  Define a **common.py** file inside of our settings module. This file will
+    contain all of our 'shared' settings between all environments. For example:\
 
     ~~~~ {.line_numbers}
     1
@@ -316,8 +309,7 @@ need to:
 
     \
 
-    \# Absolute filesystem path to the secret file which holds this
-    project's
+    \# Absolute filesystem path to the secret file which holds this project's
 
     \# SECRET\_KEY. Will be auto-generated the first time this file is
     interpreted.
@@ -326,8 +318,7 @@ need to:
 
     \
 
-    \# Add all necessary filesystem paths to our system path so that we
-    can use
+    \# Add all necessary filesystem paths to our system path so that we can use
 
     \# python import statements.
 
@@ -359,8 +350,7 @@ need to:
 
     \#\#\#\#\#\#\#\#\#\# MANAGER CONFIGURATION
 
-    \# Admin and managers for this project. These people receive private
-    site
+    \# Admin and managers for this project. These people receive private site
 
     \# alerts.
 
@@ -384,17 +374,16 @@ need to:
 
     \# Local time zone for this installation. Choices can be found here:
 
-    \# http://en.wikipedia.org/wiki/List\_of\_tz\_zones\_by\_name
-    although not all
+    \# http://en.wikipedia.org/wiki/List\_of\_tz\_zones\_by\_name although not
+    all
 
-    \# choices may be available on all operating systems. On Unix
-    systems, a value
+    \# choices may be available on all operating systems. On Unix systems, a
+    value
 
-    \# of None will cause Django to use the same timezone as the
-    operating system.
+    \# of None will cause Django to use the same timezone as the operating
+    system.
 
-    \# If running in a Windows environment this must be set to the same
-    as your
+    \# If running in a Windows environment this must be set to the same as your
 
     \# system time zone.
 
@@ -402,8 +391,7 @@ need to:
 
     \
 
-    \# Language code for this installation. All choices can be found
-    here:
+    \# Language code for this installation. All choices can be found here:
 
     \# http://www.i18nguy.com/unicode/language-identifiers.html.
 
@@ -411,11 +399,11 @@ need to:
 
     \
 
-    \# The ID, as an integer, of the current site in the django\_site
-    database table.
+    \# The ID, as an integer, of the current site in the django\_site database
+    table.
 
-    \# This is used so that application data can hook into specific
-    site(s) and a
+    \# This is used so that application data can hook into specific site(s) and
+    a
 
     \# single database can manage content for multiple sites.
 
@@ -423,8 +411,7 @@ need to:
 
     \
 
-    \# If you set this to False, Django will make some optimizations so
-    as not
+    \# If you set this to False, Django will make some optimizations so as not
 
     \# to load the internationalization machinery.
 
@@ -432,8 +419,7 @@ need to:
 
     \
 
-    \# If you set this to False, Django will not format dates, numbers
-    and
+    \# If you set this to False, Django will not format dates, numbers and
 
     \# calendars according to the current locale.
 
@@ -447,8 +433,8 @@ need to:
 
     \#\#\#\#\#\#\#\#\#\# MEDIA CONFIGURATION
 
-    \# Absolute filesystem path to the directory that will hold
-    user-uploaded files.
+    \# Absolute filesystem path to the directory that will hold user-uploaded
+    files.
 
     MEDIA\_ROOT = normpath(join(DJANGO\_ROOT, 'media'))
 
@@ -466,11 +452,11 @@ need to:
 
     \#\#\#\#\#\#\#\#\#\# STATIC FILE CONFIGURATION
 
-    \# Absolute path to the directory static files should be collected
-    to. Don't put
+    \# Absolute path to the directory static files should be collected to. Don't
+    put
 
-    \# anything in this directory yourself; store your static files in
-    apps' static/
+    \# anything in this directory yourself; store your static files in apps'
+    static/
 
     \# subdirectories and in STATICFILES\_DIRS.
 
@@ -500,8 +486,7 @@ need to:
 
     \
 
-    \# List of finder classes that know how to find static files in
-    various
+    \# List of finder classes that know how to find static files in various
 
     \# locations.
 
@@ -523,8 +508,7 @@ need to:
 
     \#\#\#\#\#\#\#\#\#\# TEMPLATE CONFIGURATION
 
-    \# List of callables that know how to import templates from various
-    sources.
+    \# List of callables that know how to import templates from various sources.
 
     TEMPLATE\_LOADERS = (
 
@@ -654,8 +638,8 @@ need to:
 
     \#\#\#\#\#\#\#\#\#\# KEY CONFIGURATION
 
-    \# Try to load the SECRET\_KEY from our SECRET\_FILE. If that fails,
-    then generate
+    \# Try to load the SECRET\_KEY from our SECRET\_FILE. If that fails, then
+    generate
 
     \# a random SECRET\_KEY and save it into our SECRET\_FILE for future
     loading. If
@@ -676,14 +660,13 @@ need to:
 
     except IOError:
 
-    raise Exception('Cannot open file \`%s\` for writing.' %
-    SECRET\_FILE)
+    raise Exception('Cannot open file \`%s\` for writing.' % SECRET\_FILE)
 
     \#\#\#\#\#\#\#\#\#\# END KEY CONFIGURATION
 
-2.  Define as many environment-specific settings files as you need. Just
-    make sure to import from **common** at the top of your file. For
-    example--here's a **dev.py** file:\
+2.  Define as many environment-specific settings files as you need. Just make
+    sure to import from **common** at the top of your file. For example--here's
+    a **dev.py** file:\
 
     ~~~~ {.line_numbers}
     1
@@ -893,16 +876,13 @@ need to:
 
     DEBUG\_TOOLBAR\_CONFIG = {
 
-    \# If set to True (default), the debug toolbar will show an
-    intermediate
+    \# If set to True (default), the debug toolbar will show an intermediate
 
     \# page upon redirect so you can view any debug information prior to
 
-    \# redirecting. This page will provide a link to the redirect
-    destination
+    \# redirecting. This page will provide a link to the redirect destination
 
-    \# you can follow when ready. If set to False, redirects will
-    proceed as
+    \# you can follow when ready. If set to False, redirects will proceed as
 
     \# normal.
 
@@ -910,20 +890,15 @@ need to:
 
     \
 
-    \# If not set or set to None, the debug\_toolbar middleware will use
-    its
+    \# If not set or set to None, the debug\_toolbar middleware will use its
 
-    \# built-in show\_toolbar method for determining whether the toolbar
-    should
+    \# built-in show\_toolbar method for determining whether the toolbar should
 
-    \# show or not. The default checks are that DEBUG must be set to
-    True and
+    \# show or not. The default checks are that DEBUG must be set to True and
 
-    \# the IP of the request must be in INTERNAL\_IPS. You can provide
-    your own
+    \# the IP of the request must be in INTERNAL\_IPS. You can provide your own
 
-    \# method for displaying the toolbar which contains your custom
-    logic. This
+    \# method for displaying the toolbar which contains your custom logic. This
 
     \# method should return True or False.
 
@@ -931,8 +906,7 @@ need to:
 
     \
 
-    \# An array of custom signals that might be in your project, defined
-    as the
+    \# An array of custom signals that might be in your project, defined as the
 
     \# python path to the signal.
 
@@ -940,8 +914,7 @@ need to:
 
     \
 
-    \# If set to True (the default) then code in Django itself won't be
-    shown in
+    \# If set to True (the default) then code in Django itself won't be shown in
 
     \# SQL stacktraces.
 
@@ -949,14 +922,11 @@ need to:
 
     \
 
-    \# If set to True (the default) then a template's context will be
-    included
+    \# If set to True (the default) then a template's context will be included
 
-    \# with it in the Template debug panel. Turning this off is useful
-    when you
+    \# with it in the Template debug panel. Turning this off is useful when you
 
-    \# have large template contexts, or you have template contexts with
-    lazy
+    \# have large template contexts, or you have template contexts with lazy
 
     \# datastructures that you don't want to be evaluated.
 
@@ -964,8 +934,8 @@ need to:
 
     \
 
-    \# If set, this will be the tag to which debug\_toolbar will attach
-    the debug
+    \# If set, this will be the tag to which debug\_toolbar will attach the
+    debug
 
     \# toolbar. Defaults to 'body'.
 
@@ -993,19 +963,18 @@ need to:
 
     \#\#\#\#\#\#\#\#\#\# END CELERY CONFIGURATION
 
-3.  When you're using any sort of management command, just specify the
-    settings module you want to use. For example: instead of running
-    **python manage.py syncdb**, you would do **python manage.py syncdb
-    --settings=settings.dev**. Same goes with runserver, or any other
-    command.
+3.  When you're using any sort of management command, just specify the settings
+    module you want to use. For example: instead of running **python manage.py
+    syncdb**, you would do **python manage.py syncdb --settings=settings.dev**.
+    Same goes with runserver, or any other command.
 
-As you can see, the benefits of a settings module are numerous, and meet
-all of our requirements. We're able to have our cake (by version
-controlling all environment specific settings) and eat it too (by
-choosing which one to use simply via our application server).
+As you can see, the benefits of a settings module are numerous, and meet all of
+our requirements. We're able to have our cake (by version controlling all
+environment specific settings) and eat it too (by choosing which one to use
+simply via our application server).
 
-I've been working on numerous Django projects for around 2 years now,
-and I've not found any better ways to do it.
+I've been working on numerous Django projects for around 2 years now, and I've
+not found any better ways to do it.
 
 Got Suggestions?
 

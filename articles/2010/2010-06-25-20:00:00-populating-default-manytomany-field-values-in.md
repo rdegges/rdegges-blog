@@ -2,31 +2,27 @@
 %
 %
 
-Populating Default ManyToMany Field Values in Django
-====================================================
+# Populating Default ManyToMany Field Values in Django
 
-At work, I’m the lead developer of a rather large, complex web
-application which interacts with many different technologies (Asterisk,
-Freeswitch, Cisco routers, python, XML-RPC, JSON, Django—to name a few).
-A few days ago, while implementing a ban system, I bumped into an
-interesting problem that was not trivial to find a solution to. So, here
-it is :)
+At work, I’m the lead developer of a rather large, complex web application which
+interacts with many different technologies (Asterisk, Freeswitch, Cisco routers,
+python, XML-RPC, JSON, Django—to name a few). A few days ago, while implementing
+a ban system, I bumped into an interesting problem that was not trivial to find
+a solution to. So, here it is :)
 
-Background
-----------
+## Background
 
-The web application I’m developing is a private portal which allows
-users to manage teleconference lines real time. Since all of our
-telephony services are free of charge, we often get callers onto certain
-teleconference lines who want to abuse services (think of those trolls
-on the internet, except over the phone). As you can probably imagine,
-without strict regulation & technology in place, telephone trolls could
-cause huge problems for normal users.
+The web application I’m developing is a private portal which allows users to
+manage teleconference lines real time. Since all of our telephony services are
+free of charge, we often get callers onto certain teleconference lines who want
+to abuse services (think of those trolls on the internet, except over the
+phone). As you can probably imagine, without strict regulation & technology in
+place, telephone trolls could cause huge problems for normal users.
 
-To combat this, I wrote a relatively simple ban system which allows web
-admins to remove abusive callers from specific teleconference lines.
-Each teleconference line is represented by a Django model class, which
-looks something like:
+To combat this, I wrote a relatively simple ban system which allows web admins
+to remove abusive callers from specific teleconference lines. Each
+teleconference line is represented by a Django model class, which looks
+something like:
 
     class Teleconference(models.Model):
 
@@ -38,15 +34,14 @@ looks something like:
         def __unicode__(self):
             return '%s:%s' % (self.name, self.did)
 
-The newly added `bans` field stores a list of `Caller` objects which map
-to individual callers, and allow the web users to ban specific callers
-if they’re causing trouble.
+The newly added `bans` field stores a list of `Caller` objects which map to
+individual callers, and allow the web users to ban specific callers if they’re
+causing trouble.
 
-Problem
--------
+## Problem
 
-The problem came up when I was trying to finish the view which allows
-web admins to select which callers they want to ban.
+The problem came up when I was trying to finish the view which allows web admins
+to select which callers they want to ban.
 
 The view code (originally) looked something like:
 
@@ -80,19 +75,16 @@ The view code (originally) looked something like:
         variables = RequestContext(request, {'form': form})
         return render_to_response('portal/teleconf/edit.html', variables)
 
-The problem in the code above resides on line 24. Attempting to populate
-the default values for a ManyToMany field using the `id` attribute does
-not work.
+The problem in the code above resides on line 24. Attempting to populate the
+default values for a ManyToMany field using the `id` attribute does not work.
 
-After a bit of playing around, I was unable to find a solution, so I
-checked google. After \~20 minutes of google, I was still stuck with the
-same problem.
+After a bit of playing around, I was unable to find a solution, so I checked
+google. After \~20 minutes of google, I was still stuck with the same problem.
 
-Solution
---------
+## Solution
 
-To resolve the issue, and successfully populate the default `bans` field
-values, I had to do:
+To resolve the issue, and successfully populate the default `bans` field values,
+I had to do:
 
     def edit_teleconference(request, id=None):
         teleconference = get_object_or_404(Teleconference, id=id)
@@ -124,17 +116,16 @@ values, I had to do:
         variables = RequestContext(request, {'form': form})
         return render_to_response('portal/teleconf/edit.html', variables)
 
-Which basically passes a list of `Caller` `id` attributes to the form.
-While this now seems an intuitive solution to me, I had a great deal of
-trouble initially figuring it out.
+Which basically passes a list of `Caller` `id` attributes to the form. While
+this now seems an intuitive solution to me, I had a great deal of trouble
+initially figuring it out.
 
-The way that form defaults work for Foreign and ManyToMany fields is
-that they take in either a model’s `id` attribute for ForeignKeys, or a
-list of model `id`s for ManyToMany fields.
+The way that form defaults work for Foreign and ManyToMany fields is that they
+take in either a model’s `id` attribute for ForeignKeys, or a list of model
+`id`s for ManyToMany fields.
 
-Conclusion
-----------
+## Conclusion
 
-Populating Django ManyToMany field default values can be a bit
-confusing, and somewhat undocumented. Hopefully the code presented above
-helps clarify how to do it properly, and why it works the way it does.
+Populating Django ManyToMany field default values can be a bit confusing, and
+somewhat undocumented. Hopefully the code presented above helps clarify how to
+do it properly, and why it works the way it does.

@@ -2,38 +2,32 @@
 %
 %
 
-User Authentication With Django
-===============================
+# User Authentication With Django
 
-This article will teach you how to authenticate users with
-[Django](http://www.djangoproject.com/) in a simple, quick, and secure
-manner. You’ll also learn how to require authentication on certain pages
-of your website, and how to gracefully handle login and logout
-functionality.
+This article will teach you how to authenticate users with [Django][] in a
+simple, quick, and secure manner. You’ll also learn how to require
+authentication on certain pages of your website, and how to gracefully handle
+login and logout functionality.
 
-The target audience is people who have had minimal experience with
-Django, and are aware of how Django works in a basic manner.
+The target audience is people who have had minimal experience with Django, and
+are aware of how Django works in a basic manner.
 
-What are We Building?
----------------------
+## What are We Building?
 
-To demonstrate how user authentication works, we’ll be building an
-extremely minimalistic website and user portal. We’ll create a home page
-that directs users to the web portal (which is for authenticated users
-only). We’ll create a login page, a logout page, and a basic web portal
-home page.
+To demonstrate how user authentication works, we’ll be building an extremely
+minimalistic website and user portal. We’ll create a home page that directs
+users to the web portal (which is for authenticated users only). We’ll create a
+login page, a logout page, and a basic web portal home page.
 
 The goal of this article is not to teach you web design, or how to make
-websites, but merely to show you how simple user authentication can be
-with Django.
+websites, but merely to show you how simple user authentication can be with
+Django.
 
-What’s Needed?
---------------
+## What’s Needed?
 
 Django 1.0 or later.
 
-Create a New Project
---------------------
+## Create a New Project
 
 Before we get started, create a new Django project. For the rest of this
 article, we’ll be building a website for the fictitious company “Django
@@ -63,26 +57,22 @@ Consultants”.
     Installing index for auth.Message model
     rdegges@cora:~/code/django_consultants$
 
-Be sure to create a user account when you run the
-`python manage.py syncdb` command, as you’ll need that later to test
-your login.
+Be sure to create a user account when you run the `python manage.py syncdb`
+command, as you’ll need that later to test your login.
 
-Determine URLs
---------------
+## Determine URLs
 
-There are many ways to design a website, but I prefer to build the URL
-schema first, then build the site to match the URL schema. So let’s
-decide on what URLs we will need now. If you are going to build a real
-website and not just this simple example, feel free to add whatever else
-you need.
+There are many ways to design a website, but I prefer to build the URL schema
+first, then build the site to match the URL schema. So let’s decide on what URLs
+we will need now. If you are going to build a real website and not just this
+simple example, feel free to add whatever else you need.
 
 -   / Show the company logo and direct users to a login portal.
 -   /login/ Allow users to login.
 
 This should be sufficient for what we are doing.
 
-Configure Django Settings
--------------------------
+## Configure Django Settings
 
 Below is my settings.py for the project. Make changes where necessary.
 
@@ -144,17 +134,16 @@ Below is my settings.py for the project. Make changes where necessary.
         'portal',
     )
 
-Take note of the `LOGIN_URL` setting. This needs to be changed to
-whatever URL your login view will be at. For us, this should be /login/,
-as that is the URL we decided will supply users with a login page.
+Take note of the `LOGIN_URL` setting. This needs to be changed to whatever URL
+your login view will be at. For us, this should be /login/, as that is the URL
+we decided will supply users with a login page.
 
 Everything else is pretty standard, nothing special going on.
 
-Write Our urls.py
------------------
+## Write Our urls.py
 
-Now let’s write our main urls.py file which will control what content is
-served based on our URL schema.
+Now let’s write our main urls.py file which will control what content is served
+based on our URL schema.
 
     from django_consultants.views import *
     from django.conf.urls.defaults import *
@@ -176,25 +165,24 @@ served based on our URL schema.
 
 There are two things to notice here. First off, the login view
 `(r'^login/$', 'django.contrib.auth.views.login')` is defined as using
-`django.contrib.auth.views.login`, which is a pre-defined view for
-logging in users. We won’t need to make any changes to this, as it does
-all of the Django magic to securely authenticate users.
+`django.contrib.auth.views.login`, which is a pre-defined view for logging in
+users. We won’t need to make any changes to this, as it does all of the Django
+magic to securely authenticate users.
 
-Next, you’ll notice that the view for our web portal will be part of a
-separate application `(r'^portal/', include('portal.urls'))`. You don’t
-have to do it this way, but breaking your website up into independent
-applications is useful for keeping logic separated. For example, a login
-and logout are useful to have as part of your main site (eg: not in an
-application) because you may have multiple parts of your website that
-perform different actions but that all require authentication for users
-to access. In our case, one of these applications will be a user portal,
-so we’ll be making it into a separate application.
+Next, you’ll notice that the view for our web portal will be part of a separate
+application `(r'^portal/', include('portal.urls'))`. You don’t have to do it
+this way, but breaking your website up into independent applications is useful
+for keeping logic separated. For example, a login and logout are useful to have
+as part of your main site (eg: not in an application) because you may have
+multiple parts of your website that perform different actions but that all
+require authentication for users to access. In our case, one of these
+applications will be a user portal, so we’ll be making it into a separate
+application.
 
-Writing the Views
------------------
+## Writing the Views
 
-Now that we’ve defined the URLs for our site, let’s go ahead and write
-the views that our main site will use. Here’s the views.py:
+Now that we’ve defined the URLs for our site, let’s go ahead and write the views
+that our main site will use. Here’s the views.py:
 
     from django.contrib.auth import logout
     from django.http import HttpResponseRedirect
@@ -211,25 +199,24 @@ the views that our main site will use. Here’s the views.py:
         return HttpResponseRedirect('/')
 
 Since the login page already has a view defined (thanks to
-`django.contrib.auth`), we only need to define our main page (which will
-tell users to go to the portal) and a logout page that allows users to
-logout anywhere on the website.
+`django.contrib.auth`), we only need to define our main page (which will tell
+users to go to the portal) and a logout page that allows users to logout
+anywhere on the website.
 
-The main\_page view is pretty simple, it just renders an index.html
-template (don’t worry, we’ll write all of the templates later).
+The main\_page view is pretty simple, it just renders an index.html template
+(don’t worry, we’ll write all of the templates later).
 
-The `logout_page` view calls the logout function on the request object.
-This magically logs users out and kills their sessions. After logging
-them out, we then direct them back to the main page of the website. You
-can always spice this up (by adding a custom log out page or something),
-but for simplicity’s sake, we will just send them back home.
+The `logout_page` view calls the logout function on the request object. This
+magically logs users out and kills their sessions. After logging them out, we
+then direct them back to the main page of the website. You can always spice this
+up (by adding a custom log out page or something), but for simplicity’s sake, we
+will just send them back home.
 
-Create the Portal Application
------------------------------
+## Create the Portal Application
 
-Now let’s create our web portal application. We’ll call it portal and it
-will be used to display the portal homepage and other portal
-functionality (if you choose to add it):
+Now let’s create our web portal application. We’ll call it portal and it will be
+used to display the portal homepage and other portal functionality (if you
+choose to add it):
 
     rdegges@cora:~/code/django_consultants$ django-admin.py startapp portal
     rdegges@cora:~/code/django_consultants$ ls portal/
@@ -237,22 +224,19 @@ functionality (if you choose to add it):
     rdegges@cora:~/code/django_consultants$ cd portal/
     rdegges@cora:~/code/django_consultants/portal$
 
-Determinte the Portal URLs
---------------------------
+## Determinte the Portal URLs
 
-Again, let’s quick write up a URL schema for our portal application. If
-you are designing an actual website, you’ll want to add more
-functionality. For now, all we will do is create a single page (that
-will be accessed via /portal/) which gives users some basic options.
+Again, let’s quick write up a URL schema for our portal application. If you are
+designing an actual website, you’ll want to add more functionality. For now, all
+we will do is create a single page (that will be accessed via /portal/) which
+gives users some basic options.
 
--   / Main page. Will display the login portal and give users a menu of
-    options.
+-   / Main page. Will display the login portal and give users a menu of options.
 
-Write the Portal urls.py
-------------------------
+## Write the Portal urls.py
 
-Now that we’ve come up with a schema for our portal application, let’s
-implement it and write the urls.py:
+Now that we’ve come up with a schema for our portal application, let’s implement
+it and write the urls.py:
 
     from django.conf.urls.defaults import *
     from portal.views import *
@@ -266,8 +250,7 @@ implement it and write the urls.py:
 
 Nothing complicated here, moving on.
 
-Write the Portal Views
-----------------------
+## Write the Portal Views
 
 Now let’s write our portal views:
 
@@ -282,26 +265,22 @@ Now let’s write our portal views:
         """
         return render_to_response('portal/index.html')
 
-This is where things get interesting. Since we decided a while back that
-our /portal/ page was going to require users to be authenticated, we are
-going to import the login\_required function from `djang.contrib.auth`.
-This decorator allows us to specify which views require users to be
-authenticated to use! All we need to do is place `@login_required` above
-each view definition that we have which requires user authentication,
-and BAM. Everything magically works!
+This is where things get interesting. Since we decided a while back that our
+/portal/ page was going to require users to be authenticated, we are going to
+import the login\_required function from `djang.contrib.auth`. This decorator
+allows us to specify which views require users to be authenticated to use! All
+we need to do is place `@login_required` above each view definition that we have
+which requires user authentication, and BAM. Everything magically works!
 
-If you were to visit /portal/ without being logged in, the
-login\_required function would see that you are not authenticated, and
-would read the variable value in your settings.py file called
-`LOGIN_URL` which currently contains ‘/login/’, and would then direct
-you to the login page. Pretty awesome right? Full user authentication in
-only 1 line of code!
+If you were to visit /portal/ without being logged in, the login\_required
+function would see that you are not authenticated, and would read the variable
+value in your settings.py file called `LOGIN_URL` which currently contains
+‘/login/’, and would then direct you to the login page. Pretty awesome right?
+Full user authentication in only 1 line of code!
 
-Creating the Templates
-----------------------
+## Creating the Templates
 
-Now that we’ve done all the hard work, let’s go ahead and write our
-templates.
+Now that we’ve done all the hard work, let’s go ahead and write our templates.
 
 To start, let’s create all of the necessary directories and files:
 
@@ -310,9 +289,9 @@ To start, let’s create all of the necessary directories and files:
     rdegges@cora:~/code/django_consultants$ touch templates/portal/portal.html templates/portal/index.html templates/portal/menu.html templates/portal/footer.html templates/portal/header.html
     rdegges@cora:~/code/django_consultants$ touch templates/registration/login.html
 
-Next, let’s define a generic template (base.html) for our main pages to
-use as a generic template. Since I like to do things fancy, we might as
-well make it HTML5 :)
+Next, let’s define a generic template (base.html) for our main pages to use as a
+generic template. Since I like to do things fancy, we might as well make it
+HTML5 :)
 
     <!DOCTYPE html>
     <html>
@@ -325,8 +304,8 @@ well make it HTML5 :)
         </body>
     </html>
 
-Now that we have a base template, let’s create the main page of the
-website (index.html) as our main\_page view renders:
+Now that we have a base template, let’s create the main page of the website
+(index.html) as our main\_page view renders:
 
     {% extends "base.html" %}
     {% comment %}
@@ -349,9 +328,9 @@ website (index.html) as our main\_page view renders:
         </section>
     {% endblock %}
 
-At this point, we’ve got the basic templates done for the main page of
-our website. Mind you, they are very basic. The next thing we need to do
-is create a template for our user portal page. So let’s do that:
+At this point, we’ve got the basic templates done for the main page of our
+website. Mind you, they are very basic. The next thing we need to do is create a
+template for our user portal page. So let’s do that:
 
     {% extends "base.html" %}
     {% comment %}
@@ -381,11 +360,10 @@ is create a template for our user portal page. So let’s do that:
         </footer>
     {% endblock %}
 
-This is a generic template which will be used for all portal pages. As
-you can see, there isn’t much functionality except to return to the main
-page and logout. If you are developing an actual portal, you’ll
-obviously want to add lots more features! Now we’ll create the actual
-portal home page:
+This is a generic template which will be used for all portal pages. As you can
+see, there isn’t much functionality except to return to the main page and
+logout. If you are developing an actual portal, you’ll obviously want to add
+lots more features! Now we’ll create the actual portal home page:
 
     {% extends "portal/portal.html" %}
     {% comment %}
@@ -405,16 +383,14 @@ portal home page:
         </section>
     {% endblock %}
 
-This page is special in that it uses the `{{ "user.username" }}`
-variable to print the user name of the logged in user. The Django
-authentication system passes the user object to each template that
-requires authentication (using the login\_required decorator), that we
-can use to fetch information on the user. In this case, we are going to
-display a simple welcome message.
+This page is special in that it uses the `{{ "user.username" }}` variable to
+print the user name of the logged in user. The Django authentication system
+passes the user object to each template that requires authentication (using the
+login\_required decorator), that we can use to fetch information on the user. In
+this case, we are going to display a simple welcome message.
 
-The last thing we need to do is create a template for our login page
-(remember that it uses the magical view that we didn’t have to write?)
-Here it is:
+The last thing we need to do is create a template for our login page (remember
+that it uses the magical view that we didn’t have to write?) Here it is:
 
     {% extends "base.html" %}
     {% comment %}
@@ -457,9 +433,9 @@ Here it is:
         </section>
     {% endblock %}
 
-Now, as you can see, we create a form which performs a POST to itself.
-This lets the django login view do its magic. The interesting thing here
-are the hidden fields and how they are processed:
+Now, as you can see, we create a form which performs a POST to itself. This lets
+the django login view do its magic. The interesting thing here are the hidden
+fields and how they are processed:
 
     {% if next %}
         <input type="hidden" name="next" value="{{ next }}" />
@@ -467,58 +443,54 @@ are the hidden fields and how they are processed:
         <input type="hidden" name="next" value="/portal/" />
     {% endif %}
 
-The hidden field next is special to the login view. It determines where
-the user is re-directed to after logging in. Let’s say, for example,
-that a user visits our homepage, and clicks the link there that directs
-them to /portal/. Since /portal/ requires authentication, it will direct
-the user to the URL /login/?next=/portal/. This GET argument is sent
-automatically by the login\_required decorator to help inform the login
-page of where to direct the user after they’ve logged in.
+The hidden field next is special to the login view. It determines where the user
+is re-directed to after logging in. Let’s say, for example, that a user visits
+our homepage, and clicks the link there that directs them to /portal/. Since
+/portal/ requires authentication, it will direct the user to the URL
+/login/?next=/portal/. This GET argument is sent automatically by the
+login\_required decorator to help inform the login page of where to direct the
+user after they’ve logged in.
 
 Our code above says “If the user requests a page, and they are not
-authenticated–then direct them to the login page, and after they’ve
-logged in send them back to the page they originally requested. If the
-user simply visited the /login/ page directly, then by default send them
-to /portal/ once they’ve logged in.
+authenticated–then direct them to the login page, and after they’ve logged in
+send them back to the page they originally requested. If the user simply visited
+the /login/ page directly, then by default send them to /portal/ once they’ve
+logged in.
 
-This is the correct way to handle login and redirection in complex
-websites as it gives users the maximum amount of flexibility. Don’t you
-just hate it when you try to visit a website and get into an important
-protected section, only to discover that after you’ve logged in you are
-redirected to the main page instead of the page you were trying to get
-to? You won’t have that problem using Django’s auth as long as you
-implement the login template as we did above.
+This is the correct way to handle login and redirection in complex websites as
+it gives users the maximum amount of flexibility. Don’t you just hate it when
+you try to visit a website and get into an important protected section, only to
+discover that after you’ve logged in you are redirected to the main page instead
+of the page you were trying to get to? You won’t have that problem using
+Django’s auth as long as you implement the login template as we did above.
 
-Test It Out
------------
+## Test It Out
 
-We’re done. So give everything a test. Go to your django\_consultants
-directory and run the command `python manage.py runserver` to start up
-the development webserver. Then open a browser and visit
-[http://localhost:8000/](http://localhost:8000/).
+We’re done. So give everything a test. Go to your django\_consultants directory
+and run the command `python manage.py runserver` to start up the development
+webserver. Then open a browser and visit [http://localhost:8000/][].
 
-You should be greeted by the main page, and provided with a link to log
-into the web portal. So click the portal link, and since you are not
-authenticated, you will be directed to the login page.
+You should be greeted by the main page, and provided with a link to log into the
+web portal. So click the portal link, and since you are not authenticated, you
+will be directed to the login page.
 
 Now log in using the username and password you generated when you ran
-`python manage.py syncdb` and you’ll see the portal home page! Feel free
-to play around with logout / login / etc.
+`python manage.py syncdb` and you’ll see the portal home page! Feel free to play
+around with logout / login / etc.
 
-Where to Go From Here
----------------------
+## Where to Go From Here
 
-For more information and advanced usage of Django authentication, check
-out the [official
-documentation](http://docs.djangoproject.com/en/dev/topics/auth/). The
-best way to learn is to play around with things, test them out, and get
-a good feel for how everything works.
+For more information and advanced usage of Django authentication, check out the
+[official documentation][]. The best way to learn is to play around with things,
+test them out, and get a good feel for how everything works.
 
-Conclusion
-----------
+## Conclusion
 
-Hopefully this article has helped you understand how Django
-authentication works, and how easy it is to add secure authentication to
-your website without going through too much trouble. If you have any
-questions, suggestions, or anything else, leave a comment and I’ll try
-to answer it.
+Hopefully this article has helped you understand how Django authentication
+works, and how easy it is to add secure authentication to your website without
+going through too much trouble. If you have any questions, suggestions, or
+anything else, leave a comment and I’ll try to answer it.
+
+  [Django]: http://www.djangoproject.com/
+  [http://localhost:8000/]: http://localhost:8000/
+  [official documentation]: http://docs.djangoproject.com/en/dev/topics/auth/
