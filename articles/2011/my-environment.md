@@ -280,7 +280,7 @@ post. If you've done a writeup on your desktop environment, I'd love to see it.
     "Vimium"
   [Webpage Screenshot]: https://chrome.google.com/webstore/detail/ckibcdccnfeookdmbahgiakhnjcddpki
     "Webpage Screenshot"
-  [3]: /images/2011/42834238-4-screenshot.png.scaled696.png
+  [3]: /images/2011/irssi-screenshot1.png
   [4]: http://getfile9.posterous.com/getfile/files.posterous.com/temp-2011-02-12/fcrIttJgqioDrfbokFAccoxDawfolgEAJkvgmgwdFmkJDnJvrdasBbuxtFpA/screenshot.png.scaled696.png
   [pathogen]: https://github.com/tpope/vim-pathogen "pathogen"
   [vim-puppet]: https://github.com/rodjek/vim-puppet "vim-puppet"
