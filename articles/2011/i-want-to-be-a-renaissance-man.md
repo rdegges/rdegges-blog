@@ -1,8 +1,8 @@
-% I Want to Be a Renaissance Man
-%
-%
+Title: I Want to Be a Renaissance Man
+Date: 2011-05-31 06:03
+Author: Randall Degges
+Tags: personaldevelopment
 
-# I Want to Be a Renaissance Man
 
 Throughout my life, I've been extremely interested in several different things:
 

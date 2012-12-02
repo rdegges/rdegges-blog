@@ -1,8 +1,8 @@
-% The Growing Python Community in Los Angeles
-%
-%
+Title: The Growing Python Community in Los Angeles
+Date: 2011-07-25 06:01
+Author: Randall Degges
+Tags: programming, community, losangeles
 
-# The Growing Python Community in Los Angeles
 
 As a developer living in Los Angeles, I've often felt distant from my
 programming comrades up north in Silicon Valley. Let's face it, Silicon Valley

@@ -1,8 +1,8 @@
-% Creating a Posterous Account
-%
-%
+Title: Creating a Posterous Account
+Date: 2010-07-23 00:00
+Author: Randall Degges
 
-# Creating a Posterous Account
+
 
 So, I’m going to try out this whole Posterous thing. The main reason for it, is
 that I currently host and maintain my weblog by hand. This is rather cumbersome,

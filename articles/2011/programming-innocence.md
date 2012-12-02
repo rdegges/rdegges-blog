@@ -1,8 +1,8 @@
-% Programming Innocence
-%
-%
+Title: Programming Innocence
+Date: 2011-01-12 06:06
+Author: Randall Degges
+Tags: programming
 
-# Programming Innocence
 
 I've been programming for a long time. When I first started programming, I would
 spend as long as I humanely could on the computer writing code. Sure, my code

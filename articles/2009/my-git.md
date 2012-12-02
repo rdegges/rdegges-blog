@@ -1,8 +1,8 @@
-% My Git
-%
-%
+Title: My Git
+Date: 2009-12-05 05:00
+Author: Randall Degges
+Tags: git, versioncontrol
 
-# My Git
 
 A few days back I ordered a copy of Scott Chacon’s book: Pro Git, which I am
 really enjoying reading. Scott is an excellent writer, and really does justice

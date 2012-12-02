@@ -1,8 +1,8 @@
-% How I Program Stuff
-%
-%
+Title: How I Program Stuff
+Date: 2012-01-17 03:54
+Author: Randall Degges
+Tags: programming
 
-# How I Program Stuff
 
 ![Programmer][]
 

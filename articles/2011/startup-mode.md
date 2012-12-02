@@ -1,8 +1,8 @@
-% Startup Mode
-%
-%
+Title: Startup Mode
+Date: 2011-01-07 00:13
+Author: Randall Degges
+Tags: programming, startup
 
-# Startup Mode
 
 Yesterday I got some exciting news. Very exciting. My company is going to be
 doing some massive, explosive expansion over the next 90 days. How expansive?

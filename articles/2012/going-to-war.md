@@ -1,8 +1,8 @@
-% Going to War
-%
-%
+Title: Going to War
+Date: 2012-01-08 01:31
+Author: Randall Degges
+Tags: life, personaldevelopment, philosophy
 
-# Going to War
 
 ![Genghis\_khan][]
 

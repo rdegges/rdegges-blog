@@ -1,8 +1,8 @@
-% Deploying Django
-%
-%
+Title: Deploying Django
+Date: 2011-10-30 07:00
+Author: Randall Degges
+Tags: programming, python, django
 
-# Deploying Django
 
 ![Cookie-monster-wtf-is-this][]
 

@@ -1,8 +1,8 @@
-% Some Constants
-%
-%
+Title: Some Constants
+Date: 2012-10-14 20:20
+Author: Randall Degges
+Tags: personaldevelopment, philosophy
 
-# Some Constants
 
 ![Tree][]
 

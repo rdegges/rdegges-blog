@@ -1,8 +1,8 @@
-% Essential Tools for Pythonistas
-%
-%
+Title: Essential Tools for Pythonistas
+Date: 2011-04-17 20:08
+Author: Randall Degges
+Tags: programming, python
 
-# Essential Tools for Pythonistas
 
 [Pythonistas][] need a lot of good tools in order to work effeciently. I'd like
 to take a few minutes to enumerate some of my favorite tools that help me write

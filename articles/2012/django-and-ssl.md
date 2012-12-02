@@ -1,8 +1,8 @@
-% Django and SSL
-%
-%
+Title: Django and SSL
+Date: 2012-05-31 20:46
+Author: Randall Degges
+Tags: programming, python, django
 
-# Django and SSL
 
 ![Cloaked][]
 

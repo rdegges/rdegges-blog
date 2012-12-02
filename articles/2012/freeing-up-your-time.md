@@ -1,8 +1,8 @@
-% Freeing Up Your Time
-%
-%
+Title: Freeing Up Your Time
+Date: 2012-10-19 21:48
+Author: Randall Degges
 
-# Freeing Up Your Time
+
 
 ![Meditation][]
 

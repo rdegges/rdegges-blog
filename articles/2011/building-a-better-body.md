@@ -1,8 +1,8 @@
-% Building a Better Body
-%
-%
+Title: Building a Better Body
+Date: 2011-04-04 01:38
+Author: Randall Degges
+Tags: fitness
 
-# Building a Better Body
 
 Since last October I've been trying to build a better body. In September, I was
 somewhere near 300lbs and extremely out of shape. In October I started

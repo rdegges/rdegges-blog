@@ -1,8 +1,8 @@
-% 5 Ways to Save Your Company Money by Switching to Asterisk
-%
-%
+Title: 5 Ways to Save Your Company Money by Switching to Asterisk
+Date: 2010-03-11 21:00
+Author: Randall Degges
+Tags: asterisk
 
-# 5 Ways to Save Your Company Money by Switching to Asterisk
 
 One huge expense that most companies (small and large) have to absorb at one
 point or another is the cost of a phone system (PBX). PBX systems are extremely

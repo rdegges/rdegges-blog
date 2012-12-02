@@ -1,8 +1,8 @@
-% How I Learned to Program
-%
-%
+Title: How I Learned to Program
+Date: 2012-02-04 06:18
+Author: Randall Degges
+Tags: programming
 
-# How I Learned to Program
 
 ![Hacker][]
 

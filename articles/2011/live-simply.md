@@ -1,8 +1,8 @@
-% Live Simply
-%
-%
+Title: Live Simply
+Date: 2011-09-06 04:40
+Author: Randall Degges
+Tags: life, personaldevelopment, philosophy
 
-# Live Simply
 
 I often find myself living a complex life. There are so many things I want to
 do, so many things I need to do, and so many things I should do that it is often

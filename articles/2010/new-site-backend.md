@@ -1,8 +1,8 @@
-% New Site Backend
-%
-%
+Title: New Site Backend
+Date: 2010-05-30 20:30
+Author: Randall Degges
+Tags: programming
 
-# New Site Backend
 
 Last night I replaced the old projectb14ck with a newer, more minimalistic
 backend and frontend. In this post I’m going to explain a bit about the move,

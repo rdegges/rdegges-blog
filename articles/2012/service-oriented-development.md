@@ -1,8 +1,8 @@
-% Service Oriented Development
-%
-%
+Title: Service Oriented Development
+Date: 2012-07-12 22:47
+Author: Randall Degges
+Tags: programming
 
-# Service Oriented Development
 
 ![Skeleton][]
 

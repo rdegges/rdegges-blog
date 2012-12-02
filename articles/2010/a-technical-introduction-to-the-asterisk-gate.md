@@ -1,8 +1,8 @@
-% A Technical Introduction to the Asterisk Gateway Interface (AGI)
-%
-%
+Title: A Technical Introduction to the Asterisk Gateway Interface (AGI)
+Date: 2010-02-17 04:00
+Author: Randall Degges
+Tags: agi, programming, asterisk
 
-# A Technical Introduction to the Asterisk Gateway Interface (AGI)
 
 The Asterisk Gateway Interface, commonly referred to as [AGI][], is a
 language-independent API for processing calls. It allows programmers to write

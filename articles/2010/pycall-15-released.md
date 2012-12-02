@@ -1,8 +1,8 @@
-% pycall 1.5 Released
-%
-%
+Title: pycall 1.5 Released
+Date: 2010-03-22 05:00
+Author: Randall Degges
+Tags: programming, python, asterisk
 
-# pycall 1.5 Released
 
 I just released pycall version 1.5! 1.5 contains a new feature, which allows
 users to specify a tmpdir (temporary directory) which pycall will use to create

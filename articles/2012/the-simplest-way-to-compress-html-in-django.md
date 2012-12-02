@@ -1,8 +1,8 @@
-% The Simplest Way to Compress HTML in Django
-%
-%
+Title: The Simplest Way to Compress HTML in Django
+Date: 2012-03-05 07:09
+Author: Randall Degges
+Tags: programming, python, django
 
-# The Simplest Way to Compress HTML in Django
 
 ![Electron][]
 

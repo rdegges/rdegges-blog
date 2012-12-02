@@ -1,8 +1,8 @@
-% Python Challenge Thoughts
-%
-%
+Title: Python Challenge Thoughts
+Date: 2010-07-06 20:00
+Author: Randall Degges
+Tags: programming, python, brainfuck, lambda
 
-# Python Challenge Thoughts
 
 If you didn’t read my previous post, you’ll want to check that out first: [The
 Purely Functional Python Brainfuck Challenge][].

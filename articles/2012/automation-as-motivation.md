@@ -1,8 +1,8 @@
-% Automation as Motivation
-%
-%
+Title: Automation as Motivation
+Date: 2012-05-21 16:55
+Author: Randall Degges
+Tags: programming, philosophy
 
-# Automation as Motivation
 
 ![Battle-robot][]
 

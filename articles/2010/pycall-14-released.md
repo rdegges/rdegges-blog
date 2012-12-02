@@ -1,8 +1,8 @@
-% pycall 1.4 Released
-%
-%
+Title: pycall 1.4 Released
+Date: 2010-03-02 06:00
+Author: Randall Degges
+Tags: programming, python, asterisk
 
-# pycall 1.4 Released
 
 Earlier today I received a patch from EvilZluk. The problem he pointed out to me
 is that when moving the temporary call files to the Asterisk spooling directory,

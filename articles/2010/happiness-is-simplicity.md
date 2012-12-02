@@ -1,8 +1,8 @@
-% Happiness is Simplicity
-%
-%
+Title: Happiness is Simplicity
+Date: 2010-09-10 08:30
+Author: Randall Degges
+Tags: life, personaldevelopment, philosophy
 
-# Happiness is Simplicity
 
 I’ve been feeling especially thoughtful the past several weeks, and have been
 doing a lot of thinking about happiness in my life. I won’t pretend to know what

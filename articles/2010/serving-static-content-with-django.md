@@ -1,8 +1,8 @@
-% Serving Static Content With Django
-%
-%
+Title: Serving Static Content With Django
+Date: 2010-07-04 20:00
+Author: Randall Degges
+Tags: programming, python, django
 
-# Serving Static Content With Django
 
 A question that is frequently asked by new Django programmers is: “How can I
 serve static content (css, images, javascript) with the Django development

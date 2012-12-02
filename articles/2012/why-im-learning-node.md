@@ -1,8 +1,8 @@
-% Why I'm Learning Node
-%
-%
+Title: Why I'm Learning Node
+Date: 2012-04-08 03:13
+Author: Randall Degges
+Tags: programming, javascript, nodejs
 
-# Why I'm Learning Node
 
 ![Jsninja][]
 

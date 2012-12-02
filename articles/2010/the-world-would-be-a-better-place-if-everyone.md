@@ -1,8 +1,8 @@
-% The World Would Be a Better Place if Everyone Was a Hacker
-%
-%
+Title: The World Would Be a Better Place if Everyone Was a Hacker
+Date: 2010-03-15 20:00
+Author: Randall Degges
+Tags: life
 
-# The World Would Be a Better Place if Everyone Was a Hacker
 
 ![Earth][]
 

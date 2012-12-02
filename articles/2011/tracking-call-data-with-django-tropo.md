@@ -1,8 +1,8 @@
-% Tracking Call Data with django-tropo
-%
-%
+Title: Tracking Call Data with django-tropo
+Date: 2011-01-03 07:00
+Author: Randall Degges
 
-# Tracking Call Data with django-tropo
+
 
 This article is my attempt to explain how django-tropo implements call tracking.
 If you don’t know what django-tropo is, you may want to first read my [previous

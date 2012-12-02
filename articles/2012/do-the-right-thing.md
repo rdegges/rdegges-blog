@@ -1,8 +1,8 @@
-% Do the Right Thing
-%
-%
+Title: Do the Right Thing
+Date: 2012-03-20 19:55
+Author: Randall Degges
+Tags: personaldevelopment
 
-# Do the Right Thing
 
 [![Dark\_angel][]][]
 

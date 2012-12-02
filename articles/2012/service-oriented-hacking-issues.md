@@ -1,8 +1,8 @@
-% Service Oriented Hacking - Issues
-%
-%
+Title: Service Oriented Hacking - Issues
+Date: 2012-08-24 01:03
+Author: Randall Degges
 
-# Service Oriented Hacking - Issues
+
 
 ![Demon][]
 

@@ -1,8 +1,8 @@
-% Deployment System Requirements
-%
-%
+Title: Deployment System Requirements
+Date: 2010-12-19 00:44
+Author: Randall Degges
+Tags: programming
 
-# Deployment System Requirements
 
 Over the past month, my colleague Kurtis and I have been engineering a fully
 automated deployment system for all of our projects at work. This system was

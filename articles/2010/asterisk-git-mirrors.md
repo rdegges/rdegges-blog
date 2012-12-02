@@ -1,8 +1,8 @@
-% Asterisk Git Mirrors
-%
-%
+Title: Asterisk Git Mirrors
+Date: 2010-08-22 08:30
+Author: Randall Degges
+Tags: programming, asterisk, git
 
-# Asterisk Git Mirrors
 
 If you’re a developer in the telephony scene, you probably use and work with
 [Asterisk][], at least a little bit. Asterisk is the largest open source PBX

@@ -1,8 +1,8 @@
-% Announcing django-quotes
-%
-%
+Title: Announcing django-quotes
+Date: 2010-05-25 20:30
+Author: Randall Degges
+Tags: programming, python, django
 
-# Announcing django-quotes
 
 I bet you thought I was dead! It has been quite a while since my last post.
 Despite my previous writing conviction, I managed to work myself into somewhat

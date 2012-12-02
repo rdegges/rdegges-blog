@@ -1,8 +1,8 @@
-% DevOps Django - Part 2 - The Pain of Deployment
-%
-%
+Title: DevOps Django - Part 2 - The Pain of Deployment
+Date: 2011-12-13 06:30
+Author: Randall Degges
+Tags: programming, python, devops, django
 
-# DevOps Django - Part 2 - The Pain of Deployment
 
 This article is part of a series I'm writing called DevOps Django. This series
 is meant to explain how to best deploy modern Django sites. If you're new, you

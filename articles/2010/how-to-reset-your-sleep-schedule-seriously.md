@@ -1,8 +1,8 @@
-% How to Reset Your Sleep Schedule, Seriously
-%
-%
+Title: How to Reset Your Sleep Schedule, Seriously
+Date: 2010-09-05 06:44
+Author: Randall Degges
+Tags: life
 
-# How to Reset Your Sleep Schedule, Seriously
 
 Every now and then on [Hacker News][], I see a new discussion about resetting
 your sleep schedule. Resetting your sleep schedule is the process of shifting

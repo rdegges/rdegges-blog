@@ -1,8 +1,8 @@
-% What I've Learned About Writing (So Far)
-%
-%
+Title: What I've Learned About Writing (So Far)
+Date: 2011-12-20 06:23
+Author: Randall Degges
+Tags: personaldevelopment
 
-# What I've Learned About Writing (So Far)
 
 As I mentioned a few days ago, I've been working on establishing a [writing
 habit][] in my daily life. Today marks the 10th continual day, since starting,

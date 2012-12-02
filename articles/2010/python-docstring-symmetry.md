@@ -1,8 +1,8 @@
-% Python Docstring Symmetry
-%
-%
+Title: Python Docstring Symmetry
+Date: 2010-08-17 02:00
+Author: Randall Degges
+Tags: programming, python
 
-# Python Docstring Symmetry
 
 If you’ve been doing python for more than a month, then I’m sure you’re familiar
 with [PEP-8][], the *official* python style guide. If you look at PEP-8, it

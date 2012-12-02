@@ -1,8 +1,8 @@
-% Moved to Posterous
-%
-%
+Title: Moved to Posterous
+Date: 2010-08-15 02:30
+Author: Randall Degges
+Tags: life
 
-# Moved to Posterous
 
 So, today I finally finished moving my old posts to [Posterous][]. If you aren’t
 familiar with them, Posterous is a web hosting platform with some pretty cool

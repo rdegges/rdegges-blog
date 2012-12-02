@@ -1,8 +1,8 @@
-% The Time I Accidentally Destroyed a Production Server
-%
-%
+Title: The Time I Accidentally Destroyed a Production Server
+Date: 2011-04-29 22:08
+Author: Randall Degges
+Tags: programming
 
-# The Time I Accidentally Destroyed a Production Server
 
 Over the past few years or so, I've learned a lot about software in professional
 settings. I learned that software development is not always all it's cut out to

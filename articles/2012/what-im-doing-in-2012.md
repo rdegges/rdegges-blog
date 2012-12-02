@@ -1,8 +1,8 @@
-% What I'm Doing in 2012
-%
-%
+Title: What I'm Doing in 2012
+Date: 2012-01-03 05:23
+Author: Randall Degges
+Tags: life, personaldevelopment
 
-# What I'm Doing in 2012
 
 ![Courage-wolf-796][]
 

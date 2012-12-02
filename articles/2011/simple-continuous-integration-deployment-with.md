@@ -1,8 +1,8 @@
-% Simple Continuous Integration / Deployment With Jenkins
-%
-%
+Title: Simple Continuous Integration / Deployment With Jenkins
+Date: 2011-04-11 06:00
+Author: Randall Degges
+Tags: programming, devops
 
-# Simple Continuous Integration / Deployment With Jenkins
 
 At work we rely heavily on continuous integration and deployment to help us
 deliver lots of code into production and staging environments quickly. In a

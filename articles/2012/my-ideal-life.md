@@ -1,8 +1,8 @@
-% My Ideal Life
-%
-%
+Title: My Ideal Life
+Date: 2012-01-19 05:32
+Author: Randall Degges
+Tags: personaldevelopment, philosophy
 
-# My Ideal Life
 
 [![Tyrael][]][]
 

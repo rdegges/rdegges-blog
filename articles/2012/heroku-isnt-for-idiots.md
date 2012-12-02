@@ -1,8 +1,8 @@
-% Heroku Isn't for Idiots
-%
-%
+Title: Heroku Isn't for Idiots
+Date: 2012-06-03 18:39
+Author: Randall Degges
+Tags: programming, heroku, rant
 
-# Heroku Isn't for Idiots
 
 **WARNING**: This is a *bit* of a rant. I'm going to assume you have a basic
 understanding of [Heroku][], and web application architecture.

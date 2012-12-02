@@ -1,8 +1,8 @@
-% My Experiences With Tropo and Django
-%
-%
+Title: My Experiences With Tropo and Django
+Date: 2011-01-01 12:26
+Author: Randall Degges
+Tags: programming, python, django, tropo
 
-# My Experiences With Tropo and Django
 
 For the past several weeks, I've been doing a lot of coding on my free time
 using [tropo][]. If you aren't into telephony stuff, tropo is basically a

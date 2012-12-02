@@ -1,8 +1,8 @@
-% Reflections on Heroku's Waza Event
-%
-%
+Title: Reflections on Heroku's Waza Event
+Date: 2012-01-16 07:46
+Author: Randall Degges
+Tags: programming, heroku
 
-# Reflections on Heroku's Waza Event
 
 ![Heroku-logo][]
 

@@ -1,8 +1,8 @@
-% Dogs Are Great Programming Companions
-%
-%
+Title: Dogs Are Great Programming Companions
+Date: 2012-01-10 06:37
+Author: Randall Degges
+Tags: programming, humor
 
-# Dogs Are Great Programming Companions
 
 ![Hello-yes-this-is-dog][]
 

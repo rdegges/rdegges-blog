@@ -1,8 +1,8 @@
-% Auto Generate Forms with Django's ModelForm
-%
-%
+Title: Auto Generate Forms with Django's ModelForm
+Date: 2010-03-11 08:00
+Author: Randall Degges
+Tags: programming, python, django
 
-# Auto Generate Forms with Django's ModelForm
 
 In this short article, we’ll analyze a better way (in some cases) to create
 forms for your Django models.

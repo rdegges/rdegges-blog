@@ -1,8 +1,8 @@
-% pycall 2.0 is Out
-%
-%
+Title: pycall 2.0 is Out
+Date: 2011-05-02 06:34
+Author: Randall Degges
+Tags: programming, python
 
-# pycall 2.0 is Out
 
 Just pushed pycall 2.0 to the world. It's been a long time coming.
 

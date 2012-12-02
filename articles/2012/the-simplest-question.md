@@ -1,8 +1,8 @@
-% The Simplest Question
-%
-%
+Title: The Simplest Question
+Date: 2012-09-27 21:49
+Author: Randall Degges
+Tags: personaldevelopment, philosophy
 
-# The Simplest Question
 
 ![Samurai][]
 

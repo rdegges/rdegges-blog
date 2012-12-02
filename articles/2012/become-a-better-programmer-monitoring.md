@@ -1,8 +1,8 @@
-% Become a Better Programmer - Monitoring
-%
-%
+Title: Become a Better Programmer - Monitoring
+Date: 2012-08-26 23:57
+Author: Randall Degges
+Tags: programming, philosophy, web
 
-# Become a Better Programmer - Monitoring
 
 ![Reaper][]
 

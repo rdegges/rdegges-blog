@@ -1,8 +1,8 @@
-% New Habit - 100 Carbs
-%
-%
+Title: New Habit - 100 Carbs
+Date: 2012-01-04 02:39
+Author: Randall Degges
+Tags: health, personaldevelopment
 
-# New Habit - 100 Carbs
 
 Since finishing my [writing habit][], I decided to kick off the new year with a
 health related habit.

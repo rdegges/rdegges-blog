@@ -1,8 +1,8 @@
-% Two Months In
-%
-%
+Title: Two Months In
+Date: 2012-08-23 04:08
+Author: Randall Degges
+Tags: programming, startup
 
-# Two Months In
 
 ![Warrior][]
 

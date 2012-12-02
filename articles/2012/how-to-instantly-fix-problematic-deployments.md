@@ -1,8 +1,8 @@
-% How to Instantly Fix Problematic Deployments on Heroku
-%
-%
+Title: How to Instantly Fix Problematic Deployments on Heroku
+Date: 2012-01-07 04:37
+Author: Randall Degges
+Tags: programming, devops, heroku
 
-# How to Instantly Fix Problematic Deployments on Heroku
 
 ![Broke\_production][]
 

@@ -1,8 +1,8 @@
-% Populating Default ManyToMany Field Values in Django
-%
-%
+Title: Populating Default ManyToMany Field Values in Django
+Date: 2010-06-25 20:00
+Author: Randall Degges
+Tags: programming, python, django
 
-# Populating Default ManyToMany Field Values in Django
 
 At work, I’m the lead developer of a rather large, complex web application which
 interacts with many different technologies (Asterisk, Freeswitch, Cisco routers,

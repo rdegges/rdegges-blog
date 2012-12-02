@@ -1,8 +1,8 @@
-% What I'm Doing in 2011
-%
-%
+Title: What I'm Doing in 2011
+Date: 2010-12-23 08:52
+Author: Randall Degges
 
-# What I'm Doing in 2011
+
 
 Another new year is quickly approaching (time seems to fly, doesn't it)? I
 thought it would be appropriate to do a brain dump of my plans and ideas for

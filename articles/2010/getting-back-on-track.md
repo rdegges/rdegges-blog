@@ -1,8 +1,8 @@
-% Getting Back on Track
-%
-%
+Title: Getting Back on Track
+Date: 2010-11-26 23:27
+Author: Randall Degges
 
-# Getting Back on Track
+
 
 Hi everyone,
 

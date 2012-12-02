@@ -1,8 +1,8 @@
-% DevOps Django - Part 4 - Choosing Heroku
-%
-%
+Title: DevOps Django - Part 4 - Choosing Heroku
+Date: 2011-12-31 01:43
+Author: Randall Degges
+Tags: programming, python, devops, django
 
-# DevOps Django - Part 4 - Choosing Heroku
 
 This is the fourth article in a series I'm writing titled DevOps Django. If
 you're new, you may want to read the [first part][] of the series before this

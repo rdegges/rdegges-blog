@@ -1,8 +1,8 @@
-% Writing Habit -- Thoughts (continued)
-%
-%
+Title: Writing Habit -- Thoughts (continued)
+Date: 2012-03-04 23:38
+Author: Randall Degges
+Tags: habits, personaldevelopment, writing
 
-# Writing Habit -- Thoughts (continued)
 
 ![Quill][]
 

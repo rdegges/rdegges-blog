@@ -1,8 +1,8 @@
-% Programming and Motivation
-%
-%
+Title: Programming and Motivation
+Date: 2012-10-03 00:06
+Author: Randall Degges
+Tags: programming, personaldevelopment, philosophy
 
-# Programming and Motivation
 
 [![Bleach][]][]
 

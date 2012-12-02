@@ -1,8 +1,8 @@
-% Neat Thing I Learned Today
-%
-%
+Title: Neat Thing I Learned Today
+Date: 2010-01-08 04:00
+Author: Randall Degges
+Tags: c, programming
 
-# Neat Thing I Learned Today
 
 In C, you can index arrays with either the array subscript inside of the typical
 square brackets `arr[0]` or with the less common (and somewhat mistifying):

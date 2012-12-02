@@ -1,8 +1,8 @@
-% Silence
-%
-%
+Title: Silence
+Date: 2012-06-05 03:07
+Author: Randall Degges
+Tags: philosophy
 
-# Silence
 
 ![Silence][]
 

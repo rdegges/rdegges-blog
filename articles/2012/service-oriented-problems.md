@@ -1,8 +1,8 @@
-% Service Oriented Problems
-%
-%
+Title: Service Oriented Problems
+Date: 2012-10-01 22:54
+Author: Randall Degges
+Tags: programming, webapplications
 
-# Service Oriented Problems
 
 ![Reaper][]
 

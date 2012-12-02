@@ -1,8 +1,8 @@
-% Simplifying My Jenkins Workflow
-%
-%
+Title: Simplifying My Jenkins Workflow
+Date: 2011-06-01 21:37
+Author: Randall Degges
+Tags: devops
 
-# Simplifying My Jenkins Workflow
 
 Up until recently, my [Jenkins][] workflow has been tedious. It typically went
 something like:

@@ -1,8 +1,8 @@
-% DevOps Django - Part 1 - Goals
-%
-%
+Title: DevOps Django - Part 1 - Goals
+Date: 2011-12-05 18:25
+Author: Randall Degges
+Tags: programming, python, devops, django
 
-# DevOps Django - Part 1 - Goals
 
 A little over a month ago I published an article ([Deploying Django][])
 describing the state of [Django][] deployment. If you don't want to read the

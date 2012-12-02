@@ -1,8 +1,8 @@
-% Enjoying the Grind
-%
-%
+Title: Enjoying the Grind
+Date: 2011-06-07 02:47
+Author: Randall Degges
+Tags: health, personaldevelopment, philosophy
 
-# Enjoying the Grind
 
 A big part of accomplishing awesome things is dealing with the daily grind that
 makes them possible. Chances are, if you're attempting to do something awesome,

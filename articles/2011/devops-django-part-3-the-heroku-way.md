@@ -1,8 +1,8 @@
-% DevOps Django - Part 3 - The Heroku Way
-%
-%
+Title: DevOps Django - Part 3 - The Heroku Way
+Date: 2011-12-19 00:15
+Author: Randall Degges
+Tags: programming, python, devops, django
 
-# DevOps Django - Part 3 - The Heroku Way
 
 This article is part of a series I'm writing called DevOps Django, which
 explains how to best deploy modern Django sites. If you're new, you should

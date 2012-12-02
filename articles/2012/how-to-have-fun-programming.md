@@ -1,8 +1,8 @@
-% How to Have Fun Programming
-%
-%
+Title: How to Have Fun Programming
+Date: 2012-06-03 03:20
+Author: Randall Degges
+Tags: programming, philosophy
 
-# How to Have Fun Programming
 
 [![Kenpachi][]][]
 

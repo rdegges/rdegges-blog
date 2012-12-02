@@ -1,8 +1,8 @@
-% Introducing asterdoc
-%
-%
+Title: Introducing asterdoc
+Date: 2010-07-16 05:00
+Author: Randall Degges
+Tags: programming, asterisk, sphinx
 
-# Introducing asterdoc
 
 Today I launched the coming soon page for my latest project (which will be an
 ongoing project over the next few years): [http://asterdoc.org/][]

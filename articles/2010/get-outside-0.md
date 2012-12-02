@@ -1,8 +1,8 @@
-% Get Outside
-%
-%
+Title: Get Outside
+Date: 2010-02-14 04:00
+Author: Randall Degges
+Tags: life
 
-# Get Outside
 
 The stereotype of a computer programmer is a harsh (and mostly true) one. The
 typical computer programmer lives inside, in small dark rooms, typing away for

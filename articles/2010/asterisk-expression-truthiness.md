@@ -1,8 +1,8 @@
-% Asterisk Expression Truthiness
-%
-%
+Title: Asterisk Expression Truthiness
+Date: 2010-08-18 22:00
+Author: Randall Degges
+Tags: programming, asterisk
 
-# Asterisk Expression Truthiness
 
 Ever done any extensive [Asterisk][] dialplan coding? If so, chances are you’ve
 been frustrated with Asterisk expresisons at one point or another.

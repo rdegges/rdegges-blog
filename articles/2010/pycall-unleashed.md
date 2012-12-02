@@ -1,8 +1,8 @@
-% pycall Unleashed
-%
-%
+Title: pycall Unleashed
+Date: 2010-01-28 04:00
+Author: Randall Degges
+Tags: callfiles, programming, python, asterisk
 
-# pycall Unleashed
 
 A few months back I released the first version of my rather popular Asterisk
 call file library, [pycall][]. pycall is a python library which makes creating

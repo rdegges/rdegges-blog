@@ -1,8 +1,8 @@
-% Hack Everything ... To Pieces!
-%
-%
+Title: Hack Everything ... To Pieces!
+Date: 2012-06-12 19:48
+Author: Randall Degges
+Tags: programming, philosophy
 
-# Hack Everything ... To Pieces!
 
 ![Axe][]
 

@@ -1,8 +1,8 @@
-% My "Done" List
-%
-%
+Title: My "Done" List
+Date: 2011-12-25 08:08
+Author: Randall Degges
+Tags: programming
 
-# My "Done" List
 
 ![Code\_wolf][]
 

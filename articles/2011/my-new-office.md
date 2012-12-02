@@ -1,8 +1,8 @@
-% My New Office
-%
-%
+Title: My New Office
+Date: 2011-03-16 18:18
+Author: Randall Degges
 
-# My New Office
+
 
 As a programmer, I spend a lot of time in my office. It's my sanctuary. It's
 where I do all of my work, where I learn a lot of new things, and where I have a

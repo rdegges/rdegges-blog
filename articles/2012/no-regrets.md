@@ -1,8 +1,8 @@
-% No Regrets
-%
-%
+Title: No Regrets
+Date: 2012-10-10 23:35
+Author: Randall Degges
+Tags: personaldevelopment, philosophy
 
-# No Regrets
 
 ![Mage][]
 

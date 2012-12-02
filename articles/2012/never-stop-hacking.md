@@ -1,8 +1,8 @@
-% Never Stop Hacking
-%
-%
+Title: Never Stop Hacking
+Date: 2012-04-17 04:27
+Author: Randall Degges
+Tags: programming, philosophy
 
-# Never Stop Hacking
 
 ![Death][]
 

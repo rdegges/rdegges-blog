@@ -1,8 +1,8 @@
-% My Heroku Book is Finished
-%
-%
+Title: My Heroku Book is Finished
+Date: 2012-09-10 17:00
+Author: Randall Degges
+Tags: programming, devops, heroku, web, writing
 
-# My Heroku Book is Finished
 
 [![The-heroku-hackers-guide-cover][]][]
 

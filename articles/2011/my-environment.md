@@ -1,8 +1,8 @@
-% My Desktop Environment
-%
-%
+Title: My Desktop Environment
+Date: 2011-02-12 20:00
+Author: Randall Degges
 
-# My Desktop Environment
+
 
 I love reading about the tools that other people use daily, what sort of editors
 they use, what software they consider essential, how they use it, and why. I've

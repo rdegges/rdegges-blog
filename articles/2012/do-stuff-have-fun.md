@@ -1,8 +1,8 @@
-% Do Stuff, Have Fun
-%
-%
+Title: Do Stuff, Have Fun
+Date: 2012-03-23 09:04
+Author: Randall Degges
 
-# Do Stuff, Have Fun
+
 
 ![Chilling][]
 

@@ -1,8 +1,8 @@
-% Generic Django Projects
-%
-%
+Title: Generic Django Projects
+Date: 2011-04-05 23:34
+Author: Randall Degges
+Tags: programming, python, django
 
-# Generic Django Projects
 
 I've been a really big fan of [Django][] since I first started using it almost
 1.5 years ago. It's my favorite python web framework ([Flask][] is second,

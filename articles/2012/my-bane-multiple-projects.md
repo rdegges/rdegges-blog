@@ -1,8 +1,8 @@
-% My Bane - Multiple Projects
-%
-%
+Title: My Bane - Multiple Projects
+Date: 2012-10-14 09:30
+Author: Randall Degges
+Tags: programming, personaldevelopment, philosophy
 
-# My Bane - Multiple Projects
 
 [![Bane][]][]
 

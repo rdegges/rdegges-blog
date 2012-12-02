@@ -1,8 +1,8 @@
-% Writing Habit -- Complete
-%
-%
+Title: Writing Habit -- Complete
+Date: 2012-01-03 05:39
+Author: Randall Degges
+Tags: habits, personaldevelopment
 
-# Writing Habit -- Complete
 
 ![Scroll][]
 

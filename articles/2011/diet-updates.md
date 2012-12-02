@@ -1,8 +1,8 @@
-% Diet Updates
-%
-%
+Title: Diet Updates
+Date: 2011-05-01 19:08
+Author: Randall Degges
+Tags: fitness
 
-# Diet Updates
 
 Exactly 1 month ago, I decided to try a new diet regime. Over the past 7 months
 now I've been slowly losing weight, trying to get down to my goal weight of

@@ -1,8 +1,8 @@
-% system76 "Bonobo" Ubuntu Laptop Review
-%
-%
+Title: system76 "Bonobo" Ubuntu Laptop Review
+Date: 2011-12-15 04:00
+Author: Randall Degges
+Tags: laptops, review
 
-# system76 "Bonobo" Ubuntu Laptop Review
 
 [![Product\_images--bonobo-0d56b90b84e3dbb][]][]
 [![Product\_images--bonobo-4f12bc8ecf986ca][]][]

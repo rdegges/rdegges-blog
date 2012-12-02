@@ -1,8 +1,8 @@
-% Building a Web Business
-%
-%
+Title: Building a Web Business
+Date: 2011-06-15 00:41
+Author: Randall Degges
+Tags: programming, business, startup
 
-# Building a Web Business
 
 I've been really interested in all sorts of technology solutons and businesses
 for the past year. I've read tons of books on lean startups, agile business, and

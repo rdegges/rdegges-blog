@@ -1,8 +1,8 @@
-% On Reading and Tracking
-%
-%
+Title: On Reading and Tracking
+Date: 2011-04-18 19:57
+Author: Randall Degges
 
-# On Reading and Tracking
+
 
 I've always enjoyed reading. When I was little, my mom would always read to me
 and my brother before bedtime. In elementary school, I spent a lot of time

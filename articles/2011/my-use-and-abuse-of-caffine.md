@@ -1,8 +1,8 @@
-% My Use (and Abuse) of Caffeine
-%
-%
+Title: My Use (and Abuse) of Caffeine
+Date: 2011-09-29 14:42
+Author: Randall Degges
+Tags: caffine
 
-# My Use (and Abuse) of Caffeine
 
 [![Caffeine][]][]
 

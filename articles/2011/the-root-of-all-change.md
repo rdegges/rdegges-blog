@@ -1,8 +1,8 @@
-% The Root of all Change
-%
-%
+Title: The Root of all Change
+Date: 2011-07-17 06:18
+Author: Randall Degges
+Tags: personaldevelopment, philosophy
 
-# The Root of all Change
 
 I think a lot about philosophy. One specific area that fascinates me more and
 more is personal development and achievement. How do people acheive greatness?

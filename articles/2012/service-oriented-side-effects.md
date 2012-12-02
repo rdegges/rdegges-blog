@@ -1,8 +1,8 @@
-% Service Oriented Side Effects
-%
-%
+Title: Service Oriented Side Effects
+Date: 2012-09-28 21:55
+Author: Randall Degges
+Tags: programming, webapplications
 
-# Service Oriented Side Effects
 
 [![Robot][]][]
 

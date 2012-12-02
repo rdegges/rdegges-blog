@@ -1,8 +1,8 @@
-% On Programming Deadlines
-%
-%
+Title: On Programming Deadlines
+Date: 2011-06-23 23:47
+Author: Randall Degges
+Tags: programming
 
-# On Programming Deadlines
 
 There are a lot of differences between programming, and programming
 professionally. The most notorious of which, is deadlines.

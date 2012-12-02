@@ -1,8 +1,8 @@
-% Non-Profit Idea: Neverending Charity
-%
-%
+Title: Non-Profit Idea: Neverending Charity
+Date: 2010-10-16 00:30
+Author: Randall Degges
+Tags: business, ideas
 
-# Non-Profit Idea: Neverending Charity
 
 I often have business / charity ideas that I would eventually like to act on. I
 (stupidly) never kept a record of them anywhere, until today.

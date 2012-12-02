@@ -1,8 +1,8 @@
-% Being Myself
-%
-%
+Title: Being Myself
+Date: 2010-12-02 23:47
+Author: Randall Degges
+Tags: life
 
-# Being Myself
 
 I've been thinking a lot about my life lately. Maybe it's because the new year
 is almost here, or maybe it is because I've been having a lot of weird "grown

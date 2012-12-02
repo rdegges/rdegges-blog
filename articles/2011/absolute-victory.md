@@ -1,8 +1,8 @@
-% Absolute Victory
-%
-%
+Title: Absolute Victory
+Date: 2011-07-17 07:44
+Author: Randall Degges
+Tags: personaldevelopment, philosophy
 
-# Absolute Victory
 
 ![Barbarian][]
 

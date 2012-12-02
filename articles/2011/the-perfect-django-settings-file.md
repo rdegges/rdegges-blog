@@ -1,8 +1,8 @@
-% The Perfect Django Settings File
-%
-%
+Title: The Perfect Django Settings File
+Date: 2011-04-29 08:25
+Author: Randall Degges
+Tags: programming, python, django
 
-# The Perfect Django Settings File
 
 I know this isn't the best way to start an article, but *I lied*. This article
 won't show you how to make the perfect Django settings file. Instead, it will

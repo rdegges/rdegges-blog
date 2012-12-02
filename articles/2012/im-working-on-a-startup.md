@@ -1,8 +1,8 @@
-% I'm Working on a Startup
-%
-%
+Title: I'm Working on a Startup
+Date: 2012-04-08 20:12
+Author: Randall Degges
+Tags: programming, startup
 
-# I'm Working on a Startup
 
 ![Monk][]
 

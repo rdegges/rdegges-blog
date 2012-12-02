@@ -1,8 +1,8 @@
-% More Writing (Again)
-%
-%
+Title: More Writing (Again)
+Date: 2011-04-12 04:38
+Author: Randall Degges
 
-# More Writing (Again)
+
 
 I decided to start writing more frequently on this website again. I've been
 slacking off somewhat in my studies over the past few months, and writing has

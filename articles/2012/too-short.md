@@ -1,8 +1,8 @@
-% Too Short
-%
-%
+Title: Too Short
+Date: 2012-10-23 22:28
+Author: Randall Degges
+Tags: programming, philosophy
 
-# Too Short
 
 ![Owl][]
 

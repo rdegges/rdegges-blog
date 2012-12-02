@@ -1,8 +1,8 @@
-% Transparent Telephony, Part 3, Making and Receiving Calls Using VoIP
-%
-%
+Title: Transparent Telephony, Part 3, Making and Receiving Calls Using VoIP
+Date: 2010-03-03 08:00
+Author: Randall Degges
+Tags: asterisk, linux
 
-# Transparent Telephony, Part 3, Making and Receiving Calls Using VoIP
 
 Welcome back to the Transparent Telephony series. If you’re a new reader, you
 may want to start at the beginning: [Part 1 – An Introduction][].

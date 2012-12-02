@@ -1,8 +1,8 @@
-% A Developer's Conundrum - Dev / Prod Parity
-%
-%
+Title: A Developer's Conundrum - Dev / Prod Parity
+Date: 2012-07-11 04:38
+Author: Randall Degges
+Tags: programming, philosophy
 
-# A Developer's Conundrum - Dev / Prod Parity
 
 [![Reaper][]][]
 

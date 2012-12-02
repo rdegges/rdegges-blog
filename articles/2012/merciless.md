@@ -1,8 +1,8 @@
-% Merciless
-%
-%
+Title: Merciless
+Date: 2012-02-26 22:07
+Author: Randall Degges
+Tags: personaldevelopment
 
-# Merciless
 
 ![Berserk][]
 

@@ -1,8 +1,8 @@
-% Don't Get Too Cocky
-%
-%
+Title: Don't Get Too Cocky
+Date: 2011-03-06 23:19
+Author: Randall Degges
+Tags: personaldevelopment, philosophy
 
-# Don't Get Too Cocky
 
 I learned an important lesson a few months ago, and thought I'd share. Don't get
 too cocky.

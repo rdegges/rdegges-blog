@@ -1,8 +1,8 @@
-% pycall 1.3 Released
-%
-%
+Title: pycall 1.3 Released
+Date: 2010-02-24 04:00
+Author: Randall Degges
+Tags: programming, python, asterisk
 
-# pycall 1.3 Released
 
 Earlier today I received an email from [Marcelo Araujo][] which contained a
 patch for [pycall][] to add support for local trunks. So I patched pycall up,

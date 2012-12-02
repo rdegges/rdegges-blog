@@ -1,8 +1,8 @@
-% Tools I Use - tmux
-%
-%
+Title: Tools I Use - tmux
+Date: 2012-01-08 01:34
+Author: Randall Degges
+Tags: programming, linux
 
-# Tools I Use - tmux
 
 ![Tools][]
 

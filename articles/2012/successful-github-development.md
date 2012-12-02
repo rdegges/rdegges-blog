@@ -1,8 +1,8 @@
-% Successful GitHub Development
-%
-%
+Title: Successful GitHub Development
+Date: 2012-04-14 18:05
+Author: Randall Degges
+Tags: programming, git
 
-# Successful GitHub Development
 
 [![Socialite][]][]
 

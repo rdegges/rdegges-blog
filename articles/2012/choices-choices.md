@@ -1,8 +1,8 @@
-% Choices, Choices
-%
-%
+Title: Choices, Choices
+Date: 2012-07-03 03:40
+Author: Randall Degges
+Tags: philosophy
 
-# Choices, Choices
 
 ![Decisions][]
 

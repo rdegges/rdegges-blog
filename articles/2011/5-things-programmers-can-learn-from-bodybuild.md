@@ -1,8 +1,8 @@
-% 5 Things Programmers Can Learn From Bodybuilders
-%
-%
+Title: 5 Things Programmers Can Learn From Bodybuilders
+Date: 2011-03-26 21:45
+Author: Randall Degges
 
-# 5 Things Programmers Can Learn From Bodybuilders
+
 
 ![Jay-cutler][]
 

@@ -1,8 +1,8 @@
-% On Business Guys
-%
-%
+Title: On Business Guys
+Date: 2011-09-19 00:01
+Author: Randall Degges
+Tags: programming, business, rant
 
-# On Business Guys
 
 **Disclaimer: This post is going to be a bit different than my usual. Instead of
 discussing technical or philosophical stuff, I'm going to be doing a bit of

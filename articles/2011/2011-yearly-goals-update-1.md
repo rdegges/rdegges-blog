@@ -1,8 +1,8 @@
-% 2011 Yearly Goals Update 1
-%
-%
+Title: 2011 Yearly Goals Update 1
+Date: 2011-04-24 17:57
+Author: Randall Degges
 
-# 2011 Yearly Goals Update 1
+
 
 Early this year I [wrote a post][] outlining my goals for the year. Since April
 is almost over, I thought I'd do my first follow-up to let you know what I've

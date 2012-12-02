@@ -1,8 +1,8 @@
-% How to Streamline Asterisk
-%
-%
+Title: How to Streamline Asterisk
+Date: 2010-08-16 09:30
+Author: Randall Degges
+Tags: programming, asterisk
 
-# How to Streamline Asterisk
 
 So, you use [Asterisk][] professionally, for fun, or both, and you want to know
 how to optimize the shit out of your Asterisk platform? No problem, I’ve got you

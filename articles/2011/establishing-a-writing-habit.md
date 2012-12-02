@@ -1,8 +1,8 @@
-% Establishing a Writing Habit
-%
-%
+Title: Establishing a Writing Habit
+Date: 2011-12-14 02:51
+Author: Randall Degges
+Tags: life, personaldevelopment, philosophy
 
-# Establishing a Writing Habit
 
 I'm a big fan of personal growth and development. My thought on the matter is
 that each of us is only given a little time to live, so we might as well make
