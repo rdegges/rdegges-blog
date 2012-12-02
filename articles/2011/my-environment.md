@@ -65,7 +65,7 @@ phone, and vice-versa, which really makes daily life simple.
 
 And here's a picture of my workspace:
 
-![Img\_20110212\_093354][]
+![Desktop][]
 
 Operating System Details
 
@@ -264,14 +264,10 @@ post. If you've done a writeup on your desktop environment, I'd love to see it.
     "Kindle DX"
   [HTC G2]: http://www.amazon.com/gp/product/B004AIRLDC?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B004AIRLDC
     "HTC G2"
-  [Img\_20110212\_093354]: http://getfile7.posterous.com/getfile/files.posterous.com/temp-2011-02-12/lpBasnByJBJmemvtEgpxwpIyoIcgoGJJldfyljnBJCcbjJJukgCBjiBIHbwi/IMG_20110212_093354.jpg.scaled696.jpg
-  [![Img\_20110212\_093354][]]: /images/2011/42834238-0-IMG_20110212_093354.jpg.scaled1000.jpg
+  [Desktop]: http://getfile7.posterous.com/getfile/files.posterous.com/temp-2011-02-12/lpBasnByJBJmemvtEgpxwpIyoIcgoGJJldfyljnBJCcbjJJukgCBjiBIHbwi/IMG_20110212_093354.jpg.scaled696.jpg
   [Screenshot]: http://getfile6.posterous.com/getfile/files.posterous.com/temp-2011-02-12/JuAwwIqbgyeDpnDbuDfaoswiDsDgryaaxzyDrJeeFBujmAjGloFvrDemEbdu/screenshot.png.scaled696.png
-  [![Screenshot][]]: /images/2011/42834238-1-screenshot.png.scaled1000.png
   [1]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2011-02-12/pgxHeomfxousiArfjkFFieErggCCmHdDClvpHtesdIcsnrmAkjbahFyppggC/screenshot.png.scaled696.png
-  [![Screenshot][1]]: /images/2011/42834238-2-screenshot.png.scaled1000.png
   [2]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2011-02-12/leafuihyImnfHcGjIEwcmcduvBpuogrCIwhBDbDpCtacCeAaxhxEqGDthAjI/screenshot.png.scaled696.png
-  [![Screenshot][2]]: /images/2011/42834238-3-screenshot.png.scaled1000.png
   [Google Chrome]: http://www.google.com/chrome "Google Chrome"
   [TweetDeck]: http://www.tweetdeck.com/ "TweetDeck"
   [Adblock]: https://chrome.google.com/webstore/detail/gighmmpiobklfepjocnamgkkbiglidom
@@ -286,7 +282,6 @@ post. If you've done a writeup on your desktop environment, I'd love to see it.
     "Webpage Screenshot"
   [3]: /images/2011/42834238-4-screenshot.png.scaled696.png
   [4]: http://getfile9.posterous.com/getfile/files.posterous.com/temp-2011-02-12/fcrIttJgqioDrfbokFAccoxDawfolgEAJkvgmgwdFmkJDnJvrdasBbuxtFpA/screenshot.png.scaled696.png
-  [![Screenshot][4]]: /images/2011/42834238-5-screenshot.png.scaled1000.png
   [pathogen]: https://github.com/tpope/vim-pathogen "pathogen"
   [vim-puppet]: https://github.com/rodjek/vim-puppet "vim-puppet"
   [vim-pyflakes]: https://github.com/kevinw/pyflakes-vim "vim-pyflakes"
@@ -299,14 +294,11 @@ post. If you've done a writeup on your desktop environment, I'd love to see it.
   [vim-fugitive]: https://github.com/tpope/vim-fugitive "vim-fugitive"
   [vim-uninpaired]: https://github.com/tpope/vim-unimpaired "vim-unimpaired"
   [5]: http://getfile1.posterous.com/getfile/files.posterous.com/temp-2011-02-12/HJDmamGJllehnoxaDlrxakqhymgqmAepIgtxDCAyszGhzsEiqEbGgdAlvEHG/screenshot.png.scaled696.png
-  [![Screenshot][5]]: /images/2011/42834238-6-screenshot.png.scaled1000.png
   [6]: http://getfile6.posterous.com/getfile/files.posterous.com/temp-2011-02-12/cfDnsHbprjHeHCcoaiycayutyltledycHwhAszJdbhErbADhCCJnrDaDGjdG/screenshot.png.scaled696.png
-  [![Screenshot][6]]: /images/2011/42834238-7-screenshot.png.scaled1000.png
   [7]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2011-02-12/khgclqtDBdyuejAfvxvHFBAytgzlsgjqalGBAvmBCHplevyhkxnwFBshADqH/screenshot.png.scaled696.png
   [Dropbox]: http://db.tt/nP9tpb2 "Dropbox"
   [Amarok]: http://amarok.kde.org/en "Amarok"
   [last.fm]: http://www.last.fm/home "last.fm"
   [8]: http://getfile1.posterous.com/getfile/files.posterous.com/temp-2011-02-12/daEcaIDICFtutvhgBElFngsgGdaxnueukwcxwgmgxsFgmcsEbcqdJjvcbtce/screenshot.png.scaled696.png
-  [![Screenshot][8]]: /images/2011/42834238-9-screenshot.png.scaled1000.png
   [IRSSI]: http://www.irssi.org/ "IRSSI"
   [9]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2011-02-12/woEbovAcggvrDCqmwAzgjjunGtdmAJdezvIituoxxgwEoAsrgAsEaxrEncxt/screenshot.png.scaled696.png
