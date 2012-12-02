@@ -69,4 +69,4 @@ putting conscious thought into it, and when enough people begin to analyze their
 surroundings, and actively participate in their community, amazing things
 happen.
 
-  [Earth]: ../../images/2010/earth-from-space.jpg
+  [Earth]: /static/images/2010/earth-from-space.jpg
