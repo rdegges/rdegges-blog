@@ -65,7 +65,7 @@ phone, and vice-versa, which really makes daily life simple.
 
 And here's a picture of my workspace:
 
-[![Img\_20110212\_093354][]][]
+![Img\_20110212\_093354][]
 
 Operating System Details
 
@@ -78,11 +78,11 @@ desktop effects (if you've got a decent GPU), and is highly customizable.
 
 Here are some random screenshots of my desktop:
 
-[![Screenshot][]][]
+![Screenshot][]
 
-[![Screenshot][1]][]
+![Screenshot][1]
 
-[![Screenshot][2]][]
+![Screenshot][2]
 
 Software
 
@@ -130,7 +130,7 @@ Here's a couple screenshots:
 
 ![Screenshot][3]
 
-[![Screenshot][4]][]
+![Screenshot][4]
 
 Vim
 
@@ -170,9 +170,9 @@ which really improve the experience. In no particular order:
 
 Obligatory screenshots:
 
-[![Screenshot][5]][]
+![Screenshot][5]
 
-[![Screenshot][6]][]
+![Screenshot][6]
 
 Screen
 
@@ -231,7 +231,7 @@ allow me to quickly sort through music without ever touching the mouse.
 
 Screenshot:
 
-[![Screenshot][8]][]
+![Screenshot][8]
 
 IRSSI
 
