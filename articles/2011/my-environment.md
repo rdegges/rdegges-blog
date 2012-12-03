@@ -3,13 +3,13 @@ Date: 2011-02-12 20:00
 Author: Randall Degges
 
 
-
 I love reading about the tools that other people use daily, what sort of editors
 they use, what software they consider essential, how they use it, and why. I've
 never taken the time to do a write up about the tools I use, so I figured this
 weekend would be as good a time as any.
 
-General Environment Information
+
+## General Environment Information
 
 -   **Computer**: Desktop (custom built). 16GB RAM, 2TB disk, wired ethernet,
     quad core Intel core 7 CPU, nVidia GeForce GTX 285.
@@ -67,7 +67,8 @@ And here's a picture of my workspace:
 
 ![Desktop][]
 
-Operating System Details
+
+## Operating System Details
 
 I used to hate KDE, really hate it. It was slow, choppy, and generally ugly. The
 4.x versions, however, are completely different. I made the switch from Ubuntu
@@ -84,13 +85,15 @@ Here are some random screenshots of my desktop:
 
 ![Screenshot][2]
 
-Software
+
+## Software
 
 The most important part of any environment is obviously the software. Over the
 years, I've tried numerous tools, and I routinely try new ones. The ones that
 follow are the ones I absolutely couldn't live without.
 
-Chrome
+
+### Chrome
 
 I love using [Google Chrome][]. It's got great developer tools built in for
 working on your sites, has a lot of great plugins, and magically syncs your
@@ -119,7 +122,8 @@ Plugins I use daily:
 -   [Webpage Screenshot][]: Take screenshots of web pages. Great for quickly
     sharing a screeny with some friends.
 
-Konsole
+
+### Konsole
 
 KDE's Konsole (terminal emulator) is by far my favorite terminal. It has a great
 GUI paired with lots of functionality and flexibility. The default keybindings
@@ -132,7 +136,8 @@ Here's a couple screenshots:
 
 ![Screenshot][4]
 
-Vim
+
+### Vim
 
 As I mentioned before--vim is my editor of choice. I code a lot, and vim makes
 coding easy. I've messed around with lots of other options: emacs, eclipse,
@@ -174,7 +179,8 @@ Obligatory screenshots:
 
 ![Screenshot][6]
 
-Screen
+
+### Screen
 
 I only recently learned how to use GNU screen properly. I will never go back.
 Using screen has given me a huge productivity boost. It lets you navigate
@@ -206,7 +212,8 @@ where:
 
 ![Screenshot][7]
 
-Dropbox
+
+### Dropbox
 
 [Dropbox][] just makes everything easier. I use it to sync all of my desktop
 files: code, music, pictures, configuration files, etc. Most of my \`/home\`
@@ -221,7 +228,8 @@ that I can easily switch computers. Let's say I need to use my laptop somewhere,
 as soon as I turn it on, it'll sync all my desktop files to my laptop, and
 essentially fully configure my data for me. No work necessary.
 
-Amarok
+
+### Amarok
 
 I listen to a lot of music. [Amarok][] is my favorite music player for linux. It
 has lots of great plugins (including [last.fm][] support), album art, lyrics,
@@ -233,7 +241,8 @@ Screenshot:
 
 ![Screenshot][8]
 
-IRSSI
+
+### IRSSI
 
 If you've ever used IRC, you've likely heard of [IRSSI][]. It's probably the
 best IRC client for command line users. It provides tons of configuration
@@ -245,7 +254,8 @@ Screenshot:
 
 ![Screenshot][9]
 
-Conclusion
+
+## Conclusion
 
 Those are my tools in a nutshell. I'm specifically not including my coding tools
 here (hudson, fabric, python, etc.) because that should really be in a separate
