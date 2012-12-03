@@ -1,7 +1,8 @@
-Title: Asterisk 1.6 AGI C Library Project
-Date: 2009-12-20 04:00
 Author: Randall Degges
+Date: 2009-12-20 04:00
+Slug: asterisk-16-agi-c-library-project
 Tags: agi, c, programming, asterisk
+Title: Asterisk 1.6 AGI C Library Project
 
 
 I’m announcing my Asterisk 1.6 C AGI library for developers [(cAGI)][]. cAGI is
