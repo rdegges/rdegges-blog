@@ -22,6 +22,7 @@ there and share with the world.
 
 Enjoy.
 
-  [pycall]: http://github.com/comradeb14ck/pycall
+
+  [pycall]: http://github.com/rdegges/pycall
   [http://pycall.org/]: http://pycall.org/
   [http://pycall.org/examples]: http://pycall.org/examples/
