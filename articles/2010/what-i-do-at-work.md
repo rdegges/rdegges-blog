@@ -10,6 +10,7 @@ Not that it is particuarly amazing or anything like that, but I figured other
 coders interested in startups, best-practices, telephony, python, or any
 combination of those items may be interested.
 
+
 ## Where I Work
 
 Several months ago (in early February, 2010), I took a job offer to work at
@@ -23,6 +24,7 @@ Although, we’re currently forming a new company (whose name has not yet been
 decided), that will become my primary employer, and will lease out code and
 services to our other companies (this will make code ownership rights far less
 confusing).
+
 
 ## Why I Took the Job
 
@@ -47,6 +49,7 @@ would be the opportunity I was looking for. RCG really needed a lead programmer
 with my qualifications, and I really needed a new project with lots of
 challenges and opportunity.
 
+
 ## What Our Companies Do
 
 `RCG Communications` and `RCI Telecommunications` both offer the same service: a
@@ -55,6 +58,7 @@ free telephone-based conferencing service with a hosted web portal.
 `GlobalRoute`, one of our newest companies, is a backend termination provider
 for other VoIP and telephony companies. We offer domestic and international
 termination (in bulk) for fractions of the cost of other large providers.
+
 
 ## Our Teleconferencing Platform
 
@@ -93,6 +97,7 @@ The conferencing platform we’ve engineered offers a lot of cool features:
 We have hundreds of users online at any given moment, and are madly trying to
 solve our growing pains and scale efficiently.
 
+
 ## Current Status
 
 Since I started working on the project, we’ve made a lot of changes.
@@ -111,6 +116,7 @@ The next item on the TODO list is to modularize our Asterisk platform (more
 details on this coming soon), and provide a truly awesome telephony core that
 will be easy to maintain, bugfix, and provide features for.
 
+
 ## Life is Good
 
 I’ve really been enjoying these past few months. I’ve had a chance to build some
@@ -127,7 +133,8 @@ Be sure to subscribe to my [RSS feed][], or follow me on [twitter][] if you want
 to get more information. I’ll soon be covering our architecture, how it works,
 and the technology behind it all.
 
+
   [Fonality]: http://fonality.com/
   [RCG’s CEO]: http://www.chrisbrunner.com/
-  [RSS feed]: http://feeds.feedburner.com/projectb14ck
-  [twitter]: http://twitter.com/comradeb14ck
+  [RSS feed]: http://feeds.feedburner.com/rdegges
+  [twitter]: http://twitter.com/rdegges
