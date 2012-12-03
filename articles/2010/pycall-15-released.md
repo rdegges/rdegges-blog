@@ -23,6 +23,7 @@ And of course, this post wouldn’t be complete without me making a plug for
 [pycall’s website][] (which now contains a link to the latest version of pycall,
 available for download).
 
+
 ## what’s next for pycall?
 
 In the near future, I’ll be adding more demos, examples, and re-writing some
@@ -33,11 +34,13 @@ and making it shiny and web2.0-ish.
 
 So stay tuned, pycall is still going strong!
 
+
 ## want to help?
 
 I accept code, feature requests, copy writing (web and error), and just general
 suggestions. So if you’d like to help out, find something you don’t like–and let
 me know about it!
 
-  [github project page]: http://github.com/comradeb14ck/pycall
+
+  [github project page]: http://github.com/rdegges/pycall
   [pycall’s website]: http://pycall.org/
