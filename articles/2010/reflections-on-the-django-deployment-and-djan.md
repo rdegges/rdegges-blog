@@ -16,6 +16,7 @@ was to meet Jacob, and also to see how he handles very large scalability issues
 
 If you're interested in attending one of these workshops, please keep reading.
 
+
 ## Django Deployment Workshop
 
 This workshop covered all areas of deployment for Django apps. Some of the
@@ -66,6 +67,7 @@ systems.
 Regardless of whether you're developing Django apps for fun or work, if you have
 a chance to attend the Django Deployment Workshop, do so. You won't regret it.
 
+
 ## Django Ecosystem Workshop
 
 The Django Ecosystem Workshop discussed various open source Django apps, why you
@@ -80,6 +82,7 @@ a good portion of these apps into my production systems at work.
 
 As with the Django Deployment Workshop, Jacob was very thorough, and helped with
 any (and all) questions that everyone had.
+
 
 ## My Thoughts
 
@@ -100,6 +103,7 @@ you go.
 A lot of the scalability issues discussed in the workshops are ones I'm
 currently solving at my workplace, and so I plan to do some very detailed write
 ups on my methods and tools over the coming weeks.
+
 
   [Revolution Systems]: http://www.revsys.com/ "Revolution Systems"
   [Jacob Kaplan-Moss]: http://jacobian.org/ "Jacob Kaplan-Moss"
