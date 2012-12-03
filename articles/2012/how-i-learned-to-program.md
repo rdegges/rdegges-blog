@@ -28,7 +28,8 @@ this and get some value out of it.
 If you don't want to read all this, the important takeaway here is to, above all
 else, **have fun**.
 
-Install Linux on Your Box
+
+## Install Linux on Your Box
 
 ![Linux][]
 
@@ -100,7 +101,8 @@ life worth living. So enjoy it!
 
 Linux can help teach you these things, and more.
 
-Have an Intense Desire
+
+## Have an Intense Desire
 
 [![Burning-desire][]][]
 
@@ -139,7 +141,8 @@ easy. I've always been an all-or-nothing type of person, and I think that this
 helped me break through the initial barriers and eventually become a half decent
 programmer.
 
-Build Small Command Line Programs
+
+## Build Small Command Line Programs
 
 ![Snoopy-programming][]
 
@@ -184,7 +187,8 @@ If you're a new programmer, I doubt there's anything better (or more fun) than
 writing a ton of small command line utilities. Don't believe me? Try it, and
 tell me you aren't addicted after the first one!
 
-Write, Write, Write
+
+## Write, Write, Write
 
 ![Writing][]
 
@@ -227,7 +231,8 @@ slowly lost most of my writing. This blog you're reading now exists primarily as
 the result of my decision to save all my future writings and provide a home for
 them that I won't mistakely lose. Don't make the same mistake I did!
 
-Join an Online Community
+
+## Join an Online Community
 
 [![Impostor][]][]
 
@@ -254,7 +259,8 @@ joining new channels and chatting with people who share similar interests. If,
 in the offchance you're like me, and want to hang out in the same circle, you're
 invited to check out [\#heapify][].
 
-Have Fun
+
+## Have Fun
 
 ![Program-everything][]
 
@@ -288,6 +294,7 @@ it?
 Regardless of where you are in your programming career: always have fun, and
 keep pushing yourself!
 
+
   [Hacker]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2012-01-27/AChmokGFBaAcxqbJayibogiqhturgbcpIHHzBGonqcyezbJmgiubuyFIywht/hacker.gif.scaled696.gif
   [Linux]: http://getfile9.posterous.com/getfile/files.posterous.com/temp-2012-01-27/miAslDvGjInfCBvaBFAqDkFmoznAdaogAcqxHfuhFvJcgyoEvzeBdinalFiI/linux.jpg.scaled696.jpg
   [Programming]: http://getfile1.posterous.com/getfile/files.posterous.com/temp-2012-02-02/lgevgAiwFiGwIipcIeCGczqhBcunhtjEClsuccvhsylxAakHlAHuhAtEquhk/programming.gif.scaled696.gif
@@ -301,5 +308,4 @@ keep pushing yourself!
   [\#heapify]: http://irc://irc.oftc.net/#heapify "#heapify"
   [Program-everything]: http://getfile8.posterous.com/getfile/files.posterous.com/temp-2012-02-03/EFhqcczmGemjrqwjjntzawmvFyBnzgDkbGofrwxJxmaklbGoECAEqrpkxuBJ/program-everything.jpg.scaled696.jpg
   [python]: http://python.org/ "python"
-  [Dive Into Python]: http://www.amazon.com/gp/product/1590593561/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1590593561
-    "Dive Into Python"
+  [Dive Into Python]: http://www.amazon.com/gp/product/1590593561/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1590593561 "Dive Into Python"

@@ -105,5 +105,6 @@ middleware modify HTML after it's already been passed through the other
 middleware classes, it is necessary to have them executed last by Django (which
 means defining them first in MIDDLEWARE\_CLASSES).
 
+
   [Electron]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2012-03-04/jrraHofpiJyflmqhaurrvAaEdeJsvnfFwicjIDBlcxyJGuglnvzaJiIigEqa/electron.jpg.scaled696.jpg
   [django-htmlmin]: https://github.com/cobrateam/django-htmlmin "django-htmlmin"

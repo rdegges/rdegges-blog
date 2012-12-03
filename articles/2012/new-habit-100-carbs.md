@@ -79,15 +79,11 @@ On a side note, if you're currently working on building a health related habit,
 I'd love to hear about it. I'm extremely interested in health related habits and
 personal development.
 
-  [writing habit]: http://rdegges.com/writing-habit-complete
-    "Writing Habit Complete"
+
+  [writing habit]: http://rdegges.com/writing-habit-complete "Writing Habit Complete"
   [ketogenic diet]: http://en.wikipedia.org/wiki/Ketogenic_diet "Ketogenic Diet"
   [keto subreddit]: http://www.reddit.com/r/keto "Keto Reddit"
-  [A doctor's guide to ketosis]: http://www.dietdoctor.com/lchf
-    "A doctor's guide to ketosis."
-  [Something Awful Keto Guide]: http://lowcarbplate.com/tlcm/
-    "Something Awful Keto Guide"
-  [bodybuilding.com guide to ketosis]: http://www.bodybuilding.com/fun/keto.htm
-    "Bodybuilding + Ketosis"
-  [A Guide to Ketosis]: http://forum.bodybuilding.com/showthread.php?t=132598293
-    "A Guide to Ketosis"
+  [A doctor's guide to ketosis]: http://www.dietdoctor.com/lchf "A doctor's guide to ketosis."
+  [Something Awful Keto Guide]: http://lowcarbplate.com/tlcm/ "Something Awful Keto Guide"
+  [bodybuilding.com guide to ketosis]: http://www.bodybuilding.com/fun/keto.htm "Bodybuilding + Ketosis"
+  [A Guide to Ketosis]: http://forum.bodybuilding.com/showthread.php?t=132598293 "A Guide to Ketosis"

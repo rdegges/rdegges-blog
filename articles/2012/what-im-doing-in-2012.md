@@ -113,6 +113,7 @@ dream of mine, and something that would make me really proud of myself.
 
 Here's to a having a great, happy, relaxed, and interesting 2012.
 
+
   [Courage-wolf-796]: ./images/91718376-0-courage-wolf-796.jpg.scaled696.jpg
   [HabitForge]: http://habitforge.com/ "HabitForge"
   [writing habit]: http://rdegges.com/establishing-a-writing-habit

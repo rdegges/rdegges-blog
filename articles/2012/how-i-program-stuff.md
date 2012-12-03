@@ -29,7 +29,8 @@ lot of care. I like to:
 I try to make every piece of code I touch a bit more like me (for better or
 worse). With the above in mind, here's my method for programming stuff.
 
-Step 1 - Isolate
+
+## Step 1 - Isolate
 
 ![Meditate][]
 
@@ -64,7 +65,8 @@ topics I'm working on. When alone, I tend to spend much more time researching
 relevant information, best practices, and learning skills that can help me do
 what needs to be done.
 
-Step 2 - Eliminate
+
+## Step 2 - Eliminate
 
 ![Rm-rf][]
 
@@ -84,7 +86,8 @@ it.
 simply stopping us from coding. In this case, it is our duty to eliminate all
 distractions and return to our natural state!
 
-Step 3 - Code Ruthlessly
+
+## Step 3 - Code Ruthlessly
 
 ![Fist][]
 
@@ -114,10 +117,12 @@ move on. There is no room for ego in success.
 
 ![I-regret-nothing][]
 
-How About You?
+
+## How About You?
 
 I'm extremely interested in how other people build stuff. If you've written
 about how you program stuff, or how you prefer to work, please let me know.
+
 
   [Programmer]: http://getfile8.posterous.com/getfile/files.posterous.com/temp-2012-01-16/BaGedtAfIcrAqkGioeyezyIhioBirEgqADaEtkEuItxDIvqJbrizyBqtfDBh/programmer.gif.scaled696.gif
   [passionate programmer]: http://www.amazon.com/gp/product/1934356344/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1934356344

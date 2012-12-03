@@ -62,9 +62,8 @@ Unfortunately, while I continuously do my best to follow the 12 factors of good
 application design, I'm constantly battling with myself over factor 10,
 [dev-prod parity][].
 
- 
 
-Dev / Prod Parity
+## Dev / Prod Parity
 
 When you write software (web software in particular), the environment you're
 writing your code in is often very different from the environment which you're
@@ -93,9 +92,8 @@ whatever you use to host your sites).
 **Unfortunately, this is my conundrum--I find it nearly *impossible* to both
 write good code, and minimize dev / prod parity.**
 
- 
 
-The Difficulty
+## The Difficulty
 
 The difficult thing about minimizing dev / prod parity (for me), is minimizing
 *pain*. It is really painful, for example, to develop a site locally (on my
@@ -129,9 +127,8 @@ have to (among other things):
 
 Ugh.
 
- 
 
-Complexity
+## Complexity
 
 I realize that complexity is a major issue here.
 
@@ -144,9 +141,8 @@ configurations: one for development, and one for production.
 
 But which is worse?
 
- 
 
-What I'm Doing
+## What I'm Doing
 
 Up until now, I've always found it a lot *cleaner* to maintain different
 application environments: one for development and one for production. This way,
@@ -166,13 +162,12 @@ I'd love to hear your opinions (please leave a comment), so that I can make a
 decision about what to do from now on in my quest to consistently improve my
 development skills \>:)
 
+
   [Reaper]: http://getfile0.posterous.com/getfile/files.posterous.com/temp-2012-07-10/jyjvIJIjmyCvAIJJifzaaClJEtwlaqwwinEiAbnAgaEtiCCHtGwAiwmBkAyi/reaper.jpg.scaled696.jpg
   [![Reaper][]]: ./images/145162139-0-reaper.jpg.scaled1000.jpg
-  [passionate developer]: http://www.amazon.com/gp/product/1934356344/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1934356344&linkCode=as2&tag=rdegges-20
-    "The Passionate Programmer"
+  [passionate developer]: http://www.amazon.com/gp/product/1934356344/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1934356344&linkCode=as2&tag=rdegges-20 "The Passionate Programmer"
   [The Twelve-Factor App]: http://www.12factor.net/ "The 12 Factor App"
   [dev-prod parity]: http://www.12factor.net/dev-prod-parity "Dev / Prod Parity"
   [Heroku]: http://www.heroku.com/ "Heroku"
   [AWS]: http://aws.amazon.com/ "Amazon Web Services"
-  [http://myapp-staging.herokuapp.com]: http://myapp-staging.herokuapp.com
-    "http://myapp-staging.herokuapp.com"
+  [http://myapp-staging.herokuapp.com]: http://myapp-staging.herokuapp.com "http://myapp-staging.herokuapp.com"

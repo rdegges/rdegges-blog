@@ -36,4 +36,5 @@ looking for.
 Don't let external factors hold you back. If you want to do something, make the
 choice to do it.
 
+
   [Decisions]: http://getfile1.posterous.com/getfile/files.posterous.com/temp-2012-07-02/bogazDlDvnCEnGBncetFnCgxCojIkljuocFACdidExCmarvcnjdpwsxlnlIi/decisions.jpg.scaled696.jpg

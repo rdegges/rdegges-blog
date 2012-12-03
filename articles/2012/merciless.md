@@ -75,5 +75,6 @@ So here goes nothing.
 
 Into the darkness we go.
 
+
   [Berserk]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2012-02-18/sjIczFItFDiwIcEECkfwyAspiblsGEwDmAngrskaeECnssjfJmEHEjFbHCnz/berserk.jpg.scaled696.jpg
   [absolute victory]: http://rdegges.com/absolute-victory "Absolute Victory"

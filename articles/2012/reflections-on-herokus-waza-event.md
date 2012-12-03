@@ -34,7 +34,8 @@ pick anyone from the Heroku team in a heartbeat. :)
 Anyhow, despite the fact that I can't imagine why anyone from Heroku would
 invite me to their conference, I got in!
 
-Waza
+
+## Waza
 
 Without a doubt, Waza was by far the nicest conference I've ever been to. It was
 nothing like a traditional tech conference.
@@ -62,7 +63,8 @@ The talks were all amazing. All were focused around building elegant
 applications. As a developer, I truly enjoyed the talks I got to attend. They
 were all inspiring, well executed, and filled with lots of useful information.
 
-People
+
+## People
 
 By far the best part of the event was the people. In particular, I got to
 meet: [Craig Kerstiens][], [Kenneth Reitz][], [Curt Micol][], and [Issac
@@ -88,7 +90,8 @@ wife can attest, one of my lifelong dreams has been to meet [Brian Kernighan][],
 passed away last year), I'm extremely happy to have had the opportunity to meet
 Rob.
 
-Tea
+
+## Tea
 
 ![Green-tea-leaves][]
 
@@ -110,13 +113,15 @@ dollars worth of the stuff. Money well spent.
 If you're into tea at all, you should definitely check out the [teance][] site
 and order some. I guarantee you won't be disappointed.
 
-Overall
+
+## Overall
 
 Waza was a great event. The venue was great, the whole thing was comfortable and
 relaxing, and there were tons of smart and interesting people all over the
 place. It was a great experience, and I had a ton of fun.
 
 I hope the Heroku guys throw another one sometime soon.
+
 
   [Heroku-logo]: http://getfile1.posterous.com/getfile/files.posterous.com/temp-2012-01-15/rbHcabDHcIDmbvexbzEBgtgsoAFdwpsEgnzjyGtqnojHHlHpAnDpHuaxpdBz/heroku-logo.png.scaled696.png
   [Heroku's]: http://www.heroku.com/ "Heroku"

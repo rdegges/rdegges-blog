@@ -14,7 +14,8 @@ skills, but I'm only going to touch on one aspect (monitoring) in this post.
 *Before I continue, I just wanted to let you know I have absolutely no
 affiliation with [New Relic][] (I'm going to be talking about them a lot).*
 
-Prerequisites
+
+## Prerequisites
 
 There is really only one prerequisite to using monitoring to improving your
 programming skills: you need to write / maintain web software that people
@@ -26,7 +27,8 @@ pretty safe to assume you meet this prerequisites already.
 In the off chance you don't write web software, I'll be covering other
 strategies in future posts.
 
-How it Works
+
+## How it Works
 
 Learning is really *really* hard without feedback.
 
@@ -46,7 +48,8 @@ pragmatically) evaluate your code as users are using it. This is the*** absolut
 best***way to better your programming skills, as you immediately get real world
 feedback about your code.
 
-A Scenario
+
+## A Scenario
 
 Let's say you're writing some blog software, and you'd like to know how your
 code can be improved.
@@ -68,7 +71,8 @@ Bummer.
 The best way to become a better programmer is to monitor your application (using
 monitoring software) and use this information as a feedback tool.
 
-New Relic - Monitoring for Hackers
+
+## New Relic - Monitoring for Hackers
 
 There are tons of application monitoring solutions out there, but my personal
 favorite is [New Relic][1]. Using New Relic to monitor your applications will
@@ -127,7 +131,8 @@ Through this continuous process of tracking your code (and subsequently,
 yourself), you'll force yourself to learn new things, practice your skills, and
 get scientific feedback along the way.
 
-Push Yourself
+
+## Push Yourself
 
 Without real world analysis, you'll only be able to push your skills so far. If
 you really want to further your programming skills, you should be actively
@@ -142,9 +147,9 @@ check out [New Relic][2].
 In future posts I'm hoping to write about other methods to becoming a better
 programmer.
 
+
   [Reaper]: http://getfile2.posterous.com/getfile/files.posterous.com/temp-2012-08-26/DIvpfbizdhCpymlHAqeEbeaBtHbBiftagikGbHwsBBEttpJDcBnzrlvziDEG/reaper.jpg.scaled696.jpg
-  [New Relic]: http://newrelic.com/
-    "NewRelic - Shit just got real for programmers."
+  [New Relic]: http://newrelic.com/ "NewRelic - Shit just got real for programmers."
   [1]: http://newrelic.com/ "NewRelic"
   [Oh-stop-it]: http://getfile9.posterous.com/getfile/files.posterous.com/temp-2012-08-26/HxkrCyqIIuEbzEBabjkjopgChggFwoGIwvmDqJHHGbxqepEqhDekCqsbpBtp/oh-stop-it.png.scaled696.png
   [Newrelic\_map]: http://getfile2.posterous.com/getfile/files.posterous.com/temp-2012-08-26/eEpnglEfotluvoJjHzjIcudIsysGreDtwxsbDdzIuGqpFofchlDulupjDdxt/newrelic_map.png.scaled696.png

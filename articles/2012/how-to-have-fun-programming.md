@@ -12,9 +12,8 @@ everyone has their ups and downs. These are simply my reflections about what
 makes me happy while programming, and serves as reminder to myself why I should
 keep pushing onwards!
 
- 
 
-Live for the Challenge
+## Live for the Challenge
 
 [![Byakuya][]][]
 
@@ -38,9 +37,8 @@ certainly exceptions to this rule (building simple software if it is
 needed)--but in general, only when I'm working on a challenging project can I
 really utilize my skills.
 
- 
 
-Have a Warrior Mindset
+## Have a Warrior Mindset
 
 [![Kenpachi\_sketch][]][]
 
@@ -70,9 +68,8 @@ The sense of accomplishment and achievement you get after completing an
 incredibly difficult task is overwhelming. It's certainly one of the greatest
 natural "highs" you can get.
 
- 
 
-Share Your Work
+## Share Your Work
 
 [![Samurai\_raing][]][]
 
@@ -97,9 +94,8 @@ Publishing my work brings a sense of 'finality' to the problem, and makes me
 feel like I've contributed something useful to the world, regardless of how many
 people do (or don't) use my creations.
 
- 
 
-Don't Conform
+## Don't Conform
 
 ![Kenpachi\_back][]
 
@@ -123,9 +119,8 @@ No matter what the general consensus is--never conform. Make your own decisions,
 create your own path. Find out what you enjoy by trying a wide variety of
 things, and always try to remain optimistic.
 
- 
 
-Read
+## Read
 
 [![Ighigo][]][]
 
@@ -150,9 +145,8 @@ books. To me, they're an extraordinary motivation tool.
 A big part of the fun in programming (for me) is learning new things--and one of
 the best ways to learn new things is to read and gain perspective.
 
- 
 
-Be Mindful
+## Be Mindful
 
 [![Hollow][]][]
 
@@ -170,9 +164,8 @@ immediately feel better and be able to relax--think of the people you're writing
 your software for. When I'm feeling unmotivated, all it takes is a a few minutes
 of meditation on my purpose to get my hyped up inside, and propel me forward.
 
- 
 
-Talk With Other Hackers
+## Talk With Other Hackers
 
 ![Renji][]
 
@@ -191,6 +184,7 @@ some amazing hackers--you're formally invited to join \#heapify on irc.oftc.net
 the programmers I met years ago on IRC I'm still great friends with today. If
 you'd like to join a supportive group of enthusiastic developers, please drop by
 and say hi :)
+
 
   [Kenpachi]: http://getfile1.posterous.com/getfile/files.posterous.com/temp-2012-06-01/qrdlEfnsiyAtfHneivghFudgxnjtmupIhbuyEaaHekvGgCwuBFDFntjyqunn/kenpachi.jpg.scaled696.jpg
   [![Kenpachi][]]: ./images/135344160-0-kenpachi.jpg.scaled1000.jpg

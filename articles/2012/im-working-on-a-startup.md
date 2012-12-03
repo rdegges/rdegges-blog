@@ -25,7 +25,8 @@ For programmers (like me), this makes building telephony applications a
 nightmare. Frankly, we were tired of jumping through hoops to get simple caller
 ID data, and decided to do something about it.
 
-OpenCNAM - Caller ID Made Simple
+
+## OpenCNAM - Caller ID Made Simple
 
 ![Opencnam-logo][]
 
@@ -56,6 +57,7 @@ If you do any telephony development at all, I'd love to hear your feedback.
 
 Over the coming months, I'll be spending more time writing about my startup
 journeys, so be sure to check back!
+
 
   [Monk]: ./images/116559130-1-monk.jpg.scaled696.jpg
   [OpenCNAM]: http://www.opencnam.com/ "OpenCNAM - Caller ID Simplified"

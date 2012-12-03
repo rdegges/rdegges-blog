@@ -61,5 +61,6 @@ than the alternatives.
 
 Do the right thing.
 
+
   [Dark\_angel]: http://getfile2.posterous.com/getfile/files.posterous.com/temp-2012-03-20/BhHIfByGnlwxJHkzvHFralBFDyrelCbIjniiehBhaphlDgsIkGlyGIpdinfI/dark_angel.jpg.scaled696.jpg
   [![Dark\_angel][]]: ./images/113443573-0-dark_angel.jpg.scaled1000.jpg

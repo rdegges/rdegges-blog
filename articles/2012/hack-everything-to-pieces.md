@@ -37,9 +37,8 @@ One thing that always bothers me is looking at what *should* be a simple piece
 of code, just to find that the author horribly overcomplicated the whole thing.
 It happens to all of us from time to time, but it can be avoided.
 
- 
 
-The One True Way
+## The One True Way
 
 ![Owl][]
 
@@ -71,15 +70,15 @@ development, clean refactoring, and good documentation is all made much easier
 when your software is small and simple. Try applying those tools to complex
 software, and you will be in for a world of pain.
 
- 
 
-Takeaway
+## Takeaway
 
 The next time you're about to dive into some code, take a second or two and
 analyze what it is you're about to be doing. Programming is insanely fun, but
 writing the right sorts of programs is even more fun.
 
 **Hack everything!**
+
 
   [Axe]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2012-06-12/HAiFmbwBFcnjHwJAqJfxBuIvdzqFwDsmmBqmrmitjkjGgtwHeyqDoJmJmzny/axe.jpg.scaled696.jpg
   [Owl]: http://getfile8.posterous.com/getfile/files.posterous.com/temp-2012-06-12/ppugBggvhpoaywmAwnsurBFjtIctfBlpGqqhkidsksuGpuxwkiszaAgDkfik/owl.jpg.scaled696.jpg

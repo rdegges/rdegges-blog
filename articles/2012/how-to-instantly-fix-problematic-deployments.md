@@ -82,6 +82,7 @@ the [official documentation][], it's really great.
 **UPDATE**: So, I actually wrote a book on Heroku! If you liked this post, you
 should check it out: [http://www.theherokuhackersguide.com/][]
 
+
   [Broke\_production]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2012-01-06/EaECemrmctGEzAAsbBtgAhAlqqEifinaGwfrwHdAHibvfhfABmjBdGugxdIo/broke_production.jpg.scaled696.jpg
   [Heroku]: http://www.heroku.com/ "Heroku"
   [Django]: https://www.djangoproject.com/ "Django"

@@ -54,6 +54,7 @@ Thanks for reading.
 
 -Randall
 
+
   [The-heroku-hackers-guide-cover]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2012-09-09/BnbhuynBcFkbmjhJFkGiChloHewxJIvpCadjqaeAswAiseBdtEsBIwgwoHkn/the-heroku-hackers-guide-cover.png.scaled696.png
   [![The-heroku-hackers-guide-cover][]]: ./images/159909373-0-the-heroku-hackers-guide-cover.png.scaled1000.png
   [a book]: http://www.theherokuhackersguide.com/ "The Heroku Hacker's Guide"

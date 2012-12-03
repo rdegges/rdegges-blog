@@ -3,7 +3,6 @@ Date: 2012-10-19 21:48
 Author: Randall Degges
 
 
-
 ![Meditation][]
 
 I'm a huge proponent of being lazy. And of course, by being lazy, I mean being
@@ -68,6 +67,7 @@ as opposed to being pulled in all directions.
 If you're looking for a quick way to cut back on your stress, free up some time,
 and clear your mind--spend a day automating all your basic needs--I guarantee
 you won't regret it.
+
 
   [Meditation]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2012-10-19/rqrCaqbdaaCCFwnyBiBuxvxgbmGeexFtCgccCqJkJFBFqrfFwxxeiGmJHkuc/meditation.jpg.scaled696.jpg
   [it all adds up]: http://www.youtube.com/watch?v=WO4tIrjBDkk "Inches Speech"

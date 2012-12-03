@@ -10,7 +10,8 @@ Approximately two months ago, I started working on my [startup][] full-time.
 More than anything, I wanted to get some of these ideas out of my head so I have
 something to look back at later.
 
-Chaos is Best
+
+## Chaos is Best
 
 Most software companies tend to operate by having a very specific goal, and
 having a group of engineers work towards that goal (with management checking up
@@ -55,7 +56,8 @@ learned that no matter what I do, as long as I give it my all, it's a hell of a
 lot more effective than forcing myself to work on something I'm just not
 *feeling*.
 
-Time Changes
+
+## Time Changes
 
 Two months doesn't really sound like a long time. Looking back, however, two
 months seems like a lifetime.
@@ -73,7 +75,8 @@ it. I'll integrate billing for it. Then I'll work on the next product as well."
 
 I never imagined that in two months I'd be able to accomplish so much stuff.
 
-APIs Are My Passion
+
+## APIs Are My Passion
 
 I've always loved APIs and API companies. I love writing code that uses APIs
 (like [Twilio][], [Tropo][], [Github][1], etc.)
@@ -99,9 +102,8 @@ want to just list some points:
 Hang out with cool programmers, write cool apps, and make some money along the
 way? *Awesome.*
 
-Do More Stuff With the Wife
 
- 
+## Do More Stuff With the Wife
 
 After the first week or so of working on my company full-time, I realized I was
 spending a majority of my time hacking, and not enough time with my wife. Since
@@ -113,9 +115,8 @@ movies--we've ended up spending a ton of time together. Not only has this been
 really fun (my wife is awesome), but it's been a bonding activity for the both
 of us, and our marriage has been really great.
 
- 
 
-Relaxing Means Relax
+## Relaxing Means Relax
 
 I'm not very good at relaxing. Even when I watch movies I'll usually have my
 laptop open writing code, sending email, or browsing [Hacker News][].
@@ -134,7 +135,8 @@ actually feel refreshed, not depleted.
 While this concept is stupidly obvious, I really need to keep it in mind so I
 don't go back to my old ways.
 
-Having Fun Is Easy
+
+## Having Fun Is Easy
 
 Having fun is easy if you *focus* on what you're doing.
 
@@ -149,13 +151,15 @@ moment to realize how fun each little item can be, and focusing on it completely
 for a small chunk of time is an incredibly great way to get into the zone, have
 fun, and feel good.
 
-Overall
+
+## Overall
 
 Those are all my thoughts for now. I'm sure in a few months I'll have a lot
 more. 
 
 Overall, the past two months have been pretty epic. I've had a lot of fun,
 gotten a bunch of stuff done, and had a ton of fun along the way.
+
 
   [Warrior]: http://getfile0.posterous.com/getfile/files.posterous.com/temp-2012-08-22/scHxCkyzkaCDjFgrtzngFknzjcuacszzInyCaDpAzrvnFFBacazbmkkHFwcB/warrior.jpg.scaled696.jpg
   [startup]: https://www.telephonyresearch.com/ "Telephony Research"
@@ -167,5 +171,4 @@ gotten a bunch of stuff done, and had a ton of fun along the way.
   [Tropo]: https://www.tropo.com/home.jsp "Tropo"
   [1]: https://github.com/ "Github"
   [Hacker News]: http://news.ycombinator.com/ "Hacker News"
-  [The Pomodoro Technique]: http://www.amazon.com/gp/product/1934356506/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1934356506&linkCode=as2&tag=rdegges-20
-    "The Pomodoro Technique"
+  [The Pomodoro Technique]: http://www.amazon.com/gp/product/1934356506/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1934356506&linkCode=as2&tag=rdegges-20 "The Pomodoro Technique"

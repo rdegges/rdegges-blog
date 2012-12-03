@@ -30,9 +30,8 @@ relationship.
 
 Ok then! Let's talk about Heroku!
 
- 
 
-Heroku is Just Unix
+## Heroku is Just Unix
 
 At its core, Heroku is just a simple unix platform; specifically, Ubuntu 10.04
 LTS.
@@ -61,9 +60,8 @@ So what does this mean? Well, it basically means that Heroku can run pretty much
 any Ubuntu compatible software you can think of. It also means that there's
 really nothing \*magical\* going on here--it's just unix.
 
- 
 
-Heroku is Centered Around Apps
+## Heroku is Centered Around Apps
 
 Unlike most other cloud providers, Heroku isn't in the VPS business. Their goal
 isn't to sell you virtual Ubuntu servers that you configure yourself. Their real
@@ -108,9 +106,8 @@ If you're writing an application--why should you have to:
 If you want to do that stuff, Heroku isn't for you. Heroku is for programmers
 who want to build applications.
 
- 
 
-Heroku Enforces Best Practices
+## Heroku Enforces Best Practices
 
 ![Symbol][]
 
@@ -129,9 +126,8 @@ it.
 The Heroku platform doesn't tolerate poorly architectured applications, and
 doesn't cater to ineffective programmers. Heroku isn't built for idiots.
 
- 
 
-Heroku is Modular
+## Heroku is Modular
 
 One of Heroku's greatest strengths as a platform is its modularity. The core
 Heroku platform gives you a basic way to deploy and manage your codebase and
@@ -150,9 +146,8 @@ fully managed infrastructure services), but you have support channels, multiple
 options (you can easily swap out addon providers), and excellent monitoring
 tools available to you with a single click.
 
- 
 
-Let's Talk About Replacing the Cloud
+## Let's Talk About Replacing the Cloud
 
 If you want to build your own redundant, fully managed infrastructure
 services--go right ahead. Nobody is stopping you. There are great tools like
@@ -218,9 +213,8 @@ David didn't successfully replace the cloud with his work.
 
 If anything, he simply localized his problems.
 
- 
 
-Let's Talk About Monitoring
+## Let's Talk About Monitoring
 
 One of the big points that David mentions in his [article][The Cloud is Not For
 You] is that he had no way of monitoring his dyno and application performance,
@@ -277,9 +271,8 @@ I'm not even going to bother showing you the database tab, because I think you
 already have a good idea of where I'm going with this: **Heroku isn't the
 problem. You are.**
 
- 
 
-Let's Talk About Bad Ideas
+## Let's Talk About Bad Ideas
 
 ![Badtime][]
 
@@ -299,9 +292,8 @@ However, what does it say (to your customers) when you tell them that:
 
 All in all, it just seems like a bad idea.
 
- 
 
-On the Shoulders of Giants
+## On the Shoulders of Giants
 
 [![Giant][]][]
 
@@ -365,9 +357,8 @@ Through this experience, I learned:
     platform. I'm building software. I'd rather leave the deployment platform to
     someone else who can do it much better than me.
 
- 
 
-Takeaways
+## Takeaways
 
 I hope you had fun reading this article. I wrote it with humorous intent--not to
 be taken seriously or offensively by anyone; I have a lot of respect for David
@@ -384,11 +375,11 @@ anything else.
 The next time you write a web service, give [Heroku][] a try; I promise you
 won't be disappointed.
 
- 
 
 **UPDATE**: In response to this (and many other related articles I've written) I
 wrote a book on Heroku, [The Heroku Hacker's Guide][]. If you're at all
 interested in deploying web applications on Heroku, you should check it out.
+
 
   [Heroku]: http://www.heroku.com/ "Heroku"
   [Demon]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2012-06-03/FACcxEFxDxBadFDwqJonIryClzuasvergxlFkeHFwttziwqmqDCnDBinkyai/demon.jpg.scaled696.jpg

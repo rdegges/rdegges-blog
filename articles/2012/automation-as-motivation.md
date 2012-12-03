@@ -52,4 +52,5 @@ ambitions.
 Next time I fall into a slump, I'm going to remember my overall goal of perfect
 automation, and get back to work.
 
+
   [Battle-robot]: http://getfile6.posterous.com/getfile/files.posterous.com/temp-2012-05-19/JmtBFtiJqcsctAfpdGsFpjltkBbyAjCFaenyiFHfdljgzsaxAqjgfEpbGyqg/battle-robot.jpg.scaled696.jpg

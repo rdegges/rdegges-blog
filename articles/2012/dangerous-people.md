@@ -40,4 +40,5 @@ The timing couldn't be more perfect, so don't let this opportunity go to waste.
 If you've got the skills, ambition, and motivation to build something great, get
 out there and do it. **Be dangerous**, now is the time.
 
+
   [Barbarian]: ./images/164121618-0-barbarian.jpg.scaled696.jpg

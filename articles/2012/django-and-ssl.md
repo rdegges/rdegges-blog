@@ -60,6 +60,7 @@ to their https equivalents, forcing SSL encryption.
 sure to use their new [SSL endpoint][] addon. The new SSL endpoint addon makes
 using SSL as easy as possible.
 
+
   [Cloaked]: http://getfile1.posterous.com/getfile/files.posterous.com/temp-2012-05-31/udqaJiwxujwDidBBdAoootGAurDhhtssBuGIxjivmEhhpllqnxBwmgfayGvp/cloaked.jpg.scaled696.jpg
   [encrypting everything]: http://www.codinghorror.com/blog/2012/02/should-all-web-traffic-be-encrypted.html
     "Encrypt Everything"

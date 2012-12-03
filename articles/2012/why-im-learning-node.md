@@ -87,14 +87,11 @@ As I learn more about Javascript, I'll keep you all updated!
 **NOTE**: I'm going to start reading through the [Node Beginner Book][] this
 weekend. You should check it out.
 
- 
 
   [Jsninja]: http://getfile8.posterous.com/getfile/files.posterous.com/temp-2012-04-07/exotGlGDfixkkyAufribsgcuJiDtfFzGeaElDyEJzJcJlyJehplFhxexrAHE/jsninja.jpg.scaled696.jpg
-  [Javascript: The Good Parts]: http://www.amazon.com/gp/product/0596517742/ref=as_li_ss_tl?ie=UTF8&tag=rdegges-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0596517742
-    "Javascript: The Good Parts"
+  [Javascript: The Good Parts]: http://www.amazon.com/gp/product/0596517742/ref=as_li_ss_tl?ie=UTF8&tag=rdegges-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0596517742 "Javascript: The Good Parts"
   [nodejs]: http://nodejs.org/ "nodejs"
   [npm]: http://npmjs.org/ "npm"
   [1]: http://teddziuba.com/2011/10/node-js-is-cancer.html "nodejs is cancer"
-  [node-opencnam]: https://github.com/telephonyresearch/node-opencnam
-    "node-opencnam"
+  [node-opencnam]: https://github.com/telephonyresearch/node-opencnam "node-opencnam"
   [Node Beginner Book]: http://www.nodebeginner.org/ "Node Beginner"

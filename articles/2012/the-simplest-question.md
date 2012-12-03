@@ -38,4 +38,5 @@ important email, and slowly move yourself further away from your goals.
 The next time you make a decision to do something, ask yourself that simple
 question, and keep yourself honest.
 
+
   [Samurai]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2012-09-27/dtfaDzhEnJaddtDhmHlHEFojicyqkHAqdxkcIrEkqgFjremBcbjCkBEmvJvg/samurai.jpg.scaled696.jpg

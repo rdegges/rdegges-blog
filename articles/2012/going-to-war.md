@@ -16,7 +16,8 @@ amount of the negative personal development articles that would exist otherwise.
 Since I'm in a neutral mood right now, I figured I'd throw my opinions up here
 to contribute to the discussion.
 
-Exhaustion
+
+## Exhaustion
 
 When I'm exhausted with personal development, I tend to not do much to fix it.
 Instead of consciously seeking out ways to get out of my slump, I'll usually
@@ -31,7 +32,8 @@ body and mind will need some time to rest.
 The real problem arises when after you've sufficently recovered, you still can't
 get yourself back into the development phase again.
 
-The War Motive
+
+## The War Motive
 
 To me, nothing is more motivating than a big life or death challenge. We've all
 seen this in movies, and read about it in books.
@@ -63,5 +65,6 @@ regardless of whatever issues I was facing at the time.
 
 What techniques do you use to motivate yourself, and push yourself beyond your
 limits?
+
 
   [Genghis\_khan]: http://getfile1.posterous.com/getfile/files.posterous.com/temp-2012-01-07/hCnydBjukiAnssiHHhmFpkdAkqfkgvzmwizdFpiGtkvvHwfoyngGqfIqcaei/Genghis_Khan.jpg.scaled696.jpg

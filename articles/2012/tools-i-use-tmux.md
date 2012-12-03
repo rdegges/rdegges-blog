@@ -20,7 +20,8 @@ is a win-win for me.
 As this is the first article in the series, I figured what better time to
 discuss [tmux][], my favorite terminal multiplexer!
 
-Terminal Multiplexers
+
+## Terminal Multiplexers
 
 If you've ever had the need to run multiple terminal windows inside an existing
 terminal window, you've probably heard of [GNU screen][].
@@ -44,7 +45,8 @@ move around through terminals like I never could before. I instantly started
 writing code faster, finding problems quicker, and spending much less time
 creating and moving terminal windows around on my desktop.
 
-tmux - A Cool Terminal Multiplexer
+
+## tmux - A Cool Terminal Multiplexer
 
 While I was using GNU screen for a few years, I always had some issues with it
 that didn't sit well with me. For one, while I had my GNU screen software highly
@@ -72,7 +74,8 @@ tmux, just like screen, is a terminal multiplexer. What's great about tmux is:
     manually.
 -   It has great documentation.
 
-tmux in Action
+
+## tmux in Action
 
 A picture is worth a thousand words. I won't bore you any further, here are some
 screenies of tmux in action.
@@ -97,7 +100,8 @@ few times in a row. Nice, huh?
 
 [See the full gallery on Posterous][]
 
-tmux - Configuration
+
+## tmux - Configuration
 
 One of the great things about tmux is that it requires almost no configuration
 to be useful. Unlike GNU screen which requires quite a bit of tweaking (in my
@@ -152,7 +156,8 @@ my changes do:
 As you can see, I had to make very few changes to tmux in order for it to be
 useful to me.
 
-tmux - Resources
+
+## tmux - Resources
 
 If you'd like to give tmux a try, here are some resources to get you going. tmux
 has become one of my favorite and most used tools since I started using it
@@ -163,6 +168,7 @@ work.
 -   **man tmux** - has great information and is highly readable.
 -   [tmux crash course][], a really great introduction to using tmux.
 -   [tmux][1], a series of blog posts explaining tmux in depth. A great read.
+
 
   [Tools]: http://getfile6.posterous.com/getfile/files.posterous.com/temp-2012-01-07/gbzgGJqHAFBqjzikpublGgrBinGvDjmivmgHawFpHlcaosbDcflxaGEysnrj/tools.png.scaled696.png
   [tmux]: http://tmux.sourceforge.net/ "tmux"
@@ -178,7 +184,5 @@ work.
   [Tmux\_auto\_arrange\_3]: http://getfile6.posterous.com/getfile/files.posterous.com/temp-2012-01-07/rtfDkouDrjEgsGijvfJatlGBhtgICfqpyhsaopakhyemkzEEtcakdhEvBABx/tmux_auto_arrange_3.png.scaled696.png
   [![Tmux\_auto\_arrange\_3][]]: ./images/92691196-5-tmux_auto_arrange_3.png.scaled1000.png
   [See the full gallery on Posterous]: http://rdegges.com/tools-i-use-tmux
-  [tmux crash course]: http://robots.thoughtbot.com/post/2641409235/a-tmux-crash-course
-    "tmux Crash Course"
-  [1]: http://blog.hawkhost.com/2010/06/28/tmux-the-terminal-multiplexer/
-    "tmux series"
+  [tmux crash course]: http://robots.thoughtbot.com/post/2641409235/a-tmux-crash-course "tmux Crash Course"
+  [1]: http://blog.hawkhost.com/2010/06/28/tmux-the-terminal-multiplexer/ "tmux series"

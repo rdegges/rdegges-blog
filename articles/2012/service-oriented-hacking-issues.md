@@ -19,14 +19,11 @@ applications in theory, there are almost no practical references. I'm hoping
 that this will be the first in a series of many practical service oriented
 articles I'll write over the coming months.
 
-Refactoring
+## Refactoring
 
- 
 
 If you're writing APIs, web portals, or high traffic websites, I'd say it is
 almost critical.
-
- 
 
 There's a lot of talk in the developer community about building service oriented
 applications as opposed to monolithic applications. Unfortunately, there are
@@ -42,13 +39,13 @@ tackle the largest problem in creating
 
 If you aren't familiar with the idea, I'll quickly break it down for you.
 
-Monolithic Codebases
+
+## Monolithic Codebases
 
 Let's say y
 
+
   [Demon]: http://getfile3.posterous.com/getfile/files.posterous.com/temp-2012-08-23/frCdsmimseEgFFfDcBjirHkrhwIAoCbABEJxAbHEoxwaGFgeAgFfrxznzbcn/demon.jpg.scaled696.jpg
   [company]: https://www.telephonyresearch.com/ "Telephony Research"
-  [passionate programmer]: http://www.amazon.com/gp/product/1934356344/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1934356344&linkCode=as2&tag=rdegges-20
-    "The Passionate Programmer"
-  [service oriented architecture]: http://en.wikipedia.org/wiki/Service-oriented_architecture
-    "Service Oriented Architecture"
+  [passionate programmer]: http://www.amazon.com/gp/product/1934356344/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1934356344&linkCode=as2&tag=rdegges-20 "The Passionate Programmer"
+  [service oriented architecture]: http://en.wikipedia.org/wiki/Service-oriented_architecture "Service Oriented Architecture"

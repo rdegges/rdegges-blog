@@ -35,7 +35,8 @@ staple of modern society, and in order to ensure that the open source ecosystem
 remains friendly, accessible, and effective--we (as developers) need to do all
 we can to promote best practices and effective collaboration.
 
-Maintainers
+
+## Maintainers
 
 Maintaining open source projects is hard--it requires time, energy, and good
 communication. The principles outlined here should be applied to all open source
@@ -205,7 +206,8 @@ Ensuring your project's issue tracker is always kept up-to-date and well
 maintained also strongly encourages new contributors to work on the project, as
 they can easily find issues and fix them for you.
 
-Contributors
+
+## Contributors
 
 Contributing code to open source projects can be difficult, exciting, scary, and
 rewarding. This section is aimed at helping you successfully contribute code to
@@ -279,7 +281,8 @@ be more than happy to explain why something is (or isn't) a good idea.
 Discussing questions before submitting code is a great way to make new friends,
 learn cool things, and generally enjoy your open source experience a lot more.
 
-Have Fun
+
+## Have Fun
 
 Maintaining and contributing to open source projects is a lot of fun. There's
 nothing quite like the rush you get by creating something entirely new, and
@@ -291,6 +294,7 @@ you're doing immediately and re-think things.
 
 I hope the guidelines above were useful to you. If you have any questions or
 suggestions, please leave a comment and I'll update the post as needed.
+
 
   [Socialite]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2012-04-13/phFFFisoGsloBbcovHDIfilsxBABflaEoAvbxxusmkBFfBHFEgfEhAutyuqf/socialite.jpg.scaled696.jpg
   [![Socialite][]]: ./images/122479427-0-socialite.jpg.scaled1000.jpg

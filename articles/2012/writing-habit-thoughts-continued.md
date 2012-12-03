@@ -24,7 +24,8 @@ that. While almost all of it has been an accident--looking back, I feel pretty
 happy with the results. Through the process of writing each day, I've learned a
 lot about writing, communication, and more importantly, myself.
 
-Writing
+
+## Writing
 
 Writing is all about expression. Probably the most important thing I've learned
 so far is that if you suck at writing then, chances are, you suck at expressing
@@ -51,7 +52,8 @@ inspiration, than I'd easily improve my writing skills and become better. But
 you know what? It didn't happen. Not until I decided to actually commit to
 writing each day, did I finally make the breakthrough I was looking for.
 
-A Breakthrough
+
+## A Breakthrough
 
 By looking at writing as part of my life, as central piece of who I am--writing
 has become so much easier. While I've mentioned this [before][], I think it
@@ -87,7 +89,8 @@ Since I realized that I enjoy writing much more when I'm simply dumping my
 thoughts onto paper, I've become extremely attached. The process of writing each
 day feels good, and has become a critical part of my daily routine.
 
-Benefits
+
+## Benefits
 
 While I'm in **no way** a good writer now, I feel a lot more comfortable
 writing, explaining my ideas, and sharing information with other people.
@@ -119,7 +122,8 @@ and self-consciousness. Since I enjoy working on personal development, this has
 made a profound impact in my day-to-day life, and I've found new ways to
 incorporate my new self understand into my habit building regimen.
 
-Final Thoughts
+
+## Final Thoughts
 
 Of all the habits I've built, writing has been my favorite. The benefits are
 vast, the payoff is great, and it's internally rewarding to work on.
@@ -135,6 +139,7 @@ many years to go before I reach the level of fluency that I'd like to attain.
 **ALSO:** Are you working on a writing habit? If so, I'd love to hear how your
 journey is going. Please send me an email ([rdegges@gmail.com][]), or leave a
 comment--and lets keep in touch!
+
 
   [Quill]: http://getfile1.posterous.com/getfile/files.posterous.com/temp-2012-03-03/hhtjqIwrFvjGeIrJaChEnozrqJbehpdbmIhfnhCzxAnjnEistGGhkDEpswpj/quill.png.scaled696.png
   [writing]: http://rdegges.com/establishing-a-writing-habit

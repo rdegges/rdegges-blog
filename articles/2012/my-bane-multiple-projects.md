@@ -66,6 +66,7 @@ stuff. 
 separate ideas at a time. I have a relatively small list of projects that are
 really meaningful to me, which is what I'm talking about in this article.*
 
+
   [Bane]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2012-10-14/tscrrhIAigrlfqElHstcfuzIyIHJrHushzxxtDIfptobsrghuAwokxAGmwJi/bane.jpg.scaled696.jpg
   [![Bane][]]: ./images/165166175-0-bane.jpg.scaled1000.jpg
   [my startup]: https://www.opencnam.com/ "OpenCNAM"

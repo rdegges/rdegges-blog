@@ -67,10 +67,8 @@ Hopefully my experiences have been useful and/or entertaining to you. If there's
 anything you'd like to know, or if you have any questions--feel free to leave a
 comment.
 
+
   [Scroll]: http://getfile7.posterous.com/getfile/files.posterous.com/temp-2012-01-02/mlshfogsBFkfrImdwcHHmxdiArwhezimyfktCjflevtCHrDFxhienGGJFFud/scroll.jpg.scaled696.jpg
-  [writing habit]: http://rdegges.com/establishing-a-writing-habit
-    "Establishing a Writing Habit"
-  [learned]: http://rdegges.com/what-ive-learned-about-writing-so-far
-    "What I've Learned About Writing (So Far)"
-  [caffeine junkie]: http://rdegges.com/my-use-and-abuse-of-caffine
-    "My Use and Abuse of Caffeine"
+  [writing habit]: http://rdegges.com/establishing-a-writing-habit "Establishing a Writing Habit"
+  [learned]: http://rdegges.com/what-ive-learned-about-writing-so-far "What I've Learned About Writing (So Far)"
+  [caffeine junkie]: http://rdegges.com/my-use-and-abuse-of-caffine "My Use and Abuse of Caffeine"

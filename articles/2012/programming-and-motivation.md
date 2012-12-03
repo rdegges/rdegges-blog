@@ -31,7 +31,8 @@ process of sitting down and really thinking about this is usually enough to get
 me kickstarted, and motivated to do some serious hacking on whatever project I'm
 working on at the moment.
 
-Having Fun
+
+## Having Fun
 
 Programming is a mental exercise. Like any mental exercise, it's easy to burn
 yourself out if you do it the wrong way.
@@ -63,7 +64,8 @@ tested way: lock yourself in a small dark room, put on the best headphones you
 have, and blast your favorite tunes. While not sustainable, this is definitely a
 great way to have fun while building weekend projects =)
 
-Caffeine
+
+## Caffeine
 
 While I'm definitely not a doctor, I can tell you with certainty that caffeine
 makes me feel better **awesome**.
@@ -79,7 +81,8 @@ For the health conscious--if you're interested in a good energy drink with no
 sugar (no carbs), great flavor, and copious amounts of programmer blood
 caffeine, you should try the [Rockstar No Carb][] (my favorite).
 
-Realize Your Ambitions
+
+## Realize Your Ambitions
 
 Everyone has their ambitions--what are yours? Do you want your open source
 project to get a million followers on Github? Do you want to launch that side
@@ -104,7 +107,6 @@ possible.
 Ultimately, your success or failure to fulfill your ambitions rests solely on
 your shoulders. Push yourself, and don't give up!
 
- 
 
 Motivation is a powerful thing. If you can manage to stay motivated for the task
 at hand, whether it be programming, exercising, or whatever else you'd like to
@@ -115,7 +117,7 @@ your mood greatly effects your work.
 
 Now get out there and write some code!
 
+
   [Bleach]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2012-10-02/kHlApjxAutqjdqiFDqbCdGknvsHgIkHgqdzjlCImvkiulaExApHwoxfdsijl/bleach.jpg.scaled696.jpg
   [![Bleach][]]: ./images/164025431-0-bleach.jpg.scaled1000.jpg
-  [Rockstar No Carb]: http://www.amazon.com/gp/product/B000NGNEKY/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000NGNEKY&linkCode=as2&tag=rdegges-20
-    "Rockstar No Carb"
+  [Rockstar No Carb]: http://www.amazon.com/gp/product/B000NGNEKY/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000NGNEKY&linkCode=as2&tag=rdegges-20 "Rockstar No Carb"

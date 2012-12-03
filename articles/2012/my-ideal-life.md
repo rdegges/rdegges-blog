@@ -95,7 +95,7 @@ really in the mood, or maybe an extra couple hours reading--who knows.
 So, that's my ideal life in a nutshell. What's your ideal life (or day) look
 like?
 
+
   [Tyrael]: http://getfile3.posterous.com/getfile/files.posterous.com/temp-2012-01-17/zBcHDeaJcIJDyjGCDAwdgrCkDgBgCxoApDoCeJhmvJEeiglJoGCkHzdjnyGe/tyrael.jpg.scaled696.jpg
   [![Tyrael][]]: ./images/94766892-0-tyrael.jpg.scaled1000.jpg
-  [positive habits]: http://rdegges.com/what-im-doing-in-2012
-    "What I'm Doing in 2012"
+  [positive habits]: http://rdegges.com/what-im-doing-in-2012 "What I'm Doing in 2012"

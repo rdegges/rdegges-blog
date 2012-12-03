@@ -23,7 +23,8 @@ article assumes you have some basic knowledge of writing web applications.
 To get started, lets discuss the basics: the monolithic pattern and the service
 pattern.
 
-The Monolithic Pattern
+
+## The Monolithic Pattern
 
 If I had to guess, I'd say that close to 99% of all active web applications are
 written as monolithic web apps. Why? I think that with so little practical
@@ -55,7 +56,8 @@ it.
 Using message queues allows you to fire-and-forget slow operations, letting them
 happen naturally behind the scenes without delaying your web response time.
 
-The Service Pattern
+
+## The Service Pattern
 
 While service oriented architecture is certainly a hot topic in tech circles, it
 has still not gained widespread adoption, primarily due to the fact that it can
@@ -75,7 +77,8 @@ serveral main ways:
 As you can probably see, building service oriented web applications essentially
 gives you many small moving parts as opposed to a single large part.
 
-Effect 1: Maintainability
+
+## Effect 1: Maintainability
 
 The first side effect you get by writing service oriented web applications is
 simple: better maintainability for your web application.
@@ -97,7 +100,8 @@ a single place, it becomes harder to make code changes without side effects,
 more difficult for new developers to dive in (where do I get started?), and
 tricky to refactor without breaking things.
 
-Effect 2: Scalability
+
+## Effect 2: Scalability
 
 One of my favorite effects of writing service oriented web applications is the
 passive effect it has on scalability.
@@ -139,7 +143,8 @@ entire application--you can't selectively choose which parts to scale, and which
 parts to leave alone (note: this isn't *entirely* true, but I'm saying it
 anyway).
 
-Effect 3: Simplicity
+
+## Effect 3: Simplicity
 
 Another effect of writing service oriented web applications is that you
 generally have a much simpler backend system.
@@ -179,7 +184,8 @@ with, and scale your transactions service independent of all your other services
 (this way, if you suddendly start doing a lot of transactions, you only need to
 focus on scaling a single small codebase).
 
-Wrap Up
+
+## Wrap Up
 
 In my experience, building service oriented web applications generally leads to
 simpler, faster, and more scalable web applications. Without realizing it, you
@@ -193,6 +199,7 @@ can:
 Also: if you're at all interested in building service oriented web applications,
 you may want to check out my book: [The Heroku Hacker's Guide][], it teaches you
 how to use [Heroku's platform][] to build fast, small, independent web services.
+
 
   [Robot]: http://getfile9.posterous.com/getfile/files.posterous.com/temp-2012-09-28/oDAFdAIiGdoojJafjmlazCpdaovvyjopdAwbBijHEppccBGuhhpIhxayuvbJ/robot.jpg.scaled696.jpg
   [![Robot][]]: ./images/163637542-0-robot.jpg.scaled1000.jpg
