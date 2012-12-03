@@ -12,6 +12,7 @@ All information below has been gathered from the [latest Asterisk release][]
 (v1.6.2.7). If you don’t do any programming, you may want to skip this article,
 as it is a bit geeky.
 
+
 ## Brief Overview of Call File Code
 
 First of all, it is important to note that Asterisk call files only work when
@@ -41,49 +42,54 @@ the call file logic, and will help us learn a bit about call file internals.
 
 Look them over briefly. In the next section, we’ll dive right in.
 
+
 ## The outgoing Struct
 
 Let’s start out by analyzing the `outgoing` struct, shown below (note: I’ve
 re-done the formatting and comments so that it displays in proper 80-column
 width):
 
-    struct outgoing {
-        int retries;        // current number of retries
-        int maxretries;     // maximum number of retries permitted
-        int retrytime;      // how long to wait between retries (in seconds)
-        int waittime;       // how long to wait for an answer
-        long callingpid;    // PID which is currently calling
-        int format;         // formats (codecs) for this call
+``` c
+struct outgoing {
+    int retries;        // current number of retries
+    int maxretries;     // maximum number of retries permitted
+    int retrytime;      // how long to wait between retries (in seconds)
+    int waittime;       // how long to wait for an answer
+    long callingpid;    // PID which is currently calling
+    int format;         // formats (codecs) for this call
 
-        AST_DECLARE_STRING_FIELDS (
-            AST_STRING_FIELD(fn);       // file name of the call file
-            AST_STRING_FIELD(tech);     // which channel technology to use for
-                                        // outgoing call
-            AST_STRING_FIELD(dest);     // which line to use for outgoing
-                                        // call
-            AST_STRING_FIELD(app);      // if application: Application name
-            AST_STRING_FIELD(data);     // if application: Application data
-            AST_STRING_FIELD(exten);    // if extension/context/priority:
-                                        // extension in dialplan
-            AST_STRING_FIELD(context);  // if extension/context/priority:
-                                        // dialplan context
-            AST_STRING_FIELD(cid_num);  // callerID information: number
-            AST_STRING_FIELD(cid_name); // callerID information: name
-            AST_STRING_FIELD(account);  // account code
-        );
+    AST_DECLARE_STRING_FIELDS (
+        AST_STRING_FIELD(fn);       // file name of the call file
+        AST_STRING_FIELD(tech);     // which channel technology to use for
+                                    // outgoing call
+        AST_STRING_FIELD(dest);     // which line to use for outgoing
+                                    // call
+        AST_STRING_FIELD(app);      // if application: Application name
+        AST_STRING_FIELD(data);     // if application: Application data
+        AST_STRING_FIELD(exten);    // if extension/context/priority:
+                                    // extension in dialplan
+        AST_STRING_FIELD(context);  // if extension/context/priority:
+                                    // dialplan context
+        AST_STRING_FIELD(cid_num);  // callerID information: number
+        AST_STRING_FIELD(cid_name); // callerID information: name
+        AST_STRING_FIELD(account);  // account code
+    );
 
-        int priority;               // if extension/context/priority: priority
-        struct ast_variable *vars;  // variables and functions
-        int maxlen;                 // maximum length of call
-        struct ast_flags options;   // options
-    };
+    int priority;               // if extension/context/priority: priority
+    struct ast_variable *vars;  // variables and functions
+    int maxlen;                 // maximum length of call
+    struct ast_flags options;   // options
+};
+```
 
 This struct holds the directives specified in each call file that the spooling
 daemon reads. This means that if your call file looks like:
 
-    Channel: Local/18002223333@from-internal
-    Application: Playback
-    Data: hello-world
+```
+Channel: Local/18002223333@from-internal
+Application: Playback
+Data: hello-world
+```
 
 Then the struct will set: `tech = "Local"`,
 `dest = "18002223333@from-internal"`, `app = "Playback"`, and
@@ -91,6 +97,7 @@ Then the struct will set: `tech = "Local"`,
 
 Internally, Asterisk uses this struct throughout the `pbx_spool.c` module, as a
 way to store individual call file states and track statuses.
+
 
 ## How The Spooling Daemon Works
 
@@ -104,178 +111,180 @@ which variations raise errors).
 
 Here is the `apply_outgoing` function cleaned up for clarity:
 
-    static int apply_outgoing(struct outgoing *o, char *fn, FILE *f) {
-        /*
-         * Parse the `outgoing` struct, clean up any lingering whitespace, and
-         * verify that all directives are syntactically correct. Logs errors as
-         * it finds them.
-         */
+``` c
+static int apply_outgoing(struct outgoing *o, char *fn, FILE *f) {
+    /*
+     * Parse the `outgoing` struct, clean up any lingering whitespace, and
+     * verify that all directives are syntactically correct. Logs errors as
+     * it finds them.
+     */
 
-        char buf[256];
-        char *c, *c2;
-        int lineno = 0;
-        struct ast_variable *var, *last = o->vars;
+    char buf[256];
+    char *c, *c2;
+    int lineno = 0;
+    struct ast_variable *var, *last = o->vars;
 
-        while (last && last->next) {
-            last = last->next;
-        }
-
-        while(fgets(buf, sizeof(buf), f)) {
-            lineno++;
-
-            // Trim comments.
-            c = buf;
-            while ((c = strchr(c, '#'))) {
-                if ((c == buf) || (*(c-1) == ' ') || (*(c-1) == '\t'))
-                    *c = '\0';
-                else
-                    c++;
-            }
-
-            c = buf;
-            while ((c = strchr(c, ';'))) {
-                if ((c > buf) && (c[-1] == '\\')) {
-                    memmove(c - 1, c, strlen(c) + 1);
-                    c++;
-                } else {
-                    *c = '\0';
-                    break;
-                }
-            }
-
-            // Trim trailing white space.
-            while(!ast_strlen_zero(buf) && buf[strlen(buf) - 1] < 33)
-                buf[strlen(buf) - 1] = '\0';
-
-            if (!ast_strlen_zero(buf)) {
-
-                // Split the directive into two parts. Command and value.
-                c = strchr(buf, ':');
-                if (c) {
-                    *c = '\0';
-                    c++;
-                    while ((*c) && (*c < 33))
-                        c++;
-
-    #if 0
-                    printf("'%s' is '%s' at line %d\n", buf, c, lineno);
-    #endif
-
-                    // Analyze the command, and populate the outgoing struct.
-                    if (!strcasecmp(buf, "channel")) {
-                        if ((c2 = strchr(c, '/'))) {
-                            *c2 = '\0';
-                            c2++;
-                            ast_string_field_set(o, tech, c);
-                            ast_string_field_set(o, dest, c2);
-                        } else {
-                            ast_log(LOG_NOTICE, "Channel should be in form "
-                                "Tech/Dest at line %d of %s\n", lineno, fn);
-                        }
-                    } else if (!strcasecmp(buf, "callerid")) {
-                        char cid_name[80] = {0}, cid_num[80] = {0};
-                        ast_callerid_split(c, cid_name, sizeof(cid_name),
-                            cid_num, sizeof(cid_num));
-                        ast_string_field_set(o, cid_num, cid_num);
-                        ast_string_field_set(o, cid_name, cid_name);
-                    } else if (!strcasecmp(buf, "application")) {
-                        ast_string_field_set(o, app, c);
-                    } else if (!strcasecmp(buf, "data")) {
-                        ast_string_field_set(o, data, c);
-                    } else if (!strcasecmp(buf, "maxretries")) {
-                        if (sscanf(c, "%30d", &o->maxretries) != 1) {
-                            ast_log(LOG_WARNING, "Invalid max retries at line %d "
-                                "of %s\n", lineno, fn);
-                            o->maxretries = 0;
-                        }
-                    } else if (!strcasecmp(buf, "codecs")) {
-                        ast_parse_allow_disallow(NULL, &o->format, c, 1);
-                    } else if (!strcasecmp(buf, "context")) {
-                        ast_string_field_set(o, context, c);
-                    } else if (!strcasecmp(buf, "extension")) {
-
-                        ast_string_field_set(o, exten, c);
-                    } else if (!strcasecmp(buf, "priority")) {
-                        if ((sscanf(c, "%30d", &o->priority) != 1) ||
-                            (o->priority < 1)) {
-                            ast_log(LOG_WARNING, "Invalid priority at line %d of "
-                                "%s\n", lineno, fn);
-                            o->priority = 1;
-                        }
-                    } else if (!strcasecmp(buf, "retrytime")) {
-                        if ((sscanf(c, "%30d", &o->retrytime) != 1) ||
-                            (o->retrytime < 1)) {
-                            ast_log(LOG_WARNING, "Invalid retrytime at line %d of "
-                                "%s\n", lineno, fn);
-                            o->retrytime = 300;
-                        }
-                    } else if (!strcasecmp(buf, "waittime")) {
-                        if ((sscanf(c, "%30d", &o->waittime) != 1) ||
-                            (o->waittime < 1)) {
-                            ast_log(LOG_WARNING, "Invalid waittime at line %d of "
-                                "%s\n", lineno, fn);
-                            o->waittime = 45;
-                        }
-                    } else if (!strcasecmp(buf, "retry")) {
-                        o->retries++;
-                    } else if (!strcasecmp(buf, "startretry")) {
-                        if (sscanf(c, "%30ld", &o->callingpid) != 1) {
-                            ast_log(LOG_WARNING, "Unable to retrieve calling "
-                                "PID!\n");
-                            o->callingpid = 0;
-                        }
-                    } else if (!strcasecmp(buf, "endretry") || !strcasecmp(buf,
-                        "abortretry")) {
-                        o->callingpid = 0;
-                        o->retries++;
-                    } else if (!strcasecmp(buf, "delayedretry")) {
-                    } else if (!strcasecmp(buf, "setvar") || !strcasecmp(buf,
-                        "set")) {
-                        c2 = c;
-                        strsep(&c2, "=");
-                        if (c2) {
-                            var = ast_variable_new(c, c2, fn);
-                            if (var) {
-                                /*
-                                 * Always insert at the end, because some people
-                                 * want to treat the spool file as a script
-                                 */
-                                if (last) {
-                                    last->next = var;
-                                } else {
-                                    o->vars = var;
-                                }
-                                last = var;
-                            }
-                        } else
-                            ast_log(LOG_WARNING, "Malformed \"%s\" argument. "
-                                "Should be \"%s: variable=value\"\n", buf, buf);
-                    } else if (!strcasecmp(buf, "account")) {
-                        ast_string_field_set(o, account, c);
-                    } else if (!strcasecmp(buf, "alwaysdelete")) {
-                        ast_set2_flag(&o->options, ast_true(c),
-                            SPOOL_FLAG_ALWAYS_DELETE);
-                    } else if (!strcasecmp(buf, "archive")) {
-                        ast_set2_flag(&o->options, ast_true(c),
-                            SPOOL_FLAG_ARCHIVE);
-                    } else {
-                        ast_log(LOG_WARNING, "Unknown keyword '%s' at line %d of "
-                            "%s\n", buf, lineno, fn);
-                    }
-                } else
-                    ast_log(LOG_NOTICE, "Syntax error at line %d of %s\n", lineno,
-                        fn);
-            }
-        }
-        ast_string_field_set(o, fn, fn);
-        if (ast_strlen_zero(o->tech) || ast_strlen_zero(o->dest) ||
-            (ast_strlen_zero(o->app) && ast_strlen_zero(o->exten))) {
-            ast_log(LOG_WARNING, "At least one of app or extension must be "
-                "specified, along with tech and dest in file %s\n", fn);
-            return -1;
-        }
-        return 0;
+    while (last && last->next) {
+        last = last->next;
     }
+
+    while(fgets(buf, sizeof(buf), f)) {
+        lineno++;
+
+        // Trim comments.
+        c = buf;
+        while ((c = strchr(c, '#'))) {
+            if ((c == buf) || (*(c-1) == ' ') || (*(c-1) == '\t'))
+                *c = '\0';
+            else
+                c++;
+        }
+
+        c = buf;
+        while ((c = strchr(c, ';'))) {
+            if ((c > buf) && (c[-1] == '\\')) {
+                memmove(c - 1, c, strlen(c) + 1);
+                c++;
+            } else {
+                *c = '\0';
+                break;
+            }
+        }
+
+        // Trim trailing white space.
+        while(!ast_strlen_zero(buf) && buf[strlen(buf) - 1] < 33)
+            buf[strlen(buf) - 1] = '\0';
+
+        if (!ast_strlen_zero(buf)) {
+
+            // Split the directive into two parts. Command and value.
+            c = strchr(buf, ':');
+            if (c) {
+                *c = '\0';
+                c++;
+                while ((*c) && (*c < 33))
+                    c++;
+
+#if 0
+                printf("'%s' is '%s' at line %d\n", buf, c, lineno);
+#endif
+
+                // Analyze the command, and populate the outgoing struct.
+                if (!strcasecmp(buf, "channel")) {
+                    if ((c2 = strchr(c, '/'))) {
+                        *c2 = '\0';
+                        c2++;
+                        ast_string_field_set(o, tech, c);
+                        ast_string_field_set(o, dest, c2);
+                    } else {
+                        ast_log(LOG_NOTICE, "Channel should be in form "
+                            "Tech/Dest at line %d of %s\n", lineno, fn);
+                    }
+                } else if (!strcasecmp(buf, "callerid")) {
+                    char cid_name[80] = {0}, cid_num[80] = {0};
+                    ast_callerid_split(c, cid_name, sizeof(cid_name),
+                        cid_num, sizeof(cid_num));
+                    ast_string_field_set(o, cid_num, cid_num);
+                    ast_string_field_set(o, cid_name, cid_name);
+                } else if (!strcasecmp(buf, "application")) {
+                    ast_string_field_set(o, app, c);
+                } else if (!strcasecmp(buf, "data")) {
+                    ast_string_field_set(o, data, c);
+                } else if (!strcasecmp(buf, "maxretries")) {
+                    if (sscanf(c, "%30d", &o->maxretries) != 1) {
+                        ast_log(LOG_WARNING, "Invalid max retries at line %d "
+                            "of %s\n", lineno, fn);
+                        o->maxretries = 0;
+                    }
+                } else if (!strcasecmp(buf, "codecs")) {
+                    ast_parse_allow_disallow(NULL, &o->format, c, 1);
+                } else if (!strcasecmp(buf, "context")) {
+                    ast_string_field_set(o, context, c);
+                } else if (!strcasecmp(buf, "extension")) {
+
+                    ast_string_field_set(o, exten, c);
+                } else if (!strcasecmp(buf, "priority")) {
+                    if ((sscanf(c, "%30d", &o->priority) != 1) ||
+                        (o->priority < 1)) {
+                        ast_log(LOG_WARNING, "Invalid priority at line %d of "
+                            "%s\n", lineno, fn);
+                        o->priority = 1;
+                    }
+                } else if (!strcasecmp(buf, "retrytime")) {
+                    if ((sscanf(c, "%30d", &o->retrytime) != 1) ||
+                        (o->retrytime < 1)) {
+                        ast_log(LOG_WARNING, "Invalid retrytime at line %d of "
+                            "%s\n", lineno, fn);
+                        o->retrytime = 300;
+                    }
+                } else if (!strcasecmp(buf, "waittime")) {
+                    if ((sscanf(c, "%30d", &o->waittime) != 1) ||
+                        (o->waittime < 1)) {
+                        ast_log(LOG_WARNING, "Invalid waittime at line %d of "
+                            "%s\n", lineno, fn);
+                        o->waittime = 45;
+                    }
+                } else if (!strcasecmp(buf, "retry")) {
+                    o->retries++;
+                } else if (!strcasecmp(buf, "startretry")) {
+                    if (sscanf(c, "%30ld", &o->callingpid) != 1) {
+                        ast_log(LOG_WARNING, "Unable to retrieve calling "
+                            "PID!\n");
+                        o->callingpid = 0;
+                    }
+                } else if (!strcasecmp(buf, "endretry") || !strcasecmp(buf,
+                    "abortretry")) {
+                    o->callingpid = 0;
+                    o->retries++;
+                } else if (!strcasecmp(buf, "delayedretry")) {
+                } else if (!strcasecmp(buf, "setvar") || !strcasecmp(buf,
+                    "set")) {
+                    c2 = c;
+                    strsep(&c2, "=");
+                    if (c2) {
+                        var = ast_variable_new(c, c2, fn);
+                        if (var) {
+                            /*
+                             * Always insert at the end, because some people
+                             * want to treat the spool file as a script
+                             */
+                            if (last) {
+                                last->next = var;
+                            } else {
+                                o->vars = var;
+                            }
+                            last = var;
+                        }
+                    } else
+                        ast_log(LOG_WARNING, "Malformed \"%s\" argument. "
+                            "Should be \"%s: variable=value\"\n", buf, buf);
+                } else if (!strcasecmp(buf, "account")) {
+                    ast_string_field_set(o, account, c);
+                } else if (!strcasecmp(buf, "alwaysdelete")) {
+                    ast_set2_flag(&o->options, ast_true(c),
+                        SPOOL_FLAG_ALWAYS_DELETE);
+                } else if (!strcasecmp(buf, "archive")) {
+                    ast_set2_flag(&o->options, ast_true(c),
+                        SPOOL_FLAG_ARCHIVE);
+                } else {
+                    ast_log(LOG_WARNING, "Unknown keyword '%s' at line %d of "
+                        "%s\n", buf, lineno, fn);
+                }
+            } else
+                ast_log(LOG_NOTICE, "Syntax error at line %d of %s\n", lineno,
+                    fn);
+        }
+    }
+    ast_string_field_set(o, fn, fn);
+    if (ast_strlen_zero(o->tech) || ast_strlen_zero(o->dest) ||
+        (ast_strlen_zero(o->app) && ast_strlen_zero(o->exten))) {
+        ast_log(LOG_WARNING, "At least one of app or extension must be "
+            "specified, along with tech and dest in file %s\n", fn);
+        return -1;
+    }
+    return 0;
+}
+```
 
 The first thing it seems to do (after storing some Asterisk variables for later
 usage) is begin parsing the call file, 256 bytes at a time. One thing we
@@ -304,6 +313,7 @@ minimum directives have been specified.
 
 If everything worked OK, and the call file can be spooled, then `apply_outgoing`
 will return 0, otherwise, it’ll return -1.
+
 
 ## What Did We Learn?
 
@@ -349,6 +359,7 @@ a few things.
 
     `Channel: blah NextDirective: blah ...`
 
+
 ## Conclusion
 
 I’m hoping to do a few more articles that demistify other parts of Asterisk in
@@ -359,6 +370,7 @@ depth.
 
 If you want to keep up with future articles, and random other thoughts,
 subscribe to my
+
 
   [pycall]: http://pycall.org/
   [latest Asterisk release]: http://www.asterisk.org/downloads
