@@ -28,6 +28,7 @@ at the desired time each day, and you’ll get used to it quickly.
 There are a million websites (google says there are \~7,570,000) with different
 suggestions for hacking your sleep cycle.
 
+
 ## Why Most Sleep Hacks Don’t Work
 
 Most sleep hacks don’t work because they require a lot of hard work and
@@ -41,6 +42,7 @@ people, that is not a viable option.
 
 Instead of trying to ‘hack’ your sleep, I recommend a more simple, natural
 approach:
+
 
 ## Go Camping
 
@@ -59,6 +61,7 @@ to your physician about your sleep woes.
 Thirdly, after you come back from your short camping trip, you’ll not easily
 fall back into your old schedule. You’d be surprised how easily the human body
 can adjust to natural day / night cycles, and how long those effects can last.
+
 
 ## How it Works
 
@@ -89,6 +92,7 @@ drops, you won’t feel comfortable until you’re snuggled into a sleeping bag 
 keep warm. When the sun comes up in the morning and you start to roast in your
 sleeping back, your body will quickly adjust and help you out of bed.
 
+
 ## My Experiment
 
 My wife and I just got back from a short three day camping trip with some of my
@@ -100,6 +104,7 @@ I’ve been a night owl as long as I can remember, usually falling asleep around
 or 4AM, and waking up at 10AM or so depending on my daily responsibilities. So,
 one goal of this trip was to document my sleep schedule, and see whether or not
 it is possible to reset one’s internal clock over a 3 day 2 night trip.
+
 
 ### Friday
 
@@ -121,6 +126,7 @@ It’s dark, we’re tired, so we decide to go to bed. It’s around 9PM, and it
 like it’s 2AM. It’s probably 50F outside, and with the cold weather it feels
 especially good to be in a warm sleeping bag :)
 
+
 ### Saturday
 
 The sun comes up early, probably 6 or 7AM, and I hear birds chirping loudly
@@ -140,6 +146,7 @@ tent and play some cards before falling asleep.
 It was extremely easy to fall asleep. The cold weather outside made my sleeping
 bag feel all the more comfortable, and I just drifted off in several minutes.
 
+
 ### Sunday
 
 I wake up a bit before 8AM, listening to birds chirping and feeling the sun on
@@ -149,11 +156,13 @@ home.
 After getting home and catching up on emails, I start feeling tired again, and
 doze off at 11PM with no problems.
 
+
 ### This Entire Week
 
 So far, I’ve been going to bed at around 11PM, and waking up at 8AM every day
 this week, with no issues. I feel great. I haven’t had any problems going to bed
 or waking up early.
+
 
 ## What Will You Do?
 
@@ -165,6 +174,7 @@ In addition to resetting your sleep schedule, you’ll also get out of the house
 for a bit, and hopefully de-stress yourself for a couple days.
 
 What do you think?
+
 
   [Hacker News]: http://news.ycombinator.com/
   [Wisebread]: http://www.wisebread.com/how-to-naturally-reset-your-sleep-cycle-overnight/
