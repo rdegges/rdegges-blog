@@ -27,4 +27,5 @@ both a must for me, as:
 Anyhow, now that I’ve got my platform ready for writing again, I will continue
 updating my site and posting cool information.
 
+
   [Posterous]: http://posterous.com/

@@ -14,26 +14,28 @@ programs. I wrote a really small sample program that runs a test (if it doesn’
 work, please leave a comment with your compiler as I’d be interested to know if
 it doesn’t work on all platforms:
 
-    /*
-     * This example program demonstrates a weird way to reference array
-     * elements in C. All credit goes to the Stack Overflow 'Strangest language
-     * feature' discussion page:
-     * http://stackoverflow.com/questions/1995113/strangest-language-feature
-     */
+``` c
+/*
+ * This example program demonstrates a weird way to reference array
+ * elements in C. All credit goes to the Stack Overflow 'Strangest language
+ * feature' discussion page:
+ * http://stackoverflow.com/questions/1995113/strangest-language-feature
+ */
 
-    #include <stdio.h>
+#include <stdio.h>
 
-    int main(int argc, char **argv) {
+int main(int argc, char **argv) {
 
-        int arr[10];
+    int arr[10];
 
-        arr[0] = 1;
-        printf("arr[0] = %d\n", arr[0]);
-        printf("0[arr] = %d\n", 0[arr]);
+    arr[0] = 1;
+    printf("arr[0] = %d\n", arr[0]);
+    printf("0[arr] = %d\n", 0[arr]);
 
-        return 0;
+    return 0;
 
-    }
+}
+```
 
 The really interesting thing about this, is why it works. On the Stack Overflow
 discussion page for Strangest language feature, the user Michel explains why it
