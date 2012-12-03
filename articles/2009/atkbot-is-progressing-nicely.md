@@ -1,7 +1,8 @@
-Title: atkbot is Progressing Nicely
-Date: 2009-12-12 05:00
 Author: Randall Degges
+Date: 2009-12-12 05:00
+Slug: atkbot-is-progressing-nicely
 Tags: programming, irc
+Title: atkbot is Progressing Nicely
 
 
 My IRC takeover bot, atkbot, is progressing nicely. Some of the features it now
