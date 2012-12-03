@@ -8,6 +8,7 @@ Last night I replaced the old projectb14ck with a newer, more minimalistic
 backend and frontend. In this post I’m going to explain a bit about the move,
 why it was needed, and my experiences along the way.
 
+
 ## History of projectb14ck
 
 projectb14ck has been around for almost 5 years now. When it first came online,
@@ -40,6 +41,7 @@ wordpress, I started writing again, and publishing several articles.
 
 Which brings us to the present…
 
+
 ## Decision to Move from Wordpress to Jekyll
 
 One of the things that really worried me about using wordpress was the security
@@ -68,6 +70,7 @@ As it turns out, static site generators are really awesome:
 So after checking out Jekyll for myself, I knew I had found a good backend to
 switch to.
 
+
 ## The Moving Process
 
 Moving from wordpress to Jekyll was surprisingly easy. I simply dumped my
@@ -76,6 +79,7 @@ nothing serious), then set up a two line configuration file.
 
 Deploying was even easier. All I had to do was copy my `_site/` files to my
 webhost, and bam, everything instantly worked.
+
 
 ## Jekyll Automation
 
@@ -89,6 +93,7 @@ or configuration change, I simply push to my Github public repo.
 On my webhost, I setup a cronjob to perform a `git pull` hourly, to pull in any
 new changes that I make. This way, the entire process is fully automated.
 
+
 ## Final Thoughts
 
 projectb14ck has had a long history, and has switched from format-to-format over
@@ -97,6 +102,7 @@ I’ve finally found a suitable backend for projectb14ck.
 
 What do you think of the new site? [Drop me a line][] with any comments or
 suggestions.
+
 
   [milworm]: http://www.milw0rm.com/
   [packetstorm]: http://packetstormsecurity.org/
