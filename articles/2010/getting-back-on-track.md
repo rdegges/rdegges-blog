@@ -3,7 +3,6 @@ Date: 2010-11-26 23:27
 Author: Randall Degges
 
 
-
 Hi everyone,
 
 As you may have noticed, I haven't been writing much the past few months. I've
