@@ -22,20 +22,22 @@ available on most linux systems already).
 
 Here’s are two sample XML responses that our server may send to the clients:
 
-    <?xml version="1.0" encoding="utf-8"?>
-    <response version="1.0">
-        <code>200</code>
-        <id>50</id>
-    </response>
+``` xml
+<?xml version="1.0" encoding="utf-8"?>
+<response version="1.0">
+    <code>200</code>
+    <id>50</id>
+</response>
 
 
-    <?xml version="1.0" encoding="utf-8"?>
-    <response version="1.0">
-        <code>400</code>
-        <errors>
-            <error>This API call requires a HTTP POST.</error>
-        </errors>
-    </response>
+<?xml version="1.0" encoding="utf-8"?>
+<response version="1.0">
+    <code>400</code>
+    <errors>
+        <error>This API call requires a HTTP POST.</error>
+    </errors>
+</response>
+```
 
 The first XML document shows a successful response. The code tag contains an
 HTTP 200 OK code, which means the operation succeeded, and the id tag contains
@@ -48,16 +50,18 @@ to first figure out what code was returned.
 
 Let’s write some python-lxml code to quickly output the value of the code tag:
 
-    from lxml import etree
+``` python
+from lxml import etree
 
-    response = 'some xml response here'
+response = 'some xml response here'
 
-    try:
-        doc = etree.XML(response.strip())
-        code = doc.findtext('code')
-        print code
-    except etree.XMLSyntaxError:
-        print 'XML parsing error.'
+try:
+    doc = etree.XML(response.strip())
+    code = doc.findtext('code')
+    print code
+except etree.XMLSyntaxError:
+    print 'XML parsing error.'
+```
 
 In our code, we first build a XML document from our XML response string, then
 use the `findtext()` method (provided by LXML) to retrieve the value of the code
@@ -66,28 +70,30 @@ any value you want from the XML document.
 
 In my client code, the program flow looks something like:
 
-    from sys import exit
-    from lxml import etree
+```
+from sys import exit
+from lxml import etree
 
-    response = 'some xml response here'
+response = 'some xml response here'
 
-    try:
-        doc = etree.XML(response.strip())
-        code = doc.findtext('code')
-        print code
-    except etree.XMLSyntaxError:
-        print 'XML parsing error.'
-        exit(1)
+try:
+    doc = etree.XML(response.strip())
+    code = doc.findtext('code')
+    print code
+except etree.XMLSyntaxError:
+    print 'XML parsing error.'
+    exit(1)
 
-    if code == '200':
-        # store the id somewhere
-        id = doc.findtext('id')
-    else:
-        # handle errors, do more stuff
-        print doc.findtext('error')
-        exit(1)
+if code == '200':
+    # store the id somewhere
+    id = doc.findtext('id')
+else:
+    # handle errors, do more stuff
+    print doc.findtext('error')
+    exit(1)
 
-    exit(0)
+exit(0)
+```
 
 This lets me perform error checking on the XML response to make sure that
 everything went smoothly. If something goes wrong during the API call, then I
@@ -99,5 +105,6 @@ tutorial][]. It is very verbose, but contains excellent examples which clearly
 demonstrate how to both parse and generate XML.
 
 So the next time you’re looking for a quick way to process XML, check out LXML.
+
 
   [official tutorial]: http://codespeak.net/lxml/tutorial.html
