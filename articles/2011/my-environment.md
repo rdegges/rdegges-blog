@@ -79,7 +79,7 @@ desktop effects (if you've got a decent GPU), and is highly customizable.
 
 Here are some random screenshots of my desktop:
 
-![blah][![Screenshot][]]
+![Screenshot][]
 
 ![Screenshot][1]
 
@@ -275,7 +275,6 @@ post. If you've done a writeup on your desktop environment, I'd love to see it.
   [HTC G2]: http://www.amazon.com/gp/product/B004AIRLDC?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B004AIRLDC
     "HTC G2"
   [Desktop]: http://getfile7.posterous.com/getfile/files.posterous.com/temp-2011-02-12/lpBasnByJBJmemvtEgpxwpIyoIcgoGJJldfyljnBJCcbjJJukgCBjiBIHbwi/IMG_20110212_093354.jpg.scaled696.jpg
-  [blah]: /images/2011/desktop-screenshot1.png
   [Screenshot]: http://getfile6.posterous.com/getfile/files.posterous.com/temp-2011-02-12/JuAwwIqbgyeDpnDbuDfaoswiDsDgryaaxzyDrJeeFBujmAjGloFvrDemEbdu/screenshot.png.scaled696.png
   [1]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2011-02-12/pgxHeomfxousiArfjkFFieErggCCmHdDClvpHtesdIcsnrmAkjbahFyppggC/screenshot.png.scaled696.png
   [2]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2011-02-12/leafuihyImnfHcGjIEwcmcduvBpuogrCIwhBDbDpCtacCeAaxhxEqGDthAjI/screenshot.png.scaled696.png
