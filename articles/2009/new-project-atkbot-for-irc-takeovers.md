@@ -1,7 +1,8 @@
-Title: New Project atkbot for IRC Takeovers
-Date: 2009-12-05 06:00
 Author: Randall Degges
+Date: 2009-12-05 06:00
+Slug: new-project-atkbot-for-irc-takeovers
 Tags: programming, irc
+Title: New Project atkbot for IRC Takeovers
 
 
 A little over a week ago I started working on a new project for fun in my
