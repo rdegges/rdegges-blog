@@ -24,7 +24,7 @@ has are:
 -   Has a customizable part message which it will use when instructed to leave a
     channel.
 -   Supports variable command prefixes for bot operators to use. You can put in
-    any string: (\~, !, etc.)
+    any string: (~, !, etc.)
 -   If the bot’s nick is already taken, it will automatically choose another
     nick.
 -   Alert’s all bot operators via channel invite and private message when a
