@@ -7,7 +7,7 @@ Tags: asterisk
 One huge expense that most companies (small and large) have to absorb at one
 point or another is the cost of a phone system (PBX). PBX systems are extremely
 expensive (even systems that only support a few users can cost upwards of
-\$10,000 USD).
+$10,000 USD).
 
 As most companies rely on phone communications, this expense cannot be avoided.
 The benefits of having a PBX are numerous and necessary:
@@ -24,6 +24,7 @@ The benefits of having a PBX are numerous and necessary:
 So how can you save money for your company? Switch to [Asterisk][], the open
 source PBX.
 
+
 ## What is Asterisk?
 
 Asterisk is an extremely popular open source PBX system. It costs nothing, can
@@ -35,12 +36,14 @@ documentation, and tons of developers and consultants who can help you set it up
 So let’s get down to business. Here are 5 ways that Asterisk can save your
 company money:
 
+
 ## 1. It’s Free
 
 Obviously, the factor which drives most companies to ditch their current PBX is
 cost. Asterisk is free, and it is hard to justify paying \$10,000 or more for a
 small office phone system when the competition offers better functionality,
 reliability, and costs nothing.
+
 
 ## 2. Avoid Licensing
 
@@ -66,6 +69,7 @@ Just buy another phone, and plug it into the network.
 If you need to support video calls, no problem. Just purchase a video phone, and
 plug it into the network.
 
+
 ## 3. Make Your Company Portable
 
 Let’s face it, traditional business is dying out. With high-speed internet
@@ -81,6 +85,7 @@ Supporting remote workers couldn’t be easier in Asterisk. Just ship your
 employees a VoIP phone with the IP of your Asterisk PBX programmed in, and
 they’re instantly online. All they have to do is plug their phone into their
 network and they’re ready to work.
+
 
 ## 4. Custom Functionality
 
@@ -109,6 +114,7 @@ it is their turn in line–there’s an app for that!
 And if you can’t find an app for what you need, you can always build it
 yourself, or hire an Asterisk developer for cheap online.
 
+
 ## 5. Compete With the Big Players
 
 Asterisk is a game changing tool for small and medium businesses. It allows your
@@ -122,6 +128,7 @@ customers call a business, and wait for 50 rings before hearing a choppy
 sounding answering machine, they are annoyed, frustrated, and far less likely to
 return.
 
+
 ## Conclusion
 
 Asterisk is a great tool for companies looking to save money, and improve their
@@ -129,6 +136,7 @@ communications infrastructure. It has all the functionality (and more) that
 large PBX companies (Cisco, Avaya, Shoretel) advertise, and costs nothing.
 
 If you want to learn more, check out [Asterisk’s official website][Asterisk].
+
 
   [Asterisk]: http://www.asterisk.org/
   [Shoretel PBX system price list [pdf]]: http://www.peppm.org/Products/ShoreTel/price.pdf
