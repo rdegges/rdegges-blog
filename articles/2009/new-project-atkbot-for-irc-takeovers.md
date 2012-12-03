@@ -5,7 +5,7 @@ Tags: programming, irc
 
 
 A little over a week ago I started working on a new project for fun in my
-freetime: [atkbot][].
+free time: atkbot.
 
 atkbot is a cross platform IRC bot written in Java, designed to takeover IRC
 channels.
@@ -37,5 +37,3 @@ bit. Please don’t use it for anything truly evil :)
 
 I’ll post some updates once the first version is released. If you have any
 suggestions or features that you think should be added, please let me know!
-
-  [atkbot]: http://github.com/comradeb14ck/atkbot
