@@ -9,11 +9,13 @@ doing a lot of thinking about happiness in my life. I won’t pretend to know wh
 makes everyone happy, as I’m certain that it is different for every individual,
 but I believe that I’ve discovered what makes me happy: simplicity.
 
+
 ## What My Happiness Isn’t
 
 To fully explain what my happiness is (as it may be hard for some people to
 understand), I’ll start by explaining several things that my happiness
 distinctly isn’t.
+
 
 ### ‘Fuck You’ Money
 
@@ -47,11 +49,12 @@ already own everything I want.
 My only luxury purchases are books (but I’ve got a lot of catching up to do, so
 won’t buy any others for a while).
 
+
 ### Short Workweeks
 
-I’m a big fan of books. I read everyday, and love it. Most of the [books I
-read][] are tech related, but I also enjoy business and lifestyle books. I can’t
-count how many of them preach that a good life is a free life (away from work).
+I’m a big fan of books. I read everyday, and love it. Most of the books I read
+are tech related, but I also enjoy business and lifestyle books. I can’t count
+how many of them preach that a good life is a free life (away from work).
 
 I also can’t seem to escape this dogma when talking to friends, co-workers, and
 relatives: nobody wants to work.
@@ -62,6 +65,7 @@ a new problem, and, along the way, learn new stuff.
 
 I’m not saying that I want to work 24 hours a day, 7 days a week, 365 days a
 year—I *highly* value time off—but I do enjoy working.
+
 
 ### Religion
 
@@ -84,11 +88,13 @@ Living without religion, and not trying to achieve acceptance from a creator has
 been a very liberating experience in my life, and constantly reminds me how
 lucky I am to be here, and how precious every day is.
 
+
 ## What My Happiness Is
 
 The things that truly make me happy are simple pleasures. Some of them I’ve only
 recently come to terms with, and some have been clear to me for as long as I can
 remember.
+
 
 ### Silence
 
@@ -105,6 +111,7 @@ It seems to accentuate the beauty of the world. The sun quietly setting over the
 ocean, the sun rising over the mountains, the short time I lie in bed before
 falling asleep—they all make me happy.
 
+
 ### Love
 
 I got married recently (April 3, 2010) to my high school sweetheart. I’ve loved
@@ -117,6 +124,7 @@ overall happiness.
 
 Falling asleep together at night, waking up together in the morning, and talking
 to each other throughout the day all make life so much better.
+
 
 ### Nature
 
@@ -134,6 +142,7 @@ for a few minutes each day and take a deep breath.
 Feeling that I’m a part of something much larger and more important than myself
 is a good feeling. It makes me feel happy, peaceful, and relaxed.
 
+
 ## Simplicity
 
 I like to think that I lead a simple life. I eat, sleep, work, learn, and play.
@@ -146,11 +155,12 @@ successful people were able to obtain, but I’ve come to realize the opposite.
 My happiness has been defined by the removal of unnecessary and distracting
 things, as opposed to the collection and incurrence of more.
 
+
 ## What About You?
 
 What makes you happy? I’d love to know.
 
+
   [HackerNews]: http://news.ycombinator.com/
   [Paul Graham]: http://www.paulgraham.com/
   [Amazon]: http://www.amazon.com/gp/redirect.html?ie=UTF8&location=http%3A%2F%2Fwww.amazon.com%2F&tag=projectb14ck-20&linkCode=ur2&camp=1789&creative=390957
-  [books I read]: http://projectb14ck.org/pages/books-18
