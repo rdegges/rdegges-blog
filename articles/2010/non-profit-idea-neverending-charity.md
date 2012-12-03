@@ -15,6 +15,7 @@ myself, or cross them off my list as someone-else-already-implemented.
 My first idea (I’ve had this floating around in the back of my head for quite
 some time now) is called…
 
+
 ## Neverending Charity
 
 Neverending Charity is a non-profit organization that accepts monetary
@@ -35,6 +36,7 @@ donated funds can be given away. It will be self-sustaining (never have to worry
 about recessions, or anything like that), and will be able to provide an
 eternity of awesomeness without worry.
 
+
 ## The Problem With Current Charities
 
 I really love charities. Any group that can really change the world is a good
@@ -52,6 +54,7 @@ can’t be automated can be done (for the most part) online. Creating facebook f
 pages, twitter accounts, and performing SEO optimization on the website can all
 be done with very little effort and cost.
 
+
 ## The Math
 
 Obviously, the downside to Neverending Charity is that you aren’t generating
@@ -64,17 +67,17 @@ high-yield savings account is 2%. This is an unrealistically low number given
 the amount of money that we’ll be collecting interest on, but we’ll use it for
 conservative purposes.
 
-**Money in Bank –\> Monthly Donations**
+**Money in Bank –> Monthly Donations**
 
-\$10,000 –\> \$16.67
+$10,000 –> $16.67
 
-\$100,000 –\> \$166.67
+$100,000 –> $166.67
 
-\$1,000,000 –\> \$1,666.67
+$1,000,000 –> $1,666.67
 
-\$10,000,000 –\> \$16,666.67
+$10,000,000 –> $16,666.67
 
-\$1,000,000,000 –\> \$1,666,666.67
+$1,000,000,000 –> $1,666,666.67
 
 The numbers required to make a big impact are large, but don’t forget—once
 people donate, their donation will live on forever and continuously increase the
@@ -82,6 +85,7 @@ monthly donation account.
 
 Since Neverending Charity will last forever, the cumulative effort of all
 contributers will make a large difference when combined.
+
 
 ## Making it Interesting
 
@@ -103,6 +107,7 @@ a larger audience of contributers, and collectively do more good in the world.
 Democratizing the charity process is something I haven’t seen done before, and
 could be an extremely popular premise.
 
+
 ## Wrap Up
 
 So, in a nutshell, Neverending Charity will be a non-profit group that leverages
@@ -111,4 +116,5 @@ a better place, one month at a time—forever.
 
 What do you think?
 
-  [Moleskine notebook]: http://www.amazon.com/gp/product/8883701127?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=8883701127
+
+  [Moleskine notebook]: http://www.amazon.com/gp/product/8883701127/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=8883701127&linkCode=as2&tag=rdegges-20
