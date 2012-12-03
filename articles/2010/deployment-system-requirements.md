@@ -127,5 +127,5 @@ saved hundreds of man hours with some fairly simple automation.
 Sometime in the next week or so I'll throw up another article on our deployment
 system, and dive into some technical details.
 
-  [git flow]: http://jeffkreeftmeijer.com/2010/why-arent-you-using-git-flow/
-    "git flow"
+
+  [git flow]: http://jeffkreeftmeijer.com/2010/why-arent-you-using-git-flow/ "git flow"
