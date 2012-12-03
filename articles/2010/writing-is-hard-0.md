@@ -3,7 +3,6 @@ Date: 2010-02-13 04:00
 Author: Randall Degges
 
 
-
 One thing I am absolutely horrible at is writing. I may be able to throw a few
 sentences together, but I am absolutely horrible at writing. Why is that? Mostly
 because I’m afraid. There are so many things I’d like to write about, new
