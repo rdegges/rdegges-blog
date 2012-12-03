@@ -19,7 +19,8 @@ quite stupid writing this; however, since this has made such a large impact on
 my code quality and programming mentality, I figured I would share it despite my
 shame.
 
-Have a "Done" List
+
+## Have a "Done" List
 
 One of the greatest productivity tricks I've learned has been this: **always
 have a "done" list**.
@@ -49,6 +50,7 @@ every time I touch code--through the process of trying to meet each of my "done"
 requirements, I write much better code than I would otherwise.
 
 **Do you have a "done" list? If so, what's on it?**
+
 
   [Code\_wolf]: ./images/89413031-0-code_wolf.jpg.scaled696.jpg
   [GitHub]: https://github.com/ "GitHub"

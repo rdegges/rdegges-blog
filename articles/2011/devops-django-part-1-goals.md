@@ -31,7 +31,8 @@ my problems were, what solutions I've found, and what problems still exist--in
 hopes that my experiences will help guide other Djangonauts looking for
 a *better way*.
 
-Deployment Goals
+
+## Deployment Goals
 
 To kickstart this article, I'd like to explain where I'm coming from: what I do,
 what I value, and what my deployment goals are--as these are all crucial to the
@@ -82,6 +83,7 @@ In the next part of this series, I'll explain my company's product technology in
 detail, highlighting the pain points of deployment.
 
 **EDIT**: I finished Part 2, so you can continue reading [here][].
+
 
   [Deploying Django]: http://rdegges.com/deploying-django "Deploying Django"
   [Django]: https://www.djangoproject.com/ "Django"

@@ -7,7 +7,8 @@ Tags: programming
 There are a lot of differences between programming, and programming
 professionally. The most notorious of which, is deadlines.
 
-Deadlines
+
+## Deadlines
 
 When you're writing code for yourself, you can spend as much (or as little time)
 on it as you please--but when you're writing code for *other* people, you've got
@@ -31,7 +32,8 @@ hackery you have to do when writing code on a deadline. They aren't necessarily
 quick-fixes, but can certainly be helpful to anyone who needs to consistently
 push out top-notch code, day after day.
 
-Rule 1: Setup Continuous Deployment Before Writing ANY Code
+
+## Rule 1: Setup Continuous Deployment Before Writing ANY Code
 
 This is a tip I picked up from [The Pragmatic Programmer][] book (definitely
 required reading for any programmer). Always, and I mean always, setup your
@@ -51,7 +53,8 @@ It may not seem like much of a time saver--but if you consider the amount of
 time it takes, day after day, to copy your code over and do testing manually, it
 can quickly add up and save hours of time each month.
 
-Rule 2: Write Tests First
+
+## Rule 2: Write Tests First
 
 If you've never heard of test-driven development (TDD), please read the
 [wikipedia article][] on it immediately. If someone is paying you to write
@@ -79,7 +82,8 @@ Writing tests certainly takes time and effort, but can save time in the long run
 by avoiding emergency bug-fixes, system crashes, etc. Especially when you're on
 tight deadlines, you don't want the added stress and worry of buggy code.
 
-Rule 3: Be Transparent
+
+## Rule 3: Be Transparent
 
 Transparency can be difficult to achieve (depending on your work environment),
 but can be greatly beneficial.
@@ -98,7 +102,8 @@ maintaing clear communication and transparency with your clients, and getting
 them involved in the process, they'll be more understanding of your work, and
 they'll feel happier about the product they're getting developed.
 
-Rule 4: Maintain Daily TODO Lists
+
+## Rule 4: Maintain Daily TODO Lists
 
 Time management is definitely out of the scope of this article, but I will
 mention that maintaining a daily TODO list is one of the best things you can do
@@ -127,7 +132,8 @@ Having a clear list of actionable items gives you the power to focus on a single
 task at a time, without having to balance 100 or so next-steps in your head.
 Writing software is complex enough already, don't make your life more difficult!
 
-Rule 5: Do the Right Thing
+
+## Rule 5: Do the Right Thing
 
 There will undoubtedly be circumstances that arise which make you nervous and
 uncomfortable. Did you procrastinate yesterday and skip writing the unit tests
@@ -139,7 +145,8 @@ cases, or even delay a deadline--do it. As a professional engineer, it's your
 job to deliver working code consistently, even if that means you've got to make
 tough choices.
 
-Conclusion
+
+## Conclusion
 
 Being a software developer is no easy task. Our world is filled with constant
 challenge and hardship, and only our discipline and preparedness can help us
@@ -149,7 +156,6 @@ never giving in to anything less.
 
 You can do it.
 
- 
 
   [The Pragmatic Programmer]: http://www.amazon.com/gp/product/020161622X/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=020161622X
     "The Pragmatic Programmer"

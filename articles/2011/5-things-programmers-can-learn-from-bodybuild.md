@@ -3,7 +3,6 @@ Date: 2011-03-26 21:45
 Author: Randall Degges
 
 
-
 ![Jay-cutler][]
 
 Programming is hard. Whether you do it for fun, for money, for fun & money, or
@@ -18,7 +17,8 @@ better.
 
 The sport of bodybuilding can teach us (as programmers) a lot about ourselves.
 
-**1. Nothing Great Comes Easily**
+
+## 1. Nothing Great Comes Easily
 
 In life, nothing great comes easily. It doesn't matter how much of an advantage
 or disadvantage you have--everyone must work for their success and fight to get
@@ -32,7 +32,8 @@ practice. There are no perfect programmers, there are only programmers who
 continue working hard to become better, faster, and more creative. If you want
 to be a better programmer, you need to program, every single day.
 
-**2. Be Consistent**
+
+## 2. Be Consistent
 
 Consistency is the largest ingredience in success. Bodybuilders spend years
 (literally) working out every single day. Doing lifts, cardio, eating proper
@@ -46,7 +47,8 @@ not be consistent is to commit suicide. It may be hard to wake up every morning
 and program, or hit the gym, but that dedication is what pushes you past your
 natural limits and helps your mind and body continue to grow.
 
-**3. Know What You Want**
+
+## 3. Know What You Want
 
 One of the most difficult things to figure out is what you really want in life.
 Do you want to be the strongest person alive? The most successful programmer in
@@ -67,7 +69,8 @@ want to be able to build, and have a scale to measure your success along the
 way. Having clear goals gives you something to work towards everyday and helps
 keep you focused.
 
-**4. Learn From Those Around You**
+
+## 4. Learn From Those Around You
 
 Don't ignore those around you. Use knowledge you get from other people to
 increase your effecitveness in whatever you do.
@@ -95,7 +98,8 @@ Once you've learned to accept outside influence you can develop your skills much
 faster and more effectively, but when you stop absorbing knowledge you lose this
 edge.
 
-**5. Always Go For the Win**
+
+## 5. Always Go For the Win
 
 Bodybuilders need to break through mental and physical barriers everyday. In
 order to win competitions, they go to extroadinary lengths that most people
@@ -121,5 +125,6 @@ of technical ability.
 
 Always keep pushing yourself beyond your limits, and you will achieve great
 things.
+
 
   [Jay-cutler]: http://getfile7.posterous.com/getfile/files.posterous.com/temp-2011-03-20/halugyfJtHEtmtdGsagifkoJEvjJufCJCyCAHtFmtrnwaunxtidAbIdfbCik/jay-cutler.jpg.scaled696.jpg

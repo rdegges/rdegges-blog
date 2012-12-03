@@ -41,6 +41,7 @@ project better.
 
 If you'd like to check it out, visit the [github project page][].
 
+
   [Django]: http://www.djangoproject.com/ "Django"
   [Flask]: http://flask.pocoo.org/ "Flask"
   [django-sentry]: https://github.com/dcramer/django-sentry "django-sentry"

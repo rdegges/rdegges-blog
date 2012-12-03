@@ -261,6 +261,7 @@ Those are my tools in a nutshell. I'm specifically not including my coding tools
 here (hudson, fabric, python, etc.) because that should really be in a separate
 post. If you've done a writeup on your desktop environment, I'd love to see it.
 
+
   [Kubuntu 10.10 64-bit]: http://www.kubuntu.org/ "Kubuntu 10.10 64-bit"
   [Logitech Illuminated Keyboard]: http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=projectb14ck-20&o=1&p=8&l=as4&m=amazon&f=ifr&asins=B001F51G16
     "Logitech Illuminated Keyboard"

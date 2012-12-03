@@ -57,8 +57,6 @@ everything there is to know.
 As I begin to build my new life, I'll be sure to write about it. The adventures
 are just beginning!
 
- 
 
   [Wolfenstein 3D]: http://en.wikipedia.org/wiki/Wolfenstein_3D "Wolfenstein 3D"
-  [one-time pad]: http://en.wikipedia.org/wiki/One-time_pad
-    "one-time pad encryption"
+  [one-time pad]: http://en.wikipedia.org/wiki/One-time_pad "one-time pad encryption"

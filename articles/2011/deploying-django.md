@@ -17,7 +17,8 @@ Sure, there are excellent *best practices* that a few **awesome** programmers
 follow, but for the majority of users, the best practices are just too complex
 and time consuming to setup and administer for typical site.
 
-Real World Deployment
+
+## Real World Deployment
 
 Let's pretend, for a moment, that you're an intermediate Django programmer. You
 spend 8 hours a day working on a single project that is built purely in python /
@@ -132,7 +133,8 @@ work that lays ahead. You've barely scratched the surface as to the tools,
 methods, and skills necessary to manage and operate even the *simplest* of
 production sites. Your work is cut out for you.
 
-The Truth
+
+## The Truth
 
 If I've learned anything in the past two years working with production Django
 deployments, it's that **deployment is fucking *hard***. Every real project I've
@@ -155,7 +157,8 @@ currently sufficient tools, methods, and practices that allow Django developers
 to build simple, robust, and scalable applications. However, the community as a
 whole lacks direction and confidence in deployment.
 
-What Django Needs
+
+## What Django Needs
 
 In order to fix the deployment problems in the Django community, several things
 need to happen. If community members realize the importance of this problem, it
@@ -216,7 +219,8 @@ infrastructure. If it was as easy to deploy an auto-scaling distributed cache as
 it was to start a Django app on the command line, Django developers everywhere
 would be much happier.
 
-I Have a Dream
+
+## I Have a Dream
 
 In my dream, all Django developers (from the newest to the most experienced) can
 rapidly build their web apps, knowing that production deployment is at most 10

@@ -52,7 +52,8 @@ situations, with very heated debates on both sides of the table. Since I see the
 same patterns emerge over and over again, I figured now is as good a time as any
 to throw my thoughts out there into the mix, so here it goes.
 
-Technical Guys are Fucking SMART
+
+## Technical Guys are Fucking SMART
 
 The kind of techies who work at startups, read Hacker News, and build side
 projects on their free time are *SMART*. The amount of passion, dedication,
@@ -96,7 +97,8 @@ completely solo. In comparison to learning the vast amounts of technical
 knowledge they've already acquired--learning business and marketing concepts are
 astoundingly simple in comparison.
 
-Business Guys... Not So Much
+
+## Business Guys... Not So Much
 
 As a non-technical business guy, your knowledge is at best extremely limited.
 You're at a severe disadvantage:
@@ -116,7 +118,8 @@ Regardless of whether you exhibit useful character traits, you are lacking the
 necessary skills to build solutions to your problems. This means that you are
 essentially replacable by technology.
 
-No Incentive
+
+## No Incentive
 
 What it comes down to is that technical guys really don't have any incentives to
 work with business guys. Let's say that in a best-case scenario, a business guy:
@@ -156,7 +159,8 @@ to problems without business guys, as the engineers will have:
 -   The smarts to market, grow, and continuously evolve the solution to make it
     more successful over time.
 
-What to Do
+
+## What to Do
 
 Although this post comes off as extremely hostile towards "business guys", that
 is really not my intention. Instead, I hope to give "business guys" some true
@@ -173,5 +177,6 @@ TLDR;
 
 If you're a "business guy", instead of trying to find a "tech guy" to work with,
 consider working on yourself to become a "tech guy".
+
 
   [Hacker News]: http://news.ycombinator.com/ "Hacker News"

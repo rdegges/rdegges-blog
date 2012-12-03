@@ -79,6 +79,7 @@ environment, completely isolated from the rest of your system.
 
 Ideally, you should be using virtualenv with the infamous [virtualenvwrapper][].
 
+
   [Pythonistas]: http://python.net/~goodger/projects/pycon/2007/idiomatic/presentation.html
     "Code Like a Pythonista"
   [Github]: https://github.com/ "Github"

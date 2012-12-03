@@ -61,10 +61,8 @@ Try harnessing that fire inside of you, and practice *absolute victory* on a
 project sometime this week. Be merciless with your execution. Let me know how it
 goes, I'm very interested to see what results you have.
 
- 
 
   [Barbarian]: http://getfile8.posterous.com/getfile/files.posterous.com/temp-2012-04-25/iJbiagsrAysnkHdobbCzAJEJwaFcalGtisgEhcgyAqpzAylbwxIwrursmHuf/barbarian.jpg.scaled696.jpg
-  [Ghengis Khan and the Making of the Modern World]: http://www.amazon.com/gp/product/0609809644/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=0609809644
-    "Ghengis Khan and the Making of the Modern World"
+  [Ghengis Khan and the Making of the Modern World]: http://www.amazon.com/gp/product/0609809644/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=0609809644 "Ghengis Khan and the Making of the Modern World"
   [Ghengis Khan]: http://en.wikipedia.org/wiki/Ghengis_Khan "Ghengis Khan"
   [Mongols]: http://en.wikipedia.org/wiki/Mongols "Mongols"

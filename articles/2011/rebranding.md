@@ -3,7 +3,6 @@ Date: 2011-05-23 05:00
 Author: Randall Degges
 
 
-
 As you may have noticed, my site has been rebranded. The old "projectb14ck" name
 is gone forever. Instead of keeping projectb14ck alive, I've decided to
 completely move my web presence over to match my name and personal information.

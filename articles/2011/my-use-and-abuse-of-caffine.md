@@ -26,7 +26,8 @@ Actually, they still do.
 Through years of experimentation, I've come to realize how much caffeine has
 changed me as a person.
 
-My Normal (Uncaffinated) Self
+
+## My Normal (Uncaffinated) Self
 
 The \*normal\* Randall is a pretty awful guy. He procrastinates, is easily
 distracted, and is typically negative by nature. When I'm not caffinated, I feel
@@ -56,7 +57,8 @@ myself do it, even though I want to, as it just seems like a pointless chore.
 This isn't always the case--but overall, I tend to be far more negative when I'm
 uncaffinated.
 
-The Better (Caffeinated) Me
+
+## The Better (Caffeinated) Me
 
 When I'm on caffeine--I feel amazing. I've never done any hard drugs before, but
 I can't imagine that they'd make me feel any better than caffeine does. When I'm
@@ -96,7 +98,8 @@ feel like I'm at my best, and my happiest, when I'm caffinated. I'm able to
 enjoy each moment of life as I pass through it, which puts me at peace
 internally.
 
-The (Dirty) Details of My Caffeine Usage
+
+## The (Dirty) Details of My Caffeine Usage
 
 It is actually rather hard for me to write about this, as I can't help but feel
 somewhat embarassed at my caffeine usage--but here it goes anyway.
@@ -148,7 +151,8 @@ Rockstars are great because they have great flavor, almost no calories, no carbs
 to spread your caffeine intake out a bit more, instead of ingesting it all at
 once.
 
-How I Feel When I Overdo It
+
+## How I Feel When I Overdo It
 
 There have been a few times when I've overdone it on the caffeine. When this
 happens, I'll feel it the following morning when I wake up. The feeling is
@@ -165,7 +169,8 @@ single day--but it would be enough to negatively effect me. The week off of
 caffeine at the beginning of each month allows me to reap the benefits of
 extended caffeine usage everyday, without any bad days.
 
-My Behavior
+
+## My Behavior
 
 I realize that I need to bring my caffeine usage down a lot. While I don't
 consider caffeine to be bad in any way, I do realize that taking it in high
@@ -179,6 +184,7 @@ continue to keep it up.
 
 I hope that one day, both my normal (uncaffinated) and caffinated self can be
 the same person. I've got a lot of work to do.
+
 
   [Caffeine]: http://getfile3.posterous.com/getfile/files.posterous.com/temp-2011-09-28/BInCDHtewutinatzsktHbFeptkwEtJHJqjeIqBkkBJqtivfHoplCqvubjfDF/caffeine.png.scaled696.png
   [![Caffeine][]]: ./images/72948061-0-caffeine.png.scaled1000.png

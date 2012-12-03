@@ -8,7 +8,8 @@ This article is part of a series I'm writing called DevOps Django. This series
 is meant to explain how to best deploy modern Django sites. If you're new, you
 should probably read the [first article][] of the series before this one.
 
-What I Build
+
+## What I Build
 
 As I mentioned in the first article of the series, I work at a tech startup
 building telephony services. Our primary product is a hosted teleconferencing
@@ -250,7 +251,8 @@ was likely to break some part of our deployment or monitoring toolset. This was
 especially annoying, as it diverted a lot of attention that could have been
 spent better elsewhere.
 
-Painful Lessons
+
+## Painful Lessons
 
 Since I first started building our teleconferencing service almost two full
 years ago, I've learned quite a bit about deploying Django. Before completely
@@ -293,16 +295,14 @@ deployment solution I discovered.
 
 **EDIT**: I finished part 3, you can read it [here][].
 
-  [first article]: http://rdegges.com/devops-django-part-1-goals
-    "DevOps Django - Part 1 - Goals"
-  [ubuntu-server]: http://www.ubuntu.com/business/server/overview
-    "ubuntu-server"
+
+  [first article]: http://rdegges.com/devops-django-part-1-goals "DevOps Django - Part 1 - Goals"
+  [ubuntu-server]: http://www.ubuntu.com/business/server/overview "ubuntu-server"
   [Asterisk]: http://www.asterisk.org/ "Asterisk"
   [OpenSIPS]: http://opensips.org/ "OpenSIPS"
   [DS3]: http://en.wikipedia.org/wiki/Ds3 "DS3"
   [NFSd]: http://en.wikipedia.org/wiki/Network_File_System_(protocol) "NFS"
-  [dialplan]: http://www.voip-info.org/wiki/view/Asterisk+Dialplan+Introduction
-    "dialplan"
+  [dialplan]: http://www.voip-info.org/wiki/view/Asterisk+Dialplan+Introduction "dialplan"
   [Telephonyinfrastructure]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2011-12-10/fjEjvEnGrlzuACAhnxxclhCEzrotvdiInEmeHEHFxoGzGlesvdekagBydfgH/TelephonyInfrastructure.png.scaled696.png
   [PSTN]: http://en.wikipedia.org/wiki/Public_switched_telephone_network "PSTN"
   [VoIP]: http://en.wikipedia.org/wiki/Voice_over_IP "VoIP"
@@ -327,7 +327,5 @@ deployment solution I discovered.
   [Rackspace]: http://www.rackspace.com/ "Rackspace"
   [Webinfrastructure]: http://getfile9.posterous.com/getfile/files.posterous.com/temp-2011-12-10/CAnsucIByoplsyvxEzbHEbJpdEpmHdGsfIGECwFeFpevcpatczabDGfyfsIt/WebInfrastructure.png.scaled696.png
   [![Webinfrastructure][]]: ./images/84054712-1-WebInfrastructure.png.scaled1000.png
-  [nines of availability]: http://en.wikipedia.org/wiki/High_availability
-    "Five Nines"
-  [here]: http://rdegges.com/devops-django-part-3-the-heroku-way
-    "DevOps Django - Part 3 - The Heroku Way"
+  [nines of availability]: http://en.wikipedia.org/wiki/High_availability "Five Nines"
+  [here]: http://rdegges.com/devops-django-part-3-the-heroku-way "DevOps Django - Part 3 - The Heroku Way"

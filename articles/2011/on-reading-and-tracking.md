@@ -3,7 +3,6 @@ Date: 2011-04-18 19:57
 Author: Randall Degges
 
 
-
 I've always enjoyed reading. When I was little, my mom would always read to me
 and my brother before bedtime. In elementary school, I spent a lot of time
 reading books on my own, and went through almost all of Stephen King's novels
@@ -56,7 +55,6 @@ Overall, the entire site just kicks ass, and I'll continue using it. If you
 aren't a member of [ShelfLuv][] yet, I suggest checking it out. And of course,
 if you do end up joining, [follow me][] :)
 
- 
 
   [amazon]: http://www.amazon.com/ "amazon"
   [GoodReads]: http://www.goodreads.com/ "GoodReads"

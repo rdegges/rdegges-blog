@@ -37,7 +37,7 @@ was within my price range. Fast forward two weeks to delivery day--I'm
 installing Ubuntu on the laptop, and to my dismay, there are no video card
 drivers available. Damnet.
 
-system76
+## system76
 
 After having several awful linux laptop experiences, I asked some friends to
 recommend a decent hardware vendor with full linux support. That's when I first
@@ -57,7 +57,8 @@ a large screen is important for my day-to-day workflow.
 
 With the background out of the way, here's my review of the actual laptop.
 
-First Impressions
+
+## First Impressions
 
 system76 did a great job on first impressions. You know how most laptops
 typically come in awful boxes, filled with tons of spam? system76 doesn't do
@@ -82,7 +83,8 @@ Also: there are no stickers on the laptop. I hate getting a new machine covered
 in Intel, Windows, and other ridiculous stickers. This gives the laptop a really
 nice clean look, and it's refreshing to not be bombarded by hardware ads.
 
-Software Support
+
+## Software Support
 
 After working my way through the first boot process just to see what it was like
 (it was fine), I popped in my own Ubuntu 11.04 CD and formatted the box. I was
@@ -94,13 +96,15 @@ perfectly out of the box. Webcam, microphone, video card drivers, etc. It was a
 pretty great feeling to get everything installed fresh with no issues
 whatsoever.
 
-Speed
+
+## Speed
 
 This thing is fast. Really, insanely fast. I don't have much else to say about
 this, except that I've never had such a fast system. Ubuntu boots in less than 2
 seconds, consistently.
 
-Pricing
+
+## Pricing
 
 If you've ever purchased a laptop online from a major hardware vendor (Dell, HP,
 etc.), you'll notice that when customizing the laptop components, you've got a
@@ -117,7 +121,8 @@ upgrading it to make it decent and then realizing that the price is now
 While this laptop was expensive (I paid \~1,800\$), its hardware stats are
 comparable to similarly priced HP laptops.
 
-Problems
+
+## Problems
 
 **NOTE**: I've only been using this laptop for two weeks so far. If I experience
 any other problems I'll update this post to include them.
@@ -141,7 +146,8 @@ matters (at least to me). I haven't carried this laptop anywhere with me yet,
 but I assume that when I do, my carrying case will be at least a few pounds
 heavier with the cord inside.
 
-Conclusion
+
+## Conclusion
 
 system76 makes a damn good laptop, as far as I'm concerned. Despite a few minor
 flaws, this thing has been excellent. I can honstely say that I've never owned
@@ -154,6 +160,7 @@ give system76 a shot for your next purchase.
 
 You can check out all their systems on their main
 site: [http://www.system76.com/][]
+
 
   [Product\_images--bonobo-0d56b90b84e3dbb]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2011-12-19/BiDbHEAcpDybvztajarlDjigeBApkFEdjqeypIbIGyuDvcbbzcuqIeziriCw/product_images--bonobo-0d56b90b84e3dbb.png.scaled696.png
   [![Product\_images--bonobo-0d56b90b84e3dbb][]]: ./images/86463786-0-product_images--bonobo-0d56b90b84e3dbb.png.scaled1000.png

@@ -3,10 +3,10 @@ Date: 2011-01-03 07:00
 Author: Randall Degges
 
 
-
 This article is my attempt to explain how django-tropo implements call tracking.
 If you don’t know what django-tropo is, you may want to first read my [previous
 post][] on the subject.
+
 
 ## The Problem
 
@@ -45,6 +45,7 @@ whatever else you may need.
 This is why it is imperative that you be able to easily track this call data
 from tropo.
 
+
 ## How django-tropo Does It
 
 Assuming we want to track all our call data from tropo, what is the easiest way
@@ -75,17 +76,19 @@ possibly need about any call, at any time.
 Here’s an example of how simple a tropo view can look, using django-tropo’s
 `tropo_view` decorator:
 
-    from tropo import Tropo
-    from djtropo.decorators import tropo_view
+``` python
+from tropo import Tropo
+from djtropo.decorators import tropo_view
 
-    @tropo_view
-    def ivrdemo(request):
-        """Say 'hello, world!' then hangup."""
+@tropo_view
+def ivrdemo(request):
+    """Say 'hello, world!' then hangup."""
 
-        t = Tropo()
-        t.say('hello, world!')
-        t.hangup()
-        return t.RenderJson()
+    t = Tropo()
+    t.say('hello, world!')
+    t.hangup()
+    return t.RenderJson()
+```
 
 Without any hard work at all, this decorator analyzes your JSON data, and
 creates the necessary database models.
@@ -95,6 +98,7 @@ This is because the `tropo_view` decorator also provides some other useful
 features for dealing with tropo views, including the ability to automatically
 create an appropriate `HttpResponse` object to render your JSON and set the
 mimetype to `'application/json'`.
+
 
 ## Future Improvements
 
@@ -106,8 +110,10 @@ turned on will log all calls, and when turned off (or not specified) will NOT do
 any logging. This should give developers more fine-grained control over their
 applications, and hopefully make it useful in many situations and environments.
 
+
 ## Suggestions?
 
 Got a better way to handle call tracking? I’d love to hear it!
+
 
   [previous post]: http://projectb14ck.org/my-experiences-with-tropo

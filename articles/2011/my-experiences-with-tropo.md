@@ -52,13 +52,10 @@ I'm going to publish django-tropo to github in a few days, so stay tuned for
 more information. It will be a rough beta, but I'll continue to work on it and
 make sure it keeps improving as time goes on.
 
- 
 
   [tropo]: https://www.tropo.com/home.jsp "tropo"
   [asterisk]: http://www.asterisk.org/ "asterisk"
   [freeswitch]: http://www.freeswitch.org/ "freeswitch"
   [opensips]: http://www.opensips.org/ "opensips"
-  [WebAPI]: https://www.tropo.com/docs/webapi/new_tropo_web_api_overview.htm
-    "WebAPI"
-  [python WebAPI library]: https://github.com/tropo/tropo-webapi-python
-    "python WebAPI library"
+  [WebAPI]: https://www.tropo.com/docs/webapi/new_tropo_web_api_overview.htm "WebAPI"
+  [python WebAPI library]: https://github.com/tropo/tropo-webapi-python "python WebAPI library"

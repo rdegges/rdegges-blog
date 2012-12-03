@@ -10,7 +10,8 @@ probably read the [first article][] of the series before this one.
 
 ![Most\_interesting\_man\_on\_heroku][]
 
-My Search for Solutions
+
+## My Search for Solutions
 
 In the [previous installment][] of this series, I discussed (in depth) the
 problems with deploying Django as a devops guy. After struggling with deployment
@@ -42,7 +43,7 @@ After the hack-a-thon ended, I decided to play around with Heroku a bit more,
 and see what the platform really had to offer other than what I used during my
 short sprint.
 
-A Second Look
+## A Second Look
 
 Later that week, I had a few hours to kill, so I revisited Heroku's website, and
 read through all their [help resources][] and tutorials. I also took an in-depth
@@ -737,6 +738,7 @@ you expect to be covered?
 
 **UPDATE**: I also published a book on Heroku! If you'd like to check it out,
 you can do so here: [http://www.theherokuhackersguide.com/][].
+
 
   [first article]: http://rdegges.com/devops-django-part-1-goals
     "DevOps Django - Part 1 - Goals"

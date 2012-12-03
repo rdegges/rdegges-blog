@@ -61,12 +61,10 @@ To everyone who wants to get in shape, just do it. It's all in the mind.
 
 I'll leave you all with this [awesome music video from Dead Prez][].
 
+
   [The Hacker's Diet]: http://www.fourmilab.ch/hackdiet/ "The Hacker's Diet"
-  [The Paleo Solution]: http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=projectb14ck-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=0982565844
-    "The Paleo Solution"
-  [Good Calories, Bad Calories]: http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=projectb14ck-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=1400033462
-    "Good Calories, Bad Calories"
+  [The Paleo Solution]: http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=projectb14ck-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=0982565844 "The Paleo Solution"
+  [Good Calories, Bad Calories]: http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=projectb14ck-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=1400033462 "Good Calories, Bad Calories"
   [DailyBurn]: http://dailyburn.com/ "DailyBurn"
   [ketosis]: http://forum.bodybuilding.com/showthread.php?t=132598293 "ketosis"
-  [awesome music video from Dead Prez]: http://www.youtube.com/watch?v=8nartK6wodo
-    "Back on my Regimen"
+  [awesome music video from Dead Prez]: http://www.youtube.com/watch?v=8nartK6wodo "Back on my Regimen"

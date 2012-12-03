@@ -11,7 +11,8 @@ that I've been writing for at least 30 minutes a day.
 I figured now would be a good time to reflect on what I've learned so far. Above
 all else, what I've learned so far is that
 
-Practice Works
+
+## Practice Works
 
 I've read numerous books on skill building, including one of my all time
 favorites, [Talent is Overrated][] (affiliate link). The book discusses how
@@ -46,7 +47,8 @@ Since I've started writing daily, I've been able to simply type what I'm
 thinking, gradually refining it. This feels great. It feels like the shackles
 that have held me back from expressing my thoughts are beginning to loosen.
 
-Goals
+
+## Goals
 
 I don't have any specific goals in regards to my writing at the moment. At least
 for a while, I'd like to simply continue writing for 30 minutes each day, and
@@ -57,7 +59,6 @@ I'm hoping that as I practice writing more and more, it will become more natural
 for me, and I'll be able to experience a greater feeling of relief and happiness
 while writing.
 
-  [writing habit]: http://rdegges.com/establishing-a-writing-habit
-    "Establishing a Writing Habit"
-  [Talent is Overrated]: http://www.amazon.com/gp/product/1591842247/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1591842247
-    "Talent is Overrated (amazon)"
+
+  [writing habit]: http://rdegges.com/establishing-a-writing-habit "Establishing a Writing Habit"
+  [Talent is Overrated]: http://www.amazon.com/gp/product/1591842247/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1591842247 "Talent is Overrated (amazon)"

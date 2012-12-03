@@ -13,7 +13,8 @@ curse words.
 Here's a story I've been saving up for a while. It's a tale of the time I
 accidentally destroyed a production server. I hope you enjoy it :)
 
-What I Did
+
+## What I Did
 
 When I first came on board at BTS over year ago, I was working on production
 servers. We didn't have any development or staging environments set up at the
@@ -71,7 +72,8 @@ To my amazement, *it fucking works*. We're back online, logging calls, and no
 data was lost. I then duplicate the working setup to r1, make tons of backups of
 my configs, then get rid of the old freeradius server.
 
-What I Learned
+
+## What I Learned
 
 -   No matter what, you always, **always** need to have a proper development
     environment. If you don't, you're committing suicide.
@@ -90,6 +92,7 @@ useful sysadmin tools, we've built up some pretty nice defenses to protect
 against future problems like this. However, I'll still never forget the
 incredibly horrible sinking feeling in my stomach when I ran that update
 command.
+
 
   [freeradius]: http://freeradius.org/ "FreeRADIUS"
   [rackspace]: http://www.rackspace.com/index.php "rackspace"

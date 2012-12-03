@@ -27,7 +27,8 @@ unsuccessfully. It seems that only recently geeks around LA have been getting
 together and forming ***serious*** communities meant to foster tech growth in
 the area.
 
-Community Essentials
+
+## Community Essentials
 
 Let's face it, in order to have a successful tech community you need a strong
 group of passionate developers who are able to:
@@ -51,7 +52,8 @@ kick-ass events:
 -   [@xtine][]
 -   Other dudes who aren't linkable!
 
-My Experience
+
+## My Experience
 
 Over the past few months, I've been participating more in the [LA Django][] and
 [Python Ladies][] groups. Both meetups have been great. They both have strong
@@ -70,12 +72,14 @@ that the python and Django community in LA is gaining traction, and can't help
 but snowball over the coming years. All the ingredients seem to be in place, and
 excitement is in the air.
 
-Get Involved
+
+## Get Involved
 
 If you're in the LA area, get involved! Go to the Python meetups in the area,
 and meet the other developers. Join the \#pyladies IRC channel on freenode, and
 chat with other developers. The \#pyladies IRC channel is an \_\_amazing\_\_
 resource, it's filled with the coolest pythonistas in the LA area.
+
 
   [@audreyr]: http://twitter.com/#!/audreyr
   [@pydanny]: http://twitter.com/#!/pydanny

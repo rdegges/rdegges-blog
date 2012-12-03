@@ -92,15 +92,11 @@ As I continue working towards my goals, I try to constantly remind myself that
 your daily goal--do it anyway, it adds up over time. And that is the core way to
 make change. *Consistency*.
 
-  [Talent Is Overrated]: http://www.amazon.com/gp/product/1591842948/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=1591842948
-    "Talent Is Overrated"
+
+  [Talent Is Overrated]: http://www.amazon.com/gp/product/1591842948/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=1591842948 "Talent Is Overrated"
   [Sebastian Marshall]: http://www.sebastianmarshall.com/ "Sebastian Marshall"
-  [Do the Work]: http://www.amazon.com/gp/product/1936719010/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=1936719010
-    "Do the Work"
-  [My Life]: http://www.amazon.com/gp/product/140003003X/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=140003003X
-    "My Life"
-  [Hackers & Painters]: http://www.amazon.com/gp/product/B0026OR2NQ/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=B0026OR2NQ
-    "Hackers and Painters"
-  [The Power of Less]: http://www.amazon.com/gp/product/1401309704/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=1401309704
-    "The Power of Less"
+  [Do the Work]: http://www.amazon.com/gp/product/1936719010/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=1936719010 "Do the Work"
+  [My Life]: http://www.amazon.com/gp/product/140003003X/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=140003003X "My Life"
+  [Hackers & Painters]: http://www.amazon.com/gp/product/B0026OR2NQ/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=B0026OR2NQ "Hackers and Painters"
+  [The Power of Less]: http://www.amazon.com/gp/product/1401309704/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=1401309704 "The Power of Less"
   [habitforge]: http://habitforge.com/ "habitforge"

@@ -26,7 +26,8 @@ For the rest of this tutorial, I expect that you:
 -   Know what [continuous integration][] and continuous deployment are.
 -   Have some code to test deploy.
 
-Step 1: Installing Jenkins
+
+## Step 1: Installing Jenkins
 
 Installing jenkins is ridiculously easy on debian systems:
 
@@ -52,7 +53,8 @@ instance, just visit [http://youserverip:8080/][]. If you want to update it, you
 can do so with the rest of the system (via \`aptitude -y update; aptitude -y
 safe-upgrade\`).
 
-Step 2: Configure a HTTP Proxy With NGINX
+
+## Step 2: Configure a HTTP Proxy With NGINX
 
 Since Jenkins by default runs on port 8080, I like setting up an HTTP proxy so
 to that I can access it on port 80. My weapon of choice for proxying is NGINX,
@@ -145,7 +147,8 @@ sudo service nginx restart
 Now you should be able to visit [http://ci.yourcompany.com/][] and see your
 jenkins instance on the default HTTP port 80.
 
-Step 3: Secure Jenkins
+
+## Step 3: Secure Jenkins
 
 Jenkins has built-in user account management, which makes it easy to lock your
 interface down. Below, we'll create two accounts: *admin* and *rdegges*. *admin*
@@ -179,7 +182,8 @@ account** link, and create two accounts--one for **admin**, and one for
 permissions you supplied earlier. If you want to change permissions, just log in
 as the **admin** user, and go through the same steps above.
 
-Step 4: Install and Configure Git
+
+## Step 4: Install and Configure Git
 
 The core functionality of jenkins is to use some form of version control
 software (I use [Git][]) to check out some release of code, and then do stuff
@@ -245,7 +249,8 @@ the web panel:
 
 You've now got Git ready to roll.
 
-Step 5: Configure a Project
+
+## Step 5: Configure a Project
 
 In this step we'll configure jenkins to check out the latest copy of our
 project's code, run the test suite, and then deploy our code live into
@@ -279,12 +284,14 @@ If you go back to the main page, you'll be able to view the status of all your
 projects, and click through to see detailed information about builds, errors,
 and lots of other neat stuff.
 
-Step 6: RTFM
+
+## Step 6: RTFM
 
 Obviously, a 5 minute walk-through is no excuse for not learning how to use
 jenkins properly. If you want to learn how to make the best use of jenkins, and
 experiment with the hundreds of awesome plugins that it has, be sure to read the
 [official documentation][].
+
 
   [Github]: https://github.com/ "github"
   [Jenkins CI]: http://jenkins-ci.org/ "Jenkins CI"

@@ -34,7 +34,8 @@ establishing a few great ones.
 
 Which brings me to the topic of this article...
 
-Writing
+
+## Writing
 
 I've always enjoyed writing. It appeals to my sentimental side. There's
 something about writing that just feels great. The best way I can describe the
@@ -70,6 +71,7 @@ account at [HabitForge][] (it's totally free) and get started?
 **UPDATE**: My writing habit is built! I've written for 30 minutes for each of
 the 21 days without fail. I wrote another post which also includes some tips and
 thoughts, you can read it [here][1].
+
 
   [books]: http://www.shelfluv.com/rdegges "My Reading List"
   [HabitForge]: http://habitforge.com/ "HabitForge"

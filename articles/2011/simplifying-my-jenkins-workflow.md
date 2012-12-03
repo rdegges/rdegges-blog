@@ -32,7 +32,8 @@ This is where the problems happen--since we haven't manually verified the
 identitiy of our new server, our Jenkins box will just start failing builds
 since it won't SSH into a server before accepting the identity.
 
-The Fix
+
+## The Fix
 
 To remove the hassle of manually accepting each server's identity, we recently
 decided to do away with the identity check all together to make our lives
@@ -51,6 +52,7 @@ This will let your SSH client completely ignore the remote machine's identity
 when ssh'ing into an unknown server. This is great for us, since we're
 constantly building out new servers automatically, and we're willing to accept
 the associated risk.
+
 
   [Jenkins]: http://jenkins-ci.org/ "Jenkins"
   [puppet]: http://www.puppetlabs.com/ "puppet"

@@ -17,7 +17,8 @@ which spike up (allowing your body to store fat) when you consume carbs.
 If you want to read more about ketosis, check out the [wikipedia article][] or
 this [good summary][].
 
-First Month Results
+
+## First Month Results
 
 For the past month I've been on a strict keto diet. No cheat meals, nothing. It
 was a lot easier than I thought it would be. I didn't crave any sugary foods for
@@ -42,7 +43,8 @@ no exercise, and split amongst the other two weeks, I did biking several days of
 the week. My average caloric intake this month was around 2000 calories per day.
 I made it a point to eat until full almost every day in the month.
 
-Thoughts
+
+## Thoughts
 
 I've really enjoyed maintaining ketosis for a solid month. I've felt a lot
 healthier, happier, and more energetic. Eating fatty foods has been really easy
@@ -52,6 +54,7 @@ my bodybuilding goals.
 
 I'll post another update at the end of my second month, and hopefully be able to
 share more interesting results!
+
 
   [wikipedia article]: http://en.wikipedia.org/wiki/Ketogenesis "ketosis"
   [good summary]: http://forum.bodybuilding.com/showthread.php?t=132598293
