@@ -9,6 +9,7 @@ serve static content (css, images, javascript) with the Django development
 server?”. This article is my attempt to answer that question by demonstrating
 the best practices way to do so.
 
+
 ## Why Doesn’t Django Serve Static Content Automatically?
 
 Well, Django (and python in general) is built around the idea that it is better
@@ -27,24 +28,27 @@ This flexibility is what Django provides for us at the cost of not being able to
 automatically detect / serve our static content—which is why you are reading
 this article :)
 
+
 ## Where Should I Put My Static Content?
 
 In general, the convention I like to use is to put all static content in my
 project directory underneath the ‘static’ folder. This means that all of my new
 django projects look something like:
 
-    crapola/
-    |-- __init__.py
-    |-- manage.py
-    |-- settings.py
-    |-- static
-    |   |-- css
-    |   |   \-- style.css
-    |   |-- img
-    |   |   \-- banner.png
-    |   \-- js
-    |       \-- menu.js
-    \-- urls.py
+```
+crapola/
+|-- __init__.py
+|-- manage.py
+|-- settings.py
+|-- static
+|   |-- css
+|   |   \-- style.css
+|   |-- img
+|   |   \-- banner.png
+|   \-- js
+|       \-- menu.js
+\-- urls.py
+```
 
 Which allows me to have a good looking URL schema for my projects. This isn’t a
 law (you can place it wherever you like), but this convention is followed by a
@@ -53,119 +57,124 @@ good amount of developers, and seems like a logical location for static content.
 For the rest of this article, I’ll assume that your project is going to serve
 all static content from the ‘static’ directory shown in the output above.
 
+
 ## Configure Your Settings
 
 The first thing we need to do is configure our `settings.py` file, to let Django
 know where our static content is located. To do that, open up your favorite
 editor and add the following code:
 
-    import os
+``` python
+import os
 
-    SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
-    MEDIA_ROOT = os.path.join(SITE_ROOT, 'static')
-    MEDIA_URL = '/static/'
+SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+MEDIA_ROOT = os.path.join(SITE_ROOT, 'static')
+MEDIA_URL = '/static/'
+```
 
 If you’re unsure of where exactly to place that code, here’s a complete example
 of a brand new `settings.py` file for the fake project `crapola`:
 
-    # Django settings for crapola project.
+``` python
+# Django settings for crapola project.
 
-    import os
+import os
 
-    DEBUG = True
-    TEMPLATE_DEBUG = DEBUG
+DEBUG = True
+TEMPLATE_DEBUG = DEBUG
 
-    ADMINS = (
-        # ('Your Name', 'your_email@domain.com'),
-    )
+ADMINS = (
+    # ('Your Name', 'your_email@domain.com'),
+)
 
-    MANAGERS = ADMINS
+MANAGERS = ADMINS
 
-    DATABASES = {
-        'default': {
-            'ENGINE': 'django.db.backends.', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-            'NAME': '',                      # Or path to database file if using sqlite3.
-            'USER': '',                      # Not used with sqlite3.
-            'PASSWORD': '',                  # Not used with sqlite3.
-            'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
-            'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
-        }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
+        'NAME': '',                      # Or path to database file if using sqlite3.
+        'USER': '',                      # Not used with sqlite3.
+        'PASSWORD': '',                  # Not used with sqlite3.
+        'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
+        'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
     }
+}
 
-    # Local time zone for this installation. Choices can be found here:
-    # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
-    # although not all choices may be available on all operating systems.
-    # On Unix systems, a value of None will cause Django to use the same
-    # timezone as the operating system.
-    # If running in a Windows environment this must be set to the same as your
-    # system time zone.
-    TIME_ZONE = 'America/Chicago'
+# Local time zone for this installation. Choices can be found here:
+# http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
+# although not all choices may be available on all operating systems.
+# On Unix systems, a value of None will cause Django to use the same
+# timezone as the operating system.
+# If running in a Windows environment this must be set to the same as your
+# system time zone.
+TIME_ZONE = 'America/Chicago'
 
-    # Language code for this installation. All choices can be found here:
-    # http://www.i18nguy.com/unicode/language-identifiers.html
-    LANGUAGE_CODE = 'en-us'
+# Language code for this installation. All choices can be found here:
+# http://www.i18nguy.com/unicode/language-identifiers.html
+LANGUAGE_CODE = 'en-us'
 
-    SITE_ID = 1
+SITE_ID = 1
 
-    # If you set this to False, Django will make some optimizations so as not
-    # to load the internationalization machinery.
-    USE_I18N = True
+# If you set this to False, Django will make some optimizations so as not
+# to load the internationalization machinery.
+USE_I18N = True
 
-    # If you set this to False, Django will not format dates, numbers and
-    # calendars according to the current locale
-    USE_L10N = True
+# If you set this to False, Django will not format dates, numbers and
+# calendars according to the current locale
+USE_L10N = True
 
-    SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
+SITE_ROOT = os.path.realpath(os.path.dirname(__file__))
 
-    # Absolute path to the directory that holds media.
-    # Example: "/home/media/media.lawrence.com/"
-    MEDIA_ROOT = os.path.join(SITE_ROOT, 'static')
+# Absolute path to the directory that holds media.
+# Example: "/home/media/media.lawrence.com/"
+MEDIA_ROOT = os.path.join(SITE_ROOT, 'static')
 
-    # URL that handles the media served from MEDIA_ROOT. Make sure to use a
-    # trailing slash if there is a path component (optional in other cases).
-    # Examples: "http://media.lawrence.com", "http://example.com/media/"
-    MEDIA_URL = '/static/'
+# URL that handles the media served from MEDIA_ROOT. Make sure to use a
+# trailing slash if there is a path component (optional in other cases).
+# Examples: "http://media.lawrence.com", "http://example.com/media/"
+MEDIA_URL = '/static/'
 
-    # URL prefix for admin media -- CSS, JavaScript and images. Make sure to use a
-    # trailing slash.
-    # Examples: "http://foo.com/media/", "/media/".
-    ADMIN_MEDIA_PREFIX = '/media/'
+# URL prefix for admin media -- CSS, JavaScript and images. Make sure to use a
+# trailing slash.
+# Examples: "http://foo.com/media/", "/media/".
+ADMIN_MEDIA_PREFIX = '/media/'
 
-    # Make this unique, and don't share it with anybody.
-    SECRET_KEY = 'u%-*1-3qgv$6#0fz&wgu@p)knta@0hnvzs8x%mbm-1j@_s4qx@'
+# Make this unique, and don't share it with anybody.
+SECRET_KEY = 'u%-*1-3qgv$6#0fz&wgu@p)knta@0hnvzs8x%mbm-1j@_s4qx@'
 
-    # List of callables that know how to import templates from various sources.
-    TEMPLATE_LOADERS = (
-        'django.template.loaders.filesystem.Loader',
-        'django.template.loaders.app_directories.Loader',
-    #     'django.template.loaders.eggs.Loader',
-    )
+# List of callables that know how to import templates from various sources.
+TEMPLATE_LOADERS = (
+    'django.template.loaders.filesystem.Loader',
+    'django.template.loaders.app_directories.Loader',
+#     'django.template.loaders.eggs.Loader',
+)
 
-    MIDDLEWARE_CLASSES = (
-        'django.middleware.common.CommonMiddleware',
-        'django.contrib.sessions.middleware.SessionMiddleware',
-        'django.middleware.csrf.CsrfViewMiddleware',
-        'django.contrib.auth.middleware.AuthenticationMiddleware',
-        'django.contrib.messages.middleware.MessageMiddleware',
-    )
+MIDDLEWARE_CLASSES = (
+    'django.middleware.common.CommonMiddleware',
+    'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
+    'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'django.contrib.messages.middleware.MessageMiddleware',
+)
 
-    ROOT_URLCONF = 'crapola.urls'
+ROOT_URLCONF = 'crapola.urls'
 
-    TEMPLATE_DIRS = (
-        # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
-        # Always use forward slashes, even on Windows.
-        # Don't forget to use absolute paths, not relative paths.
-    )
+TEMPLATE_DIRS = (
+    # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
+    # Always use forward slashes, even on Windows.
+    # Don't forget to use absolute paths, not relative paths.
+)
 
-    INSTALLED_APPS = (
-        'django.contrib.auth',
-        'django.contrib.contenttypes',
-        'django.contrib.sessions',
-        'django.contrib.sites',
-        'django.contrib.messages',
-        # Uncomment the next line to enable the admin:
-        # 'django.contrib.admin',
-    )
+INSTALLED_APPS = (
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.sites',
+    'django.contrib.messages',
+    # Uncomment the next line to enable the admin:
+    # 'django.contrib.admin',
+)
+```
 
 The code we added basically:
 
@@ -176,6 +185,7 @@ The code we added basically:
     actual frontend code (HTML / CSS / JS / etc). This will be useful later when
     you’re writing CSS mockup (it will save you the trouble of hardcoding the
     location of your static content).
+
 
 ## Configure Your URLs
 
@@ -189,13 +199,15 @@ handle the serving of these files (apache, nginx, lighttpd, etc.).
 
 So, open up your `urls.py` file and add the following to the very bottom:
 
-    from crapola.settings import DEBUG
-    if DEBUG:
-        urlpatterns += patterns('', (
-            r'^static/(?P<path>.*)$',
-            'django.views.static.serve',
-            {'document_root': 'static'}
-        ))
+``` python
+from crapola.settings import DEBUG
+if DEBUG:
+    urlpatterns += patterns('', (
+        r'^static/(?P<path>.*)$',
+        'django.views.static.serve',
+        {'document_root': 'static'}
+    ))
+```
 
 This will import the `DEBUG` variable from our `settings.py` file, and check its
 value to see if `DEBUG=True`. If `DEBUG` is true, then we’ll have the Django
@@ -206,6 +218,7 @@ As mentioned above, this will give us maximum flexibility later on. Once we’re
 ready to deploy our website in production, we simply set `DEBUG=False` and bam,
 we’ll let our webserver handle all the static content serving (it is much faster
 that way).
+
 
 ## Conclusion
 
