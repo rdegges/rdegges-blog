@@ -23,6 +23,7 @@ Specifically, we’ll:
 
 So let’s get started!
 
+
 ## Getting a VoIP Account
 
 The first thing we need to do is sign up with a VoIP (voice over IP) provider.
@@ -57,6 +58,7 @@ for each of the above providers (that would take forever) I’ll just cover
 Flowroute. If you choose to go with another provider, you can still follow along
 with this article and get a sense of what to do.
 
+
 ## Create an Account
 
 To create an account with Flowroute, visit their [sign up page][] and fill in
@@ -69,10 +71,12 @@ phone number) which costs a bit more than 25 cents.
 Once your account has been created, you’ll be directed to the account dashboard,
 where, if you want, you can deposit some money via Amazon Payments.
 
+
 ### A Brief Note on Terminology
 
 In the telephony world, SIP accounts are commonly referred to as SIP trunks.
 Trunk meaning a single account connection to the PSTN.
+
 
 ## Connect Your SIP Trunk to Asterisk
 
@@ -84,6 +88,7 @@ link towards the middle of the page. Next click on the drop down menu and select
 of the Asterisk settings we need to put into our PBX (with only slight
 modifications required).
 
+
 ### A Brief Note on Security
 
 Never ever give out any of your SIP account information! If someone knows your
@@ -94,6 +99,7 @@ information is valuable, and what isn’t.
 
 A good deal of phone scams and telemarketing campaigns originate from hacked SIP
 accounts, so be careful!
+
 
 ### Define Your SIP Trunk Registration String
 
@@ -107,9 +113,11 @@ System Configurator page of the Flowroute account dashboard.
 The first bit of the Flowroute instructions say to add the following to sip.conf
 right after general settings:
 
-    allow=ulaw
-    allow=g729
-    register => xxx:xxx@sip.flowroute.com
+```
+allow=ulaw
+allow=g729
+register => xxx:xxx@sip.flowroute.com
+```
 
 So go ahead and open /etc/asterisk/sip.conf in your favorite text editor (I
 prefer vim). You’ll notice a lot of text, but ignore it for now. These
@@ -121,10 +129,13 @@ settings mentioned above). Now go ahead and insert the settings Flowroute gave
 you directly above the `[authentication]` line. Your configuration file should
 now show something like:
 
-    allow=ulaw
-    allow=g729
-    register => xxx:xxx@sip.flowroute.com
-    [authentication]
+```
+allow=ulaw
+allow=g729
+register => xxx:xxx@sip.flowroute.com
+[authentication]
+```
+
 
 ### Define Your NAT Network Settings
 
@@ -132,9 +143,11 @@ If you are running your Asterisk PBX behind a router (eg: your Asterisk system
 has a private IP), then you’ll need to add the following configurations to your
 sip.conf file directly above the `[authentication]` line:
 
-    nat=yes
-    externip=xx.xx.xx.xx
-    localnet=192.168.0.0/255.255.255.0
+```
+nat=yes
+externip=xx.xx.xx.xx
+localnet=192.168.0.0/255.255.255.0
+```
 
 Where `xx.xx.xx.xx` is your external IP (visit [IP Chicken][] if you don’t know
 it), `192.168.0.0` is your subnet, and `255.255.255.0` is your subnet mask. In
@@ -145,29 +158,33 @@ The reason we need to add our networking information here is because Asterisk
 needs to modify the SIP packet headers to ensure that our SIP packets get to the
 right destination.
 
+
 ### Define Your SIP Trunk
 
 The next thing the Flowroute instructions tell us to do is to add the following
 near the bottom of sip.conf:
 
-    [flowroute]
-    type=friend
-    secret=xxx
-    username=xxx
-    host=sip.flowroute.com
-    dtmfmode=rfc2833
-    context=inbound
-    canreinvite=no
-    allow=ulaw
-    allow=g729
-    insecure=port,invite
-    fromdomain=sip.flowroute.com
+```
+[flowroute]
+type=friend
+secret=xxx
+username=xxx
+host=sip.flowroute.com
+dtmfmode=rfc2833
+context=inbound
+canreinvite=no
+allow=ulaw
+allow=g729
+insecure=port,invite
+fromdomain=sip.flowroute.com
+```
 
 So go ahead and scroll to the bottom of your sip.conf file, and then insert
 those settings along with a single addition: at the very bottom of your
 configurations (on a new line after the `fromdomain=sip.flowroute.conf`) line,
 insert the following: `qualify=yes`, as this will give us some additional
 information about our SIP connection later on.
+
 
 ## Create a SIP Extension
 
@@ -188,6 +205,7 @@ To define a SIP extension, we need to pick several things:
     authenticate. This password does not need to be remembered, and should be
     globally unique.
 
+
 ### Creating the Extension
 
 Now that you’ve picked your extension number and secret, let’s create it!
@@ -196,17 +214,19 @@ Scroll down to the very bottom of your /etc/asterisk/sip.conf file, (below the
 SIP trunk we created in the previous section), and insert the following (make
 sure you swap out my extension number for yours, and my secret for yours):
 
-    [1000]
-    type=friend
-    nat=yes
-    canreinvite=no
-    secret=mysecretpassword
-    qualify=yes
-    mailbox=1000@default
-    host=dynamic
-    dtmfmode=rfc2833
-    dial=SIP/1000
-    context=outgoing
+```
+[1000]
+type=friend
+nat=yes
+canreinvite=no
+secret=mysecretpassword
+qualify=yes
+mailbox=1000@default
+host=dynamic
+dtmfmode=rfc2833
+dial=SIP/1000
+context=outgoing
+```
 
 I’ll skip over the configuration options for now, I’ll cover these in great
 depth in a later part of the series. If you want to read more about them now,
@@ -215,6 +235,7 @@ check out the [VoIP Info page][] which describes them in detail.
 At this point we’ve fully configured a Flowroute SIP trunk and a SIP extension
 with Asterisk. The next thing for us to do will be configuring our network so
 that our SIP trunk works. So keep reading!
+
 
 ## Configure the Network
 
@@ -231,6 +252,7 @@ pass voice traffic (audio).
 If your router has any SIP options such as SIP ALG (application layer gateway)
 or SIP fixup, you’ll want to disable them.
 
+
 ## Testing the SIP Trunk
 
 Before moving on to the actual call configuration, let’s make sure our SIP trunk
@@ -244,12 +266,15 @@ Next, let’s check to make sure that our Flowroute trunk is registered (connect
 and in service): `asterisk -rx 'sip show registry'`. If your state shows
 registered:
 
-    [root@localhost asterisk]# asterisk -rx 'sip show registry'
-    Host                            Username       Refresh State                Reg.Time
-    sip.flowroute.com:5060          xxxxxxxx           105 Registered           Tue, 02 Mar 2010 09:34:23
-    1 SIP registrations.
+``` bash
+[root@localhost asterisk]# asterisk -rx 'sip show registry'
+Host                            Username       Refresh State                Reg.Time
+sip.flowroute.com:5060          xxxxxxxx           105 Registered           Tue, 02 Mar 2010 09:34:23
+1 SIP registrations.
+```
 
 Then you know that your SIP trunk is connected and working!
+
 
 ## Configure the Dial Plan
 
@@ -272,6 +297,7 @@ Asterisk’s own scripting language. It is very simple, and easy to understand
 
 In the next few sections, we’ll write dial plan code to route calls according to
 our rules above.
+
 
 ### Asterisk Dial Plan Basics
 
@@ -302,24 +328,28 @@ Each line of dial plan code is of the form:
 
 If you don’t understand all of this now, don’t worry!
 
+
 ### Start With a Clean Slate
 
 Before we begin writing our code, let’s quickly create a nice clean
 extensions.conf file to work in. Remove your current dial plan file
 (/etc/asterisk/extensions.conf) and replace it with the following:
 
-    [general]
-    static=yes
-    writeprotect=no
-    clearglobalvars=no
+```
+[general]
+static=yes
+writeprotect=no
+clearglobalvars=no
 
-    [globals]
-    TRUNK=flowroute
+[globals]
+TRUNK=flowroute
+```
 
 All I did here was remove all comments and clutter from the file, so that we can
 clearly see what we’re doing. I also added a global variable called TRUNK which
 contains the name of our SIP trunk defined earlier in the article. We’ll use
 this global variable later on to make outbound calls.
+
 
 ### Configure Outbound Routing
 
@@ -343,8 +373,10 @@ let’s make it!
 
 Open your extensions.conf file and add the following code to it at the bottom:
 
-    [outgoing]
-    exten => _1NXXNXXXXXX,1,Dial(SIP/${EXTEN}@${GLOBAL(TRUNK)})
+```
+[outgoing]
+exten => _1NXXNXXXXXX,1,Dial(SIP/${EXTEN}@${GLOBAL(TRUNK)})
+```
 
 Let’s go through the code and analyze exactly what is happening.
 
@@ -366,8 +398,10 @@ determine what to do first.
 
 Imagine that we had code which looked like:
 
-    exten => _1NXXNXXXXXX,2,Dial(18002223333@flowroute)
-    exten => _1NXXNXXXXXX,1,Dial(19999999999@flowroute)
+```
+exten => _1NXXNXXXXXX,2,Dial(18002223333@flowroute)
+exten => _1NXXNXXXXXX,1,Dial(19999999999@flowroute)
+```
 
 In this case, Asterisk would execute the code at priority number 1 first, then
 the code at priority number 2. So always check for priority numbers when looking
@@ -399,6 +433,7 @@ specifically. Doing it this way gives us flexibility. Imagine if we had many SIP
 trunks on our Asterisk system, and wanted to route certain calls through certain
 SIP trunks.
 
+
 ### Outbound Routing, a Full Walk Through
 
 Let’s quickly perform a full walk through of what happens when we dial the
@@ -422,6 +457,7 @@ soft phone yet, we’ll get to that later.)
 
 That’s it for outbound routing! Simple right?
 
+
 ### Configure Inbound Routing
 
 In order to route calls inbound, you will need a DID (phone number) with your
@@ -443,8 +479,10 @@ Open your /etc/asterisk/extensions.conf file and add a new context called
 `[inbound]` to the bottom of your file (it can go beneath the `[outgoing]`
 context we created in the last section). The context should look like:
 
-    [inbound]
-    exten => 18182223333,1,Dial(SIP/1000)
+```
+[inbound]
+exten => 18182223333,1,Dial(SIP/1000)
+```
 
 The code here should look familiar to the code in the previous section. All
 we’re doing is dialing the SIP extension 1000 (which is the extension we created
@@ -453,6 +491,7 @@ our `Dial()` application. If you look back at your SIP configuration file
 (/etc/asterisk/sip.conf) you’ll notice that when we created our extension, one
 of the keys we defined was: `dial=SIP/1000`, which tells Asterisk that in order
 to connect a call to that extension, we have to dial `SIP/1000`.
+
 
 ### Inbound Routing, a Full Walk Through
 
@@ -483,6 +522,7 @@ line of code!
 At this point, we’ve created dial plan rules for both the outgoing and incoming
 call routing. Save your extensions.conf file, and let’s move on.
 
+
 ## Apply Your New Dial Plan Rules
 
 Now that we’ve finished writing our dial plan code, we need to reload Asterisk
@@ -491,6 +531,7 @@ to have it re-scan our extensions.conf file. To do this, simply type:
 
 The next section which will teach you how to hook up a soft phone to your
 Asterisk system so you can actually test your system!
+
 
 ## Set Up a Softphone
 
@@ -534,6 +575,7 @@ working, read back through the setup instructions and make sure you didn’t mis
 anything. If you are using a virtual machine, also make sure your host network
 settings have been configured to receive incoming traffic.
 
+
 ## Making and Receiving Your First Call
 
 Now that we’ve gotten everything set up, let’s actually make some calls!
@@ -548,6 +590,7 @@ Asterisk will route the call directly to your X-Lite phone. You will see and
 hear you X-Lite phone ring, and you can pick up the call by clicking the green
 button.
 
+
 ## Conclusion
 
 This was a very large article, and took a considerable amount of time to write.
@@ -559,6 +602,7 @@ The material covered in this part of the series is bulky, but very important in
 understanding the way Asterisk works. In future parts of the Transparent
 Telephony series, we’ll have significantly shorter, more targeted articles, so
 following along should be easier.
+
 
   [Part 1 – An Introduction]: http://neverfear.org/blog/view/80/Transparent_Telephony_Part_1_An_Introduction
   [previous installment]: http://projectb14ck.org/2010/02/28/transparent-telephony-part-2-installing-asterisk.html
