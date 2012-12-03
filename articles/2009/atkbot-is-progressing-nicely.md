@@ -4,8 +4,8 @@ Author: Randall Degges
 Tags: programming, irc
 
 
-My IRC takeover bot, [atkbot][], is progressing nicely. Some of the features it
-now has are:
+My IRC takeover bot, atkbot, is progressing nicely. Some of the features it now
+has are:
 
 -   Simple configuration file.
 -   Can connect to IRC networks that are password protected.
@@ -46,6 +46,3 @@ which must be downloaded and ran from within its local directory structure.
 
 Anyhow, development and progress will continue! If you have any input, I’d be
 happy to have it.
-
-
-  [atkbot]: http://github.com/comradeb14ck/atkbot
