@@ -183,8 +183,8 @@ Next time, I’ll be covering expression reduction.
 
 
   [Asterisk]: http://www.asterisk.org/
-  [awesome book]: http://www.amazon.com/gp/product/0596510489?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0596510489
+  [awesome book]: http://www.amazon.com/gp/product/0596517343/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0596517343&linkCode=as2&tag=rdegges-20
   [expressions]: http://www.voip-info.org/wiki/view/Asterisk+Expressions
   [FreePBX]: http://www.freepbx.org/
-  [rss feed]: http://feeds.feedburner.com/projectb14ck
-  [twitter]: http://twitter.com/comradeb14ck
+  [rss feed]: http://feeds.feedburner.com/rdegges
+  [twitter]: http://twitter.com/rdegges
