@@ -3,7 +3,6 @@ Date: 2010-07-23 00:00
 Author: Randall Degges
 
 
-
 So, I’m going to try out this whole Posterous thing. The main reason for it, is
 that I currently host and maintain my weblog by hand. This is rather cumbersome,
 as I have to constantly fiddle with my VPS, worry about bandwidth costs, and
