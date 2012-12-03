@@ -1,7 +1,8 @@
-Title: My Git
-Date: 2009-12-05 05:00
 Author: Randall Degges
+Date: 2009-12-05 05:00
+Slug: my-git
 Tags: git, versioncontrol
+Title: My Git
 
 
 A few days back I ordered a copy of Scott Chacon’s book: [Pro Git][], which I am
