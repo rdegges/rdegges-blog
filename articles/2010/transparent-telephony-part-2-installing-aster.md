@@ -26,13 +26,16 @@ system. Update everything to the latest version. I’ll be showing you how to
 install the latest version of Asterisk stable, so we might as well update our
 operating system and packages.
 
+
 ## Installing Dependencies
+
 
 ### CentOS
 
 You can skip this step as [Digium][] provides yum repositories which will
 automatically install the latest version of Asterisk for us as well as any
 dependencies.
+
 
 ### Ubuntu
 
@@ -62,12 +65,14 @@ with ntpdate.
 
 If you’d like to install ntp, just run: `apt-get install ntp`.
 
+
 ## Installing Asterisk
 
 Now that we’ve got our dependencies worked out, it’s time to actually install
 Asterisk! We’ll install DAHDI, Asterisk, Asterisk Addons, and all of the
 Asterisk default sound files. We’ll also ensure that Asterisk starts at boot,
 and runs as a system service.
+
 
 ### CentOS
 
@@ -78,22 +83,26 @@ yum repositories which I will be mirroring here.
 1.  Download the centos-asterisk.repo file and copy it to /etc/yum.repos.d/.
     Here is the repo file:
 
+        ```
         [asterisk-current]
         name=CentOS-$releasever - Asterisk - Current
         baseurl=http://packages.asterisk.org/centos/$releasever/current/$basearch/
         enabled=1
         gpgcheck=0
         #gpgkey=http://packages.asterisk.org/RPM-GPG-KEY-Digium
+        ```
 
 2.  Download the centos-digium.repo file and copy it to /etc/yum.repos.d/. Here
     is the repo file:
 
+        ```
         [digium-current]
         name=CentOS-$releasever - Digium - Current
         baseurl=http://packages.digium.com/centos/$releasever/current/$basearch/
         enabled=1
         gpgcheck=0
         #gpgkey=http://packages.digium.com/RPM-GPG-KEY-Digium
+        ```
 
 3.  Clear your current yum cache: `yum clean all`.
 
@@ -109,8 +118,11 @@ Asterisk are working properly:
 
 If all is working, you should see something similar to:
 
-    ### Span 1: DAHDI_DUMMY/1 "DAHDI_DUMMY/1 (source: Linux26) 1" (MASTER)
-    Asterisk 1.6.0.25 built by root @ localhost.localdomain on a i686 running Linux on 2010-02-26 20:30:00 UTC
+```
+### Span 1: DAHDI_DUMMY/1 "DAHDI_DUMMY/1 (source: Linux26) 1" (MASTER)
+Asterisk 1.6.0.25 built by root @ localhost.localdomain on a i686 running Linux on 2010-02-26 20:30:00 UTC
+```
+
 
 ### Ubuntu
 
@@ -122,47 +134,57 @@ To install Asterisk on Ubuntu, we need to compile it from source.
     below shows what Asterisk release I’ll be downloading (current at the time
     of writing):
 
-        wget http://downloads.asterisk.org/pub/telephony/asterisk/releases/asterisk-1.6.2.5.tar.gz
-        wget http://downloads.asterisk.org/pub/telephony/asterisk/asterisk-addons-1.6.2.0.tar.gz
-        wget http://downloads.asterisk.org/pub/telephony/dahdi-linux-complete/releases/dahdi-linux-complete-2.2.1+2.2.1.tar.gz
-        wget http://downloads.asterisk.org/pub/telephony/libpri/releases/libpri-1.4.10.2.tar.gz
+    ``` bash
+    wget http://downloads.asterisk.org/pub/telephony/asterisk/releases/asterisk-1.6.2.5.tar.gz
+    wget http://downloads.asterisk.org/pub/telephony/asterisk/asterisk-addons-1.6.2.0.tar.gz
+    wget http://downloads.asterisk.org/pub/telephony/dahdi-linux-complete/releases/dahdi-linux-complete-2.2.1+2.2.1.tar.gz
+    wget http://downloads.asterisk.org/pub/telephony/libpri/releases/libpri-1.4.10.2.tar.gz
+    ```
 
 2.  Now, let’s install DAHDI Linux / DAHDI Tools. Always install this before
     Asterisk:
 
-        tar zxvf dahdi-linux-complete-2.2.1+2.2.1.tar.gz
-        cd dahdi-linux-complete-2.2.1+2.2.1
-        make
-        make install
-        make config
+    ``` bash
+    tar zxvf dahdi-linux-complete-2.2.1+2.2.1.tar.gz
+    cd dahdi-linux-complete-2.2.1+2.2.1
+    make
+    make install
+    make config
+    ```
 
 3.  Now we’ll install Libpri:
 
-        tar zxvf libpri-1.4.10.2.tar.gz
-        cd libpri-1.4.10.2/
-        make
-        make install
+    ``` bash
+    tar zxvf libpri-1.4.10.2.tar.gz
+    cd libpri-1.4.10.2/
+    make
+    make install
+    ```
 
 4.  Now that we’ve got both DAHDI and Libpri installed, let’s install Asterisk:
 
-        tar zxvf asterisk-1.6.2.5.tar.gz
-        cd asterisk-1.6.2.5/
-        ./configure
-        make
-        make install
-        make config
-        make samples
-        make progdocs
+    ``` bash
+    tar zxvf asterisk-1.6.2.5.tar.gz
+    cd asterisk-1.6.2.5/
+    ./configure
+    make
+    make install
+    make config
+    make samples
+    make progdocs
+    ```
 
 5.  Finally, we’ll install Asterisk-Addons which includes some useful
     functionality:
 
-        tar zxvf asterisk-addons-1.6.2.0.tar.gz
-        cd asterisk-addons-1.6.2.0/
-        ./configure
-        make
-        make install
-        make samples
+    ``` bash
+    tar zxvf asterisk-addons-1.6.2.0.tar.gz
+    cd asterisk-addons-1.6.2.0/
+    ./configure
+    make
+    make install
+    make samples
+    ```
 
 Now that we’ve got everything installed, go ahead and reboot the system to make
 sure that everything starts up automatically on boot. Once the system is back up
@@ -171,8 +193,11 @@ and running, run the following two commands:
 
 If all is working, you should see something similar to:
 
-    ### Span  1: DAHDI_DUMMY/1 "DAHDI_DUMMY/1 (source: HRtimer) 1" (MASTER)
-    Asterisk 1.6.2.5 built by root @ ubuntu on a i686 running Linux on 2010-02-28 22:30:53 UTC
+```
+### Span  1: DAHDI_DUMMY/1 "DAHDI_DUMMY/1 (source: HRtimer) 1" (MASTER)
+Asterisk 1.6.2.5 built by root @ ubuntu on a i686 running Linux on 2010-02-28 22:30:53 UTC
+```
+
 
 ## Conclusion
 
@@ -187,6 +212,7 @@ If you’re looking for some other great Asterisk documentation, you can’t do 
 better than [Asterisk: The Future of Telephony, 2nd Edition][]. It’s the most
 thorough book on Asterisk that you can find, and will teach you everything you
 need to know to get started with Asterisk.
+
 
   [Transparent Telephony – Part 1 – An Introduction]: http://neverfear.org/blog/view/80/Transparent_Telephony_Part_1_An_Introduction
   [Asterisk]: http://www.asterisk.org/
