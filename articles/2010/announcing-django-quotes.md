@@ -39,7 +39,3 @@ Django template.
 While django-quotes isn’t complex, I’ve tried to write it using all of the
 best-practices I’ve learned along the way. Please let me know what you think,
 and if you have any suggestions, let me know so I can fix it up.
-
-[Check out django-quotes on Github][]!
-
-  [Check out django-quotes on Github]: http://github.com/comradeb14ck/django-quotes
