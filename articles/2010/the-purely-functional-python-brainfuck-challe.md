@@ -33,6 +33,7 @@ boundaries.
 If you want to learn more about python and functional programming, check out
 [the python functional programming page][].
 
+
   [NEVERFEAR]: http://neverfear.org/
   [brainfuck]: http://en.wikipedia.org/wiki/Brainfuck
   [the python functional programming page]: http://docs.python.org/howto/functional.html
