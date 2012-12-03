@@ -159,13 +159,15 @@ Again, it resolves to true (1). So, as expected, `""` = `""`.
 
 To summarize what we’ve learned, here’s a simple truthiness table:
 
-    expression      true?
-    ----------      -----
-    "" = ""         1
-    0 = ""          0
-    = ""            1
-    blah = ""       0
-    undef = ""      0
+```
+expression      true?
+----------      -----
+"" = ""         1
+0 = ""          0
+= ""            1
+blah = ""       0
+undef = ""      0
+```
 
 As you can see, Asterisk is (for the most part) relatively easy to comprehend
 when it comes to truthiness. The only surprising expression we encountered was
