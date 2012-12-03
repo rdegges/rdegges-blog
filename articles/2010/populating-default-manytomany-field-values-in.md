@@ -10,6 +10,7 @@ python, XML-RPC, JSON, Django—to name a few). A few days ago, while implementi
 a ban system, I bumped into an interesting problem that was not trivial to find
 a solution to. So, here it is :)
 
+
 ## Background
 
 The web application I’m developing is a private portal which allows users to
@@ -24,19 +25,22 @@ to remove abusive callers from specific teleconference lines. Each
 teleconference line is represented by a Django model class, which looks
 something like:
 
-    class Teleconference(models.Model):
+``` python
+class Teleconference(models.Model):
 
-        name = models.CharField('Teleconference name.', max_length=50)
-        did = PhoneNumberField('Teleconference phone number.', unique=True)
-        owner = models.ForeignKey(User)
-        bans = models.ManyToManyField(Caller, blank=True, null=True)
+    name = models.CharField('Teleconference name.', max_length=50)
+    did = PhoneNumberField('Teleconference phone number.', unique=True)
+    owner = models.ForeignKey(User)
+    bans = models.ManyToManyField(Caller, blank=True, null=True)
 
-        def __unicode__(self):
-            return '%s:%s' % (self.name, self.did)
+    def __unicode__(self):
+        return '%s:%s' % (self.name, self.did)
+```
 
 The newly added `bans` field stores a list of `Caller` objects which map to
 individual callers, and allow the web users to ban specific callers if they’re
 causing trouble.
+
 
 ## Problem
 
@@ -45,76 +49,81 @@ to select which callers they want to ban.
 
 The view code (originally) looked something like:
 
-    def edit_teleconference(request, id=None):
-        teleconference = get_object_or_404(Teleconference, id=id)
+``` python
+def edit_teleconference(request, id=None):
+    teleconference = get_object_or_404(Teleconference, id=id)
 
-        if request.method == 'POST':
-            form = TeleconferenceForm(request.POST, instance=teleconference)
-            if form.is_valid():
-                if 'name' in form.cleaned_data:
-                    teleconference.name = form.cleaned_data['name']
-                if 'did' in form.cleaned_data:
-                    teleconference.did = form.cleaned_data['did']
-                if 'owner' in form.cleaned_data:
-                    teleconference.owner = form.cleaned_data['owner']
-                if 'bans' in form.cleaned_data:
-                    teleconference.bans = form.cleaned_data['bans']
+    if request.method == 'POST':
+        form = TeleconferenceForm(request.POST, instance=teleconference)
+        if form.is_valid():
+            if 'name' in form.cleaned_data:
+                teleconference.name = form.cleaned_data['name']
+            if 'did' in form.cleaned_data:
+                teleconference.did = form.cleaned_data['did']
+            if 'owner' in form.cleaned_data:
+                teleconference.owner = form.cleaned_data['owner']
+            if 'bans' in form.cleaned_data:
+                teleconference.bans = form.cleaned_data['bans']
 
-                teleconference.save()
-        else:
-            defaults = {
-                'name': teleconference.name,
-                'did': teleconference.did,
-                'owner': teleconference.owner.id
-            }
-            if teleconference.bans:
-                defaults['bans'] = teleconference.bans.id
+            teleconference.save()
+    else:
+        defaults = {
+            'name': teleconference.name,
+            'did': teleconference.did,
+            'owner': teleconference.owner.id
+        }
+        if teleconference.bans:
+            defaults['bans'] = teleconference.bans.id
 
-            form = TeleconferenceForm(request.POST, instance=teleconference)
+        form = TeleconferenceForm(request.POST, instance=teleconference)
 
-        variables = RequestContext(request, {'form': form})
-        return render_to_response('portal/teleconf/edit.html', variables)
+    variables = RequestContext(request, {'form': form})
+    return render_to_response('portal/teleconf/edit.html', variables)
+```
 
 The problem in the code above resides on line 24. Attempting to populate the
 default values for a ManyToMany field using the `id` attribute does not work.
 
 After a bit of playing around, I was unable to find a solution, so I checked
-google. After \~20 minutes of google, I was still stuck with the same problem.
+google. After ~20 minutes of google, I was still stuck with the same problem.
+
 
 ## Solution
 
 To resolve the issue, and successfully populate the default `bans` field values,
 I had to do:
 
-    def edit_teleconference(request, id=None):
-        teleconference = get_object_or_404(Teleconference, id=id)
+``` python
+def edit_teleconference(request, id=None):
+    teleconference = get_object_or_404(Teleconference, id=id)
 
-        if request.method == 'POST':
-            form = TeleconferenceForm(request.POST, instance=teleconference)
-            if form.is_valid():
-                if 'name' in form.cleaned_data:
-                    teleconference.name = form.cleaned_data['name']
-                if 'did' in form.cleaned_data:
-                    teleconference.did = form.cleaned_data['did']
-                if 'owner' in form.cleaned_data:
-                    teleconference.owner = form.cleaned_data['owner']
-                if 'bans' in form.cleaned_data:
-                    teleconference.bans = form.cleaned_data['bans']
+    if request.method == 'POST':
+        form = TeleconferenceForm(request.POST, instance=teleconference)
+        if form.is_valid():
+            if 'name' in form.cleaned_data:
+                teleconference.name = form.cleaned_data['name']
+            if 'did' in form.cleaned_data:
+                teleconference.did = form.cleaned_data['did']
+            if 'owner' in form.cleaned_data:
+                teleconference.owner = form.cleaned_data['owner']
+            if 'bans' in form.cleaned_data:
+                teleconference.bans = form.cleaned_data['bans']
 
-                teleconference.save()
-        else:
-            defaults = {
-                'name': teleconference.name,
-                'did': teleconference.did,
-                'owner': teleconference.owner.id
-            }
-            if teleconference.bans:
-                defaults['bans'] = [t.pk for t in teleconference.bans.all()]
+            teleconference.save()
+    else:
+        defaults = {
+            'name': teleconference.name,
+            'did': teleconference.did,
+            'owner': teleconference.owner.id
+        }
+        if teleconference.bans:
+            defaults['bans'] = [t.pk for t in teleconference.bans.all()]
 
-            form = TeleconferenceForm(request.POST, instance=teleconference)
+        form = TeleconferenceForm(request.POST, instance=teleconference)
 
-        variables = RequestContext(request, {'form': form})
-        return render_to_response('portal/teleconf/edit.html', variables)
+    variables = RequestContext(request, {'form': form})
+    return render_to_response('portal/teleconf/edit.html', variables)
+```
 
 Which basically passes a list of `Caller` `id` attributes to the form. While
 this now seems an intuitive solution to me, I had a great deal of trouble
@@ -123,6 +132,7 @@ initially figuring it out.
 The way that form defaults work for Foreign and ManyToMany fields is that they
 take in either a model’s `id` attribute for ForeignKeys, or a list of model
 `id`s for ManyToMany fields.
+
 
 ## Conclusion
 
