@@ -26,7 +26,7 @@ without any work.
 [Gigaom][] says that you should just start doing it. Force yourself to wake up
 at the desired time each day, and you'll get used to it quickly.
 
-There are a million websites (google says there are \~7,570,000) with different
+There are a million websites (google says there are ~7,570,000) with different
 suggestions for hacking your sleep cycle.
 
 

@@ -57,7 +57,7 @@ do, I can just focus on a single task and do a really good job of finishing it.
 Not only does having your tasks laid out make it easier to focus, it also makes
 you feel good when you get stuff done. Each time I finish code I'm working on, I
 get a really great warm and fuzzy feeling deep down, which only serves to
-increase my motivation and keep me feeling good \>:)
+increase my motivation and keep me feeling good >:)
 
 The other solution, of course, to having fun while programming is an old and
 tested way: lock yourself in a small dark room, put on the best headphones you

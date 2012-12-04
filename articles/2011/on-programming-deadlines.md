@@ -66,7 +66,7 @@ code, you write a simple piece of code that tests your hypothetical project code
 for desired behavior. For example, let's say your project requires you to write
 a function that adds two numbers, and returns the sum of these numbers. Before
 writing that piece of code, you should write a test function,
-*test\_add\_two\_numbers*, that calls your *add\_two\_numbers* function with
+*test_add_two_numbers*, that calls your *add_two_numbers* function with
 various inputs, and verifies through assertions that the results you get back
 are proper.
 
@@ -120,11 +120,11 @@ TODO list consisting of each individual task that needs to be accomplished
 Don't make overly vague TODO items such as "debug sound problem", really think
 it through, and write out the full task in numerous steps. For example:
 
--   Write a unit test for the load\_soundfile function that checks to see if
+-   Write a unit test for the load_soundfile function that checks to see if
     mp3s are playable.
--   Write a unit test for the load\_soundfile function that checks to see if wav
+-   Write a unit test for the load_soundfile function that checks to see if wav
     files crash when loading.
--   Create new feature branch, design\_update, to hold the new web design
+-   Create new feature branch, design_update, to hold the new web design
     templates.
 -   Update style.css using the new web design templates.
 

@@ -8,14 +8,14 @@ This article is part of a series I'm writing called DevOps Django, which
 explains how to best deploy modern Django sites. If you're new, you should
 probably read the [first article][] of the series before this one.
 
-![Most\_interesting\_man\_on\_heroku][]
+![Most_interesting_man_on_heroku][]
 
 
 ## My Search for Solutions
 
 In the [previous installment][] of this series, I discussed (in depth) the
 problems with deploying Django as a devops guy. After struggling with deployment
-for \~2 years, and finding very little relief in modern devops tools (puppet,
+for ~2 years, and finding very little relief in modern devops tools (puppet,
 monit, nagios, etc.), I started looking for new solutions.
 
 Several months ago I was reading [Hacker News][] and noticed that [Heroku][] had
@@ -63,7 +63,7 @@ Heroku applications out of Git repositories, instantly provision addons for your
 application (PostgreSQL, Redis, etc.), view streaming logfiles, instantly scale
 up (and down) your nodes, etc. Furthermore, you're able to run shell commands
 locally using their CLI tool. Need to access the Django shell? No problem, you
-can simply execute \`\`**heroku run python manage.py shell**\`\` from your
+can simply execute ``**heroku run python manage.py shell**`` from your
 terminal.
 
 *By this point, I was really itching to use Heroku for something serious.*
@@ -85,23 +85,23 @@ heavy--I figured that if I could port it to Heroku then I'd be able to use
 Heroku for almost anything.
 
 The first thing I did was create a new Heroku application using their CLI tool:
-\`\`**heroku create --stack cedar**\`\`, then deploy my application to Heroku
-using Git: \`\`**git push heroku master**\`\`.
+``**heroku create --stack cedar**``, then deploy my application to Heroku
+using Git: ``**git push heroku master**``.
 
 Secondly, I installed a few addons so I could use my required infrastructure
 components (RabbitMQ, memcached, PostgreSQL, and cron):
 
--   \`\`**heroku addons:add rabbitmq**\`\`
--   \`\`**heroku addons:add memcache**\`\`
--   \`\`**heroku addons:add shared-database**\`\`
--   \`\`**heroku addons:add scheduler**\`\`
+-   ``**heroku addons:add rabbitmq**``
+-   ``**heroku addons:add memcache**``
+-   ``**heroku addons:add shared-database**``
+-   ``**heroku addons:add scheduler**``
 
 **NOTE**: By leaving off the size of the addons at the end, you install the
 cheapest (smallest) plan for each service. By adding these addons just as I've
-shown above, it adds 0\$ per month to your bill.
+shown above, it adds 0$ per month to your bill.
 
 Next, I modified my production settings file
-(\`\`**project/settings/prod.py**\`\`, in my case), to work with Heroku's hosted
+(``**project/settings/prod.py**``, in my case), to work with Heroku's hosted
 RabbitMQ, memcached, and PostgreSQL services. In the end, my settings file
 looked something like this:
 
@@ -242,106 +242,106 @@ looked something like this:
 
 """Production settings and globals."""
 
-\
 
-\
+
+
 
 from os import environ
 
-from sys import exc\_info
+from sys import exc_info
 
-from urlparse import urlparse, uses\_netloc
+from urlparse import urlparse, uses_netloc
 
-\
+
 
 from S3 import CallingFormat
 
-\
 
-from common import \*
 
-\
+from common import *
 
-\
 
-\# Helper lambda for gracefully degrading environmental variables:
 
-env = lambda e, d: environ[e] if environ.has\_key(e) else d
 
-\
 
-\
+# Helper lambda for gracefully degrading environmental variables:
 
-\#\#\#\#\#\#\#\#\#\# EMAIL CONFIGURATION
+env = lambda e, d: environ[e] if environ.has_key(e) else d
 
-\# See: https://docs.djangoproject.com/en/1.3/ref/settings/\#email-backend
 
-EMAIL\_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
-\
 
-\# See: https://docs.djangoproject.com/en/1.3/ref/settings/\#email-host
 
-EMAIL\_HOST = env('EMAIL\_HOST', 'smtp.gmail.com')
+########## EMAIL CONFIGURATION
 
-\
+# See: https://docs.djangoproject.com/en/1.3/ref/settings/#email-backend
 
-\# See: https://docs.djangoproject.com/en/1.3/ref/settings/\#email-host-password
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
-EMAIL\_HOST\_PASSWORD = env('EMAIL\_HOST\_PASSWORD', '')
 
-\
 
-\# See: https://docs.djangoproject.com/en/1.3/ref/settings/\#email-host-user
+# See: https://docs.djangoproject.com/en/1.3/ref/settings/#email-host
 
-EMAIL\_HOST\_USER = env('EMAIL\_HOST\_USER', 'your\_email@example.com')
+EMAIL_HOST = env('EMAIL_HOST', 'smtp.gmail.com')
 
-\
 
-\# See: https://docs.djangoproject.com/en/1.3/ref/settings/\#email-port
 
-EMAIL\_PORT = env('EMAIL\_PORT', 587)
+# See: https://docs.djangoproject.com/en/1.3/ref/settings/#email-host-password
 
-\
+EMAIL_HOST_PASSWORD = env('EMAIL_HOST_PASSWORD', '')
 
-\# See:
-https://docs.djangoproject.com/en/1.3/ref/settings/\#email-subject-prefix
 
-EMAIL\_SUBJECT\_PREFIX = '[%s] ' % SITE\_NAME
 
-\
+# See: https://docs.djangoproject.com/en/1.3/ref/settings/#email-host-user
 
-\# See: https://docs.djangoproject.com/en/1.3/ref/settings/\#email-use-tls
+EMAIL_HOST_USER = env('EMAIL_HOST_USER', 'your_email@example.com')
 
-EMAIL\_USE\_TLS = True
 
-\
 
-\# See: https://docs.djangoproject.com/en/1.3/ref/settings/\#server-email
+# See: https://docs.djangoproject.com/en/1.3/ref/settings/#email-port
 
-SERVER\_EMAIL = EMAIL\_HOST\_USER
+EMAIL_PORT = env('EMAIL_PORT', 587)
 
-\#\#\#\#\#\#\#\#\#\# END EMAIL CONFIGURATION
 
-\
 
-\
+# See:
+https://docs.djangoproject.com/en/1.3/ref/settings/#email-subject-prefix
 
-\#\#\#\#\#\#\#\#\#\# DATABASE CONFIGURATION
+EMAIL_SUBJECT_PREFIX = '[%s] ' % SITE_NAME
 
-\# See: http://devcenter.heroku.com/articles/django\#postgres\_database\_config
 
-uses\_netloc.append('postgres')
 
-uses\_netloc.append('mysql')
+# See: https://docs.djangoproject.com/en/1.3/ref/settings/#email-use-tls
 
-\
+EMAIL_USE_TLS = True
+
+
+
+# See: https://docs.djangoproject.com/en/1.3/ref/settings/#server-email
+
+SERVER_EMAIL = EMAIL_HOST_USER
+
+########## END EMAIL CONFIGURATION
+
+
+
+
+
+########## DATABASE CONFIGURATION
+
+# See: http://devcenter.heroku.com/articles/django#postgres_database_config
+
+uses_netloc.append('postgres')
+
+uses_netloc.append('mysql')
+
+
 
 try:
 
-    if environ.has\_key('DATABASE\_URL'):
+    if environ.has_key('DATABASE_URL'):
 
-        url = urlparse(environ['DATABASE\_URL'])
+        url = urlparse(environ['DATABASE_URL'])
 
         DATABASES['default'] = {
 
@@ -360,7 +360,7 @@ try:
         if url.scheme == 'postgres':
 
             DATABASES['default']['ENGINE'] =
-'django.db.backends.postgresql\_psycopg2'
+'django.db.backends.postgresql_psycopg2'
 
         if url.scheme == 'mysql':
 
@@ -368,27 +368,27 @@ try:
 
 except:
 
-    print "Unexpected error:", exc\_info()
+    print "Unexpected error:", exc_info()
 
-\
 
-\#DATABASE\_ROUTERS = ('settings.routers.MasterSlaveRouter',)
 
-\#\#\#\#\#\#\#\#\#\# END DATABASE CONFIGURATION
+#DATABASE_ROUTERS = ('settings.routers.MasterSlaveRouter',)
 
-\
+########## END DATABASE CONFIGURATION
 
-\
 
-\#\#\#\#\#\#\#\#\#\# CACHE CONFIGURATION
 
-\# See: https://docs.djangoproject.com/en/1.3/ref/settings/\#caches
+
+
+########## CACHE CONFIGURATION
+
+# See: https://docs.djangoproject.com/en/1.3/ref/settings/#caches
 
 CACHES = {
 
     'default': {
 
-        'BACKEND': 'django\_pylibmc.memcached.PyLibMCCache',
+        'BACKEND': 'django_pylibmc.memcached.PyLibMCCache',
 
         'LOCATION': 'localhost:11211',
 
@@ -398,7 +398,7 @@ CACHES = {
 
         'OPTIONS': {
 
-            'tcp\_nodelay': True,
+            'tcp_nodelay': True,
 
             'ketama': True,
 
@@ -408,117 +408,117 @@ CACHES = {
 
 }
 
-\#\#\#\#\#\#\#\#\#\# END CACHE CONFIGURATION
+########## END CACHE CONFIGURATION
 
-\
 
-\
 
-\#\#\#\#\#\#\#\#\#\# CELERY CONFIGURATION
 
-\# See:
-http://docs.celeryproject.org/en/latest/configuration.html\#broker-transport
 
-BROKER\_TRANSPORT = 'amqplib'
+########## CELERY CONFIGURATION
 
-\
+# See:
+http://docs.celeryproject.org/en/latest/configuration.html#broker-transport
 
-\# See: http://docs.celeryproject.org/en/latest/configuration.html\#broker-url
+BROKER_TRANSPORT = 'amqplib'
 
-BROKER\_URL = env('RABBITMQ\_URL', '')
 
-\
 
-\# See:
-http://docs.celeryproject.org/en/latest/configuration.html\#celery-result-backend
+# See: http://docs.celeryproject.org/en/latest/configuration.html#broker-url
 
-CELERY\_RESULT\_BACKEND = 'amqp'
+BROKER_URL = env('RABBITMQ_URL', '')
 
-\
 
-\# See:
-http://docs.celeryproject.org/en/latest/configuration.html\#celery-task-result-expires
 
-CELERY\_TASK\_RESULT\_EXPIRES = 60 \* 60 \* 5
+# See:
+http://docs.celeryproject.org/en/latest/configuration.html#celery-result-backend
 
-\#\#\#\#\#\#\#\#\#\# END CELERY CONFIGURATION
+CELERY_RESULT_BACKEND = 'amqp'
 
-\
 
-\
 
-\#\#\#\#\#\#\#\#\#\# STORAGE CONFIGURATION
+# See:
+http://docs.celeryproject.org/en/latest/configuration.html#celery-task-result-expires
 
-\# See: http://django-storages.readthedocs.org/en/latest/index.html
+CELERY_TASK_RESULT_EXPIRES = 60 * 60 * 5
 
-INSTALLED\_APPS += (
+########## END CELERY CONFIGURATION
+
+
+
+
+
+########## STORAGE CONFIGURATION
+
+# See: http://django-storages.readthedocs.org/en/latest/index.html
+
+INSTALLED_APPS += (
 
     'storages',
 
 )
 
-\
 
-\# See:
-http://django-storages.readthedocs.org/en/latest/backends/amazon-S3.html\#settings
 
-DEFAULT\_FILE\_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
+# See:
+http://django-storages.readthedocs.org/en/latest/backends/amazon-S3.html#settings
 
-STATICFILES\_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
 
-\
+STATICFILES_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
 
-AWS\_CALLING\_FORMAT = CallingFormat.SUBDOMAIN
 
-\
 
-AWS\_ACCESS\_KEY\_ID = env('AWS\_ACCESS\_KEY\_ID', '')
+AWS_CALLING_FORMAT = CallingFormat.SUBDOMAIN
 
-AWS\_SECRET\_ACCESS\_KEY = env('AWS\_SECRET\_ACCESS\_KEY', '')
 
-AWS\_STORAGE\_BUCKET\_NAME = env('AWS\_STORAGE\_BUCKET\_NAME', '')
 
-\
+AWS_ACCESS_KEY_ID = env('AWS_ACCESS_KEY_ID', '')
 
-STATIC\_URL = 'https://s3.amazonaws.com/%s/' % AWS\_STORAGE\_BUCKET\_NAME
+AWS_SECRET_ACCESS_KEY = env('AWS_SECRET_ACCESS_KEY', '')
 
-\#\#\#\#\#\#\#\#\#\# END STORAGE CONFIGURATION
+AWS_STORAGE_BUCKET_NAME = env('AWS_STORAGE_BUCKET_NAME', '')
 
-\
 
-\
 
-\#\#\#\#\#\#\#\#\#\# WEBSERVER CONFIGURATION
+STATIC_URL = 'https://s3.amazonaws.com/%s/' % AWS_STORAGE_BUCKET_NAME
 
-\# See: http://gunicorn.org/
+########## END STORAGE CONFIGURATION
 
-INSTALLED\_APPS += (
+
+
+
+
+########## WEBSERVER CONFIGURATION
+
+# See: http://gunicorn.org/
+
+INSTALLED_APPS += (
 
     'gunicorn',
 
 )
 
-\#\#\#\#\#\#\#\#\#\# END WEBSERVER CONFIGURATION
+########## END WEBSERVER CONFIGURATION
 
-\
 
-\
 
-\#\#\#\#\#\#\#\#\#\# SECRET KEY CONFIGURATION
 
-SECRET\_KEY = env('SECRET\_KEY', '')
 
-\#\#\#\#\#\#\#\#\#\# END SECRET KEY CONFIGURATION
+########## SECRET KEY CONFIGURATION
+
+SECRET_KEY = env('SECRET_KEY', '')
+
+########## END SECRET KEY CONFIGURATION
 
 As quick note, everytime you push code to Heroku, they automatically read your
-top-level \`\`**requirements.txt**\`\` file, and install any packages you've
+top-level ``**requirements.txt**`` file, and install any packages you've
 defined. This makes handling site dependencies completely transparent to you
 (the developer). In order to get my site working on Heroku, the only change I
-had to make to my requirements file was adding \`\`**django-pylibmc-sasl**\`\`,
+had to make to my requirements file was adding ``**django-pylibmc-sasl**``,
 as the Heroku memcached addon requires SASL authentication, which the commonly
-used \`\`**python-memcached**\`\` library doesn't provide.
+used ``**python-memcached**`` library doesn't provide.
 
-Just for clarity, here's my \`\`**requirements.txt**\`\` file:
+Just for clarity, here's my ``**requirements.txt**`` file:
 
 ~~~~ {.line_numbers}
 1
@@ -608,12 +608,12 @@ coupling required.
 
 Additionally, the Heroku CLI tool also allows you to set, edit, and remove your
 own environment variables. I used this functionality to set my application's
-\`\`**SECRET\_KEY**\`\`, along with other arbitrary stuff (like my [Amazon
+``**SECRET_KEY**``, along with other arbitrary stuff (like my [Amazon
 S3][] credentials, etc.). To add these environment variables to my Heroku
-application, I simply ran: \`\`**heroku config:add
-SECRET\_KEY=xxx AWS\_ACCESS\_KEY\_ID=xxx ...**\`\`.
+application, I simply ran: ``**heroku config:add
+SECRET_KEY=xxx AWS_ACCESS_KEY_ID=xxx ...**``.
 
-The next thing I did was define a top-level file, \`\`**Procfile**\`\`, which
+The next thing I did was define a top-level file, ``**Procfile**``, which
 Heroku uses to specify the different types of 'dynos' you'll be running.
 Essentially, a Procfile just lists a series of executable commands that do
 stuff. Here's the Procfile I wrote:
@@ -624,7 +624,7 @@ stuff. Here's the Procfile I wrote:
 3
 ~~~~
 
-web: python project/manage.py run\_gunicorn -b "0.0.0.0:\$PORT" -w 3 --log-level
+web: python project/manage.py run_gunicorn -b "0.0.0.0:$PORT" -w 3 --log-level
 info --settings=settings.prod
 
 scheduler: python project/manage.py celeryd -B -E --settings=settings.prod
@@ -638,16 +638,16 @@ tasks), and a celery worker instance (for processing asynchronous tasks).
 
 The way Heroku runs and manages your application is via these dyno types. For
 instance, let's say I want to have Heroku run three 'web' instances (this is the
-equivalent of running three separate web servers), I could run: \`\`**heroku
-scale web=3**\`\` from the CLI, and Heroku would instantly ensure that three of
+equivalent of running three separate web servers), I could run: ``**heroku
+scale web=3**`` from the CLI, and Heroku would instantly ensure that three of
 my 'web' dynos are running--automatically load balancing incoming HTTP requests
 across the three.
 
-**NOTE**: You can run \`\`**heroku ps**\`\` to see what processes (and how many
+**NOTE**: You can run ``**heroku ps**`` to see what processes (and how many
 of each) are running.
 
-After defining my \`\`**Procfile**\`\`, I just ran \`\`**heroku scale web=1
-scheduler=1 worker=1**\`\`, and Heroku instantly spun up my entire cloud
+After defining my ``**Procfile**``, I just ran ``**heroku scale web=1
+scheduler=1 worker=1**``, and Heroku instantly spun up my entire cloud
 infrastructure.
 
 **INSANE**
@@ -656,12 +656,12 @@ infrastructure.
 and no more. If you have multiple celerybeat instances running, you'll have
 duplicate tasks in your queue. That's why I specifically created two separate
 celery dyno types, "*scheduler*" and "*worker*", so that I could safely scale my
-worker processes using: \`\`**heroku scale worker=x**\`\`, while keeping only a
+worker processes using: ``**heroku scale worker=x**``, while keeping only a
 single scheduler.
 
 A Quick Recap
 
-It took me a total of \~2 hours to:
+It took me a total of ~2 hours to:
 
 -   Make a large website and API completely Heroku compatible.
 -   Fully provision a PostgreSQL server.
@@ -742,7 +742,7 @@ you can do so here: [http://www.theherokuhackersguide.com/][].
 
   [first article]: http://rdegges.com/devops-django-part-1-goals
     "DevOps Django - Part 1 - Goals"
-  [Most\_interesting\_man\_on\_heroku]: http://getfile3.posterous.com/getfile/files.posterous.com/temp-2011-12-18/CGHGEnvAyxulJAxlFdhJgDiFtsutyfFcjrkydIJICzdDvidkfpBxHaktfjlo/most_interesting_man_on_heroku.jpg.scaled696.jpg
+  [Most_interesting_man_on_heroku]: http://getfile3.posterous.com/getfile/files.posterous.com/temp-2011-12-18/CGHGEnvAyxulJAxlFdhJgDiFtsutyfFcjrkydIJICzdDvidkfpBxHaktfjlo/most_interesting_man_on_heroku.jpg.scaled696.jpg
   [previous installment]: http://rdegges.com/devops-django-part-2-the-pain-of-deployment
     "DevOps Django - Part 2 - The Pain of Deployment"
   [Hacker News]: http://news.ycombinator.com/ "Hacker News"

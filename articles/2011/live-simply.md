@@ -16,7 +16,7 @@ far.
 ## Why is Life Complex?
 
 It seems that life in general has become more and more complex as time has
-passed. The [first organisms][] on the planet (\~4.5 billion years ago) were
+passed. The [first organisms][] on the planet (~4.5 billion years ago) were
 simple. They didn't even have a nucleus! As time progressed, and life evolved,
 these simple organisms gradually grew into more complex and familiar creatures
 (plants, animals, and humans). In short: life is continually adapting, growing,
@@ -59,8 +59,8 @@ What makes complex things intimidate me so much? I've done quite a bit of
 thinking about this, and I belive the core reason complexity intimidates me is
 that it seems undecipherable. For me, I often bump into complexity in
 technologies. How does a certain tool work and why? What is the best way to do
-\_\_\_? How might I improve my application's performance when dealing with
-factors \_\_\_ and \_\_\_? The complexity levels are (on average) extremely high
+___? How might I improve my application's performance when dealing with
+factors ___ and ___? The complexity levels are (on average) extremely high
 for my day-to-day work. Often times I look at my todo list and just think to
 myself "OK: How will you approach this problem? What do you need to learn before
 you can even figure that out? How much time are you looking at spending on

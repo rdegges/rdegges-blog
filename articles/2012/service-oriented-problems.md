@@ -168,7 +168,7 @@ isolated codebases), but as time goes on these benefits become more and more
 prevalent (it is easier to maintain your application, you can scale your
 application quicker and more precisely, complexity drops substantially).
 
-Regardless of how you write your applications, go hack something! \>:)
+Regardless of how you write your applications, go hack something! >:)
 
 
   [Reaper]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2012-10-01/gxCwhxyaDpiExinkvCxIIvBzeCBdleEonvHtmIbvqmvHcdFrixsyGCahwArD/reaper.jpg.scaled696.jpg

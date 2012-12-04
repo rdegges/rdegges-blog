@@ -71,7 +71,7 @@ In an perfect world, as a developer, I should be able to:
     that I can find problems and fix them based on facts, not assumptions.
 
 Furthermore, ***I want my application and all of its related infrastructure
-components to \*just work\*, and require NO maintenance. ***For instance, if I
+components to *just work*, and require NO maintenance. ***For instance, if I
 provision a redis server, I want to know that it will always be up and
 available, and that I will never need to make changes to it again (other than
 scaling it up or down).

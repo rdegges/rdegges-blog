@@ -29,7 +29,7 @@ changed me as a person.
 
 ## My Normal (Uncaffinated) Self
 
-The \*normal\* Randall is a pretty awful guy. He procrastinates, is easily
+The *normal* Randall is a pretty awful guy. He procrastinates, is easily
 distracted, and is typically negative by nature. When I'm not caffinated, I feel
 like a completely different person.
 
@@ -88,7 +88,7 @@ than I can otherwise.
 
 Caffeine also keeps me satiated. The more caffeine I take, the less hungry I
 feel--and this feeling lasts for hours at a time. 200mg of caffeine and I won't
-be hungry (at all) for \~4 hours. This has been particularly useful to me as it
+be hungry (at all) for ~4 hours. This has been particularly useful to me as it
 helps me avoid consuming unnecessary calories throughout the day in the form of
 snacks.
 
@@ -105,14 +105,14 @@ It is actually rather hard for me to write about this, as I can't help but feel
 somewhat embarassed at my caffeine usage--but here it goes anyway.
 
 **NOTE**: *Don't do what I do. It's probably extremely risky and unhealthy, and
-I \*know\* that I need to change my habits significantly.*
+I *know* that I need to change my habits significantly.*
 
 I cycle caffeine. I've read tons of articles on the drug, and realize that my
 cycling isn't as effective as it could be (in large part because I don't go off
 it long enough to really flush it completely out of my system), but it has been
 effective for me. Keep in mind that the amounts of caffeine listed below are
-less effective at higher weights. I'm a fairly big guy (\~220lbs), so these
-amounts would likely be \*really\* dangerous for someone smaller.
+less effective at higher weights. I'm a fairly big guy (~220lbs), so these
+amounts would likely be *really* dangerous for someone smaller.
 
 My general cycle is three weeks on caffeine, one week off. After years of
 messing around with caffeine in various quantities and cycles, this has been the
@@ -135,7 +135,7 @@ to 2g (max) of caffeine per day, fluctuating its usage as necessary. I try to
 gradually increase my usage--for example: week 2 (of a month) I'll take between
 100mg and 400mg of caffeine. Week 3 I'll take between 400mg and 600mg. Week 4
 I'll take anywhere from 100mg to 2g. **NOTE**: *Days when I take more than 1g of
-caffeine are \*always\* followed by days with very low dosages of
+caffeine are *always* followed by days with very low dosages of
 caffeine--100mg or 200mg, as I'm afraid I'll overdo it.*
 
 In regards to the types of caffeine I take--I only take it in one of two ways:

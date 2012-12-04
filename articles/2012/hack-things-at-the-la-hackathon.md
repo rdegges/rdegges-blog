@@ -4,7 +4,7 @@ Author: Randall Degges
 Tags: programming, fun
 
 
-![Axe\_warrior][]
+![Axe_warrior][]
 
 I know several things about you right now:
 
@@ -61,7 +61,7 @@ better. I always end up writing amazing code, meeting really awesome people, and
 having a blast.
 
 In conclusion, you should really be going to this thing. It's a fucking **TON**
-of fun, filled with amazing guys (and gals), and worth a long drive and the 10\$
+of fun, filled with amazing guys (and gals), and worth a long drive and the 10$
 ticket price.
 
 If you'd like to sign up, you can do so
@@ -71,10 +71,10 @@ Be sure to get your ticket quick though, this event **ALWAYS SELLS OUT**, and is
 incredibly popular. There are only **150** open slots this time, so get yours
 now!
 
-Hope to see you there \>:)
+Hope to see you there >:)
 
 
-  [Axe\_warrior]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2012-10-22/tDhklnBsHqtwHFerkaaaAcuAFldhlJkrqjzjkDIHyAkphieAocxjahusBmdj/axe_warrior.jpg.scaled696.jpg
+  [Axe_warrior]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2012-10-22/tDhklnBsHqtwHFerkaaaAcuAFldhlJkrqjzjkDIHyAkphieAocxjahusBmdj/axe_warrior.jpg.scaled696.jpg
   [LA Hackathon]: http://www.meetup.com/LA-Hackathons/events/85658952/
     "LA Hackathon"
   [http://www.meetup.com/LA-Hackathons/events/85658952/]: http://www.meetup.com/LA-Hackathons/events/85658952/

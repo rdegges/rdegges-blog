@@ -4,10 +4,10 @@ Author: Randall Degges
 Tags: laptops, review
 
 
-[![Product\_images--bonobo-0d56b90b84e3dbb][]][]
-[![Product\_images--bonobo-4f12bc8ecf986ca][]][]
-[![Product\_images--bonobo-dd5ad28e128ed55][]][]
-[![Product\_images--bonobo-19fd027e5bc03f0][]][]
+[![Product_images--bonobo-0d56b90b84e3dbb][]][]
+[![Product_images--bonobo-4f12bc8ecf986ca][]][]
+[![Product_images--bonobo-dd5ad28e128ed55][]][]
+[![Product_images--bonobo-19fd027e5bc03f0][]][]
 
 [See the full gallery on Posterous][]
 
@@ -114,11 +114,11 @@ CPUs, 30 times of RAM, etc.
 From what I saw, system76 takes a different approach. All their base systems
 have excellent hardware, and they only offer a few upgrade options. I prefer
 this a lot more to the traditional model. Why? Because pricing is a lot clearer.
-Instead of purchasing a laptop that you think will cost 500\$, and then
+Instead of purchasing a laptop that you think will cost 500$, and then
 upgrading it to make it decent and then realizing that the price is now
-3,000\$--you know right off the bat what sort of price you're looking at.
+3,000$--you know right off the bat what sort of price you're looking at.
 
-While this laptop was expensive (I paid \~1,800\$), its hardware stats are
+While this laptop was expensive (I paid ~1,800$), its hardware stats are
 comparable to similarly priced HP laptops.
 
 
@@ -162,14 +162,14 @@ You can check out all their systems on their main
 site: [http://www.system76.com/][]
 
 
-  [Product\_images--bonobo-0d56b90b84e3dbb]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2011-12-19/BiDbHEAcpDybvztajarlDjigeBApkFEdjqeypIbIGyuDvcbbzcuqIeziriCw/product_images--bonobo-0d56b90b84e3dbb.png.scaled696.png
-  [![Product\_images--bonobo-0d56b90b84e3dbb][]]: ./images/86463786-0-product_images--bonobo-0d56b90b84e3dbb.png.scaled1000.png
-  [Product\_images--bonobo-4f12bc8ecf986ca]: http://getfile9.posterous.com/getfile/files.posterous.com/temp-2011-12-19/doeqkyizguFmDkCxqEBeHoofcdxxdBDoqHBhryjngsraipfiuueAnHfJskkz/product_images--bonobo-4f12bc8ecf986ca.png.scaled696.png
-  [![Product\_images--bonobo-4f12bc8ecf986ca][]]: ./images/86463786-1-product_images--bonobo-4f12bc8ecf986ca.png.scaled1000.png
-  [Product\_images--bonobo-dd5ad28e128ed55]: ./images/86463786-2-product_images--bonobo-dd5ad28e128ed55.png.scaled696.png
-  [![Product\_images--bonobo-dd5ad28e128ed55][]]: ./images/86463786-2-product_images--bonobo-dd5ad28e128ed55.png.scaled1000.png
-  [Product\_images--bonobo-19fd027e5bc03f0]: http://getfile0.posterous.com/getfile/files.posterous.com/temp-2011-12-19/wbcJolkeouEoJlkwmECjiveudfJAdlFGkedytFumHeouydxldwsemnfJqexd/product_images--bonobo-19fd027e5bc03f0.png.scaled696.png
-  [![Product\_images--bonobo-19fd027e5bc03f0][]]: ./images/86463786-3-product_images--bonobo-19fd027e5bc03f0.png.scaled1000.png
+  [Product_images--bonobo-0d56b90b84e3dbb]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2011-12-19/BiDbHEAcpDybvztajarlDjigeBApkFEdjqeypIbIGyuDvcbbzcuqIeziriCw/product_images--bonobo-0d56b90b84e3dbb.png.scaled696.png
+  [![Product_images--bonobo-0d56b90b84e3dbb][]]: ./images/86463786-0-product_images--bonobo-0d56b90b84e3dbb.png.scaled1000.png
+  [Product_images--bonobo-4f12bc8ecf986ca]: http://getfile9.posterous.com/getfile/files.posterous.com/temp-2011-12-19/doeqkyizguFmDkCxqEBeHoofcdxxdBDoqHBhryjngsraipfiuueAnHfJskkz/product_images--bonobo-4f12bc8ecf986ca.png.scaled696.png
+  [![Product_images--bonobo-4f12bc8ecf986ca][]]: ./images/86463786-1-product_images--bonobo-4f12bc8ecf986ca.png.scaled1000.png
+  [Product_images--bonobo-dd5ad28e128ed55]: ./images/86463786-2-product_images--bonobo-dd5ad28e128ed55.png.scaled696.png
+  [![Product_images--bonobo-dd5ad28e128ed55][]]: ./images/86463786-2-product_images--bonobo-dd5ad28e128ed55.png.scaled1000.png
+  [Product_images--bonobo-19fd027e5bc03f0]: http://getfile0.posterous.com/getfile/files.posterous.com/temp-2011-12-19/wbcJolkeouEoJlkwmECjiveudfJAdlFGkedytFumHeouydxldwsemnfJqexd/product_images--bonobo-19fd027e5bc03f0.png.scaled696.png
+  [![Product_images--bonobo-19fd027e5bc03f0][]]: ./images/86463786-3-product_images--bonobo-19fd027e5bc03f0.png.scaled1000.png
   [See the full gallery on Posterous]: http://rdegges.com/system76-bonobo-ubuntu-laptop-review
   [amazon reviews]: http://www.amazon.com/gp/pdp/profile/A3E3Y9R7W5NAI8
     "My Amazon Reviewer Profile"

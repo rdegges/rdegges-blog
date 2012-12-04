@@ -13,7 +13,7 @@ work, dedication, commitment, and perserverence--there's no way around it.
 One of my goals since last October has been to lose weight (specifically, to get
 down to 10% bodyfat). To me, that's a worthwhile goal. It will help me feel
 confident in myself, proud of my hard work, and teach me lots of new things
-along the way. Since October, I've lost \~80 lbs, and \~11% of my bodyfat (down
+along the way. Since October, I've lost ~80 lbs, and ~11% of my bodyfat (down
 from 35% to 24%).
 
 The daily grind was not easy (or pleasurable). It was extremely difficult to get

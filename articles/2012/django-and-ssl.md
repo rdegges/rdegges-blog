@@ -37,21 +37,21 @@ so:
 8
 ~~~~
 
-\# ...
+# ...
 
-\
 
-MIDDLEWARE\_CLASSES = (
+
+MIDDLEWARE_CLASSES = (
 
     'sslify.middleware.SSLifyMiddleware',
 
-    \# ...
+    # ...
 
 )
 
-\
 
-\# ...
+
+# ...
 
 Once you've done that, all HTTP requests to your site will be perma-redirected
 to their https equivalents, forcing SSL encryption.

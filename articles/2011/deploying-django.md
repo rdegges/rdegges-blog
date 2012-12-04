@@ -30,7 +30,7 @@ to find information you don't already know.
 Let's further assume that you're also an all-around-geek, and manage your own
 [Rackspace][] or [Amazon][] servers which you use to host your Django app. You
 boot your fresh new [Ubuntu][] cloud server, then install [Apache][] and
-[mod\_wsgi][] to run your Django site. You then spin up a second server and
+[mod_wsgi][] to run your Django site. You then spin up a second server and
 install [PostgreSQL][], which your site uses as its primary data store.
 
 You think you're doing a good job--you wrote your app and got it online, spent
@@ -56,7 +56,7 @@ site horizontally by spinning up a second web server, and splitting HTTP
 requests between the two. This way, you can serve twice as many users and keep
 your site running smoothly.
 
-You spin up a new server, install Apache / mod\_wsgi again, then copy your code
+You spin up a new server, install Apache / mod_wsgi again, then copy your code
 over. After a few hours researching HTTP load balancing, you decide to
 use [HAproxy][] to proxy your requests. A week later, you have HAproxy running
 on a new server, and can see HTTP requests hitting each web server.
@@ -262,7 +262,7 @@ applications on Heroku to reduce the pain.
   [Amazon]: http://aws.amazon.com/ "amazon"
   [Ubuntu]: http://www.ubuntu.com/ "ubuntu"
   [Apache]: http://www.apache.org/ "apache"
-  [mod\_wsgi]: http://code.google.com/p/modwsgi/ "mod_wsgi"
+  [mod_wsgi]: http://code.google.com/p/modwsgi/ "mod_wsgi"
   [PostgreSQL]: http://www.postgresql.org/ "postgres"
   [awesome]: http://www.awesomeness.net/colbert_arms_folded.jpg
   [14]: https://si0.twimg.com/profile_images/135126819/404-fffuuu_bigger.png

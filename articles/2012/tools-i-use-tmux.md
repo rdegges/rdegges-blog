@@ -83,20 +83,20 @@ screenies of tmux in action.
 This first picture is just a simple display of tmux with multiple windows open
 (note the window names at the bottom):
 
-[![Tmux\_simple][]][]
+[![Tmux_simple][]][]
 
 Next, we have a single tmux window open, broken into three panes: one is
 vertically split, while the other is horizontally split. As you can see, this
 makes coding quite convenient since I can code, look at tests, and browse
 documentation all in the same window:
 
-[![Tmux\_multiple\_panes][]][]
+[![Tmux_multiple_panes][]][]
 
 Here I just hit a single key, and had tmux automatically re-arrange my panes a
 few times in a row. Nice, huh?
 
-[![Tmux\_auto\_arrange\_1][]][] [![Tmux\_auto\_arrange\_2][]][]
-[![Tmux\_auto\_arrange\_3][]][]
+[![Tmux_auto_arrange_1][]][] [![Tmux_auto_arrange_2][]][]
+[![Tmux_auto_arrange_3][]][]
 
 [See the full gallery on Posterous][]
 
@@ -107,7 +107,7 @@ One of the great things about tmux is that it requires almost no configuration
 to be useful. Unlike GNU screen which requires quite a bit of tweaking (in my
 opinion) to be useful, tmux has sane defaults out of the box.
 
-Below is my **\~/.tmux.conf** file. As you can see, it's very simple:
+Below is my **~/.tmux.conf** file. As you can see, it's very simple:
 
 ~~~~ {.line_numbers}
 1
@@ -124,7 +124,7 @@ set -g prefix C-a
 
 unbind %
 
-bind \\ split-window -h
+bind \ split-window -h
 
 bind - split-window -v
 
@@ -173,16 +173,16 @@ work.
   [Tools]: http://getfile6.posterous.com/getfile/files.posterous.com/temp-2012-01-07/gbzgGJqHAFBqjzikpublGgrBinGvDjmivmgHawFpHlcaosbDcflxaGEysnrj/tools.png.scaled696.png
   [tmux]: http://tmux.sourceforge.net/ "tmux"
   [GNU screen]: http://www.gnu.org/software/screen/ "GNU screen"
-  [Tmux\_simple]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2012-01-07/lumlvaGlvnItAmfsyCCuztAcBsGfqdbImyFndpbrHmnBkpsqokldiBHEJCtf/tmux_simple.png.scaled696.png
-  [![Tmux\_simple][]]: ./images/92691196-1-tmux_simple.png.scaled1000.png
-  [Tmux\_multiple\_panes]: http://getfile1.posterous.com/getfile/files.posterous.com/temp-2012-01-07/lzdinBqsscafepgbzcDupqDhHyGpgngfzqErGwxBsffDdJrhwtGbcHAdIahi/tmux_multiple_panes.png.scaled696.png
-  [![Tmux\_multiple\_panes][]]: ./images/92691196-2-tmux_multiple_panes.png.scaled1000.png
-  [Tmux\_auto\_arrange\_1]: http://getfile7.posterous.com/getfile/files.posterous.com/temp-2012-01-07/iGcwcsGFkJHoFtvEununxFBieICqbqEptDzdehtjgkrrinDrfiyyjiCGuncB/tmux_auto_arrange_1.png.scaled696.png
-  [![Tmux\_auto\_arrange\_1][]]: ./images/92691196-3-tmux_auto_arrange_1.png.scaled1000.png
-  [Tmux\_auto\_arrange\_2]: http://getfile8.posterous.com/getfile/files.posterous.com/temp-2012-01-07/FvGIwokhrhvrBiyArhdwjqbfdgHzAzHkuzAcisnCBsnhfDAGEwuFGjmwbxJJ/tmux_auto_arrange_2.png.scaled696.png
-  [![Tmux\_auto\_arrange\_2][]]: ./images/92691196-4-tmux_auto_arrange_2.png.scaled1000.png
-  [Tmux\_auto\_arrange\_3]: http://getfile6.posterous.com/getfile/files.posterous.com/temp-2012-01-07/rtfDkouDrjEgsGijvfJatlGBhtgICfqpyhsaopakhyemkzEEtcakdhEvBABx/tmux_auto_arrange_3.png.scaled696.png
-  [![Tmux\_auto\_arrange\_3][]]: ./images/92691196-5-tmux_auto_arrange_3.png.scaled1000.png
+  [Tmux_simple]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2012-01-07/lumlvaGlvnItAmfsyCCuztAcBsGfqdbImyFndpbrHmnBkpsqokldiBHEJCtf/tmux_simple.png.scaled696.png
+  [![Tmux_simple][]]: ./images/92691196-1-tmux_simple.png.scaled1000.png
+  [Tmux_multiple_panes]: http://getfile1.posterous.com/getfile/files.posterous.com/temp-2012-01-07/lzdinBqsscafepgbzcDupqDhHyGpgngfzqErGwxBsffDdJrhwtGbcHAdIahi/tmux_multiple_panes.png.scaled696.png
+  [![Tmux_multiple_panes][]]: ./images/92691196-2-tmux_multiple_panes.png.scaled1000.png
+  [Tmux_auto_arrange_1]: http://getfile7.posterous.com/getfile/files.posterous.com/temp-2012-01-07/iGcwcsGFkJHoFtvEununxFBieICqbqEptDzdehtjgkrrinDrfiyyjiCGuncB/tmux_auto_arrange_1.png.scaled696.png
+  [![Tmux_auto_arrange_1][]]: ./images/92691196-3-tmux_auto_arrange_1.png.scaled1000.png
+  [Tmux_auto_arrange_2]: http://getfile8.posterous.com/getfile/files.posterous.com/temp-2012-01-07/FvGIwokhrhvrBiyArhdwjqbfdgHzAzHkuzAcisnCBsnhfDAGEwuFGjmwbxJJ/tmux_auto_arrange_2.png.scaled696.png
+  [![Tmux_auto_arrange_2][]]: ./images/92691196-4-tmux_auto_arrange_2.png.scaled1000.png
+  [Tmux_auto_arrange_3]: http://getfile6.posterous.com/getfile/files.posterous.com/temp-2012-01-07/rtfDkouDrjEgsGijvfJatlGBhtgICfqpyhsaopakhyemkzEEtcakdhEvBABx/tmux_auto_arrange_3.png.scaled696.png
+  [![Tmux_auto_arrange_3][]]: ./images/92691196-5-tmux_auto_arrange_3.png.scaled1000.png
   [See the full gallery on Posterous]: http://rdegges.com/tools-i-use-tmux
   [tmux crash course]: http://robots.thoughtbot.com/post/2641409235/a-tmux-crash-course "tmux Crash Course"
   [1]: http://blog.hawkhost.com/2010/06/28/tmux-the-terminal-multiplexer/ "tmux series"

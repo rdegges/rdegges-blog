@@ -40,7 +40,7 @@ you want to call it, is to install Asterisk initially with as many features as
 possible, disable everything, then selectively enable the features I need, one
 at a time.
 
-This is called a 'whitelisting\` approach, as you block everything by default,
+This is called a 'whitelisting` approach, as you block everything by default,
 and then manually allow only certain features (think network security).
 
 This method requires more effort to setup and maintain, but leads to the best

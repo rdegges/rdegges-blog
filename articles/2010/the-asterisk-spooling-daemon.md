@@ -349,7 +349,7 @@ a few things.
     Note, some of these directives should not be directly entered into your call
     files (as Asterisk will automatically add them as necessary), but of course,
     if you're reading this you're probably the type of person who likes messing
-    with that sort of stuff, so have at it. :\>
+    with that sort of stuff, so have at it. :>
 
 -   We've learned how to put any amount of directives we want onto a single
     line. Obviously this is totally useless, but it is nice to know that we CAN

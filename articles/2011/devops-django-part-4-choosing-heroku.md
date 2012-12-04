@@ -85,7 +85,7 @@ program that:
 
 For each application you have on Heroku, you get 1 free dyno per month. If you
 just want to run a small website, you can do it completely free of charge. For
-each additonal dyno you run, Heroku charges 35\$ per month (5 cents per hour, at
+each additonal dyno you run, Heroku charges 35$ per month (5 cents per hour, at
 the time of writing).
 
 Based on Heroku's simple pricing rules, you can easily gauge how much running
@@ -107,7 +107,7 @@ manages it for you. That means no data loss, full access to your backups, etc.
 Heroku's dedicated databases are much more robust than their free counterparts.
 In terms of pricing, their cost goes up based on the amount of allowed
 connections, RAM, and CPU units. Currently, the cheapest dedicated database plan
-costs 200\$ per month, allows 16 concurrent connections, has 1.7G of RAM, and 1
+costs 200$ per month, allows 16 concurrent connections, has 1.7G of RAM, and 1
 CPU unit.
 
 What's nice about the dedicated database plans (and what justifies their price,
@@ -126,12 +126,12 @@ you're getting an insanely good deal. My favorite feature is Heroku's concept of
 forking and following.
 
 Let's say you have a single paid database (with the name
-\`\`**HEROKU\_POSTGRESQL\_GREEN**\`\`), and you want to create a read slave.
+``**HEROKU_POSTGRESQL_GREEN**``), and you want to create a read slave.
 Heroku allows you to "*follow*" your existing database
-(\`\`**HEROKU\_POSTGRESQL\_GREEN**\`\`), and in doing so, automatically
+(``**HEROKU_POSTGRESQL_GREEN**``), and in doing so, automatically
 provisions your new database as a read slave. For instance, to provision a new
-read slave in the scenario I just described, I could simply run \`\`**heroku
-addons:add heroku-postgresql:ronin --follow HEROKU\_POSTGRESQL\_GREEN**\`\`, and
+read slave in the scenario I just described, I could simply run ``**heroku
+addons:add heroku-postgresql:ronin --follow HEROKU_POSTGRESQL_GREEN**``, and
 I'd have a new read slave up and running in a short period of time.
 
 Similarly to Heroku's "*follow*" feature is "*fork*". Forking a database gives
@@ -175,8 +175,8 @@ case, Rackspace vs. Heroku), it's easy to miscalculate cost. In our case, we
 looked at the cost of Rackspace instances vs. the cost of Heroku dynos.
 
 Since Heroku dynos give you 512M of RAM to work with, I based my initial price
-comparison on this factor. A single Heroku dyno costs 35\$ per month, and a 512M
-Rackspace server costs 21.90\$ per month. According to this simplistic
+comparison on this factor. A single Heroku dyno costs 35$ per month, and a 512M
+Rackspace server costs 21.90$ per month. According to this simplistic
 analysis--Heroku looks approximately 1.5x's as expensive.
 
 The hidden costs show themselves in three primary areas:
@@ -261,8 +261,8 @@ on this anywhere on their site).
 
 In comparison to Heroku, Rackspace charges for bandwidth in a per-gigabyte
 fashion. According to the [Rackspace pricing calculator][] I used on their site,
-2TB of bandwidth on Rackspace can cost you an additional \$368.64 per month.
-That's a lot in comparison to the 0\$ you'd pay for the same amount of bandwidth
+2TB of bandwidth on Rackspace can cost you an additional $368.64 per month.
+That's a lot in comparison to the 0$ you'd pay for the same amount of bandwidth
 using Heroku.
 
 ## Summary

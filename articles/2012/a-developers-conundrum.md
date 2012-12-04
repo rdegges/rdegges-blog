@@ -160,7 +160,7 @@ the rule: minimize dev / prod parity!
 
 I'd love to hear your opinions (please leave a comment), so that I can make a
 decision about what to do from now on in my quest to consistently improve my
-development skills \>:)
+development skills >:)
 
 
   [Reaper]: http://getfile0.posterous.com/getfile/files.posterous.com/temp-2012-07-10/jyjvIJIjmyCvAIJJifzaaClJEtwlaqwwinEiAbnAgaEtiCCHtGwAiwmBkAyi/reaper.jpg.scaled696.jpg

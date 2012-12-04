@@ -39,26 +39,26 @@ the file write something like this:
 
 try:
 
-    from settings\_local import \*
+    from settings_local import *
 
 except ImportError:
 
     pass
 
 What sucks about this approach is that you now need to maintain a file--in this
-case **settings\_local.py** for each of your environments, and it isn't going to
+case **settings_local.py** for each of your environments, and it isn't going to
 be easy to version control. Why? Because you have two choices in this scenario
 of fail:
 
-1.  Don't version control the **settings\_local.py** files on your various
+1.  Don't version control the **settings_local.py** files on your various
     servers. This sucks because now you've got stuff like database credentials
     that will lay around, and gradually break future deployments when you forget
     to update them. It also sucks because you've got to constantly worry about
     that file. It isn't part of your source repository, so you have to back it
     up manually, and take special care of it.
-2.  Version control the **settings\_local.py** files for each environment you
+2.  Version control the **settings_local.py** files for each environment you
     have, and then manually change the **settings.py** file (or
-    **\_\_init\_\_.py** file) in your project folder on each server. Now you've
+    **__init__.py** file) in your project folder on each server. Now you've
     got the same problem as before--you've got to manually manage some source
     files, and constantly worry about breaking shit.
 
@@ -68,14 +68,14 @@ Write a Settings Module
 
 Instead of maintaining multiple flat settings files, build a settings module. Go
 ahead and **rm** your **settings.py** file, and in its place, create a new
-directory, called **settings**, and put in a blank **\_\_init\_\_.py** file to
+directory, called **settings**, and put in a blank **__init__.py** file to
 start.
 
 The goal here will be to do meet all the criteria that I defined in the
 beginning of this article. In order to meet all those requirements, we need to:
 
 1.  Define a **common.py** file inside of our settings module. This file will
-    contain all of our 'shared' settings between all environments. For example:\
+    contain all of our 'shared' settings between all environments. For example:
 
     ~~~~ {.line_numbers}
     1
@@ -273,272 +273,272 @@ beginning of this article. In order to meet all those requirements, we need to:
 
     """Common settings and globals."""
 
-    \
 
-    \
+
+
 
     import sys
 
     from os.path import abspath, basename, dirname, join, normpath
 
-    \
 
-    from helpers import gen\_secret\_key
 
-    \
+    from helpers import gen_secret_key
 
-    \
 
-    \#\#\#\#\#\#\#\#\#\# PATH CONFIGURATION
 
-    \# Absolute filesystem path to this Django project directory.
 
-    DJANGO\_ROOT = dirname(dirname(abspath(\_\_file\_\_)))
 
-    \
+    ########## PATH CONFIGURATION
 
-    \# Site name.
+    # Absolute filesystem path to this Django project directory.
 
-    SITE\_NAME = basename(DJANGO\_ROOT)
+    DJANGO_ROOT = dirname(dirname(abspath(__file__)))
 
-    \
 
-    \# Absolute filesystem path to the top-level project folder.
 
-    SITE\_ROOT = dirname(DJANGO\_ROOT)
+    # Site name.
 
-    \
+    SITE_NAME = basename(DJANGO_ROOT)
 
-    \# Absolute filesystem path to the secret file which holds this project's
 
-    \# SECRET\_KEY. Will be auto-generated the first time this file is
+
+    # Absolute filesystem path to the top-level project folder.
+
+    SITE_ROOT = dirname(DJANGO_ROOT)
+
+
+
+    # Absolute filesystem path to the secret file which holds this project's
+
+    # SECRET_KEY. Will be auto-generated the first time this file is
     interpreted.
 
-    SECRET\_FILE = normpath(join(SITE\_ROOT, 'deploy', 'SECRET'))
+    SECRET_FILE = normpath(join(SITE_ROOT, 'deploy', 'SECRET'))
 
-    \
 
-    \# Add all necessary filesystem paths to our system path so that we can use
 
-    \# python import statements.
+    # Add all necessary filesystem paths to our system path so that we can use
 
-    sys.path.append(SITE\_ROOT)
+    # python import statements.
 
-    sys.path.append(normpath(join(DJANGO\_ROOT, 'apps')))
+    sys.path.append(SITE_ROOT)
 
-    sys.path.append(normpath(join(DJANGO\_ROOT, 'libs')))
+    sys.path.append(normpath(join(DJANGO_ROOT, 'apps')))
 
-    \#\#\#\#\#\#\#\#\#\# END PATH CONFIGURATION
+    sys.path.append(normpath(join(DJANGO_ROOT, 'libs')))
 
-    \
+    ########## END PATH CONFIGURATION
 
-    \
 
-    \#\#\#\#\#\#\#\#\#\# DEBUG CONFIGURATION
 
-    \# Disable debugging by default.
+
+
+    ########## DEBUG CONFIGURATION
+
+    # Disable debugging by default.
 
     DEBUG = False
 
-    TEMPLATE\_DEBUG = DEBUG
+    TEMPLATE_DEBUG = DEBUG
 
-    \#\#\#\#\#\#\#\#\#\# END DEBUG CONFIGURATION
+    ########## END DEBUG CONFIGURATION
 
-    \
 
-    \
 
-    \#\#\#\#\#\#\#\#\#\# MANAGER CONFIGURATION
 
-    \# Admin and managers for this project. These people receive private site
 
-    \# alerts.
+    ########## MANAGER CONFIGURATION
+
+    # Admin and managers for this project. These people receive private site
+
+    # alerts.
 
     ADMINS = (
 
-    ('Your Name', 'your\_email@example.com'),
+    ('Your Name', 'your_email@example.com'),
 
     )
 
-    \
+
 
     MANAGERS = ADMINS
 
-    \#\#\#\#\#\#\#\#\#\# END MANAGER CONFIGURATION
+    ########## END MANAGER CONFIGURATION
 
-    \
 
-    \
 
-    \#\#\#\#\#\#\#\#\#\# GENERAL CONFIGURATION
 
-    \# Local time zone for this installation. Choices can be found here:
 
-    \# http://en.wikipedia.org/wiki/List\_of\_tz\_zones\_by\_name although not
+    ########## GENERAL CONFIGURATION
+
+    # Local time zone for this installation. Choices can be found here:
+
+    # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name although not
     all
 
-    \# choices may be available on all operating systems. On Unix systems, a
+    # choices may be available on all operating systems. On Unix systems, a
     value
 
-    \# of None will cause Django to use the same timezone as the operating
+    # of None will cause Django to use the same timezone as the operating
     system.
 
-    \# If running in a Windows environment this must be set to the same as your
+    # If running in a Windows environment this must be set to the same as your
 
-    \# system time zone.
+    # system time zone.
 
-    TIME\_ZONE = 'America/Los\_Angeles'
+    TIME_ZONE = 'America/Los_Angeles'
 
-    \
 
-    \# Language code for this installation. All choices can be found here:
 
-    \# http://www.i18nguy.com/unicode/language-identifiers.html.
+    # Language code for this installation. All choices can be found here:
 
-    LANGUAGE\_CODE = 'en-us'
+    # http://www.i18nguy.com/unicode/language-identifiers.html.
 
-    \
+    LANGUAGE_CODE = 'en-us'
 
-    \# The ID, as an integer, of the current site in the django\_site database
+
+
+    # The ID, as an integer, of the current site in the django_site database
     table.
 
-    \# This is used so that application data can hook into specific site(s) and
+    # This is used so that application data can hook into specific site(s) and
     a
 
-    \# single database can manage content for multiple sites.
+    # single database can manage content for multiple sites.
 
-    SITE\_ID = 1
+    SITE_ID = 1
 
-    \
 
-    \# If you set this to False, Django will make some optimizations so as not
 
-    \# to load the internationalization machinery.
+    # If you set this to False, Django will make some optimizations so as not
 
-    USE\_I18N = False
+    # to load the internationalization machinery.
 
-    \
+    USE_I18N = False
 
-    \# If you set this to False, Django will not format dates, numbers and
 
-    \# calendars according to the current locale.
 
-    USE\_L10N = True
+    # If you set this to False, Django will not format dates, numbers and
 
-    \#\#\#\#\#\#\#\#\#\# END GENERAL CONFIGURATION
+    # calendars according to the current locale.
 
-    \
+    USE_L10N = True
 
-    \
+    ########## END GENERAL CONFIGURATION
 
-    \#\#\#\#\#\#\#\#\#\# MEDIA CONFIGURATION
 
-    \# Absolute filesystem path to the directory that will hold user-uploaded
+
+
+
+    ########## MEDIA CONFIGURATION
+
+    # Absolute filesystem path to the directory that will hold user-uploaded
     files.
 
-    MEDIA\_ROOT = normpath(join(DJANGO\_ROOT, 'media'))
+    MEDIA_ROOT = normpath(join(DJANGO_ROOT, 'media'))
 
-    \
 
-    \# URL that handles the media served from MEDIA\_ROOT.
 
-    MEDIA\_URL = '/media/'
+    # URL that handles the media served from MEDIA_ROOT.
 
-    \#\#\#\#\#\#\#\#\#\# END MEDIA CONFIGURATION
+    MEDIA_URL = '/media/'
 
-    \
+    ########## END MEDIA CONFIGURATION
 
-    \
 
-    \#\#\#\#\#\#\#\#\#\# STATIC FILE CONFIGURATION
 
-    \# Absolute path to the directory static files should be collected to. Don't
+
+
+    ########## STATIC FILE CONFIGURATION
+
+    # Absolute path to the directory static files should be collected to. Don't
     put
 
-    \# anything in this directory yourself; store your static files in apps'
+    # anything in this directory yourself; store your static files in apps'
     static/
 
-    \# subdirectories and in STATICFILES\_DIRS.
+    # subdirectories and in STATICFILES_DIRS.
 
-    STATIC\_ROOT = normpath(join(DJANGO\_ROOT, 'static'))
+    STATIC_ROOT = normpath(join(DJANGO_ROOT, 'static'))
 
-    \
 
-    \# URL prefix for static files.
 
-    STATIC\_URL = '/static/'
+    # URL prefix for static files.
 
-    \
+    STATIC_URL = '/static/'
 
-    \# URL prefix for admin static files -- CSS, JavaScript and images.
 
-    ADMIN\_MEDIA\_PREFIX = '/static/admin/'
 
-    \
+    # URL prefix for admin static files -- CSS, JavaScript and images.
 
-    \# Additional locations of static files.
+    ADMIN_MEDIA_PREFIX = '/static/admin/'
 
-    STATICFILES\_DIRS = (
 
-    normpath(join(DJANGO\_ROOT, 'assets')),
+
+    # Additional locations of static files.
+
+    STATICFILES_DIRS = (
+
+    normpath(join(DJANGO_ROOT, 'assets')),
 
     )
 
-    \
 
-    \# List of finder classes that know how to find static files in various
 
-    \# locations.
+    # List of finder classes that know how to find static files in various
 
-    STATICFILES\_FINDERS = (
+    # locations.
+
+    STATICFILES_FINDERS = (
 
     'django.contrib.staticfiles.finders.FileSystemFinder',
 
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
 
-    \#'django.contrib.staticfiles.finders.DefaultStorageFinder',
+    #'django.contrib.staticfiles.finders.DefaultStorageFinder',
 
     )
 
-    \#\#\#\#\#\#\#\#\#\# END STATIC FILE CONFIGURATION
+    ########## END STATIC FILE CONFIGURATION
 
-    \
 
-    \
 
-    \#\#\#\#\#\#\#\#\#\# TEMPLATE CONFIGURATION
 
-    \# List of callables that know how to import templates from various sources.
 
-    TEMPLATE\_LOADERS = (
+    ########## TEMPLATE CONFIGURATION
+
+    # List of callables that know how to import templates from various sources.
+
+    TEMPLATE_LOADERS = (
 
     'django.template.loaders.filesystem.Loader',
 
-    'django.template.loaders.app\_directories.Loader',
+    'django.template.loaders.app_directories.Loader',
 
-    \#'django.template.loaders.eggs.Loader',
-
-    )
-
-    \
-
-    \# Directories to search when loading templates.
-
-    TEMPLATE\_DIRS = (
-
-    normpath(join(DJANGO\_ROOT, 'templates')),
+    #'django.template.loaders.eggs.Loader',
 
     )
 
-    \#\#\#\#\#\#\#\#\#\# END TEMPLATE CONFIGURATION
 
-    \
 
-    \
+    # Directories to search when loading templates.
 
-    \#\#\#\#\#\#\#\#\#\# MIDDLEWARE CONFIGURATION
+    TEMPLATE_DIRS = (
 
-    MIDDLEWARE\_CLASSES = (
+    normpath(join(DJANGO_ROOT, 'templates')),
+
+    )
+
+    ########## END TEMPLATE CONFIGURATION
+
+
+
+
+
+    ########## MIDDLEWARE CONFIGURATION
+
+    MIDDLEWARE_CLASSES = (
 
     'django.middleware.common.CommonMiddleware',
 
@@ -552,15 +552,15 @@ beginning of this article. In order to meet all those requirements, we need to:
 
     )
 
-    \#\#\#\#\#\#\#\#\#\# END MIDDLEWARE CONFIGURATION
+    ########## END MIDDLEWARE CONFIGURATION
 
-    \
 
-    \
 
-    \#\#\#\#\#\#\#\#\#\# APP CONFIGURATION
 
-    INSTALLED\_APPS = (
+
+    ########## APP CONFIGURATION
+
+    INSTALLED_APPS = (
 
     'django.contrib.auth',
 
@@ -574,29 +574,29 @@ beginning of this article. In order to meet all those requirements, we need to:
 
     'django.contrib.staticfiles',
 
-    \
 
-    \# Admin panel and documentation.
+
+    # Admin panel and documentation.
 
     'django.contrib.admin',
 
     'django.contrib.admindocs',
 
-    \
 
-    \# South migration tool.
+
+    # South migration tool.
 
     'south',
 
-    \
 
-    \# Celery task queue.
+
+    # Celery task queue.
 
     'djcelery',
 
-    \
 
-    \# django-sentry log viewer.
+
+    # django-sentry log viewer.
 
     'indexer',
 
@@ -608,65 +608,65 @@ beginning of this article. In order to meet all those requirements, we need to:
 
     )
 
-    \#\#\#\#\#\#\#\#\#\# END APP CONFIGURATION
+    ########## END APP CONFIGURATION
 
-    \
 
-    \
 
-    \#\#\#\#\#\#\#\#\#\# CELERY CONFIGURATION
+
+
+    ########## CELERY CONFIGURATION
 
     import djcelery
 
-    djcelery.setup\_loader()
+    djcelery.setup_loader()
 
-    \#\#\#\#\#\#\#\#\#\# END CELERY CONFIGURATION
+    ########## END CELERY CONFIGURATION
 
-    \
 
-    \
 
-    \#\#\#\#\#\#\#\#\#\# URL CONFIGURATION
 
-    ROOT\_URLCONF = '%s.urls' % SITE\_NAME
 
-    \#\#\#\#\#\#\#\#\#\# END URL CONFIGURATION
+    ########## URL CONFIGURATION
 
-    \
+    ROOT_URLCONF = '%s.urls' % SITE_NAME
 
-    \
+    ########## END URL CONFIGURATION
 
-    \#\#\#\#\#\#\#\#\#\# KEY CONFIGURATION
 
-    \# Try to load the SECRET\_KEY from our SECRET\_FILE. If that fails, then
+
+
+
+    ########## KEY CONFIGURATION
+
+    # Try to load the SECRET_KEY from our SECRET_FILE. If that fails, then
     generate
 
-    \# a random SECRET\_KEY and save it into our SECRET\_FILE for future
+    # a random SECRET_KEY and save it into our SECRET_FILE for future
     loading. If
 
-    \# everything fails, then just raise an exception.
+    # everything fails, then just raise an exception.
 
     try:
 
-    SECRET\_KEY = open(SECRET\_FILE).read().strip()
+    SECRET_KEY = open(SECRET_FILE).read().strip()
 
     except IOError:
 
     try:
 
-    with open(SECRET\_FILE, 'w') as f:
+    with open(SECRET_FILE, 'w') as f:
 
-    f.write(gen\_secret\_key(50))
+    f.write(gen_secret_key(50))
 
     except IOError:
 
-    raise Exception('Cannot open file \`%s\` for writing.' % SECRET\_FILE)
+    raise Exception('Cannot open file `%s` for writing.' % SECRET_FILE)
 
-    \#\#\#\#\#\#\#\#\#\# END KEY CONFIGURATION
+    ########## END KEY CONFIGURATION
 
 2.  Define as many environment-specific settings files as you need. Just make
     sure to import from **common** at the top of your file. For example--here's
-    a **dev.py** file:\
+    a **dev.py** file:
 
     ~~~~ {.line_numbers}
     1
@@ -770,41 +770,41 @@ beginning of this article. In order to meet all those requirements, we need to:
 
     """Development settings and globals."""
 
-    \
 
-    \
 
-    from common import \*
+
+
+    from common import *
 
     from os.path import join, normpath
 
-    \
 
-    \
 
-    \#\#\#\#\#\#\#\#\#\# DEBUG CONFIGURATION
+
+
+    ########## DEBUG CONFIGURATION
 
     DEBUG = True
 
-    TEMPLATE\_DEBUG = DEBUG
+    TEMPLATE_DEBUG = DEBUG
 
-    \#\#\#\#\#\#\#\#\#\# END DEBUG CONFIGURATION
+    ########## END DEBUG CONFIGURATION
 
-    \
 
-    \
 
-    \#\#\#\#\#\#\#\#\#\# EMAIL CONFIGURATION
 
-    EMAIL\_BACKEND = 'django.core.mail.backends.dummy.EmailBackend'
 
-    \#\#\#\#\#\#\#\#\#\# END EMAIL CONFIGURATION
+    ########## EMAIL CONFIGURATION
 
-    \
+    EMAIL_BACKEND = 'django.core.mail.backends.dummy.EmailBackend'
 
-    \
+    ########## END EMAIL CONFIGURATION
 
-    \#\#\#\#\#\#\#\#\#\# DATABASE CONFIGURATION
+
+
+
+
+    ########## DATABASE CONFIGURATION
 
     DATABASES = {
 
@@ -812,7 +812,7 @@ beginning of this article. In order to meet all those requirements, we need to:
 
     'ENGINE': 'django.db.backends.sqlite3',
 
-    'NAME': normpath(join(SITE\_ROOT, 'db', 'default.db')),
+    'NAME': normpath(join(SITE_ROOT, 'db', 'default.db')),
 
     'USER': '',
 
@@ -826,13 +826,13 @@ beginning of this article. In order to meet all those requirements, we need to:
 
     }
 
-    \#\#\#\#\#\#\#\#\#\# END DATABASE CONFIGURATION
+    ########## END DATABASE CONFIGURATION
 
-    \
 
-    \
 
-    \#\#\#\#\#\#\#\#\#\# CACHE CONFIGURATION
+
+
+    ########## CACHE CONFIGURATION
 
     CACHES = {
 
@@ -844,124 +844,124 @@ beginning of this article. In order to meet all those requirements, we need to:
 
     }
 
-    \#\#\#\#\#\#\#\#\#\# END CACHE CONFIGURATION
+    ########## END CACHE CONFIGURATION
 
-    \
 
-    \
 
-    \#\#\#\#\#\#\#\#\#\# DJANGO-DEBUG-TOOLBAR CONFIGURATION
 
-    MIDDLEWARE\_CLASSES += (
 
-    'debug\_toolbar.middleware.DebugToolbarMiddleware',
+    ########## DJANGO-DEBUG-TOOLBAR CONFIGURATION
 
-    )
+    MIDDLEWARE_CLASSES += (
 
-    \
-
-    INSTALLED\_APPS += (
-
-    'debug\_toolbar',
+    'debug_toolbar.middleware.DebugToolbarMiddleware',
 
     )
 
-    \
 
-    \# IPs allowed to see django-debug-toolbar output.
 
-    INTERNAL\_IPS = ('127.0.0.1',)
+    INSTALLED_APPS += (
 
-    \
+    'debug_toolbar',
 
-    DEBUG\_TOOLBAR\_CONFIG = {
+    )
 
-    \# If set to True (default), the debug toolbar will show an intermediate
 
-    \# page upon redirect so you can view any debug information prior to
 
-    \# redirecting. This page will provide a link to the redirect destination
+    # IPs allowed to see django-debug-toolbar output.
 
-    \# you can follow when ready. If set to False, redirects will proceed as
+    INTERNAL_IPS = ('127.0.0.1',)
 
-    \# normal.
 
-    'INTERCEPT\_REDIRECTS': False,
 
-    \
+    DEBUG_TOOLBAR_CONFIG = {
 
-    \# If not set or set to None, the debug\_toolbar middleware will use its
+    # If set to True (default), the debug toolbar will show an intermediate
 
-    \# built-in show\_toolbar method for determining whether the toolbar should
+    # page upon redirect so you can view any debug information prior to
 
-    \# show or not. The default checks are that DEBUG must be set to True and
+    # redirecting. This page will provide a link to the redirect destination
 
-    \# the IP of the request must be in INTERNAL\_IPS. You can provide your own
+    # you can follow when ready. If set to False, redirects will proceed as
 
-    \# method for displaying the toolbar which contains your custom logic. This
+    # normal.
 
-    \# method should return True or False.
+    'INTERCEPT_REDIRECTS': False,
 
-    'SHOW\_TOOLBAR\_CALLBACK': None,
 
-    \
 
-    \# An array of custom signals that might be in your project, defined as the
+    # If not set or set to None, the debug_toolbar middleware will use its
 
-    \# python path to the signal.
+    # built-in show_toolbar method for determining whether the toolbar should
 
-    'EXTRA\_SIGNALS': [],
+    # show or not. The default checks are that DEBUG must be set to True and
 
-    \
+    # the IP of the request must be in INTERNAL_IPS. You can provide your own
 
-    \# If set to True (the default) then code in Django itself won't be shown in
+    # method for displaying the toolbar which contains your custom logic. This
 
-    \# SQL stacktraces.
+    # method should return True or False.
 
-    'HIDE\_DJANGO\_SQL': True,
+    'SHOW_TOOLBAR_CALLBACK': None,
 
-    \
 
-    \# If set to True (the default) then a template's context will be included
 
-    \# with it in the Template debug panel. Turning this off is useful when you
+    # An array of custom signals that might be in your project, defined as the
 
-    \# have large template contexts, or you have template contexts with lazy
+    # python path to the signal.
 
-    \# datastructures that you don't want to be evaluated.
+    'EXTRA_SIGNALS': [],
 
-    'SHOW\_TEMPLATE\_CONTEXT': True,
 
-    \
 
-    \# If set, this will be the tag to which debug\_toolbar will attach the
+    # If set to True (the default) then code in Django itself won't be shown in
+
+    # SQL stacktraces.
+
+    'HIDE_DJANGO_SQL': True,
+
+
+
+    # If set to True (the default) then a template's context will be included
+
+    # with it in the Template debug panel. Turning this off is useful when you
+
+    # have large template contexts, or you have template contexts with lazy
+
+    # datastructures that you don't want to be evaluated.
+
+    'SHOW_TEMPLATE_CONTEXT': True,
+
+
+
+    # If set, this will be the tag to which debug_toolbar will attach the
     debug
 
-    \# toolbar. Defaults to 'body'.
+    # toolbar. Defaults to 'body'.
 
     'TAG': 'body',
 
     }
 
-    \#\#\#\#\#\#\#\#\#\# END DJANGO-DEBUG-TOOLBAR CONFIGURATION
+    ########## END DJANGO-DEBUG-TOOLBAR CONFIGURATION
 
-    \
 
-    \
 
-    \#\#\#\#\#\#\#\#\#\# CELERY CONFIGURATION
 
-    INSTALLED\_APPS += (
+
+    ########## CELERY CONFIGURATION
+
+    INSTALLED_APPS += (
 
     'djkombu',
 
     )
 
-    \
 
-    BROKER\_BACKEND = 'djkombu.transport.DatabaseTransport'
 
-    \#\#\#\#\#\#\#\#\#\# END CELERY CONFIGURATION
+    BROKER_BACKEND = 'djkombu.transport.DatabaseTransport'
+
+    ########## END CELERY CONFIGURATION
 
 3.  When you're using any sort of management command, just specify the settings
     module you want to use. For example: instead of running **python manage.py

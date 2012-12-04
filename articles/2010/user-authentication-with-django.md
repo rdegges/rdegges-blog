@@ -219,7 +219,7 @@ Since the login page already has a view defined (thanks to
 users to go to the portal) and a logout page that allows users to logout
 anywhere on the website.
 
-The main\_page view is pretty simple, it just renders an index.html template
+The main_page view is pretty simple, it just renders an index.html template
 (don't worry, we'll write all of the templates later).
 
 The `logout_page` view calls the logout function on the request object. This
@@ -293,12 +293,12 @@ def portal_main_page(request):
 
 This is where things get interesting. Since we decided a while back that our
 /portal/ page was going to require users to be authenticated, we are going to
-import the login\_required function from `djang.contrib.auth`. This decorator
+import the login_required function from `djang.contrib.auth`. This decorator
 allows us to specify which views require users to be authenticated to use! All
 we need to do is place `@login_required` above each view definition that we have
 which requires user authentication, and BAM. Everything magically works!
 
-If you were to visit /portal/ without being logged in, the login\_required
+If you were to visit /portal/ without being logged in, the login_required
 function would see that you are not authenticated, and would read the variable
 value in your settings.py file called `LOGIN_URL` which currently contains
 '/login/', and would then direct you to the login page. Pretty awesome right?
@@ -336,7 +336,7 @@ HTML5 :)
 ```
 
 Now that we have a base template, let's create the main page of the website
-(index.html) as our main\_page view renders:
+(index.html) as our main_page view renders:
 
 ``` html+django
 {% extends "base.html" %}
@@ -423,7 +423,7 @@ Portal
 This page is special in that it uses the `{{ "user.username" }}` variable to
 print the user name of the logged in user. The Django authentication system
 passes the user object to each template that requires authentication (using the
-login\_required decorator), that we can use to fetch information on the user. In
+login_required decorator), that we can use to fetch information on the user. In
 this case, we are going to display a simple welcome message.
 
 The last thing we need to do is create a template for our login page (remember
@@ -489,7 +489,7 @@ is re-directed to after logging in. Let's say, for example, that a user visits
 our homepage, and clicks the link there that directs them to /portal/. Since
 /portal/ requires authentication, it will direct the user to the URL
 /login/?next=/portal/. This GET argument is sent automatically by the
-login\_required decorator to help inform the login page of where to direct the
+login_required decorator to help inform the login page of where to direct the
 user after they've logged in.
 
 Our code above says “If the user requests a page, and they are not
@@ -508,7 +508,7 @@ Django's auth as long as you implement the login template as we did above.
 
 ## Test It Out
 
-We're done. So give everything a test. Go to your django\_consultants directory
+We're done. So give everything a test. Go to your django_consultants directory
 and run the command `python manage.py runserver` to start up the development
 webserver. Then open a browser and visit [http://localhost:8000/][].
 

@@ -27,7 +27,7 @@ of the above, you're in an incredibly unique position right now: you have the
 ability, tools, and power to build immense wealth, influence, and fame--much
 moreso than at any previous time in history.
 
-With a laptop, an internet connection, and 50\$ you can bootstrap even the most
+With a laptop, an internet connection, and 50$ you can bootstrap even the most
 abitious technical projects *by yourself*, decimating even the most highly
 established, well-funded and successful businesses in an incredibly small amount
 of time.

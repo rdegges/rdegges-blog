@@ -40,7 +40,7 @@ really utilize my skills.
 
 ## Have a Warrior Mindset
 
-[![Kenpachi\_sketch][]][]
+[![Kenpachi_sketch][]][]
 
 The way you approach challenges makes an enormous difference in the quality of
 your work. If you take a project lightly, and don't fully commit yourself to
@@ -71,7 +71,7 @@ natural "highs" you can get.
 
 ## Share Your Work
 
-[![Samurai\_raing][]][]
+[![Samurai_raing][]][]
 
 One of the most powerful motivators in software is open source. Writing code in
 the open is incredibly fun.
@@ -97,7 +97,7 @@ people do (or don't) use my creations.
 
 ## Don't Conform
 
-![Kenpachi\_back][]
+![Kenpachi_back][]
 
 The software industry can be harsh--it's filled with brilliant minds, and large
 egos. Unfortunately, this makes it very difficult to discover truth in what you
@@ -179,7 +179,7 @@ of supportive, like-minded friends can make an enormous difference in your
 personal development, happiness, and day-to-day satisfaction.
 
 In the off chance that you've read this far, and would like to hang out with
-some amazing hackers--you're formally invited to join \#heapify on irc.oftc.net
+some amazing hackers--you're formally invited to join #heapify on irc.oftc.net
 (a public IRC channel). IRC has played a crucial role in my life, and many of
 the programmers I met years ago on IRC I'm still great friends with today. If
 you'd like to join a supportive group of enthusiastic developers, please drop by
@@ -190,11 +190,11 @@ and say hi :)
   [![Kenpachi][]]: ./images/135344160-0-kenpachi.jpg.scaled1000.jpg
   [Byakuya]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2012-06-02/senagDwbrpzuamkffCabanHlrHyyzxiwBtocrfIxvmykEBmtijFaHHbxxFnh/byakuya.png.scaled696.png
   [![Byakuya][]]: ./images/135344160-3-byakuya.png.scaled1000.png
-  [Kenpachi\_sketch]: http://getfile3.posterous.com/getfile/files.posterous.com/temp-2012-06-01/hhxJbgmipdaxrhmHHdlvuvbdnbzGjqqHfCblmrrmbrAjhvzqHvqlkctyupaD/kenpachi_sketch.jpg.scaled696.jpg
-  [![Kenpachi\_sketch][]]: ./images/135344160-1-kenpachi_sketch.jpg.scaled1000.jpg
-  [Samurai\_raing]: http://getfile6.posterous.com/getfile/files.posterous.com/temp-2012-06-02/ccdjzxkrzegzeHowbAGJveArIzFIodbFppxmwjHIgqlxffxxGdchskovwFhv/samurai_raing.jpg.scaled696.jpg
-  [![Samurai\_raing][]]: ./images/135344160-2-samurai_raing.jpg.scaled1000.jpg
-  [Kenpachi\_back]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2012-06-02/cwuFhkEekloiAyzumabitFbimeymEaemaCJuGJqkbBsxwsvjAeDpvngJncwG/kenpachi_back.jpg.scaled696.jpg
+  [Kenpachi_sketch]: http://getfile3.posterous.com/getfile/files.posterous.com/temp-2012-06-01/hhxJbgmipdaxrhmHHdlvuvbdnbzGjqqHfCblmrrmbrAjhvzqHvqlkctyupaD/kenpachi_sketch.jpg.scaled696.jpg
+  [![Kenpachi_sketch][]]: ./images/135344160-1-kenpachi_sketch.jpg.scaled1000.jpg
+  [Samurai_raing]: http://getfile6.posterous.com/getfile/files.posterous.com/temp-2012-06-02/ccdjzxkrzegzeHowbAGJveArIzFIodbFppxmwjHIgqlxffxxGdchskovwFhv/samurai_raing.jpg.scaled696.jpg
+  [![Samurai_raing][]]: ./images/135344160-2-samurai_raing.jpg.scaled1000.jpg
+  [Kenpachi_back]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2012-06-02/cwuFhkEekloiAyzumabitFbimeymEaemaCJuGJqkbBsxwsvjAeDpvngJncwG/kenpachi_back.jpg.scaled696.jpg
   [Ighigo]: http://getfile2.posterous.com/getfile/files.posterous.com/temp-2012-06-02/nccfkorzqsrFFCslBrkjttAqBaxacgbcEwBjinybsGgbGnqFxqyFpbBdbuff/ighigo.jpg.scaled696.jpg
   [![Ighigo][]]: ./images/135344160-5-ighigo.jpg.scaled1000.jpg
   [Hollow]: http://getfile7.posterous.com/getfile/files.posterous.com/temp-2012-06-02/shnBmzrmpnEjdCsIdsomjcofglHbBwChzHfDopzGdnsBmwBdnbBidCaDyvcG/hollow.jpg.scaled696.jpg

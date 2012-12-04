@@ -24,7 +24,7 @@ and have really opened my mind a lot.
 
 Another goal of mine was to start a new exercise habit, and consistently
 exercise 30 minutes a day 5 times a week. From January to February, I did quite
-a bit of jogging, and a small amount of weightlifting 6 days a week (Monday -\>
+a bit of jogging, and a small amount of weightlifting 6 days a week (Monday ->
 Saturday). In February I joined [Team CrossFit][], and started doing it 4 days a
 week.
 

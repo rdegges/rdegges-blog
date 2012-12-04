@@ -22,7 +22,7 @@ you're involved in the python web programming world, you've likely used his
 software, and seen his presentations.
 
 While I've never met the guy, he seems like a decent dude. So if you take
-anything away from this rant, let it be purely technical \>:)
+anything away from this rant, let it be purely technical >:)
 
 Also: I should probably mention that I'm in no way affiliated with Heroku. Like
 David, I know several Heroku employees, but that's the extent of my
@@ -36,7 +36,7 @@ Ok then! Let's talk about Heroku!
 At its core, Heroku is just a simple unix platform; specifically, Ubuntu 10.04
 LTS.
 
-![Heroku\_is\_ubuntu][]
+![Heroku_is_ubuntu][]
 
 The entire Heroku platform is really nothing more than small Ubuntu virtual
 server instances that can be spun up and down on demand. Each instance (Heroku
@@ -51,14 +51,14 @@ calls them [dynos][]), has:
 -   Per-second billing. Dynos cost 5 cents per hour. You get one dyno for free
     each month (per app). If you use a dyno for 2 seconds, you'll
     pay 0.16666666666666666 cents. If you use a dyno for an entire month solid,
-    you'll pay 36\$ (assuming a month has 30 days).
+    you'll pay 36$ (assuming a month has 30 days).
 
 **NOTE**: If you want to calculate your costs for running your application on
 Heroku, they have a really nice [cost calculator][] you can use.
 
 So what does this mean? Well, it basically means that Heroku can run pretty much
 any Ubuntu compatible software you can think of. It also means that there's
-really nothing \*magical\* going on here--it's just unix.
+really nothing *magical* going on here--it's just unix.
 
 
 ## Heroku is Centered Around Apps
@@ -68,7 +68,7 @@ isn't to sell you virtual Ubuntu servers that you configure yourself. Their real
 goal is to handle that stuff for you, and let you focus on building
 applications.
 
-![Heroku\_apps][]
+![Heroku_apps][]
 
 The main idea is that:
 
@@ -134,7 +134,7 @@ Heroku platform gives you a basic way to deploy and manage your codebase and
 applications, while the [Heroku addons][] allow you to pick-and-choose your
 various infrastructure components.
 
-![Heroku\_addons][]
+![Heroku_addons][]
 
 Adding, resizing, and removing infrastructure components is reduced from
 hundreds of hours of sysadmin work to a single command.
@@ -230,7 +230,7 @@ and couldn't figure out why so many weird things were happening:
 > -   The Postgres server can't handle any reasonable level of concurrency.
 > -   We randomly have to spin up 20 dynos to get anywhere in the queue backlog.
 
-![I\_disapprove][]
+![I_disapprove][]
 
 Really David? **REALLY?**
 
@@ -387,18 +387,18 @@ interested in deploying web applications on Heroku, you should check it out.
   [The Cloud is Not For You]: http://justcramer.com/2012/06/02/the-cloud-is-not-for-you/
     "The Cloud is Not For You"
   [David]: http://justcramer.com/ "David Cramer"
-  [Heroku\_is\_ubuntu]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2012-06-03/ofrsItFhDewDcorGBBqBCIblAnDCubrayCpvjfGfyJFoqsypinahnbFahyos/heroku_is_ubuntu.png.scaled696.png
+  [Heroku_is_ubuntu]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2012-06-03/ofrsItFhDewDcorGBBqBCIblAnDCubrayCpvjfGfyJFoqsypinahnbFahyos/heroku_is_ubuntu.png.scaled696.png
   [dynos]: https://devcenter.heroku.com/articles/dynos "Heroku Dynos"
   [chroot jail]: http://en.wikipedia.org/wiki/Jail_(computer_security) "Jails"
   [cost calculator]: http://www.heroku.com/pricing#0-0 "Heroku Pricing"
-  [Heroku\_apps]: http://getfile7.posterous.com/getfile/files.posterous.com/temp-2012-06-03/HDpCfimxiImoCkoogixFozBixjCrDBfifoAEJEjIsEiJxDagApkCieuofDmh/heroku_apps.png.scaled696.png
+  [Heroku_apps]: http://getfile7.posterous.com/getfile/files.posterous.com/temp-2012-06-03/HDpCfimxiImoCkoogixFozBixjCrDBfifoAEJEjIsEiJxDagApkCieuofDmh/heroku_apps.png.scaled696.png
   [Git]: http://git-scm.com/ "Git"
   [Symbol]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2012-06-03/vbkatadExvBlxIFeBCewFFAdHjJrdqFFnFFwkDDycyHgmnwvlbjhaxuIGumr/symbol.png.scaled696.png
   [The Twelve-Factor App]: http://www.12factor.net/ "12factor"
   [Heroku addons]: https://addons.heroku.com/ "Heroku Addons"
-  [Heroku\_addons]: http://getfile0.posterous.com/getfile/files.posterous.com/temp-2012-06-03/xxfEBeEmusCbqHqhkblxjryHyDjmiqrbhGewwdefvGgoqgADztqxwDstkEdJ/heroku_addons.png.scaled696.png
+  [Heroku_addons]: http://getfile0.posterous.com/getfile/files.posterous.com/temp-2012-06-03/xxfEBeEmusCbqHqhkblxjryHyDjmiqrbhGewwdefvGgoqgADztqxwDstkEdJ/heroku_addons.png.scaled696.png
   [Happy-grin]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2012-06-03/uDFdsrmsypBBpxviiDaqBjvlkdiDfGuHiEhsmsdEIpJExhoCyheovsbgJwBb/happy-grin.png.scaled696.png
-  [I\_disapprove]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2012-06-03/bfeunxGescIIitkDrgeFqfJiFsAsigyDpDHxBDxagHqzfpCotkwrfgubnIDE/i_disapprove.png.scaled696.png
+  [I_disapprove]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2012-06-03/bfeunxGescIIitkDrgeFqfJiFsAsigyDpDHxBDxagHqzfpCotkwrfgubnIDE/i_disapprove.png.scaled696.png
   [New Relic]: https://addons.heroku.com/newrelic "New Relic"
   [Newrelic-dynos]: http://getfile7.posterous.com/getfile/files.posterous.com/temp-2012-06-03/JdGEBklrDArGlfecEjInCHbqFraxjhDaepEtrxegerECIuGpvDIagenbcAEn/newrelic-dynos.png.scaled696.png
   [![Newrelic-dynos][]]: ./images/135701004-7-newrelic-dynos.png.scaled1000.png

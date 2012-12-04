@@ -17,7 +17,7 @@ and organization strategies on my Django projects, and built what I consider to
 be a pretty decent generic Django project.
 
 My generic Django project layout uses several general-purpose Django
-applications, and should be a suitable starting point for small-\>medium sized
+applications, and should be a suitable starting point for small->medium sized
 websites. Out of the box, it provides:
 
 -   Settings files for development, staging, and production environments.

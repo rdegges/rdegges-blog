@@ -107,7 +107,7 @@ You're at a severe disadvantage:
 2.  Good engineers have character traits that make them likely to succeed at a
     myriad of activities, including business.
 3.  Engineers understand how things work. Instead of making assumptions about
-    problems, engineers \**know*\* about problems, why they exist, and how to
+    problems, engineers **know** about problems, why they exist, and how to
     solve them.
 4.  Engineers know the best way to find and build solutions to problems.
 5.  Engineers are more creative: their understanding of how and why things work

@@ -4,7 +4,7 @@ Author: Randall Degges
 Tags: programming
 
 
-![Code\_wolf][]
+![Code_wolf][]
 
 I really enjoy thinking and writing about programming. Since I started writing
 code years ago, I've been obsessed with code quality and best practices--and I
@@ -52,6 +52,6 @@ requirements, I write much better code than I would otherwise.
 **Do you have a "done" list? If so, what's on it?**
 
 
-  [Code\_wolf]: ./images/89413031-0-code_wolf.jpg.scaled696.jpg
+  [Codewolf]: ./images/89413031-0-code_wolf.jpg.scaled696.jpg
   [GitHub]: https://github.com/ "GitHub"
   [sprintly]: http://sprint.ly/ "sprintly"

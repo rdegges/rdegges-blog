@@ -147,7 +147,7 @@ To learn more about git-flow, read the following posts (in order):
 -   [http://jeffkreeftmeijer.com/2010/why-arent-you-using-git-flow/][]
 -   [http://nvie.com/posts/a-successful-git-branching-model/][]
 -   [http://buildamodule.com/video/change-management-and-version-control-deploying-releases-features-and-fixes-with-git-how-to-use-a-scalable-git-branching-model-called-gitflow][]
--   -   [http://codesherpas.com/screencasts/on\_the\_path\_gitflow.mov][]
+-   -   [http://codesherpas.com/screencasts/on_the_path_gitflow.mov][]
 
 ​3. Publish Test Runs
 
@@ -305,7 +305,7 @@ suggestions, please leave a comment and I'll update the post as needed.
   [http://nvie.com/posts/a-successful-git-branching-model/]: http://nvie.com/posts/a-successful-git-branching-model/
   [http://buildamodule.com/video/change-management-and-version-control-deploying-releases-features-and-fixes-with-git-how-to-use-a-scalable-git-branching-model-called-gitflow]:
     http://buildamodule.com/video/change-management-and-version-control-deploying-releases-features-and-fixes-with-git-how-to-use-a-scalable-git-branching-model-called-gitflow
-  [http://codesherpas.com/screencasts/on\_the\_path\_gitflow.mov]: http://codesherpas.com/screencasts/on_the_path_gitflow.mov
+  [http://codesherpas.com/screencasts/on_the_path_gitflow.mov]: http://codesherpas.com/screencasts/on_the_path_gitflow.mov
   [read this]: http://www.codinghorror.com/blog/2006/07/i-pity-the-fool-who-doesnt-write-unit-tests.html
     "WRITE UNIT TESTS, FUCK!"
   [Travis CI]: http://travis-ci.org/ "Travis CI"

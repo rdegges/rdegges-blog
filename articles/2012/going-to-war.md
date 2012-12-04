@@ -4,7 +4,7 @@ Author: Randall Degges
 Tags: life, personaldevelopment, philosophy
 
 
-![Genghis\_khan][]
+![Genghis_khan][]
 
 Sometimes personal development can be hard, really hard. I find that I go
 through periods where I just feel exhausted of continuously trying to make
@@ -67,4 +67,4 @@ What techniques do you use to motivate yourself, and push yourself beyond your
 limits?
 
 
-  [Genghis\_khan]: http://getfile1.posterous.com/getfile/files.posterous.com/temp-2012-01-07/hCnydBjukiAnssiHHhmFpkdAkqfkgvzmwizdFpiGtkvvHwfoyngGqfIqcaei/Genghis_Khan.jpg.scaled696.jpg
+  [Genghis_khan]: http://getfile1.posterous.com/getfile/files.posterous.com/temp-2012-01-07/hCnydBjukiAnssiHHhmFpkdAkqfkgvzmwizdFpiGtkvvHwfoyngGqfIqcaei/Genghis_Khan.jpg.scaled696.jpg

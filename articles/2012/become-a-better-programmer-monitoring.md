@@ -103,9 +103,9 @@ Just to enumerate some of the ways in which New Relic rocks:
 
 Here are the obligatory screenshots:
 
-[![Newrelic\_map][]][] [![Newrelic\_pages][]][] [![Newrelic\_tasks][]][]
-[![Newrelic\_overview][]][] [![Newrelic\_web][]][]
-[![Newrelic\_task\_breakdown][]][]
+[![Newrelic_map][]][] [![Newrelic_pages][]][] [![Newrelic_tasks][]][]
+[![Newrelic_overview][]][] [![Newrelic_web][]][]
+[![Newrelic_task_breakdown][]][]
 
 [See the full gallery on Posterous][]
 
@@ -152,17 +152,17 @@ programmer.
   [New Relic]: http://newrelic.com/ "NewRelic - Shit just got real for programmers."
   [1]: http://newrelic.com/ "NewRelic"
   [Oh-stop-it]: http://getfile9.posterous.com/getfile/files.posterous.com/temp-2012-08-26/HxkrCyqIIuEbzEBabjkjopgChggFwoGIwvmDqJHHGbxqepEqhDekCqsbpBtp/oh-stop-it.png.scaled696.png
-  [Newrelic\_map]: http://getfile2.posterous.com/getfile/files.posterous.com/temp-2012-08-26/eEpnglEfotluvoJjHzjIcudIsysGreDtwxsbDdzIuGqpFofchlDulupjDdxt/newrelic_map.png.scaled696.png
-  [![Newrelic\_map][]]: ./images/157086960-2-newrelic_map.png.scaled1000.png
-  [Newrelic\_pages]: http://getfile7.posterous.com/getfile/files.posterous.com/temp-2012-08-26/IkmJfqfDHtaHjrEfzAnmnveCHwDpydEyBfbkuyfcHhpJwBHmEBIFgjefecik/newrelic_pages.png.scaled696.png
-  [![Newrelic\_pages][]]: ./images/157086960-3-newrelic_pages.png.scaled1000.png
-  [Newrelic\_tasks]: http://getfile3.posterous.com/getfile/files.posterous.com/temp-2012-08-26/HzgHlzrmwhzkDbcDEvJilyipmiIwypzqizmfEnAeuvClfGCfIuztjHgCxImj/newrelic_tasks.png.scaled696.png
-  [![Newrelic\_tasks][]]: ./images/157086960-4-newrelic_tasks.png.scaled1000.png
-  [Newrelic\_overview]: http://getfile0.posterous.com/getfile/files.posterous.com/temp-2012-08-26/JuHyxljetFocnhwDkibufBAlGGFdasmByoJCtbFwpffloopbJkcEkpflvFvq/newrelic_overview.png.scaled696.png
-  [![Newrelic\_overview][]]: ./images/157086960-5-newrelic_overview.png.scaled1000.png
-  [Newrelic\_web]: http://getfile2.posterous.com/getfile/files.posterous.com/temp-2012-08-26/tsiopFrwfAiCitaAqGncDCwlveDmuzvegncrDmhoBrFIGoBtcdibkFFuIbwu/newrelic_web.png.scaled696.png
-  [![Newrelic\_web][]]: ./images/157086960-6-newrelic_web.png.scaled1000.png
-  [Newrelic\_task\_breakdown]: http://getfile2.posterous.com/getfile/files.posterous.com/temp-2012-08-26/CdmlhvtspcIsDFeolEFJlgbDuEmgCmEhCzefAdsexIlICghBIGbleBtmicDs/newrelic_task_breakdown.png.scaled696.png
-  [![Newrelic\_task\_breakdown][]]: ./images/157086960-7-newrelic_task_breakdown.png.scaled1000.png
+  [Newrelic_map]: http://getfile2.posterous.com/getfile/files.posterous.com/temp-2012-08-26/eEpnglEfotluvoJjHzjIcudIsysGreDtwxsbDdzIuGqpFofchlDulupjDdxt/newrelic_map.png.scaled696.png
+  [![Newrelic_map][]]: ./images/157086960-2-newrelic_map.png.scaled1000.png
+  [Newrelic_pages]: http://getfile7.posterous.com/getfile/files.posterous.com/temp-2012-08-26/IkmJfqfDHtaHjrEfzAnmnveCHwDpydEyBfbkuyfcHhpJwBHmEBIFgjefecik/newrelic_pages.png.scaled696.png
+  [![Newrelic_pages][]]: ./images/157086960-3-newrelic_pages.png.scaled1000.png
+  [Newrelic_tasks]: http://getfile3.posterous.com/getfile/files.posterous.com/temp-2012-08-26/HzgHlzrmwhzkDbcDEvJilyipmiIwypzqizmfEnAeuvClfGCfIuztjHgCxImj/newrelic_tasks.png.scaled696.png
+  [![Newrelic_tasks][]]: ./images/157086960-4-newrelic_tasks.png.scaled1000.png
+  [Newrelic_overview]: http://getfile0.posterous.com/getfile/files.posterous.com/temp-2012-08-26/JuHyxljetFocnhwDkibufBAlGGFdasmByoJCtbFwpffloopbJkcEkpflvFvq/newrelic_overview.png.scaled696.png
+  [![Newrelic_overview][]]: ./images/157086960-5-newrelic_overview.png.scaled1000.png
+  [Newrelic_web]: http://getfile2.posterous.com/getfile/files.posterous.com/temp-2012-08-26/tsiopFrwfAiCitaAqGncDCwlveDmuzvegncrDmhoBrFIGoBtcdibkFFuIbwu/newrelic_web.png.scaled696.png
+  [![Newrelic_web][]]: ./images/157086960-6-newrelic_web.png.scaled1000.png
+  [Newrelic_task_breakdown]: http://getfile2.posterous.com/getfile/files.posterous.com/temp-2012-08-26/CdmlhvtspcIsDFeolEFJlgbDuEmgCmEhCzefAdsexIlICghBIGbleBtmicDs/newrelic_task_breakdown.png.scaled696.png
+  [![Newrelic_task_breakdown][]]: ./images/157086960-7-newrelic_task_breakdown.png.scaled1000.png
   [See the full gallery on Posterous]: http://rdegges.com/become-a-better-programmer-monitoring
   [2]: http://newrelic.com/ "New Relic"

@@ -41,7 +41,7 @@ company money:
 ## 1. It's Free
 
 Obviously, the factor which drives most companies to ditch their current PBX is
-cost. Asterisk is free, and it is hard to justify paying \$10,000 or more for a
+cost. Asterisk is free, and it is hard to justify paying $10,000 or more for a
 small office phone system when the competition offers better functionality,
 reliability, and costs nothing.
 

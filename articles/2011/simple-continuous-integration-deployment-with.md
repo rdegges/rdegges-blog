@@ -41,7 +41,7 @@ Installing jenkins is ridiculously easy on debian systems:
 wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key
 add -
 
-sudo echo "deb http://pkg.jenkins-ci.org/debian binary/" \>
+sudo echo "deb http://pkg.jenkins-ci.org/debian binary/" >
 /etc/apt/sources.list.d/jenkins.list
 
 sudo aptitude -y update
@@ -50,8 +50,8 @@ sudo aptitude -y install jenkins
 
 [][]Congratulations, you now have jenkins running! To visit your new jenkins
 instance, just visit [http://youserverip:8080/][]. If you want to update it, you
-can do so with the rest of the system (via \`aptitude -y update; aptitude -y
-safe-upgrade\`).
+can do so with the rest of the system (via `aptitude -y update; aptitude -y
+safe-upgrade`).
 
 
 ## Step 2: Configure a HTTP Proxy With NGINX
@@ -96,15 +96,15 @@ cd /etc/nginx/sites-available
 
 sudo rm default
 
-sudo cat \> jenkins
+sudo cat > jenkins
 
-upstream app\_server {
+upstream app_server {
 
-    server 127.0.0.1:8080 fail\_timeout=0;
+    server 127.0.0.1:8080 fail_timeout=0;
 
 }
 
-\
+
 
 server {
 
@@ -112,23 +112,23 @@ server {
 
     listen [::]:80 default ipv6only=on;
 
-    server\_name ci.yourcompany.com;
+    server_name ci.yourcompany.com;
 
-\
+
 
     location / {
 
-        proxy\_set\_header X-Forwarded-For \$proxy\_add\_x\_forwarded\_for;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
 
-        proxy\_set\_header Host \$http\_host;
+        proxy_set_header Host $http_host;
 
-        proxy\_redirect off;
+        proxy_redirect off;
 
-\
 
-        if (!-f \$request\_filename) {
 
-            proxy\_pass http://app\_server;
+        if (!-f $request_filename) {
+
+            proxy_pass http://app_server;
 
             break;
 
@@ -138,7 +138,7 @@ server {
 
 }
 
-\^D \# Hit CTRL + D to finish writing the file
+^D # Hit CTRL + D to finish writing the file
 
 sudo ln -s /etc/nginx/sites-available/jenkins /etc/nginx/sites-enabled/
 
@@ -215,20 +215,20 @@ git config --global user.name "Jenkins CI"
 
 git config --global user.email "ci@yourcompany.com"
 
-ssh-keygen -t rsa -C "ci@yourcompany.com" \# Use all the default options, don't
+ssh-keygen -t rsa -C "ci@yourcompany.com" # Use all the default options, don't
 specify
 
-                                          \# a password.
+                                          # a password.
 
-cat .ssh/id\_rsa.pub \# Grant this SSH key access to your Git repositories.
+cat .ssh/id_rsa.pub # Grant this SSH key access to your Git repositories.
 
-\
 
-\# If you're using github, you'll also want to do:
+
+# If you're using github, you'll also want to do:
 
 ssh git@github.com
 
-\# And accept the connection so that you add github.com to your known\_hosts
+# And accept the connection so that you add github.com to your known_hosts
 file.
 
 Once you've done all that, all you need to do is follow the next few steps in
@@ -263,9 +263,9 @@ production. It's a lot easier than it sounds, let's take a look:
 5.  Under the **Source Code Management** section, select the bubble next to
     **Git**.
 6.  Enter the URL of your Git repository. This is usually something
-    like: git://github.com/rdegges/django\_project.git.
+    like: git://github.com/rdegges/django_project.git.
 7.  Under the **Build Triggers** section, select the box labeled **Poll SCM**.
-8.  In the **Schedule** box that appears, enter **"\* \* \* \* \*"** (don't
+8.  In the **Schedule** box that appears, enter **"* * * * *"** (don't
     include the quotes). This instructs jenkins to check your Git repository for
     changes every minute. If you want to change the frequency, feel free to do
     so using [crontab format][].

@@ -245,9 +245,9 @@ and RTP (voice traffic) to our Asterisk server. If your server is not behind a
 router, you can skip this section.
 
 To do this, configure port forwarding on your router to forward ports 5060 UDP,
-and 10,000 -\> 20,000 UDP to your Asterisk server.
+and 10,000 -> 20,000 UDP to your Asterisk server.
 
-Port 5060 UDP is used for SIP traffic. Ports 10,000 -\> 20,000 UDP are used to
+Port 5060 UDP is used for SIP traffic. Ports 10,000 -> 20,000 UDP are used to
 pass voice traffic (audio).
 
 If your router has any SIP options such as SIP ALG (application layer gateway)
@@ -470,7 +470,7 @@ Unfortunately, DIDs cost money (just like you pay for cell phone service and
 house phone service, you need to pay for VoIP service to rent a DID). If you
 would like to try out the code that follows, you'll need to deposit some money
 into your Flowroute account, and then purchase a DID from the web panel. At this
-point in time, a single DID from Flowroute costs approximately \$1.39 per month.
+point in time, a single DID from Flowroute costs approximately $1.39 per month.
 
 Once you've purchased a DID, write the number down somewhere. It will be an
 11-digit phone number. For the code that follows, simply substitute in your DID

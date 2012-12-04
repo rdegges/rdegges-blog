@@ -109,7 +109,7 @@ In particular, meeting new people through writing has been a wonderful
 experience. I've met several extremely talented programmers who are, without
 question, some of the smartest people I've ever spoken with. I maintain a pretty
 close circle of friends (you should come say hi if you use IRC
-([irc.oftc.net/\#heapify][])), and I find it extremely difficult to meet other
+([irc.oftc.net/#heapify][])), and I find it extremely difficult to meet other
 highly self-motivated people who share common interests (like personal
 development, programming, etc.). Through writing, I've been able to close that
 gap and connect with lots of great people.
@@ -146,5 +146,5 @@ comment--and lets keep in touch!
     "Establishing a Writing Habit"
   [before]: http://rdegges.com/writing-habit-complete
     "Writing Habit -- Complete"
-  [irc.oftc.net/\#heapify]: http://irc://irc.oftc.net/#heapify "heapify"
+  [irc.oftc.net/#heapify]: http://irc://irc.oftc.net/#heapify "heapify"
   [rdegges@gmail.com]: mailto:rdegges@gmail.com "rdegges"

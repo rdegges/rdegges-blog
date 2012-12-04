@@ -257,7 +257,7 @@ Finding a group like this, on the otherhand, is extremely difficult. I highly
 recommend using IRC (as a lot of bright people seem to use it), and gradually
 joining new channels and chatting with people who share similar interests. If,
 in the offchance you're like me, and want to hang out in the same circle, you're
-invited to check out [\#heapify][].
+invited to check out [#heapify][].
 
 
 ## Have Fun
@@ -305,7 +305,7 @@ keep pushing yourself!
   [Impostor]: http://getfile6.posterous.com/getfile/files.posterous.com/temp-2012-02-03/dursbvwFrukfspEAvuFtxiEjtEqAjzdEChzwCqCGdBfvIcrhzIHtcadvEBlc/impostor.png.scaled696.png
   [![Impostor][]]: ./images/95613904-6-impostor.png.scaled1000.png
   [IRC]: http://en.wikipedia.org/wiki/Internet_Relay_Chat "IRC"
-  [\#heapify]: http://irc://irc.oftc.net/#heapify "#heapify"
+  [#heapify]: http://irc://irc.oftc.net/#heapify "#heapify"
   [Program-everything]: http://getfile8.posterous.com/getfile/files.posterous.com/temp-2012-02-03/EFhqcczmGemjrqwjjntzawmvFyBnzgDkbGofrwxJxmaklbGoECAEqrpkxuBJ/program-everything.jpg.scaled696.jpg
   [python]: http://python.org/ "python"
   [Dive Into Python]: http://www.amazon.com/gp/product/1590593561/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1590593561 "Dive Into Python"

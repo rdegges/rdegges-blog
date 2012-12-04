@@ -43,7 +43,7 @@ But, I don't need that much money. I need just enough to:
 -   Buy a new computer every year or two.
 -   Get my wife a present every now and then :)
 
-I don't buy that much stuff. As a matter-a-fact, I've got 150\$ worth of
+I don't buy that much stuff. As a matter-a-fact, I've got 150$ worth of
 [Amazon][] giftcards sitting on my desk, which I have no idea how to spend, as I
 already own everything I want.
 

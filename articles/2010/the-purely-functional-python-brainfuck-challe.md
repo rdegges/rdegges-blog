@@ -21,7 +21,7 @@ calculus to solve the problem.
 
 I'm going to be entering the challenge, along with a few other people in the
 NEVERFEAR crew, and if you'd like to do so, please send me an email or join up
-on our IRC channel: irc.neverfear.org:6697/\#neverfear (SSL), I promise it will
+on our IRC channel: irc.neverfear.org:6697/#neverfear (SSL), I promise it will
 be a lot of fun, and very educational.
 
 I'll also be writing about my experiences with functional programming in python,

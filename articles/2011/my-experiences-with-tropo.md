@@ -42,7 +42,7 @@ Django app. Some of the main problems I had using tropo with Django was:
 -   No simple way to track call progress automatically through the duration of a
     call.
 -   No simple way to verify that the JSON being POST'ed to your site is valid.
--   No \*easy\* way to handle question / answer call flow without generating
+-   No *easy* way to handle question / answer call flow without generating
     numerous similar views and hundreds of URLs.
 
 django-tropo solves all of these issues, and in addition, provides many other

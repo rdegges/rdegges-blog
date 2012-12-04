@@ -49,7 +49,7 @@ The Sennheiser headphones are awesome. I only acquired them recently, but they
 completely changed my coding experience. They competely isolate your from the
 outside world, and provide really smooth bass and a clear listening experience.
 I often code wearing headphones through the day, and the difference between
-these and my old 50\$ makes it totally worth the cost.
+these and my old 50$ makes it totally worth the cost.
 
 For reading--I LOVE my Kindle. I read a lot of books (30 minutes a day,
 minimum), and the kindle has been a great way for me to save money and
@@ -160,11 +160,11 @@ which really improve the experience. In no particular order:
 -   [ropevim][]: Adds lots of handy vim keymappins for refactoring python code.
 -   [snipmate][]: Lets you build (and use) code snippets for automatically
     populating code based on what you're typing. For example, if you find
-    yourself typing \`for x in blah:\` a lot, you can make a snippet for that,
+    yourself typing `for x in blah:` a lot, you can make a snippet for that,
     and when you start typing that statement it will automatically insert a
     template, and let you tab through the variables to update them. Saves a TON
     of time.
--   [snipmate\_django][]: Django snippets.
+-   [snipmate_django][]: Django snippets.
 -   [trailing-whitespace][]: Removes all trailing whitespace from your files. I
     hate trailing whitespace.
 -   [vim-fugitive][]: Adds GIt support into vim. Never leave your vim window
@@ -194,7 +194,7 @@ hands off the keyboard to use the mouse. Both of those solutions are slow and
 annoying when you're trying to quickly navigate windows. Using screen completely
 changed my workflow. Now I'll typically maintain a single Konsole window full
 screen using GNU screen, and keep multiple screen windows open that I'll switch
-through using CTRL+a \<numeric\> or CTRL+a p/n (previous and next windows,
+through using CTRL+a <numeric> or CTRL+a p/n (previous and next windows,
 respectively). This makes switching windows quick, efficient, and non-intrusive
 to my daily workflow.
 
@@ -216,11 +216,11 @@ where:
 ### Dropbox
 
 [Dropbox][] just makes everything easier. I use it to sync all of my desktop
-files: code, music, pictures, configuration files, etc. Most of my \`/home\`
+files: code, music, pictures, configuration files, etc. Most of my `/home`
 directory is synced there somewhere. Dropbox (if you haven't heard of it),
 allows you to sync files between multiple computers. I put all of my files into
-my \`/home/rdegges/Dropbox\` folder, and then symlink to major folders from
-there, eg: \`ln -s /home/rdegges/Dropbox/Documents / home/rdegges/Documents\`.
+my `/home/rdegges/Dropbox` folder, and then symlink to major folders from
+there, eg: `ln -s /home/rdegges/Dropbox/Documents / home/rdegges/Documents`.
 Makes all of my stuff sync transparently.
 
 The main benefits with Dropbox are that all my files are always backed up, and
@@ -298,7 +298,7 @@ post. If you've done a writeup on your desktop environment, I'd love to see it.
   [vim-pyflakes]: https://github.com/kevinw/pyflakes-vim "vim-pyflakes"
   [ropevim]: https://github.com/gordyt/rope-vim "ropevim"
   [snipmate]: https://github.com/msanders/snipmate.vim "snipmate"
-  [snipmate\_django]: https://github.com/robhudson/snipmate_for_django
+  [snipmate_django]: https://github.com/robhudson/snipmate_for_django
     "snipmate_django"
   [trailing-whitespace]: https://github.com/vim-scripts/trailing-whitespace
     "trailing-whitespace"

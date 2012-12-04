@@ -4,7 +4,7 @@ Author: Randall Degges
 Tags: programming, devops, heroku
 
 
-![Broke\_production][]
+![Broke_production][]
 
 **NOTE**: Have no idea what [Heroku][] is? I feel sorry for you. You should
 create an account with them immediately, then come back and read this post!
@@ -61,7 +61,7 @@ working release was several deployments ago. Damn.
 Luckily, you remember that since you're using the releases addon, you can simply
 run **heroku releases**, and view a list of all your previous releases:
 
-[![Heroku\_releases][]][]
+[![Heroku_releases][]][]
 
 Oh yes, you think. Release v304 was the last working release. Just to confirm,
 you then run the **heroku releases:info v304** command, and after taking a look
@@ -83,7 +83,7 @@ the [official documentation][], it's really great.
 should check it out: [http://www.theherokuhackersguide.com/][]
 
 
-  [Broke\_production]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2012-01-06/EaECemrmctGEzAAsbBtgAhAlqqEifinaGwfrwHdAHibvfhfABmjBdGugxdIo/broke_production.jpg.scaled696.jpg
+  [Broke_production]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2012-01-06/EaECemrmctGEzAAsbBtgAhAlqqEifinaGwfrwHdAHibvfhfABmjBdGugxdIo/broke_production.jpg.scaled696.jpg
   [Heroku]: http://www.heroku.com/ "Heroku"
   [Django]: https://www.djangoproject.com/ "Django"
   [NewRelic]: http://newrelic.com/
@@ -91,8 +91,8 @@ should check it out: [http://www.theherokuhackersguide.com/][]
   [releases]: http://addons.heroku.com/releases "Heroku Releases Addon"
   [Cheeto]: http://getfile6.posterous.com/getfile/files.posterous.com/temp-2012-01-06/cvwlAzCheqcquiCaskhmjbhHFhenjmBkmEdfgrcxrzyaDIhrmfbItptlAbed/cheeto.png.scaled696.png
   [The IT Crowd]: http://www.imdb.com/title/tt0487831/ "The IT Crowd"
-  [Heroku\_releases]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2012-01-06/qmJBxzHzukcvscrJafzsflyoxxndeDxIErfqwFnmcHsCvgBodBsieGvFfzJG/heroku_releases.png.scaled696.png
-  [![Heroku\_releases][]]: ./images/92464248-2-heroku_releases.png.scaled1000.png
+  [Heroku_releases]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2012-01-06/qmJBxzHzukcvscrJafzsflyoxxndeDxIErfqwFnmcHsCvgBodBsieGvFfzJG/heroku_releases.png.scaled696.png
+  [![Heroku_releases][]]: ./images/92464248-2-heroku_releases.png.scaled1000.png
   [twilio]: http://www.twilio.com/ "twilio"
   [official documentation]: http://devcenter.heroku.com/articles/releases
     "Heroku Releases Addon Documentation"

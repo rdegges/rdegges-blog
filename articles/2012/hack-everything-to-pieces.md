@@ -31,7 +31,7 @@ If you're not analyzing what your overall objetive is as you're hacking, there
 Overcomplication is the worst problem in software development. It causes bugs,
 confusion, anger, and even death! OK, so you probably won't die from
 overcomplication, but hey, don't risk it (especially if you're writing medical
-software **\>:0**).
+software **>:0**).
 
 One thing that always bothers me is looking at what *should* be a simple piece
 of code, just to find that the author horribly overcomplicated the whole thing.

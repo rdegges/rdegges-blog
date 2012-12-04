@@ -13,7 +13,7 @@ something like:
 4.  Watch my Jenkins deploy fail, as I forgot to accept my new server's SSH
     identity manually.
 5.  Log into my Jenkins server as the jenkins user.
-6.  Run 'ssh \<new\_server\_ip\>', and accept the stupid identity.
+6.  Run 'ssh <new_server_ip>', and accept the stupid identity.
 
 At work, we're constantly building out new servers--sometimes, automatically.
 And Jenkins is a critical part of our infrastructure. We use it to build, test,
@@ -40,7 +40,7 @@ decided to do away with the identity check all together to make our lives
 easier. This solution may not work for everyone (especially if security is a
 real concern for your team), but for us it works great!
 
-Just modify your **/etc/ssh/sshd\_config** file and change
+Just modify your **/etc/ssh/sshd_config** file and change
 
 **ChallengeResponseAuthentication yes**
 
