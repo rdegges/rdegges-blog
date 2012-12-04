@@ -1,7 +1,8 @@
-Title: pycall 1.4 Released
-Date: 2010-03-02 06:00
 Author: Randall Degges
+Date: 2010-03-02 06:00
+Slug: pycall-14-released
 Tags: programming, python, asterisk
+Title: pycall 1.4 Released
 
 
 Earlier today I received a patch from EvilZluk. The problem he pointed out to me

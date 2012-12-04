@@ -1,7 +1,8 @@
-Title: pycall Unleashed
-Date: 2010-01-28 04:00
 Author: Randall Degges
+Date: 2010-01-28 04:00
+Slug: pycall-unleashed
 Tags: callfiles, programming, python, asterisk
+Title: pycall Unleashed
 
 
 A few months back I released the first version of my rather popular Asterisk

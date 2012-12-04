@@ -1,7 +1,8 @@
-Title: New Site Backend
-Date: 2010-05-30 20:30
 Author: Randall Degges
+Date: 2010-05-30 20:30
+Slug: new-site-backend
 Tags: programming
+Title: New Site Backend
 
 
 Last night I replaced the old projectb14ck with a newer, more minimalistic

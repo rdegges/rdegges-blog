@@ -1,7 +1,8 @@
-Title: User Authentication With Django
-Date: 2010-02-18 04:00
 Author: Randall Degges
+Date: 2010-02-18 04:00
+Slug: user-authentication-with-django
 Tags: programming, python, django
+Title: User Authentication With Django
 
 
 This article will teach you how to authenticate users with [Django][] in a

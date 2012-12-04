@@ -1,7 +1,8 @@
-Title: A Technical Introduction to the Asterisk Gateway Interface (AGI)
-Date: 2010-02-17 04:00
 Author: Randall Degges
+Date: 2010-02-17 04:00
+Slug: a-technical-introduction-to-the-asterisk-gateway-interface
 Tags: agi, programming, asterisk
+Title: A Technical Introduction to the Asterisk Gateway Interface (AGI)
 
 
 The Asterisk Gateway Interface, commonly referred to as [AGI][], is a

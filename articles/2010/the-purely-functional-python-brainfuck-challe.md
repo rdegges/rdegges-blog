@@ -1,7 +1,8 @@
-Title: The Purely Functional Python Brainfuck Challenge
-Date: 2010-07-05 20:00
 Author: Randall Degges
+Date: 2010-07-05 20:00
+Slug: the-purely-functional-python-brainfuck-challenge
 Tags: programming, python, brainfuck
+Title: The Purely Functional Python Brainfuck Challenge
 
 
 As some of you know, I am very close friends with the people over at

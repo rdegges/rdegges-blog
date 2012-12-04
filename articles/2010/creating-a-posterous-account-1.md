@@ -1,6 +1,7 @@
-Title: Creating a Posterous Account
-Date: 2010-07-23 00:00
 Author: Randall Degges
+Date: 2010-07-23 00:00
+Slug: creating-a-posterous-account
+Title: Creating a Posterous Account
 
 
 So, I’m going to try out this whole Posterous thing. The main reason for it, is

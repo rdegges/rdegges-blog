@@ -1,7 +1,8 @@
-Title: How to Streamline Asterisk
-Date: 2010-08-16 09:30
 Author: Randall Degges
+Date: 2010-08-16 09:30
+Slug: how-to-streamline-asterisk
 Tags: programming, asterisk
+Title: How to Streamline Asterisk
 
 
 So, you use [Asterisk][] professionally, for fun, or both, and you want to know

@@ -1,6 +1,7 @@
-Title: Getting Back on Track
-Date: 2010-11-26 23:27
 Author: Randall Degges
+Date: 2010-11-26 23:27
+Slug: getting-back-on-track
+Title: Getting Back on Track
 
 
 Hi everyone,

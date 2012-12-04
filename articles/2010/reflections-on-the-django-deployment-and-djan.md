@@ -1,7 +1,8 @@
-Title: Reflections on the Django Deployment and Ecosystem Workshops
-Date: 2010-12-12 09:25
 Author: Randall Degges
+Date: 2010-12-12 09:25
+Slug: reflections-on-the-django-deployment-and-ecosystem-workshops
 Tags: python, django
+Title: Reflections on the Django Deployment and Ecosystem Workshops
 
 
 Earlier this week, I attended the two day [Revolution Systems][] Django workshop

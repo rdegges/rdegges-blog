@@ -1,7 +1,8 @@
-Title: pycall 1.5 Released
-Date: 2010-03-22 05:00
 Author: Randall Degges
+Date: 2010-03-22 05:00
+Slug: pycall-15-released
 Tags: programming, python, asterisk
+Title: pycall 1.5 Released
 
 
 I just released pycall version 1.5! 1.5 contains a new feature, which allows

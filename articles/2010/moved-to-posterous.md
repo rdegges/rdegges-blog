@@ -1,7 +1,8 @@
-Title: Moved to Posterous
-Date: 2010-08-15 02:30
 Author: Randall Degges
+Date: 2010-08-15 02:30
+Slug: moved-to-posterous
 Tags: life
+Title: Moved to Posterous
 
 
 So, today I finally finished moving my old posts to [Posterous][]. If you aren’t

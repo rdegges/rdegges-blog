@@ -1,6 +1,7 @@
-Title: Writing is Hard
-Date: 2010-02-13 04:00
 Author: Randall Degges
+Date: 2010-02-13 04:00
+Slug: writing-is-hard
+Title: Writing is Hard
 
 
 One thing I am absolutely horrible at is writing. I may be able to throw a few

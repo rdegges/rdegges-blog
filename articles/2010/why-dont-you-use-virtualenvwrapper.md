@@ -1,7 +1,8 @@
-Title: Why Don't You Use virtualenvwrapper?
-Date: 2010-09-09 04:15
 Author: Randall Degges
+Date: 2010-09-09 04:15
+Slug: why-dont-you-use-virtualenvwrapper
 Tags: programming, python
+Title: Why Don't You Use virtualenvwrapper?
 
 
 If you’re a python programmer, you’ve most likely heard of [virtualenv][]. If

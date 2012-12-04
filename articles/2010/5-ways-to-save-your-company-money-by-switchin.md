@@ -1,7 +1,8 @@
-Title: 5 Ways to Save Your Company Money by Switching to Asterisk
-Date: 2010-03-11 21:00
 Author: Randall Degges
+Date: 2010-03-11 21:00
+Slug: 5-ways-to-save-your-company-money-by-switching-to-asterisk
 Tags: asterisk
+Title: 5 Ways to Save Your Company Money by Switching to Asterisk
 
 
 One huge expense that most companies (small and large) have to absorb at one

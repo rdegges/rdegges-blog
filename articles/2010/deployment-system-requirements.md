@@ -1,7 +1,8 @@
-Title: Deployment System Requirements
-Date: 2010-12-19 00:44
 Author: Randall Degges
+Date: 2010-12-19 00:44
+Slug: deployment-system-requirements
 Tags: programming
+Title: Deployment System Requirements
 
 
 Over the past month, my colleague Kurtis and I have been engineering a fully

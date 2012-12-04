@@ -1,7 +1,8 @@
-Title: The Asterisk Spooling Daemon
-Date: 2010-06-07 05:00
 Author: Randall Degges
+Date: 2010-06-07 05:00
+Slug: the-asterisk-spooling-daemon
 Tags: c, programming, asterisk
+Title: The Asterisk Spooling Daemon
 
 
 While working on the new v2 release of [pycall][], I was doing some research on

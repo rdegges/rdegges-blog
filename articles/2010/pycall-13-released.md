@@ -1,7 +1,8 @@
-Title: pycall 1.3 Released
-Date: 2010-02-24 04:00
 Author: Randall Degges
+Date: 2010-02-24 04:00
+Slug: pycall-13-released
 Tags: programming, python, asterisk
+Title: pycall 1.3 Released
 
 
 Earlier today I received an email from [Marcelo Araujo][] which contained a

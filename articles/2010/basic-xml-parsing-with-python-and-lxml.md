@@ -1,7 +1,8 @@
-Title: Basic XML Parsing With Python and LXML
-Date: 2010-03-17 05:00
 Author: Randall Degges
+Date: 2010-03-17 05:00
+Slug: basic-xml-parsing-with-python-and-lxml
 Tags: programming, python
+Title: Basic XML Parsing With Python and LXML
 
 
 Recently I’ve been developing an API using python and Django for work, which

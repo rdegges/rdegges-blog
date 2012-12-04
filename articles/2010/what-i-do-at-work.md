@@ -1,7 +1,8 @@
-Title: What I Do At Work
-Date: 2010-08-15 07:00
 Author: Randall Degges
+Date: 2010-08-15 07:00
+Slug: what-i-do-at-work
 Tags: programming, asterisk, life
+Title: What I Do At Work
 
 
 I realized yesterday, while finishing my website’s move to Posterous, that I

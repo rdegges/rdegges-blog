@@ -1,7 +1,8 @@
-Title: Transparent Telephony Part 2, Installing Asterisk
-Date: 2010-03-01 06:00
 Author: Randall Degges
+Date: 2010-03-01 06:00
+Slug: transparent-telephony-part-2-installing-asterisk
 Tags: asterisk, linux
+Title: Transparent Telephony Part 2, Installing Asterisk
 
 
 Welcome back to the Transparent Telephony series. If you’re new, you may want to

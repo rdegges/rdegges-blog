@@ -1,7 +1,8 @@
-Title: Serving Static Content With Django
-Date: 2010-07-04 20:00
 Author: Randall Degges
+Date: 2010-07-04 20:00
+Slug: serving-static-content-with-django
 Tags: programming, python, django
+Title: Serving Static Content With Django
 
 
 A question that is frequently asked by new Django programmers is: “How can I

@@ -1,7 +1,8 @@
-Title: Neat Thing I Learned Today
-Date: 2010-01-08 04:00
 Author: Randall Degges
+Date: 2010-01-08 04:00
+Slug: neat-thing-i-learned-today
 Tags: c, programming
+Title: Neat Thing I Learned Today
 
 
 In C, you can index arrays with either the array subscript inside of the typical

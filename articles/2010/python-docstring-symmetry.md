@@ -1,7 +1,8 @@
-Title: Python Docstring Symmetry
-Date: 2010-08-17 02:00
 Author: Randall Degges
+Date: 2010-08-17 02:00
+Slug: python-docstring-symmetry
 Tags: programming, python
+Title: Python Docstring Symmetry
 
 
 If you’ve been doing python for more than a month, then I’m sure you’re familiar

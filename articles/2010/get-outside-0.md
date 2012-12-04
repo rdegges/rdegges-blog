@@ -1,7 +1,8 @@
-Title: Get Outside
-Date: 2010-02-14 04:00
 Author: Randall Degges
+Date: 2010-02-14 04:00
+Slug: get-outside
 Tags: life
+Title: Get Outside
 
 
 The stereotype of a computer programmer is a harsh (and mostly true) one. The
