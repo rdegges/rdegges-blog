@@ -8,9 +8,9 @@ Title: Introducing asterdoc
 Today I launched the coming soon page for my latest project (which will be an
 ongoing project over the next few years): [http://asterdoc.org/][]
 
-What is `asterdoc`? asterdoc is going to be ‘The Unofficial Asterisk
-Documentation Project’, which will be a free online book (maybe in print
-someday) similar to the ‘Dive Into Python’ book by Mark Pilgrim (which you can
+What is `asterdoc`? asterdoc is going to be 'The Unofficial Asterisk
+Documentation Project', which will be a free online book (maybe in print
+someday) similar to the 'Dive Into Python' book by Mark Pilgrim (which you can
 check out here: [http://diveintopython3.org/][]).
 
 The goals of the asterdoc project are to:
@@ -36,7 +36,7 @@ For a long time, the [Asterisk project][] has needed documentation, and my hope
 is that one day asterdoc will be a suitable source of documentation for any
 techies working with it.
 
-If you’re interested in learning more about asterdoc, please check out the
+If you're interested in learning more about asterdoc, please check out the
 [github page][], which contains contact information, as well as all of the
 current code and book content.
 

@@ -6,11 +6,11 @@ Title: The Asterisk Spooling Daemon
 
 
 While working on the new v2 release of [pycall][], I was doing some research on
-the internal limitations of Asterisk call files, and thought I’d share some
+the internal limitations of Asterisk call files, and thought I'd share some
 interesting (technical) bits of information here.
 
 All information below has been gathered from the [latest Asterisk release][]
-(v1.6.2.7). If you don’t do any programming, you may want to skip this article,
+(v1.6.2.7). If you don't do any programming, you may want to skip this article,
 as it is a bit geeky.
 
 
@@ -25,7 +25,7 @@ runs and analyzes the Asterisk spooling directory (usually
 then the spooling daemon will process the call file (extracting the directives),
 then executing the actions specified.
 
-So, since we now know how the spooling daemon works, let’s take a look at the
+So, since we now know how the spooling daemon works, let's take a look at the
 source code (in C), and figure out what actually goes on.
 
 First of all, download the Asterisk source code if you want to follow along:
@@ -33,20 +33,20 @@ First of all, download the Asterisk source code if you want to follow along:
 `asterisk-1.6.2.7/pbx/pbx_spool.c` in your [favorite editor][]. This file
 contains all of the Asterisk code used to parse, launch, and control call files.
 
-The first thing you’ll notice (being a sensitive best-practices programmer!) is
-that there are a *ton* of magic numbers being thrown around in here. But let’s
-just ignore that for now (I’m sure the Asterisk guys are working on it) :)
+The first thing you'll notice (being a sensitive best-practices programmer!) is
+that there are a *ton* of magic numbers being thrown around in here. But let's
+just ignore that for now (I'm sure the Asterisk guys are working on it) :)
 
-The two sections of the code which we’re going to look at today are the
+The two sections of the code which we're going to look at today are the
 `outgoing` struct, and the `apply_outgoing` function. These contain the bulk of
 the call file logic, and will help us learn a bit about call file internals.
 
-Look them over briefly. In the next section, we’ll dive right in.
+Look them over briefly. In the next section, we'll dive right in.
 
 
 ## The outgoing Struct
 
-Let’s start out by analyzing the `outgoing` struct, shown below (note: I’ve
+Let's start out by analyzing the `outgoing` struct, shown below (note: I've
 re-done the formatting and comments so that it displays in proper 80-column
 width):
 
@@ -103,7 +103,7 @@ way to store individual call file states and track statuses.
 ## How The Spooling Daemon Works
 
 Now, when users create a call file, the spooling daemon will process that file.
-But how does it do it? Now that we’ve seen `struct outgoing`, let’s look at the
+But how does it do it? Now that we've seen `struct outgoing`, let's look at the
 `apply_outgoing` function which parses call files, and populates an outgoing
 struct while verifying that all lines are syntactically correct.
 
@@ -295,30 +295,30 @@ correctly.
 
 The next thing that `apply_outgoing` does is remove any comments and trailing
 whitespace. This is pretty standard stuff. I am a bit surprised, however, that
-the Asterisk developers didn’t use the utility function `ast_trim_blanks` (in
+the Asterisk developers didn't use the utility function `ast_trim_blanks` (in
 `include/asterisk/strings.h`), as re-writing this sort of stuff greatly
 increases the size of the codebase, making it harder to maintain.
 
 Next, Asterisk attempts to detect the command and arguments for each call file
 directive. Since all call file directives are of the form `command: arguments`,
-Asterisk splits the line at ‘:’, then tries to detect which command is being
+Asterisk splits the line at ':', then tries to detect which command is being
 called. This is exactly what we would expect to happen.
 
 In the process of splitting the lines into command and argument pairs, Asterisk
 parses out the arguments as well, and populates the outgoing struct as expected.
-Along the way, if Asterisk finds any problems with the syntax, it’ll log the
+Along the way, if Asterisk finds any problems with the syntax, it'll log the
 errors to the Asterisk log (usually `/var/log/asterisk/full`).
 
 Lastly, after parsing all options, Asterisk verifies to make sure that the
 minimum directives have been specified.
 
 If everything worked OK, and the call file can be spooled, then `apply_outgoing`
-will return 0, otherwise, it’ll return -1.
+will return 0, otherwise, it'll return -1.
 
 
 ## What Did We Learn?
 
-We’ve analyzed the core components that make call files work, and we’ve learned
+We've analyzed the core components that make call files work, and we've learned
 a few things.
 
 -   We have a complete understanding of which call file directives exist (as
@@ -348,14 +348,14 @@ a few things.
 
     Note, some of these directives should not be directly entered into your call
     files (as Asterisk will automatically add them as necessary), but of course,
-    if you’re reading this you’re probably the type of person who likes messing
+    if you're reading this you're probably the type of person who likes messing
     with that sort of stuff, so have at it. :\>
 
--   We’ve learned how to put any amount of directives we want onto a single
+-   We've learned how to put any amount of directives we want onto a single
     line. Obviously this is totally useless, but it is nice to know that we CAN
     if we want to!
 
-    We’re able to do this because the spooling daemon reads 256 bytes at a time
+    We're able to do this because the spooling daemon reads 256 bytes at a time
     for parsing. So we could write a call file that looks something like:
 
     `Channel: blah NextDirective: blah ...`
@@ -363,10 +363,10 @@ a few things.
 
 ## Conclusion
 
-I’m hoping to do a few more articles that demistify other parts of Asterisk in
-depth (with code and examples). This is my first, and I know it doesn’t touch on
+I'm hoping to do a few more articles that demistify other parts of Asterisk in
+depth (with code and examples). This is my first, and I know it doesn't touch on
 the complex topics like threading and synchronous / asynchronous channels, but I
-assure you I’ll write some future articles which cover those parts in extreme
+assure you I'll write some future articles which cover those parts in extreme
 depth.
 
 If you want to keep up with future articles, and random other thoughts,

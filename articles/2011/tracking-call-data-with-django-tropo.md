@@ -4,22 +4,22 @@ Author: Randall Degges
 
 
 This article is my attempt to explain how django-tropo implements call tracking.
-If you don’t know what django-tropo is, you may want to first read my [previous
+If you don't know what django-tropo is, you may want to first read my [previous
 post][] on the subject.
 
 
 ## The Problem
 
-One of the biggest problems I’ve had using tropo with Django is handling call
-tracking. Let’s quickly take a look at the way tropo works for incoming calls:
+One of the biggest problems I've had using tropo with Django is handling call
+tracking. Let's quickly take a look at the way tropo works for incoming calls:
 
 1.  You pick up your phone and dial a tropo phone number, eg: 555-555-5555.
-2.  Tropo (via voxeo’s cloud) sees an incoming call to one of their phone
+2.  Tropo (via voxeo's cloud) sees an incoming call to one of their phone
     numbers, and figures out where to route the call to based on your
     application settings.
 3.  Tropo sends some data to your web server in JSON format. This data contains
     all of the caller information (what phone number the person is calling from,
-    what phone number they’re calling to, what type of call it is (voice, sms,
+    what phone number they're calling to, what type of call it is (voice, sms,
     aim, etc.), and some other stuff.
 4.  Your web server gets a POST request from tropo, You build a JSON response
     which tells tropo what to do (eg: say hello world).
@@ -31,7 +31,7 @@ tracking. Let’s quickly take a look at the way tropo works for incoming calls:
     call, and then tell it what to do next.
 
 The workflow here is quite simple: tropo and you are just passing JSON back and
-fourth. Tropo’s JSON gives you status updates, and your JSON tells tropo what to
+fourth. Tropo's JSON gives you status updates, and your JSON tells tropo what to
 do.
 
 In all but the simplest programs, you will undoubtedly want to track your calls
@@ -63,17 +63,17 @@ what the unique callId and sessionId values are, etc.
 A `TropoSessionStep` object contains information about each unique call step. A
 call step is just JSON data that tropo sends you AFTER the session has been
 created. Complex call menus will frequently need a lot of back-and-fourth
-communication with tropo to finish a call, so for each ‘call step’, a new
+communication with tropo to finish a call, so for each 'call step', a new
 `TropoSessionStep` will be created, and associated with the corresponding
 `TropoSession` object.
 
-By analyzing a `TropoSession` object, we are able to see not only the session’s
+By analyzing a `TropoSession` object, we are able to see not only the session's
 identifying information—but also all of the related `TropoSessionStep` objects,
 each of which contains all tropo information for each step of the call as it was
 being processed. This lets us look back and get any bit of information we could
 possibly need about any call, at any time.
 
-Here’s an example of how simple a tropo view can look, using django-tropo’s
+Here's an example of how simple a tropo view can look, using django-tropo's
 `tropo_view` decorator:
 
 ``` python
@@ -113,7 +113,7 @@ applications, and hopefully make it useful in many situations and environments.
 
 ## Suggestions?
 
-Got a better way to handle call tracking? I’d love to hear it!
+Got a better way to handle call tracking? I'd love to hear it!
 
 
   [previous post]: http://projectb14ck.org/my-experiences-with-tropo

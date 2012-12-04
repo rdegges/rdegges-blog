@@ -5,16 +5,16 @@ Tags: programming, python, brainfuck, lambda
 Title: Python Challenge Thoughts
 
 
-If you didn’t read my previous post, you’ll want to check that out first: [The
+If you didn't read my previous post, you'll want to check that out first: [The
 Purely Functional Python Brainfuck Challenge][].
 
 So, today was the first day I really invested some thought and time into the
-challenge. I decided that before just diving into code I’d spend some time
+challenge. I decided that before just diving into code I'd spend some time
 reading up on functional programming in python, and learn a bit.
 
 The first thing I read through was the official python functional programming
 page which you can find [here][]. This had a bunch of useful information
-regarding functional programming tools in python, but didn’t really have any
+regarding functional programming tools in python, but didn't really have any
 examples of *actual* functional programs.
 
 I learn by reading, and code samples are very helpful to me, so today I spent a
@@ -40,7 +40,7 @@ I could implement this (logically) would be to do something like:
 (__name__ == '__main__' and main()) or print 'Run me!'
 ```
 
-But, unfortunately, python won’t let you use print (as it doesn’t return
+But, unfortunately, python won't let you use print (as it doesn't return
 anything) in that context. So, the way I eventually figured it out was to use
 `sys.stdout.write`, as you can see here:
 
@@ -51,8 +51,8 @@ anything) in that context. So, the way I eventually figured it out was to use
 Which returns a value, and therefore is acceptable to use in a ternary operation
 like the one above.
 
-That’s all for today, but tomorrow I’ll work on impelementing functional file
-reading and parsing, and I’ll make another post detailing my findings.
+That's all for today, but tomorrow I'll work on impelementing functional file
+reading and parsing, and I'll make another post detailing my findings.
 
 Best luck to all challengers!
 

@@ -5,13 +5,13 @@ Tags: programming, asterisk
 Title: Asterisk Expression Truthiness
 
 
-Ever done any extensive [Asterisk][] dialplan coding? If so, chances are you’ve
+Ever done any extensive [Asterisk][] dialplan coding? If so, chances are you've
 been frustrated with Asterisk expresisons at one point or another.
 
-If you’re unfamiliar with Asterisk coding, you should read this [awesome book][]
+If you're unfamiliar with Asterisk coding, you should read this [awesome book][]
 (affiliate link) on the subject.
 
-**NOTE**: The following is written with Asterisk 1.6+ in mind. If you’re using
+**NOTE**: The following is written with Asterisk 1.6+ in mind. If you're using
 an older version of Asterisk, this may not be *completely* true.
 
 
@@ -21,7 +21,7 @@ Asterisk [expressions][] are used in various Asterisk dialplan applications, to
 help control the flow of your program. They are typically used as if statements
 to help branch logic.
 
-Let’s look at an example from the latest version of [FreePBX][], an extremely
+Let's look at an example from the latest version of [FreePBX][], an extremely
 popular open source Asterisk web frontend:
 
 ```
@@ -54,8 +54,8 @@ def macro_dial(*args):
 Makes sense so far, right? Basically, if `MOHCLASS` is false, then the code will
 not execute the `SetMusicOnHold` application before performing a dial.
 
-And of course, expressions aren’t limited to a single statement, they can be
-used pretty much anywhere. Here’s another snippet from the latest version of
+And of course, expressions aren't limited to a single statement, they can be
+used pretty much anywhere. Here's another snippet from the latest version of
 FreePBX:
 
 ```
@@ -69,26 +69,26 @@ NOT, etc.
 
 ## Truthiness
 
-In an attempt to demonstrate the truthiness of Asterisk expression, I’ll dissect
+In an attempt to demonstrate the truthiness of Asterisk expression, I'll dissect
 the FreePBX code shown in the previous section.
 
-Let’s start by testing all aspects of the original FreePBX expression:
+Let's start by testing all aspects of the original FreePBX expression:
 
 ```
 exten => s,1,GotoIf($["${MOHCLASS}" = ""]?dial)
 ```
 
-In order to test it, let’s run some dialplan code.
+In order to test it, let's run some dialplan code.
 
-**NOTE**: I’m not showing the Asterisk output for any of the tests, because it
+**NOTE**: I'm not showing the Asterisk output for any of the tests, because it
 would take an enormous amount of space and be essentially useless. So you can
-take my answers to be true (I’ve tested them, I promise!), or test it for
+take my answers to be true (I've tested them, I promise!), or test it for
 yourself.
 
 
 ### Test 1
 
-The first thing we’ll test is what happens if the `MOHCLASS` doesn’t exist?
+The first thing we'll test is what happens if the `MOHCLASS` doesn't exist?
 
 ```
 exten => s,n,GotoIf($["${MOHCLASS}" = ""]?dial)
@@ -102,7 +102,7 @@ That means that, `$["${MOHCLASS}" = ""]` can be used to test whether or not the
 
 ### Test 2
 
-In this test, we’ll see what happens if `MOHCLASS` has been defined, and set to
+In this test, we'll see what happens if `MOHCLASS` has been defined, and set to
 a line of text.
 
 ```
@@ -111,13 +111,13 @@ exten => s,n,GotoIf($["${MOHCLASS}" = ""]?dial)
 exten => s,n(dial),NoOp()
 ```
 
-This time, the expressions returns false (0). This makes sense, as we wouldn’t
+This time, the expressions returns false (0). This makes sense, as we wouldn't
 expect Asterisk to think that both `""` and `hithere` are equal.
 
 
 ### Test 3
 
-Now, let’s see what happens if `MOHCLASS` is defined, and set to 0 (false).
+Now, let's see what happens if `MOHCLASS` is defined, and set to 0 (false).
 
 ```
 exten => s,n,Set(MOHCLASS=0)
@@ -158,7 +158,7 @@ Again, it resolves to true (1). So, as expected, `""` = `""`.
 
 ## Truthiness Table
 
-To summarize what we’ve learned, here’s a simple truthiness table:
+To summarize what we've learned, here's a simple truthiness table:
 
 ```
 expression      true?
@@ -177,12 +177,12 @@ the: `0 = ""` expression, which is *not* true.
 
 ## Questions?
 
-Got any questions? I’d be happy to answer them.
+Got any questions? I'd be happy to answer them.
 
 Subscribe to my [rss feed][] or follow me on [twitter][] if you want to get
 information on the next few articles.
 
-Next time, I’ll be covering expression reduction.
+Next time, I'll be covering expression reduction.
 
 
   [Asterisk]: http://www.asterisk.org/

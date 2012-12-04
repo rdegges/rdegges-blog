@@ -12,8 +12,8 @@ always will be problems with the world; this is unavoidable. By nature, humans
 are emotional at the core, which severely inhibits our decision making, and
 leads us to make poor choices.
 
-The question is, how can we make the world a better place? By ‘make the world a
-better place’, I simply mean improve every aspect of life. This can mean things
+The question is, how can we make the world a better place? By 'make the world a
+better place', I simply mean improve every aspect of life. This can mean things
 like:
 
 -   Less war.
@@ -26,9 +26,9 @@ The only way to make the world a better place is to consciously analyze a
 situation, think of ways to improve the situation, and then make the necessary
 changes to improve the situation.
 
-Now, let’s say that the situation you consciously think about and plan on
-improving is large and generic, something like ‘make my neighborhood nicer’.
-There is not a direct path to making your neighborhood nicer, so you’ll need to
+Now, let's say that the situation you consciously think about and plan on
+improving is large and generic, something like 'make my neighborhood nicer'.
+There is not a direct path to making your neighborhood nicer, so you'll need to
 break the situation into smaller, sub-situations which are more easily managed.
 
 For instance, to make your neighborhood nicer, you could:
@@ -39,7 +39,7 @@ For instance, to make your neighborhood nicer, you could:
 -   Re-pave the roads.
 -   Re-model buildings.
 
-And for any one of those sub-problems, you can break it down further. Let’s say
+And for any one of those sub-problems, you can break it down further. Let's say
 we decide to re-pave the roads, this could be accomplished by:
 
 -   Raising taxes to get more money for road paving.

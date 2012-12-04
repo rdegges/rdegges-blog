@@ -15,8 +15,8 @@ for cross-device file operations.
 This can be extremely useful, especially in situations where there are NFS
 mounts for the spooling directory shared across multiple boxes.
 
-So if you’re using pycall, please update your install and visit [pycall’s
+So if you're using pycall, please update your install and visit [pycall's
 website][] for more information / examples!
 
 
-  [pycall’s website]: http://pycall.org/
+  [pycall's website]: http://pycall.org/

@@ -26,10 +26,10 @@ One question that arises frequently is Why do I need to use AGI? This is a great
 question, worth discussing. Asterisk provides several ways to perform call
 logic, namely dial plan, AMI, and AGI.
 
-[Dial plan][] is Asterisk’s native scripting language which is parsed by
+[Dial plan][] is Asterisk's native scripting language which is parsed by
 Asterisk and stored in memory to use for performing call logic. Dial plan is
 quick, efficient, and easy to learn. There are, however, downsides associated
-with dial plan. It is very un-sophisticated, and doesn’t support standard
+with dial plan. It is very un-sophisticated, and doesn't support standard
 procedural language constructs (like loops). This means that you will be doing
 mostly assembly type coding using Gotos and simple constructs. This makes
 writing large software tedious and difficult to maintain.
@@ -117,7 +117,7 @@ bit must be set on your program). You can do this by using the linux command
 
 The program must also be readable by Asterisk, this means that it must be in a
 public directory tree, or a tree that is owned by the user account under which
-Asterisk runs. Also, don’t forget that your AGI program will be ran by Asterisk,
+Asterisk runs. Also, don't forget that your AGI program will be ran by Asterisk,
 so permissions are necessary to plan out in advance. A common problem new
 Asterisk developers run into is that they will have their AGI programs write
 files to a system location, like `/etc/`, but Asterisk will be running in a
@@ -128,7 +128,7 @@ restricted environment, so their programs will fail and they will not know why.
 
 Running AGI scripts, as explained in the previous section is a simple task.
 Sometimes, however, debugging AGI scripts can be difficult and time consuming.
-Often, it is difficult to test AGI programs as you cannot simply ‘print’ output
+Often, it is difficult to test AGI programs as you cannot simply 'print' output
 to the screen as you normally would for debugging purposes. This section briefly
 covers using the Asterisk command line to watch and debug AGI applications live.
 
@@ -137,7 +137,7 @@ the shell. Once inside the CLI, run the agi set debug on command to enable
 verbose AGI output. This will come in handy when troubleshooting your programs.
 Below is an AGI debug of an AGI application which shows a wide array of
 information about my AGI application. Take a close look at this debug, and try
-to make sense of it. I’ll explain what each bit means below.
+to make sense of it. I'll explain what each bit means below.
 
 ```
 AGI Tx >> agi_request: hello-world.sh
@@ -178,7 +178,7 @@ the command line.
 AGI applications send commands to Asterisk via STDOUT, and Asterisk sends data
 to your AGI programs via STDIN.
 
-After the channel ID, you’ll see AGI followed by either `Tx` or `Rx`. Tx stands
+After the channel ID, you'll see AGI followed by either `Tx` or `Rx`. Tx stands
 for transmit, and means that Asterisk is transmitting the following information
 into the STDIN buffer for your AGI program to use if it desires. Lines which
 begin with Rx (receive) display information that your AGI program is sending to
@@ -207,7 +207,7 @@ following Tx lines show Asterisk responses.
 
 ## AGI Hello World Application
 
-In the previous section, we looked at an AGI call log. Now let’s examine the AGI
+In the previous section, we looked at an AGI call log. Now let's examine the AGI
 application which ran and generated that call log. What follows is an extremely
 simple AGI application which simply outputs “hello, world!” to the AGI debug
 output.
@@ -247,15 +247,15 @@ returned error: Broken pipe
 Feel free to ignore those errors. Those are generated when your AGI application
 does not read in *all* data from STDIN before your program closes.
 
-In most real world applications, you’ll want to read in Asterisk responses so
+In most real world applications, you'll want to read in Asterisk responses so
 that you know whether or not your commands executed successfully, and can grab
 important information about the call being processed, but for this example, we
-don’t care, so we didn’t.
+don't care, so we didn't.
 
 
 ## Passing Arguments to Your AGI Application
 
-Now that you know how to write and use basic AGI scripts, let’s get a little
+Now that you know how to write and use basic AGI scripts, let's get a little
 more advanced. Many complex AGI applications may need more advanced data given
 to them than what Asterisk natively provides. Luckily, the Asterisk dial plan
 command AGI allows for us to pass up to 127 arguments to our AGI application.
@@ -268,7 +268,7 @@ in a comma delimited list after your AGI application path is specified:
 exten => s,1,AGI(hello-world.sh,arg1,arg2,arg3)
 ```
 
-As you’ll notice in the above example, I did not put spaces after each comma.
+As you'll notice in the above example, I did not put spaces after each comma.
 That is because if you add spaces, Asterisk will interpret them literally and
 your program will receive the argument with a space character prepended to it.
 This may (or may not) be desirable, based on your application specifications.
@@ -313,17 +313,17 @@ AGI Tx >> 200 result=1
 
 As you can see, after the initial arguments have been passed, Asterisk simply
 adds a new line with for each additional argument passed to the AGI script. This
-makes reading in these variables easy and doesn’t require any extra effort on
+makes reading in these variables easy and doesn't require any extra effort on
 your part.
 
 
 ## Where to Get AGI Information
 
-Now that we’ve introduced and explained how AGI programs work, there is nothing
+Now that we've introduced and explained how AGI programs work, there is nothing
 left to do except start writing some for yourself. The definitive reference to
-AGI commands and functions can be found on [voip info’s AGI page][AGI].
+AGI commands and functions can be found on [voip info's AGI page][AGI].
 
-If you are comfortable with Asterisk dial plan, you’ll easily pick up the AGI
+If you are comfortable with Asterisk dial plan, you'll easily pick up the AGI
 commands. If you have no prior experience, then look for some references /
 examples in the voip info page as they have numerous examples and help
 available.

@@ -5,7 +5,7 @@ Tags: life
 Title: Moved to Posterous
 
 
-So, today I finally finished moving my old posts to [Posterous][]. If you aren’t
+So, today I finally finished moving my old posts to [Posterous][]. If you aren't
 familiar with them, Posterous is a web hosting platform with some pretty cool
 features (syntax highlighting, custom theme support, markdown support, email
 support, etc.).
@@ -22,10 +22,10 @@ both a must for me, as:
     using markdown as I can basically write all posts in txt format, which is
     easily identifyable regardless of editor / template rendering engine.
 2.  I write a lot of technical posts, so syntax highlighting is a must.
-3.  Posterous supports Github’s gist embedding, which is basically a javascript
+3.  Posterous supports Github's gist embedding, which is basically a javascript
     include that displays some code with syntax highlighting for easy download.
 
-Anyhow, now that I’ve got my platform ready for writing again, I will continue
+Anyhow, now that I've got my platform ready for writing again, I will continue
 updating my site and posting cool information.
 
 

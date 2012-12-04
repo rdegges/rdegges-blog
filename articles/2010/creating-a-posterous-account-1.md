@@ -4,7 +4,7 @@ Slug: creating-a-posterous-account
 Title: Creating a Posterous Account
 
 
-So, I’m going to try out this whole Posterous thing. The main reason for it, is
+So, I'm going to try out this whole Posterous thing. The main reason for it, is
 that I currently host and maintain my weblog by hand. This is rather cumbersome,
 as I have to constantly fiddle with my VPS, worry about bandwidth costs, and
 also worry about breaking other software applications that I run on my VPS via
@@ -17,4 +17,4 @@ highlighting, another yey, as most of my posts are technical by nature, and
 require pretty code blocks throughout.
 
 This is my first post, creating my new Posterous account, and if everything goes
-well, I’ll continue using the service.
+well, I'll continue using the service.

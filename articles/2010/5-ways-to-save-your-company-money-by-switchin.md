@@ -32,13 +32,13 @@ Asterisk is an extremely popular open source PBX system. It costs nothing, can
 be installed on almost any computer system, and is stable and reliable. Equally
 important is the fact that Asterisk has a large user base, a plethora of
 documentation, and tons of developers and consultants who can help you set it up
-(even if you aren’t a tech person) for cheap.
+(even if you aren't a tech person) for cheap.
 
-So let’s get down to business. Here are 5 ways that Asterisk can save your
+So let's get down to business. Here are 5 ways that Asterisk can save your
 company money:
 
 
-## 1. It’s Free
+## 1. It's Free
 
 Obviously, the factor which drives most companies to ditch their current PBX is
 cost. Asterisk is free, and it is hard to justify paying \$10,000 or more for a
@@ -53,16 +53,16 @@ that come with them. For example, check out the [Shoretel PBX system price list
 [pdf]][] (effective Jan. 1st, 2010).
 
 Look at those licenses. Every phone you want to hook up requires an extension
-license and voicemail license. And it isn’t cheap, either.
+license and voicemail license. And it isn't cheap, either.
 
-My thought is: Why pay recurring costs just to use a phone? You’ve already got
+My thought is: Why pay recurring costs just to use a phone? You've already got
 to pay for phone service, why not only pay for your hardware, and be done with
 it?
 
-With Asterisk, you’ll be paying only for your hardware. This usually includes:
+With Asterisk, you'll be paying only for your hardware. This usually includes:
 
--   A decent server to install Asterisk on: \~500\$ –\> \~1,000\$.
--   VoIP phones for each employee: \~30\$ –\> \~100\$.
+-   A decent server to install Asterisk on: ~500$ -> ~1,000$.
+-   VoIP phones for each employee: ~30$ -> ~100$.
 
 If you want to add a new employee to the system and get a phone, no problem.
 Just buy another phone, and plug it into the network.
@@ -73,7 +73,7 @@ plug it into the network.
 
 ## 3. Make Your Company Portable
 
-Let’s face it, traditional business is dying out. With high-speed internet
+Let's face it, traditional business is dying out. With high-speed internet
 widely available, there is no reason to have a centralized office. There is a
 continuously growing amount of new companies which are completely distributed.
 
@@ -82,10 +82,10 @@ office rental costs. You can hire better workers by selecting from a larger area
 (get the best expert in the US instead of the best expert in your city). And
 lots of other things.
 
-Supporting remote workers couldn’t be easier in Asterisk. Just ship your
+Supporting remote workers couldn't be easier in Asterisk. Just ship your
 employees a VoIP phone with the IP of your Asterisk PBX programmed in, and
-they’re instantly online. All they have to do is plug their phone into their
-network and they’re ready to work.
+they're instantly online. All they have to do is plug their phone into their
+network and they're ready to work.
 
 
 ## 4. Custom Functionality
@@ -108,11 +108,11 @@ expensive.
 
 Asterisk has an extremely active business community, filled with thousands of
 products specifically designed to work with Asterisk to add almost any
-functionality you can imagine to your PBX. Let’s say you want to have a queue
+functionality you can imagine to your PBX. Let's say you want to have a queue
 system where callers call in, and the system calls them back automatically when
-it is their turn in line–there’s an app for that!
+it is their turn in line-there's an app for that!
 
-And if you can’t find an app for what you need, you can always build it
+And if you can't find an app for what you need, you can always build it
 yourself, or hire an Asterisk developer for cheap online.
 
 
@@ -121,10 +121,10 @@ yourself, or hire an Asterisk developer for cheap online.
 Asterisk is a game changing tool for small and medium businesses. It allows your
 small company to operate like a large company, free.
 
-Many small companies get stuck in the ’small business syndrome’ where they never
-grow beyond a small market audience because their ‘presentation’ is small. When
+Many small companies get stuck in the 'small business syndrome' where they never
+grow beyond a small market audience because their 'presentation' is small. When
 customers call your company, and hear a professional auto attendant, they
-instantly feel like they’re dealing with a professional, organized company. When
+instantly feel like they're dealing with a professional, organized company. When
 customers call a business, and wait for 50 rings before hearing a choppy
 sounding answering machine, they are annoyed, frustrated, and far less likely to
 return.
@@ -136,7 +136,7 @@ Asterisk is a great tool for companies looking to save money, and improve their
 communications infrastructure. It has all the functionality (and more) that
 large PBX companies (Cisco, Avaya, Shoretel) advertise, and costs nothing.
 
-If you want to learn more, check out [Asterisk’s official website][Asterisk].
+If you want to learn more, check out [Asterisk's official website][Asterisk].
 
 
   [Asterisk]: http://www.asterisk.org/
