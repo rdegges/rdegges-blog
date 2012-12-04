@@ -20,7 +20,7 @@ Things have finally cooled down enough that I now have some time to write, and
 work on side projects again, so please bare with me over the next few weeks as I
 try to publish some interesting stuff.
 
-Anyhow…
+Anyhow...
 
 I'd like to announce the release of a new open source Django application,
 django-quotes.

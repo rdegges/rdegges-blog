@@ -40,7 +40,7 @@ projectb14ck remained (mostly) unmaintained until October 2009, when I decided
 to switch back to wordpress, and begin writing once again. After moving back to
 wordpress, I started writing again, and publishing several articles.
 
-Which brings us to the present…
+Which brings us to the present...
 
 
 ## Decision to Move from Wordpress to Jekyll

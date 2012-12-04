@@ -42,7 +42,7 @@ The really interesting thing about this, is why it works. On the Stack Overflow
 discussion page for Strangest language feature, the user Michel explains why it
 works.
 
-> … that's because a[10] means *(a+10) … and 10[a] means*(10+a) :)
+> ... that's because a[10] means *(a+10) ... and 10[a] means*(10+a) :)
 
 Pretty awesome. Anyhow, hope you learned something new, I did. Thanks Stack
 Overflow :)

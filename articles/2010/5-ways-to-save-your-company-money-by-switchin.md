@@ -20,7 +20,7 @@ The benefits of having a PBX are numerous and necessary:
 -   Configure auto attendants to route calls to the appropriate people.
 -   Allow employees to work remotely (even with their cell phones) and avoid the
     costs of renting office space.
--   And much more…
+-   And much more...
 
 So how can you save money for your company? Switch to [Asterisk][], the open
 source PBX.
@@ -50,7 +50,7 @@ reliability, and costs nothing.
 
 With most commercial PBX systems, you have to buy into the licensing schemes
 that come with them. For example, check out the [Shoretel PBX system price list
-[pdf]][] (effective Jan. 1st, 2010).
+(pdf)][] (effective Jan. 1st, 2010).
 
 Look at those licenses. Every phone you want to hook up requires an extension
 license and voicemail license. And it isn't cheap, either.
@@ -140,4 +140,4 @@ If you want to learn more, check out [Asterisk's official website][Asterisk].
 
 
   [Asterisk]: http://www.asterisk.org/
-  [Shoretel PBX system price list [pdf]]: http://www.peppm.org/Products/ShoreTel/price.pdf
+  [Shoretel PBX system price list (pdf)]: http://www.peppm.org/Products/ShoreTel/price.pdf

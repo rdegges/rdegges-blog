@@ -14,7 +14,7 @@ write it down in there, so that I can eventually I can either develop them
 myself, or cross them off my list as someone-else-already-implemented.
 
 My first idea (I've had this floating around in the back of my head for quite
-some time now) is called…
+some time now) is called...
 
 
 ## Neverending Charity

@@ -29,7 +29,7 @@ logic, namely dial plan, AMI, and AGI.
 [Dial plan][] is Asterisk's native scripting language which is parsed by
 Asterisk and stored in memory to use for performing call logic. Dial plan is
 quick, efficient, and easy to learn. There are, however, downsides associated
-with dial plan. It is very un-sophisticated, and doesn't support standard
+with dial plan. It is very unsophisticated, and doesn't support standard
 procedural language constructs (like loops). This means that you will be doing
 mostly assembly type coding using Gotos and simple constructs. This makes
 writing large software tedious and difficult to maintain.

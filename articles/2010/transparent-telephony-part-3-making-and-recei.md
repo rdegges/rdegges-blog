@@ -554,7 +554,7 @@ information in front of you, open up your SIP configuration file
 (/etc/asterisk/sip.conf) and look at your extension definition.
 
 Right click on the main window display in X-Lite and click on 'SIP Account
-Settings'. Now click 'Add…' to add a SIP account.
+Settings'. Now click 'Add...' to add a SIP account.
 
 Here are the values you should fill in:
 

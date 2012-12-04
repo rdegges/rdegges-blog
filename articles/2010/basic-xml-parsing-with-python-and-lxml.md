@@ -19,7 +19,7 @@ official tutorial, and there were no good resources online with code samples.
 So let's take a quick peek at a sample XML document, then we'll analyze some
 simple LXML code to see how it works. Of course, before you can run any of these
 code samples, you'll need to download and install LXML (there are packages
-available on most linux systems already).
+available on most Linux systems already).
 
 Here's are two sample XML responses that our server may send to the clients:
 

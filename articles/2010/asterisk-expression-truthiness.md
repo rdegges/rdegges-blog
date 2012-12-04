@@ -6,7 +6,7 @@ Title: Asterisk Expression Truthiness
 
 
 Ever done any extensive [Asterisk][] dialplan coding? If so, chances are you've
-been frustrated with Asterisk expresisons at one point or another.
+been frustrated with Asterisk expressions at one point or another.
 
 If you're unfamiliar with Asterisk coding, you should read this [awesome book][]
 (affiliate link) on the subject.
@@ -179,7 +179,7 @@ the: `0 = ""` expression, which is *not* true.
 
 Got any questions? I'd be happy to answer them.
 
-Subscribe to my [rss feed][] or follow me on [twitter][] if you want to get
+Subscribe to my [RSS feed][] or follow me on [twitter][] if you want to get
 information on the next few articles.
 
 Next time, I'll be covering expression reduction.
@@ -189,5 +189,5 @@ Next time, I'll be covering expression reduction.
   [awesome book]: http://www.amazon.com/gp/product/0596517343/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0596517343&linkCode=as2&tag=rdegges-20
   [expressions]: http://www.voip-info.org/wiki/view/Asterisk+Expressions
   [FreePBX]: http://www.freepbx.org/
-  [rss feed]: http://feeds.feedburner.com/rdegges
+  [RSS feed]: http://feeds.feedburner.com/rdegges
   [twitter]: http://twitter.com/rdegges
