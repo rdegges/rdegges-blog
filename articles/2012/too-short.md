@@ -39,4 +39,4 @@ There's just not enough time in life to do things you hate, so instead of
 wasting your time away, just do the things you love to do.
 
 
-  [Owl]: /images/2012/owl.png "Owl Sketch"
+  [Owl]: /static/images/2012/owl.png "Owl Sketch"
