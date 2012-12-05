@@ -36,7 +36,7 @@ the workplace, this manifests as a boss pressuring his subordinates when they're
 in a tight spot, adding to the frustration and intensity of the whole
 organization--and delivery subpar results.
 
-There is no way to stop yourself from being frustated. Instead, however, you
+There is no way to stop yourself from being frustrated. Instead, however, you
 can consciously make a decision to acknowledge your frustration (that broken
 third party library, your reverted bugfix, whatever), realize that your
 frustration isn't helping you make progress, and let it go.
