@@ -1,7 +1,8 @@
-Title: Dangerous People
-Date: 2012-10-03 21:58
 Author: Randall Degges
-Tags: programming, philosophy
+Date: 2012-10-03 21:58
+Slug: dangerous-people
+Tags: philosophy, programming
+Title: Dangerous People
 
 
 ![Barbarian][]
