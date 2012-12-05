@@ -66,7 +66,7 @@ of fun, filled with amazing guys (and gals), and worth a long drive and the 10$
 ticket price.
 
 If you'd like to sign up, you can do so
-here: [http://www.meetup.com/LA-Hackathons/events/85658952/][]
+here: [http://www.meetup.com/LA-Hackathons/events/85658952/][LA Hackathon]
 
 Be sure to get your ticket quick though, this event **ALWAYS SELLS OUT**, and is
 incredibly popular. There are only **150** open slots this time, so get yours
@@ -76,6 +76,4 @@ Hope to see you there >:)
 
 
   [Axe Warrior]: /static/images/2012/axe_warrior.png "Axe Warrior Sketch"
-  [LA Hackathon]: http://www.meetup.com/LA-Hackathons/events/85658952/
-    "LA Hackathon"
-  [http://www.meetup.com/LA-Hackathons/events/85658952/]: http://www.meetup.com/LA-Hackathons/events/85658952/
+  [LA Hackathon]: http://www.meetup.com/LA-Hackathons/events/85658952/ "LA Hackathon Meetup Page"
