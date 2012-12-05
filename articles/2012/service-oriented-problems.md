@@ -1,10 +1,11 @@
-Title: Service Oriented Problems
-Date: 2012-10-01 22:54
 Author: Randall Degges
-Tags: programming, webapplications
+Date: 2012-10-01 22:54
+Slug: service-oriented-problems
+Tags: programming, webapps
+Title: Service Oriented Problems
 
 
-![Reaper][]
+![Grim Reaper Smoking][]
 
 In my [last post][], I discussed some of the benefits of writing service
 oriented web applications. In this post, I'd like to discuss some of the
@@ -26,8 +27,8 @@ The reason this is true is that while service oriented web applications are far
 simpler to maintain in the long run (among lots of other benefits), it requires
 more upfront development time to get things working. Let's look at *why*.
 
-Let's say you're building a blogging engine (something like [tumblr][]). If you
-were start building your product as services, you'd start by writing:
+Let's say you're building a blog engine (something like [tumblr][]). If you were
+start building your product as services, you'd start by writing:
 
 -   A **tumblr-accounts** service which provides an API to create, edit, and
     remove user accounts as well as authenticate users.
@@ -103,7 +104,7 @@ to perform HTTP requests to your **accounts** service instead of performing ORM
 queries. If you're using [Flask][] (another python web framework), the solution
 is to use the wonderful third party application: [flask-login][].
 
-Regardless of your toolset, this is almost always a problem people bump into.
+Regardless of your tool set, this is almost always a problem people bump into.
 
 
 ## Problem 3 - Cost
@@ -135,7 +136,7 @@ Quite possibly the largest SOA issue you'll face if you decide to write service
 oriented web applications is that there is very little practical documentation
 around.
 
-Many popular web frameworks, toolsets, books and classes only teach the
+Many popular web frameworks, tool sets, books and classes only teach the
 monolithic model of web application development. This means that there are very
 few guides, and very few helpful resources out there to help you when you get
 stuck.
@@ -164,16 +165,15 @@ when writing your application.
 In my experience, writing service oriented web applications can be an extremely
 effective way to build great products. Not only do you gain tremendous benefits
 initially (a stricter set of APIs, redundancy at a service level, simpler
-isolated codebases), but as time goes on these benefits become more and more
+isolated code bases), but as time goes on these benefits become more and more
 prevalent (it is easier to maintain your application, you can scale your
 application quicker and more precisely, complexity drops substantially).
 
 Regardless of how you write your applications, go hack something! >:)
 
 
-  [Reaper]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2012-10-01/gxCwhxyaDpiExinkvCxIIvBzeCBdleEonvHtmIbvqmvHcdFrixsyGCahwArD/reaper.jpg.scaled696.jpg
-  [last post]: http://rdegges.com/service-oriented-side-effects
-    "Service Oriented Side Effects"
+  [Grim Reaper Smoking]: /static/images/2012/grim_reaper_smoking.png "Grim Reaper Smoking Sketch"
+  [last post]: /service-oriented-side-effects "Service Oriented Side Effects"
   [tumblr]: https://www.tumblr.com/ "Tumblr"
   [Django]: https://www.djangoproject.com/ "Django"
   [Flask]: http://flask.pocoo.org/ "Flask"
