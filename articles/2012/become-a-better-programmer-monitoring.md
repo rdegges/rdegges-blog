@@ -103,9 +103,12 @@ Just to enumerate some of the ways in which New Relic rocks:
 
 Here are the obligatory screenshots:
 
-[![Newrelic_map][]][] [![Newrelic_pages][]][] [![Newrelic_tasks][]][]
-[![Newrelic_overview][]][] [![Newrelic_web][]][]
-[![Newrelic_task_breakdown][]][]
+![New Relic Map][]
+![New Relic Pages][]
+![New Relic Tasks][]
+![New Relic Overview][]
+![New Relic Web][]
+![New Relic Task Breakdown][]
 
 As you can see, the New Relic panel lets you see a ton of data and metrics about
 your application, making it really easy to identify issues, slow functions, code
@@ -149,9 +152,9 @@ programmer.
   [Grim Reaper]: /static/images/2012/grim_reaper_gesturing.png "Grim Reaper Gesturing"
   [New Relic]: http://newrelic.com/ "NewRelic - Shit just got real for programmers."
   [Oh Stop It]: /static/images/2012/oh_stop_it.png "Oh Stop It!"
-  [Newrelic_map]: http://getfile2.posterous.com/getfile/files.posterous.com/temp-2012-08-26/eEpnglEfotluvoJjHzjIcudIsysGreDtwxsbDdzIuGqpFofchlDulupjDdxt/newrelic_map.png.scaled696.png
-  [Newrelic_pages]: http://getfile7.posterous.com/getfile/files.posterous.com/temp-2012-08-26/IkmJfqfDHtaHjrEfzAnmnveCHwDpydEyBfbkuyfcHhpJwBHmEBIFgjefecik/newrelic_pages.png.scaled696.png
-  [Newrelic_tasks]: http://getfile3.posterous.com/getfile/files.posterous.com/temp-2012-08-26/HzgHlzrmwhzkDbcDEvJilyipmiIwypzqizmfEnAeuvClfGCfIuztjHgCxImj/newrelic_tasks.png.scaled696.png
-  [Newrelic_overview]: http://getfile0.posterous.com/getfile/files.posterous.com/temp-2012-08-26/JuHyxljetFocnhwDkibufBAlGGFdasmByoJCtbFwpffloopbJkcEkpflvFvq/newrelic_overview.png.scaled696.png
-  [Newrelic_web]: http://getfile2.posterous.com/getfile/files.posterous.com/temp-2012-08-26/tsiopFrwfAiCitaAqGncDCwlveDmuzvegncrDmhoBrFIGoBtcdibkFFuIbwu/newrelic_web.png.scaled696.png
-  [Newrelic_task_breakdown]: http://getfile2.posterous.com/getfile/files.posterous.com/temp-2012-08-26/CdmlhvtspcIsDFeolEFJlgbDuEmgCmEhCzefAdsexIlICghBIGbleBtmicDs/newrelic_task_breakdown.png.scaled696.png
+  [New Relic Map]: /static/images/2012/new_relic_map.png "New Relic Map"
+  [New Relic Pages]: /static/images/2012/new_relic_pages.png "New Relic Pages"
+  [New Relic Tasks]: /static/images/2012/new_relic_tasks.png "New Relic Tasks"
+  [New Relic Overview]: /static/images/2012/new_relic_overview.png "New Relic Overview"
+  [New Relic Web]: /static/images/2012/new_relic_web.png "New Relic Web"
+  [New Relic Task Breakdown]: /static/images/2012/new_relic_task_breakdown.png "New Relic Task Breakdown"
