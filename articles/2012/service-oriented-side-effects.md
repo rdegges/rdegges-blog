@@ -1,10 +1,11 @@
 Title: Service Oriented Side Effects
 Date: 2012-09-28 21:55
+Slug: service-oriented-side-effects
 Author: Randall Degges
-Tags: programming, webapplications
+Tags: programming, webapps
 
 
-[![Robot][]][]
+![Robot][]
 
 There are two primary ways to write web applications these days:
 
@@ -46,7 +47,7 @@ When you're working on a large monolithic web application, and need to:
 -   Render things asynchronously, or
 -   Perform time intensive operations on separate hardware...
 
-The defacto way to do so is by relying on the message queueing pattern. What
+The de facto way to do so is by relying on the message queueing pattern. What
 this allows you to do is dump tasks into a message queue (something
 like [RabbitMQ][], [Amazon SQS][], or [Redis][]), which will then be read
 (consumed) by one or more worker servers which read the task, process it, and
@@ -64,7 +65,7 @@ has still not gained widespread adoption, primarily due to the fact that it can
 be complex to implement, and has a steeper learning curve for new developers.
 
 Service oriented web applications differ from monolithic web applications in
-serveral main ways:
+several main ways:
 
 -   They are composed of multiple, small, independent services (think: www, api,
     accounts, portal).
@@ -83,7 +84,7 @@ gives you many small moving parts as opposed to a single large part.
 The first side effect you get by writing service oriented web applications is
 simple: better maintainability for your web application.
 
-By having multiple small codebases that are each responsible for a very small
+By having multiple small code bases that are each responsible for a very small
 amount of logic, you'll typically have an easier time maintaining your code in
 the long term--since complexity is always kept to a minimum and the code is easy
 to navigate.
@@ -178,11 +179,11 @@ servers, you could:
 -   Keep your code simple and independent of external dependencies.
 
 Instead of relying on a message queue, you could: rip it out of your
-architecture all together, have a small (easily maintainable) codebase for your
+architecture all together, have a small (easily maintainable) code base for your
 transactions, expose a simple HTTP service that your other applications can talk
 with, and scale your transactions service independent of all your other services
-(this way, if you suddendly start doing a lot of transactions, you only need to
-focus on scaling a single small codebase).
+(this way, if you suddenly start doing a lot of transactions, you only need to
+focus on scaling a single small code base).
 
 
 ## Wrap Up
@@ -191,7 +192,7 @@ In my experience, building service oriented web applications generally leads to
 simpler, faster, and more scalable web applications. Without realizing it, you
 can:
 
--   Make maintaining and expanding your codebase easier.
+-   Make maintaining and expanding your code base easier.
 -   Lower the bar for new developers.
 -   Make scaling your application a simple process.
 -   Reduce architectural overhead and complexity.
@@ -201,14 +202,11 @@ you may want to check out my book: [The Heroku Hacker's Guide][], it teaches yo
 how to use [Heroku's platform][] to build fast, small, independent web services.
 
 
-  [Robot]: http://getfile9.posterous.com/getfile/files.posterous.com/temp-2012-09-28/oDAFdAIiGdoojJafjmlazCpdaovvyjopdAwbBijHEppccBGuhhpIhxayuvbJ/robot.jpg.scaled696.jpg
-  [![Robot][]]: ./images/163637542-0-robot.jpg.scaled1000.jpg
-  [Service Oriented Architecture]: http://en.wikipedia.org/wiki/Service-oriented_architecture
-    "Service Oriented Architecture"
+  [Robot]: /static/images/2012/killer_robot.png "Killer Robot Sketch"
+  [Service Oriented Architecture]: http://en.wikipedia.org/wiki/Service-oriented_architecture "Service Oriented Architecture"
   [message queues]: http://en.wikipedia.org/wiki/Message_queue "Message Queues"
   [RabbitMQ]: http://www.rabbitmq.com/ "RabbitMQ"
   [Amazon SQS]: http://aws.amazon.com/sqs/ "Amazon SQS"
   [Redis]: http://redis.io/ "Redis"
-  [The Heroku Hacker's Guide]: http://www.theherokuhackersguide.com/
-    "The Heroku Hacker's Guide"
+  [The Heroku Hacker's Guide]: http://www.theherokuhackersguide.com/ "The Heroku Hacker's Guide"
   [Heroku's platform]: http://www.heroku.com/ "Heroku"
