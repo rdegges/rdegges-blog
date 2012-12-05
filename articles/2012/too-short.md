@@ -1,7 +1,8 @@
-Title: Too Short
-Date: 2012-10-23 22:28
 Author: Randall Degges
+Date: 2012-10-23 22:28
+Slug: too-short
 Tags: programming, philosophy
+Title: Too Short
 
 
 ![Owl][]
@@ -38,4 +39,4 @@ There's just not enough time in life to do things you hate, so instead of
 wasting your time away, just do the things you love to do.
 
 
-  [Owl]: ./images/166296224-0-owl.jpg.scaled696.jpg
+  [Owl]: /images/owl.png "Owl Sketch"
