@@ -95,6 +95,6 @@ These are the my constants. They change from time to time, but are always there
 for me to fall back on. What are yours?
 
 
-  [Tree]: http://getfile2.posterous.com/getfile/files.posterous.com/temp-2012-10-14/udIeFBbzfohldcisrtpotafxklplkbBCBmGzsqynCdmksEvBhAgyFrApEFpc/tree.jpg.scaled696.jpg
+  [Tree]: /static/images/2012/tree.png "Tree Sketch"
   [The Pragmatic Bookshelf]: http://pragprog.com/ "The Pragmatic Bookshelf"
   [Kindle]: http://www.amazon.com/gp/product/B008UB7DU6/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B008UB7DU6&linkCode=as2&tag=rdegges-20 "Kindle"
