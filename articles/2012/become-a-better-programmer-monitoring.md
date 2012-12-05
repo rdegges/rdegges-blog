@@ -1,10 +1,11 @@
-Title: Become a Better Programmer - Monitoring
-Date: 2012-08-26 23:57
 Author: Randall Degges
-Tags: programming, philosophy, web
+Date: 2012-08-26 23:57
+Slug: become-a-better-programmer-monitoring
+Tags: philosophy, programming, web
+Title: Become a Better Programmer - Monitoring
 
 
-![Reaper][]
+![Grim Reaper][]
 
 Becoming a better programmer is hard work. Luckily, there's one foolproof way to
 improve your programming skills while simultaneously getting real world
@@ -75,10 +76,10 @@ monitoring software) and use this information as a feedback tool.
 ## New Relic - Monitoring for Hackers
 
 There are tons of application monitoring solutions out there, but my personal
-favorite is [New Relic][1]. Using New Relic to monitor your applications will
+favorite is [New Relic][New Relic]. Using New Relic to monitor your applications will
 undoubtedly make you feel like this dude:
 
-![Oh-stop-it][]
+![Oh Stop It][]
 
 Just to enumerate some of the ways in which New Relic rocks:
 
@@ -95,7 +96,6 @@ Just to enumerate some of the ways in which New Relic rocks:
     -   Memory usage.
     -   CPU usage.
     -   And a *ton* of other metrics. 
-
 -   They have a free tier (which varies depending on how you run your code, but
     is awesome).
 -   They let you create custom dashboards to track special metrics you define.
@@ -106,8 +106,6 @@ Here are the obligatory screenshots:
 [![Newrelic_map][]][] [![Newrelic_pages][]][] [![Newrelic_tasks][]][]
 [![Newrelic_overview][]][] [![Newrelic_web][]][]
 [![Newrelic_task_breakdown][]][]
-
-[See the full gallery on Posterous][]
 
 As you can see, the New Relic panel lets you see a ton of data and metrics about
 your application, making it really easy to identify issues, slow functions, code
@@ -142,27 +140,18 @@ Don't be easy on yourself.
 
 Of course--monitoring isn't the only way to better yourself as a programmer--but
 it is a great way. If you're serious about practicing your craft, you should
-check out [New Relic][2].
+check out [New Relic][New Relic].
 
 In future posts I'm hoping to write about other methods to becoming a better
 programmer.
 
 
-  [Reaper]: http://getfile2.posterous.com/getfile/files.posterous.com/temp-2012-08-26/DIvpfbizdhCpymlHAqeEbeaBtHbBiftagikGbHwsBBEttpJDcBnzrlvziDEG/reaper.jpg.scaled696.jpg
+  [Grim Reaper]: /static/images/2012/grim_reaper_gesturing.png "Grim Reaper Gesturing"
   [New Relic]: http://newrelic.com/ "NewRelic - Shit just got real for programmers."
-  [1]: http://newrelic.com/ "NewRelic"
-  [Oh-stop-it]: http://getfile9.posterous.com/getfile/files.posterous.com/temp-2012-08-26/HxkrCyqIIuEbzEBabjkjopgChggFwoGIwvmDqJHHGbxqepEqhDekCqsbpBtp/oh-stop-it.png.scaled696.png
+  [Oh Stop It]: http://getfile9.posterous.com/getfile/files.posterous.com/temp-2012-08-26/HxkrCyqIIuEbzEBabjkjopgChggFwoGIwvmDqJHHGbxqepEqhDekCqsbpBtp/oh-stop-it.png.scaled696.png "Oh Stop It!"
   [Newrelic_map]: http://getfile2.posterous.com/getfile/files.posterous.com/temp-2012-08-26/eEpnglEfotluvoJjHzjIcudIsysGreDtwxsbDdzIuGqpFofchlDulupjDdxt/newrelic_map.png.scaled696.png
-  [![Newrelic_map][]]: ./images/157086960-2-newrelic_map.png.scaled1000.png
   [Newrelic_pages]: http://getfile7.posterous.com/getfile/files.posterous.com/temp-2012-08-26/IkmJfqfDHtaHjrEfzAnmnveCHwDpydEyBfbkuyfcHhpJwBHmEBIFgjefecik/newrelic_pages.png.scaled696.png
-  [![Newrelic_pages][]]: ./images/157086960-3-newrelic_pages.png.scaled1000.png
   [Newrelic_tasks]: http://getfile3.posterous.com/getfile/files.posterous.com/temp-2012-08-26/HzgHlzrmwhzkDbcDEvJilyipmiIwypzqizmfEnAeuvClfGCfIuztjHgCxImj/newrelic_tasks.png.scaled696.png
-  [![Newrelic_tasks][]]: ./images/157086960-4-newrelic_tasks.png.scaled1000.png
   [Newrelic_overview]: http://getfile0.posterous.com/getfile/files.posterous.com/temp-2012-08-26/JuHyxljetFocnhwDkibufBAlGGFdasmByoJCtbFwpffloopbJkcEkpflvFvq/newrelic_overview.png.scaled696.png
-  [![Newrelic_overview][]]: ./images/157086960-5-newrelic_overview.png.scaled1000.png
   [Newrelic_web]: http://getfile2.posterous.com/getfile/files.posterous.com/temp-2012-08-26/tsiopFrwfAiCitaAqGncDCwlveDmuzvegncrDmhoBrFIGoBtcdibkFFuIbwu/newrelic_web.png.scaled696.png
-  [![Newrelic_web][]]: ./images/157086960-6-newrelic_web.png.scaled1000.png
   [Newrelic_task_breakdown]: http://getfile2.posterous.com/getfile/files.posterous.com/temp-2012-08-26/CdmlhvtspcIsDFeolEFJlgbDuEmgCmEhCzefAdsexIlICghBIGbleBtmicDs/newrelic_task_breakdown.png.scaled696.png
-  [![Newrelic_task_breakdown][]]: ./images/157086960-7-newrelic_task_breakdown.png.scaled1000.png
-  [See the full gallery on Posterous]: http://rdegges.com/become-a-better-programmer-monitoring
-  [2]: http://newrelic.com/ "New Relic"
