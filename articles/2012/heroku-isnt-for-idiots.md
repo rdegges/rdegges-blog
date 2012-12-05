@@ -1,20 +1,21 @@
-Title: Heroku Isn't for Idiots
-Date: 2012-06-03 18:39
 Author: Randall Degges
-Tags: programming, heroku, rant
+Date: 2012-06-03 18:39
+Slug: heroku-isnt-for-idiots
+Tags: heroku, programming, rant
+Title: Heroku Isn't for Idiots
 
 
 **WARNING**: This is a *bit* of a rant. I'm going to assume you have a basic
 understanding of [Heroku][], and web application architecture.
 
-[![Demon][]][]
+![Demon Warrior][]
 
 Heroku isn't for idiots. There--I said it. I'm already starting to feel better!
 
 I'm usually not the type of person to get involved in internet debate (because I
 typically avoid politics as much as possible), but yesterday I read an
-incredibly fradulent article which really made my blood boil: [The Cloud is Not
-For You][].
+incredibly fraudulent article which really made my blood boil:
+[The Cloud is Not For You][].
 
 Before I start to rip holes in David's article, I'd just like to say--[David][]
 is a good programmer. In fact--he's a much better programmer than myself. If
@@ -33,10 +34,10 @@ Ok then! Let's talk about Heroku!
 
 ## Heroku is Just Unix
 
-At its core, Heroku is just a simple unix platform; specifically, Ubuntu 10.04
+At its core, Heroku is just a simple UNIX platform; specifically, Ubuntu 10.04
 LTS.
 
-![Heroku_is_ubuntu][]
+![Heroku is Ubuntu][]
 
 The entire Heroku platform is really nothing more than small Ubuntu virtual
 server instances that can be spun up and down on demand. Each instance (Heroku
@@ -382,12 +383,10 @@ interested in deploying web applications on Heroku, you should check it out.
 
 
   [Heroku]: http://www.heroku.com/ "Heroku"
-  [Demon]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2012-06-03/FACcxEFxDxBadFDwqJonIryClzuasvergxlFkeHFwttziwqmqDCnDBinkyai/demon.jpg.scaled696.jpg
-  [![Demon][]]: ./images/135701004-0-demon.jpg.scaled1000.jpg
-  [The Cloud is Not For You]: http://justcramer.com/2012/06/02/the-cloud-is-not-for-you/
-    "The Cloud is Not For You"
+  [Demon Warrior]: /static/images/2012/demon_warrior.png "Demon Warrior Sketch"
+  [The Cloud is Not For You]: http://justcramer.com/2012/06/02/the-cloud-is-not-for-you/ "The Cloud is Not For You"
   [David]: http://justcramer.com/ "David Cramer"
-  [Heroku_is_ubuntu]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2012-06-03/ofrsItFhDewDcorGBBqBCIblAnDCubrayCpvjfGfyJFoqsypinahnbFahyos/heroku_is_ubuntu.png.scaled696.png
+  [Heroku is Ubuntu]: /static/images/2012/heroku_is_ubuntu.png "Heroku Run CLI Screenshot"
   [dynos]: https://devcenter.heroku.com/articles/dynos "Heroku Dynos"
   [chroot jail]: http://en.wikipedia.org/wiki/Jail_(computer_security) "Jails"
   [cost calculator]: http://www.heroku.com/pricing#0-0 "Heroku Pricing"
