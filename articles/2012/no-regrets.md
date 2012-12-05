@@ -58,4 +58,4 @@ have regrets.
 Don't settle for that.
 
 
-  [Mage]: http://getfile8.posterous.com/getfile/files.posterous.com/temp-2012-10-10/uxdywwCrzyltevxgwDnaDpFwfciehrdrmEqEiiFlxkmBeJsEtBDFdxheAAHe/mage.jpg.scaled696.jpg
+  [Mage]: /static/images/2012/mage.png
