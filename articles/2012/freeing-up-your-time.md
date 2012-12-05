@@ -73,6 +73,5 @@ you won't regret it.
 
   [Warrior Meditating]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2012-10-19/rqrCaqbdaaCCFwnyBiBuxvxgbmGeexFtCgccCqJkJFBFqrfFwxxeiGmJHkuc/meditation.jpg.scaled696.jpg
   [it all adds up]: http://www.youtube.com/watch?v=WO4tIrjBDkk "Inches Speech"
-  [Amazon]: http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=rdegges-20
-    "Amazon"
+  [Amazon]: http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=rdegges-20 "Amazon"
   [Ducksboard]: http://ducksboard.com/ "Ducksboard"
