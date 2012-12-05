@@ -1,14 +1,15 @@
-Title: My Heroku Book is Finished
-Date: 2012-09-10 17:00
 Author: Randall Degges
-Tags: programming, devops, heroku, web, writing
+Date: 2012-09-10 17:00
+Slug: my-heroku-book-is-finished
+Tags: devops, heroku, programming, webapps, writing
+Title: My Heroku Book is Finished
 
 
-[![The-heroku-hackers-guide-cover][]][]
+![The Heroku Hacker's Guide Book Cover][]
 
 I wrote [a book][] on Heroku! It's called **The Heroku Hacker's Guide**, and you
 can buy it (right now!) in both e-book (PDF) and paperback formats on the new
-book website: [http://www.theherokuhackersguide.com/][].
+book website: [http://www.theherokuhackersguide.com/][a book].
 
 If you've read my blog, you know I tend to talk a lot about web applications,
 infrastructure, and best practices. My real passion as a developer (and startup
@@ -39,26 +40,24 @@ and gives you all the tools and transparency you need to deploy amazing software
 that people love. Outside their product, Heroku is filled with amazing people
 doing amazing things. They actively build and release open source software (look
 at their [GitHub account][]), they hire [amazing][] [people][] that build
-[amazing][1] [things][], and they genuinely care about their users.
+[amazing][foreman] [things][], and they genuinely care about their users.
 
 My new book, [The Heroku Hacker's Guide][a book], aims to be a practical guide
 to using and *understanding* Heroku's platform, from the ground up. Regardless
 of what programming language or web frameworks you use, if you're serious about
 deploying your web applications to the best platform around, and want to master
-your toolset, this book is for you.
+your tool set, this book is for you.
 
 If you'd like to buy the book (or learn more about it), you can do so
-here: [http://www.theherokuhackersguide.com/][].
+here: [http://www.theherokuhackersguide.com/][a book].
 
 Thanks for reading.
 
 -Randall
 
 
-  [The-heroku-hackers-guide-cover]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2012-09-09/BnbhuynBcFkbmjhJFkGiChloHewxJIvpCadjqaeAswAiseBdtEsBIwgwoHkn/the-heroku-hackers-guide-cover.png.scaled696.png
-  [![The-heroku-hackers-guide-cover][]]: ./images/159909373-0-the-heroku-hackers-guide-cover.png.scaled1000.png
+  [The Heroku Hacker's Guide Book Cover]: /static/images/2012/heroku_hackers_guide_cover.png "The Heroku Hacker's Guide Book Cover"
   [a book]: http://www.theherokuhackersguide.com/ "The Heroku Hacker's Guide"
-  [http://www.theherokuhackersguide.com/]: http://www.theherokuhackersguide.com/
   [Heroku]: http://www.heroku.com/ "Heroku"
   [puppet]: http://puppetlabs.com/ "Puppet"
   [Rackspace]: http://www.rackspace.com/ "Rackspace"
@@ -67,5 +66,5 @@ Thanks for reading.
   [GitHub account]: https://github.com/heroku "Heroku on GitHub"
   [amazing]: http://kennethreitz.com/ "Kenneth Reitz"
   [people]: http://craigkerstiens.com/ "Craig Kerstiens"
-  [1]: https://github.com/ddollar/foreman "Foreman"
+  [foreman]: https://github.com/ddollar/foreman "Foreman"
   [things]: https://github.com/kennethreitz/requests "Python Requests"
