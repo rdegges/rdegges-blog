@@ -12,8 +12,8 @@ There are two primary ways to write web applications these days:
 -   By building a single, monolithic web application (where all your code is in
     a single project and runs on a single domain).
 -   By building lots of small independent web services, each one with their own
-    codebase and URL endpoint. (This methodology is known as [Service Oriented
-    Architecture][].)
+    codebase and URL endpoint. (This methodology is known as
+    [Service Oriented Architecture][].)
 
 There are benefits and drawbacks to each approach.
 
