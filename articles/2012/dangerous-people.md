@@ -13,7 +13,7 @@ unrecognizable, and some *dangerous*.
 Out of all the people I can think of, the most dangerous ones are the pragmatic
 ones. That guy (or gal) you know through IRC who's always working on his side
 projects well past 2am each night--*these* are the most dangerous people. They
-posess skill sets and personality traits that aren't commonly seen: they're
+possess skill sets and personality traits that aren't commonly seen: they're
 reasonable, thoughtful, passionate about what they do, and not afraid to do it
 (even if it takes a lot of work).
 
@@ -26,10 +26,10 @@ mind that within the next 20 years the trend will continue.
 If you're a computer programmer, engineer, graphic designer, or any combination
 of the above, you're in an incredibly unique position right now: you have the
 ability, tools, and power to build immense wealth, influence, and fame--much
-moreso than at any previous time in history.
+more so than at any previous time in history.
 
 With a laptop, an internet connection, and 50$ you can bootstrap even the most
-abitious technical projects *by yourself*, decimating even the most highly
+ambitious technical projects *by yourself*, decimating even the most highly
 established, well-funded and successful businesses in an incredibly small amount
 of time.
 
@@ -42,4 +42,4 @@ If you've got the skills, ambition, and motivation to build something great, get
 out there and do it. **Be dangerous**, now is the time.
 
 
-  [Barbarian]: ./images/164121618-0-barbarian.jpg.scaled696.jpg
+  [Barbarian]: /static/images/2012/barbarian.png "Barbarian Sketch"
