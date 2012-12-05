@@ -1,7 +1,8 @@
-Title: Hack Things at the LA Hackathon
-Date: 2012-10-22 23:07
 Author: Randall Degges
+Date: 2012-10-22 23:07
+Slug: hack-things-at-the-la-hackathon
 Tags: programming, fun
+Title: Hack Things at the LA Hackathon
 
 
 ![Axe_warrior][]
