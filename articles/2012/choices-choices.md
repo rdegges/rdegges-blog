@@ -1,10 +1,11 @@
-Title: Choices, Choices
-Date: 2012-07-03 03:40
 Author: Randall Degges
+Date: 2012-07-03 03:40
+Slug: choices-choices
 Tags: philosophy
+Title: Choices, Choices
 
 
-![Decisions][]
+![Grim Reaper Sad][]
 
 Something that is a constant source of inspiration for me, particularly in
 difficult (or high stress) situations, is the knowledge that I have the ability
@@ -15,7 +16,7 @@ to do that day. Will I work hard? Will I exercise? Will I eat the right foods?
 Will I read? Will I write?
 
 It's so easy to not do any of those things. It's incredibly easy to sit on the
-couch, surf reddit all day, and eat potato chips--and it's even easier to skip
+couch, surf Reddit all day, and eat potato chips--and it's even easier to skip
 the gym, leave the book on the bookshelf, and hide under the covers.
 
 Every single day you have the ability (at any time) to decide what you're going
@@ -37,4 +38,4 @@ Don't let external factors hold you back. If you want to do something, make the
 choice to do it.
 
 
-  [Decisions]: http://getfile1.posterous.com/getfile/files.posterous.com/temp-2012-07-02/bogazDlDvnCEnGBncetFnCgxCojIkljuocFACdidExCmarvcnjdpwsxlnlIi/decisions.jpg.scaled696.jpg
+  [Grim Reaper Sad]: /static/images/2012/grim_reaper_sad.png "Grim Reaper Sad"
