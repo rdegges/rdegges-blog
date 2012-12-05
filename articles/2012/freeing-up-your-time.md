@@ -5,7 +5,7 @@ Title: Freeing Up Your Time
 Tags: philosophy, personal development
 
 
-![Meditation][]
+![Warrior Meditating][]
 
 I'm a huge proponent of being lazy. And of course, by being lazy, I mean being
 smart.
@@ -71,7 +71,7 @@ and clear your mind--spend a day automating all your basic needs--I guarantee
 you won't regret it.
 
 
-  [Meditation]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2012-10-19/rqrCaqbdaaCCFwnyBiBuxvxgbmGeexFtCgccCqJkJFBFqrfFwxxeiGmJHkuc/meditation.jpg.scaled696.jpg
+  [Warrior Meditating]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2012-10-19/rqrCaqbdaaCCFwnyBiBuxvxgbmGeexFtCgccCqJkJFBFqrfFwxxeiGmJHkuc/meditation.jpg.scaled696.jpg
   [it all adds up]: http://www.youtube.com/watch?v=WO4tIrjBDkk "Inches Speech"
   [Amazon]: http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=rdegges-20
     "Amazon"
