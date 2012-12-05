@@ -58,4 +58,4 @@ have regrets.
 Don't settle for that.
 
 
-  [Mage]: /static/images/2012/mage.png
+  [Mage]: /static/images/2012/mage.png "Mage Sketch"
