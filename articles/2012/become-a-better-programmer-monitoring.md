@@ -46,7 +46,7 @@ lessons that really affect your programming ability:
 
 The only way to learn and enhance these skills is to actively (and
 pragmatically) evaluate your code as users are using it. This is the*** absolute
-best***way to better your programming skills, as you immediately get real world
+best*** way to better your programming skills, as you immediately get real world
 feedback about your code.
 
 
