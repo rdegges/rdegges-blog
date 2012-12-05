@@ -1,7 +1,7 @@
-Title: Some Constants
-Date: 2012-10-14 20:20
 Author: Randall Degges
-Tags: personaldevelopment, philosophy
+Date: 2012-10-14 20:20
+Tags: personal development, philosophy
+Title: Some Constants
 
 
 ![Tree][]
