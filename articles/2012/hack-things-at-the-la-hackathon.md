@@ -5,7 +5,7 @@ Tags: programming, fun
 Title: Hack Things at the LA Hackathon
 
 
-![Axe_warrior][]
+![Axe Warrior][]
 
 I know several things about you right now:
 
@@ -75,7 +75,7 @@ now!
 Hope to see you there >:)
 
 
-  [Axe_warrior]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2012-10-22/tDhklnBsHqtwHFerkaaaAcuAFldhlJkrqjzjkDIHyAkphieAocxjahusBmdj/axe_warrior.jpg.scaled696.jpg
+  [Axe Warrior]: /static/images/2012/axe_warrior.png "Axe Warrior Sketch"
   [LA Hackathon]: http://www.meetup.com/LA-Hackathons/events/85658952/
     "LA Hackathon"
   [http://www.meetup.com/LA-Hackathons/events/85658952/]: http://www.meetup.com/LA-Hackathons/events/85658952/
