@@ -1,7 +1,8 @@
-Title: Don't Panic! Frustration is an Anti-Pattern
-Date: 2012-10-04 23:12
 Author: Randall Degges
-Tags: programming, personaldevelopment, philosophy
+Date: 2012-10-04 23:12
+Slug: dont-panic-frustration-is-an-anti-pattern
+Tags: personal development, philosophy, programming
+Title: Don't Panic! Frustration is an Anti-Pattern
 
 
 ![Frustration][]
