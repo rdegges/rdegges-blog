@@ -1,10 +1,11 @@
-Title: A Developer's Conundrum - Dev / Prod Parity
 Date: 2012-07-11 04:38
 Author: Randall Degges
-Tags: programming, philosophy
+Slug: a-developers-conundrum
+Tags: philosophy, programming
+Title: A Developer's Conundrum - Dev / Prod Parity
 
 
-[![Reaper][]][]
+![Grim Reaper Bust][]
 
 As a [passionate developer][], I constantly try to write the best code possible.
 I *love* my craft.
@@ -153,7 +154,7 @@ Sure, there are drawbacks to this approach (eg: more code to worry about), but
 as a result, I'm able to develop my sites quite a bit quicker (instant
 feedback), as opposed to a more delayed (slow feedback) process.
 
-Everytime I talk to my developer friends, however, I'm constantly reminded of
+Every time I talk to my developer friends, however, I'm constantly reminded of
 the rule: minimize dev / prod parity!
 
 **This is my conundrum.**
@@ -163,11 +164,10 @@ decision about what to do from now on in my quest to consistently improve my
 development skills >:)
 
 
-  [Reaper]: http://getfile0.posterous.com/getfile/files.posterous.com/temp-2012-07-10/jyjvIJIjmyCvAIJJifzaaClJEtwlaqwwinEiAbnAgaEtiCCHtGwAiwmBkAyi/reaper.jpg.scaled696.jpg
-  [![Reaper][]]: ./images/145162139-0-reaper.jpg.scaled1000.jpg
+  [Grim Reaper Bust]: /static/images/2012/grim_reaper_bust.png "Grim Reaper Bust"
   [passionate developer]: http://www.amazon.com/gp/product/1934356344/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1934356344&linkCode=as2&tag=rdegges-20 "The Passionate Programmer"
   [The Twelve-Factor App]: http://www.12factor.net/ "The 12 Factor App"
   [dev-prod parity]: http://www.12factor.net/dev-prod-parity "Dev / Prod Parity"
   [Heroku]: http://www.heroku.com/ "Heroku"
   [AWS]: http://aws.amazon.com/ "Amazon Web Services"
-  [http://myapp-staging.herokuapp.com]: http://myapp-staging.herokuapp.com "http://myapp-staging.herokuapp.com"
+  [http://myapp-staging.herokuapp.com]: http://myapp-staging.herokuapp.com "Heroku Staging App"
