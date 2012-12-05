@@ -1,10 +1,11 @@
-Title: Hack Everything ... To Pieces!
-Date: 2012-06-12 19:48
 Author: Randall Degges
-Tags: programming, philosophy
+Date: 2012-06-12 19:48
+Slug: hack-everything-to-pieces
+Tags: philosophy, programming
+Title: Hack Everything ... To Pieces!
 
 
-![Axe][]
+![Battle Axe][]
 
 Hack. HACK!
 
@@ -17,7 +18,7 @@ I'm sure you see where I'm going with this by now :)
 
 I often find myself working on complex software. While I find it incredibly fun
 and challenging, it certainly comes with risks. One of the greatest risks is
-*overcomplication*.
+*over complication*.
 
 It is way too easy to become so engaged in your work that you continue building
 and building without thinking about the implications of what you're doing. I
@@ -28,9 +29,9 @@ than not, this leads to disaster.
 If you're not analyzing what your overall objetive is as you're hacking, there
 *will* be problems!
 
-Overcomplication is the worst problem in software development. It causes bugs,
+Over complication is the worst problem in software development. It causes bugs,
 confusion, anger, and even death! OK, so you probably won't die from
-overcomplication, but hey, don't risk it (especially if you're writing medical
+over complication, but hey, don't risk it (especially if you're writing medical
 software **>:0**).
 
 One thing that always bothers me is looking at what *should* be a simple piece
@@ -40,7 +41,7 @@ It happens to all of us from time to time, but it can be avoided.
 
 ## The One True Way
 
-![Owl][]
+![Wise Owl][]
 
 There is only "one true way" to write software: [the UNIX way][]. If you're an
 experienced programmer, you've probably kept these words close to your heart for
@@ -80,6 +81,6 @@ writing the right sorts of programs is even more fun.
 **Hack everything!**
 
 
-  [Axe]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2012-06-12/HAiFmbwBFcnjHwJAqJfxBuIvdzqFwDsmmBqmrmitjkjGgtwHeyqDoJmJmzny/axe.jpg.scaled696.jpg
-  [Owl]: http://getfile8.posterous.com/getfile/files.posterous.com/temp-2012-06-12/ppugBggvhpoaywmAwnsurBFjtIctfBlpGqqhkidsksuGpuxwkiszaAgDkfik/owl.jpg.scaled696.jpg
+  [Battle Axe]: /static/images/2012/battle_axe.png "Battle Axe Sketch"
+  [Wise Owl]: /static/images/2012/wise_owl.png "Wise Owl Sketch"
   [the UNIX way]: http://en.wikipedia.org/wiki/Unix_philosophy "UNIX Philosophy"
