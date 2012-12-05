@@ -1,10 +1,11 @@
-Title: Two Months In
-Date: 2012-08-23 04:08
 Author: Randall Degges
-Tags: programming, startup
+Date: 2012-08-23 04:08
+Slug: two-months-in
+Tags: programming, startups
+Title: Two Months In
 
 
-![Warrior][]
+![Samurai Thinking][]
 
 Approximately two months ago, I started working on my [startup][] full-time.
 More than anything, I wanted to get some of these ideas out of my head so I have
@@ -37,7 +38,7 @@ smaller amount of time.
 
 Sure, it isn't always the most convenient thing to do, but it seems to
 consistently pay off. I'm willing to bet that one of the primary reasons
-companies like [Github][] and [37 Signals][] are so successful is that they have
+companies like [GitHub][] and [37 Signals][] are so successful is that they have
 a chaotic workplace.
 
 A couple of weeks ago I was in the middle of a massive project: writing parsing
@@ -79,7 +80,7 @@ I never imagined that in two months I'd be able to accomplish so much stuff.
 ## APIs Are My Passion
 
 I've always loved APIs and API companies. I love writing code that uses APIs
-(like [Twilio][], [Tropo][], [Github][1], etc.)
+(like [Twilio][], [Tropo][], [GitHub][GitHub], etc.)
 
 More than anything, however, I love writing APIs. I *really* love it.
 
@@ -161,14 +162,13 @@ Overall, the past two months have been pretty epic. I've had a lot of fun,
 gotten a bunch of stuff done, and had a ton of fun along the way.
 
 
-  [Warrior]: http://getfile0.posterous.com/getfile/files.posterous.com/temp-2012-08-22/scHxCkyzkaCDjFgrtzngFknzjcuacszzInyCaDpAzrvnFFBacazbmkkHFwcB/warrior.jpg.scaled696.jpg
+  [Samurai Thinking]: /static/images/2012/samurai_thinking.png "Samurai Thinking Sketch"
   [startup]: https://www.telephonyresearch.com/ "Telephony Research"
-  [Github]: https://github.com/
-  [37 Signals]: http://37signals.com/
-  [tnapi]: http://tnapi.com/ "tnAPI - A simple telephony data API."
+  [GitHub]: https://github.com/ "GitHub"
+  [37 Signals]: http://37signals.com/ "37 Signals"
+  [tnapi]: http://tnapi.com/ "tnAPI - A Simple Telephony Data API"
   [open source projects]: https://github.com/rdegges "My Github"
   [Twilio]: http://www.twilio.com/ "Twilio"
   [Tropo]: https://www.tropo.com/home.jsp "Tropo"
-  [1]: https://github.com/ "Github"
   [Hacker News]: http://news.ycombinator.com/ "Hacker News"
   [The Pomodoro Technique]: http://www.amazon.com/gp/product/1934356506/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1934356506&linkCode=as2&tag=rdegges-20 "The Pomodoro Technique"
