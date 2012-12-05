@@ -47,4 +47,4 @@ that broken library) without compromising your sanity.
 Just *let it go*.
 
 
-  [Frustration]: http://getfile9.posterous.com/getfile/files.posterous.com/temp-2012-10-04/HdwuyjeaxavAizauwckkjBbFtxjpGEmtEaawypcFoGeeslJztjDxblgCGuvk/frustration.gif.scaled696.gif
+  [Frustration]: /static/images/2012/frustrated_warrior.png "Frustrated Warrior Sketch"
