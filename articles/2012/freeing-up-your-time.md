@@ -1,6 +1,8 @@
-Title: Freeing Up Your Time
-Date: 2012-10-19 21:48
 Author: Randall Degges
+Date: 2012-10-19 21:48
+Slug: freeing-up-your-time
+Title: Freeing Up Your Time
+Tags: philosophy, personal development
 
 
 ![Meditation][]
