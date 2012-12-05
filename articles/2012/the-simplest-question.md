@@ -1,7 +1,8 @@
-Title: The Simplest Question
-Date: 2012-09-27 21:49
 Author: Randall Degges
-Tags: personaldevelopment, philosophy
+Date: 2012-09-27 21:49
+Slug: the-simplest-question
+Tags: personal development, philosophy
+Title: The Simplest Question
 
 
 ![Samurai][]
@@ -39,4 +40,4 @@ The next time you make a decision to do something, ask yourself that simple
 question, and keep yourself honest.
 
 
-  [Samurai]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2012-09-27/dtfaDzhEnJaddtDhmHlHEFojicyqkHAqdxkcIrEkqgFjremBcbjCkBEmvJvg/samurai.jpg.scaled696.jpg
+  [Samurai]: /static/images/2012/samurai_tipping_hat.png "Samurai Tipping Hat Sketch"
