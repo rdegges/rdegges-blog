@@ -5,7 +5,7 @@ Tags: personal development, philosophy, programming
 Title: Programming and Motivation
 
 
-[![Bleach][]][]
+![Bleach Samurai][]
 
 Writing software can be pretty draining work. It is insanely fun when you're in
 the zone and feeling good, and insanely dull when you're not feeling your best.
@@ -86,7 +86,7 @@ caffeine, you should try the [Rockstar No Carb][] (my favorite).
 ## Realize Your Ambitions
 
 Everyone has their ambitions--what are yours? Do you want your open source
-project to get a million followers on Github? Do you want to launch that side
+project to get a million followers on GitHub? Do you want to launch that side
 project you've been working on for the past three months? Do you want to get 500
 new users this month?
 
@@ -119,6 +119,5 @@ your mood greatly effects your work.
 Now get out there and write some code!
 
 
-  [Bleach]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2012-10-02/kHlApjxAutqjdqiFDqbCdGknvsHgIkHgqdzjlCImvkiulaExApHwoxfdsijl/bleach.jpg.scaled696.jpg
-  [![Bleach][]]: ./images/164025431-0-bleach.jpg.scaled1000.jpg
+  [Bleach Samurai]: /static/images/2012/bleach_samurai.png "Bleach Samurai Sketch"
   [Rockstar No Carb]: http://www.amazon.com/gp/product/B000NGNEKY/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000NGNEKY&linkCode=as2&tag=rdegges-20 "Rockstar No Carb"
