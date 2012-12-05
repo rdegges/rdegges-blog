@@ -148,7 +148,7 @@ programmer.
 
   [Grim Reaper]: /static/images/2012/grim_reaper_gesturing.png "Grim Reaper Gesturing"
   [New Relic]: http://newrelic.com/ "NewRelic - Shit just got real for programmers."
-  [Oh Stop It]: /static/images/2012/oh-stop-it.png "Oh Stop It!"
+  [Oh Stop It]: /static/images/2012/oh_stop_it.png "Oh Stop It!"
   [Newrelic_map]: http://getfile2.posterous.com/getfile/files.posterous.com/temp-2012-08-26/eEpnglEfotluvoJjHzjIcudIsysGreDtwxsbDdzIuGqpFofchlDulupjDdxt/newrelic_map.png.scaled696.png
   [Newrelic_pages]: http://getfile7.posterous.com/getfile/files.posterous.com/temp-2012-08-26/IkmJfqfDHtaHjrEfzAnmnveCHwDpydEyBfbkuyfcHhpJwBHmEBIFgjefecik/newrelic_pages.png.scaled696.png
   [Newrelic_tasks]: http://getfile3.posterous.com/getfile/files.posterous.com/temp-2012-08-26/HzgHlzrmwhzkDbcDEvJilyipmiIwypzqizmfEnAeuvClfGCfIuztjHgCxImj/newrelic_tasks.png.scaled696.png
