@@ -392,7 +392,7 @@ interested in deploying web applications on Heroku, you should check it out.
   [cost calculator]: http://www.heroku.com/pricing#0-0 "Heroku Pricing"
   [Heroku Apps]: /static/images/2012/heroku_apps.png "Heroku Apps CLI Screenshot"
   [Git]: http://git-scm.com/ "Git"
-  [Symbol]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2012-06-03/vbkatadExvBlxIFeBCewFFAdHjJrdqFFnFFwkDDycyHgmnwvlbjhaxuIGumr/symbol.png.scaled696.png
+  [Twelve-Factor Symbol]: /static/images/2012/twelve_factor_symbol.png "Twelve-Factor Symbol"
   [The Twelve-Factor App]: http://www.12factor.net/ "12factor"
   [Heroku addons]: https://addons.heroku.com/ "Heroku Addons"
   [Heroku_addons]: http://getfile0.posterous.com/getfile/files.posterous.com/temp-2012-06-03/xxfEBeEmusCbqHqhkblxjryHyDjmiqrbhGewwdefvGgoqgADztqxwDstkEdJ/heroku_addons.png.scaled696.png
