@@ -1,10 +1,11 @@
-Title: How to Have Fun Programming
-Date: 2012-06-03 03:20
 Author: Randall Degges
+Date: 2012-06-03 03:20
+Slug: how-to-have-fun-programming
 Tags: programming, philosophy
+Title: How to Have Fun Programming
 
 
-[![Kenpachi][]][]
+![Kenpachi Smiling][]
 
 I may not be a great programmer, but I have a ton of fun programming. As a
 self-taught hacker, I've always enjoyed programming to a great extent--but
@@ -15,7 +16,7 @@ keep pushing onwards!
 
 ## Live for the Challenge
 
-[![Byakuya][]][]
+![Byakuya][]
 
 Writing software is difficult for so many reasons:
 
@@ -40,7 +41,7 @@ really utilize my skills.
 
 ## Have a Warrior Mindset
 
-[![Kenpachi_sketch][]][]
+![Kenpachi Warrior][]
 
 The way you approach challenges makes an enormous difference in the quality of
 your work. If you take a project lightly, and don't fully commit yourself to
@@ -61,7 +62,7 @@ then it isn't worth doing.
 
 The second step in practicing the warrior mindset is to battle your code. If
 you're working on a difficult problem, and can't find a solution--find a way
-to persevere. *Don't quit.* No matter how great the challenge, push through and
+to persevere. *Don't quit*. No matter how great the challenge, push through and
 do whatever it takes to win.
 
 The sense of accomplishment and achievement you get after completing an
@@ -71,7 +72,7 @@ natural "highs" you can get.
 
 ## Share Your Work
 
-[![Samurai_raing][]][]
+![Samurai Rain][]
 
 One of the most powerful motivators in software is open source. Writing code in
 the open is incredibly fun.
@@ -97,7 +98,7 @@ people do (or don't) use my creations.
 
 ## Don't Conform
 
-![Kenpachi_back][]
+![Kenpachi Back][]
 
 The software industry can be harsh--it's filled with brilliant minds, and large
 egos. Unfortunately, this makes it very difficult to discover truth in what you
@@ -113,7 +114,7 @@ coworkers, or random blog authors--experiment with whatever piques your
 interest.
 
 Just because someone tells you that "the cloud isn't for you", it doesn't mean
-you shoud listen!
+you should listen!
 
 No matter what the general consensus is--never conform. Make your own decisions,
 create your own path. Find out what you enjoy by trying a wide variety of
@@ -122,14 +123,14 @@ things, and always try to remain optimistic.
 
 ## Read
 
-[![Ighigo][]][]
+![Ichigo Transforming][]
 
 Technical reading is incredibly underrated. Whenever you have the chance, you
 should spend time reading technical books.
 
 Not only does reading technical books help you gain a better understanding of
 your field--but more importantly, reading introduces you great hackers. There is
-absolutely no substitude for reading a good technical book--you'll pick up:
+absolutely no substitute for reading a good technical book--you'll pick up:
 
 -   Useful technical information.
 -   The mindset of the author.
@@ -148,7 +149,7 @@ the best ways to learn new things is to read and gain perspective.
 
 ## Be Mindful
 
-[![Hollow][]][]
+![Ichigo Hollow][]
 
 As a large part of writing software is mental, consciously analyzing your
 thoughts and actions is incredibly important.
@@ -161,13 +162,13 @@ you truly take pride in your work (and enjoy it).
 
 No matter how frustrated, upset, or angry you are with your code--if you want to
 immediately feel better and be able to relax--think of the people you're writing
-your software for. When I'm feeling unmotivated, all it takes is a a few minutes
+your software for. When I'm feeling unmotivated, all it takes is a few minutes
 of meditation on my purpose to get my hyped up inside, and propel me forward.
 
 
 ## Talk With Other Hackers
 
-![Renji][]
+![Renji Sitting][]
 
 No matter where you are in your programming career, you will have ups and downs.
 One of the best ways to continuously motivate and push yourself to new levels of
@@ -186,17 +187,11 @@ you'd like to join a supportive group of enthusiastic developers, please drop by
 and say hi :)
 
 
-  [Kenpachi]: http://getfile1.posterous.com/getfile/files.posterous.com/temp-2012-06-01/qrdlEfnsiyAtfHneivghFudgxnjtmupIhbuyEaaHekvGgCwuBFDFntjyqunn/kenpachi.jpg.scaled696.jpg
-  [![Kenpachi][]]: ./images/135344160-0-kenpachi.jpg.scaled1000.jpg
-  [Byakuya]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2012-06-02/senagDwbrpzuamkffCabanHlrHyyzxiwBtocrfIxvmykEBmtijFaHHbxxFnh/byakuya.png.scaled696.png
-  [![Byakuya][]]: ./images/135344160-3-byakuya.png.scaled1000.png
-  [Kenpachi_sketch]: http://getfile3.posterous.com/getfile/files.posterous.com/temp-2012-06-01/hhxJbgmipdaxrhmHHdlvuvbdnbzGjqqHfCblmrrmbrAjhvzqHvqlkctyupaD/kenpachi_sketch.jpg.scaled696.jpg
-  [![Kenpachi_sketch][]]: ./images/135344160-1-kenpachi_sketch.jpg.scaled1000.jpg
-  [Samurai_raing]: http://getfile6.posterous.com/getfile/files.posterous.com/temp-2012-06-02/ccdjzxkrzegzeHowbAGJveArIzFIodbFppxmwjHIgqlxffxxGdchskovwFhv/samurai_raing.jpg.scaled696.jpg
-  [![Samurai_raing][]]: ./images/135344160-2-samurai_raing.jpg.scaled1000.jpg
-  [Kenpachi_back]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2012-06-02/cwuFhkEekloiAyzumabitFbimeymEaemaCJuGJqkbBsxwsvjAeDpvngJncwG/kenpachi_back.jpg.scaled696.jpg
-  [Ighigo]: http://getfile2.posterous.com/getfile/files.posterous.com/temp-2012-06-02/nccfkorzqsrFFCslBrkjttAqBaxacgbcEwBjinybsGgbGnqFxqyFpbBdbuff/ighigo.jpg.scaled696.jpg
-  [![Ighigo][]]: ./images/135344160-5-ighigo.jpg.scaled1000.jpg
-  [Hollow]: http://getfile7.posterous.com/getfile/files.posterous.com/temp-2012-06-02/shnBmzrmpnEjdCsIdsomjcofglHbBwChzHfDopzGdnsBmwBdnbBidCaDyvcG/hollow.jpg.scaled696.jpg
-  [![Hollow][]]: ./images/135344160-6-hollow.jpg.scaled1000.jpg
-  [Renji]: http://getfile9.posterous.com/getfile/files.posterous.com/temp-2012-06-02/DdGsslaIjCmBGdFlmvrzzEHBbHAvDxynseqxeICiIaagFrHmFsgCsFFpFcEF/renji.jpg.scaled696.jpg
+  [Kenpachi Smiling]: /static/images/2012/kenpachi-smiling.png "Kenpachi Smiling Sketch"
+  [Byakuya]: /static/images/2012/byakuya.png "Byakuya Sketch"
+  [Kenpachi Warrior]: /static/images/2012/kenpachi-warrior.png "Kenpachi Warrior Sketch"
+  [Samurai Rain]: /static/images/2012/samurai-rain.png "Samurai in Rain Sketch"
+  [Kenpachi Back]: /static/images/2012/kenpachi-back.png "Kenpachi Back Sketch"
+  [Ichigo Transforming]: /static/images/2012/ichigo-transforming.png "Ichigo Transforming Sketch"
+  [Ichigo Hollow]: /static/images/2012/ichigo-hollow.png "Ichigo Hollow Sketch"
+  [Renji Sitting]: /static/images/2012/renji-sitting.png "Renji Sitting Sketch"
