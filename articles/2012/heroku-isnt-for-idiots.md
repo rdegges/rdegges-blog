@@ -131,11 +131,11 @@ doesn't cater to ineffective programmers. Heroku isn't built for idiots.
 ## Heroku is Modular
 
 One of Heroku's greatest strengths as a platform is its modularity. The core
-Heroku platform gives you a basic way to deploy and manage your codebase and
-applications, while the [Heroku addons][] allow you to pick-and-choose your
+Heroku platform gives you a basic way to deploy and manage your code base and
+applications, while the [Heroku Addons][] allow you to pick-and-choose your
 various infrastructure components.
 
-![Heroku_addons][]
+![Heroku Addons CLI][]
 
 Adding, resizing, and removing infrastructure components is reduced from
 hundreds of hours of sysadmin work to a single command.
@@ -394,8 +394,8 @@ interested in deploying web applications on Heroku, you should check it out.
   [Git]: http://git-scm.com/ "Git"
   [Twelve-Factor Symbol]: /static/images/2012/twelve_factor_symbol.png "Twelve-Factor Symbol"
   [The Twelve-Factor App]: http://www.12factor.net/ "12factor"
-  [Heroku addons]: https://addons.heroku.com/ "Heroku Addons"
-  [Heroku_addons]: http://getfile0.posterous.com/getfile/files.posterous.com/temp-2012-06-03/xxfEBeEmusCbqHqhkblxjryHyDjmiqrbhGewwdefvGgoqgADztqxwDstkEdJ/heroku_addons.png.scaled696.png
+  [Heroku Addons]: https://addons.heroku.com/ "Heroku Addons"
+  [Heroku Addons CLI]: /static/images/2012/heroku_addons.png "Heroku Addons CLI Screenshot"
   [Happy-grin]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2012-06-03/uDFdsrmsypBBpxviiDaqBjvlkdiDfGuHiEhsmsdEIpJExhoCyheovsbgJwBb/happy-grin.png.scaled696.png
   [I_disapprove]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2012-06-03/bfeunxGescIIitkDrgeFqfJiFsAsigyDpDHxBDxagHqzfpCotkwrfgubnIDE/i_disapprove.png.scaled696.png
   [New Relic]: https://addons.heroku.com/newrelic "New Relic"
