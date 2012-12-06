@@ -396,7 +396,7 @@ interested in deploying web applications on Heroku, you should check it out.
   [The Twelve-Factor App]: http://www.12factor.net/ "12factor"
   [Heroku Addons]: https://addons.heroku.com/ "Heroku Addons"
   [Heroku Addons CLI]: /static/images/2012/heroku_addons.png "Heroku Addons CLI Screenshot"
-  [Happy-grin]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2012-06-03/uDFdsrmsypBBpxviiDaqBjvlkdiDfGuHiEhsmsdEIpJExhoCyheovsbgJwBb/happy-grin.png.scaled696.png
+  [Happy Grin]: /static/images/2012/happy_grin.png "Happy Grin Sketch"
   [I_disapprove]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2012-06-03/bfeunxGescIIitkDrgeFqfJiFsAsigyDpDHxBDxagHqzfpCotkwrfgubnIDE/i_disapprove.png.scaled696.png
   [New Relic]: https://addons.heroku.com/newrelic "New Relic"
   [Newrelic-dynos]: http://getfile7.posterous.com/getfile/files.posterous.com/temp-2012-06-03/JdGEBklrDArGlfecEjInCHbqFraxjhDaepEtrxegerECIuGpvDIagenbcAEn/newrelic-dynos.png.scaled696.png
