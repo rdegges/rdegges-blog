@@ -1,7 +1,7 @@
 Author: Randall Degges
 Date: 2012-04-14 18:05
 Slug: successful-github-development
-Tags: programming, git
+Tags: git, programming
 Title: Successful GitHub Development
 
 
