@@ -1,10 +1,11 @@
-Title: Never Stop Hacking
-Date: 2012-04-17 04:27
 Author: Randall Degges
-Tags: programming, philosophy
+Date: 2012-04-17 04:27
+Slug: never-stop-hacking
+Tags: philosophy, programming
+Title: Never Stop Hacking
 
 
-![Death][]
+![Grim Reaper][]
 
 This is a quick post, something that I have to get out of my mind and onto paper
 (err, the internets!).
@@ -28,7 +29,7 @@ incredibly powerful revelation. Often times, I find myself hunting for
 solutions. I find myself desperately trying to figure out what I should do about
 X, and how to optimize Y. I find myself searching for solutions to problems,
 hoping to get them out of the way as quickly as possible so that I can move onto
-the next thing, the next chore, the next item on my todo list. It was in this
+the next thing, the next chore, the next item on my TODO list. It was in this
 moment that it all became clear to me--
 
 I enjoy the problems. I *crave* them.
@@ -47,5 +48,5 @@ me, and makes me love what I do so much.
 **Never stop hacking.**
 
 
-  [Death]: http://getfile1.posterous.com/getfile/files.posterous.com/temp-2012-04-16/eGHrfDACrpmFlIhBxuuJnfGgpilbsypyrdfhmtpdpzHiyxgrjglHufmvGiiz/death.jpg.scaled696.jpg
+  [Grim Reaper]: /static/images/2012/grim-reaper-with-wings.png "Grim Reaper with Wings Sketch"
   [IRC]: http://irc://irc.oftc.net/#heapify "heapify IRC"
