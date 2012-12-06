@@ -59,7 +59,7 @@ Heroku, they have a really nice [cost calculator][] you can use.
 
 So what does this mean? Well, it basically means that Heroku can run pretty much
 any Ubuntu compatible software you can think of. It also means that there's
-really nothing *magical* going on here--it's just unix.
+really nothing *magical* going on here--it's just UNIX.
 
 
 ## Heroku is Centered Around Apps
@@ -69,14 +69,14 @@ isn't to sell you virtual Ubuntu servers that you configure yourself. Their real
 goal is to handle that stuff for you, and let you focus on building
 applications.
 
-![Heroku_apps][]
+![Heroku Apps][]
 
 The main idea is that:
 
 1.  An application is a piece of software that talks over HTTP (websites, APIs,
     whatever).
 2.  An application exists to serve a single purpose.
-3.  An application has a single codebase, version controlled with [Git][].
+3.  An application has a single code base, version controlled with [Git][].
 4.  An application should consist only of application code--not infrastructure
     setup, or anything else.
 5.  Applications should be easy to scale horizontally. Need to support more
@@ -96,7 +96,7 @@ assumptions about your project from the start.
 
 If you're writing an application--why should you have to:
 
--   Run redundant servers incase something breaks?
+-   Run redundant servers in case something breaks?
 -   Spend time configuring every piece of your infrastructure?
 -   Worry about hardware or host issues?
 -   Build your own deployment systems so that you can instantly deploy your code
@@ -110,7 +110,7 @@ who want to build applications.
 
 ## Heroku Enforces Best Practices
 
-![Symbol][]
+![Twelve-Factor Symbol][]
 
 Do you write good software? If so, you're probably familiar with the term "best
 practices". In the past several years, web developers have learned quite a lot
@@ -390,7 +390,7 @@ interested in deploying web applications on Heroku, you should check it out.
   [dynos]: https://devcenter.heroku.com/articles/dynos "Heroku Dynos"
   [chroot jail]: http://en.wikipedia.org/wiki/Jail_(computer_security) "Jails"
   [cost calculator]: http://www.heroku.com/pricing#0-0 "Heroku Pricing"
-  [Heroku_apps]: http://getfile7.posterous.com/getfile/files.posterous.com/temp-2012-06-03/HDpCfimxiImoCkoogixFozBixjCrDBfifoAEJEjIsEiJxDagApkCieuofDmh/heroku_apps.png.scaled696.png
+  [Heroku Apps]: /static/images/2012/heroku_apps.png "Heroku Apps CLI Screenshot"
   [Git]: http://git-scm.com/ "Git"
   [Symbol]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2012-06-03/vbkatadExvBlxIFeBCewFFAdHjJrdqFFnFFwkDDycyHgmnwvlbjhaxuIGumr/symbol.png.scaled696.png
   [The Twelve-Factor App]: http://www.12factor.net/ "12factor"
