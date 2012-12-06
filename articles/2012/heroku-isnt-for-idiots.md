@@ -167,7 +167,7 @@ did:
 
 But all you end up with is a false sense of security in your new design.
 
-![Happy-grin][]
+![Happy Grin][]
 
 To quickly debrief you, here's what David did:
 
