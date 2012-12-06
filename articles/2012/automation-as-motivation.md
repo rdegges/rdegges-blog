@@ -1,10 +1,11 @@
-Title: Automation as Motivation
-Date: 2012-05-21 16:55
 Author: Randall Degges
-Tags: programming, philosophy
+Date: 2012-05-21 16:55
+Slug: automation-as-motivation
+Tags: philosophy, programming
+Title: Automation as Motivation
 
 
-![Battle-robot][]
+![Warrior Robot][]
 
 For the past two weeks, I've been having some serious programming motivation
 issues. Despite the fact that I know what's causing the motivation issues, I
@@ -53,4 +54,4 @@ Next time I fall into a slump, I'm going to remember my overall goal of perfect
 automation, and get back to work.
 
 
-  [Battle-robot]: http://getfile6.posterous.com/getfile/files.posterous.com/temp-2012-05-19/JmtBFtiJqcsctAfpdGsFpjltkBbyAjCFaenyiFHfdljgzsaxAqjgfEpbGyqg/battle-robot.jpg.scaled696.jpg
+  [Warrior Robot]: /static/images/2012/warrior-robot.png "Warrior Robot Sketch"
