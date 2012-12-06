@@ -403,6 +403,6 @@ interested in deploying web applications on Heroku, you should check it out.
   [New Relic Dynos]: /static/images/2012/new_relic_dynos.png "New Relic Dynos Page Screenshot"
   [New Relic Web Transactions]: /static/images/2012/new_relic_web_transactions.png "New Relic Web Transactions Page Screenshot"
   [New Relic Background Tasks]: /static/images/2012/new_relic_background_tasks.png "New Relic Background Tasks Page Screenshot"
-  [Badtime]: /static/images/2012/badtime.png "You're Gonna Have a Bad Time Meme"
+  [Badtime]: /static/images/2012/bad_time.png "You're Gonna Have a Bad Time Meme"
   [Giant]: /static/images/2012/giant.png "Giant Sketch"
   [The Heroku Hacker's Guide]: http://www.theherokuhackersguide.com/ "The Heroku Hacker's Guide"
