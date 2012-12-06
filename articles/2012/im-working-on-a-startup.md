@@ -61,6 +61,6 @@ journeys, so be sure to check back!
 
 
   [Samurai in Robes]: /static/images/2012/samurai-in-robes.png "Samurai in Robes Sketch"
-  [OpenCNAM]: http://www.opencnam.com/ "OpenCNAM - Caller ID Simplified"
+  [OpenCNAM]: https://www.opencnam.com/ "OpenCNAM - Caller ID Simplified"
   [OpenCNAM Logo]: /static/images/2012/opencnam-logo.png "OpenCNAM Logo"
   [staff@opencnam.com]: mailto:staff@opencnam.com
