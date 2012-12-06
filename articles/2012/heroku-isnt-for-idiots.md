@@ -173,7 +173,7 @@ To quickly debrief you, here's what David did:
 
 -   Rented a dedicated server.
 -   Wrote his own Chef scripts to create a database.
--   Wrote his own Chef scripts to create a webserver.
+-   Wrote his own Chef scripts to create a web server.
 -   Wrote a deployment script using Fabric to deploy his application to his new
     servers.
 
@@ -182,9 +182,9 @@ physical server or two, and run your stuff there?
 
 Let me ask you this: what happens if:
 
--   His harddrive / memory / NIC / etc fails?
+-   His hard drive / memory / NIC / etc. fails?
 -   He accidentally runs OS updates, and breaks versions of his packages?
--   He wants to instantly rollback to a previous release of his codebase?
+-   He wants to instantly rollback to a previous release of his code base?
 -   He wants to add another server to handle incoming HTTP requests?
 -   He needs to spin up a database read slave to handle a high amount of read
     requests?
@@ -197,10 +197,10 @@ I'll tell you what happens: *his shit stops working*.
 
 Yah--it isn't very hard to spin up some simple infrastructure services using
 Chef--pretty much anyone with a couple hours of free time can figure that out.
-The real issue is writing and architecturing a platform robust enough to not
-only account for hardware / software failure, but also to provide you (the
-developer) with enough security that you can effectively sleep easily knowing
-that your service will be running when you wake up in the morning.
+The real issue is writing and architecting a platform robust enough to not only
+account for hardware / software failure, but also to provide you (the developer)
+with enough security that you can effectively sleep easily knowing that your
+service will be running when you wake up in the morning.
 
 If I had to bet money, I'd bet on chaos every single time. Why? Because software
 is complex. Hardware is complex. Spending a few hours bootstrapping a simple one
