@@ -401,8 +401,8 @@ interested in deploying web applications on Heroku, you should check it out.
   [I Disapprove]: /static/images/2012/i_disapprove.png "Disapproval Face"
   [New Relic]: https://addons.heroku.com/newrelic "New Relic"
   [New Relic Dynos]: /static/images/2012/new_relic_dynos.png "New Relic Dynos Page Screenshot"
-  [Newrelic-webtransactions]: http://getfile8.posterous.com/getfile/files.posterous.com/temp-2012-06-03/pJxxxHtiFuqJmImgvhFlzcgIzkbJbpJojjxfzcuepsfbruCspqvevbzqCgjq/newrelic-webtransactions.png.scaled696.png
-  [Newrelic-backgroundtasks]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2012-06-03/GDuivmEaxDaJAcxrsaksfxruBglavgvEqBGzDxzdFmhtbmidsaEqwudailGA/newrelic-backgroundtasks.png.scaled696.png
-  [Badtime]: http://getfile0.posterous.com/getfile/files.posterous.com/temp-2012-06-03/GrgGCuflFltbBejBqGfIpyFxtjiBqrcJADxcjfdwrlcDGtAyvJhHGpFtBfwE/badtime.jpg.scaled696.jpg
-  [Giant]: http://getfile1.posterous.com/getfile/files.posterous.com/temp-2012-06-03/fcizGqoyFrJDGnvBpgeotFirwiFvhCaaBdyblluvHxIuqjIvBinIgtjjJctn/giant.png.scaled696.png
+  [New Relic Web Transactions]: /static/images/2012/new_relic_web_transactions.png "New Relic Web Transactions Page Screenshot"
+  [New Relic Background Tasks]: /static/images/2012/new_relic_background_tasks.png "New Relic Background Tasks Page Screenshot"
+  [Badtime]: /static/images/2012/badtime.png "You're Gonna Have a Bad Time Meme"
+  [Giant]: /static/images/2012/giant.png "Giant Sketch"
   [The Heroku Hacker's Guide]: http://www.theherokuhackersguide.com/ "The Heroku Hacker's Guide"
