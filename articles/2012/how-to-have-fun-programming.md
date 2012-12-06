@@ -1,7 +1,7 @@
 Author: Randall Degges
 Date: 2012-06-03 03:20
 Slug: how-to-have-fun-programming
-Tags: programming, philosophy
+Tags: philosophy, programming
 Title: How to Have Fun Programming
 
 
