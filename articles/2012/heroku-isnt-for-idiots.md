@@ -217,9 +217,10 @@ If anything, he simply localized his problems.
 
 ## Let's Talk About Monitoring
 
-One of the big points that David mentions in his [article][The Cloud is Not For
-You] is that he had no way of monitoring his dyno and application performance,
-and couldn't figure out why so many weird things were happening:
+One of the big points that David mentions in his
+[article][The Cloud is Not For You] is that he had no way of monitoring his
+dyno and application performance, and couldn't figure out why so many weird
+things were happening:
 
 > Then shit started to hit the fan.
 >
@@ -231,7 +232,7 @@ and couldn't figure out why so many weird things were happening:
 > -   The Postgres server can't handle any reasonable level of concurrency.
 > -   We randomly have to spin up 20 dynos to get anywhere in the queue backlog.
 
-![I_disapprove][]
+![I Disapprove][]
 
 Really David? **REALLY?**
 
@@ -247,11 +248,11 @@ shows the average memory usage of my dynos, as well as the amount of dynos I
 have running, and any backlog (HTTP requests that have been waiting in a buffer
 because I don't have enough dynos to concurrently process them).
 
-[![Newrelic-dynos][]][]
+![New Relic Dynos][]
 
 Now let's take a look at my web transactions page:
 
-[![Newrelic-webtransactions][]][]
+![New Relic Web Transactions][]
 
 I can easily drill down into any view in my Django site, and see exactly what is
 happening. I can see (among other things):
@@ -266,7 +267,7 @@ happening. I can see (among other things):
 
 Hell, I can even view specific stats on my celery workers:
 
-[![Newrelic-backgroundtasks][]][]
+![New Relic Background Tasks][]
 
 I'm not even going to bother showing you the database tab, because I think you
 already have a good idea of where I'm going with this: **Heroku isn't the
@@ -278,9 +279,9 @@ problem. You are.**
 ![Badtime][]
 
 First of all, Sentry is an awesome application. I even use it myself for
-monitoring multiple services. And in the off-chance you're not famliar with what
-Sentry does--it essentially provides application monitoring / error reporting /
-error searching for your applications.
+monitoring multiple services. And in the off-chance you're not familiar with
+what Sentry does--it essentially provides application monitoring / error
+reporting / error searching for your applications.
 
 However, what does it say (to your customers) when you tell them that:
 
@@ -296,7 +297,7 @@ All in all, it just seems like a bad idea.
 
 ## On the Shoulders of Giants
 
-[![Giant][]][]
+![Giant][]
 
 To be totally open and honest (I've written about this a lot in the past)--I've
 done the same thing before. I've built my own hardware deployment / backup /
@@ -308,8 +309,8 @@ complexities and hardships of making a reliable auto-deployment system with
 rollbacks enabled. I've integrated monit, cacti, nagios, and munin monitoring.
 
 At the time, I thought it was an awesome idea. After I jumped over the initial
-learning curve, it all seemed like a piece of cake. "*This is the way everyone
-should do it! It's so cheap! It's really awesome!*". But after a while, things
+learning curve, it all seemed like a piece of cake. *"This is the way everyone
+should do it! It's so cheap! It's really awesome!"*. But after a while, things
 changed.
 
 I found myself spending tons of time every month dealing with:
@@ -321,7 +322,7 @@ I found myself spending tons of time every month dealing with:
     PostgreSQL, and other services.
 -   ...
 
-After a few months passed, I looked back and said to myself: "*What the hell?*".
+After a few months passed, I looked back and said to myself: *"What the hell?"*.
 I went through so much trouble and time to build out my infrastructure and add
 in support for backups, recovery, etc.--that I ended up blowing enormous amounts
 of time on tasks that have all already been solved by people far smarter than
@@ -373,8 +374,8 @@ Instead of spending your time worrying about administration issues, you can code
 to your heart's content without worrying about stability, scaling issues, or
 anything else.
 
-The next time you write a web service, give [Heroku][] a try; I promise you
-won't be disappointed.
+The next time you write a web service, give [Heroku][Heroku] a try; I promise
+you won't be disappointed.
 
 
 **UPDATE**: In response to this (and many other related articles I've written) I
@@ -397,16 +398,11 @@ interested in deploying web applications on Heroku, you should check it out.
   [Heroku Addons]: https://addons.heroku.com/ "Heroku Addons"
   [Heroku Addons CLI]: /static/images/2012/heroku_addons.png "Heroku Addons CLI Screenshot"
   [Happy Grin]: /static/images/2012/happy_grin.png "Happy Grin Sketch"
-  [I_disapprove]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2012-06-03/bfeunxGescIIitkDrgeFqfJiFsAsigyDpDHxBDxagHqzfpCotkwrfgubnIDE/i_disapprove.png.scaled696.png
+  [I Disapprove]: /static/images/2012/i_disapprove.png "Disapproval Face"
   [New Relic]: https://addons.heroku.com/newrelic "New Relic"
-  [Newrelic-dynos]: http://getfile7.posterous.com/getfile/files.posterous.com/temp-2012-06-03/JdGEBklrDArGlfecEjInCHbqFraxjhDaepEtrxegerECIuGpvDIagenbcAEn/newrelic-dynos.png.scaled696.png
-  [![Newrelic-dynos][]]: ./images/135701004-7-newrelic-dynos.png.scaled1000.png
+  [New Relic Dynos]: /static/images/2012/new_relic_dynos.png "New Relic Dynos Page Screenshot"
   [Newrelic-webtransactions]: http://getfile8.posterous.com/getfile/files.posterous.com/temp-2012-06-03/pJxxxHtiFuqJmImgvhFlzcgIzkbJbpJojjxfzcuepsfbruCspqvevbzqCgjq/newrelic-webtransactions.png.scaled696.png
-  [![Newrelic-webtransactions][]]: ./images/135701004-8-newrelic-webtransactions.png.scaled1000.png
   [Newrelic-backgroundtasks]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2012-06-03/GDuivmEaxDaJAcxrsaksfxruBglavgvEqBGzDxzdFmhtbmidsaEqwudailGA/newrelic-backgroundtasks.png.scaled696.png
-  [![Newrelic-backgroundtasks][]]: ./images/135701004-9-newrelic-backgroundtasks.png.scaled1000.png
   [Badtime]: http://getfile0.posterous.com/getfile/files.posterous.com/temp-2012-06-03/GrgGCuflFltbBejBqGfIpyFxtjiBqrcJADxcjfdwrlcDGtAyvJhHGpFtBfwE/badtime.jpg.scaled696.jpg
   [Giant]: http://getfile1.posterous.com/getfile/files.posterous.com/temp-2012-06-03/fcizGqoyFrJDGnvBpgeotFirwiFvhCaaBdyblluvHxIuqjIvBinIgtjjJctn/giant.png.scaled696.png
-  [![Giant][]]: ./images/135701004-10-giant.png.scaled1000.png
-  [The Heroku Hacker's Guide]: http://www.theherokuhackersguide.com/
-    "The Heroku Hacker's Guide"
+  [The Heroku Hacker's Guide]: http://www.theherokuhackersguide.com/ "The Heroku Hacker's Guide"
