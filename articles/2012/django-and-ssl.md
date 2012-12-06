@@ -46,7 +46,7 @@ sure to use their new [SSL endpoint][] addon. The new SSL endpoint addon makes
 using SSL as easy as possible.
 
 
-  [Cloaked Man]: /static/images/cloaked-man.png "Cloaked Man Sketch"
+  [Cloaked Man]: /static/images/2012/cloaked-man.png "Cloaked Man Sketch"
   [encrypting everything]: http://www.codinghorror.com/blog/2012/02/should-all-web-traffic-be-encrypted.html "Encrypt Everything"
   [Stack Overflow]: http://stackoverflow.com/questions/8436666/how-to-make-python-on-heroku-https-only "Django + SSL"
   [PyPI]: http://pypi.python.org/pypi "PyPI"
