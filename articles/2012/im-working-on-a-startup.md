@@ -1,10 +1,11 @@
-Title: I'm Working on a Startup
-Date: 2012-04-08 20:12
 Author: Randall Degges
+Date: 2012-04-08 20:12
+Slug: im-working-on-a-startup
 Tags: programming, startup
+Title: I'm Working on a Startup
 
 
-![Monk][]
+![Samurai in Robes][]
 
 For the past several months, I've been working with some really great friends of
 mine on a startup, [OpenCNAM][]. As some of you know, I have a lot of experience
@@ -28,16 +29,16 @@ ID data, and decided to do something about it.
 
 ## OpenCNAM - Caller ID Made Simple
 
-![Opencnam-logo][]
+![OpenCNAM Logo][]
 
-[OpenCNAM][1] is an API company designed from the ground-up to be as simple as
+[OpenCNAM][OpenCNAM] is an API company designed from the ground-up to be as simple as
 possible. The main idea is to make getting caller ID information easy--*really
 easy*. No more negotiating deals with telco providers and surfing through
 endless pages of Google looking for relevant information.
 
 If you're a programmer looking to use caller ID information in your software,
-and you can't get something working within 5 minutes of visiting [our
-website][], we've failed our mission.
+and you can't get something working within 5 minutes of visiting
+[our website][OpenCNAM], we've failed our mission.
 
 In the spirit of making things as simple as possible, OpenCNAM also has a
 generous free tier. That's right. If you're writing an application that does
@@ -59,9 +60,7 @@ Over the coming months, I'll be spending more time writing about my startup
 journeys, so be sure to check back!
 
 
-  [Monk]: ./images/116559130-1-monk.jpg.scaled696.jpg
+  [Samurai in Robes]: /static/images/2012/samurai-in-robes.png "Samurai in Robes Sketch"
   [OpenCNAM]: http://www.opencnam.com/ "OpenCNAM - Caller ID Simplified"
-  [Opencnam-logo]: http://getfile6.posterous.com/getfile/files.posterous.com/temp-2012-04-08/yhJaDEuIiuhHreesIDJAJHCCzwJhdBfohxCszykGwtpnmFGJFCxfzHuetlxm/opencnam-logo.png.scaled696.png
-  [1]: http://www.opencnam.com/ "OpenCNAM - Caller ID Made Simple"
-  [our website]: http://www.opencnam.com/ "OpenCNAM"
+  [OpenCNAM Logo]: /static/images/2012/opencnam-logo.png "OpenCNAM Logo"
   [staff@opencnam.com]: mailto:staff@opencnam.com
