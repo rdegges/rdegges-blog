@@ -1,21 +1,22 @@
-Title: Why I'm Learning Node
-Date: 2012-04-08 03:13
 Author: Randall Degges
-Tags: programming, javascript, nodejs
+Date: 2012-04-08 03:13
+Slug: why-im-learning-node
+Tags: javascript, nodejs, programming
+Title: Why I'm Learning Node
 
 
-![Jsninja][]
+![Ninja Warrior][]
 
 As many (if not all) of you know, I'm a python guy. I program every single day,
 and most days, that involves using python. I write Django code for fun and
 profit, and also do a fair amount of "raw" python coding (no frameworks).
 
-Unfortunately, while I do a lot of kickass backend coding, I don't often get a
+Unfortunately, while I do a lot of kickass back end coding, I don't often get a
 chance to practice my front-end kung fu. Since I'm fairly knowledgeable about
-the backend stuff I work on (telephony services, web services, etc.), it doesn't
-often make sense for me to also build the front end code (I'm looking at you:
-HTML, CSS, Javascript). As a result of this lack of front-end coding practice, I
-suck at it.
+the back end stuff I work on (telephony services, web services, etc.), it
+doesn't often make sense for me to also build the front end code (I'm looking
+at you: HTML, CSS, Javascript). As a result of this lack of front-end coding
+practice, I suck at it.
 
 I suck at HTML, CSS, and most of all, Javascript.
 
@@ -23,7 +24,7 @@ Over the past few years, my lack of front end knowledge has really began to
 bother me. I enjoy doing full-stack development. I like taking projects from
 conception to completion. Something about the creation process resonates really
 well with me. What I don't like, however, is feeling crippled when I have an
-idea, write the backend for it, and then have to spend months fiddling around
+idea, write the back end for it, and then have to spend months fiddling around
 with the front-end to make it look even half decent.
 
 Since I first started writing websites, Javascript has really changed a lot.
@@ -62,10 +63,10 @@ perl--directly from the command line (no browser required). It also comes with
 an extremely elegant package manager ([npm][]), that makes building and sharing
 reusable node modules extremely simple.
 
-After reading so many negative things about [nodejs][1], I'm completely
-surprised to report that it is actually pretty damn cool. While I'm not
-(currently) using it for buliding websites or anything like that, it really
-makes Javascript a lot simpler for people like me: backend developers who want
+After reading so many negative things about [nodejs][nodejs is cancer], I'm
+completely surprised to report that it is actually pretty damn cool. While I'm
+not (currently) using it for building websites or anything like that, it really
+makes Javascript a lot simpler for people like me: back end developers who want
 to learn Javascript without all the barriers to entry (I'm looking at you, web
 browsers).
 
@@ -88,10 +89,10 @@ As I learn more about Javascript, I'll keep you all updated!
 weekend. You should check it out.
 
 
-  [Jsninja]: http://getfile8.posterous.com/getfile/files.posterous.com/temp-2012-04-07/exotGlGDfixkkyAufribsgcuJiDtfFzGeaElDyEJzJcJlyJehplFhxexrAHE/jsninja.jpg.scaled696.jpg
+  [Ninja Warrior]: /static/images/ninja-warrior.png "Ninja Warrior Sketch"
   [Javascript: The Good Parts]: http://www.amazon.com/gp/product/0596517742/ref=as_li_ss_tl?ie=UTF8&tag=rdegges-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=0596517742 "Javascript: The Good Parts"
   [nodejs]: http://nodejs.org/ "nodejs"
   [npm]: http://npmjs.org/ "npm"
-  [1]: http://teddziuba.com/2011/10/node-js-is-cancer.html "nodejs is cancer"
+  [nodejs is cancer]: http://teddziuba.com/2011/10/node-js-is-cancer.html "nodejs is cancer"
   [node-opencnam]: https://github.com/telephonyresearch/node-opencnam "node-opencnam"
   [Node Beginner Book]: http://www.nodebeginner.org/ "Node Beginner"
