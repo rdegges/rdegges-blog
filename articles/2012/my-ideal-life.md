@@ -1,10 +1,11 @@
-Title: My Ideal Life
-Date: 2012-01-19 05:32
 Author: Randall Degges
-Tags: personaldevelopment, philosophy
+Date: 2012-01-19 05:32
+Slug: my-ideal-life
+Tags: personal development, philosophy
+Title: My Ideal Life
 
 
-[![Tyrael][]][]
+![Tyrael][]
 
 As a strong believer in personal development, I realize that I will never be
 perfect. Despite this, a big part of the fun in life is working towards making
@@ -16,9 +17,9 @@ eventually quit. Maybe you're skinny, and want to add 10lbs of muscle to your
 frame. Regardless of your personal development strategy, knowing what to work
 towards is mandatory.
 
-Over the past year, I've come to realize the importance of having [positive
-habits][], and how building a series of habits into your daily schedule is one
-of the best ways to make long term, sustainable change.
+Over the past year, I've come to realize the importance of having
+[positive habits][], and how building a series of habits into your daily
+schedule is one of the best ways to make long term, sustainable change.
 
 As my life goals are still undefined, my current focus is on building
 a repertoire of habits and skills so that over time, I'll gradually become the
@@ -71,7 +72,7 @@ be able to accomplish a lot more by working both smarter, and with more focus.
 Working smarter means only doing things that absolutely require my personal
 attention. By putting myself in a position where I can outsource all but the
 most essential functions to others, I'll be able to drastically cut down my
-daily todo list, leaving me with much less (but more important) work to be done.
+daily TODO list, leaving me with much less (but more important) work to be done.
 
 By working with more focus, I mean that over time, I'd like to build up my focus
 to a point where I'm able to completely immerse myself in a task for hours on
@@ -96,6 +97,5 @@ So, that's my ideal life in a nutshell. What's your ideal life (or day) look
 like?
 
 
-  [Tyrael]: http://getfile3.posterous.com/getfile/files.posterous.com/temp-2012-01-17/zBcHDeaJcIJDyjGCDAwdgrCkDgBgCxoApDoCeJhmvJEeiglJoGCkHzdjnyGe/tyrael.jpg.scaled696.jpg
-  [![Tyrael][]]: ./images/94766892-0-tyrael.jpg.scaled1000.jpg
-  [positive habits]: http://rdegges.com/what-im-doing-in-2012 "What I'm Doing in 2012"
+  [Tyrael]: /static/images/2012/tyrael.png "Tyrael Sketch"
+  [positive habits]: /what-im-doing-in-2012 "What I'm Doing in 2012"
