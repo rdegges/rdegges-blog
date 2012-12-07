@@ -1,10 +1,11 @@
-Title: Do Stuff, Have Fun
-Date: 2012-03-23 09:04
 Author: Randall Degges
+Date: 2012-03-23 09:04
+Slug: do-stuff-have-fun
+Tags: philosophy
+Title: Do Stuff, Have Fun
 
 
-
-![Chilling][]
+![Kangaroo][]
 
 I've got a new philosophy--on life, work, adventures, whatever: do stuff, have
 fun.
@@ -47,4 +48,4 @@ too short for that.
 From now on I'm just going to do stuff, and have fun. Forget everything else.
 
 
-  [Chilling]: http://getfile3.posterous.com/getfile/files.posterous.com/temp-2012-03-23/kkCdIkfJkDjalHaiuCkHpoACquohBxEiCHmAnongdEbmCgiFdCuyuFilorvf/chilling.jpg.scaled696.jpg
+  [Kangaroo]: /static/images/2012/kangaroo-lying-down.png "Kangaroo Lying Down"
