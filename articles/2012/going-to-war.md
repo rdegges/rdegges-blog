@@ -68,4 +68,4 @@ What techniques do you use to motivate yourself, and push yourself beyond your
 limits?
 
 
-  [Genghis Khan]: /static/images/2012/ghengis-khan-riding-a-monster.png "Genghis Khan Riding a Monster Sketch"
+  [Genghis Khan]: /static/images/2012/genghis-khan-riding-a-monster.png "Genghis Khan Riding a Monster Sketch"
