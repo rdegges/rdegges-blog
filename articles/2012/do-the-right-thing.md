@@ -1,7 +1,7 @@
 Author: Randall Degges
 Date: 2012-03-20 19:55
 Slug: do-the-right-thing
-Tags: personal development
+Tags: personal development, philosophy
 Title: Do the Right Thing
 
 
