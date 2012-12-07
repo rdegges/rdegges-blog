@@ -1,10 +1,11 @@
-Title: How I Learned to Program
-Date: 2012-02-04 06:18
 Author: Randall Degges
+Date: 2012-02-04 06:18
+Slug: how-i-learned-to-program
 Tags: programming
+Title: How I Learned to Program
 
 
-![Hacker][]
+![Hacker Glider][]
 
 Programming is, without a doubt, the most mentally rewarding thing I've ever
 done. Programming taught me that life should be fun, filled with creativity, and
@@ -31,16 +32,16 @@ else, **have fun**.
 
 ## Install Linux on Your Box
 
-![Linux][]
+![Linux Penguin][]
 
 While in my own life, I actually learned quite a bit about computers through
 video games on MSDOS computers--my real learning started the first day I
-installed a linux operating system on my home computer.
+installed a Linux operating system on my home computer.
 
 It doesn't matter whether or not you use Windows on your laptop, or if you have
 a Macbook Air--if you want to learn to program well, you need to use linux.
 Sure, there are a ton of great programmers out there using other systems, but
-you cannot beat linux as a learning machine.
+you cannot beat Linux as a learning machine.
 
 Despite what you may think, programmers don't just "program". Programming as you
 probably think of it is nothing more than input and output. You type things, and
@@ -54,13 +55,13 @@ Programmers are people obsessed with knowledge. Programmers use this obsession
 to fuel a life of learning, discovery, and creation. That is the true definition
 of a programmer.
 
-A big reason to use linux for your day to day work is that it helps you
+A big reason to use Linux for your day to day work is that it helps you
 passively learn about programming as you use it. On Windows, if you want to copy
-a file from one box to another, you drag and drop. On linux, if you want to copy
-a file from one box to another, you use scp or rsync. Learning how to use the
-command line teaches you basic technical logic and problem solving skills.
+a file from one box to another, you drag and drop. On Linux, if you want to copy
+a file from one box to another, you use `scp` or `rsync`. Learning how to use
+the command line teaches you basic technical logic and problem solving skills.
 
-Another important skill you passively acquire by using linux is self
+Another important skill you passively acquire by using Linux is self
 sufficiency. Unlike many other lines of work, programming does not require you
 to memorize a million things, or repeatedly do the same thing over and over
 again; instead, programming requires intense self motivation and determination.
@@ -69,18 +70,18 @@ Even the best programmers typically have no idea what they're doing when they
 start a new project. If I could summarize one thing I do more than anything else
 as a programmer, it would be **research**. Programmers must know how to lookup
 information, and how to process and use that information in a useful manner.
-This skill is typically acquired over long periods of time--but linux can help.
+This skill is typically acquired over long periods of time--but Linux can help.
 
-Using linux will require you to actively seek out solutions to problems. If you
-don't know how to setup an SSH tunnel--you **will** learn. Using linux will
+Using Linux will require you to actively seek out solutions to problems. If you
+don't know how to setup an SSH tunnel--you **will** learn. Using Linux will
 drive you to discover new things you never would have thought of while using Mac
-or Windows. As you slowly become a better and better linux user, you will
+or Windows. As you slowly become a better and better Linux user, you will
 coincidentally become a better and better programmer and pragmatist. You'll
 learn how to go about solving problems. How to hunt down errors. How to use your
 combined knowledge to create new things and make your life (and others' lives)
 easier.
 
-Furthermore, since linux (as well as a majority of its applications) is open
+Furthermore, since Linux (as well as a majority of its applications) is open
 source, you're in a great position to learn more about programming culture. At
 one point or another, I can almost guarantee you will:
 
@@ -104,7 +105,7 @@ Linux can help teach you these things, and more.
 
 ## Have an Intense Desire
 
-[![Burning-desire][]][]
+![Burning Desire][]
 
 Why do you want to program? What is motivating you? What drives you? Unless you
 desperately want to learn programming, you will fail.
@@ -131,9 +132,9 @@ similar to that feeling you have where you want something so bad, so intensely,
 that you feel it with every muscle in your body.
 
 Regardless of the fact that I had absolutely no idea what I was doing--that I
-knew absolustely no technical people whatsoever--that I had no resources--and
+knew absolutely no technical people whatsoever--that I had no resources--and
 that I had zero guidance--I found a way. I ruthlessly read through internet
-tutorials on random webpages. I spend hundreds of hours scouring random forums
+tutorials on random web pages. I spend hundreds of hours scouring random forums
 looking for bits of information.
 
 The most important thing, however, is that because I wanted it so bad, it felt
@@ -144,7 +145,7 @@ programmer.
 
 ## Build Small Command Line Programs
 
-![Snoopy-programming][]
+![Snoopy Programming][]
 
 A lot of people now-a-days seem to be learning programming by diving head first
 into web development. While this may work for some people, it seems pretty damn
@@ -167,9 +168,9 @@ simple command line utility. I'd write tons of things:
 -   A tool to convert base 10 numbers to any other base on the CLI.
 -   A provisioning script that installs all my OS customizations: wallpapers,
     themes, etc.
--   A basic screenshot program that automatically uploads screenshot to an image
-    hosting website, and copies the resulting URL into the clipboard for instant
-    copy-paste fun.
+-   A basic screen shot program that automatically uploads screen shot to an
+    image hosting website, and copies the resulting URL into the clipboard for
+    instant copy-paste fun.
 -   And a million other things.
 
 I got so much value out of these small exercises. Each one was simple enough to
@@ -190,7 +191,7 @@ tell me you aren't addicted after the first one!
 
 ## Write, Write, Write
 
-![Writing][]
+![Author Writing][]
 
 Writing is a bit controversial. When I started programming, nerds had a
 reputation for being bad at everything except computers. For a while, I assumed
@@ -210,7 +211,7 @@ ability, and consequently, become a better programmer.
 
 As a programmer, having a blog is a great way to practice writing. It's a great
 way to keep track of the things you learn, and help ensure you are always making
-progress. Through the process of writing about things, techincal things in
+progress. Through the process of writing about things, technical things in
 particular, you'll greatly increase your knowledge on the subject.
 
 For instance, if you're writing a CLI app that orders pizza through Dominos, it
@@ -229,12 +230,12 @@ One of my biggest regrets is that over the years I threw away a vast majority of
 my articles. Over time I rewrote my website frequently, mismanaged servers, and
 slowly lost most of my writing. This blog you're reading now exists primarily as
 the result of my decision to save all my future writings and provide a home for
-them that I won't mistakely lose. Don't make the same mistake I did!
+them that I won't mistakenly lose. Don't make the same mistake I did!
 
 
 ## Join an Online Community
 
-[![Impostor][]][]
+![Impostor XKCD][]
 
 The internet is a big place. Programming is a big field. While it is certainly
 possible to become an excellent programmer by yourself, completely isolated--it
@@ -253,16 +254,16 @@ projects we were working on, and what the best way to implement them was.
 Having a group of people with the same passion and drive as yourself cannot be
 understated.
 
-Finding a group like this, on the otherhand, is extremely difficult. I highly
+Finding a group like this, on the other hand, is extremely difficult. I highly
 recommend using IRC (as a lot of bright people seem to use it), and gradually
 joining new channels and chatting with people who share similar interests. If,
-in the offchance you're like me, and want to hang out in the same circle, you're
-invited to check out [#heapify][].
+in the off chance you're like me, and want to hang out in the same circle,
+you're invited to check out [#heapify][].
 
 
 ## Have Fun
 
-![Program-everything][]
+![Program All the Things][]
 
 Programming is fun. Programming is really, insanely fun. Just writing about it
 makes me feel happy inside. It's hard to contain my excitement.
@@ -295,17 +296,15 @@ Regardless of where you are in your programming career: always have fun, and
 keep pushing yourself!
 
 
-  [Hacker]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2012-01-27/AChmokGFBaAcxqbJayibogiqhturgbcpIHHzBGonqcyezbJmgiubuyFIywht/hacker.gif.scaled696.gif
-  [Linux]: http://getfile9.posterous.com/getfile/files.posterous.com/temp-2012-01-27/miAslDvGjInfCBvaBFAqDkFmoznAdaogAcqxHfuhFvJcgyoEvzeBdinalFiI/linux.jpg.scaled696.jpg
-  [Programming]: http://getfile1.posterous.com/getfile/files.posterous.com/temp-2012-02-02/lgevgAiwFiGwIipcIeCGczqhBcunhtjEClsuccvhsylxAakHlAHuhAtEquhk/programming.gif.scaled696.gif
-  [Burning-desire]: http://getfile2.posterous.com/getfile/files.posterous.com/temp-2012-01-27/saferEhsexcsxkpusCAAzzABlpvBamaDnDxAvbkgBJtJgsemnlEDtwCammph/burning-desire.jpg.scaled696.jpg
-  [![Burning-desire][]]: ./images/95613904-2-burning-desire.jpg.scaled1000.jpg
-  [Snoopy-programming]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2012-02-03/xEsuclFCqjadjiwJnjxqrxDICBtHAHtnIFAsggqDjnEHgoolwhiAfyilfAbp/snoopy-programming.gif.scaled696.gif
-  [Writing]: http://getfile0.posterous.com/getfile/files.posterous.com/temp-2012-02-03/yuwBiJvcorqhfjsDbCgJzibhrHtwCDbuwfhHDktFtqxjdjznBCnhnIlBAhlb/Writing.png.scaled696.png
-  [Impostor]: http://getfile6.posterous.com/getfile/files.posterous.com/temp-2012-02-03/dursbvwFrukfspEAvuFtxiEjtEqAjzdEChzwCqCGdBfvIcrhzIHtcadvEBlc/impostor.png.scaled696.png
-  [![Impostor][]]: ./images/95613904-6-impostor.png.scaled1000.png
+  [Hacker Glider]: /static/images/2012/hacker-glider.png "Hacker Glider"
+  [Linux Penguin]: /static/images/2012/linux-penguin.png "Linux Penguin"
+  [Programming]: /static/images/2012/programming.gif "Programming"
+  [Burning Desire]: /static/images/2012/burning-desire.png "Burning Desire"
+  [Snoopy Programming]: /static/images/2012/snoopy-programming.png "Snoopy Programming Sketch"
+  [Author Writing]: /static/images/2012/author-writing.png "Author Writing Sketch"
+  [Impostor XKCD]: /static/images/2012/imposter-xkcd.png "Imposter XKCD"
   [IRC]: http://en.wikipedia.org/wiki/Internet_Relay_Chat "IRC"
-  [#heapify]: http://irc://irc.oftc.net/#heapify "#heapify"
-  [Program-everything]: http://getfile8.posterous.com/getfile/files.posterous.com/temp-2012-02-03/EFhqcczmGemjrqwjjntzawmvFyBnzgDkbGofrwxJxmaklbGoECAEqrpkxuBJ/program-everything.jpg.scaled696.jpg
+  [#heapify]: irc://irc.oftc.net/#heapify "#heapify"
+  [Program All the Things]: /static/images/2012/program-all-the-things.png "Program All the Things"
   [python]: http://python.org/ "python"
-  [Dive Into Python]: http://www.amazon.com/gp/product/1590593561/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1590593561 "Dive Into Python"
+  [Dive Into Python]: http://www.amazon.com/gp/product/1590593561/ref=as_li_ss_tl?ie=UTF8&tag=rdegges-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1590593561 "Dive Into Python"
