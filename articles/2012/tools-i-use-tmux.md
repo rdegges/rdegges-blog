@@ -1,7 +1,8 @@
-Title: Tools I Use - tmux
-Date: 2012-01-08 01:34
 Author: Randall Degges
+Date: 2012-01-08 01:34
+Slug: tools-i-use-tmux
 Tags: programming, linux
+Title: Tools I Use - tmux
 
 
 ![Tools][]
@@ -54,11 +55,11 @@ configured, I was still unable to perform some seemingly basic tasks like create
 horizontally split windows. This meant that I could only open columns of
 terminals, restricting the usefulness of my terminal.
 
-Furthermore, GNU screen had a lot of complex keybindings that tended to make it
+Furthermore, GNU screen had a lot of complex key bindings that tended to make it
 difficult for me to get used to. I remember spending quite a bit of time when
 first learning GNU screen just memorizing the basics.
 
-One frustrating day while I was struggling to adjust some screen keybindings, I
+One frustrating day while I was struggling to adjust some screen key bindings, I
 decided to look for alternatives. After a bit of research I stumbled upon tmux.
 What a great day that was.
 
@@ -67,7 +68,7 @@ tmux, just like screen, is a terminal multiplexer. What's great about tmux is:
 -   It's a lot simpler than GNU screen. It has sane defaults configured, and
     requires much less configuration to be useful.
 -   It supports both vertical AND horizontally split windows.
--   It has a really awesome keybinding that allows you to magically rearrange
+-   It has a really awesome key binding that allows you to magically rearrange
     your terminal windows in a variety of patterns. This is extremely useful for
     situations where you open multiple windows, and then want them to be moved
     to a decent looking pattern, but don't want to configure each window
@@ -83,22 +84,21 @@ screenies of tmux in action.
 This first picture is just a simple display of tmux with multiple windows open
 (note the window names at the bottom):
 
-[![Tmux_simple][]][]
+![tmux Simple][]
 
 Next, we have a single tmux window open, broken into three panes: one is
 vertically split, while the other is horizontally split. As you can see, this
 makes coding quite convenient since I can code, look at tests, and browse
 documentation all in the same window:
 
-[![Tmux_multiple_panes][]][]
+![tmux Multiple Panes][]
 
 Here I just hit a single key, and had tmux automatically re-arrange my panes a
 few times in a row. Nice, huh?
 
-[![Tmux_auto_arrange_1][]][] [![Tmux_auto_arrange_2][]][]
-[![Tmux_auto_arrange_3][]][]
-
-[See the full gallery on Posterous][]
+![tmux Auto Arrange 1][]
+![tmux Auto Arrange 2][]
+![tmux Auto Arrange 3][]
 
 
 ## tmux - Configuration
@@ -109,39 +109,23 @@ opinion) to be useful, tmux has sane defaults out of the box.
 
 Below is my **~/.tmux.conf** file. As you can see, it's very simple:
 
-~~~~ {.line_numbers}
-1
-2
-3
-4
-5
-6
-7
-8
-~~~~
-
+```
 set -g prefix C-a
-
 unbind %
-
 bind \ split-window -h
-
 bind - split-window -v
-
 bind-key k select-pane -U
-
 bind-key j select-pane -D
-
 bind-key h select-pane -L
-
 bind-key l select-pane -R
+```
 
 The changes I made are simply to remap keys for my own preferences. Here's what
 my changes do:
 
 -   Set the tmux command key to CTRL+a (just like GNU screen). That means all
     tmux commands are prefixed with **C-a**.
--   To create vertical split windows, I setup keymappings for **C-a |**. To me,
+-   To create vertical split windows, I setup key mappings for **C-a |**. To me,
     since the pipe key (|) looks like a vertical split, it makes sense to have
     that key open a new split window.
 -   Likewise, I also bound the horizontal split key to **C-a -** (the dash key),
@@ -167,22 +151,16 @@ work.
 -   [The main tmux website.][tmux]
 -   **man tmux** - has great information and is highly readable.
 -   [tmux crash course][], a really great introduction to using tmux.
--   [tmux][1], a series of blog posts explaining tmux in depth. A great read.
+-   [tmux][tmux blog series], a series of blog posts explaining tmux in depth. A great read.
 
 
-  [Tools]: http://getfile6.posterous.com/getfile/files.posterous.com/temp-2012-01-07/gbzgGJqHAFBqjzikpublGgrBinGvDjmivmgHawFpHlcaosbDcflxaGEysnrj/tools.png.scaled696.png
+  [Tools]: /static/images/2012/tools.png "Tools"
   [tmux]: http://tmux.sourceforge.net/ "tmux"
   [GNU screen]: http://www.gnu.org/software/screen/ "GNU screen"
-  [Tmux_simple]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2012-01-07/lumlvaGlvnItAmfsyCCuztAcBsGfqdbImyFndpbrHmnBkpsqokldiBHEJCtf/tmux_simple.png.scaled696.png
-  [![Tmux_simple][]]: ./images/92691196-1-tmux_simple.png.scaled1000.png
-  [Tmux_multiple_panes]: http://getfile1.posterous.com/getfile/files.posterous.com/temp-2012-01-07/lzdinBqsscafepgbzcDupqDhHyGpgngfzqErGwxBsffDdJrhwtGbcHAdIahi/tmux_multiple_panes.png.scaled696.png
-  [![Tmux_multiple_panes][]]: ./images/92691196-2-tmux_multiple_panes.png.scaled1000.png
-  [Tmux_auto_arrange_1]: http://getfile7.posterous.com/getfile/files.posterous.com/temp-2012-01-07/iGcwcsGFkJHoFtvEununxFBieICqbqEptDzdehtjgkrrinDrfiyyjiCGuncB/tmux_auto_arrange_1.png.scaled696.png
-  [![Tmux_auto_arrange_1][]]: ./images/92691196-3-tmux_auto_arrange_1.png.scaled1000.png
-  [Tmux_auto_arrange_2]: http://getfile8.posterous.com/getfile/files.posterous.com/temp-2012-01-07/FvGIwokhrhvrBiyArhdwjqbfdgHzAzHkuzAcisnCBsnhfDAGEwuFGjmwbxJJ/tmux_auto_arrange_2.png.scaled696.png
-  [![Tmux_auto_arrange_2][]]: ./images/92691196-4-tmux_auto_arrange_2.png.scaled1000.png
-  [Tmux_auto_arrange_3]: http://getfile6.posterous.com/getfile/files.posterous.com/temp-2012-01-07/rtfDkouDrjEgsGijvfJatlGBhtgICfqpyhsaopakhyemkzEEtcakdhEvBABx/tmux_auto_arrange_3.png.scaled696.png
-  [![Tmux_auto_arrange_3][]]: ./images/92691196-5-tmux_auto_arrange_3.png.scaled1000.png
-  [See the full gallery on Posterous]: http://rdegges.com/tools-i-use-tmux
+  [tmux Simple]: /static/images/2012/tmux-simple.png "tmux Simple Screen Shot"
+  [tmux Multiple Panes]: /static/images/2012/tmux-multiple-panes.png "tmux Multiple Panes Screen Shot"
+  [tmux Auto Arrange 1]: /static/images/2012/tmux-auto-arrange-1.png "tmux Auto Arrange 1 Screen Shot"
+  [tmux Auto Arrange 2]: /static/images/2012/tmux-auto-arrange-2.png "tmux Auto Arrange 2 Screen Shot"
+  [tmux Auto Arrange 3]: /static/images/2012/tmux-auto-arrange-3.png "tmux Auto Arrange 3 Screen Shot"
   [tmux crash course]: http://robots.thoughtbot.com/post/2641409235/a-tmux-crash-course "tmux Crash Course"
-  [1]: http://blog.hawkhost.com/2010/06/28/tmux-the-terminal-multiplexer/ "tmux series"
+  [tmux blog series]: http://blog.hawkhost.com/2010/06/28/tmux-the-terminal-multiplexer/ "tmux series"
