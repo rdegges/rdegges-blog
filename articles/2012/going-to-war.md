@@ -1,10 +1,11 @@
-Title: Going to War
-Date: 2012-01-08 01:31
 Author: Randall Degges
-Tags: life, personaldevelopment, philosophy
+Date: 2012-01-08 01:31
+Slug: going-to-war
+Tags: personal development, philosophy
+Title: Going to War
 
 
-![Genghis_khan][]
+![Genghis Khan][]
 
 Sometimes personal development can be hard, really hard. I find that I go
 through periods where I just feel exhausted of continuously trying to make
@@ -29,8 +30,8 @@ thing. When you spend a large amount of your time and energy trying to better
 yourself (eat better, work better, play better), it is only natural that your
 body and mind will need some time to rest.
 
-The real problem arises when after you've sufficently recovered, you still can't
-get yourself back into the development phase again.
+The real problem arises when after you've sufficiently recovered, you still
+can't get yourself back into the development phase again.
 
 
 ## The War Motive
@@ -47,12 +48,12 @@ explodes in fury, wiping out his enemies, and emerging victorious.
 The reason the hero won is because he went to war. He knew that he was in a dire
 situation, and he decided to do whatever it would take to win.
 
-War can be a powerful motive, not only for heros in movies, but for you. If you
+War can be a powerful motive, not only for heroes in movies, but for you. If you
 find yourself stuck at a point where you can no longer progress, and find
 yourself battling off the forces that be but not winning--maybe you should
 consider starting a war.
 
-Doing so is farily easy: you commit to winning with your life. You make a pact
+Doing so is fairly easy: you commit to winning with your life. You make a pact
 with yourself to fight this thing with every last ounce of energy left in your
 body and mind, or you die trying.
 
@@ -67,4 +68,4 @@ What techniques do you use to motivate yourself, and push yourself beyond your
 limits?
 
 
-  [Genghis_khan]: http://getfile1.posterous.com/getfile/files.posterous.com/temp-2012-01-07/hCnydBjukiAnssiHHhmFpkdAkqfkgvzmwizdFpiGtkvvHwfoyngGqfIqcaei/Genghis_Khan.jpg.scaled696.jpg
+  [Genghis Khan]: /static/images/2012/ghengis-khan-riding-a-monster.png "Genghis Khan Riding a Monster Sketch"
