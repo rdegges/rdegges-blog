@@ -302,7 +302,7 @@ keep pushing yourself!
   [Burning Desire]: /static/images/2012/burning-desire.png "Burning Desire"
   [Snoopy Programming]: /static/images/2012/snoopy-programming.png "Snoopy Programming Sketch"
   [Author Writing]: /static/images/2012/author-writing.png "Author Writing Sketch"
-  [Impostor XKCD]: /static/images/2012/imposter-xkcd.png "Imposter XKCD"
+  [Impostor XKCD]: /static/images/2012/impostor-xkcd.png "Imposter XKCD"
   [IRC]: http://en.wikipedia.org/wiki/Internet_Relay_Chat "IRC"
   [#heapify]: irc://irc.oftc.net/#heapify "#heapify"
   [Program All the Things]: /static/images/2012/program-all-the-things.png "Program All the Things"
