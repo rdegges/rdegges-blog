@@ -1,10 +1,11 @@
-Title: How I Program Stuff
-Date: 2012-01-17 03:54
 Author: Randall Degges
+Date: 2012-01-17 03:54
+Slug: how-i-program-stuff
 Tags: programming
+Title: How I Program Stuff
 
 
-![Programmer][]
+![Programmer at Work][]
 
 I love programming. I can truly say that of all the things I enjoy, I enjoy
 programming the most. There's nothing quite like the feeling you get when you
@@ -113,9 +114,7 @@ move on. There is no room for ego in success.
 
 **Be ruthless.**
 
-****
-
-![I-regret-nothing][]
+![I Regret nothing][]
 
 
 ## How About You?
@@ -124,10 +123,9 @@ I'm extremely interested in how other people build stuff. If you've written
 about how you program stuff, or how you prefer to work, please let me know.
 
 
-  [Programmer]: http://getfile8.posterous.com/getfile/files.posterous.com/temp-2012-01-16/BaGedtAfIcrAqkGioeyezyIhioBirEgqADaEtkEuItxDIvqJbrizyBqtfDBh/programmer.gif.scaled696.gif
-  [passionate programmer]: http://www.amazon.com/gp/product/1934356344/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1934356344
-    "The Passionate Programmer"
-  [Meditate]: http://getfile9.posterous.com/getfile/files.posterous.com/temp-2012-01-16/GllvqwjqypeiwEbhDzJuBqDjofsCwbwyCDecyityFgqlEDhdbCjjrmCmqztg/meditate.GIF.scaled696.gif
-  [Rm-rf]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2012-01-16/pibCgcGdIqpiafpvHfwgkGavHAvDdsDwrGqBDEtAJqBorgiHqDfsCeIpCuFi/rm-rf.png.scaled696.png
-  [Fist]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2012-01-16/JkxjHfyICrHoxEwCmheycmrmdGvCnBqtxtwmAGucrDqysotIGFzgurHGnpDq/fist.JPG.scaled696.jpg
-  [I-regret-nothing]: http://getfile3.posterous.com/getfile/files.posterous.com/temp-2012-01-16/iahdoDdAufExuDqDcgBjuCsbsHpChdAjlGyzBohDeDDBzjneyqkubwuxssxk/i-regret-nothing.gif.scaled696.gif
+  [Programmer at Work]: /static/images/2012/programmer-at-work.png "Programmer at Work"
+  [passionate programmer]: http://www.amazon.com/gp/product/1934356344/ref=as_li_ss_tl?ie=UTF8&tag=rdegges-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1934356344 "The Passionate Programmer"
+  [Meditate]: /static/images/2012/buddha-statue.png "Buddha Statue"
+  [rm -rf]: /static/images/2012/rm-rf.png "rm -rf"
+  [Fist]: /static/images/2012/fist.png "Fist"
+  [I Regret Nothing]: /static/images/2012/i-regret-nothing.gif "I Regret Nothing"
