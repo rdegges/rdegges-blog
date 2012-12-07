@@ -1,10 +1,11 @@
-Title: Dogs Are Great Programming Companions
-Date: 2012-01-10 06:37
 Author: Randall Degges
-Tags: programming, humor
+Date: 2012-01-10 06:37
+Slug: dogs-are-great-programming-companions
+Tags: humor, programming
+Title: Dogs Are Great Programming Companions
 
 
-![Hello-yes-this-is-dog][]
+![Yes This is Dog][]
 
 I love dogs. Really. They're the best beasts on the planet.
 
@@ -30,31 +31,12 @@ nice reminder life is good. Even when I'm working really hard to fix critical
 problems, or in the zone coding away, having a dog nearby makes me feel
 comfortable and happy.
 
-Here are some pictures of Scribbles (the destroyer of worlds), in all her glory:
+Here are [some pictures][] of Scribbles (the destroyer of worlds), in all her
+glory.
 
-![Scrib1][] ![Scrib2][] [![Scrib3][]][] ![Scrib4][] ![Scrib6][] ![Scrib7][]
-![Scrib5][] ![Scrib8][] [![Scrib9][]][] [![Scrib10][]][] [![Scrib11][]][]
-
-[See the full gallery on Posterous][]
-
-**NOTE**: Incase you're wondering--she's named Scribbles because she has
+**NOTE**: In case you're wondering--she's named Scribbles because she has
 scribbled markings all over her coat.
 
 
-  [Hello-yes-this-is-dog]: http://getfile2.posterous.com/getfile/files.posterous.com/temp-2012-01-09/HijrvlgdnHcpCHmxGBqeAEjsftkvahdFbCIBcBabbEeexeypzfIrmFqqGdfy/hello-yes-this-is-dog.png.scaled696.png
-  [Scrib1]: ./images/93158383-1-scrib1.jpg.scaled696.jpg
-  [Scrib2]: http://getfile8.posterous.com/getfile/files.posterous.com/temp-2012-01-09/dtvAzusIlijJDFGfkExFhjgpnwAHtmencCczwvdDmEzqjIprvtdhdjaAflfp/scrib2.jpg.scaled696.jpg
-  [Scrib3]: http://getfile6.posterous.com/getfile/files.posterous.com/temp-2012-01-09/dasjpmcxujfirsdGiyxEqndFhptqshiuFzBoxyAwAmprGlxIAdAvcfmrlnfl/scrib3.jpg.scaled696.jpg
-  [![Scrib3][]]: ./images/93158383-3-scrib3.jpg.scaled1000.jpg
-  [Scrib4]: http://getfile6.posterous.com/getfile/files.posterous.com/temp-2012-01-09/ichAwFdsdcGeiEczEBCJGECCcGkJFlFCiGpIHtygmcdsscsefAlpwCGqGnay/scrib4.jpg.scaled696.jpg
-  [Scrib6]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2012-01-09/BBuijBCCHcfBIqCddAgzDBrAHqqEjsxDerywIzqArJijFtikGfvAquHqJozj/scrib6.jpg.scaled696.jpg
-  [Scrib7]: http://getfile7.posterous.com/getfile/files.posterous.com/temp-2012-01-09/adCyEydvAncjeBuwGEFcBdnEFjpvyIgwJlBuGcuIlHzsDjybproxwqlkJugw/scrib7.jpg.scaled696.jpg
-  [Scrib5]: http://getfile7.posterous.com/getfile/files.posterous.com/temp-2012-01-09/EwFiJqHdABuyGtCHoDtlvssitzzmDrtqlljvlxilatnogBJCjsFgtBblakhe/scrib5.jpg.scaled696.jpg
-  [Scrib8]: http://getfile9.posterous.com/getfile/files.posterous.com/temp-2012-01-09/JutDqjqmDcvChFxjEavGAIEeEHncgmiqbzfCxmBkhrpcGBdseJvpGoffyIus/scrib8.jpg.scaled696.jpg
-  [Scrib9]: http://getfile0.posterous.com/getfile/files.posterous.com/temp-2012-01-09/fnJimocEssciummshjhzcEzAwlahGhkgkCliJGJBHrFiitzfskhemtDCbEBt/scrib9.jpg.scaled696.jpg
-  [![Scrib9][]]: ./images/93158383-9-scrib9.jpg.scaled1000.jpg
-  [Scrib10]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2012-01-09/HvEhmnpetevElpsACcmFBzfHqtydCDIckIybsskvIqGnBrdGvCoCsCryxaBd/scrib10.jpg.scaled696.jpg
-  [![Scrib10][]]: ./images/93158383-10-scrib10.jpg.scaled1000.jpg
-  [Scrib11]: http://getfile7.posterous.com/getfile/files.posterous.com/temp-2012-01-09/vhpjguDxAEhGDhEilEBbmzklyuIJtspxsDFAIdvlgzydxyyhdggjHAiclGlc/scrib11.jpg.scaled696.jpg
-  [![Scrib11][]]: ./images/93158383-11-scrib11.jpg.scaled1000.jpg
-  [See the full gallery on Posterous]: http://rdegges.com/dogs-are-great-programming-companions
+  [Yes This is Dog]: /static/images/2012/yes-this-is-dog.png "Yes This is Dog"
+  [some pictures]: http://www.flickr.com/photos/randalldegges/sets/72157629719357802/ "Scribbles Flickr Gallery"
