@@ -1,10 +1,11 @@
-Title: Do the Right Thing
-Date: 2012-03-20 19:55
 Author: Randall Degges
-Tags: personaldevelopment
+Date: 2012-03-20 19:55
+Slug: do-the-right-thing
+Tags: personal development
+Title: Do the Right Thing
 
 
-[![Dark_angel][]][]
+![Dark Angel][]
 
 While I devote a lot of time, energy, and effort to making myself a better
 person--I sometimes think I make the whole thing too complicated.
@@ -62,5 +63,4 @@ than the alternatives.
 Do the right thing.
 
 
-  [Dark_angel]: http://getfile2.posterous.com/getfile/files.posterous.com/temp-2012-03-20/BhHIfByGnlwxJHkzvHFralBFDyrelCbIjniiehBhaphlDgsIkGlyGIpdinfI/dark_angel.jpg.scaled696.jpg
-  [![Dark_angel][]]: ./images/113443573-0-dark_angel.jpg.scaled1000.jpg
+  [Dark Angel]: /static/images/2012/dark-angel.png "Dark Angel"
