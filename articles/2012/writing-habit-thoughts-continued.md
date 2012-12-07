@@ -1,10 +1,11 @@
-Title: Writing Habit -- Thoughts (continued)
-Date: 2012-03-04 23:38
 Author: Randall Degges
-Tags: habits, personaldevelopment, writing
+Date: 2012-03-04 23:38
+Slug: writing-habit-thoughts-continued
+Tags: habits, personal development, writing
+Title: Writing Habit -- Thoughts (continued)
 
 
-![Quill][]
+![Writing with a Quill][]
 
 For the past two months I've been [writing][] for at least 30 minutes a day. I'd
 like to quickly reflect on what I've accomplished so far, and my thoughts on the
@@ -38,13 +39,13 @@ professionally (which, incidentally, is when I decided to commit to my personal
 development at a much higher level), I had a major realization: **I am not a
 good writer**.
 
-My ability to write on topics that made **me** excited was almot non-existent.
+My ability to write on topics that made **me** excited was almost non-existent.
 Sure, I could produce specially crafted five paragraph essays to explain a piece
 of literature--but writing a clear and concise technical article? No way.
 
 Even though I love technology and programming, and eagerly wanted to write about
 the various things I was working on, and techniques I was learning--I simply
-didn't have the skillset to make it happen. Articles I wrote came out jumbled,
+didn't have the skill set to make it happen. Articles I wrote came out jumbled,
 disorganized, and chaotic.
 
 At the time, I simply thought that if I chose to write whenever I had
@@ -141,10 +142,8 @@ journey is going. Please send me an email ([rdegges@gmail.com][]), or leave a
 comment--and lets keep in touch!
 
 
-  [Quill]: http://getfile1.posterous.com/getfile/files.posterous.com/temp-2012-03-03/hhtjqIwrFvjGeIrJaChEnozrqJbehpdbmIhfnhCzxAnjnEistGGhkDEpswpj/quill.png.scaled696.png
-  [writing]: http://rdegges.com/establishing-a-writing-habit
-    "Establishing a Writing Habit"
-  [before]: http://rdegges.com/writing-habit-complete
-    "Writing Habit -- Complete"
-  [irc.oftc.net/#heapify]: http://irc://irc.oftc.net/#heapify "heapify"
+  [Writing with a Quill]: /static/images/2012/writing-with-a-quill.png "Writing with a Quill Sketch"
+  [writing]: /establishing-a-writing-habit "Establishing a Writing Habit"
+  [before]: /writing-habit-complete "Writing Habit -- Complete"
+  [irc.oftc.net/#heapify]: irc://irc.oftc.net/#heapify "heapify"
   [rdegges@gmail.com]: mailto:rdegges@gmail.com "rdegges"
