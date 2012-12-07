@@ -36,7 +36,7 @@ choices available to you should a disaster occur:
 -   Freak out, and run away.
 
 All three of those options suck. The releases addon is a developer safety net,
-and a good one. Instead of wasting time worrying about stuff, just **rollback**
+and a good one. Instead of wasting time worrying about stuff, just `rollback`
 your Heroku application, and casually debug your application looking for the
 problems.
 
