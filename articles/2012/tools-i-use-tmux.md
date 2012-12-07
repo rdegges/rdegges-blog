@@ -149,7 +149,7 @@ earlier last year. I'd highly recommend it to anyone who does a lot of terminal
 work.
 
 -   [The main tmux website.][tmux]
--   **man tmux** - has great information and is highly readable.
+-   `man tmux` - has great information and is highly readable.
 -   [tmux crash course][], a really great introduction to using tmux.
 -   [tmux][tmux blog series], a series of blog posts explaining tmux in depth. A great read.
 
