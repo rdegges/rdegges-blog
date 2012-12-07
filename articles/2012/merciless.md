@@ -1,10 +1,11 @@
-Title: Merciless
-Date: 2012-02-26 22:07
 Author: Randall Degges
-Tags: personaldevelopment
+Date: 2012-02-26 22:07
+Slug: merciless
+Tags: personal development
+Title: Merciless
 
 
-![Berserk][]
+![Guts][]
 
 I've been working on myself a lot the past few years. I've been trying to become
 stronger, faster, smarter, more honest, and better (overall). The process of
@@ -20,8 +21,8 @@ that regardless of whether I'm working out, writing software, writing articles
 push myself to my limits (and beyond) to make what I'm currently working on
 successful.
 
-This voice tells me that there is no middle ground--there is only [absolute
-victory][], or absolute failure. It tells me that no matter what the
+This voice tells me that there is no middle ground--there is only
+[absolute victory][], or absolute failure. It tells me that no matter what the
 consequence, whether it be fatigue, injury, or even death--that I ***must*** do
 it. Live with pain, or live with regret.
 
@@ -44,7 +45,7 @@ way that I don't fulfilling.
 
 For the remainder of this year, I'm going to try something completely different.
 I'm going to let go of all my fears, worries, and previous knowledge--and I'm
-going to live the way that voice tells me to. I'm going to *live **mercilessly*.
+going to live the way that voice tells me to. I'm going to *live mercilessly*.
 
 Instead of worrying about myself, I'm going to push myself as hard as I can. I'm
 going to exercise harder, eat healthier, work with more focus, and build the
@@ -76,5 +77,5 @@ So here goes nothing.
 Into the darkness we go.
 
 
-  [Berserk]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2012-02-18/sjIczFItFDiwIcEECkfwyAspiblsGEwDmAngrskaeECnssjfJmEHEjFbHCnz/berserk.jpg.scaled696.jpg
-  [absolute victory]: http://rdegges.com/absolute-victory "Absolute Victory"
+  [Guts]: /static/images/2012/guts.png "Guts Sketch"
+  [absolute victory]: /absolute-victory "Absolute Victory"
