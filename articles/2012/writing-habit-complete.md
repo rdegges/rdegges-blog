@@ -70,6 +70,6 @@ comment.
 
 
   [Scroll]: /static/images/2012/scroll.png "Writing Scroll"
-  [writing habit]: http://rdegges.com/establishing-a-writing-habit "Establishing a Writing Habit"
-  [learned]: http://rdegges.com/what-ive-learned-about-writing-so-far "What I've Learned About Writing (So Far)"
-  [caffeine junkie]: http://rdegges.com/my-use-and-abuse-of-caffine "My Use and Abuse of Caffeine"
+  [writing habit]: /establishing-a-writing-habit "Establishing a Writing Habit"
+  [learned]: /what-ive-learned-about-writing-so-far "What I've Learned About Writing (So Far)"
+  [caffeine junkie]: /my-use-and-abuse-of-caffine "My Use and Abuse of Caffeine"
