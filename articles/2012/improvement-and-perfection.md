@@ -1,7 +1,7 @@
 Author: Randall Degges
-Date: 2012-11-26 15:25
+Date: 2012-11-25 02:29
 Slug: improvement-and-perfection
-Tags: travel
+Tags: philosophy
 Title: Improvement and Perfection
 
 
