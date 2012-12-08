@@ -1,7 +1,8 @@
-Title: New Habit - 100 Carbs
-Date: 2012-01-04 02:39
 Author: Randall Degges
-Tags: health, personaldevelopment
+Date: 2012-01-04 02:39
+Slug: new-habit-100-carbs
+Tags: health, personal development
+Title: New Habit - 100 Carbs
 
 
 Since finishing my [writing habit][], I decided to kick off the new year with a
@@ -17,7 +18,7 @@ When I first started dieting / exercising, I had no clue what I was doing. No
 clue whatsoever. I thought eating meat was bad for you and fat content in food
 was directly correlated to waist size. How wrong I was!
 
-After several months of eating nothing but vegetabls and breads, running till I
+After several months of eating nothing but vegetables and breads, running till I
 couldn't breathe, and struggling for every pound of weight lost, I began to
 actually research the whole process. I started reading numerous books on health,
 which foods are good for you, which foods are bad for you, etc.--eventually
