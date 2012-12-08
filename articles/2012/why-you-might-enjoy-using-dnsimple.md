@@ -66,7 +66,7 @@ wondering why I use ```www``` instead of naked domains, see [this article][]
 
 Below is a screen shot from one of my domains--you can see my URL record and how it forwards.
 
-![][]
+![DNSimple URL Forwarding][]
 
 
 ## SSL
@@ -139,6 +139,7 @@ Anyhow, if you'd like to give DNSimple a shot, create an account now:
   [Saturn]: /static/images/2012/saturn.png "Saturn Sketch"
   [DNSimple]: https://dnsimple.com/r/d9a8f0b92dfb78 "DNSimple"
   [this article]: https://devcenter.heroku.com/articles/avoiding-naked-domains-dns-arecords "Avoiding Naked Domains"
+  [DNSimple URL Forwarding]: /static/images/2012/dnsimple-url-forwarding.png "DNSimple URL Forwarding Screen Shot"
   [DNSimple SSL]: /static/images/2012/dnsimple-ssl.png "DNSimple SSL Screen Shot"
   [a guide you can follow]: https://devcenter.heroku.com/articles/ssl "Heroku SSL"
   [client libraries]: http://developer.dnsimple.com/libraries/ "DNSimple Client Libraries"
