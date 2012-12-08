@@ -28,14 +28,14 @@ DNS should be simple, and their interface reflects this.
 
 Below are some screen shots of my personal DNSimple account.
 
-![][]
-![][]
-![][]
-![][]
-![][]
-![][]
-![][]
-![][]
+![DNSimple Account][]
+![DNSimple Add Domain][]
+![DNSimple Apply Domain Template][]
+![DNSimple Contacts][]
+![DNSimple Domain Editor][]
+![DNSimple Domain Page][]
+![DNSimple Domains][]
+![DNSimple Templates][]
 
 I love their interface. Their UI is simple and elegant. You can easily register
 and transfer domains. You can easily update DNS records manually using their
@@ -139,6 +139,14 @@ Anyhow, if you'd like to give DNSimple a shot, create an account now:
   [Saturn]: /static/images/2012/saturn.png "Saturn Sketch"
   [DNSimple]: https://dnsimple.com/r/d9a8f0b92dfb78 "DNSimple"
   [this article]: https://devcenter.heroku.com/articles/avoiding-naked-domains-dns-arecords "Avoiding Naked Domains"
+  [DNSimple Account]: /static/images/2012/dnsimple-account.png "DNSimple Account Screen Shot"
+  [DNSimple Add Domain]: /static/images/2012/dnsimple-add-domain.png "DNSimple Add Domain Screen Shot"
+  [DNSimple Apply Domain Template]: /static/images/2012/dnsimple-apply-domain-template.png "DNSimple Apply Domain Template Screen Shot"
+  [DNSimple Contacts]: /static/images/2012/dnsimple-contacts.png "DNSimple Contacts Screen Shot"
+  [DNSimple Domain Editor]: /static/images/2012/dnsimple-domain-editor.png "DNSimple Domain Editor Screen Shot"
+  [DNSimple Domain Page]: /static/images/2012/dnsimple-domain-page.png "DNSimple Domain Page Screen Shot"
+  [DNSimple Domains]: /static/images/2012/dnsimple-domains.png "DNSimple Domains Screen Shot"
+  [DNSimple Templates]: /static/images/2012/dnsimple-templates.png "DNSimple Templates Screen Shot"
   [DNSimple URL Forwarding]: /static/images/2012/dnsimple-url-forwarding.png "DNSimple URL Forwarding Screen Shot"
   [DNSimple SSL]: /static/images/2012/dnsimple-ssl.png "DNSimple SSL Screen Shot"
   [a guide you can follow]: https://devcenter.heroku.com/articles/ssl "Heroku SSL"
