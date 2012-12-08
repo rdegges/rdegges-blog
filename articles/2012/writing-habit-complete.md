@@ -1,7 +1,8 @@
-Title: Writing Habit -- Complete
-Date: 2012-01-03 05:39
 Author: Randall Degges
-Tags: habits, personaldevelopment
+Date: 2012-01-03 05:39
+Slug: writing-habit-complete
+Tags: habits, personal development
+Title: Writing Habit - Complete
 
 
 ![Scroll][]
@@ -44,9 +45,9 @@ activities by friends, family, or work. Having a good time each day you can set
 aside to write may mean the difference between successfully building your
 writing habit, or failing.
 
-Take caffine before writing. Seriously. I've mentioned before that I'm a
+Take caffeine before writing. Seriously. I've mentioned before that I'm a
 [caffeine junkie][]. While I'm not particularly proud of my addiction, I've
-found that caffine makes a world of difference in my writing. It helps me focus,
+found that caffeine makes a world of difference in my writing. It helps me focus,
 and more importantly, makes me a lot more creative. Several times over the past
 few weeks I wrote in an uncaffeinated state, and during those times I seemed to
 mope along *at best*, accomplishing very little. I've found that while under the
@@ -68,7 +69,7 @@ anything you'd like to know, or if you have any questions--feel free to leave a
 comment.
 
 
-  [Scroll]: http://getfile7.posterous.com/getfile/files.posterous.com/temp-2012-01-02/mlshfogsBFkfrImdwcHHmxdiArwhezimyfktCjflevtCHrDFxhienGGJFFud/scroll.jpg.scaled696.jpg
+  [Scroll]: /static/images/2012/scroll.png "Writing Scroll"
   [writing habit]: http://rdegges.com/establishing-a-writing-habit "Establishing a Writing Habit"
   [learned]: http://rdegges.com/what-ive-learned-about-writing-so-far "What I've Learned About Writing (So Far)"
   [caffeine junkie]: http://rdegges.com/my-use-and-abuse-of-caffine "My Use and Abuse of Caffeine"
