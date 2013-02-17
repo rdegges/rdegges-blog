@@ -14,7 +14,7 @@ very enthusiastic about it), and that my previous experiences with version
 control systems (VCS) were horrible. Naturally, I wanted to give it a try, and
 get back to the best-practices way of doing things (using a VCS).
 
-When I first learned about VCSs, pretty much everyone used SVN or CVS. When I
+When I first learned about VCS, pretty much everyone used SVN or CVS. When I
 researched them both, there was no doubt in my mind that SVN was clearly the
 most popular, and so that’s what I decided to learn. I started using SVN for all
 of my code (most of it was hosted on SourceForge at some point or another), and
