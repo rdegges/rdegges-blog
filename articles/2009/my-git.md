@@ -16,7 +16,7 @@ get back to the best-practices way of doing things (using a VCS).
 
 When I first learned about VCS, pretty much everyone used SVN or CVS. When I
 researched them both, there was no doubt in my mind that SVN was clearly the
-most popular, and so that’s what I decided to learn. I started using SVN for all
+most popular, and so that's what I decided to learn. I started using SVN for all
 of my code (most of it was hosted on SourceForge at some point or another), and
 learned it well enough to push periodic updates to my projects and do basic
 collaboration with a few other people.
@@ -28,7 +28,7 @@ commit for a release, something that is definitely frowned upon, and completely
 nullifies any benefits that you get from using a VCS in the first place! To make
 the situation even worse: at the time, a good portion of the code I was writing
 was offline. This meant that I was unable to make commits when working on my
-code, as without an internet connection I couldn’t connect to the remote
+code, as without an internet connection I couldn't connect to the remote
 repository.
 
 Using SVN also imposed limits on my work with others. A lot of the projects I
@@ -73,18 +73,18 @@ will be as flexible as I am.
 Git is fully distributed, so no matter where I am or how many people are working
 on a project, I always have complete access to all revisions of the source.
 There are no file deltas (Git stores the entire file), and I can instantly see
-what the source looked like at any given time in the project’s history whether
-I’m online or offline. This gives me the flexibility to get work done wherever I
+what the source looked like at any given time in the project's history whether
+I'm online or offline. This gives me the flexibility to get work done wherever I
 am, whether it be on a plane, at the beach, or in the park. When you perform
 commits in Git, the files are checked into your local repository. Once you have
 internet access, you can push to your remote repository and add your full
 history straight into the project as if you were online the entire time.
 
-Git also makes collaboration a simple process. I don’t have to manage a Git
+Git also makes collaboration a simple process. I don't have to manage a Git
 database and allow access to certain users: when someone makes a patch or adds
 code, they can simply link me to their Git repository, and I can merge it into
 the project at my leisure. This has the added benefit of being able to see all
-of the source contributer’s history in my project once I have merged the
+of the source contributor's history in my project once I have merged the
 branches together. This makes working with other people extremely easy and
 reduces the hassle of managing a large monolithic SVN repository.
 
@@ -103,22 +103,22 @@ users, developers, and people exploring the site.
 The GitHub source viewer is nice as well. It lets you browse the entire history
 of the project, you can see a full snapshot of exactly what the source looked
 like at any given time. It also allows you to get a direct permalink to any
-particular source file from any revision in the project’s history. This is
+particular source file from any revision in the project's history. This is
 extremely useful for source review and any sort of online publishing /
 collaboration tools.
 
 One of my favorite GitHub features is the ability to instantly ‘fork’ a project.
 Forking a project is extremely easy, simply click the ‘fork’ button on the
-project you’d like to fork. GitHub will instantly copy the projects source /
+project you'd like to fork. GitHub will instantly copy the projects source /
 history to your account, and automatically create your own Git repository for
 the project which you can change and modify all you like. This is very useful,
-as if you see a project you’d like to make a patch for, you can fork it, make
+as if you see a project you'd like to make a patch for, you can fork it, make
 the patch, and link the real project owner to your forked repository, where they
-can then merge in your changes! It’s also useful for people who just want to
-make their own modifications to a project. GitHub’s forking provides an elegant
+can then merge in your changes! It's also useful for people who just want to
+make their own modifications to a project. GitHub's forking provides an elegant
 solution to a common problem.
 
-Yet another nice feature of GitHub is it’s social networking type feel. Every
+Yet another nice feature of GitHub is it's social networking type feel. Every
 account can ‘watch projects’, send private messages, add and remove friends, and
 get instant updates when your friends add / remove code to their projects.
 GitHub is also releasing a resume searching tool on their site at some point in
@@ -132,7 +132,7 @@ system for gathering project stats, and a language browsing feature which makes
 finding new projects in your favorite programming languages fun.
 
 Since learning Git, and discovering all the nice features that it offers (in
-addition to the general awesomeness of GitHub), I think that I’ve definitely
+addition to the general awesomeness of GitHub), I think that I've definitely
 become a better programmer. Git has helped me remedy my bad habits by making the
 committing and merging systems thoughtless, and has given me the ability to
 really get the most out of my coding experiences. Git has also made running an
