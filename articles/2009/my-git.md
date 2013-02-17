@@ -41,7 +41,7 @@ difficult.
 The other large issue I had (and still have) with SVN is that there are no good
 project hosting websites out there which meet my needs. SourceForge, which is
 probably the largest and most popular SVN project hosting site is slow, filled
-with ads, and has an un-intuitive interface. It also requires approval for every
+with ads, and has an unintuitive interface. It also requires approval for every
 project which can sometimes take hours. What I want in a project hosting site is
 something that:
 
