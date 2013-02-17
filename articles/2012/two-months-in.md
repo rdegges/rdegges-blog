@@ -1,18 +1,20 @@
-Author: Randall Degges
-Date: 2012-08-23 04:08
-Slug: two-months-in
-Tags: programming, startups
-Title: Two Months In
+# Randall Degges
 
+## This is an archived post This is an archived post
 
-![Samurai Thinking][]
+[Previous][]   [Index][]   [Next][]
+
+### Two Months In
+
+August 22 2012, 9:08 PM  by Randall Degges
+
+![][]
 
 Approximately two months ago, I started working on my [startup][] full-time.
 More than anything, I wanted to get some of these ideas out of my head so I have
 something to look back at later.
 
-
-## Chaos is Best
+Chaos is Best
 
 Most software companies tend to operate by having a very specific goal, and
 having a group of engineers work towards that goal (with management checking up
@@ -38,7 +40,7 @@ smaller amount of time.
 
 Sure, it isn't always the most convenient thing to do, but it seems to
 consistently pay off. I'm willing to bet that one of the primary reasons
-companies like [GitHub][] and [37 Signals][] are so successful is that they have
+companies like [Github][] and [37 Signals][] are so successful is that they have
 a chaotic workplace.
 
 A couple of weeks ago I was in the middle of a massive project: writing parsing
@@ -57,8 +59,7 @@ learned that no matter what I do, as long as I give it my all, it's a hell of a
 lot more effective than forcing myself to work on something I'm just not
 *feeling*.
 
-
-## Time Changes
+Time Changes
 
 Two months doesn't really sound like a long time. Looking back, however, two
 months seems like a lifetime.
@@ -76,11 +77,10 @@ it. I'll integrate billing for it. Then I'll work on the next product as well."
 
 I never imagined that in two months I'd be able to accomplish so much stuff.
 
-
-## APIs Are My Passion
+APIs Are My Passion
 
 I've always loved APIs and API companies. I love writing code that uses APIs
-(like [Twilio][], [Tropo][], [GitHub][GitHub], etc.)
+(like [Twilio][], [Tropo][], [Github][1], etc.)
 
 More than anything, however, I love writing APIs. I *really* love it.
 
@@ -103,8 +103,9 @@ want to just list some points:
 Hang out with cool programmers, write cool apps, and make some money along the
 way? *Awesome.*
 
+Do More Stuff With the Wife
 
-## Do More Stuff With the Wife
+ 
 
 After the first week or so of working on my company full-time, I realized I was
 spending a majority of my time hacking, and not enough time with my wife. Since
@@ -116,8 +117,9 @@ movies--we've ended up spending a ton of time together. Not only has this been
 really fun (my wife is awesome), but it's been a bonding activity for the both
 of us, and our marriage has been really great.
 
+ 
 
-## Relaxing Means Relax
+Relaxing Means Relax
 
 I'm not very good at relaxing. Even when I watch movies I'll usually have my
 laptop open writing code, sending email, or browsing [Hacker News][].
@@ -136,8 +138,7 @@ actually feel refreshed, not depleted.
 While this concept is stupidly obvious, I really need to keep it in mind so I
 don't go back to my old ways.
 
-
-## Having Fun Is Easy
+Having Fun Is Easy
 
 Having fun is easy if you *focus* on what you're doing.
 
@@ -152,8 +153,7 @@ moment to realize how fun each little item can be, and focusing on it completely
 for a small chunk of time is an incredibly great way to get into the zone, have
 fun, and feel good.
 
-
-## Overall
+Overall
 
 Those are all my thoughts for now. I'm sure in a few months I'll have a lot
 more. 
@@ -161,14 +161,49 @@ more. 
 Overall, the past two months have been pretty epic. I've had a lot of fun,
 gotten a bunch of stuff done, and had a ton of fun along the way.
 
+#### Tags
 
-  [Samurai Thinking]: /static/images/2012/samurai_thinking.png "Samurai Thinking Sketch"
+programming, startup
+
+#### 3200 views and 2 responses
+
+-   Aug 23 2012, 12:30 AM
+
+    stef responded:
+
+    Nice blog post + thanks for sharing. Are you actively using the Pomodoro
+    technique? I started using it this month and am pretty happy with it. In
+    case you have not known this site yet, that's the one I use and so far can
+    happily recommend: [http://tomato.es/][]
+
+    Keep it up! Looking forward to more posts from you and your startup
+    adventures. Hope I'll be able to use one of your APIs sooner or later!
+
+-   Aug 23 2012, 12:30 AM
+
+    stef responded:
+
+    Nice blog post + thanks for sharing. Are you actively using the Pomodoro
+    technique? I started using it this month and am pretty happy with it. In
+    case you have not known this site yet, that's the one I use and so far can
+    happily recommend: [http://tomato.es/][]
+
+    Keep it up! Looking forward to more posts from you and your startup
+    adventures. Hope I'll be able to use one of your APIs sooner or later!
+
+  [Previous]: ../../../posts/2012/08/service-oriented-hacking-issues.html
+  [Index]: ../../../index-2.html
+  [Next]: ../../../posts/2012/07/service-oriented-development.html
+  []: ../../../image/2012/08/43894947-warrior.jpg
   [startup]: https://www.telephonyresearch.com/ "Telephony Research"
-  [GitHub]: https://github.com/ "GitHub"
-  [37 Signals]: http://37signals.com/ "37 Signals"
-  [tnapi]: http://tnapi.com/ "tnAPI - A Simple Telephony Data API"
+  [Github]: https://github.com/
+  [37 Signals]: http://37signals.com/
+  [tnapi]: http://tnapi.com/ "tnAPI - A simple telephony data API."
   [open source projects]: https://github.com/rdegges "My Github"
   [Twilio]: http://www.twilio.com/ "Twilio"
   [Tropo]: https://www.tropo.com/home.jsp "Tropo"
+  [1]: https://github.com/ "Github"
   [Hacker News]: http://news.ycombinator.com/ "Hacker News"
-  [The Pomodoro Technique]: http://www.amazon.com/gp/product/1934356506/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1934356506&linkCode=as2&tag=rdegges-20 "The Pomodoro Technique"
+  [The Pomodoro Technique]: http://www.amazon.com/gp/product/1934356506/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1934356506&linkCode=as2&tag=rdegges-20
+    "The Pomodoro Technique"
+  [http://tomato.es/]: http://tomato.es/

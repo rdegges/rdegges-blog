@@ -1,8 +1,12 @@
-Title: The Time I Accidentally Destroyed a Production Server
-Date: 2011-04-29 22:08
-Author: Randall Degges
-Tags: programming
+# Randall Degges
 
+## This is an archived post This is an archived post
+
+[Previous][]   [Index][]   [Next][]
+
+### The Time I Accidentally Destroyed a Production Server
+
+April 29 2011, 3:08 PM  by Randall Degges
 
 Over the past few years or so, I've learned a lot about software in professional
 settings. I learned that software development is not always all it's cut out to
@@ -13,8 +17,7 @@ curse words.
 Here's a story I've been saving up for a while. It's a tale of the time I
 accidentally destroyed a production server. I hope you enjoy it :)
 
-
-## What I Did
+What I Did
 
 When I first came on board at BTS over year ago, I was working on production
 servers. We didn't have any development or staging environments set up at the
@@ -72,8 +75,7 @@ To my amazement, *it fucking works*. We're back online, logging calls, and no
 data was lost. I then duplicate the working setup to r1, make tons of backups of
 my configs, then get rid of the old freeradius server.
 
-
-## What I Learned
+What I Learned
 
 -   No matter what, you always, **always** need to have a proper development
     environment. If you don't, you're committing suicide.
@@ -93,8 +95,31 @@ against future problems like this. However, I'll still never forget the
 incredibly horrible sinking feeling in my stomach when I ran that update
 command.
 
+#### Tags
 
+programming
+
+#### 14251 views and 1 response
+
+-   Apr 30 2011, 8:46 PM
+
+    Javin Paul (Facebook) responded:
+
+    you are brave man :) Production environment is always most critical and I
+    avoid toughing it unit its absolutely necessary just because of human
+    careless nature imagine you have two putty window opened is test and other
+    is production and you run remove command in production while you thinking
+    you are running it on stage. this can quite possible and happened so just
+    avoid touching production and if necessary be careful.
+
+    Javin\
+     [10 tips on using find command in Unix][]
+
+  [Previous]: ../../../posts/2011/04/the-perfect-django-settings-file.html
+  [Index]: ../../../index-5.html
+  [Next]: ../../../posts/2011/04/2011-yearly-goals-update-1.html
   [freeradius]: http://freeradius.org/ "FreeRADIUS"
   [rackspace]: http://www.rackspace.com/index.php "rackspace"
   [puppet]: http://www.puppetlabs.com/ "puppet"
   [monit]: http://mmonit.com/monit/ "monit"
+  [10 tips on using find command in Unix]: http://javarevisited.blogspot.com/2011/03/10-find-command-in-unix-examples-basic.html

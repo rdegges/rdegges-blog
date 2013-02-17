@@ -1,8 +1,12 @@
-Title: I Want to Be a Renaissance Man
-Date: 2011-05-31 06:03
-Author: Randall Degges
-Tags: personaldevelopment
+# Randall Degges
 
+## This is an archived post This is an archived post
+
+[Previous][]   [Index][]   [Next][]
+
+### I Want to Be a Renaissance Man
+
+May 30 2011, 11:03 PM  by Randall Degges
 
 Throughout my life, I've been extremely interested in several different things:
 
@@ -57,6 +61,28 @@ everything there is to know.
 As I begin to build my new life, I'll be sure to write about it. The adventures
 are just beginning!
 
+ 
 
+#### Tags
+
+personaldevelopment
+
+#### 896 views and 1 response
+
+-   Jun 6 2011, 2:22 PM
+
+    xpn-security responded:
+
+    I love this article, I can relate to so much, especially the '1 hour
+    limitation' on computer time as a kid - That's how I first learnt about BIOS
+    password crackers, and how to pop the battery off the motherboard to reset
+    CMOS :D.
+
+    Great stuff.
+
+  [Previous]: ../../../posts/2011/06/simplifying-my-jenkins-workflow.html
+  [Index]: ../../../index-5.html
+  [Next]: ../../../posts/2011/05/rebranding.html
   [Wolfenstein 3D]: http://en.wikipedia.org/wiki/Wolfenstein_3D "Wolfenstein 3D"
-  [one-time pad]: http://en.wikipedia.org/wiki/One-time_pad "one-time pad encryption"
+  [one-time pad]: http://en.wikipedia.org/wiki/One-time_pad
+    "one-time pad encryption"

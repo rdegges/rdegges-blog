@@ -1,11 +1,14 @@
-Author: Randall Degges
-Date: 2012-10-04 23:12
-Slug: dont-panic-frustration-is-an-anti-pattern
-Tags: personal development, philosophy, programming
-Title: Don't Panic! Frustration is an Anti-Pattern
+# Randall Degges
 
+## This is an archived post This is an archived post
 
-![Frustration][]
+[Previous][]   [Index][]   [Next][]
+
+### Don't Panic! Frustration is an Anti-Pattern
+
+October 4 2012, 4:12 PM  by Randall Degges
+
+![][]
 
 Frustration and programming seem to go hand in hand. When solving problems with
 code, there are an unlimited amount of things that can go wrong, and very few
@@ -36,7 +39,7 @@ the workplace, this manifests as a boss pressuring his subordinates when they're
 in a tight spot, adding to the frustration and intensity of the whole
 organization--and delivery subpar results.
 
-There is no way to stop yourself from being frustrated. Instead, however, you
+There is no way to stop yourself from being frustated. Instead, however, you
 can consciously make a decision to acknowledge your frustration (that broken
 third party library, your reverted bugfix, whatever), realize that your
 frustration isn't helping you make progress, and let it go.
@@ -46,5 +49,16 @@ that broken library) without compromising your sanity.
 
 Just *let it go*.
 
+#### Tags
 
-  [Frustration]: /static/images/2012/frustrated_warrior.png "Frustrated Warrior Sketch"
+programming, personaldevelopment, philosophy
+
+#### 1010 views and 1 response
+
+-   Oct 6 2012, 1:42 AM
+    yprez liked this post.
+
+  [Previous]: ../../../posts/2012/10/no-regrets.html
+  [Index]: ../../../index-2.html
+  [Next]: ../../../posts/2012/10/dangerous-people.html
+  []: ../../../image/2012/10/44889657-frustration.gif

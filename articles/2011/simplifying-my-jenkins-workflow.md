@@ -1,8 +1,12 @@
-Title: Simplifying My Jenkins Workflow
-Date: 2011-06-01 21:37
-Author: Randall Degges
-Tags: devops
+# Randall Degges
 
+## This is an archived post This is an archived post
+
+[Previous][]   [Index][]   [Next][]
+
+### Simplifying My Jenkins Workflow
+
+June 1 2011, 2:37 PM  by Randall Degges
 
 Up until recently, my [Jenkins][] workflow has been tedious. It typically went
 something like:
@@ -13,7 +17,7 @@ something like:
 4.  Watch my Jenkins deploy fail, as I forgot to accept my new server's SSH
     identity manually.
 5.  Log into my Jenkins server as the jenkins user.
-6.  Run 'ssh <new_server_ip>', and accept the stupid identity.
+6.  Run 'ssh \<new\_server\_ip\>', and accept the stupid identity.
 
 At work, we're constantly building out new servers--sometimes, automatically.
 And Jenkins is a critical part of our infrastructure. We use it to build, test,
@@ -32,15 +36,14 @@ This is where the problems happen--since we haven't manually verified the
 identitiy of our new server, our Jenkins box will just start failing builds
 since it won't SSH into a server before accepting the identity.
 
-
-## The Fix
+The Fix
 
 To remove the hassle of manually accepting each server's identity, we recently
 decided to do away with the identity check all together to make our lives
 easier. This solution may not work for everyone (especially if security is a
 real concern for your team), but for us it works great!
 
-Just modify your **/etc/ssh/sshd_config** file and change
+Just modify your **/etc/ssh/sshd\_config** file and change
 
 **ChallengeResponseAuthentication yes**
 
@@ -53,6 +56,14 @@ when ssh'ing into an unknown server. This is great for us, since we're
 constantly building out new servers automatically, and we're willing to accept
 the associated risk.
 
+#### Tags
 
+devops
+
+#### 1262 views and 0 responses
+
+  [Previous]: ../../../posts/2011/06/enjoying-the-grind.html
+  [Index]: ../../../index-5.html
+  [Next]: ../../../posts/2011/05/i-want-to-be-a-renaissance-man.html
   [Jenkins]: http://jenkins-ci.org/ "Jenkins"
   [puppet]: http://www.puppetlabs.com/ "puppet"

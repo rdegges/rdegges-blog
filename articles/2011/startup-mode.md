@@ -1,8 +1,12 @@
-Title: Startup Mode
-Date: 2011-01-07 00:13
-Author: Randall Degges
-Tags: programming, startup
+# Randall Degges
 
+## This is an archived post This is an archived post
+
+[Index][]   [Next][]
+
+### Startup Mode
+
+January 6 2011, 4:13 PM  by Randall Degges
 
 Yesterday I got some exciting news. Very exciting. My company is going to be
 doing some massive, explosive expansion over the next 90 days. How expansive?
@@ -13,8 +17,7 @@ time.
 We're going to do a sprint. The most epic sprint I've ever done. All or nothing,
 win or go home. I'm going into startup mode.
 
-
-## The Story
+The Story
 
 I work for a telecommunications company. We do a wide variety of stuff, one of
 our largest services being free to use conference lines. This project is
@@ -30,8 +33,7 @@ give us almost unlimited capacity, but at a cost: we must increase our service
 usage substantially in the first two months. So--that's exactly what we're going
 to do.
 
-
-## The Challenge
+The Challenge
 
 This challenge is interesting from a technical standpoint. In order to support
 10x as many users, we need to update our infrastructure, and in order to keep
@@ -43,8 +45,7 @@ updates to my blog (you're reading it now), which contain the challenges we're
 facing technically, and how we resolve them. Telephony is pretty interesting
 stuff, when you get down to it.
 
-
-## The Technology
+The Technology
 
 Our tech stack is pretty widely varied right now. There are a LOT of things that
 still need to get implemented and fixed, but here's the tools and tech we use to
@@ -103,13 +104,20 @@ day-to-day basis), but that is at least a good portion of it. At least half of
 our tech stack needs significant improvements over the next 90 days, so that's
 where all the action will be.
 
-## Updates
+Updates
 
 As I mentioned before, I'll be updating my blog much more regularly over the
 next 90 days, in order to share our insights, and help clarify my own thoughts
 :) And as usual, if you have any recommendations of your own, please share them!
 
+#### Tags
 
+programming, startup
+
+#### 68859 views and 0 responses
+
+  [Index]: ../../../index-6.html
+  [Next]: ../../../posts/2011/01/tracking-call-data-with-django-tropo.html
   [MySQL]: http://en.wikipedia.org/wiki/MySQL
   [PostgreSQL]: http://www.postgresql.org/
   [python]: http://python.org/

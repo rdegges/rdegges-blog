@@ -1,10 +1,14 @@
-Title: My "Done" List
-Date: 2011-12-25 08:08
-Author: Randall Degges
-Tags: programming
+# Randall Degges
 
+## This is an archived post This is an archived post
 
-![Code_wolf][]
+[Previous][]   [Index][]   [Next][]
+
+### My "Done" List
+
+December 25 2011, 12:08 AM  by Randall Degges
+
+![][]
 
 I really enjoy thinking and writing about programming. Since I started writing
 code years ago, I've been obsessed with code quality and best practices--and I
@@ -19,8 +23,7 @@ quite stupid writing this; however, since this has made such a large impact on
 my code quality and programming mentality, I figured I would share it despite my
 shame.
 
-
-## Have a "Done" List
+Have a "Done" List
 
 One of the greatest productivity tricks I've learned has been this: **always
 have a "done" list**.
@@ -51,7 +54,15 @@ requirements, I write much better code than I would otherwise.
 
 **Do you have a "done" list? If so, what's on it?**
 
+#### Tags
 
-  [Codewolf]: ./images/89413031-0-code_wolf.jpg.scaled696.jpg
+programming
+
+#### 2059 views and 0 responses
+
+  [Previous]: ../../../posts/2011/12/on-momentum.html
+  [Index]: ../../../index-4.html
+  [Next]: ../../../posts/2011/12/what-ive-learned-about-writing-so-far.html
+  []: ../../../image/2011/12/35960906-code_wolf.jpg
   [GitHub]: https://github.com/ "GitHub"
   [sprintly]: http://sprint.ly/ "sprintly"

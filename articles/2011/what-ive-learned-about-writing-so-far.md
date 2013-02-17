@@ -1,8 +1,12 @@
-Title: What I've Learned About Writing (So Far)
-Date: 2011-12-20 06:23
-Author: Randall Degges
-Tags: personaldevelopment
+# Randall Degges
 
+## This is an archived post This is an archived post
+
+[Previous][]   [Index][]   [Next][]
+
+### What I've Learned About Writing (So Far)
+
+December 19 2011, 10:23 PM  by Randall Degges
 
 As I mentioned a few days ago, I've been working on establishing a [writing
 habit][] in my daily life. Today marks the 10th continual day, since starting,
@@ -11,8 +15,7 @@ that I've been writing for at least 30 minutes a day.
 I figured now would be a good time to reflect on what I've learned so far. Above
 all else, what I've learned so far is that
 
-
-## Practice Works
+Practice Works
 
 I've read numerous books on skill building, including one of my all time
 favorites, [Talent is Overrated][] (affiliate link). The book discusses how
@@ -47,8 +50,7 @@ Since I've started writing daily, I've been able to simply type what I'm
 thinking, gradually refining it. This feels great. It feels like the shackles
 that have held me back from expressing my thoughts are beginning to loosen.
 
-
-## Goals
+Goals
 
 I don't have any specific goals in regards to my writing at the moment. At least
 for a while, I'd like to simply continue writing for 30 minutes each day, and
@@ -59,6 +61,31 @@ I'm hoping that as I practice writing more and more, it will become more natural
 for me, and I'll be able to experience a greater feeling of relief and happiness
 while writing.
 
+#### Tags
 
-  [writing habit]: http://rdegges.com/establishing-a-writing-habit "Establishing a Writing Habit"
-  [Talent is Overrated]: http://www.amazon.com/gp/product/1591842247/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1591842247 "Talent is Overrated (amazon)"
+personaldevelopment
+
+#### 1981 views and 2 responses
+
+-   Dec 21 2011, 6:11 PM
+    frek818 (Twitter) responded:
+    What do you write about every day? Are you adding on to the same piece of
+    work every day or knocking out a complete blog entry?
+-   Dec 21 2011, 6:29 PM
+
+    Randall Degges responded:
+
+    I have nothing specific at the moment. I've spent a majority of my days so
+    far working on the series, DevOps Django--however, I've also done some other
+    stuff as well that isn't published.
+
+    I'm not trying to finish something each day, just forcing myself to do it
+    for 30 minutes.
+
+  [Previous]: ../../../posts/2011/12/my-done-list.html
+  [Index]: ../../../index-4.html
+  [Next]: ../../../posts/2011/12/devops-django-part-3-the-heroku-way.html
+  [writing habit]: http://rdegges.com/establishing-a-writing-habit
+    "Establishing a Writing Habit"
+  [Talent is Overrated]: http://www.amazon.com/gp/product/1591842247/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1591842247
+    "Talent is Overrated (amazon)"

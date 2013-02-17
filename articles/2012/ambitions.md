@@ -1,11 +1,14 @@
-Author: Randall Degges
-Date: 2012-11-20 23:22
-Slug: ambitions
-Tags: philosophy
-Title: Ambitions
+# Randall Degges
 
+## This is an archived post This is an archived post
 
-![Old Man][]
+[Previous][]   [Index][]   [Next][]
+
+### Ambitions
+
+November 13 2012, 1:20 AM  by Randall Degges
+
+![][]
 
 It's about 1am right now, and instead of sleeping I'm thinking about all the
 things I want to accomplish, and what I need to do to get there.
@@ -19,10 +22,10 @@ achievements--more *everything*. Unfortunately, when I think about these things
 (which I do quite often), I can't help but feel a bit guilty.
 
 Internally, there's always a debate that takes place. One side of me says
-"*You're happy with what you're currently doing. Don't constantly focus on
-always doing bigger, better things! Be content with yourself now!*" While the
-other side says "*Go big! Don't settle for your current situation. Be happy with
-yourself, but push yourself outside your limits, and don't yield!*"
+"You're happy with what you're currently doing. Don't constantly focus on always
+doing bigger, better things! Be content with yourself *now*!" While the other
+side says "Go big! Don't settle for your current situation. Be happy with
+yourself, but push yourself outside your limits, and don't yield!"
 
 It's a struggle.
 
@@ -40,5 +43,31 @@ romantic.
 It's a fork in the road--but I suppose everyone has to choose at one point or
 another.
 
+#### Tags
 
-  [Old Man]: /static/images/2012/old-man.png "Old Man Sketch"
+philosophy
+
+#### 1115 views and 3 responses
+
+-   Nov 13 2012, 6:20 AM
+    Shrutarshi Basu responded:
+    I don't think everyone has this problem, but most people who strive to be
+    better tomorrow than they were today, do face this problem. And you are not
+    alone. Personally I think it's alright to always push yourself, take a step
+    forward as long as you are aware of where you are right and can appreciate
+    your current position. Personally I've found that taking regular breaks
+    help. I spend the day pushing myself and getting better and then in the
+    evenings I relax. I read a book, watch some TV, cook some food, hang out
+    with friends, take the time to appreciate what I did today and recharge the
+    batteries for tomorrow. And in the morning I start the fight again, fully
+    refreshed.
+-   Nov 16 2012, 5:37 AM
+    marcel s liked this post.
+-   Jan 31 2013, 12:49 PM
+    NItish responded:
+    I have always felt this way. The post reassures and somehow validates me. :)
+
+  [Previous]: ../../../posts/2012/11/absolutely-killing-it.html
+  [Index]: ../../../index.html
+  [Next]: ../../../posts/2012/10/too-short.html
+  []: ../../../image/2012/11/45758511-old_man.jpg

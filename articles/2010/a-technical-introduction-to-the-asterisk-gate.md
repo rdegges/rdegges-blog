@@ -1,9 +1,12 @@
-Author: Randall Degges
-Date: 2010-02-17 04:00
-Slug: a-technical-introduction-to-the-asterisk-gateway-interface
-Tags: agi, programming, asterisk
-Title: A Technical Introduction to the Asterisk Gateway Interface (AGI)
+# Randall Degges
 
+## This is an archived post This is an archived post
+
+[Previous][]   [Index][]   [Next][]
+
+### A Technical Introduction to the Asterisk Gateway Interface (AGI)
+
+February 16 2010, 8:00 PM  by Randall Degges
 
 The Asterisk Gateway Interface, commonly referred to as [AGI][], is a
 language-independent API for processing calls. It allows programmers to write
@@ -19,17 +22,16 @@ not a full programming reference, and will not explain how to write AGI
 programs, it will merely teach you what the AGI provides and how to use it
 high-level.
 
-
 ## Why Use AGI?
 
 One question that arises frequently is Why do I need to use AGI? This is a great
 question, worth discussing. Asterisk provides several ways to perform call
 logic, namely dial plan, AMI, and AGI.
 
-[Dial plan][] is Asterisk's native scripting language which is parsed by
+[Dial plan][] is Asterisk’s native scripting language which is parsed by
 Asterisk and stored in memory to use for performing call logic. Dial plan is
 quick, efficient, and easy to learn. There are, however, downsides associated
-with dial plan. It is very unsophisticated, and doesn't support standard
+with dial plan. It is very un-sophisticated, and doesn’t support standard
 procedural language constructs (like loops). This means that you will be doing
 mostly assembly type coding using Gotos and simple constructs. This makes
 writing large software tedious and difficult to maintain.
@@ -59,7 +61,6 @@ learning the Asterisk dial plan. It lets you build applications in whatever
 programming language you are comfortable with, which can rapidly decrease
 development time.
 
-
 ## The Four Types of AGI
 
 The AGI actually has four ways in which it can be used, each different from the
@@ -88,7 +89,6 @@ local machine using STDIN and STDOUT, and provides developers a way to access
 the audio channel directly for the calls being processed. This is rarely used,
 but gives developers a way to analyze raw audio data.
 
-
 ## How to Run an AGI Program
 
 When calls come into the Asterisk server, the dial plan rules process the call
@@ -97,13 +97,11 @@ processing the AGI program, you will need to use the Asterisk dial plan command
 AGI. Below is an extremely simple example dial plan which passes all calls to an
 AGI script for processing.
 
-```
-; This dial plan code passes all call processing to the call-processor.sh
-; shell script.
+    ; This dial plan code passes all call processing to the call-processor.sh
+    ; shell script.
 
-[incoming]
-exten => _X.,1,AGI(call-processor.sh)
-```
+    [incoming]
+    exten => _X.,1,AGI(call-processor.sh)
 
 By default, if no path is specified, Asterisk will look for the script, in this
 case `call-processor.sh`, in the directory `/var/lib/asterisk/agi-bin/`. This is
@@ -117,18 +115,17 @@ bit must be set on your program). You can do this by using the linux command
 
 The program must also be readable by Asterisk, this means that it must be in a
 public directory tree, or a tree that is owned by the user account under which
-Asterisk runs. Also, don't forget that your AGI program will be ran by Asterisk,
+Asterisk runs. Also, don’t forget that your AGI program will be ran by Asterisk,
 so permissions are necessary to plan out in advance. A common problem new
 Asterisk developers run into is that they will have their AGI programs write
 files to a system location, like `/etc/`, but Asterisk will be running in a
 restricted environment, so their programs will fail and they will not know why.
 
-
 ## Testing AGI Scripts (live)
 
 Running AGI scripts, as explained in the previous section is a simple task.
 Sometimes, however, debugging AGI scripts can be difficult and time consuming.
-Often, it is difficult to test AGI programs as you cannot simply 'print' output
+Often, it is difficult to test AGI programs as you cannot simply ‘print’ output
 to the screen as you normally would for debugging purposes. This section briefly
 covers using the Asterisk command line to watch and debug AGI applications live.
 
@@ -137,37 +134,35 @@ the shell. Once inside the CLI, run the agi set debug on command to enable
 verbose AGI output. This will come in handy when troubleshooting your programs.
 Below is an AGI debug of an AGI application which shows a wide array of
 information about my AGI application. Take a close look at this debug, and try
-to make sense of it. I'll explain what each bit means below.
+to make sense of it. I’ll explain what each bit means below.
 
-```
-AGI Tx >> agi_request: hello-world.sh
-AGI Tx >> agi_channel: SIP/flowroute-ac10d3c8
-AGI Tx >> agi_language: en
-AGI Tx >> agi_type: SIP
-AGI Tx >> agi_uniqueid: 1266365654.10672
-AGI Tx >> agi_version: 1.6.1.1
-AGI Tx >> agi_callerid:
-AGI Tx >> agi_calleridname: unknown
-AGI Tx >> agi_callingpres: 0
-AGI Tx >> agi_callingani2: 0
-AGI Tx >> agi_callington: 0
-AGI Tx >> agi_callingtns: 0
-AGI Tx >> agi_dnid:
-AGI Tx >> agi_rdnis: unknown
-AGI Tx >> agi_context: inbound
-AGI Tx >> agi_extension:
-AGI Tx >> agi_priority: 1
-AGI Tx >> agi_enhanced: 0.0
-AGI Tx >> agi_accountcode:
-AGI Tx >> agi_threadid: 1097206080
-AGI Tx >>
-AGI Rx << ANSWER
-AGI Tx >> 200 result=0
-AGI Rx << NOOP hello, world!
-AGI Tx >> 200 result=0
-AGI Rx << HANGUP
-AGI Tx >> 200 result=1
-```
+    AGI Tx >> agi_request: hello-world.sh
+    AGI Tx >> agi_channel: SIP/flowroute-ac10d3c8
+    AGI Tx >> agi_language: en
+    AGI Tx >> agi_type: SIP
+    AGI Tx >> agi_uniqueid: 1266365654.10672
+    AGI Tx >> agi_version: 1.6.1.1
+    AGI Tx >> agi_callerid:
+    AGI Tx >> agi_calleridname: unknown
+    AGI Tx >> agi_callingpres: 0
+    AGI Tx >> agi_callingani2: 0
+    AGI Tx >> agi_callington: 0
+    AGI Tx >> agi_callingtns: 0
+    AGI Tx >> agi_dnid:
+    AGI Tx >> agi_rdnis: unknown
+    AGI Tx >> agi_context: inbound
+    AGI Tx >> agi_extension:
+    AGI Tx >> agi_priority: 1
+    AGI Tx >> agi_enhanced: 0.0
+    AGI Tx >> agi_accountcode:
+    AGI Tx >> agi_threadid: 1097206080
+    AGI Tx >>
+    AGI Rx << ANSWER
+    AGI Tx >> 200 result=0
+    AGI Rx << NOOP hello, world!
+    AGI Tx >> 200 result=0
+    AGI Rx << HANGUP
+    AGI Tx >> 200 result=1
 
 Now, the first thing to note is that every line starts with the channel ID of
 the call, this way, calls can be traced even on very busy servers. If you have a
@@ -178,7 +173,7 @@ the command line.
 AGI applications send commands to Asterisk via STDOUT, and Asterisk sends data
 to your AGI programs via STDIN.
 
-After the channel ID, you'll see AGI followed by either `Tx` or `Rx`. Tx stands
+After the channel ID, you’ll see AGI followed by either `Tx` or `Rx`. Tx stands
 for transmit, and means that Asterisk is transmitting the following information
 into the STDIN buffer for your AGI program to use if it desires. Lines which
 begin with Rx (receive) display information that your AGI program is sending to
@@ -204,21 +199,18 @@ The next few lines are dialog between our AGI application and Asterisk. The Rx
 lines show AGI commands which were sent to Asterisk for processing, and the
 following Tx lines show Asterisk responses.
 
-
 ## AGI Hello World Application
 
-In the previous section, we looked at an AGI call log. Now let's examine the AGI
+In the previous section, we looked at an AGI call log. Now let’s examine the AGI
 application which ran and generated that call log. What follows is an extremely
 simple AGI application which simply outputs “hello, world!” to the AGI debug
 output.
 
-``` bash
-#!/bin/bash
+    #!/bin/bash
 
-echo "ANSWER"
-echo "NOOP hello, world!"
-echo "HANGUP"
-```
+    echo "ANSWER"
+    echo "NOOP hello, world!"
+    echo "HANGUP"
 
 This program completely disregards all of the variables that Asterisk passed
 into STDIN when it spawned a new thread for our AGI application, and only writes
@@ -237,25 +229,22 @@ understand what is happening, and make it work.
 One thing you may notice is that you may get some errors on the CLI while
 watching your program run. Usually they look something like this:
 
-```
-[Feb 16 19:14:15] ERROR[25770]: utils.c:1126 ast_carefulwrite: write()
-returned error: Broken pipe
-[Feb 16 19:14:15] ERROR[25770]: utils.c:1126 ast_carefulwrite: write()
-returned error: Broken pipe
-```
+    [Feb 16 19:14:15] ERROR[25770]: utils.c:1126 ast_carefulwrite: write()
+    returned error: Broken pipe
+    [Feb 16 19:14:15] ERROR[25770]: utils.c:1126 ast_carefulwrite: write()
+    returned error: Broken pipe
 
 Feel free to ignore those errors. Those are generated when your AGI application
 does not read in *all* data from STDIN before your program closes.
 
-In most real world applications, you'll want to read in Asterisk responses so
+In most real world applications, you’ll want to read in Asterisk responses so
 that you know whether or not your commands executed successfully, and can grab
 important information about the call being processed, but for this example, we
-don't care, so we didn't.
-
+don’t care, so we didn’t.
 
 ## Passing Arguments to Your AGI Application
 
-Now that you know how to write and use basic AGI scripts, let's get a little
+Now that you know how to write and use basic AGI scripts, let’s get a little
 more advanced. Many complex AGI applications may need more advanced data given
 to them than what Asterisk natively provides. Luckily, the Asterisk dial plan
 command AGI allows for us to pass up to 127 arguments to our AGI application.
@@ -264,11 +253,9 @@ This should be sufficient for most needs.
 To pass arguments from the dial plan to your AGI script, you can simply add them
 in a comma delimited list after your AGI application path is specified:
 
-```
-exten => s,1,AGI(hello-world.sh,arg1,arg2,arg3)
-```
+    exten => s,1,AGI(hello-world.sh,arg1,arg2,arg3)
 
-As you'll notice in the above example, I did not put spaces after each comma.
+As you’ll notice in the above example, I did not put spaces after each comma.
 That is because if you add spaces, Asterisk will interpret them literally and
 your program will receive the argument with a space character prepended to it.
 This may (or may not) be desirable, based on your application specifications.
@@ -278,57 +265,62 @@ argument list AND via the initial Asterisk variable list. Each programming
 language handles it differently. Here is an AGI log which shows our old
 `hello-world.sh` program being called with 3 arguments:
 
-```
-AGI Tx >> agi_request: hello-world.sh
-AGI Tx >> agi_channel: SIP/flowroute-ac10d3c8
-AGI Tx >> agi_language: en
-AGI Tx >> agi_type: SIP
-AGI Tx >> agi_uniqueid: 1266365654.10672
-AGI Tx >> agi_version: 1.6.1.1
-AGI Tx >> agi_callerid:
-AGI Tx >> agi_calleridname: unknown
-AGI Tx >> agi_callingpres: 0
-AGI Tx >> agi_callingani2: 0
-AGI Tx >> agi_callington: 0
-AGI Tx >> agi_callingtns: 0
-AGI Tx >> agi_dnid:
-AGI Tx >> agi_rdnis: unknown
-AGI Tx >> agi_context: inbound
-AGI Tx >> agi_extension:
-AGI Tx >> agi_priority: 1
-AGI Tx >> agi_enhanced: 0.0
-AGI Tx >> agi_accountcode:
-AGI Tx >> agi_threadid: 1097206080
-AGI Tx >> agi_arg_1: arg1
-AGI Tx >> agi_arg_2: arg2
-AGI Tx >> agi_arg_3: arg3
-AGI Tx >>
-AGI Rx << ANSWER
-AGI Tx >> 200 result=0
-AGI Rx << NOOP hello, world!
-AGI Tx >> 200 result=0
-AGI Rx << HANGUP
-AGI Tx >> 200 result=1
-```
+    AGI Tx >> agi_request: hello-world.sh
+    AGI Tx >> agi_channel: SIP/flowroute-ac10d3c8
+    AGI Tx >> agi_language: en
+    AGI Tx >> agi_type: SIP
+    AGI Tx >> agi_uniqueid: 1266365654.10672
+    AGI Tx >> agi_version: 1.6.1.1
+    AGI Tx >> agi_callerid:
+    AGI Tx >> agi_calleridname: unknown
+    AGI Tx >> agi_callingpres: 0
+    AGI Tx >> agi_callingani2: 0
+    AGI Tx >> agi_callington: 0
+    AGI Tx >> agi_callingtns: 0
+    AGI Tx >> agi_dnid:
+    AGI Tx >> agi_rdnis: unknown
+    AGI Tx >> agi_context: inbound
+    AGI Tx >> agi_extension:
+    AGI Tx >> agi_priority: 1
+    AGI Tx >> agi_enhanced: 0.0
+    AGI Tx >> agi_accountcode:
+    AGI Tx >> agi_threadid: 1097206080
+    AGI Tx >> agi_arg_1: arg1
+    AGI Tx >> agi_arg_2: arg2
+    AGI Tx >> agi_arg_3: arg3
+    AGI Tx >>
+    AGI Rx << ANSWER
+    AGI Tx >> 200 result=0
+    AGI Rx << NOOP hello, world!
+    AGI Tx >> 200 result=0
+    AGI Rx << HANGUP
+    AGI Tx >> 200 result=1
 
 As you can see, after the initial arguments have been passed, Asterisk simply
 adds a new line with for each additional argument passed to the AGI script. This
-makes reading in these variables easy and doesn't require any extra effort on
+makes reading in these variables easy and doesn’t require any extra effort on
 your part.
-
 
 ## Where to Get AGI Information
 
-Now that we've introduced and explained how AGI programs work, there is nothing
+Now that we’ve introduced and explained how AGI programs work, there is nothing
 left to do except start writing some for yourself. The definitive reference to
-AGI commands and functions can be found on [voip info's AGI page][AGI].
+AGI commands and functions can be found on [voip info’s AGI page][AGI].
 
-If you are comfortable with Asterisk dial plan, you'll easily pick up the AGI
+If you are comfortable with Asterisk dial plan, you’ll easily pick up the AGI
 commands. If you have no prior experience, then look for some references /
 examples in the voip info page as they have numerous examples and help
 available.
 
+#### Tags
 
+agi, programming, asterisk
+
+#### 4193 views and 0 responses
+
+  [Previous]: ../../../posts/2010/02/user-authentication-with-django.html
+  [Index]: ../../../index-7.html
+  [Next]: ../../../posts/2010/02/get-outside-0.html
   [AGI]: http://www.voip-info.org/wiki/view/Asterisk+AGI
   [Dial plan]: http://www.voip-info.org/tiki-index.php?page=Asterisk%20config%20extensions.conf
   [Asterisk Manager Interface]: http://www.voip-info.org/wiki/view/Asterisk+manager+API

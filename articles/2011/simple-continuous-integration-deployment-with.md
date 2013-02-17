@@ -1,8 +1,12 @@
-Title: Simple Continuous Integration / Deployment With Jenkins
-Date: 2011-04-11 06:00
-Author: Randall Degges
-Tags: programming, devops
+# Randall Degges
 
+## This is an archived post This is an archived post
+
+[Previous][]   [Index][]   [Next][]
+
+### Simple Continuous Integration / Deployment With Jenkins
+
+April 10 2011, 11:00 PM  by Randall Degges
 
 At work we rely heavily on continuous integration and deployment to help us
 deliver lots of code into production and staging environments quickly. In a
@@ -26,129 +30,29 @@ For the rest of this tutorial, I expect that you:
 -   Know what [continuous integration][] and continuous deployment are.
 -   Have some code to test deploy.
 
-
-## Step 1: Installing Jenkins
+Step 1: Installing Jenkins
 
 Installing jenkins is ridiculously easy on debian systems:
 
-~~~~ {.line_numbers}
-1
-2
-3
-4
-~~~~
-
-wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key
-add -
-
-sudo echo "deb http://pkg.jenkins-ci.org/debian binary/" >
-/etc/apt/sources.list.d/jenkins.list
-
-sudo aptitude -y update
-
-sudo aptitude -y install jenkins
+[https://gist.github.com/913089][]
 
 [][]Congratulations, you now have jenkins running! To visit your new jenkins
 instance, just visit [http://youserverip:8080/][]. If you want to update it, you
-can do so with the rest of the system (via `aptitude -y update; aptitude -y
-safe-upgrade`).
+can do so with the rest of the system (via \`aptitude -y update; aptitude -y
+safe-upgrade\`).
 
-
-## Step 2: Configure a HTTP Proxy With NGINX
+Step 2: Configure a HTTP Proxy With NGINX
 
 Since Jenkins by default runs on port 8080, I like setting up an HTTP proxy so
 to that I can access it on port 80. My weapon of choice for proxying is NGINX,
 so let's set that up now:
 
-~~~~ {.line_numbers}
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-~~~~
-
-sudo aptitude -y install nginx
-
-cd /etc/nginx/sites-available
-
-sudo rm default
-
-sudo cat > jenkins
-
-upstream app_server {
-
-    server 127.0.0.1:8080 fail_timeout=0;
-
-}
-
-
-
-server {
-
-    listen 80;
-
-    listen [::]:80 default ipv6only=on;
-
-    server_name ci.yourcompany.com;
-
-
-
-    location / {
-
-        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
-
-        proxy_set_header Host $http_host;
-
-        proxy_redirect off;
-
-
-
-        if (!-f $request_filename) {
-
-            proxy_pass http://app_server;
-
-            break;
-
-        }
-
-    }
-
-}
-
-^D # Hit CTRL + D to finish writing the file
-
-sudo ln -s /etc/nginx/sites-available/jenkins /etc/nginx/sites-enabled/
-
-sudo service nginx restart
+[https://gist.github.com/913102][]
 
 Now you should be able to visit [http://ci.yourcompany.com/][] and see your
 jenkins instance on the default HTTP port 80.
 
-
-## Step 3: Secure Jenkins
+Step 3: Secure Jenkins
 
 Jenkins has built-in user account management, which makes it easy to lock your
 interface down. Below, we'll create two accounts: *admin* and *rdegges*. *admin*
@@ -173,7 +77,7 @@ see how it works:
 
 If you did everything properly, your page should look something like this:
 
-[![Ss][]][]
+![][]
 
 Now that you've applied some rules, you need to actually create the two user
 accounts you supplied rules for. On the main jenkins page, click the **Create an
@@ -182,8 +86,7 @@ account** link, and create two accounts--one for **admin**, and one for
 permissions you supplied earlier. If you want to change permissions, just log in
 as the **admin** user, and go through the same steps above.
 
-
-## Step 4: Install and Configure Git
+Step 4: Install and Configure Git
 
 The core functionality of jenkins is to use some form of version control
 software (I use [Git][]) to check out some release of code, and then do stuff
@@ -193,43 +96,7 @@ check out all of our Git projects.
 Firstly, you'll want to run the following commands on your server to install
 Git. You'll obviously need to make changes to this code for your environment:
 
-~~~~ {.line_numbers}
-1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-~~~~
-
-sudo aptitude -y install git
-
-sudo su - jenkins
-
-git config --global user.name "Jenkins CI"
-
-git config --global user.email "ci@yourcompany.com"
-
-ssh-keygen -t rsa -C "ci@yourcompany.com" # Use all the default options, don't
-specify
-
-                                          # a password.
-
-cat .ssh/id_rsa.pub # Grant this SSH key access to your Git repositories.
-
-
-
-# If you're using github, you'll also want to do:
-
-ssh git@github.com
-
-# And accept the connection so that you add github.com to your known_hosts
-file.
+[https://gist.github.com/913115][]
 
 Once you've done all that, all you need to do is follow the next few steps in
 the web panel:
@@ -249,8 +116,7 @@ the web panel:
 
 You've now got Git ready to roll.
 
-
-## Step 5: Configure a Project
+Step 5: Configure a Project
 
 In this step we'll configure jenkins to check out the latest copy of our
 project's code, run the test suite, and then deploy our code live into
@@ -263,9 +129,9 @@ production. It's a lot easier than it sounds, let's take a look:
 5.  Under the **Source Code Management** section, select the bubble next to
     **Git**.
 6.  Enter the URL of your Git repository. This is usually something
-    like: git://github.com/rdegges/django_project.git.
+    like: git://github.com/rdegges/django\_project.git.
 7.  Under the **Build Triggers** section, select the box labeled **Poll SCM**.
-8.  In the **Schedule** box that appears, enter **"* * * * *"** (don't
+8.  In the **Schedule** box that appears, enter **"\* \* \* \* \*"** (don't
     include the quotes). This instructs jenkins to check your Git repository for
     changes every minute. If you want to change the frequency, feel free to do
     so using [crontab format][].
@@ -284,26 +150,54 @@ If you go back to the main page, you'll be able to view the status of all your
 projects, and click through to see detailed information about builds, errors,
 and lots of other neat stuff.
 
-
-## Step 6: RTFM
+Step 6: RTFM
 
 Obviously, a 5 minute walk-through is no excuse for not learning how to use
 jenkins properly. If you want to learn how to make the best use of jenkins, and
 experiment with the hundreds of awesome plugins that it has, be sure to read the
 [official documentation][].
 
+#### Tags
 
+programming, devops
+
+#### 18103 views and 4 responses
+
+-   Jan 31 2012, 9:00 AM
+    Charlie Key responded:
+    Nice post. I already had Jenkins setup but I prefer your nginx setup for
+    port 80 proxy to apache, worked flawlessly. Thanks.
+-   Nov 12 2012, 10:42 AM
+    Shah responded:
+    This was an amazing tutorial.. Thank you for the clear details. I got it set
+    up in 5 min. Do u have any sample execute commands for git that we could put
+    in jenkins?
+-   Nov 12 2012, 12:36 PM
+    Randall Degges responded:
+    @Shah what sort of commands are you looking for? I'd be happy to provide an
+    example, but I'm a bit unsure of what you're asking.
+-   Nov 12 2012, 1:04 PM
+    shahinm responded:
+    The tutorial is great but if you could extend on maybe integration with
+    Maven or Ant or even sample scripts that wold run phpunit on the project .
+    And deploy the project if it passed. =)
+
+  [Previous]: ../../../posts/2011/04/more-writing-again.html
+  [Index]: ../../../index-5.html
+  [Next]: ../../../posts/2011/04/generic-django-projects.html
   [Github]: https://github.com/ "github"
   [Jenkins CI]: http://jenkins-ci.org/ "Jenkins CI"
   [Hudson]: http://hudson-ci.org/ "Hudson CI"
   [continuous integration]: http://en.wikipedia.org/wiki/Continuous_integration
     "continuous integration"
+  [https://gist.github.com/913089]: https://gist.github.com/913089
   []: https://gist.github.com/908951
   [http://youserverip:8080/]: http://youserverip:8080/
+  [https://gist.github.com/913102]: https://gist.github.com/913102
   [http://ci.yourcompany.com/]: http://ci.yourcompany.com/
-  [Ss]: ./images/48811796-0-ss.png.scaled696.png
-  [![Ss][]]: ./images/48811796-0-ss.png.scaled1000.png
+  []: ../../../image/2011/04/24455895-ss.png
   [Git]: http://git-scm.com/ "Git"
+  [https://gist.github.com/913115]: https://gist.github.com/913115
   [crontab format]: http://adminschoice.com/crontab-quick-reference
     "crontab reference"
   [official documentation]: http://jenkins-ci.org/ "jenkins documentation"

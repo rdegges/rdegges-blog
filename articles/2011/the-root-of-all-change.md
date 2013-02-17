@@ -1,8 +1,12 @@
-Title: The Root of all Change
-Date: 2011-07-17 06:18
-Author: Randall Degges
-Tags: personaldevelopment, philosophy
+# Randall Degges
 
+## This is an archived post This is an archived post
+
+[Previous][]   [Index][]   [Next][]
+
+### The Root of all Change
+
+July 16 2011, 11:18 PM  by Randall Degges
 
 I think a lot about philosophy. One specific area that fascinates me more and
 more is personal development and achievement. How do people acheive greatness?
@@ -92,11 +96,32 @@ As I continue working towards my goals, I try to constantly remind myself that
 your daily goal--do it anyway, it adds up over time. And that is the core way to
 make change. *Consistency*.
 
+#### Tags
 
-  [Talent Is Overrated]: http://www.amazon.com/gp/product/1591842948/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=1591842948 "Talent Is Overrated"
+personaldevelopment, philosophy
+
+#### 1228 views and 2 responses
+
+-   Jan 17 2012, 3:26 AM
+    Will responded:
+    Your blog is quite a nice read :) Thanks for the links about personal
+    development!
+-   Jan 17 2012, 9:11 AM
+    Randall Degges responded:
+    @Will Thanks a lot, I'm glad you like it \^\^ I appreciate the kind words.
+
+  [Previous]: ../../../posts/2011/07/absolute-victory.html
+  [Index]: ../../../index-4.html
+  [Next]: ../../../posts/2011/06/on-programming-deadlines.html
+  [Talent Is Overrated]: http://www.amazon.com/gp/product/1591842948/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=1591842948
+    "Talent Is Overrated"
   [Sebastian Marshall]: http://www.sebastianmarshall.com/ "Sebastian Marshall"
-  [Do the Work]: http://www.amazon.com/gp/product/1936719010/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=1936719010 "Do the Work"
-  [My Life]: http://www.amazon.com/gp/product/140003003X/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=140003003X "My Life"
-  [Hackers & Painters]: http://www.amazon.com/gp/product/B0026OR2NQ/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=B0026OR2NQ "Hackers and Painters"
-  [The Power of Less]: http://www.amazon.com/gp/product/1401309704/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=1401309704 "The Power of Less"
+  [Do the Work]: http://www.amazon.com/gp/product/1936719010/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=1936719010
+    "Do the Work"
+  [My Life]: http://www.amazon.com/gp/product/140003003X/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=140003003X
+    "My Life"
+  [Hackers & Painters]: http://www.amazon.com/gp/product/B0026OR2NQ/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=217145&creative=399373&creativeASIN=B0026OR2NQ
+    "Hackers and Painters"
+  [The Power of Less]: http://www.amazon.com/gp/product/1401309704/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=1401309704
+    "The Power of Less"
   [habitforge]: http://habitforge.com/ "habitforge"

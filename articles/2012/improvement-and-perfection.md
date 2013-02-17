@@ -1,11 +1,14 @@
-Author: Randall Degges
-Date: 2012-11-25 02:29
-Slug: improvement-and-perfection
-Tags: philosophy
-Title: Improvement and Perfection
+# Randall Degges
 
+## This is an archived post This is an archived post
 
-![Tiger][]
+[Previous][]   [Index][]   [Next][]
+
+### Improvement and Perfection
+
+November 25 2012, 2:29 AM  by Randall Degges
+
+![][]
 
 I just finished watching a truly excellent movie, [Jiro Dreams of Sushi][]. If
 you haven't seen it, I'd highly recommend you watch it (it's available on
@@ -21,15 +24,15 @@ Your parents and those around you gradually teach you how to live, how to act,
 how to work, etc., but these skills are gained over time and with practice.
 
 Nobody is born knowing how to write computer software, and nobody is born with
-the ability to play guitar. Every skill you possess is learned and acquired over
+the ability to play guitar. Every skill you posess is learned and acquired over
 time, with lots of practice. If you'd like to become better at playing the
 guitar, you must deliberately practice playing the guitar--learning to read
 music, learning the finger positions, learning how things are supposed to sound,
 etc. No matter how much you like guitar or how much you read about guitar--the
 only way to get better at your craft is to deliberately practice it.
 
-The more you practice a certain skill, the better you'll become. If you
-continuously spend 10 hours a day making sushi, you will undoubtedly become
+The more you practice a cetain skill, the better you'll become. If you
+continuously spend 10 hours a day making sushi, you will undoubtedly become
 better at making sushi.
 
 In addition to practicing your craft, you can also improve your skill by
@@ -54,6 +57,15 @@ I think this lesson holds true for all of life. You should constantly push
 yourself to be better than the day before. Strive for perfection in every act
 you perform.
 
+#### Tags
 
-  [Tiger]: /static/images/2012/tiger.png "Tiger Sketch"
-  [Jiro Dreams of Sushi]: http://www.amazon.com/gp/product/B007UW9WOQ/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B007UW9WOQ&linkCode=as2&tag=rdegges-20 "Jiro Dreams of Sushi"
+philosophy
+
+#### 868 views and 0 responses
+
+  [Previous]: ../../../posts/2012/11/time-off.html
+  [Index]: ../../../index.html
+  [Next]: ../../../posts/2012/11/sometimes-youve-got-to-kill-it.html
+  []: ../../../image/2012/11/45990081-tiger.jpg
+  [Jiro Dreams of Sushi]: http://www.amazon.com/gp/product/B007UW9WOQ/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B007UW9WOQ&linkCode=as2&tag=rdegges-20
+    "Jiro Dreams of Sushi"

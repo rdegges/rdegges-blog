@@ -1,15 +1,18 @@
-Author: Randall Degges
-Date: 2012-10-14 09:30
-Slug: my-bane-multiple-projects
-Tags: personal development, philosophy, programming
-Title: My Bane - Multiple Projects
+# Randall Degges
 
+## This is an archived post This is an archived post
 
-![Bane][]
+[Previous][]   [Index][]
+
+### My Bane - Multiple Projects
+
+October 14 2012, 2:30 AM  by Randall Degges
+
+![][]
 
 This topic is something that's been floating around in the back of my mind for
 the past several years. My weakness, fatal flaw, bane, whatever you want to call
-it is that I'm awful at doing multiple things. Really awful.
+it... is that I'm awful at doing multiple things. Really awful.
 
 *Whew*, just saying it makes me feel a little bit better.
 
@@ -67,8 +70,15 @@ stuff. 
 separate ideas at a time. I have a relatively small list of projects that are
 really meaningful to me, which is what I'm talking about in this article.*
 
+#### Tags
 
-  [Bane]: /static/images/2012/bane.png "Bane Sketch"
+programming, personaldevelopment, philosophy
+
+#### 1499 views and 0 responses
+
+  [Previous]: ../../../posts/2012/10/some-constants.html
+  [Index]: ../../../index.html
+  []: ../../../image/2012/10/45090397-bane.jpg
   [my startup]: https://www.opencnam.com/ "OpenCNAM"
-  [GitHub projects]: https://github.com/rdegges "My GitHub Profile"
+  [GitHub projects]: https://github.com/rdegges "GitHub"
   [my book]: http://www.theherokuhackersguide.com/ "The Heroku Hacker's Guide"

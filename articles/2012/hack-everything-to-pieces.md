@@ -1,11 +1,14 @@
-Author: Randall Degges
-Date: 2012-06-12 19:48
-Slug: hack-everything-to-pieces
-Tags: philosophy, programming
-Title: Hack Everything ... To Pieces!
+# Randall Degges
 
+## This is an archived post This is an archived post
 
-![Battle Axe][]
+[Previous][]   [Index][]   [Next][]
+
+### Hack Everything ... To Pieces!
+
+June 12 2012, 12:48 PM  by Randall Degges
+
+![][]
 
 Hack. HACK!
 
@@ -18,7 +21,7 @@ I'm sure you see where I'm going with this by now :)
 
 I often find myself working on complex software. While I find it incredibly fun
 and challenging, it certainly comes with risks. One of the greatest risks is
-*over complication*.
+*overcomplication*.
 
 It is way too easy to become so engaged in your work that you continue building
 and building without thinking about the implications of what you're doing. I
@@ -29,19 +32,20 @@ than not, this leads to disaster.
 If you're not analyzing what your overall objetive is as you're hacking, there
 *will* be problems!
 
-Over complication is the worst problem in software development. It causes bugs,
+Overcomplication is the worst problem in software development. It causes bugs,
 confusion, anger, and even death! OK, so you probably won't die from
-over complication, but hey, don't risk it (especially if you're writing medical
-software **>:0**).
+overcomplication, but hey, don't risk it (especially if you're writing medical
+software **\>:0**).
 
 One thing that always bothers me is looking at what *should* be a simple piece
 of code, just to find that the author horribly overcomplicated the whole thing.
 It happens to all of us from time to time, but it can be avoided.
 
+ 
 
-## The One True Way
+The One True Way
 
-![Wise Owl][]
+![][1]
 
 There is only "one true way" to write software: [the UNIX way][]. If you're an
 experienced programmer, you've probably kept these words close to your heart for
@@ -71,8 +75,9 @@ development, clean refactoring, and good documentation is all made much easier
 when your software is small and simple. Try applying those tools to complex
 software, and you will be in for a world of pain.
 
+ 
 
-## Takeaway
+Takeaway
 
 The next time you're about to dive into some code, take a second or two and
 analyze what it is you're about to be doing. Programming is insanely fun, but
@@ -80,7 +85,23 @@ writing the right sorts of programs is even more fun.
 
 **Hack everything!**
 
+#### Tags
 
-  [Battle Axe]: /static/images/2012/battle_axe.png "Battle Axe Sketch"
-  [Wise Owl]: /static/images/2012/wise_owl.png "Wise Owl Sketch"
+programming, philosophy
+
+#### 3738 views and 2 responses
+
+-   Jun 13 2012, 1:54 AM
+    jcubic (Twitter) responded:
+    Another UNIX wisdom - K.I.S.S. - Keep It Simple Stupid.
+-   Jun 20 2012, 11:50 AM
+    rshetty responded:
+    Nice post, Well said.\
+    Hack Everything !!!!
+
+  [Previous]: ../../../posts/2012/07/choices-choices.html
+  [Index]: ../../../index-2.html
+  [Next]: ../../../posts/2012/06/silence.html
+  []: ../../../image/2012/06/42041428-axe.jpg
+  [1]: ../../../image/2012/06/42043261-owl.jpg
   [the UNIX way]: http://en.wikipedia.org/wiki/Unix_philosophy "UNIX Philosophy"

@@ -1,9 +1,12 @@
-Author: Randall Degges
-Date: 2010-12-12 09:25
-Slug: reflections-on-the-django-deployment-and-ecosystem-workshops
-Tags: python, django
-Title: Reflections on the Django Deployment and Ecosystem Workshops
+# Randall Degges
 
+## This is an archived post This is an archived post
+
+[Previous][]   [Index][]   [Next][]
+
+### Reflections on the Django Deployment and Ecosystem Workshops
+
+December 12 2010, 1:25 AM  by Randall Degges
 
 Earlier this week, I attended the two day [Revolution Systems][] Django workshop
 in Santa Monica, CA. Day one was the "Django Deployment Workshop", and day two
@@ -16,7 +19,6 @@ was to meet Jacob, and also to see how he handles very large scalability issues
 (which I'm currently solving at my work).
 
 If you're interested in attending one of these workshops, please keep reading.
-
 
 ## Django Deployment Workshop
 
@@ -68,7 +70,6 @@ systems.
 Regardless of whether you're developing Django apps for fun or work, if you have
 a chance to attend the Django Deployment Workshop, do so. You won't regret it.
 
-
 ## Django Ecosystem Workshop
 
 The Django Ecosystem Workshop discussed various open source Django apps, why you
@@ -83,7 +84,6 @@ a good portion of these apps into my production systems at work.
 
 As with the Django Deployment Workshop, Jacob was very thorough, and helped with
 any (and all) questions that everyone had.
-
 
 ## My Thoughts
 
@@ -105,7 +105,44 @@ A lot of the scalability issues discussed in the workshops are ones I'm
 currently solving at my workplace, and so I plan to do some very detailed write
 ups on my methods and tools over the coming weeks.
 
+#### Tags
 
+python, django
+
+#### 13540 views and 3 responses
+
+-   Dec 13 2010, 10:05 AM
+
+    Brandon Adams (Facebook) responded:
+
+    Could you post that TODO list of reusable apps?
+
+    Are the file store backends you were talking about just writing your own
+    custom backend, or established backends written by others?
+
+-   Dec 17 2010, 8:42 PM
+
+    Dave Paola responded:
+
+    Have you seen Djangy.com? It's a heroku-like service for django apps right
+    now. Sometime in the future WSGI frameworks in general will be supported.
+
+    Might be right up your alley :-)
+
+-   Dec 17 2010, 10:29 PM
+
+    Randall Degges responded:
+
+    Dave, yep! I'm one of the beta members :) However, for my work projects I'm
+    unable to use it. We are handling some pretty massive scaling issues, and we
+    need total control of databases, web servers, and a lot of other backend
+    things which I'm not sure would be a good match for Djangy.
+
+    But good work on it :) I can't wait to use it for some side projects!
+
+  [Previous]: ../../../posts/2010/12/deployment-system-requirements.html
+  [Index]: ../../../index-6.html
+  [Next]: ../../../posts/2010/12/being-myself.html
   [Revolution Systems]: http://www.revsys.com/ "Revolution Systems"
   [Jacob Kaplan-Moss]: http://jacobian.org/ "Jacob Kaplan-Moss"
   [Chef]: http://wiki.opscode.com/display/chef/Home "Chef"

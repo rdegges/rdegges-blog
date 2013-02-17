@@ -1,11 +1,14 @@
-Author: Randall Degges
-Date: 2012-07-03 03:40
-Slug: choices-choices
-Tags: philosophy
-Title: Choices, Choices
+# Randall Degges
 
+## This is an archived post This is an archived post
 
-![Grim Reaper Sad][]
+[Previous][]   [Index][]   [Next][]
+
+### Choices, Choices
+
+July 2 2012, 8:40 PM  by Randall Degges
+
+![][]
 
 Something that is a constant source of inspiration for me, particularly in
 difficult (or high stress) situations, is the knowledge that I have the ability
@@ -16,7 +19,7 @@ to do that day. Will I work hard? Will I exercise? Will I eat the right foods?
 Will I read? Will I write?
 
 It's so easy to not do any of those things. It's incredibly easy to sit on the
-couch, surf Reddit all day, and eat potato chips--and it's even easier to skip
+couch, surf reddit all day, and eat potato chips--and it's even easier to skip
 the gym, leave the book on the bookshelf, and hide under the covers.
 
 Every single day you have the ability (at any time) to decide what you're going
@@ -37,5 +40,23 @@ looking for.
 Don't let external factors hold you back. If you want to do something, make the
 choice to do it.
 
+#### Tags
 
-  [Grim Reaper Sad]: /static/images/2012/grim_reaper_sad.png "Grim Reaper Sad"
+philosophy
+
+#### 2718 views and 1 response
+
+-   Jul 3 2012, 6:50 AM
+
+    Samrat responded:
+
+    I've been following your blog(and your code too!) for a while, and I've been
+    curious- are the sketches your work too?
+
+    Anyway, they are really awesome. Of course, your blog posts have inspired me
+    incredibly in the past too.
+
+  [Previous]: ../../../posts/2012/07/a-developers-conundrum.html
+  [Index]: ../../../index-2.html
+  [Next]: ../../../posts/2012/06/hack-everything-to-pieces.html
+  []: ../../../image/2012/07/42623718-decisions.jpg

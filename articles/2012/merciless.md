@@ -1,11 +1,14 @@
-Author: Randall Degges
-Date: 2012-02-26 22:07
-Slug: merciless
-Tags: personal development
-Title: Merciless
+# Randall Degges
 
+## This is an archived post This is an archived post
 
-![Guts][]
+[Previous][]   [Index][]   [Next][]
+
+### Merciless
+
+February 26 2012, 2:07 PM  by Randall Degges
+
+![][]
 
 I've been working on myself a lot the past few years. I've been trying to become
 stronger, faster, smarter, more honest, and better (overall). The process of
@@ -21,8 +24,8 @@ that regardless of whether I'm working out, writing software, writing articles
 push myself to my limits (and beyond) to make what I'm currently working on
 successful.
 
-This voice tells me that there is no middle ground--there is only
-[absolute victory][], or absolute failure. It tells me that no matter what the
+This voice tells me that there is no middle ground--there is only [absolute
+victory][], or absolute failure. It tells me that no matter what the
 consequence, whether it be fatigue, injury, or even death--that I ***must*** do
 it. Live with pain, or live with regret.
 
@@ -45,7 +48,7 @@ way that I don't fulfilling.
 
 For the remainder of this year, I'm going to try something completely different.
 I'm going to let go of all my fears, worries, and previous knowledge--and I'm
-going to live the way that voice tells me to. I'm going to *live mercilessly*.
+going to live the way that voice tells me to. I'm going to *live **mercilessly*.
 
 Instead of worrying about myself, I'm going to push myself as hard as I can. I'm
 going to exercise harder, eat healthier, work with more focus, and build the
@@ -76,6 +79,88 @@ So here goes nothing.
 
 Into the darkness we go.
 
+#### Tags
 
-  [Guts]: /static/images/2012/guts.png "Guts Sketch"
-  [absolute victory]: /absolute-victory "Absolute Victory"
+personaldevelopment
+
+#### 3316 views and 5 responses
+
+-   Feb 26 2012, 2:23 PM
+
+    Daniel Reeves responded:
+
+    Big words, buddy, but where does the rubber meet the road? Or whatever
+    macho-sounding metaphor I'm looking for!
+
+    Ok, but seriously, this sounds like the perfect prelude to "OK, so it's time
+    to go nuclear on my ass and start beeminding some of this shit".
+
+    In other words, I'd love to hear your thoughts on using tools like StickK or
+    Beeminder to turn this kind of resolve -- which you'll probably admit often
+    amounts to a flash in the pan -- into a genuine commitment.
+
+    Danny of, surprise surprise, Beeminder.com
+
+-   Feb 26 2012, 2:38 PM
+
+    Randall Degges responded:
+
+    @Daniel Reeves, I love beeminder and other tools like that which help you
+    track your progress in various areas. I still use HabitForge quite a bit in
+    my day-to-day life to build habits.
+
+    I'm definitely not advocating that people not track their progress--that can
+    be hugely motivating over long periods of time.
+
+    This is more of a mental thing for me. I feel like I've been not pushing
+    myself hard enough for some time now. I got so wrapped up in continuously
+    becoming successful at things that matter to me that I ended up
+    marginalizing my own efforts by not consistently pushing myself hard enough,
+    and being satisfied with mediocre performance increases over long periods of
+    time.
+
+    Using beeminder would certainly be a good way to turn absolute resolve into
+    trackable progress. I can only assume that looking at a graph of your
+    workout performance over the past month, and seeing a slope of y=x\^2 would
+    be insanely motivating.
+
+    For the record: I'm going to continue tracking my progress over time (how
+    else can you really judge progress if you can't enumerate your success?),
+    but instead of becoming a slave to my tracking tools, I'm going to make them
+    \_\_my\_\_ slave.
+
+-   Feb 27 2012, 9:03 AM
+    Shrutarshi Basu responded:
+    I'm so glad someone actually came out and said what I've been thinking. The
+    idea of balance has always sounded very nice and I'm sure it works for some
+    people. But personally, a lot of times I'll feel like I need to throw
+    caution to the winds and just go full force. In fact, I find that striving
+    to achieve balance can often turn into the idea that hard work is somehow
+    bad and something to be avoided, while I'm often happiest when I'm working
+    flat out and living mercilessly as you put it. I'm looking forward to
+    hearing how this whole thing works out for you.
+-   Mar 1 2012, 6:56 AM
+
+    Aditya Raj Bhatt responded:
+
+    I think you have been reading books of Ayn Rand. \
+    If not you should read the following written by her:\
+    Fountainhead\
+    Atlas Shrugged
+
+    These will reinforce your belief in absolute victory and even give you
+    justifications on why choosing a middle ground is not acceptable. \
+    On the whole happy realisation and wish that you succeed in whatever goal
+    you choose to set for yourself.
+
+-   Mar 2 2012, 9:40 AM
+    Peter Koopman responded:
+    You have put my thoughts into words. Someone once said to me 'Moderation in
+    everything, including moderation'. I think it's time to moderate the
+    moderation in my life!
+
+  [Previous]: ../../../posts/2012/03/writing-habit-thoughts-continued.html
+  [Index]: ../../../index-3.html
+  [Next]: ../../../posts/2012/02/how-i-learned-to-program.html
+  []: ../../../image/2012/02/38062438-berserk.jpg
+  [absolute victory]: http://rdegges.com/absolute-victory "Absolute Victory"

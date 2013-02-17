@@ -1,11 +1,14 @@
-Author: Randall Degges
-Date: 2012-09-27 21:49
-Slug: the-simplest-question
-Tags: personal development, philosophy
-Title: The Simplest Question
+# Randall Degges
 
+## This is an archived post This is an archived post
 
-![Samurai][]
+[Previous][]   [Index][]   [Next][]
+
+### The Simplest Question
+
+September 27 2012, 2:49 PM  by Randall Degges
+
+![][]
 
 Improvement is something nearly everyone craves--you want to be better at your
 job, better at your relationships, better with your physical fitness--the lists
@@ -39,5 +42,18 @@ important email, and slowly move yourself further away from your goals.
 The next time you make a decision to do something, ask yourself that simple
 question, and keep yourself honest.
 
+#### Tags
 
-  [Samurai]: /static/images/2012/samurai_tipping_hat.png "Samurai Tipping Hat Sketch"
+personaldevelopment, philosophy
+
+#### 1210 views and 2 responses
+
+-   Sep 28 2012, 6:47 PM
+    arpit shah liked this post.
+-   Oct 1 2012, 10:48 PM
+    Michele Degges liked this post.
+
+  [Previous]: ../../../posts/2012/09/service-oriented-side-effects.html
+  [Index]: ../../../index-2.html
+  [Next]: ../../../posts/2012/09/my-heroku-book-is-finished.html
+  []: ../../../image/2012/09/44731413-samurai.jpg

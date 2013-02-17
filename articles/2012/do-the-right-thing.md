@@ -1,11 +1,14 @@
-Author: Randall Degges
-Date: 2012-03-20 19:55
-Slug: do-the-right-thing
-Tags: personal development, philosophy
-Title: Do the Right Thing
+# Randall Degges
 
+## This is an archived post This is an archived post
 
-![Dark Angel][]
+[Previous][]   [Index][]   [Next][]
+
+### Do the Right Thing
+
+March 20 2012, 12:55 PM  by Randall Degges
+
+![][]
 
 While I devote a lot of time, energy, and effort to making myself a better
 person--I sometimes think I make the whole thing too complicated.
@@ -62,5 +65,20 @@ than the alternatives.
 
 Do the right thing.
 
+#### Tags
 
-  [Dark Angel]: /static/images/2012/dark-angel.png "Dark Angel"
+personaldevelopment
+
+#### 3538 views and 1 response
+
+-   Apr 8 2012, 12:55 AM
+    Neches responded:
+    I find it entertaining to tape fortune cookie inserts to my bikes: "It is
+    easier to go downhill than to go uphill, but the view is better from the
+    top." Halfway through a race, I see it and stop complaining. Races are much
+    easier on this plan of attack.
+
+  [Previous]: ../../../posts/2012/03/do-stuff-have-fun.html
+  [Index]: ../../../index-3.html
+  [Next]: ../../../posts/2012/03/the-simplest-way-to-compress-html-in-django.html
+  []: ../../../image/2012/03/39231687-dark_angel.jpg

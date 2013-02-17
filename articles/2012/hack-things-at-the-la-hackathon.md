@@ -1,11 +1,14 @@
-Author: Randall Degges
-Date: 2012-10-22 23:07
-Slug: hack-things-at-the-la-hackathon
-Tags: programming, fun
-Title: Hack Things at the LA Hackathon
+# Randall Degges
 
+## This is an archived post This is an archived post
 
-![Axe Warrior][]
+[Previous][]   [Index][]   [Next][]
+
+### Hack Things at the LA Hackathon
+
+October 22 2012, 4:07 PM  by Randall Degges
+
+![][]
 
 I know several things about you right now:
 
@@ -62,18 +65,31 @@ better. I always end up writing amazing code, meeting really awesome people, and
 having a blast.
 
 In conclusion, you should really be going to this thing. It's a fucking **TON**
-of fun, filled with amazing guys (and gals), and worth a long drive and the 10$
+of fun, filled with amazing guys (and gals), and worth a long drive and the 10\$
 ticket price.
 
 If you'd like to sign up, you can do so
-here: [http://www.meetup.com/LA-Hackathons/events/85658952/][LA Hackathon]
+here: [http://www.meetup.com/LA-Hackathons/events/85658952/][]
 
 Be sure to get your ticket quick though, this event **ALWAYS SELLS OUT**, and is
 incredibly popular. There are only **150** open slots this time, so get yours
 now!
 
-Hope to see you there >:)
+Hope to see you there \>:)
 
+#### Tags
 
-  [Axe Warrior]: /static/images/2012/axe_warrior.png "Axe Warrior Sketch"
-  [LA Hackathon]: http://www.meetup.com/LA-Hackathons/events/85658952/ "LA Hackathon Meetup Page"
+programming, fun
+
+#### 1711 views and 1 response
+
+-   Oct 22 2012, 4:17 PM
+    pydanny (Twitter) liked this post.
+
+  [Previous]: ../../../posts/2012/10/too-short.html
+  [Index]: ../../../index.html
+  [Next]: ../../../posts/2012/10/freeing-up-your-time.html
+  []: ../../../image/2012/10/45287388-axe_warrior.jpg
+  [LA Hackathon]: http://www.meetup.com/LA-Hackathons/events/85658952/
+    "LA Hackathon"
+  [http://www.meetup.com/LA-Hackathons/events/85658952/]: http://www.meetup.com/LA-Hackathons/events/85658952/

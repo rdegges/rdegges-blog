@@ -1,16 +1,18 @@
-Author: Randall Degges
-Date: 2010-08-15 07:00
-Slug: what-i-do-at-work
-Tags: programming, asterisk, life
-Title: What I Do At Work
+# Randall Degges
 
+## This is an archived post This is an archived post
 
-I realized yesterday, while finishing my website's move to Posterous, that I
-haven't actually written a post about my new job, what I do, and how I do it.
+[Previous][]   [Index][]   [Next][]
+
+### What I Do At Work
+
+August 15 2010, 12:00 AM  by Randall Degges
+
+I realized yesterday, while finishing my website’s move to Posterous, that I
+haven’t actually written a post about my new job, what I do, and how I do it.
 Not that it is particuarly amazing or anything like that, but I figured other
 coders interested in startups, best-practices, telephony, python, or any
 combination of those items may be interested.
-
 
 ## Where I Work
 
@@ -21,11 +23,10 @@ telecommunications company based in Georgia.
 Now, not to be confusing, but I technically work for several companies:
 `RCG Communications`, `RCI Telecommunications`, `GlobalRoute`, and several
 others, which are all legally distinct for various encapsulation related issues.
-Although, we're currently forming a new company (whose name has not yet been
+Although, we’re currently forming a new company (whose name has not yet been
 decided), that will become my primary employer, and will lease out code and
 services to our other companies (this will make code ownership rights far less
 confusing).
-
 
 ## Why I Took the Job
 
@@ -45,11 +46,10 @@ Despite enjoying working for Fonality, I had an urge to try something new, and
 get involved in a fast moving company that would really push the boundaries of
 my technical knowledge, and force me to become a better developer.
 
-When I met [RCG's CEO][], and was given a job offer, I immediately knew that it
+When I met [RCG’s CEO][], and was given a job offer, I immediately knew that it
 would be the opportunity I was looking for. RCG really needed a lead programmer
 with my qualifications, and I really needed a new project with lots of
 challenges and opportunity.
-
 
 ## What Our Companies Do
 
@@ -59,7 +59,6 @@ free telephone-based conferencing service with a hosted web portal.
 `GlobalRoute`, one of our newest companies, is a backend termination provider
 for other VoIP and telephony companies. We offer domestic and international
 termination (in bulk) for fractions of the cost of other large providers.
-
 
 ## Our Teleconferencing Platform
 
@@ -71,7 +70,7 @@ Basically, we provide callers with their own dedicated phone numbers to use
 (upon request), and set them up with a private web portal login to begin
 managing and using our services.
 
-The conferencing platform we've engineered offers a lot of cool features:
+The conferencing platform we’ve engineered offers a lot of cool features:
 
 -   Each conference line provides a wide array of statistics for line owners.
     Things like caller usage statistics, detailed call traffic information, and
@@ -98,10 +97,9 @@ The conferencing platform we've engineered offers a lot of cool features:
 We have hundreds of users online at any given moment, and are madly trying to
 solve our growing pains and scale efficiently.
 
-
 ## Current Status
 
-Since I started working on the project, we've made a lot of changes.
+Since I started working on the project, we’ve made a lot of changes.
 
 The single largest project has been re-writing the web portal. We completely
 scratched the old PHP CGI website we had, and replaced it with a dynamic, high
@@ -117,25 +115,32 @@ The next item on the TODO list is to modularize our Asterisk platform (more
 details on this coming soon), and provide a truly awesome telephony core that
 will be easy to maintain, bugfix, and provide features for.
 
-
 ## Life is Good
 
-I've really been enjoying these past few months. I've had a chance to build some
+I’ve really been enjoying these past few months. I’ve had a chance to build some
 really awesome software, learn a lot of new techniques and best-practices, and
 help architecture what I think will be some of the most elegant telephony
 services in the world.
 
-I'm really excited to be working on all of our new advances and software,
+I’m really excited to be working on all of our new advances and software,
 especially now that we have a very cool core platform that will allow us to
 re-define traditional telephony services, and let us build rock solid, high
 performance telephony systems.
 
 Be sure to subscribe to my [RSS feed][], or follow me on [twitter][] if you want
-to get more information. I'll soon be covering our architecture, how it works,
+to get more information. I’ll soon be covering our architecture, how it works,
 and the technology behind it all.
 
+#### Tags
 
+programming, asterisk, life
+
+#### 4800 views and 0 responses
+
+  [Previous]: ../../../posts/2010/08/how-to-streamline-asterisk.html
+  [Index]: ../../../index-6.html
+  [Next]: ../../../posts/2010/08/moved-to-posterous.html
   [Fonality]: http://fonality.com/
-  [RCG's CEO]: http://www.chrisbrunner.com/
-  [RSS feed]: http://feeds.feedburner.com/rdegges
-  [twitter]: http://twitter.com/rdegges
+  [RCG’s CEO]: http://www.chrisbrunner.com/
+  [RSS feed]: http://feeds.feedburner.com/projectb14ck
+  [twitter]: http://twitter.com/comradeb14ck

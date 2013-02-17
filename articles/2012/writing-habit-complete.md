@@ -1,11 +1,14 @@
-Author: Randall Degges
-Date: 2012-01-03 05:39
-Slug: writing-habit-complete
-Tags: habits, personal development
-Title: Writing Habit - Complete
+# Randall Degges
 
+## This is an archived post
 
-![Scroll][]
+[Index][]   [Next][]
+
+### Writing Habit -- Complete
+
+January 2 2012, 9:39 PM  by Randall Degges
+
+![][]
 
 Two days ago I successfully completed establishing my [writing habit][]. It took
 me exactly 21 days to build (I didn't mess up at all)! My habit was to write for
@@ -45,9 +48,9 @@ activities by friends, family, or work. Having a good time each day you can set
 aside to write may mean the difference between successfully building your
 writing habit, or failing.
 
-Take caffeine before writing. Seriously. I've mentioned before that I'm a
+Take caffine before writing. Seriously. I've mentioned before that I'm a
 [caffeine junkie][]. While I'm not particularly proud of my addiction, I've
-found that caffeine makes a world of difference in my writing. It helps me focus,
+found that caffine makes a world of difference in my writing. It helps me focus,
 and more importantly, makes me a lot more creative. Several times over the past
 few weeks I wrote in an uncaffeinated state, and during those times I seemed to
 mope along *at best*, accomplishing very little. I've found that while under the
@@ -68,8 +71,18 @@ Hopefully my experiences have been useful and/or entertaining to you. If there's
 anything you'd like to know, or if you have any questions--feel free to leave a
 comment.
 
+#### Tags
 
-  [Scroll]: /static/images/2012/scroll.png "Writing Scroll"
-  [writing habit]: /establishing-a-writing-habit "Establishing a Writing Habit"
-  [learned]: /what-ive-learned-about-writing-so-far "What I've Learned About Writing (So Far)"
-  [caffeine junkie]: /my-use-and-abuse-of-caffine "My Use and Abuse of Caffeine"
+habits, personaldevelopment
+
+#### 2982 views and 0 responses
+
+  [Index]: ../../../index-4.html
+  [Next]: ../../../posts/2012/01/what-im-doing-in-2012.html
+  []: ../../../image/2012/01/36287331-scroll.jpg
+  [writing habit]: http://rdegges.com/establishing-a-writing-habit
+    "Establishing a Writing Habit"
+  [learned]: http://rdegges.com/what-ive-learned-about-writing-so-far
+    "What I've Learned About Writing (So Far)"
+  [caffeine junkie]: http://rdegges.com/my-use-and-abuse-of-caffine
+    "My Use and Abuse of Caffeine"

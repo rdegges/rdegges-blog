@@ -1,8 +1,12 @@
-Title: Generic Django Projects
-Date: 2011-04-05 23:34
-Author: Randall Degges
-Tags: programming, python, django
+# Randall Degges
 
+## This is an archived post This is an archived post
+
+[Previous][]   [Index][]   [Next][]
+
+### Generic Django Projects
+
+April 5 2011, 4:34 PM  by Randall Degges
 
 I've been a really big fan of [Django][] since I first started using it almost
 1.5 years ago. It's my favorite python web framework ([Flask][] is second,
@@ -17,7 +21,7 @@ and organization strategies on my Django projects, and built what I consider to
 be a pretty decent generic Django project.
 
 My generic Django project layout uses several general-purpose Django
-applications, and should be a suitable starting point for small->medium sized
+applications, and should be a suitable starting point for small-\>medium sized
 websites. Out of the box, it provides:
 
 -   Settings files for development, staging, and production environments.
@@ -41,7 +45,15 @@ project better.
 
 If you'd like to check it out, visit the [github project page][].
 
+#### Tags
 
+programming, python, django
+
+#### 8726 views and 0 responses
+
+  [Previous]: ../../../posts/2011/04/simple-continuous-integration-deployment-with.html
+  [Index]: ../../../index-5.html
+  [Next]: ../../../posts/2011/04/building-a-better-body.html
   [Django]: http://www.djangoproject.com/ "Django"
   [Flask]: http://flask.pocoo.org/ "Flask"
   [django-sentry]: https://github.com/dcramer/django-sentry "django-sentry"

@@ -1,14 +1,18 @@
-Title: 2011 Yearly Goals Update 1
-Date: 2011-04-24 17:57
-Author: Randall Degges
+# Randall Degges
 
+## This is an archived post This is an archived post
+
+[Previous][]   [Index][]   [Next][]
+
+### 2011 Yearly Goals Update 1
+
+April 24 2011, 10:57 AM  by Randall Degges
 
 Early this year I [wrote a post][] outlining my goals for the year. Since April
 is almost over, I thought I'd do my first follow-up to let you know what I've
 accomplished so far, and to put my goals into perspective.
 
-
-## Reading Habit
+Reading Habit
 
 The first goal I listed in my previous post was to start a new reading habit--to
 read for at least 30 minutes a day. When the new year started, this was the
@@ -19,12 +23,11 @@ I'm especially glad I've followed through with this goal already, as I've been
 getting a great deal of value out of it. So far I've learned lots of new things,
 and have really opened my mind a lot.
 
-
-## Exercise Habit
+Exercise Habit
 
 Another goal of mine was to start a new exercise habit, and consistently
 exercise 30 minutes a day 5 times a week. From January to February, I did quite
-a bit of jogging, and a small amount of weightlifting 6 days a week (Monday ->
+a bit of jogging, and a small amount of weightlifting 6 days a week (Monday -\>
 Saturday). In February I joined [Team CrossFit][], and started doing it 4 days a
 week.
 
@@ -37,8 +40,7 @@ Since January, I've been feeling much healthier, happier, and stronger. Although
 I haven't consistently met my goal of 5 days a week, I'm confident that I'll
 have it 100% down to habit in the next few months.
 
-
-## Stop Consuming Soda / Energy Drinks
+Stop Consuming Soda / Energy Drinks
 
 I also wrote in my yearly goal post that I wanted to completely cut soda and
 energy drinks out of my diet. I'm happy to say that I have completely removed
@@ -56,8 +58,7 @@ I still plan on phasing energy drinks out of my diet before the end of the year,
 but for now I'm happy that I've found some which aren't nearly as damaging to my
 health as the ones I used to drink daily.
 
-
-## Lose 1lb Per Week
+Lose 1lb Per Week
 
 Another one of my abitious goals this year was to lose 1lb of bodyweight per
 week (minimum). I'm extremely happy to say that I've repeatedly accomplished
@@ -70,8 +71,7 @@ weeks into the new year right now, which puts me at an **average loss of nearly
 I'm currently **230.7 lbs**, and want to get down to **175 lbs** before starting
 serious bodybuilding training.
 
-
-## Launch a Paid Service
+Launch a Paid Service
 
 In my previous post I mentioned that I wanted to launch some sort of paid
 service. My motivation for this was to help improve my overall skills as an
@@ -85,8 +85,7 @@ feeling more anxious, and plan to start on it soon.
 I'll be sure to give you all some updates as I begin to work on some sort of
 service.
 
-
-## Make the Best Partylines
+Make the Best Partylines
 
 At my work, one of our large projects over the past couple years has been
 partylines. This year I told myself I wanted to make them the best partylines in
@@ -99,23 +98,20 @@ help push improvements forward over the coming months.
 For my next update, I'll go into more detail about this goal, as I believe by
 then we'll have something completed.
 
-
-## Launch GlobalRoute
+Launch GlobalRoute
 
 My work's VoIP company ([GlobalRoute][]) hasn't been launched yet. It's been in
 beta for a while, but got pushed aside to make time for other more urgent
 projects. I'm still hopeful that this can be launched this year, so more
 information about this will have to wait until the next update.
 
-
-## Give a Technical Presentation
+Give a Technical Presentation
 
 I haven't done this yet, mostly due to lack of time. However, this year I'm
 definitely going to give at least one presentation at a tech meetup. I'll try to
 do this before my second update!
 
-
-## Travel
+Travel
 
 This year I planned on visiting several places. So far I've gone to two of them,
 and I've still got 4 left :)
@@ -127,8 +123,7 @@ and I've still got 4 left :)
 -   Portland
 -   Seattle
 
-
-## Feelings
+Feelings
 
 I feel like this year has been a great year so far. I've still got a lot I want
 to accomplish before the year is up, and I plan on aggressively meeting all of
@@ -138,7 +133,15 @@ a decent job at it.
 
 Hopefully by the next update, I'll have wiped even more goals off my list!
 
+#### 6966 views and 1 response
 
+-   Apr 24 2011, 12:18 PM
+    switchology (Twitter) responded:
+    Keep up the good work!
+
+  [Previous]: ../../../posts/2011/04/how-to-not-be-lean.html
+  [Index]: ../../../index-5.html
+  [Next]: ../../../posts/2011/04/on-reading-and-tracking.html
   [wrote a post]: http://projectb14ck.org/what-im-doing-in-2011
     "What I'm Doing in 2011"
   [Team CrossFit]: http://www.teamcrossfit.com/

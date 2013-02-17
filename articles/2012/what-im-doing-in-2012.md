@@ -1,11 +1,14 @@
-Author: Randall Degges
-Date: 2012-01-03 05:23
-Slug: what-im-doing-in-2012
-Tags: personal development
-Title: What I'm Doing in 2012
+# Randall Degges
 
+## This is an archived post This is an archived post
 
-![Courage Wolf][]
+[Previous][]   [Index][]   [Next][]
+
+### What I'm Doing in 2012
+
+January 2 2012, 9:23 PM  by Randall Degges
+
+![][]
 
 I'm really glad the new year is here. For the longest time I thought new year's
 resolutions were a bit silly, and I never participated in them. The past few
@@ -24,10 +27,10 @@ Instead of focusing on the outcome (eg: your goals), you focus on the process.
 
 I've found that building habits is my personal niche. It makes me feel
 productive, while keeping me relaxed. When I'm working on building habits I'm
-not constantly stressed about results, or burdened with the possibility of
+not constantly stressed about results, or burdered with the possibility of
 failure--instead, I just feel relaxed, confident, and happy. What makes this
 work for me is that while building habits I simply tell myself "Randall, just
-write for 30 minutes a day. If you can do that everyday, you'll become a better
+write for 30 mintues a day. If you can do that everyday, you'll become a better
 writer in no time. Don't worry about writing X amount of blog posts per week, or
 exercising X amount of minutes each day--just have fun with it, and make the
 most of each day."
@@ -101,10 +104,10 @@ Another thing I'd like to do this year is slowly improve my text editing skills
 with vim. While I've been using vim for a long time, I still consider myself a
 beginner. After watching people like [Gary Bernhardt][] use vim, not only do I
 feel like a complete n00b, but I'm also intensely driven to become better. My
-initial plan for tackling my vim demons is to watch through every single episode
-of [vimcasts][]. Since it's hard to remember the vim shortcuts right away, I'd
-like to watch an episode once a week, and specifically practice the video topic
-that week to commit the topic to memory.
+initial plan for tackling my vim deamons is to watch through every single
+episode of [vimcasts][]. Since it's hard to remember the vim shortcuts right
+away, I'd like to watch an episode once a week, and specifically practice the
+video topic that week to commit the topic to memory.
 
 I'd also like to write a book this year. I started working on a book, Learn
 Asterisk the Fun Way, earlier last year--but haven't made nearly as much
@@ -114,9 +117,18 @@ dream of mine, and something that would make me really proud of myself.
 
 Here's to a having a great, happy, relaxed, and interesting 2012.
 
+#### Tags
 
-  [Courage Wolf]: /static/images/2012/brush-your-teeth-with-dentists.png "Brush Your Teeth with Dentists"
+life, personaldevelopment
+
+#### 3057 views and 0 responses
+
+  [Previous]: ../../../posts/2012/01/writing-habit-complete.html
+  [Index]: ../../../index-4.html
+  [Next]: ../../../posts/2011/12/devops-django-part-4-choosing-heroku.html
+  []: ../../../image/2012/01/36287514-courage-wolf-796.jpg
   [HabitForge]: http://habitforge.com/ "HabitForge"
-  [writing habit]: /establishing-a-writing-habit "Establishing a Writing Habit"
+  [writing habit]: http://rdegges.com/establishing-a-writing-habit
+    "Establishing a Writing Habit"
   [Gary Bernhardt]: https://www.destroyallsoftware.com/ "Gary Bernhardt"
   [vimcasts]: http://vimcasts.org/ "vimcasts"

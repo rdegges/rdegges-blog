@@ -1,14 +1,17 @@
-Author: Randall Degges
-Date: 2010-02-14 04:00
-Slug: get-outside
-Tags: life
-Title: Get Outside
+# Randall Degges
 
+## This is an archived post This is an archived post
+
+[Previous][]   [Index][]   [Next][]
+
+### Get Outside
+
+February 13 2010, 8:00 PM  by Randall Degges
 
 The stereotype of a computer programmer is a harsh (and mostly true) one. The
 typical computer programmer lives inside, in small dark rooms, typing away for
 hours at a time behind large monitors and drinking highly caffinated drinks.
-Now, this isn't a bad thing (quite the other way, actually), but it does
+Now, this isn’t a bad thing (quite the other way, actually), but it does
 definitely have an effect on your life. I have been living this lifestyle for
 quite a while, and only recently begun to change my habits around to avoid the
 madness that was once my life. While I definitely love the hacker lifestyle, and
@@ -23,13 +26,13 @@ gradually came to appreciate the outdoors more and more. Now, I have a hard time
 going for an entire day without stepping outside for at least a few minutes to
 get some fresh air. Being outside clears my head, makes me feel refreshed, and
 just generally de-frustrates me. Sometimes sitting inside for like 20 hours
-straight trying to figure out why my CSS won't render on IE, Chrome, and Firefox
+straight trying to figure out why my CSS won’t render on IE, Chrome, and Firefox
 will drive me mad, and the only way to escape is to go outside for a few minutes
 and walk around.
 
 So after analysing this situation for a while in my head. I came to the
 conclusion that many programmers, like myself, probably never go outside because
-they've never really gotten the time. There are tons of things that prevent you
+they’ve never really gotten the time. There are tons of things that prevent you
 from doing it: work, learning, trying to finish that one bit of code, munchies,
 sleep schedules, etc.
 
@@ -45,13 +48,23 @@ suggestions (learned from experience):
 -   Get a laptop, and go to a public place with free wifi.
 -   Get a daytime job.
 -   Get a pet (and take them to the park every now and then).
--   Get a girlfriend (I've heard they like to do things that are not always
+-   Get a girlfriend (I’ve heard they like to do things that are not always
     inside).
 -   While these suggestions are obvious, clear things, they really do help. If
-    nothing else, I'd recommend getting a laptop and doing some work outside.
+    nothing else, I’d recommend getting a laptop and doing some work outside.
     Just make sure you have one of those glare-resistant screens (nothing is
     worse than sitting outside with a laptop if it has one of those shitty
     reflective screens).
 
-So, in conclusion: get outside every now and then. It'll clear your head, help
+So, in conclusion: get outside every now and then. It’ll clear your head, help
 you program better, and keep your sanity in check.
+
+#### Tags
+
+life
+
+#### 366 views and 0 responses
+
+  [Previous]: ../../../posts/2010/02/a-technical-introduction-to-the-asterisk-gate.html
+  [Index]: ../../../index-7.html
+  [Next]: ../../../posts/2010/02/writing-is-hard-0.html

@@ -1,11 +1,14 @@
-Date: 2012-07-11 04:38
-Author: Randall Degges
-Slug: a-developers-conundrum
-Tags: philosophy, programming
-Title: A Developer's Conundrum - Dev / Prod Parity
+# Randall Degges
 
+## This is an archived post This is an archived post
 
-![Grim Reaper Bust][]
+[Previous][]   [Index][]   [Next][]
+
+### A Developer's Conundrum - Dev / Prod Parity
+
+July 10 2012, 9:38 PM  by Randall Degges
+
+![][]
 
 As a [passionate developer][], I constantly try to write the best code possible.
 I *love* my craft.
@@ -63,8 +66,9 @@ Unfortunately, while I continuously do my best to follow the 12 factors of good
 application design, I'm constantly battling with myself over factor 10,
 [dev-prod parity][].
 
+ 
 
-## Dev / Prod Parity
+Dev / Prod Parity
 
 When you write software (web software in particular), the environment you're
 writing your code in is often very different from the environment which you're
@@ -93,8 +97,9 @@ whatever you use to host your sites).
 **Unfortunately, this is my conundrum--I find it nearly *impossible* to both
 write good code, and minimize dev / prod parity.**
 
+ 
 
-## The Difficulty
+The Difficulty
 
 The difficult thing about minimizing dev / prod parity (for me), is minimizing
 *pain*. It is really painful, for example, to develop a site locally (on my
@@ -128,8 +133,9 @@ have to (among other things):
 
 Ugh.
 
+ 
 
-## Complexity
+Complexity
 
 I realize that complexity is a major issue here.
 
@@ -142,8 +148,9 @@ configurations: one for development, and one for production.
 
 But which is worse?
 
+ 
 
-## What I'm Doing
+What I'm Doing
 
 Up until now, I've always found it a lot *cleaner* to maintain different
 application environments: one for development and one for production. This way,
@@ -154,20 +161,139 @@ Sure, there are drawbacks to this approach (eg: more code to worry about), but
 as a result, I'm able to develop my sites quite a bit quicker (instant
 feedback), as opposed to a more delayed (slow feedback) process.
 
-Every time I talk to my developer friends, however, I'm constantly reminded of
+Everytime I talk to my developer friends, however, I'm constantly reminded of
 the rule: minimize dev / prod parity!
 
 **This is my conundrum.**
 
 I'd love to hear your opinions (please leave a comment), so that I can make a
 decision about what to do from now on in my quest to consistently improve my
-development skills >:)
+development skills \>:)
 
+#### Tags
 
-  [Grim Reaper Bust]: /static/images/2012/grim_reaper_bust.png "Grim Reaper Bust"
-  [passionate developer]: http://www.amazon.com/gp/product/1934356344/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1934356344&linkCode=as2&tag=rdegges-20 "The Passionate Programmer"
+programming, philosophy
+
+#### 3663 views and 6 responses
+
+-   Jul 11 2012, 3:42 AM
+
+    Pat Shaughnessy responded:
+
+    You're asking a great question, Randall. Hopefully this will spark an
+    interesting debate. I would ask yourself what the underlying problem really
+    is more specifically.
+
+    - Is it that your application code works fine in dev, but then fails
+    occasionally in production with a more complex configuration or when a
+    service you rely on only in prod fails? In this case maybe you should focus
+    on testing your code more carefully… using fake services and/or simulating
+    service failures.
+
+    - Or is your deployment process failing occasionally? Even with Heroku an
+    app with a lot of moving parts might need better deployment scripts.
+
+    - Or do your problems really have to do with monitoring? Maybe the issue is
+    not that occasionally things fail in prod, but that you're not aware they
+    have failed for a long time.
+
+-   Jul 11 2012, 7:15 AM
+
+    Clay McClure responded:
+
+    100% dev/prod parity is like 100% test coverage: probably more effort than
+    it's worth. In my experience there are always differences between dev and
+    prod, whether in software, hardware, network, storage, or data. So rather
+    than seek to eliminate disparity, we must cope with it.
+
+    One technique for coping with environmental disparities is to use modular
+    code with a consistent interface and pluggable backends. Consider the stock
+    django auth as one example: you might use the database backend in
+    development and the LDAP backend in production, but since the interface is
+    the same, you can be sure your application code will work in either
+    environment.
+
+    Another example, to your point about static assets, is the stock django
+    staticfiles app. In the development environment, the development server
+    handles the finding and serving of static content. In production,
+    staticfiles provides a tool to copy static assets to the appropriate
+    directory, so that the web server can find them. But the interface (namely
+    \`{{ STATIC\_URL }}\`) is the same in both cases.
+
+    The key is to ensure that you're not executing different code paths in your
+    application when it runs in different environments. I would run away kicking
+    and screaming from any code containing something of the form: \`if
+    settings.ENV == 'dev' ... elif setting.ENV == 'prod'\`, etc.
+
+    One area where I do go out of my way to achieve parity, however, is with the
+    database. If you're deploying on PostgreSQL, you should be developing on
+    PostgreSQL. And the same version, if possible. This is a lesson learned the
+    hard way, after developing on MySQL and deploying on Oracle only to find
+    that half of my custom queries didn't work.
+
+-   Jul 12 2012, 4:04 AM
+
+    MrCeri responded:
+
+    Hi Randall,
+
+    My own solution to this problem has been to use an intermediate environment
+    between dev and production. Call it a staging server, UAT, or whatever is
+    appropriate, but it's basically an almost identical setup to the production
+    server.
+
+    So the local development environment is set up for convenience, speed of
+    development, etc. Then periodically builds are deployed to the staging
+    server, both for review, and also to test the deployment process. If the
+    deployment from dev to staging goes seamlessly, the final push on to
+    production should be trouble free.
+
+    Admittedly this intermediate step introduces extra cost, and extra time, so
+    it's justification kind of depends on the size of the project.
+
+    BTW, I'm curious to hear you develop on a laptop - what do you use? I've
+    always wondered whether a laptop would be up to the job of full-time
+    development.
+
+    Cheers,\
+    Ceri
+
+-   Sep 4 2012, 11:39 AM
+    Martin Putniorz liked this post.
+-   Feb 4 2013, 1:25 PM
+    Jeremy Quinton responded:
+    Have a look at vagrant it should solve the issue for you.
+-   Feb 4 2013, 6:13 PM
+
+    Randall Degges responded:
+
+    @Jeremy Quinton,
+
+    Unfortunately (while I've used vagrant in the past), it isn't really
+    convenient for a lot of reasons, eg:
+
+    - You have to first find (or build) a suitable image for your target OS.
+    Vagrant only has one official image last I checked (ubuntu 10.04), which
+    makes getting the right OS difficult (even if you look at the image
+    aggregation sites).
+
+    - You've got to define software configuration rules for the server: run
+    postgresql, run nginx, etc., which is all time consuming and not-repeatable
+    (unless you then go a step further and define / configure chef / puppet
+    rules).
+
+    I'd love to use vagrant, but in my experience it ends up being more trouble
+    =/
+
+  [Previous]: ../../../posts/2012/07/service-oriented-development.html
+  [Index]: ../../../index-2.html
+  [Next]: ../../../posts/2012/07/choices-choices.html
+  []: ../../../image/2012/07/42848175-reaper.jpg
+  [passionate developer]: http://www.amazon.com/gp/product/1934356344/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1934356344&linkCode=as2&tag=rdegges-20
+    "The Passionate Programmer"
   [The Twelve-Factor App]: http://www.12factor.net/ "The 12 Factor App"
   [dev-prod parity]: http://www.12factor.net/dev-prod-parity "Dev / Prod Parity"
   [Heroku]: http://www.heroku.com/ "Heroku"
   [AWS]: http://aws.amazon.com/ "Amazon Web Services"
-  [http://myapp-staging.herokuapp.com]: http://myapp-staging.herokuapp.com "Heroku Staging App"
+  [http://myapp-staging.herokuapp.com]: http://myapp-staging.herokuapp.com
+    "http://myapp-staging.herokuapp.com"

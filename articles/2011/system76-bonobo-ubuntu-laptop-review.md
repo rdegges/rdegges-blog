@@ -1,15 +1,14 @@
-Title: system76 "Bonobo" Ubuntu Laptop Review
-Date: 2011-12-15 04:00
-Author: Randall Degges
-Tags: laptops, review
+# Randall Degges
 
+## This is an archived post This is an archived post
 
-[![Product_images--bonobo-0d56b90b84e3dbb][]][]
-[![Product_images--bonobo-4f12bc8ecf986ca][]][]
-[![Product_images--bonobo-dd5ad28e128ed55][]][]
-[![Product_images--bonobo-19fd027e5bc03f0][]][]
+[Previous][]   [Index][]   [Next][]
 
-[See the full gallery on Posterous][]
+### system76 "Bonobo" Ubuntu Laptop Review
+
+December 14 2011, 8:00 PM  by Randall Degges
+
+![][] ![][1] ![][2] ![][3]
 
 I don't normally write product reviews on my blog (although I do frequently
 write [amazon reviews][]), so this is a bit out of place. However, I feel the
@@ -37,7 +36,7 @@ was within my price range. Fast forward two weeks to delivery day--I'm
 installing Ubuntu on the laptop, and to my dismay, there are no video card
 drivers available. Damnet.
 
-## system76
+system76
 
 After having several awful linux laptop experiences, I asked some friends to
 recommend a decent hardware vendor with full linux support. That's when I first
@@ -57,8 +56,7 @@ a large screen is important for my day-to-day workflow.
 
 With the background out of the way, here's my review of the actual laptop.
 
-
-## First Impressions
+First Impressions
 
 system76 did a great job on first impressions. You know how most laptops
 typically come in awful boxes, filled with tons of spam? system76 doesn't do
@@ -83,8 +81,7 @@ Also: there are no stickers on the laptop. I hate getting a new machine covered
 in Intel, Windows, and other ridiculous stickers. This gives the laptop a really
 nice clean look, and it's refreshing to not be bombarded by hardware ads.
 
-
-## Software Support
+Software Support
 
 After working my way through the first boot process just to see what it was like
 (it was fine), I popped in my own Ubuntu 11.04 CD and formatted the box. I was
@@ -96,15 +93,13 @@ perfectly out of the box. Webcam, microphone, video card drivers, etc. It was a
 pretty great feeling to get everything installed fresh with no issues
 whatsoever.
 
-
-## Speed
+Speed
 
 This thing is fast. Really, insanely fast. I don't have much else to say about
 this, except that I've never had such a fast system. Ubuntu boots in less than 2
 seconds, consistently.
 
-
-## Pricing
+Pricing
 
 If you've ever purchased a laptop online from a major hardware vendor (Dell, HP,
 etc.), you'll notice that when customizing the laptop components, you've got a
@@ -114,15 +109,14 @@ CPUs, 30 times of RAM, etc.
 From what I saw, system76 takes a different approach. All their base systems
 have excellent hardware, and they only offer a few upgrade options. I prefer
 this a lot more to the traditional model. Why? Because pricing is a lot clearer.
-Instead of purchasing a laptop that you think will cost 500$, and then
+Instead of purchasing a laptop that you think will cost 500\$, and then
 upgrading it to make it decent and then realizing that the price is now
-3,000$--you know right off the bat what sort of price you're looking at.
+3,000\$--you know right off the bat what sort of price you're looking at.
 
-While this laptop was expensive (I paid ~1,800$), its hardware stats are
+While this laptop was expensive (I paid \~1,800\$), its hardware stats are
 comparable to similarly priced HP laptops.
 
-
-## Problems
+Problems
 
 **NOTE**: I've only been using this laptop for two weeks so far. If I experience
 any other problems I'll update this post to include them.
@@ -146,8 +140,7 @@ matters (at least to me). I haven't carried this laptop anywhere with me yet,
 but I assume that when I do, my carrying case will be at least a few pounds
 heavier with the cord inside.
 
-
-## Conclusion
+Conclusion
 
 system76 makes a damn good laptop, as far as I'm concerned. Despite a few minor
 flaws, this thing has been excellent. I can honstely say that I've never owned
@@ -161,16 +154,26 @@ give system76 a shot for your next purchase.
 You can check out all their systems on their main
 site: [http://www.system76.com/][]
 
+#### Tags
 
-  [Product_images--bonobo-0d56b90b84e3dbb]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2011-12-19/BiDbHEAcpDybvztajarlDjigeBApkFEdjqeypIbIGyuDvcbbzcuqIeziriCw/product_images--bonobo-0d56b90b84e3dbb.png.scaled696.png
-  [![Product_images--bonobo-0d56b90b84e3dbb][]]: ./images/86463786-0-product_images--bonobo-0d56b90b84e3dbb.png.scaled1000.png
-  [Product_images--bonobo-4f12bc8ecf986ca]: http://getfile9.posterous.com/getfile/files.posterous.com/temp-2011-12-19/doeqkyizguFmDkCxqEBeHoofcdxxdBDoqHBhryjngsraipfiuueAnHfJskkz/product_images--bonobo-4f12bc8ecf986ca.png.scaled696.png
-  [![Product_images--bonobo-4f12bc8ecf986ca][]]: ./images/86463786-1-product_images--bonobo-4f12bc8ecf986ca.png.scaled1000.png
-  [Product_images--bonobo-dd5ad28e128ed55]: ./images/86463786-2-product_images--bonobo-dd5ad28e128ed55.png.scaled696.png
-  [![Product_images--bonobo-dd5ad28e128ed55][]]: ./images/86463786-2-product_images--bonobo-dd5ad28e128ed55.png.scaled1000.png
-  [Product_images--bonobo-19fd027e5bc03f0]: http://getfile0.posterous.com/getfile/files.posterous.com/temp-2011-12-19/wbcJolkeouEoJlkwmECjiveudfJAdlFGkedytFumHeouydxldwsemnfJqexd/product_images--bonobo-19fd027e5bc03f0.png.scaled696.png
-  [![Product_images--bonobo-19fd027e5bc03f0][]]: ./images/86463786-3-product_images--bonobo-19fd027e5bc03f0.png.scaled1000.png
-  [See the full gallery on Posterous]: http://rdegges.com/system76-bonobo-ubuntu-laptop-review
+laptops, review
+
+#### 2474 views and 2 responses
+
+-   Dec 18 2011, 5:03 PM
+    Herman responded:
+    Pictures speak a thousand words.
+-   Dec 19 2011, 12:15 PM
+    Randall Degges responded:
+    @Herman, updated it with pictures. :)
+
+  [Previous]: ../../../posts/2011/12/devops-django-part-3-the-heroku-way.html
+  [Index]: ../../../index-4.html
+  [Next]: ../../../posts/2011/12/establishing-a-writing-habit.html
+  []: ../../../image/2011/12/35776075-product_images--bonobo-0d56b90b84e3dbb.png
+  [1]: ../../../image/2011/12/35776077-product_images--bonobo-4f12bc8ecf986ca.png
+  [2]: ../../../image/2011/12/35776079-product_images--bonobo-dd5ad28e128ed55.png
+  [3]: ../../../image/2011/12/35776078-product_images--bonobo-19fd027e5bc03f0.png
   [amazon reviews]: http://www.amazon.com/gp/pdp/profile/A3E3Y9R7W5NAI8
     "My Amazon Reviewer Profile"
   [system76 laptop]: http://www.system76.com/laptops/model/bonobo

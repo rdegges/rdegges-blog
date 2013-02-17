@@ -1,8 +1,12 @@
-Title: Live Simply
-Date: 2011-09-06 04:40
-Author: Randall Degges
-Tags: life, personaldevelopment, philosophy
+# Randall Degges
 
+## This is an archived post This is an archived post
+
+[Previous][]   [Index][]   [Next][]
+
+### Live Simply
+
+September 5 2011, 9:40 PM  by Randall Degges
 
 I often find myself living a complex life. There are so many things I want to
 do, so many things I need to do, and so many things I should do that it is often
@@ -12,11 +16,10 @@ action, and while I'm only partially successful at this, working to achieve
 simplicity has been one of the greatest continuing practices of my life thus
 far.
 
-
-## Why is Life Complex?
+Why is Life Complex?
 
 It seems that life in general has become more and more complex as time has
-passed. The [first organisms][] on the planet (~4.5 billion years ago) were
+passed. The [first organisms][] on the planet (\~4.5 billion years ago) were
 simple. They didn't even have a nucleus! As time progressed, and life evolved,
 these simple organisms gradually grew into more complex and familiar creatures
 (plants, animals, and humans). In short: life is continually adapting, growing,
@@ -33,8 +36,7 @@ to ensure that we achieve internal happiness. These things all require lots of
 time to develop, refine, and execute. Life is not simple. Personal growth is
 hard.
 
-
-## Why is Complexity Bad?
+Why is Complexity Bad?
 
 Let's assume for a minute that complexity is bad; bad in the sense that it leads
 to a more stressful, crisis-filled existance, and that it ultimately contributes
@@ -59,8 +61,8 @@ What makes complex things intimidate me so much? I've done quite a bit of
 thinking about this, and I belive the core reason complexity intimidates me is
 that it seems undecipherable. For me, I often bump into complexity in
 technologies. How does a certain tool work and why? What is the best way to do
-___? How might I improve my application's performance when dealing with
-factors ___ and ___? The complexity levels are (on average) extremely high
+\_\_\_? How might I improve my application's performance when dealing with
+factors \_\_\_ and \_\_\_? The complexity levels are (on average) extremely high
 for my day-to-day work. Often times I look at my todo list and just think to
 myself "OK: How will you approach this problem? What do you need to learn before
 you can even figure that out? How much time are you looking at spending on
@@ -82,8 +84,7 @@ they come. In contrast, days filled with simple activities tend to make me feel
 productive, happy, thoughtful, and energetic for a few hours--all positive
 feelings, but for a short timespan only.
 
-
-## Why is Simplicity Good?
+Why is Simplicity Good?
 
 Simplicity tends to *make sense*. When I work on simple things, I feel like I
 have a grasp on what I'm doing, and that I'm in control of the situation, not
@@ -112,15 +113,14 @@ feelings associated with simplicity are simply too great to ignore. As I've come
 to realize this over the years, my quest for simplicity in thought and action
 has yielded immense positive net results.
 
-## How to Live Simply
+How to Live Simply
 
 Ok, so we know that simplicity is good and complexity is bad. But how can we use
 this knowledge to live simply? Since I'm no expert, and life is far too complex
 to make bold statements that generalize simplicity for every individual, I'll
 *simply* share my own practices with you.
 
-
-## Keep an Open Mind
+Keep an Open Mind
 
 One thing that leads to terrible complexity is misinformation. There is more
 information available today than at any other time in history; the amount is
@@ -141,22 +141,20 @@ problems that you didn't previously see. Having knowledge is power, and that
 sort of power can greatly simplify your life by providing you with clear
 insights into whatever you're doing at the moment.
 
-
-## Pace Yourself
+Pace Yourself
 
 As a person who is an all-or-nothing type of guy, this lesson has been
 particularly hard for me to apply to myself. However, pacing yourself does yield
 simplicity.
 
-In my case, I often overwork. I've been known (as my wife!) to work 16-hour days
-for weeks at a time. Other than the fact that it is extremely unhealthy to work
-that much, my overworking causes a lot of mental hardships. It makes me
+In my case, I often overwork. I've been known (ask my wife!) to work 16-hour
+days for weeks at a time. Other than the fact that it is extremely unhealthy to
+work that much, my overworking causes a lot of mental hardships. It makes me
 stressed, irritable, and generally unproductive. The further I push myself past
 my limits, the more complex everything seems. Only when I pace myself and try to
 live a balanced life do things seem to fall back into place.
 
-
-## Be Conscious
+Be Conscious
 
 It's extremely difficult to apply yourself consciously to the present. I find
 that a majority of my time is spent in a semi-conscious state, just kind of
@@ -169,8 +167,7 @@ you're doing, whatever it may be (washing dishes, doing laundry, writing some
 code), you're able to break down complexity when you see it, and find elegant
 ways to make yourself more efficient.
 
-
-## Break Complex Things
+Break Complex Things
 
 Whenever I begin working on something complex, the first thing I do is try to
 break it. I'll ask myself a few basic questions:
@@ -183,8 +180,7 @@ By immediately analyzing and getting a grasp on the complex thing, I'm often
 able to either completely eliminate it, or substantially reduce its complexity
 through analysis and breakdown.
 
-
-## Be Honest
+Be Honest
 
 It's sometimes hard to be honest about things. Maybe it's your project
 completion date. Maybe it's your relationship's future. Maybe it's something
@@ -193,8 +189,7 @@ honest with ourselves, we can get from point A to point B in a lot less time.
 There's no need to complicate things by avoiding or subverting the truth.
 Instead, try to be brutally honest with yourself, and move onwards.
 
-
-## Make Life Simple
+Make Life Simple
 
 All things said, life will always be complex. The best you can do is try to live
 simply, and enjoy your life moment to moment. There is no single solution to any
@@ -207,6 +202,37 @@ and I feel like I've finally reached a point in my life where I have enough
 consciousness to control complexity and make myself a better person. Regardless
 of how you live your life, I hope you enjoy it.
 
+#### Tags
 
+life, personaldevelopment, philosophy
+
+#### 1910 views and 5 responses
+
+-   Oct 31 2011, 10:18 PM
+    Nancy Wu liked this post.
+-   Nov 2 2011, 8:40 PM
+    Vipin J S responded:
+    :)
+-   Jan 25 2013, 7:55 AM
+
+    Aditya Raj Bhatt responded:
+
+    There' s a typo where you've written in parantheses : (as my wife!) where
+    "as" should be replaced by "ask".
+
+    But a very nice post overall, although in your later posts you do say that
+    you won't limit or moderate yourself. I agree with the latter opinion.
+
+-   Jan 25 2013, 7:56 AM
+    Aditya Raj Bhatt responded:
+    Sorry its parentheses! Made a typo myself!
+-   Jan 27 2013, 12:35 AM
+    Randall Degges responded:
+    @Aditya Thank you! Fixed :D
+
+  [Previous]: ../../../posts/2011/09/on-business-guys.html
+  [Index]: ../../../index-4.html
+  [Next]: ../../../posts/2011/07/building-a-geek-haven-in-los-angeles.html
   [first organisms]: http://en.wikipedia.org/wiki/Prokaryote "prokaryotes"
-  [list of common misconceptions]: http://en.wikipedia.org/wiki/List_of_common_misconceptions "list of common misconceptions"
+  [list of common misconceptions]: http://en.wikipedia.org/wiki/List_of_common_misconceptions
+    "list of common misconceptions"

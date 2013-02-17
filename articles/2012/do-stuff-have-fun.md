@@ -1,11 +1,14 @@
-Author: Randall Degges
-Date: 2012-03-23 09:04
-Slug: do-stuff-have-fun
-Tags: philosophy
-Title: Do Stuff, Have Fun
+# Randall Degges
 
+## This is an archived post This is an archived post
 
-![Kangaroo][]
+[Previous][]   [Index][]   [Next][]
+
+### Do Stuff, Have Fun
+
+March 23 2012, 2:04 AM  by Randall Degges
+
+![][]
 
 I've got a new philosophy--on life, work, adventures, whatever: do stuff, have
 fun.
@@ -47,5 +50,26 @@ too short for that.
 
 From now on I'm just going to do stuff, and have fun. Forget everything else.
 
+#### 4117 views and 3 responses
 
-  [Kangaroo]: /static/images/2012/kangaroo-lying-down.png "Kangaroo Lying Down"
+-   Mar 25 2012, 12:48 PM
+    Peter Koopman responded:
+    That picture is disturbing
+-   Apr 8 2012, 12:42 AM
+
+    Neches responded:
+
+    That picture is not disturbing; rather, hilarious. Silly animals don't wear
+    pants! Wowzers!
+
+    An example to follow..
+
+-   Apr 17 2012, 8:06 AM
+    Andrew Fuchs responded:
+    Right on, it's easy to get caught up in all the stuff we have to do and get
+    stressed. Got to just have fun sometimes!
+
+  [Previous]: ../../../posts/2012/04/im-working-on-a-startup.html
+  [Index]: ../../../index-3.html
+  [Next]: ../../../posts/2012/03/do-the-right-thing.html
+  []: ../../../image/2012/03/39321393-chilling.jpg

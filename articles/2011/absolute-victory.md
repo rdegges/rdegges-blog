@@ -1,10 +1,14 @@
-Title: Absolute Victory
-Date: 2011-07-17 07:44
-Author: Randall Degges
-Tags: personaldevelopment, philosophy
+# Randall Degges
 
+## This is an archived post This is an archived post
 
-![Barbarian][]
+[Previous][]   [Index][]   [Next][]
+
+### Absolute Victory
+
+July 17 2011, 12:44 AM  by Randall Degges
+
+![][]
 
 I've recently started reading biographies of famous historical figures, and came
 across some very interesting stuff while reading [Ghengis Khan and the Making of
@@ -61,8 +65,43 @@ Try harnessing that fire inside of you, and practice *absolute victory* on a
 project sometime this week. Be merciless with your execution. Let me know how it
 goes, I'm very interested to see what results you have.
 
+ 
 
-  [Barbarian]: http://getfile8.posterous.com/getfile/files.posterous.com/temp-2012-04-25/iJbiagsrAysnkHdobbCzAJEJwaFcalGtisgEhcgyAqpzAylbwxIwrursmHuf/barbarian.jpg.scaled696.jpg
-  [Ghengis Khan and the Making of the Modern World]: http://www.amazon.com/gp/product/0609809644/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=0609809644 "Ghengis Khan and the Making of the Modern World"
+#### Tags
+
+personaldevelopment, philosophy
+
+#### 1726 views and 1 response
+
+-   Jul 17 2011, 4:11 AM
+
+    jasonkotenko (Twitter) responded:
+
+    I followed something like this in college. I found this comic to best
+    describe the way I approached college: [http://abstrusegoose.com/43][]
+
+    The negatives are that people tend to really get to hate you. When they
+    would see that I was in their upper level math classes, they would literally
+    swear under their breath. But I didn't do anything to hurt them, and I think
+    that's where it's important to draw the line for me. In fact I used to
+    publicly study the last 3 hours before every test I took - in the lab I
+    would write up every theorem and many example problems over and over again,
+    helping anyone who asked. What people didn't realize was that I didn't have
+    them all memorized because I was a genius, it was because I studied for 40
+    hours before that moment.
+
+    In business, I think sometimes you have to even try to destroy others in
+    order to win yourself. I think that as long as you do it in a way that is
+    not personal, it's not an issue. For instance out marketing a competitor.
+    What's not acceptable to my moral standard is beating others in an
+    underhanded way.
+
+  [Previous]: ../../../posts/2011/07/building-a-geek-haven-in-los-angeles.html
+  [Index]: ../../../index-4.html
+  [Next]: ../../../posts/2011/07/the-root-of-all-change.html
+  []: ../../../image/2012/04/40483792-barbarian.jpg
+  [Ghengis Khan and the Making of the Modern World]: http://www.amazon.com/gp/product/0609809644/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=0609809644
+    "Ghengis Khan and the Making of the Modern World"
   [Ghengis Khan]: http://en.wikipedia.org/wiki/Ghengis_Khan "Ghengis Khan"
   [Mongols]: http://en.wikipedia.org/wiki/Mongols "Mongols"
+  [http://abstrusegoose.com/43]: http://abstrusegoose.com/43

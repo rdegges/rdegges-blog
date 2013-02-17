@@ -1,11 +1,14 @@
-Author: Randall Degges
-Date: 2012-10-23 22:28
-Slug: too-short
-Tags: programming, philosophy
-Title: Too Short
+# Randall Degges
 
+## This is an archived post This is an archived post
 
-![Owl][]
+[Previous][]   [Index][]   [Next][]
+
+### Too Short
+
+October 23 2012, 3:28 PM  by Randall Degges
+
+![][]
 
 Some quick thoughts about how life is just too short to do stuff you hate.
 
@@ -38,5 +41,13 @@ let your fear make your decisions for you.
 There's just not enough time in life to do things you hate, so instead of
 wasting your time away, just do the things you love to do.
 
+#### Tags
 
-  [Owl]: /static/images/2012/owl.png "Owl Sketch"
+programming, philosophy
+
+#### 1785 views and 0 responses
+
+  [Previous]: ../../../posts/2012/11/ambitions.html
+  [Index]: ../../../index.html
+  [Next]: ../../../posts/2012/10/hack-things-at-the-la-hackathon.html
+  []: ../../../image/2012/10/45312025-owl.jpg

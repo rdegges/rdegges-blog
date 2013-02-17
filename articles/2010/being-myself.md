@@ -1,15 +1,18 @@
-Author: Randall Degges
-Date: 2010-12-02 23:47
-Slug: being-mysef
-Tags: life
-Title: Being Myself
+# Randall Degges
 
+## This is an archived post This is an archived post
+
+[Previous][]   [Index][]   [Next][]
+
+### Being Myself
+
+December 2 2010, 3:47 PM  by Randall Degges
 
 I've been thinking a lot about my life lately. Maybe it's because the new year
 is almost here, or maybe it is because I've been having a lot of weird "grown
 up" life experiences.
 
-These past couple years (I left uni ~2.5 years ago) have been the best in my
+These past couple years (I left uni \~2.5 years ago) have been the best in my
 life. I learned what the real world was like, what I suck at, what I'm good at,
 and what makes me happy. A few weeks ago I learned what type of person I really
 am (I'm a hippie), and have been slowly coming to terms with myself.
@@ -55,3 +58,13 @@ So, I'd like to introduce you to the new Randall. Here are a few facts about me
 
 I'm going to start living the way I want to, and keeping it real. If you wanna
 hang out, send me an email!
+
+#### Tags
+
+life
+
+#### 15939 views and 0 responses
+
+  [Previous]: ../../../posts/2010/12/reflections-on-the-django-deployment-and-djan.html
+  [Index]: ../../../index-6.html
+  [Next]: ../../../posts/2010/11/getting-back-on-track.html

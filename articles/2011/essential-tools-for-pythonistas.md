@@ -1,8 +1,12 @@
-Title: Essential Tools for Pythonistas
-Date: 2011-04-17 20:08
-Author: Randall Degges
-Tags: programming, python
+# Randall Degges
 
+## This is an archived post This is an archived post
+
+[Previous][]   [Index][]   [Next][]
+
+### Essential Tools for Pythonistas
+
+April 17 2011, 1:08 PM  by Randall Degges
 
 [Pythonistas][] need a lot of good tools in order to work effeciently. I'd like
 to take a few minutes to enumerate some of my favorite tools that help me write
@@ -33,7 +37,7 @@ disturbing your train of thought.
 
 Here's a little screenshot of pyflakes in action:
 
-![Pyflakes][]
+![][]
 
 ​3. Sphinx
 
@@ -79,14 +83,52 @@ environment, completely isolated from the rest of your system.
 
 Ideally, you should be using virtualenv with the infamous [virtualenvwrapper][].
 
+#### Tags
 
+programming, python
+
+#### 22892 views and 3 responses
+
+-   Apr 18 2011, 2:34 PM
+    Joe Cascio responded:
+    Thanks for the great information. I particularly like Sphinx and virtualenv.
+    Will check them out directly!
+-   Apr 19 2011, 3:20 AM
+
+    thatdavidmiller (Twitter) responded:
+
+    +1 on all of these :)
+
+    FWIW the two that have improved my day to day python experience most in the
+    last year though, would have to be iPython [1] and ipdb [2]
+
+    - Leads to a vastly improved interactive environment for discovery and
+    debugging
+
+    [1] [http://ipython.scipy.org/moin/][]\
+    [2] [http://pypi.python.org/pypi/ipdb][]
+
+-   Apr 19 2011, 7:03 PM
+
+    Luis Alberto Santana responded:
+
+    Nice list!
+
+    I would add Fabric[1] as one of the "essential tools" if you do remote
+    deployment of your applications!
+
+    [1] [http://docs.fabfile.org/en/1.0.1/index.html][]
+
+  [Previous]: ../../../posts/2011/04/on-reading-and-tracking.html
+  [Index]: ../../../index-5.html
+  [Next]: ../../../posts/2011/04/more-writing-again.html
   [Pythonistas]: http://python.net/~goodger/projects/pycon/2007/idiomatic/presentation.html
     "Code Like a Pythonista"
   [Github]: https://github.com/ "Github"
   [Git]: http://git-scm.com/ "Git"
   [Vim]: http://www.vim.org/ "Vim"
   [pyflakes]: https://github.com/kevinw/pyflakes "pyflakes"
-  [Pyflakes]: ./images/49907203-0-pyflakes.png.scaled696.png
+  []: ../../../image/2011/04/24788867-pyflakes.png
   [Sphinx]: http://sphinx.pocoo.org/ "Sphinx"
   [pocoo]: http://www.pocoo.org/ "pocoo"
   [reStructuredText]: http://docutils.sourceforge.net/rst.html
@@ -95,3 +137,6 @@ Ideally, you should be using virtualenv with the infamous [virtualenvwrapper][].
   [virtualenv]: http://www.virtualenv.org/en/latest/ "virtualenv"
   [virtualenvwrapper]: http://www.doughellmann.com/projects/virtualenvwrapper/
     "virtualenvwrapper"
+  [http://ipython.scipy.org/moin/]: http://ipython.scipy.org/moin/
+  [http://pypi.python.org/pypi/ipdb]: http://pypi.python.org/pypi/ipdb
+  [http://docs.fabfile.org/en/1.0.1/index.html]: http://docs.fabfile.org/en/1.0.1/index.html

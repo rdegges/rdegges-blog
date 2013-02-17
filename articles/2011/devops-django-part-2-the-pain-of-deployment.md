@@ -1,15 +1,18 @@
-Title: DevOps Django - Part 2 - The Pain of Deployment
-Date: 2011-12-13 06:30
-Author: Randall Degges
-Tags: programming, python, devops, django
+# Randall Degges
 
+## This is an archived post This is an archived post
+
+[Previous][]   [Index][]   [Next][]
+
+### DevOps Django - Part 2 - The Pain of Deployment
+
+December 12 2011, 10:30 PM  by Randall Degges
 
 This article is part of a series I'm writing called DevOps Django. This series
 is meant to explain how to best deploy modern Django sites. If you're new, you
 should probably read the [first article][] of the series before this one.
 
-
-## What I Build
+What I Build
 
 As I mentioned in the first article of the series, I work at a tech startup
 building telephony services. Our primary product is a hosted teleconferencing
@@ -43,7 +46,7 @@ With it, we can do things like:
 Here's a small diagram which shows how our physical infrastructure is
 architectured (excuse my poor diagrams, I'm awful with this stuff):
 
-![Telephonyinfrastructure][]
+![][]
 
 The way things work here is that callers (eg: you) dial our phone number on your
 cell phone (or landline, whatever) and your call travels through
@@ -117,7 +120,7 @@ past two years (up until a few weeks ago).
 I've taken the liberty of drawing this up in a small diagram (again, excuse my
 poor diagramming skills):
 
-[![Webinfrastructure][]][]
+![][1]
 
 As you can probably imagine, we use Python and Django to build our website and
 backend API. These are the core technologies that power our web services.
@@ -251,8 +254,7 @@ was likely to break some part of our deployment or monitoring toolset. This was
 especially annoying, as it diverted a lot of attention that could have been
 spent better elsewhere.
 
-
-## Painful Lessons
+Painful Lessons
 
 Since I first started building our teleconferencing service almost two full
 years ago, I've learned quite a bit about deploying Django. Before completely
@@ -295,15 +297,87 @@ deployment solution I discovered.
 
 **EDIT**: I finished part 3, you can read it [here][].
 
+#### Tags
 
-  [first article]: http://rdegges.com/devops-django-part-1-goals "DevOps Django - Part 1 - Goals"
-  [ubuntu-server]: http://www.ubuntu.com/business/server/overview "ubuntu-server"
+programming, python, devops, django
+
+#### 5905 views and 8 responses
+
+-   Dec 13 2011, 3:25 AM
+    mjmein (Twitter) responded:
+    Thanks, I'm enjoying these posts, as automated deployment is something that
+    I'm also very interested in. I've recently started working with Chef, and I
+    agree with you that it does take a huge amount of effort to get started.
+-   Dec 13 2011, 8:04 AM
+
+    asksol (Twitter) responded:
+
+    Keeping things running is a hell of a job. Even with the new tools of this
+    decade, it isn't anywhere mature enough. But in time, we all hope things
+    will be better. It certainly is better than when I was a sysadmin 10 years
+    ago :)
+
+    Btw, have you seen cyme?
+    [http://kombu.me/cyme/introduction.html\#synopsis][]
+
+    It's beta, and it's another component in the stack, but maybe you have\
+    some idea what iti could become, would love to hear them.
+
+-   Dec 13 2011, 9:31 AM
+
+    Randall Degges responded:
+
+    Hey @asksol--thanks for the response! This is the first I've seen of cyme,
+    it looks awesome though. That would have been useful when I was still
+    building out the infrastructure described in this article, hah.
+
+    In my next one, I'm going to do a full writeup of the new deployment stuff
+    I'm doing now, and how it compares to the old way (described here). I'm
+    actually using your company's hosted rabbitmq instances as part of it \^\^
+
+-   Dec 13 2011, 12:16 PM
+
+    esoesotracosa (Twitter) responded:
+
+    Nice series so far!
+
+    Please, do tell us your secret! I'm doing standard deployments using most of
+    your "old technologies" and I would love to know which ones you dismissed
+    and why.
+
+    And don't forget to post it on /r/django! :)
+
+-   Dec 15 2011, 10:29 AM
+    Philip Johnson responded:
+    I am waiting with bated breath for the next installment. We are moving our
+    Django deployment off local servers to the cloud and I want to skip right to
+    the best current possible solution. :)
+-   Dec 15 2011, 1:16 PM
+    Randall Degges responded:
+    @Philip awesome! Glad you like it so far. The next one should be out in a
+    few days. It's pretty long, so it's taking a while.
+-   Dec 17 2011, 4:32 PM
+    Issac Kelly responded:
+    Hey Randall, So happy that you wrote these posts.
+-   Dec 17 2011, 5:22 PM
+    Randall Degges responded:
+    Woa, thanks @Isaac. Glad you like them. I'm currently trying to finish up
+    part 3, but it's gonna be a few more days. \<3
+
+  [Previous]: ../../../posts/2011/12/devops-django-part-1-goals.html
+  [Index]: ../../../index-4.html
+  [Next]: ../../../posts/2011/10/deploying-django.html
+  [first article]: http://rdegges.com/devops-django-part-1-goals
+    "DevOps Django - Part 1 - Goals"
+  [ubuntu-server]: http://www.ubuntu.com/business/server/overview
+    "ubuntu-server"
   [Asterisk]: http://www.asterisk.org/ "Asterisk"
   [OpenSIPS]: http://opensips.org/ "OpenSIPS"
   [DS3]: http://en.wikipedia.org/wiki/Ds3 "DS3"
   [NFSd]: http://en.wikipedia.org/wiki/Network_File_System_(protocol) "NFS"
-  [dialplan]: http://www.voip-info.org/wiki/view/Asterisk+Dialplan+Introduction "dialplan"
-  [Telephonyinfrastructure]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2011-12-10/fjEjvEnGrlzuACAhnxxclhCEzrotvdiInEmeHEHFxoGzGlesvdekagBydfgH/TelephonyInfrastructure.png.scaled696.png
+  [dialplan]: http://www.voip-info.org/wiki/view/Asterisk+Dialplan+Introduction
+    "dialplan"
+  []: ../../../image/2011/12/35453561-TelephonyInfrastructure.png
   [PSTN]: http://en.wikipedia.org/wiki/Public_switched_telephone_network "PSTN"
   [VoIP]: http://en.wikipedia.org/wiki/Voice_over_IP "VoIP"
   [Python]: http://python.org/ "Python"
@@ -325,7 +399,9 @@ deployment solution I discovered.
   [gunicorn]: http://gunicorn.org/ "gunicorn"
   [Jenkins]: http://jenkins-ci.org/ "Jenkins"
   [Rackspace]: http://www.rackspace.com/ "Rackspace"
-  [Webinfrastructure]: http://getfile9.posterous.com/getfile/files.posterous.com/temp-2011-12-10/CAnsucIByoplsyvxEzbHEbJpdEpmHdGsfIGECwFeFpevcpatczabDGfyfsIt/WebInfrastructure.png.scaled696.png
-  [![Webinfrastructure][]]: ./images/84054712-1-WebInfrastructure.png.scaled1000.png
-  [nines of availability]: http://en.wikipedia.org/wiki/High_availability "Five Nines"
-  [here]: http://rdegges.com/devops-django-part-3-the-heroku-way "DevOps Django - Part 3 - The Heroku Way"
+  [1]: ../../../image/2011/12/35456456-WebInfrastructure.png
+  [nines of availability]: http://en.wikipedia.org/wiki/High_availability
+    "Five Nines"
+  [here]: http://rdegges.com/devops-django-part-3-the-heroku-way
+    "DevOps Django - Part 3 - The Heroku Way"
+  [http://kombu.me/cyme/introduction.html\#synopsis]: http://kombu.me/cyme/introduction.html#synopsis

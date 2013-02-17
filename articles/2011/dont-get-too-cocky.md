@@ -1,8 +1,12 @@
-Title: Don't Get Too Cocky
-Date: 2011-03-06 23:19
-Author: Randall Degges
-Tags: personaldevelopment, philosophy
+# Randall Degges
 
+## This is an archived post This is an archived post
+
+[Previous][]   [Index][]   [Next][]
+
+### Don't Get Too Cocky
+
+March 6 2011, 3:19 PM  by Randall Degges
 
 I learned an important lesson a few months ago, and thought I'd share. Don't get
 too cocky.
@@ -51,3 +55,29 @@ mindset to continue doing things, and get progressively better at them over
 time.
 
 Regardless of how awesome you are, don't let it get to your head.
+
+#### Tags
+
+personaldevelopment, philosophy
+
+#### 43382 views and 1 response
+
+-   Mar 7 2011, 12:31 AM
+
+    switchology (Twitter) responded:
+
+    University education in computer science is a joke.
+
+    Can I point out that good web design is an art and uses many of the same
+    qualities an artist exhibits. Being a good and justifiably cocky-worthy
+    developer does not mean you're a good artist.
+
+    There is a technical element to assembly the design but that's similar to
+    understanding how a paintbrush works. You can perform all the techniques
+    with a brush, but fail to produce anything pleasing. Likewise you can write
+    HTML/CSS until your eyes fall out but it doesn't make you a capable
+    designer.
+
+  [Previous]: ../../../posts/2011/03/my-new-office.html
+  [Index]: ../../../index-5.html
+  [Next]: ../../../posts/2011/02/my-environment.html

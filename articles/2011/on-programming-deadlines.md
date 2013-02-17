@@ -1,14 +1,17 @@
-Title: On Programming Deadlines
-Date: 2011-06-23 23:47
-Author: Randall Degges
-Tags: programming
+# Randall Degges
 
+## This is an archived post This is an archived post
+
+[Previous][]   [Index][]   [Next][]
+
+### On Programming Deadlines
+
+June 23 2011, 4:47 PM  by Randall Degges
 
 There are a lot of differences between programming, and programming
 professionally. The most notorious of which, is deadlines.
 
-
-## Deadlines
+Deadlines
 
 When you're writing code for yourself, you can spend as much (or as little time)
 on it as you please--but when you're writing code for *other* people, you've got
@@ -32,8 +35,7 @@ hackery you have to do when writing code on a deadline. They aren't necessarily
 quick-fixes, but can certainly be helpful to anyone who needs to consistently
 push out top-notch code, day after day.
 
-
-## Rule 1: Setup Continuous Deployment Before Writing ANY Code
+Rule 1: Setup Continuous Deployment Before Writing ANY Code
 
 This is a tip I picked up from [The Pragmatic Programmer][] book (definitely
 required reading for any programmer). Always, and I mean always, setup your
@@ -53,8 +55,7 @@ It may not seem like much of a time saver--but if you consider the amount of
 time it takes, day after day, to copy your code over and do testing manually, it
 can quickly add up and save hours of time each month.
 
-
-## Rule 2: Write Tests First
+Rule 2: Write Tests First
 
 If you've never heard of test-driven development (TDD), please read the
 [wikipedia article][] on it immediately. If someone is paying you to write
@@ -66,7 +67,7 @@ code, you write a simple piece of code that tests your hypothetical project code
 for desired behavior. For example, let's say your project requires you to write
 a function that adds two numbers, and returns the sum of these numbers. Before
 writing that piece of code, you should write a test function,
-*test_add_two_numbers*, that calls your *add_two_numbers* function with
+*test\_add\_two\_numbers*, that calls your *add\_two\_numbers* function with
 various inputs, and verifies through assertions that the results you get back
 are proper.
 
@@ -82,8 +83,7 @@ Writing tests certainly takes time and effort, but can save time in the long run
 by avoiding emergency bug-fixes, system crashes, etc. Especially when you're on
 tight deadlines, you don't want the added stress and worry of buggy code.
 
-
-## Rule 3: Be Transparent
+Rule 3: Be Transparent
 
 Transparency can be difficult to achieve (depending on your work environment),
 but can be greatly beneficial.
@@ -102,8 +102,7 @@ maintaing clear communication and transparency with your clients, and getting
 them involved in the process, they'll be more understanding of your work, and
 they'll feel happier about the product they're getting developed.
 
-
-## Rule 4: Maintain Daily TODO Lists
+Rule 4: Maintain Daily TODO Lists
 
 Time management is definitely out of the scope of this article, but I will
 mention that maintaining a daily TODO list is one of the best things you can do
@@ -120,11 +119,11 @@ TODO list consisting of each individual task that needs to be accomplished
 Don't make overly vague TODO items such as "debug sound problem", really think
 it through, and write out the full task in numerous steps. For example:
 
--   Write a unit test for the load_soundfile function that checks to see if
+-   Write a unit test for the load\_soundfile function that checks to see if
     mp3s are playable.
--   Write a unit test for the load_soundfile function that checks to see if wav
+-   Write a unit test for the load\_soundfile function that checks to see if wav
     files crash when loading.
--   Create new feature branch, design_update, to hold the new web design
+-   Create new feature branch, design\_update, to hold the new web design
     templates.
 -   Update style.css using the new web design templates.
 
@@ -132,8 +131,7 @@ Having a clear list of actionable items gives you the power to focus on a single
 task at a time, without having to balance 100 or so next-steps in your head.
 Writing software is complex enough already, don't make your life more difficult!
 
-
-## Rule 5: Do the Right Thing
+Rule 5: Do the Right Thing
 
 There will undoubtedly be circumstances that arise which make you nervous and
 uncomfortable. Did you procrastinate yesterday and skip writing the unit tests
@@ -145,8 +143,7 @@ cases, or even delay a deadline--do it. As a professional engineer, it's your
 job to deliver working code consistently, even if that means you've got to make
 tough choices.
 
-
-## Conclusion
+Conclusion
 
 Being a software developer is no easy task. Our world is filled with constant
 challenge and hardship, and only our discipline and preparedness can help us
@@ -156,7 +153,127 @@ never giving in to anything less.
 
 You can do it.
 
+ 
 
+#### Tags
+
+programming
+
+#### 37095 views and 12 responses
+
+-   Nov 2 2011, 12:04 AM
+    merawi responded:
+    Nice article.
+-   Nov 2 2011, 2:04 AM
+
+    eng1 responded:
+
+    "Whether you need to double back and revisit some old code, write some more
+    test cases, or even delay a deadline--do it."
+
+    Doesn't this defeat the point of a deadline?
+
+-   Nov 2 2011, 3:09 AM
+
+    Phi Dinh responded:
+
+    There's a 3rd option actually:
+
+    You've got to reduce the scope of the project (remove features), eliminating
+    the need to extend deadlines AND write "dirty" code.
+
+    Of course assuming this option is available :)
+
+-   Nov 2 2011, 5:12 AM
+    Mike Clarke responded:
+    Great article! Resonated with me as I am currently working on a team where
+    our previous build status is yellow(behind schedule), our current build is
+    red(behind big time) and our next build is yellow(thanks to the status of
+    our current build). I keep telling myself there has to be a way to keep up
+    and a bettervway overall to work a software project. Thank for the
+    information you shared.
+-   Nov 2 2011, 5:26 AM
+
+    davem responded:
+
+    Very nicely written article. As a consultant I face these challenges daily -
+    i.e., writing quality code on absurdly tight budgets and deadlines, for
+    clients who don't appreciate the time and effort it takes to write quality
+    software. And yes, "The Pragmatic Programmer"...one of my favorite
+    programming books - should be required reading for all programmers.
+
+    Thanks for the nice article.
+
+-   Nov 2 2011, 5:49 AM
+
+    joe responded:
+
+    WORTHLESS FLUFF
+
+    all you are saying is do the "right thing" anyway, regardess of the
+    deadline.
+
+    "You can do it."
+
+    LOL.
+
+-   Nov 2 2011, 6:26 AM
+    Charles responded:
+    Yes, the article seems not to really address its main point: how do you deal
+    with deadlines? It's just four instances of "do things the way I prefer" and
+    then the suggestion to ignore deadlines to give you enough time to do the
+    first four.
+-   Nov 2 2011, 9:21 AM
+
+    Dan Sutton responded:
+
+    There was an old maxim at IBM, back in the '70s: "After estimating the time
+    required to complete a programming project, upgrade the unit and multiply by
+    2." Therefore, if you estimate that something will take you an hour, then
+    it'll probably take two days. A day becomes two weeks; a week becomes two
+    months, and so on. God help you if you think it'll take you two months.
+
+    This may seem ludicrous, but those old IBM guys knew what they were talking
+    about. See, users lie continuously and unknowingly: finish your project and
+    you'll find out that they didn't really want \<that\> -- they wanted
+    something else, but were unable to express themselves. Then, add in all the
+    debugging time, testing, QA, user training, implementation problems and so
+    on, and sure enough, you'll find out that old IBM was right on track after
+    all.
+
+-   Nov 2 2011, 9:27 AM
+    maxxie liked this post.
+-   Nov 4 2011, 3:40 AM
+    Marc responded:
+    On my first job in an IT department of a Investement Bank where team was
+    responsible for support, maintenance and development of trading systems, by
+    boss said that "Deadlines are never missed, just what's delivered is
+    adapted".
+-   Nov 7 2011, 8:52 AM
+
+    ROFL responded:
+
+    ROFL, sure man, and nice guys finish first.
+
+    If you really want to get ahead in Corp IT kids, just do the opposite of
+    what this article says.
+
+    No one cares about your pre-writen unit tests or doing the right thing.
+
+    If you want your job and want to advance faster than your peers, write crap
+    code that works, get it out quickly, and focus on your soft skills
+    (professionalism, presentation, communication skills).
+
+    That will feed your family more than some idealistic sheeple bullshit that
+    this article is pushing.
+
+-   Nov 7 2011, 8:54 AM
+    Dan Sutton responded:
+    @ROFL: Agreed. That stuff's for college kids.
+
+  [Previous]: ../../../posts/2011/07/the-root-of-all-change.html
+  [Index]: ../../../index-4.html
+  [Next]: ../../../posts/2011/06/building-a-web-business.html
   [The Pragmatic Programmer]: http://www.amazon.com/gp/product/020161622X/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=217145&creative=399369&creativeASIN=020161622X
     "The Pragmatic Programmer"
   [wikipedia article]: http://en.wikipedia.org/wiki/Test-driven_development

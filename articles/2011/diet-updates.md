@@ -1,8 +1,12 @@
-Title: Diet Updates
-Date: 2011-05-01 19:08
-Author: Randall Degges
-Tags: fitness
+# Randall Degges
 
+## This is an archived post This is an archived post
+
+[Previous][]   [Index][]   [Next][]
+
+### Diet Updates
+
+May 1 2011, 12:08 PM  by Randall Degges
 
 Exactly 1 month ago, I decided to try a new diet regime. Over the past 7 months
 now I've been slowly losing weight, trying to get down to my goal weight of
@@ -17,8 +21,7 @@ which spike up (allowing your body to store fat) when you consume carbs.
 If you want to read more about ketosis, check out the [wikipedia article][] or
 this [good summary][].
 
-
-## First Month Results
+First Month Results
 
 For the past month I've been on a strict keto diet. No cheat meals, nothing. It
 was a lot easier than I thought it would be. I didn't crave any sugary foods for
@@ -43,8 +46,7 @@ no exercise, and split amongst the other two weeks, I did biking several days of
 the week. My average caloric intake this month was around 2000 calories per day.
 I made it a point to eat until full almost every day in the month.
 
-
-## Thoughts
+Thoughts
 
 I've really enjoyed maintaining ketosis for a solid month. I've felt a lot
 healthier, happier, and more energetic. Eating fatty foods has been really easy
@@ -55,7 +57,21 @@ my bodybuilding goals.
 I'll post another update at the end of my second month, and hopefully be able to
 share more interesting results!
 
+#### Tags
 
+fitness
+
+#### 830 views and 1 response
+
+-   May 2 2011, 7:50 AM
+    Tony Lara responded:
+    I keep reading testimonials about this ketogenic diet. and the the concept
+    sounds sound to me I am going to give it a try see how my body reacts.
+    Thanks for sharing this and the links
+
+  [Previous]: ../../../posts/2011/05/pycall-20-is-out.html
+  [Index]: ../../../index-5.html
+  [Next]: ../../../posts/2011/04/the-perfect-django-settings-file.html
   [wikipedia article]: http://en.wikipedia.org/wiki/Ketogenesis "ketosis"
   [good summary]: http://forum.bodybuilding.com/showthread.php?t=132598293
     "ketosis summary"

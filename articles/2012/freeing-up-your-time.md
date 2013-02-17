@@ -1,11 +1,14 @@
-Author: Randall Degges
-Date: 2012-10-19 21:48
-Slug: freeing-up-your-time
-Title: Freeing Up Your Time
-Tags: philosophy, personal development
+# Randall Degges
 
+## This is an archived post This is an archived post
 
-![Warrior Meditating][]
+[Previous][]   [Index][]   [Next][]
+
+### Freeing Up Your Time
+
+October 19 2012, 2:48 PM  by Randall Degges
+
+![][]
 
 I'm a huge proponent of being lazy. And of course, by being lazy, I mean being
 smart.
@@ -70,8 +73,13 @@ If you're looking for a quick way to cut back on your stress, free up some time,
 and clear your mind--spend a day automating all your basic needs--I guarantee
 you won't regret it.
 
+#### 1518 views and 0 responses
 
-  [Warrior Meditating]: /static/images/2012/warrior_meditating.png "Warrior Meditating Sketch"
+  [Previous]: ../../../posts/2012/10/hack-things-at-the-la-hackathon.html
+  [Index]: ../../../index.html
+  [Next]: ../../../posts/2012/10/some-constants.html
+  []: ../../../image/2012/10/45225997-meditation.jpg
   [it all adds up]: http://www.youtube.com/watch?v=WO4tIrjBDkk "Inches Speech"
-  [Amazon]: http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=rdegges-20 "Amazon"
+  [Amazon]: http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=rdegges-20
+    "Amazon"
   [Ducksboard]: http://ducksboard.com/ "Ducksboard"

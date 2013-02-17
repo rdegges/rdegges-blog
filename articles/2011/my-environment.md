@@ -1,15 +1,19 @@
-Title: My Desktop Environment
-Date: 2011-02-12 20:00
-Author: Randall Degges
+# Randall Degges
 
+## This is an archived post This is an archived post
+
+[Previous][]   [Index][]   [Next][]
+
+### My Desktop Environment
+
+February 12 2011, 12:00 PM  by Randall Degges
 
 I love reading about the tools that other people use daily, what sort of editors
 they use, what software they consider essential, how they use it, and why. I've
 never taken the time to do a write up about the tools I use, so I figured this
 weekend would be as good a time as any.
 
-
-## General Environment Information
+General Environment Information
 
 -   **Computer**: Desktop (custom built). 16GB RAM, 2TB disk, wired ethernet,
     quad core Intel core 7 CPU, nVidia GeForce GTX 285.
@@ -49,7 +53,7 @@ The Sennheiser headphones are awesome. I only acquired them recently, but they
 completely changed my coding experience. They competely isolate your from the
 outside world, and provide really smooth bass and a clear listening experience.
 I often code wearing headphones through the day, and the difference between
-these and my old 50$ makes it totally worth the cost.
+these and my old 50\$ makes it totally worth the cost.
 
 For reading--I LOVE my Kindle. I read a lot of books (30 minutes a day,
 minimum), and the kindle has been a great way for me to save money and
@@ -65,10 +69,9 @@ phone, and vice-versa, which really makes daily life simple.
 
 And here's a picture of my workspace:
 
-![Desktop][]
+![][]
 
-
-## Operating System Details
+Operating System Details
 
 I used to hate KDE, really hate it. It was slow, choppy, and generally ugly. The
 4.x versions, however, are completely different. I made the switch from Ubuntu
@@ -79,21 +82,19 @@ desktop effects (if you've got a decent GPU), and is highly customizable.
 
 Here are some random screenshots of my desktop:
 
-![Screenshot][]
+![][1]
 
-![Screenshot][1]
+![][2]
 
-![Screenshot][2]
+![][3]
 
-
-## Software
+Software
 
 The most important part of any environment is obviously the software. Over the
 years, I've tried numerous tools, and I routinely try new ones. The ones that
 follow are the ones I absolutely couldn't live without.
 
-
-### Chrome
+Chrome
 
 I love using [Google Chrome][]. It's got great developer tools built in for
 working on your sites, has a lot of great plugins, and magically syncs your
@@ -122,8 +123,7 @@ Plugins I use daily:
 -   [Webpage Screenshot][]: Take screenshots of web pages. Great for quickly
     sharing a screeny with some friends.
 
-
-### Konsole
+Konsole
 
 KDE's Konsole (terminal emulator) is by far my favorite terminal. It has a great
 GUI paired with lots of functionality and flexibility. The default keybindings
@@ -132,12 +132,11 @@ needs--with style.
 
 Here's a couple screenshots:
 
-![Screenshot][3]
+![][4]
 
-![Screenshot][4]
+![][5]
 
-
-### Vim
+Vim
 
 As I mentioned before--vim is my editor of choice. I code a lot, and vim makes
 coding easy. I've messed around with lots of other options: emacs, eclipse,
@@ -160,11 +159,11 @@ which really improve the experience. In no particular order:
 -   [ropevim][]: Adds lots of handy vim keymappins for refactoring python code.
 -   [snipmate][]: Lets you build (and use) code snippets for automatically
     populating code based on what you're typing. For example, if you find
-    yourself typing `for x in blah:` a lot, you can make a snippet for that,
+    yourself typing \`for x in blah:\` a lot, you can make a snippet for that,
     and when you start typing that statement it will automatically insert a
     template, and let you tab through the variables to update them. Saves a TON
     of time.
--   [snipmate_django][]: Django snippets.
+-   [snipmate\_django][]: Django snippets.
 -   [trailing-whitespace][]: Removes all trailing whitespace from your files. I
     hate trailing whitespace.
 -   [vim-fugitive][]: Adds GIt support into vim. Never leave your vim window
@@ -175,12 +174,11 @@ which really improve the experience. In no particular order:
 
 Obligatory screenshots:
 
-![Screenshot][5]
+![][6]
 
-![Screenshot][6]
+![][7]
 
-
-### Screen
+Screen
 
 I only recently learned how to use GNU screen properly. I will never go back.
 Using screen has given me a huge productivity boost. It lets you navigate
@@ -194,7 +192,7 @@ hands off the keyboard to use the mouse. Both of those solutions are slow and
 annoying when you're trying to quickly navigate windows. Using screen completely
 changed my workflow. Now I'll typically maintain a single Konsole window full
 screen using GNU screen, and keep multiple screen windows open that I'll switch
-through using CTRL+a <numeric> or CTRL+a p/n (previous and next windows,
+through using CTRL+a \<numeric\> or CTRL+a p/n (previous and next windows,
 respectively). This makes switching windows quick, efficient, and non-intrusive
 to my daily workflow.
 
@@ -210,17 +208,16 @@ that always display:
 This makes it easy to identify my active windows, and keep track of what is
 where:
 
-![Screenshot][7]
+![][8]
 
-
-### Dropbox
+Dropbox
 
 [Dropbox][] just makes everything easier. I use it to sync all of my desktop
-files: code, music, pictures, configuration files, etc. Most of my `/home`
+files: code, music, pictures, configuration files, etc. Most of my \`/home\`
 directory is synced there somewhere. Dropbox (if you haven't heard of it),
 allows you to sync files between multiple computers. I put all of my files into
-my `/home/rdegges/Dropbox` folder, and then symlink to major folders from
-there, eg: `ln -s /home/rdegges/Dropbox/Documents / home/rdegges/Documents`.
+my \`/home/rdegges/Dropbox\` folder, and then symlink to major folders from
+there, eg: \`ln -s /home/rdegges/Dropbox/Documents / home/rdegges/Documents\`.
 Makes all of my stuff sync transparently.
 
 The main benefits with Dropbox are that all my files are always backed up, and
@@ -228,8 +225,7 @@ that I can easily switch computers. Let's say I need to use my laptop somewhere,
 as soon as I turn it on, it'll sync all my desktop files to my laptop, and
 essentially fully configure my data for me. No work necessary.
 
-
-### Amarok
+Amarok
 
 I listen to a lot of music. [Amarok][] is my favorite music player for linux. It
 has lots of great plugins (including [last.fm][] support), album art, lyrics,
@@ -239,10 +235,9 @@ allow me to quickly sort through music without ever touching the mouse.
 
 Screenshot:
 
-![Screenshot][8]
+![][9]
 
-
-### IRSSI
+IRSSI
 
 If you've ever used IRC, you've likely heard of [IRSSI][]. It's probably the
 best IRC client for command line users. It provides tons of configuration
@@ -252,16 +247,24 @@ actually), and IRSSI is my weapon of choice.
 
 Screenshot:
 
-![Screenshot][9]
+![][10]
 
-
-## Conclusion
+Conclusion
 
 Those are my tools in a nutshell. I'm specifically not including my coding tools
 here (hudson, fabric, python, etc.) because that should really be in a separate
 post. If you've done a writeup on your desktop environment, I'd love to see it.
 
+#### 75722 views and 1 response
 
+-   Feb 13 2011, 12:13 PM
+    xpn-security responded:
+    Good too see someone who's still running a desktop. Will be nice to see a
+    future article on your programming tools.
+
+  [Previous]: ../../../posts/2011/03/dont-get-too-cocky.html
+  [Index]: ../../../index-5.html
+  [Next]: ../../../posts/2011/01/programming-innocence.html
   [Kubuntu 10.10 64-bit]: http://www.kubuntu.org/ "Kubuntu 10.10 64-bit"
   [Logitech Illuminated Keyboard]: http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=projectb14ck-20&o=1&p=8&l=as4&m=amazon&f=ifr&asins=B001F51G16
     "Logitech Illuminated Keyboard"
@@ -275,10 +278,10 @@ post. If you've done a writeup on your desktop environment, I'd love to see it.
     "Kindle DX"
   [HTC G2]: http://www.amazon.com/gp/product/B004AIRLDC?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B004AIRLDC
     "HTC G2"
-  [Desktop]: http://getfile7.posterous.com/getfile/files.posterous.com/temp-2011-02-12/lpBasnByJBJmemvtEgpxwpIyoIcgoGJJldfyljnBJCcbjJJukgCBjiBIHbwi/IMG_20110212_093354.jpg.scaled696.jpg
-  [Screenshot]: http://getfile6.posterous.com/getfile/files.posterous.com/temp-2011-02-12/JuAwwIqbgyeDpnDbuDfaoswiDsDgryaaxzyDrJeeFBujmAjGloFvrDemEbdu/screenshot.png.scaled696.png
-  [1]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2011-02-12/pgxHeomfxousiArfjkFFieErggCCmHdDClvpHtesdIcsnrmAkjbahFyppggC/screenshot.png.scaled696.png
-  [2]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2011-02-12/leafuihyImnfHcGjIEwcmcduvBpuogrCIwhBDbDpCtacCeAaxhxEqGDthAjI/screenshot.png.scaled696.png
+  []: ../../../image/2011/02/21454154-IMG_20110212_093354.jpg
+  [1]: ../../../image/2011/02/21454860-screenshot.png
+  [2]: ../../../image/2011/02/21455231-screenshot.png
+  [3]: ../../../image/2011/02/21455578-screenshot.png
   [Google Chrome]: http://www.google.com/chrome "Google Chrome"
   [TweetDeck]: http://www.tweetdeck.com/ "TweetDeck"
   [Adblock]: https://chrome.google.com/webstore/detail/gighmmpiobklfepjocnamgkkbiglidom
@@ -291,25 +294,25 @@ post. If you've done a writeup on your desktop environment, I'd love to see it.
     "Vimium"
   [Webpage Screenshot]: https://chrome.google.com/webstore/detail/ckibcdccnfeookdmbahgiakhnjcddpki
     "Webpage Screenshot"
-  [3]: /images/2011/irssi-screenshot1.png
-  [4]: http://getfile9.posterous.com/getfile/files.posterous.com/temp-2011-02-12/fcrIttJgqioDrfbokFAccoxDawfolgEAJkvgmgwdFmkJDnJvrdasBbuxtFpA/screenshot.png.scaled696.png
+  [4]: ../../../image/2011/02/21457201-screenshot.png
+  [5]: ../../../image/2011/02/21457275-screenshot.png
   [pathogen]: https://github.com/tpope/vim-pathogen "pathogen"
   [vim-puppet]: https://github.com/rodjek/vim-puppet "vim-puppet"
   [vim-pyflakes]: https://github.com/kevinw/pyflakes-vim "vim-pyflakes"
   [ropevim]: https://github.com/gordyt/rope-vim "ropevim"
   [snipmate]: https://github.com/msanders/snipmate.vim "snipmate"
-  [snipmate_django]: https://github.com/robhudson/snipmate_for_django
+  [snipmate\_django]: https://github.com/robhudson/snipmate_for_django
     "snipmate_django"
   [trailing-whitespace]: https://github.com/vim-scripts/trailing-whitespace
     "trailing-whitespace"
   [vim-fugitive]: https://github.com/tpope/vim-fugitive "vim-fugitive"
   [vim-uninpaired]: https://github.com/tpope/vim-unimpaired "vim-unimpaired"
-  [5]: http://getfile1.posterous.com/getfile/files.posterous.com/temp-2011-02-12/HJDmamGJllehnoxaDlrxakqhymgqmAepIgtxDCAyszGhzsEiqEbGgdAlvEHG/screenshot.png.scaled696.png
-  [6]: http://getfile6.posterous.com/getfile/files.posterous.com/temp-2011-02-12/cfDnsHbprjHeHCcoaiycayutyltledycHwhAszJdbhErbADhCCJnrDaDGjdG/screenshot.png.scaled696.png
-  [7]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2011-02-12/khgclqtDBdyuejAfvxvHFBAytgzlsgjqalGBAvmBCHplevyhkxnwFBshADqH/screenshot.png.scaled696.png
+  [6]: ../../../image/2011/02/21458196-screenshot.png
+  [7]: ../../../image/2011/02/21458243-screenshot.png
+  [8]: ../../../image/2011/02/21460019-screenshot.png
   [Dropbox]: http://db.tt/nP9tpb2 "Dropbox"
   [Amarok]: http://amarok.kde.org/en "Amarok"
   [last.fm]: http://www.last.fm/home "last.fm"
-  [8]: http://getfile1.posterous.com/getfile/files.posterous.com/temp-2011-02-12/daEcaIDICFtutvhgBElFngsgGdaxnueukwcxwgmgxsFgmcsEbcqdJjvcbtce/screenshot.png.scaled696.png
+  [9]: ../../../image/2011/02/21460322-screenshot.png
   [IRSSI]: http://www.irssi.org/ "IRSSI"
-  [9]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2011-02-12/woEbovAcggvrDCqmwAzgjjunGtdmAJdezvIituoxxgwEoAsrgAsEaxrEncxt/screenshot.png.scaled696.png
+  [10]: ../../../image/2011/02/21461149-screenshot.png

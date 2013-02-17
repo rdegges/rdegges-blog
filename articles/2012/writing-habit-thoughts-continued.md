@@ -1,11 +1,14 @@
-Author: Randall Degges
-Date: 2012-03-04 23:38
-Slug: writing-habit-thoughts-continued
-Tags: habits, personal development, writing
-Title: Writing Habit -- Thoughts (continued)
+# Randall Degges
 
+## This is an archived post This is an archived post
 
-![Writing with a Quill][]
+[Previous][]   [Index][]   [Next][]
+
+### Writing Habit -- Thoughts (continued)
+
+March 4 2012, 3:38 PM  by Randall Degges
+
+![][]
 
 For the past two months I've been [writing][] for at least 30 minutes a day. I'd
 like to quickly reflect on what I've accomplished so far, and my thoughts on the
@@ -25,8 +28,7 @@ that. While almost all of it has been an accident--looking back, I feel pretty
 happy with the results. Through the process of writing each day, I've learned a
 lot about writing, communication, and more importantly, myself.
 
-
-## Writing
+Writing
 
 Writing is all about expression. Probably the most important thing I've learned
 so far is that if you suck at writing then, chances are, you suck at expressing
@@ -39,13 +41,13 @@ professionally (which, incidentally, is when I decided to commit to my personal
 development at a much higher level), I had a major realization: **I am not a
 good writer**.
 
-My ability to write on topics that made **me** excited was almost non-existent.
+My ability to write on topics that made **me** excited was almot non-existent.
 Sure, I could produce specially crafted five paragraph essays to explain a piece
 of literature--but writing a clear and concise technical article? No way.
 
 Even though I love technology and programming, and eagerly wanted to write about
 the various things I was working on, and techniques I was learning--I simply
-didn't have the skill set to make it happen. Articles I wrote came out jumbled,
+didn't have the skillset to make it happen. Articles I wrote came out jumbled,
 disorganized, and chaotic.
 
 At the time, I simply thought that if I chose to write whenever I had
@@ -53,8 +55,7 @@ inspiration, than I'd easily improve my writing skills and become better. But
 you know what? It didn't happen. Not until I decided to actually commit to
 writing each day, did I finally make the breakthrough I was looking for.
 
-
-## A Breakthrough
+A Breakthrough
 
 By looking at writing as part of my life, as central piece of who I am--writing
 has become so much easier. While I've mentioned this [before][], I think it
@@ -90,8 +91,7 @@ Since I realized that I enjoy writing much more when I'm simply dumping my
 thoughts onto paper, I've become extremely attached. The process of writing each
 day feels good, and has become a critical part of my daily routine.
 
-
-## Benefits
+Benefits
 
 While I'm in **no way** a good writer now, I feel a lot more comfortable
 writing, explaining my ideas, and sharing information with other people.
@@ -110,7 +110,7 @@ In particular, meeting new people through writing has been a wonderful
 experience. I've met several extremely talented programmers who are, without
 question, some of the smartest people I've ever spoken with. I maintain a pretty
 close circle of friends (you should come say hi if you use IRC
-([irc.oftc.net/#heapify][])), and I find it extremely difficult to meet other
+([irc.oftc.net/\#heapify][])), and I find it extremely difficult to meet other
 highly self-motivated people who share common interests (like personal
 development, programming, etc.). Through writing, I've been able to close that
 gap and connect with lots of great people.
@@ -123,8 +123,7 @@ and self-consciousness. Since I enjoy working on personal development, this has
 made a profound impact in my day-to-day life, and I've found new ways to
 incorporate my new self understand into my habit building regimen.
 
-
-## Final Thoughts
+Final Thoughts
 
 Of all the habits I've built, writing has been my favorite. The benefits are
 vast, the payoff is great, and it's internally rewarding to work on.
@@ -141,9 +140,47 @@ many years to go before I reach the level of fluency that I'd like to attain.
 journey is going. Please send me an email ([rdegges@gmail.com][]), or leave a
 comment--and lets keep in touch!
 
+#### Tags
 
-  [Writing with a Quill]: /static/images/2012/writing-with-a-quill.png "Writing with a Quill Sketch"
-  [writing]: /establishing-a-writing-habit "Establishing a Writing Habit"
-  [before]: /writing-habit-complete "Writing Habit -- Complete"
-  [irc.oftc.net/#heapify]: irc://irc.oftc.net/#heapify "heapify"
+habits, personaldevelopment, writing
+
+#### 3258 views and 3 responses
+
+-   Mar 5 2012, 1:17 AM
+    gordonwong liked this post.
+-   Mar 8 2012, 10:51 AM
+
+    c\_schmolzer (Twitter) responded:
+
+    I immediately recognized myself when reading your post. Especially the part
+    about being able to perform really well in school. Outside of that
+    environment I find it really hard for me to write good blog posts or
+    documentation.
+
+    I felt really inspired by your experience with creating a new habit of
+    writing everyday, so I'm going to steal it and see where it goes.
+
+    Thank you for a nice read.
+
+-   Apr 8 2012, 10:08 AM
+
+    Chris Sherbak responded:
+
+    Lately the energy and passion I'm feeling lately about my Big Thoughts are
+    making me think about writing more as well. I'm pretty sure my Big Thoughts
+    aren't all that to anyone else, but hopefully getting them down will help
+    crystallize them and make them at least a Little Bit Bigger Thoughts for my
+    small circle of chums.
+
+    Your post gives me some hope and some ideas. Thanks!
+
+  [Previous]: ../../../posts/2012/03/the-simplest-way-to-compress-html-in-django.html
+  [Index]: ../../../index-3.html
+  [Next]: ../../../posts/2012/02/merciless.html
+  []: ../../../image/2012/03/38604393-quill.png
+  [writing]: http://rdegges.com/establishing-a-writing-habit
+    "Establishing a Writing Habit"
+  [before]: http://rdegges.com/writing-habit-complete
+    "Writing Habit -- Complete"
+  [irc.oftc.net/\#heapify]: http://irc://irc.oftc.net/#heapify "heapify"
   [rdegges@gmail.com]: mailto:rdegges@gmail.com "rdegges"

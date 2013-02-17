@@ -1,14 +1,17 @@
-Author: Randall Degges
-Date: 2012-04-14 18:05
-Slug: successful-github-development
-Tags: git, programming
-Title: Successful GitHub Development
+# Randall Degges
 
+## This is an archived post This is an archived post
 
-![GitHub Model][]
+[Previous][]   [Index][]   [Next][]
+
+### Successful GitHub Development
+
+April 14 2012, 11:05 AM  by Randall Degges
+
+![][]
 
 I've been using GitHub for several years now, and it has drastically changed my
-development work flow, mindset, and collaboration efforts. Over the time I've
+development workflow, mindset, and collaboration efforts. Over the time I've
 used GitHub, I've contributed to many projects, started many of my own, and had
 the opportunity to interact with a wide range of developers (from novices to
 professionals).
@@ -36,8 +39,7 @@ staple of modern society, and in order to ensure that the open source ecosystem
 remains friendly, accessible, and effective--we (as developers) need to do all
 we can to promote best practices and effective collaboration.
 
-
-## Maintainers
+Maintainers
 
 Maintaining open source projects is hard--it requires time, energy, and good
 communication. The principles outlined here should be applied to all open source
@@ -54,8 +56,7 @@ maintainer you can use this list as something of a checklist for new projects,
 going through and crossing off each requirement until your project is fully
 compliant.
 
-
-### 1. Write Official Documentation
+​1. Write Official Documentation
 
 The first requirement for any open source project is that it has good
 documentation for prospective users. There is absolutely no excuse for not
@@ -88,7 +89,7 @@ Your official documentation should (at a minimum) include:
     -   Which branch to use for development.
     -   What style rules to follow when adding code.
     -   How to run all of the project's unit tests, integration tests, etc.
-    -   An example work flow.
+    -   An example workflow.
 
 -   **Where to get help.** If your user is stuck, and can't figure something
     out--where should they go for help? A mailing list? A forum? An IRC channel?
@@ -119,11 +120,10 @@ Some things to take note of:
     -   GitHub hooks to automatically build your documentation whenever your
         project is updated.
     -   The ability to generated PDF downloads for your documentation.
-    -   The ability to support multiple versions of documentation for your
+    -   The ability to support multiple versions of documenation for your
         project (v0.1, v0.2, etc...).
 
-
-### 2. Use Git Flow
+​2. Use Git Flow
 
 [git-flow][] is a popular Git branching model (and addon) that provides a simple
 way to work with stable projects. The idea of git-flow is that each project
@@ -150,10 +150,9 @@ To learn more about git-flow, read the following posts (in order):
 -   [http://jeffkreeftmeijer.com/2010/why-arent-you-using-git-flow/][]
 -   [http://nvie.com/posts/a-successful-git-branching-model/][]
 -   [http://buildamodule.com/video/change-management-and-version-control-deploying-releases-features-and-fixes-with-git-how-to-use-a-scalable-git-branching-model-called-gitflow][]
--   [http://codesherpas.com/screencasts/on_the_path_gitflow.mov][]
+-   -   [http://codesherpas.com/screencasts/on\_the\_path\_gitflow.mov][]
 
-
-### 3. Publish Test Runs
+​3. Publish Test Runs
 
 If you don't write tests for your code, [read this][] before you go any
 further. As I'm sure you know, tests are essentially worthless if they aren't
@@ -190,10 +189,9 @@ it prominently on your project page.
 If you can't use Travis CI for any reason, you should use [Jenkins][]. Jenkins
 is a simple continuous integration server that you can easily configure to build
 your projects. If you are using Jenkins, be sure to link users (from your
-documentation) to your Jenkins web page so they can view your test builds.
+documentation) to your Jenkins webpage so they can view your test builds.
 
-
-### 4. Use GitHub Issues
+​4. Use GitHub Issues
 
 GitHub issues is the best way to track issues for your project, and you should
 encourage your users (and contributors) to use it for:
@@ -211,8 +209,7 @@ Ensuring your project's issue tracker is always kept up-to-date and well
 maintained also strongly encourages new contributors to work on the project, as
 they can easily find issues and fix them for you.
 
-
-## Contributors
+Contributors
 
 Contributing code to open source projects can be difficult, exciting, scary, and
 rewarding. This section is aimed at helping you successfully contribute code to
@@ -222,8 +219,7 @@ If you stick to these tips, you can't go wrong. As with the maintainers
 section--the tips below are ordered by importance, and can be followed as a
 checklist.
 
-
-### 1. Read the Project Documentation
+​1. Read the Project Documentation
 
 If the project you're attempting to contribute to has any official
 documentation, be sure to read all of it before submitting any code. Often times
@@ -233,13 +229,12 @@ found somewhere in the documentation.
 Reading through the official documentation will also typically give you a good
 feel for the project's purpose, scope, and ideals. These are incredibly
 important, as possibly the most critical factor in having your code accepted to
-a project is that it meshes well with the existing code base. It is highly
+a project is that it meshes well with the existing codebase. It is highly
 unlikely, for instance, that an IRC bot maintainer will accept a pull request
-containing code which adds Skype support--as the project is most likely focusing
+containing code which adds skype support--as the project is most likely focusing
 entirely on IRC.
 
-
-### 2. Look at the Issue Tracker
+​2. Look at the Issue Tracker
 
 Before writing your first line of code, be sure to scan through the project's
 issue tracker.
@@ -259,8 +254,7 @@ times, having feature discussions before submitting code greatly increases the
 chance your code will be accepted, as the maintainer already expects you to
 submit code, and has a good idea of what to look for and inspect.
 
-
-### 3. Comply to Style Guidelines
+​3. Comply to Style Guidelines
 
 Almost every project has a distinct style of code. Whenever you submit code to a
 project, be sure that your code complies with the already existing style.
@@ -269,16 +263,15 @@ Not only will writing code in the same style as the project make the code easier
 for you to understand--it will make it easier for the project maintainer to
 review, accept, and publish!
 
-Regardless of whether or not you like the style of the existing code base,
+Regardless of whether or not you like the style of the existing codebase,
 complying with the author's style guidelines makes everyone happier as all the
 code will be uniform, easier to scan through, easier to debug, and easier to
 maintain over time.
 
-
-### 4. Unsure? Ask!
+​4. Unsure? Ask!
 
 If you're unsure about anything--whether it be coding style, development
-work flow, wording, whatever--try not to make assumptions, ask!
+workflow, wording, whatever--try not to make assumptions, ask!
 
 Quite possibly the greatest benefit of open source software is that it brings
 people together to create amazing things. If you're not sure about something,
@@ -290,8 +283,7 @@ be more than happy to explain why something is (or isn't) a good idea.
 Discussing questions before submitting code is a great way to make new friends,
 learn cool things, and generally enjoy your open source experience a lot more.
 
-
-## Have Fun
+Have Fun
 
 Maintaining and contributing to open source projects is a lot of fun. There's
 nothing quite like the rush you get by creating something entirely new, and
@@ -304,16 +296,87 @@ you're doing immediately and re-think things.
 I hope the guidelines above were useful to you. If you have any questions or
 suggestions, please leave a comment and I'll update the post as needed.
 
+#### Tags
 
-  [GitHub Model]: /static/images/2012/github-model.png "GitHub Model"
-  [https://github.com/blog/1081-instantly-beautiful-project-pages]: https://github.com/blog/1081-instantly-beautiful-project-pages "New GitHub Pages"
-  [http://readthedocs.org/]: http://readthedocs.org/ "Read the Docs"
+programming, git
+
+#### 20028 views and 7 responses
+
+-   Apr 14 2012, 6:24 PM
+
+    Jonathan Stanton responded:
+
+    What about soft releasing code? Would having two (or more) production
+    branches fit well into Git Flow model?
+
+    e.g. if you're rolling out a lot of updates you want to soft release it
+    sounds like it going get really crazy really fast, have you delt with this?
+
+-   Apr 14 2012, 6:37 PM
+    nikoniko77 liked this post.
+-   Apr 14 2012, 11:31 PM
+    joyhsu1980 liked this post.
+-   Apr 15 2012, 11:06 AM
+    Memet Mehmeti liked this post.
+-   Apr 15 2012, 1:24 PM
+
+    Randall Degges responded:
+
+    @Jonathan Stanton so, these rules only apply to open source software (like
+    tools, libraries, programs, whatever). If you're working on something that
+    is continuously updated (like a website), these rules don't apply.
+
+    When I work on websites (for work, and fun), I find it much more convenient
+    to simply have a single branch (master) and just push all commits there.
+
+    For most open source software, however, you have users that will install
+    your code somewhere (either via ruby gems, npm, whatever), so having stable
+    releases is incredibly important--which is where git flow shines as a
+    development model :)
+
+-   Apr 15 2012, 2:48 PM
+
+    Jonathan Stanton responded:
+
+    I think I get what you're saying; because websites are so easy to update its
+    not as big of a concern if you make a mistake as compared to software
+    releases where it could take a lot longer for the person to get / install
+    the update. while that may work on a site that is mostly static or where the
+    users dont really depend on your site a whole lot, it doesn't work for a
+    site where we have 2,000 - 5,000 users (mostly paid users) a day who have
+    high expectations 24/7, if I make a mistake for even 5 min it can cost
+    thousands of dollars in sales and even more damage to the reputation of the
+    company. When you're working on that scale you cannot just push with the
+    mindset of, if something is broken I will just do another quick push. Thats
+    a quick way for me to get fired.
+
+    Thats why I brought up soft releases because i can be super confident in my
+    code but even the best programmers make mistakes, and I am not close to
+    being the best so you can imagine how many mistakes I make!!!
+
+    This pattern of development matches exactly what we need because we've been
+    doing the single branch method for a while but it is causing to many
+    complications if/when we introduce bugs in the code (the need for hotfixes)
+    and then multiple people working on features at the same time. It just makes
+    sense we switch to this model.
+
+-   Oct 14 2012, 5:11 PM
+    marcel s liked this post.
+
+  [Previous]: ../../../posts/2012/04/never-stop-hacking.html
+  [Index]: ../../../index-3.html
+  [Next]: ../../../posts/2012/04/why-im-learning-node.html
+  []: ../../../image/2012/04/40046278-socialite.jpg
+  [https://github.com/blog/1081-instantly-beautiful-project-pages]: https://github.com/blog/1081-instantly-beautiful-project-pages
+  [http://readthedocs.org/]: http://readthedocs.org/
   [git-flow]: https://github.com/nvie/gitflow "git-flow"
-  [http://jeffkreeftmeijer.com/2010/why-arent-you-using-git-flow/]: http://jeffkreeftmeijer.com/2010/why-arent-you-using-git-flow/ "Git Flow Introduction"
-  [http://nvie.com/posts/a-successful-git-branching-model/]: http://nvie.com/posts/a-successful-git-branching-model/ "Git Flow Tutorial"
-  [http://buildamodule.com/video/change-management-and-version-control-deploying-releases-features-and-fixes-with-git-how-to-use-a-scalable-git-branching-model-called-gitflow]: http://buildamodule.com/video/change-management-and-version-control-deploying-releases-features-and-fixes-with-git-how-to-use-a-scalable-git-branching-model-called-gitflow "Git Flow Information"
-  [http://codesherpas.com/screencasts/on_the_path_gitflow.mov]: http://codesherpas.com/screencasts/on_the_path_gitflow.mov "Git Flow Video"
-  [read this]: http://www.codinghorror.com/blog/2006/07/i-pity-the-fool-who-doesnt-write-unit-tests.html "WRITE UNIT TESTS, FUCK!"
+  [http://jeffkreeftmeijer.com/2010/why-arent-you-using-git-flow/]: http://jeffkreeftmeijer.com/2010/why-arent-you-using-git-flow/
+  [http://nvie.com/posts/a-successful-git-branching-model/]: http://nvie.com/posts/a-successful-git-branching-model/
+  [http://buildamodule.com/video/change-management-and-version-control-deploying-releases-features-and-fixes-with-git-how-to-use-a-scalable-git-branching-model-called-gitflow]:
+    http://buildamodule.com/video/change-management-and-version-control-deploying-releases-features-and-fixes-with-git-how-to-use-a-scalable-git-branching-model-called-gitflow
+  [http://codesherpas.com/screencasts/on\_the\_path\_gitflow.mov]: http://codesherpas.com/screencasts/on_the_path_gitflow.mov
+  [read this]: http://www.codinghorror.com/blog/2006/07/i-pity-the-fool-who-doesnt-write-unit-tests.html
+    "WRITE UNIT TESTS, FUCK!"
   [Travis CI]: http://travis-ci.org/ "Travis CI"
-  [official documentation]: http://about.travis-ci.org/docs/ "Travis CI Documentation"
-  [Jenkins]: http://jenkins-ci.org/ "Jenkins Continuous Integration Server"
+  [official documentation]: http://about.travis-ci.org/docs/
+  [Jenkins]: http://jenkins-ci.org/

@@ -1,8 +1,12 @@
-Title: My Experiences With Tropo and Django
-Date: 2011-01-01 12:26
-Author: Randall Degges
-Tags: programming, python, django, tropo
+# Randall Degges
 
+## This is an archived post This is an archived post
+
+[Previous][]   [Index][]   [Next][]
+
+### My Experiences With Tropo and Django
+
+January 1 2011, 4:26 AM  by Randall Degges
 
 For the past several weeks, I've been doing a lot of coding on my free time
 using [tropo][]. If you aren't into telephony stuff, tropo is basically a
@@ -42,7 +46,7 @@ Django app. Some of the main problems I had using tropo with Django was:
 -   No simple way to track call progress automatically through the duration of a
     call.
 -   No simple way to verify that the JSON being POST'ed to your site is valid.
--   No *easy* way to handle question / answer call flow without generating
+-   No \*easy\* way to handle question / answer call flow without generating
     numerous similar views and hundreds of URLs.
 
 django-tropo solves all of these issues, and in addition, provides many other
@@ -52,10 +56,37 @@ I'm going to publish django-tropo to github in a few days, so stay tuned for
 more information. It will be a rough beta, but I'll continue to work on it and
 make sure it keeps improving as time goes on.
 
+ 
 
+#### Tags
+
+programming, python, django, tropo
+
+#### 6201 views and 1 response
+
+-   Jan 18 2011, 8:26 PM
+
+    Gergely Tímár (Facebook) responded:
+
+    Hi,
+
+    I'm working on a django app using tropo myself. Would you be able to send me
+    the django-tropo code even if it's not in a state to be made available to
+    the entire world on github?
+
+    Awesome blog, BTW.
+
+    Thanks,\
+     Greg
+
+  [Previous]: ../../../posts/2011/01/tracking-call-data-with-django-tropo.html
+  [Index]: ../../../index-6.html
+  [Next]: ../../../posts/2010/12/what-im-doing-in-2011.html
   [tropo]: https://www.tropo.com/home.jsp "tropo"
   [asterisk]: http://www.asterisk.org/ "asterisk"
   [freeswitch]: http://www.freeswitch.org/ "freeswitch"
   [opensips]: http://www.opensips.org/ "opensips"
-  [WebAPI]: https://www.tropo.com/docs/webapi/new_tropo_web_api_overview.htm "WebAPI"
-  [python WebAPI library]: https://github.com/tropo/tropo-webapi-python "python WebAPI library"
+  [WebAPI]: https://www.tropo.com/docs/webapi/new_tropo_web_api_overview.htm
+    "WebAPI"
+  [python WebAPI library]: https://github.com/tropo/tropo-webapi-python
+    "python WebAPI library"

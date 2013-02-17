@@ -1,10 +1,14 @@
-Author: Randall Degges
-Date: 2012-10-14 20:20
-Tags: personal development, philosophy
-Title: Some Constants
+# Randall Degges
 
+## This is an archived post This is an archived post
 
-![Tree][]
+[Previous][]   [Index][]   [Next][]
+
+### Some Constants
+
+October 14 2012, 1:20 PM  by Randall Degges
+
+![][]
 
 Everyone has their constants--a spouse, a ritual, parents, friends, whatever.
 Even with shit gets crazy in your life and you've got a million things going on,
@@ -19,8 +23,7 @@ some habit changes that I've really enjoyed. What follows are my constants.
 These are the things that make me feel awesome every day, regardless of whether
 or not I'm feeling my best.
 
-
-## Lifting Weights
+Lifting Weights
 
 *PICK STUFF UP, AND PUT IT DOWN AGAIN.* I know that everyone has their preferred
 form of exercise, but for me, it is lifting weights. The first thing I do when I
@@ -33,8 +36,7 @@ got a good workout in.
 Getting a win early in the day feels good, keeps me motivated, and generally
 makes me feel more awesome.
 
-
-## Reading
+Reading
 
 I read a lot of books. I'm really into software best practices, programming, and
 theory books. (*As a sidenote, basically every book [The Pragmatic Bookshelf][]
@@ -52,8 +54,7 @@ base.
 Get a [Kindle][], download some ebooks, visit your library--whatever. Just read
 stuff. More.
 
-
-## Eating Meat
+Eating Meat
 
 *MEEEAAAATTTT!* Meat tastes good, it's filled with protein, makes you feel full,
 and is low on calories. What could be better?
@@ -63,8 +64,7 @@ awesome, helps repair muscle tissue, and tastes amazing. Some of my favorite
 dishes at the moment are almond chicken, meatballs with sauteed onions, and
 everyone's favorite: bacon.
 
-
-## Writing
+Writing
 
 Writing is very therapeutic. The act of analyzing your thoughts, figuring out
 what they mean, and then translating that meaning into groupings of words that
@@ -90,11 +90,21 @@ sure you'll meet awesome business people.
 Writing a little bit every day keeps me sane, helps me relax, and generally
 makes me feel awesome.
 
+ 
 
 These are the my constants. They change from time to time, but are always there
 for me to fall back on. What are yours?
 
+#### Tags
 
-  [Tree]: /static/images/2012/tree.png "Tree Sketch"
+personaldevelopment, philosophy
+
+#### 1136 views and 0 responses
+
+  [Previous]: ../../../posts/2012/10/freeing-up-your-time.html
+  [Index]: ../../../index.html
+  [Next]: ../../../posts/2012/10/my-bane-multiple-projects.html
+  []: ../../../image/2012/10/45101971-tree.jpg
   [The Pragmatic Bookshelf]: http://pragprog.com/ "The Pragmatic Bookshelf"
-  [Kindle]: http://www.amazon.com/gp/product/B008UB7DU6/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B008UB7DU6&linkCode=as2&tag=rdegges-20 "Kindle"
+  [Kindle]: http://www.amazon.com/gp/product/B008UB7DU6/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B008UB7DU6&linkCode=as2&tag=rdegges-20
+    "Kindle"

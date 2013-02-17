@@ -1,11 +1,14 @@
-Author: Randall Degges
-Date: 2012-01-10 06:37
-Slug: dogs-are-great-programming-companions
-Tags: humor, programming
-Title: Dogs Are Great Programming Companions
+# Randall Degges
 
+## This is an archived post This is an archived post
 
-![Yes This is Dog][]
+[Previous][]   [Index][]   [Next][]
+
+### Dogs Are Great Programming Companions
+
+January 9 2012, 10:37 PM  by Randall Degges
+
+![][]
 
 I love dogs. Really. They're the best beasts on the planet.
 
@@ -31,12 +34,31 @@ nice reminder life is good. Even when I'm working really hard to fix critical
 problems, or in the zone coding away, having a dog nearby makes me feel
 comfortable and happy.
 
-Here are [some pictures][] of Scribbles (the destroyer of worlds), in all her
-glory.
+Here are some pictures of Scribbles (the destroyer of worlds), in all her glory:
 
-**NOTE**: In case you're wondering--she's named Scribbles because she has
+![][1] ![][2] ![][3] ![][4] ![][5] ![][6] ![][7] ![][8] ![][9] ![][10] ![][11]
+
+**NOTE**: Incase you're wondering--she's named Scribbles because she has
 scribbled markings all over her coat.
 
+#### Tags
 
-  [Yes This is Dog]: /static/images/2012/yes-this-is-dog.png "Yes This is Dog"
-  [some pictures]: http://www.flickr.com/photos/randalldegges/sets/72157629719357802/ "Scribbles Flickr Gallery"
+programming, humor
+
+#### 4116 views and 0 responses
+
+  [Previous]: ../../../posts/2012/01/reflections-on-herokus-waza-event.html
+  [Index]: ../../../index-3.html
+  [Next]: ../../../posts/2012/01/devops-django-part-5-using-heroku-in-producti.html
+  []: ../../../image/2012/01/36563885-hello-yes-this-is-dog.png
+  [1]: ../../../image/2012/01/36564335-scrib1.jpg
+  [2]: ../../../image/2012/01/36564336-scrib2.jpg
+  [3]: ../../../image/2012/01/36564338-scrib3.jpg
+  [4]: ../../../image/2012/01/36564339-scrib4.jpg
+  [5]: ../../../image/2012/01/36564342-scrib6.jpg
+  [6]: ../../../image/2012/01/36564343-scrib7.jpg
+  [7]: ../../../image/2012/01/36564341-scrib5.jpg
+  [8]: ../../../image/2012/01/36564345-scrib8.jpg
+  [9]: ../../../image/2012/01/36564346-scrib9.jpg
+  [10]: ../../../image/2012/01/36564348-scrib10.jpg
+  [11]: ../../../image/2012/01/36564351-scrib11.jpg

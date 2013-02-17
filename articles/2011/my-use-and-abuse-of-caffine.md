@@ -1,12 +1,16 @@
-Title: My Use (and Abuse) of Caffeine
-Date: 2011-09-29 14:42
-Author: Randall Degges
-Tags: caffine
+# Randall Degges
 
+## This is an archived post This is an archived post
 
-[![Caffeine][]][]
+[Previous][]   [Index][]   [Next][]
 
-[Caffeine][1] is an amazing drug. Interestingly, I've never actually written
+### My Use (and Abuse) of Caffeine
+
+September 29 2011, 7:42 AM  by Randall Degges
+
+![][]
+
+[Caffeine][] is an amazing drug. Interestingly, I've never actually written
 about my extensive use of caffeine before, although it is a large part of who I
 am. As all my friends can attest, I'm an enormous caffeine junkie. I've been
 told by numerous people (my wife included) that I need to lay off the caffeine
@@ -26,10 +30,9 @@ Actually, they still do.
 Through years of experimentation, I've come to realize how much caffeine has
 changed me as a person.
 
+My Normal (Uncaffinated) Self
 
-## My Normal (Uncaffinated) Self
-
-The *normal* Randall is a pretty awful guy. He procrastinates, is easily
+The \*normal\* Randall is a pretty awful guy. He procrastinates, is easily
 distracted, and is typically negative by nature. When I'm not caffinated, I feel
 like a completely different person.
 
@@ -57,8 +60,7 @@ myself do it, even though I want to, as it just seems like a pointless chore.
 This isn't always the case--but overall, I tend to be far more negative when I'm
 uncaffinated.
 
-
-## The Better (Caffeinated) Me
+The Better (Caffeinated) Me
 
 When I'm on caffeine--I feel amazing. I've never done any hard drugs before, but
 I can't imagine that they'd make me feel any better than caffeine does. When I'm
@@ -88,7 +90,7 @@ than I can otherwise.
 
 Caffeine also keeps me satiated. The more caffeine I take, the less hungry I
 feel--and this feeling lasts for hours at a time. 200mg of caffeine and I won't
-be hungry (at all) for ~4 hours. This has been particularly useful to me as it
+be hungry (at all) for \~4 hours. This has been particularly useful to me as it
 helps me avoid consuming unnecessary calories throughout the day in the form of
 snacks.
 
@@ -98,21 +100,20 @@ feel like I'm at my best, and my happiest, when I'm caffinated. I'm able to
 enjoy each moment of life as I pass through it, which puts me at peace
 internally.
 
-
-## The (Dirty) Details of My Caffeine Usage
+The (Dirty) Details of My Caffeine Usage
 
 It is actually rather hard for me to write about this, as I can't help but feel
 somewhat embarassed at my caffeine usage--but here it goes anyway.
 
 **NOTE**: *Don't do what I do. It's probably extremely risky and unhealthy, and
-I *know* that I need to change my habits significantly.*
+I \*know\* that I need to change my habits significantly.*
 
 I cycle caffeine. I've read tons of articles on the drug, and realize that my
 cycling isn't as effective as it could be (in large part because I don't go off
 it long enough to really flush it completely out of my system), but it has been
 effective for me. Keep in mind that the amounts of caffeine listed below are
-less effective at higher weights. I'm a fairly big guy (~220lbs), so these
-amounts would likely be *really* dangerous for someone smaller.
+less effective at higher weights. I'm a fairly big guy (\~220lbs), so these
+amounts would likely be \*really\* dangerous for someone smaller.
 
 My general cycle is three weeks on caffeine, one week off. After years of
 messing around with caffeine in various quantities and cycles, this has been the
@@ -135,7 +136,7 @@ to 2g (max) of caffeine per day, fluctuating its usage as necessary. I try to
 gradually increase my usage--for example: week 2 (of a month) I'll take between
 100mg and 400mg of caffeine. Week 3 I'll take between 400mg and 600mg. Week 4
 I'll take anywhere from 100mg to 2g. **NOTE**: *Days when I take more than 1g of
-caffeine are *always* followed by days with very low dosages of
+caffeine are \*always\* followed by days with very low dosages of
 caffeine--100mg or 200mg, as I'm afraid I'll overdo it.*
 
 In regards to the types of caffeine I take--I only take it in one of two ways:
@@ -151,8 +152,7 @@ Rockstars are great because they have great flavor, almost no calories, no carbs
 to spread your caffeine intake out a bit more, instead of ingesting it all at
 once.
 
-
-## How I Feel When I Overdo It
+How I Feel When I Overdo It
 
 There have been a few times when I've overdone it on the caffeine. When this
 happens, I'll feel it the following morning when I wake up. The feeling is
@@ -169,8 +169,7 @@ single day--but it would be enough to negatively effect me. The week off of
 caffeine at the beginning of each month allows me to reap the benefits of
 extended caffeine usage everyday, without any bad days.
 
-
-## My Behavior
+My Behavior
 
 I realize that I need to bring my caffeine usage down a lot. While I don't
 consider caffeine to be bad in any way, I do realize that taking it in high
@@ -185,10 +184,64 @@ continue to keep it up.
 I hope that one day, both my normal (uncaffinated) and caffinated self can be
 the same person. I've got a lot of work to do.
 
+#### Tags
 
-  [Caffeine]: http://getfile3.posterous.com/getfile/files.posterous.com/temp-2011-09-28/BInCDHtewutinatzsktHbFeptkwEtJHJqjeIqBkkBJqtivfHoplCqvubjfDF/caffeine.png.scaled696.png
-  [![Caffeine][]]: ./images/72948061-0-caffeine.png.scaled1000.png
-  [1]: http://en.wikipedia.org/wiki/Caffine "caffine"
+caffine
+
+#### 3576 views and 5 responses
+
+-   Oct 22 2011, 10:25 AM
+    Samantha responded:
+    I'm surprised you admitted all that and grateful you're taking less
+    caffeine. However, you forgot your famous words, "I'm not addicted."\
+    luv u
+-   Feb 4 2012, 4:19 AM
+    Tor responded:
+    This sounds a lot like me on Ritalin versus not on Ritalin. As I don´t get
+    Ritalin anymore, I´ll try caffeine. Thank you for the tip!! And I´ll be
+    careful, I promise :)
+-   Jun 22 2012, 8:56 AM
+    Stu responded:
+    Your story sounds a lot like mine, with one exception. After many years of
+    over doing the caffeine - it helped keep me flying/focused in web
+    development, working very long days - Caffeine suddenly had a different
+    effect on me, no buzz, no focus, just scrambled thoughts, nervousness and
+    jitters. It took a few months to make the link, I thought I was going crazy,
+    then I cut the caffeine out and I became normal again. But I can't ever use
+    caffeine for that focus any more I just have to go on without - Its effect
+    seemingly permanently changed. I still have tea in the morning and sometimes
+    1 after lunch, but that is the limit. No more tablets and energy drinks or
+    I'm useless. I can no longer tolerate high doses. I'm just saying eventually
+    something might snap like with me!
+-   Dec 22 2012, 9:18 AM
+    Devin responded:
+    In response to Stu, and importance tips for everyone. The article author
+    mentions "zero calorie." Me as a teenger had bought 20 cans of wired 505, i
+    tried to drink two 24 oz cans daily and failed - it made me not able to
+    focus because of the two 32 FLsugar, i didn't feel good but could handle the
+    sugar quite well and it felt how you described as my blood sugar level
+    raised daily and momentarily. know what you are talking about. It is because
+    you consuming energy drinks with sugar in them. i can intake higher amounts
+    of caffeine when i don't have "sugar" energy. eating nothing but meat will
+    lower your energy levels but a synthetic energy called Creatine releases,
+    you could wiki it. hahaha i know what you are thinking, but its mental
+    energy more than its physical energy.
+-   Dec 22 2012, 9:32 AM
+    devin responded:
+    i insist you DO NOT take creatine suppliments. the cognitive ability only
+    happens when you cut out both complex and simplex carbs. (eat veggies) :)
+    anyway, my stratedy is similar to the author's except that i drink mountain
+    zevia or zevia cola. i only take single-day breaks, i take 1200mg, if i feel
+    okay, i take another 600mg. don't try this at home. i do this because i was
+    a coolest student. i eventually failed because i took a full week off
+    because i just lost my mind, even caffeine didn't work when i took visual
+    basic.
+
+  [Previous]: ../../../posts/2011/10/deploying-django.html
+  [Index]: ../../../index-4.html
+  [Next]: ../../../posts/2011/09/on-business-guys.html
+  []: ../../../image/2011/09/32355392-caffeine.png
+  [Caffeine]: http://en.wikipedia.org/wiki/Caffine "caffine"
   [University of California, Santa Cruz]: http://www.ucsc.edu/ "UC Santa Cruz"
   [these]: http://www.wiredenergydrink.com/ "Wired Energy Drinks"
   [NoDoz caffeine pills]: http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=projectb14ck-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=B001J6O55A

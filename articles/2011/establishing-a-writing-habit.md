@@ -1,8 +1,12 @@
-Title: Establishing a Writing Habit
-Date: 2011-12-14 02:51
-Author: Randall Degges
-Tags: life, personaldevelopment, philosophy
+# Randall Degges
 
+## This is an archived post This is an archived post
+
+[Previous][]   [Index][]   [Next][]
+
+### Establishing a Writing Habit
+
+December 13 2011, 6:51 PM  by Randall Degges
 
 I'm a big fan of personal growth and development. My thought on the matter is
 that each of us is only given a little time to live, so we might as well make
@@ -34,8 +38,7 @@ establishing a few great ones.
 
 Which brings me to the topic of this article...
 
-
-## Writing
+Writing
 
 I've always enjoyed writing. It appeals to my sentimental side. There's
 something about writing that just feels great. The best way I can describe the
@@ -72,7 +75,25 @@ account at [HabitForge][] (it's totally free) and get started?
 the 21 days without fail. I wrote another post which also includes some tips and
 thoughts, you can read it [here][1].
 
+#### Tags
 
+life, personaldevelopment, philosophy
+
+#### 2668 views and 2 responses
+
+-   Jan 8 2012, 3:36 PM
+    steveboller (Twitter) responded:
+    How's it going so far?? I have been working on establishing a daily writing
+    habit as well along with some meditation.
+-   Jan 8 2012, 7:36 PM
+    Randall Degges responded:
+    @steveboller I actually finished it a few weeks ago. I updated this post (at
+    the bottom) with links to some other articles I wrote, that describe my
+    thoughts and whatnot. You may be interested in those :)
+
+  [Previous]: ../../../posts/2011/12/system76-bonobo-ubuntu-laptop-review.html
+  [Index]: ../../../index-4.html
+  [Next]: ../../../posts/2011/12/devops-django-part-1-goals.html
   [books]: http://www.shelfluv.com/rdegges "My Reading List"
   [HabitForge]: http://habitforge.com/ "HabitForge"
   [break-the-chain]: http://www.writersstore.com/system/0001/4643/don_t-break-the-chain-calendar-year_medium.jpg

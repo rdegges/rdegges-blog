@@ -1,8 +1,12 @@
-Title: Building a Better Body
-Date: 2011-04-04 01:38
-Author: Randall Degges
-Tags: fitness
+# Randall Degges
 
+## This is an archived post This is an archived post
+
+[Previous][]   [Index][]   [Next][]
+
+### Building a Better Body
+
+April 3 2011, 6:38 PM  by Randall Degges
 
 Since last October I've been trying to build a better body. In September, I was
 somewhere near 300lbs and extremely out of shape. In October I started
@@ -61,10 +65,32 @@ To everyone who wants to get in shape, just do it. It's all in the mind.
 
 I'll leave you all with this [awesome music video from Dead Prez][].
 
+#### Tags
 
+fitness
+
+#### 9777 views and 1 response
+
+-   Apr 5 2011, 7:09 AM
+
+    Tony Lara responded:
+
+    Thanks for sharing your experience and plan. It does keep me motivated in my
+    current goal to lose weight. I've been struggling to do it and it is mainly
+    diet inconsistencies that I have. I started using DailyBurn too and it is a
+    great tool.
+
+    I will look into that very low carb diet you mention.
+
+  [Previous]: ../../../posts/2011/04/generic-django-projects.html
+  [Index]: ../../../index-5.html
+  [Next]: ../../../posts/2011/03/5-things-programmers-can-learn-from-bodybuild.html
   [The Hacker's Diet]: http://www.fourmilab.ch/hackdiet/ "The Hacker's Diet"
-  [The Paleo Solution]: http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=projectb14ck-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=0982565844 "The Paleo Solution"
-  [Good Calories, Bad Calories]: http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=projectb14ck-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=1400033462 "Good Calories, Bad Calories"
+  [The Paleo Solution]: http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=projectb14ck-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=0982565844
+    "The Paleo Solution"
+  [Good Calories, Bad Calories]: http://rcm.amazon.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=projectb14ck-20&o=1&p=8&l=as4&m=amazon&f=ifr&ref=ss_til&asins=1400033462
+    "Good Calories, Bad Calories"
   [DailyBurn]: http://dailyburn.com/ "DailyBurn"
   [ketosis]: http://forum.bodybuilding.com/showthread.php?t=132598293 "ketosis"
-  [awesome music video from Dead Prez]: http://www.youtube.com/watch?v=8nartK6wodo "Back on my Regimen"
+  [awesome music video from Dead Prez]: http://www.youtube.com/watch?v=8nartK6wodo
+    "Back on my Regimen"

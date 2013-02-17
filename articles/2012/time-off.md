@@ -1,11 +1,14 @@
-Author: Randall Degges
-Date: 2012-11-25 12:03
-Slug: time-off
-Tags: philosophy
-Title: Time Off
+# Randall Degges
 
+## This is an archived post This is an archived post
 
-![Turkey][]
+[Previous][]   [Index][]   [Next][]
+
+### Time Off
+
+November 25 2012, 12:03 PM  by Randall Degges
+
+![][]
 
 This year for Thanksgiving, I did something I don't normally do: I took some
 time away from the computer.
@@ -37,5 +40,13 @@ things) which I'm excited to implement over the coming months.
 Although it is common knowledge, I now see exactly how effective taking a break
 can be. I'll definitely be doing this more frequently.
 
+#### Tags
 
-  [Turkey]: /static/images/2012/turkey.png "Turkey Sketch"
+philosophy
+
+#### 1184 views and 0 responses
+
+  [Previous]: ../../../posts/2012/11/why-you-might-enjoy-using-dnsimple.html
+  [Index]: ../../../index.html
+  [Next]: ../../../posts/2012/11/improvement-and-perfection.html
+  []: ../../../image/2012/11/45997705-turkey.jpg

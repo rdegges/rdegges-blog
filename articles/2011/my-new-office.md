@@ -1,14 +1,19 @@
-Title: My New Office
-Date: 2011-03-16 18:18
-Author: Randall Degges
+# Randall Degges
 
+## This is an archived post This is an archived post
+
+[Previous][]   [Index][]   [Next][]
+
+### My New Office
+
+March 16 2011, 11:18 AM  by Randall Degges
 
 As a programmer, I spend a lot of time in my office. It's my sanctuary. It's
 where I do all of my work, where I learn a lot of new things, and where I have a
 lot of fun.
 
 Since I moved into my new apartment several months back, I've had a pretty
-decent setup. I had a 6-foot costco desk (hey, they're only 50$), and used that
+decent setup. I had a 6-foot costco desk (hey, they're only 50\$), and used that
 to hold all of my stuff. It wasn't pretty--but it worked. A few days ago Sami
 and I were at Office Depot and I saw a desk I couldn't leave behind, so I
 ordered it. Yesterday it arrived, and I finally got it all built and setup (with
@@ -20,60 +25,32 @@ room, me building the new desk and chair, and the final result). Let me know
 what you think! I love checking out other people's workplaces, and I hope you
 enjoy mine!
 
-[![Img_20110212_093354][]][] [![Img_20110315_134706][]][]
-[![Img_20110315_135957][]][] [![Img_20110315_134711][]][]
-[![Img_20110315_141012][]][] [![Img_20110315_140751][]][]
-[![Img_20110315_140755][]][] [![Img_20110315_141359][]][]
-[![Img_20110315_181759][]][] [![Img_20110315_181803][]][]
-[![Img_20110315_181808][]][] [![Img_20110315_181812][]][]
-[![Img_20110315_184059][]][] [![Img_20110315_181819][]][]
-[![Img_20110316_110125][]][] [![Img_20110316_110138][]][]
-[![Img_20110316_114436][]][] [![Img_20110316_152656][]][]
-[![Img_20110316_152715][]][] [![Img_20110316_110133][]][]
-[![Img_20110316_152644][]][]
+![][] ![][1] ![][2] ![][3] ![][4] ![][5] ![][6] ![][7] ![][8] ![][9] ![][10]
+![][11] ![][12] ![][13] ![][14] ![][15] ![][16] ![][17] ![][18] ![][19] ![][20]
 
-[See the full gallery on Posterous][]
+#### 35622 views and 0 responses
 
-  [Img_20110212_093354]: ./images/46216813-0-IMG_20110212_093354.jpg.scaled696.jpg
-  [![Img_20110212_093354][]]: ./images/46216813-0-IMG_20110212_093354.jpg.scaled1000.jpg
-  [Img_20110315_134706]: http://getfile1.posterous.com/getfile/files.posterous.com/temp-2011-03-16/xnEBofzqbdjfkvEsGJwpmFeiAnEzCfBDJfdBeHGyyAqaysaAjtDEoGgxlvwn/IMG_20110315_134706.jpg.scaled696.jpg
-  [![Img_20110315_134706][]]: ./images/46216813-1-IMG_20110315_134706.jpg.scaled1000.jpg
-  [Img_20110315_135957]: http://getfile0.posterous.com/getfile/files.posterous.com/temp-2011-03-16/tIljeCDIABlyrvrhaBHsmmyoDFjifFAhzliheksmFDBzzGCrodByhuqhDhnn/IMG_20110315_135957.jpg.scaled696.jpg
-  [![Img_20110315_135957][]]: ./images/46216813-2-IMG_20110315_135957.jpg.scaled1000.jpg
-  [Img_20110315_134711]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2011-03-16/qgoFjEksatduwbwnptgwykFInjAJhGfgsFciGsjjvofijIBiBclrAkdxamse/IMG_20110315_134711.jpg.scaled696.jpg
-  [![Img_20110315_134711][]]: ./images/46216813-3-IMG_20110315_134711.jpg.scaled1000.jpg
-  [Img_20110315_141012]: http://getfile2.posterous.com/getfile/files.posterous.com/temp-2011-03-16/garuHbEipibiEzyafEglzbxgcpEHtiiHCrCEuxbiGjBjwawBtbJfgiAakmin/IMG_20110315_141012.jpg.scaled696.jpg
-  [![Img_20110315_141012][]]: ./images/46216813-4-IMG_20110315_141012.jpg.scaled1000.jpg
-  [Img_20110315_140751]: http://getfile3.posterous.com/getfile/files.posterous.com/temp-2011-03-16/IolwGkuysyndyDyeFyukcBkcEqCzBhxplhgeBoHufrGwwCDpdzBheDifagws/IMG_20110315_140751.jpg.scaled696.jpg
-  [![Img_20110315_140751][]]: ./images/46216813-5-IMG_20110315_140751.jpg.scaled1000.jpg
-  [Img_20110315_140755]: http://getfile2.posterous.com/getfile/files.posterous.com/temp-2011-03-16/GCrodByhuqhDhnnxxgslvwEmDdAlokEtkdGcznqCqJagvDfIygseCDcCADar/IMG_20110315_140755.jpg.scaled696.jpg
-  [![Img_20110315_140755][]]: ./images/46216813-6-IMG_20110315_140755.jpg.scaled1000.jpg
-  [Img_20110315_141359]: ./images/46216813-7-IMG_20110315_141359.jpg.scaled696.jpg
-  [![Img_20110315_141359][]]: ./images/46216813-7-IMG_20110315_141359.jpg.scaled1000.jpg
-  [Img_20110315_181759]: ./images/46216813-8-IMG_20110315_181759.jpg.scaled696.jpg
-  [![Img_20110315_181759][]]: ./images/46216813-8-IMG_20110315_181759.jpg.scaled1000.jpg
-  [Img_20110315_181803]: http://getfile6.posterous.com/getfile/files.posterous.com/temp-2011-03-16/JrkBGnivouzACHruuuwtrzBkECnpvJrnHeGhcyazlzcnjBIgHhiHInmfulet/IMG_20110315_181803.jpg.scaled696.jpg
-  [![Img_20110315_181803][]]: ./images/46216813-9-IMG_20110315_181803.jpg.scaled1000.jpg
-  [Img_20110315_181808]: http://getfile0.posterous.com/getfile/files.posterous.com/temp-2011-03-16/JqizJsabiunwzcHjjDlvCDgAHytlHqiFEJkgECDplqvhJcJAfooiskzqAjac/IMG_20110315_181808.jpg.scaled696.jpg
-  [![Img_20110315_181808][]]: ./images/46216813-10-IMG_20110315_181808.jpg.scaled1000.jpg
-  [Img_20110315_181812]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2011-03-16/FEeexdCddeAajxmtnsBpdcdjAgcuuaAwgCxyqupsskyicbBypbbBCdqqwHzb/IMG_20110315_181812.jpg.scaled696.jpg
-  [![Img_20110315_181812][]]: ./images/46216813-11-IMG_20110315_181812.jpg.scaled1000.jpg
-  [Img_20110315_184059]: http://getfile5.posterous.com/getfile/files.posterous.com/temp-2011-03-16/awluEuDdqAdHequhDspbhdIdqiajuojnkHwiFIDrlwJvuyibdeAimGkGdqcy/IMG_20110315_184059.jpg.scaled696.jpg
-  [![Img_20110315_184059][]]: ./images/46216813-12-IMG_20110315_184059.jpg.scaled1000.jpg
-  [Img_20110315_181819]: http://getfile3.posterous.com/getfile/files.posterous.com/temp-2011-03-16/fasGEEfJgsiGniclHnIjywcplelqIfbbnazJboeBdrjvgpCmvCrbAopyaeGd/IMG_20110315_181819.jpg.scaled696.jpg
-  [![Img_20110315_181819][]]: ./images/46216813-13-IMG_20110315_181819.jpg.scaled1000.jpg
-  [Img_20110316_110125]: ./images/46216813-14-IMG_20110316_110125.jpg.scaled696.jpg
-  [![Img_20110316_110125][]]: ./images/46216813-14-IMG_20110316_110125.jpg.scaled1000.jpg
-  [Img_20110316_110138]: http://getfile1.posterous.com/getfile/files.posterous.com/temp-2011-03-16/JIoHpzuIHkAgEuAJosylncdnbJppIGrEzjjimHfEmDfCnazmvorubwgbBjqJ/IMG_20110316_110138.jpg.scaled696.jpg
-  [![Img_20110316_110138][]]: ./images/46216813-15-IMG_20110316_110138.jpg.scaled1000.jpg
-  [Img_20110316_114436]: http://getfile2.posterous.com/getfile/files.posterous.com/temp-2011-03-16/gDzGgBeBdDjGpHgvilGDsktJJysgCpwgIaonqnchxJsfrtHHFDditwEmsxwi/IMG_20110316_114436.jpg.scaled696.jpg
-  [![Img_20110316_114436][]]: ./images/46216813-16-IMG_20110316_114436.jpg.scaled1000.jpg
-  [Img_20110316_152656]: http://getfile7.posterous.com/getfile/files.posterous.com/temp-2011-03-16/FnmDpdyCkwqdvsiyuAbEqknCCBemoerCcunkcafIdlehJaJljvzwkjBuDpjq/IMG_20110316_152656.jpg.scaled696.jpg
-  [![Img_20110316_152656][]]: ./images/46216813-17-IMG_20110316_152656.jpg.scaled1000.jpg
-  [Img_20110316_152715]: http://getfile4.posterous.com/getfile/files.posterous.com/temp-2011-03-16/eBJqupdyejfaJsdIkwJIoHpzuIHkAgEuAJosylncdnbJppIGrEzjjimHfEmD/IMG_20110316_152715.jpg.scaled696.jpg
-  [![Img_20110316_152715][]]: ./images/46216813-18-IMG_20110316_152715.jpg.scaled1000.jpg
-  [Img_20110316_110133]: http://getfile0.posterous.com/getfile/files.posterous.com/temp-2011-03-16/oGgrbmuIFIczgFqxmlaledywHhCnzarumtdhcFmvGfcwjCxkmJArBBAExGxq/IMG_20110316_110133.jpg.scaled696.jpg
-  [![Img_20110316_110133][]]: ./images/46216813-19-IMG_20110316_110133.jpg.scaled1000.jpg
-  [Img_20110316_152644]: http://getfile2.posterous.com/getfile/files.posterous.com/temp-2011-03-16/rgfdFGxhfaahnqppswenjdaohvGDdlzCbkDwylJjDiwjjgBpuhnGtEJFFHHv/IMG_20110316_152644.jpg.scaled696.jpg
-  [![Img_20110316_152644][]]: ./images/46216813-20-IMG_20110316_152644.jpg.scaled1000.jpg
-  [See the full gallery on Posterous]: http://rdegges.com/my-new-office
+  [Previous]: ../../../posts/2011/03/5-things-programmers-can-learn-from-bodybuild.html
+  [Index]: ../../../index-5.html
+  [Next]: ../../../posts/2011/03/dont-get-too-cocky.html
+  []: ../../../image/2011/03/23122674-IMG_20110212_093354.jpg
+  [1]: ../../../image/2011/03/23122678-IMG_20110315_134706.jpg
+  [2]: ../../../image/2011/03/23122682-IMG_20110315_135957.jpg
+  [3]: ../../../image/2011/03/23122679-IMG_20110315_134711.jpg
+  [4]: ../../../image/2011/03/23122693-IMG_20110315_141012.jpg
+  [5]: ../../../image/2011/03/23122686-IMG_20110315_140751.jpg
+  [6]: ../../../image/2011/03/23122691-IMG_20110315_140755.jpg
+  [7]: ../../../image/2011/03/23122695-IMG_20110315_141359.jpg
+  [8]: ../../../image/2011/03/23122699-IMG_20110315_181759.jpg
+  [9]: ../../../image/2011/03/23122701-IMG_20110315_181803.jpg
+  [10]: ../../../image/2011/03/23122703-IMG_20110315_181808.jpg
+  [11]: ../../../image/2011/03/23122704-IMG_20110315_181812.jpg
+  [12]: ../../../image/2011/03/23122707-IMG_20110315_184059.jpg
+  [13]: ../../../image/2011/03/23122705-IMG_20110315_181819.jpg
+  [14]: ../../../image/2011/03/23122710-IMG_20110316_110125.jpg
+  [15]: ../../../image/2011/03/23122715-IMG_20110316_110138.jpg
+  [16]: ../../../image/2011/03/23122719-IMG_20110316_114436.jpg
+  [17]: ../../../image/2011/03/23122726-IMG_20110316_152656.jpg
+  [18]: ../../../image/2011/03/23122733-IMG_20110316_152715.jpg
+  [19]: ../../../image/2011/03/23122711-IMG_20110316_110133.jpg
+  [20]: ../../../image/2011/03/23122723-IMG_20110316_152644.jpg

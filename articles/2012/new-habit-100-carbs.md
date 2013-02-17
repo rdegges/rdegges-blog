@@ -1,9 +1,12 @@
-Author: Randall Degges
-Date: 2012-01-04 02:39
-Slug: new-habit-100-carbs
-Tags: health, personal development
-Title: New Habit - 100 Carbs
+# Randall Degges
 
+## This is an archived post This is an archived post
+
+[Previous][]   [Index][]
+
+### New Habit - 100 Carbs
+
+January 3 2012, 6:39 PM  by Randall Degges
 
 Since finishing my [writing habit][], I decided to kick off the new year with a
 health related habit.
@@ -18,7 +21,7 @@ When I first started dieting / exercising, I had no clue what I was doing. No
 clue whatsoever. I thought eating meat was bad for you and fat content in food
 was directly correlated to waist size. How wrong I was!
 
-After several months of eating nothing but vegetables and breads, running till I
+After several months of eating nothing but vegetabls and breads, running till I
 couldn't breathe, and struggling for every pound of weight lost, I began to
 actually research the whole process. I started reading numerous books on health,
 which foods are good for you, which foods are bad for you, etc.--eventually
@@ -80,11 +83,23 @@ On a side note, if you're currently working on building a health related habit,
 I'd love to hear about it. I'm extremely interested in health related habits and
 personal development.
 
+#### Tags
 
-  [writing habit]: http://rdegges.com/writing-habit-complete "Writing Habit Complete"
+health, personaldevelopment
+
+#### 3007 views and 0 responses
+
+  [Previous]: ../../../posts/2012/01/how-to-instantly-fix-problematic-deployments.html
+  [Index]: ../../../index-3.html
+  [writing habit]: http://rdegges.com/writing-habit-complete
+    "Writing Habit Complete"
   [ketogenic diet]: http://en.wikipedia.org/wiki/Ketogenic_diet "Ketogenic Diet"
   [keto subreddit]: http://www.reddit.com/r/keto "Keto Reddit"
-  [A doctor's guide to ketosis]: http://www.dietdoctor.com/lchf "A doctor's guide to ketosis."
-  [Something Awful Keto Guide]: http://lowcarbplate.com/tlcm/ "Something Awful Keto Guide"
-  [bodybuilding.com guide to ketosis]: http://www.bodybuilding.com/fun/keto.htm "Bodybuilding + Ketosis"
-  [A Guide to Ketosis]: http://forum.bodybuilding.com/showthread.php?t=132598293 "A Guide to Ketosis"
+  [A doctor's guide to ketosis]: http://www.dietdoctor.com/lchf
+    "A doctor's guide to ketosis."
+  [Something Awful Keto Guide]: http://lowcarbplate.com/tlcm/
+    "Something Awful Keto Guide"
+  [bodybuilding.com guide to ketosis]: http://www.bodybuilding.com/fun/keto.htm
+    "Bodybuilding + Ketosis"
+  [A Guide to Ketosis]: http://forum.bodybuilding.com/showthread.php?t=132598293
+    "A Guide to Ketosis"

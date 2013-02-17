@@ -1,7 +1,12 @@
-Title: On Reading and Tracking
-Date: 2011-04-18 19:57
-Author: Randall Degges
+# Randall Degges
 
+## This is an archived post This is an archived post
+
+[Previous][]   [Index][]   [Next][]
+
+### On Reading and Tracking
+
+April 18 2011, 12:57 PM  by Randall Degges
 
 I've always enjoyed reading. When I was little, my mom would always read to me
 and my brother before bedtime. In elementary school, I spent a lot of time
@@ -55,7 +60,29 @@ Overall, the entire site just kicks ass, and I'll continue using it. If you
 aren't a member of [ShelfLuv][] yet, I suggest checking it out. And of course,
 if you do end up joining, [follow me][] :)
 
+ 
 
+#### 13838 views and 4 responses
+
+-   Apr 20 2011, 3:16 PM
+    Tony Lara responded:
+    It seems like a great tool to organize, find, and discovery books. Do you
+    have an invitation by any chance? it is asking me for one to sing up.
+-   Apr 20 2011, 4:29 PM
+    Randall Degges responded:
+    No :( I got in via the hacker news beta, but it should be open to the public
+    soon!
+-   Apr 22 2011, 5:41 PM
+    shelfluv (Twitter) responded:
+    Hey Tony, follow us on Twitter (@shelfluv) and we can send you an invite -
+    thank you!
+-   Apr 24 2011, 1:24 PM
+    Tony Lara responded:
+    You are on.
+
+  [Previous]: ../../../posts/2011/04/2011-yearly-goals-update-1.html
+  [Index]: ../../../index-5.html
+  [Next]: ../../../posts/2011/04/essential-tools-for-pythonistas.html
   [amazon]: http://www.amazon.com/ "amazon"
   [GoodReads]: http://www.goodreads.com/ "GoodReads"
   [IMDB]: http://www.imdb.com/ "IMDB"

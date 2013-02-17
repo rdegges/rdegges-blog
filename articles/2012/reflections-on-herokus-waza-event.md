@@ -1,11 +1,14 @@
-Author: Randall Degges
-Date: 2012-01-16 07:46
-Slug: reflections-on-herokus-waza-event
-Tags: heroku, programming
-Title: Reflections on Heroku's Waza Event
+# Randall Degges
 
+## This is an archived post This is an archived post
 
-![Heroku Logo][]
+[Previous][]   [Index][]   [Next][]
+
+### Reflections on Heroku's Waza Event
+
+January 15 2012, 11:46 PM  by Randall Degges
+
+![][]
 
 Several days ago I was lucky enough to attend [Heroku's][] first conference,
 [Waza][]. Waza is the Japanese word for art and technique, which, in retrospect,
@@ -26,17 +29,16 @@ which was going to be held on January 11th in San Francisco.
 
 I immediately accepted the invitation. It's not every day you get to meet with a
 group of the best programmers in the industry. The guys who work at Heroku are
-all top notch developers, and people. If programming was illegal street
-fighting, and I had to pick a partner to help me escape a no-rules-street-fight,
-I would pick anyone from the Heroku team in a heartbeat. :)
+all top notch developers, and people. If programming was illegal streetfighting,
+and I had to pick a partner to help me escape a no-rules-streetfight, I would
+pick anyone from the Heroku team in a heartbeat. :)
 
-![A Day in the Life of a Programmer][]
+![][1]
 
 Anyhow, despite the fact that I can't imagine why anyone from Heroku would
 invite me to their conference, I got in!
 
-
-## Waza
+Waza
 
 Without a doubt, Waza was by far the nicest conference I've ever been to. It was
 nothing like a traditional tech conference.
@@ -64,12 +66,11 @@ The talks were all amazing. All were focused around building elegant
 applications. As a developer, I truly enjoyed the talks I got to attend. They
 were all inspiring, well executed, and filled with lots of useful information.
 
-
-## People
+People
 
 By far the best part of the event was the people. In particular, I got to
-meet: [Craig Kerstiens][], [Kenneth Reitz][], [Curt Micol][], and
-[Issac Kelly][]. Those guys are all programming superheros.
+meet: [Craig Kerstiens][], [Kenneth Reitz][], [Curt Micol][], and [Issac
+Kelly][]. Those guys are all programming superheros.
 
 I've known Craig, Kenneth and Issac online for a while, but meeting them in
 person was really great. If you guys are reading this: we should meet up again
@@ -80,9 +81,9 @@ was going to be giving the closing talk. If you don't know Rob Pike: he's one of
 the most influential programmers of all time. He co-created [UTF-8][] (unicode),
 created the [Go][] programming language, and made countless contributions to
 UNIX. He also wrote two excellent books that contributed wildly to the
-programming profession: [The Practice of Programming][], and
-[The UNIX Programming Environment][]. Without Rob Pike, the world would truly be
-a different place.
+programming profession: [The Practice of Programming][], and [The UNIX
+Programming Environment][]. Without Rob Pike, the world would truly be a
+different place.
 
 Seeing Rob in person was fucking awesome. His talk was great, and it was
 incredibly inspiring to even be in the same room as such an amazing guy. As my
@@ -91,10 +92,9 @@ wife can attest, one of my lifelong dreams has been to meet [Brian Kernighan][],
 passed away last year), I'm extremely happy to have had the opportunity to meet
 Rob.
 
+Tea
 
-## Tea
-
-![Green Tea][]
+![][2]
 
 Oddly enough, other than an excellent group of techies--Waza had some amazing
 vendors come to cater the event, one of which was [teance][], a Berkely tea
@@ -107,15 +107,14 @@ What made it even better was that the owner of the shop happened to be at the
 event serving tea, and answered all sorts of crazy questions I had about the
 tea.
 
-After the event, my wife and I drove to the teance shop in Berkeley, and had tea
+After the event, my wife and I drove to the teance shop in Berkely, and had tea
 at their bar. We tried several types of tea, and left with a couple hundred
 dollars worth of the stuff. Money well spent.
 
 If you're into tea at all, you should definitely check out the [teance][] site
 and order some. I guarantee you won't be disappointed.
 
-
-## Overall
+Overall
 
 Waza was a great event. The venue was great, the whole thing was comfortable and
 relaxing, and there were tons of smart and interesting people all over the
@@ -123,24 +122,38 @@ place. It was a great experience, and I had a ton of fun.
 
 I hope the Heroku guys throw another one sometime soon.
 
+#### Tags
 
-  [Heroku Logo]: /static/images/2012/heroku-logo.png "Heroku Logo"
+programming, heroku
+
+#### 5993 views and 1 response
+
+-   Jan 20 2012, 1:20 AM
+    Ms. Scarlett liked this post.
+
+  [Previous]: ../../../posts/2012/01/how-i-program-stuff.html
+  [Index]: ../../../index-3.html
+  [Next]: ../../../posts/2012/01/dogs-are-great-programming-companions.html
+  []: ../../../image/2012/01/36777921-heroku-logo.png
   [Heroku's]: http://www.heroku.com/ "Heroku"
   [Waza]: http://waza.heroku.com/ "Heroku Waza"
   [Django]: https://www.djangoproject.com/ "Django"
-  [A Day in the Life of a Programmer]: /static/images/2012/a-day-in-the-life-of-a-programmer.png "A Day in the Life of a Programmer"
+  [1]: ../../../image/2012/01/36777880-programming.png
   [Yoshi's]: http://www.yoshis.com/sanfrancisco "Yoshi's Jazz Club"
   [Kenneth Reitz]: http://kennethreitz.com/ "Kenneth Reitz"
-  [Flickr album]: http://www.flickr.com/photos/kennethreitz/sets/72157628841270129/ "Waza Flickr"
+  [Flickr album]: http://www.flickr.com/photos/kennethreitz/sets/72157628841270129/
+    "Waza Flickr"
   [Craig Kerstiens]: http://www.craigkerstiens.com/ "Craig Kerstiens"
   [Curt Micol]: http://asenchi.com/ "Curt Micol"
   [Issac Kelly]: http://www.kellycreativetech.com/ "Issac Kelly"
   [Rob Pike]: http://en.wikipedia.org/wiki/Rob_Pike "Rob Pike"
   [UTF-8]: http://en.wikipedia.org/wiki/UTF-8 "UTF-8"
   [Go]: http://golang.org/ "Go"
-  [The Practice of Programming]: http://www.amazon.com/gp/product/020161586X/ref=as_li_ss_tl?ie=UTF8&tag=rdegges-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=020161586X "The Practice of Programming"
-  [The UNIX Programming Environment]: http://www.amazon.com/gp/product/013937681X/ref=as_li_ss_tl?ie=UTF8&tag=rdegges-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=013937681X "The UNIX Programming Environment"
+  [The Practice of Programming]: http://www.amazon.com/gp/product/020161586X/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=020161586X
+    "The Practice of Programming"
+  [The UNIX Programming Environment]: http://www.amazon.com/gp/product/013937681X/ref=as_li_ss_tl?ie=UTF8&tag=projectb14ck-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=013937681X
+    "The UNIX Programming Environment"
   [Brian Kernighan]: http://www.cs.princeton.edu/~bwk/ "Brian Kernighan"
   [Dennis Ritchie]: http://cm.bell-labs.com/who/dmr/ "Dennis Ritchie"
-  [Green Tea]: /static/images/2012/green-tea.png "Green Tea"
+  [2]: ../../../image/2012/01/36778967-green-tea-leaves.jpg
   [teance]: http://www.teance.com/ "teance"

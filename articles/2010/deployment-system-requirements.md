@@ -1,9 +1,12 @@
-Author: Randall Degges
-Date: 2010-12-19 00:44
-Slug: deployment-system-requirements
-Tags: programming
-Title: Deployment System Requirements
+# Randall Degges
 
+## This is an archived post This is an archived post
+
+[Previous][]   [Index][]   [Next][]
+
+### Deployment System Requirements
+
+December 18 2010, 4:44 PM  by Randall Degges
 
 Over the past month, my colleague Kurtis and I have been engineering a fully
 automated deployment system for all of our projects at work. This system was
@@ -61,11 +64,11 @@ of our choosing. Here they are:
     production. There should never be any versions of code running on the
     incorrect systems.
 -   Our development systems should always be running the latest version of or
-    `develop` git branch.
+    \`develop\` git branch.
 -   Our staging systems should always be running the latest version of our
-    `master` branch.
+    \`master\` branch.
 -   Our production systems should always be running the latest version of our
-    `master` branch (but only if tests pass on staging).
+    \`master\` branch (but only if tests pass on staging).
 -   We should have a continuous integration system watch our git repos, and when
     changed, check out the latest version of our code, run tests on it and if
     the tests pass deploy it to the appropriate environment.
@@ -91,13 +94,13 @@ serves as a great test bed for production code before putting it live.
 
 We use [git flow][] at work, which explains our git branching model. Basically,
 all our branches have standard naming convention, which allows us to do stuff
-like say that all code in the `master` branch should be deployed straight to
-staging / production, and that all code in `develop` should be deployed
+like say that all code in the \`master\` branch should be deployed straight to
+staging / production, and that all code in \`develop\` should be deployed
 straight to development.
 
 The continuous integration (and deployment) system should be able to run tests
 and deploy code. This step has the biggest impact on our workflow. Knowing that
-every time I `git commit`, my code is automatically tested and deployed to all
+every time I \`git commit\`, my code is automatically tested and deployed to all
 development, staging, and production boxes (depending on the git branch) is an
 awesome feeling. This enables us to do a lot of cool things. Push bug fixes out
 immediately, push features out immediately, instantly test for problems,
@@ -128,5 +131,14 @@ saved hundreds of man hours with some fairly simple automation.
 Sometime in the next week or so I'll throw up another article on our deployment
 system, and dive into some technical details.
 
+#### Tags
 
-  [git flow]: http://jeffkreeftmeijer.com/2010/why-arent-you-using-git-flow/ "git flow"
+programming
+
+#### 12989 views and 0 responses
+
+  [Previous]: ../../../posts/2010/12/what-im-doing-in-2011.html
+  [Index]: ../../../index-6.html
+  [Next]: ../../../posts/2010/12/reflections-on-the-django-deployment-and-djan.html
+  [git flow]: http://jeffkreeftmeijer.com/2010/why-arent-you-using-git-flow/
+    "git flow"

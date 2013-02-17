@@ -1,11 +1,14 @@
-Author: Randall Degges
-Date: 2012-11-20 23:22
-Slug: sometimes-youve-got-to-kill-it
-Tags: philosophy
-Title: Sometimes You've Got to Kill It
+# Randall Degges
 
+## This is an archived post This is an archived post
 
-![Lion][]
+[Previous][]   [Index][]   [Next][]
+
+### Sometimes You've Got To Kill It
+
+November 20 2012, 11:22 PM  by Randall Degges
+
+![][]
 
 I've noticed that sometimes, doing the things you enjoy just isn't enough.
 Sometimes you need to do more.
@@ -41,5 +44,13 @@ advance, you're falling into the abyss.
 
 Get out there, and kill it.
 
+#### Tags
 
-  [Lion]: /static/images/2012/lion.png "Lion Sketch"
+philosophy
+
+#### 893 views and 0 responses
+
+  [Previous]: ../../../posts/2012/11/improvement-and-perfection.html
+  [Index]: ../../../index.html
+  [Next]: ../../../posts/2012/11/a-year-in-bakersfield.html
+  []: ../../../image/2012/11/45919652-lion.jpg

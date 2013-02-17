@@ -1,11 +1,14 @@
-Author: Randall Degges
-Date: 2012-05-21 16:55
-Slug: automation-as-motivation
-Tags: philosophy, programming
-Title: Automation as Motivation
+# Randall Degges
 
+## This is an archived post This is an archived post
 
-![Warrior Robot][]
+[Index][]   [Next][]
+
+### Automation as Motivation
+
+May 21 2012, 9:55 AM  by Randall Degges
+
+![][]
 
 For the past two weeks, I've been having some serious programming motivation
 issues. Despite the fact that I know what's causing the motivation issues, I
@@ -53,5 +56,28 @@ ambitions.
 Next time I fall into a slump, I'm going to remember my overall goal of perfect
 automation, and get back to work.
 
+#### Tags
 
-  [Warrior Robot]: /static/images/2012/warrior-robot.png "Warrior Robot Sketch"
+programming, philosophy
+
+#### 2368 views and 2 responses
+
+-   May 22 2012, 5:16 AM
+    sh responded:
+    I have the same motivation issues right now. I get stuck into too many
+    details too often, and now I ran into magic bugs. Currently bumping my head
+    against the wall. \
+    However, your posts are always inspiring. I read it and get this urge to DO
+    stuff. So, thanks :)
+-   May 22 2012, 5:38 AM
+    gits1225 (Twitter) responded:
+    Sometimes doing things by hand also has its beauty. For example, yesterday
+    evening I was organizing my music collection; I could have hacked up a
+    script and be done with it. But, just because I felt so, I started doing it
+    by hand. I found out I'd forgotten what some of the artists sounded like, so
+    I started giving 'em all a listen. Rediscovered some great music, and a nice
+    calm starry night.
+
+  [Index]: ../../../index-3.html
+  [Next]: ../../../posts/2012/04/never-stop-hacking.html
+  []: ../../../image/2012/05/41241574-battle-robot.jpg

@@ -1,11 +1,14 @@
-Author: Randall Degges
-Date: 2012-10-10 23:35
-Slug: no-regrets
-Tags: personal development, philosophy
-Title: No Regrets
+# Randall Degges
 
+## This is an archived post This is an archived post
 
-![Mage][]
+[Previous][]   [Index][]   [Next][]
+
+### No Regrets
+
+October 10 2012, 4:35 PM  by Randall Degges
+
+![][]
 
 I've always been an extreme person. My internal motto has always been to either
 do something all the way, or not do it at all.
@@ -57,5 +60,25 @@ have regrets.
 
 Don't settle for that.
 
+#### Tags
 
-  [Mage]: /static/images/2012/mage.png "Mage Sketch"
+personaldevelopment, philosophy
+
+#### 1118 views and 1 response
+
+-   Oct 11 2012, 8:27 AM
+    Shrutarshi Basu responded:
+    I think you're generalizing a bit too much here. Personally I like the
+    streaks of full-out intense commitment but I find personally that I need to
+    punctuate it with days of doing nothing at all or else I burn out and get
+    cranky easily. Others I know work best on a 9-5 schedule. I think it's
+    possible to work to the best of your potential without busting your ass each
+    and every day. People have different habits and strategies and it's more
+    important to get results than it is to work for long hours every day.
+    Working hard and long is the means, not the end and all too often we forget
+    that.
+
+  [Previous]: ../../../posts/2012/10/service-oriented-flask.html
+  [Index]: ../../../index-2.html
+  [Next]: ../../../posts/2012/10/dont-panic-frustration-is-an-anti-pattern.html
+  []: ../../../image/2012/10/45027452-mage.jpg

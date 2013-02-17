@@ -1,11 +1,14 @@
-Author: Randall Degges
-Date: 2010-08-15 02:30
-Slug: moved-to-posterous
-Tags: life
-Title: Moved to Posterous
+# Randall Degges
 
+## This is an archived post This is an archived post
 
-So, today I finally finished moving my old posts to [Posterous][]. If you aren't
+[Previous][]   [Index][]   [Next][]
+
+### Moved to Posterous
+
+August 14 2010, 7:30 PM  by Randall Degges
+
+So, today I finally finished moving my old posts to [Posterous][]. If you aren’t
 familiar with them, Posterous is a web hosting platform with some pretty cool
 features (syntax highlighting, custom theme support, markdown support, email
 support, etc.).
@@ -22,11 +25,19 @@ both a must for me, as:
     using markdown as I can basically write all posts in txt format, which is
     easily identifyable regardless of editor / template rendering engine.
 2.  I write a lot of technical posts, so syntax highlighting is a must.
-3.  Posterous supports Github's gist embedding, which is basically a javascript
+3.  Posterous supports Github’s gist embedding, which is basically a javascript
     include that displays some code with syntax highlighting for easy download.
 
-Anyhow, now that I've got my platform ready for writing again, I will continue
+Anyhow, now that I’ve got my platform ready for writing again, I will continue
 updating my site and posting cool information.
 
+#### Tags
 
+life
+
+#### 1102 views and 0 responses
+
+  [Previous]: ../../../posts/2010/08/what-i-do-at-work.html
+  [Index]: ../../../index-6.html
+  [Next]: ../../../posts/2010/07/introducing-asterdoc.html
   [Posterous]: http://posterous.com/

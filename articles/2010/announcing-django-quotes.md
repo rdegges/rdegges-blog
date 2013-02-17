@@ -1,9 +1,12 @@
-Author: Randall Degges
-Date: 2010-05-25 20:30
-Slug: announcing-django-quotes
-Tags: programming, python, django
-Title: Announcing django-quotes
+# Randall Degges
 
+## This is an archived post This is an archived post
+
+[Previous][]   [Index][]   [Next][]
+
+### Announcing django-quotes
+
+May 25 2010, 1:30 PM  by Randall Degges
 
 I bet you thought I was dead! It has been quite a while since my last post.
 Despite my previous writing conviction, I managed to work myself into somewhat
@@ -20,23 +23,36 @@ Things have finally cooled down enough that I now have some time to write, and
 work on side projects again, so please bare with me over the next few weeks as I
 try to publish some interesting stuff.
 
-Anyhow...
+Anyhow…
 
-I'd like to announce the release of a new open source Django application,
+I’d like to announce the release of a new open source Django application,
 django-quotes.
 
 django-quotes is a small Django application which makes it easy to store and
 display quotes on any Django-powered website. I wrote django-quotes as part of
-another webapp I've been building (which I will launch in the next week or so),
-and used it as a way to reaffirm all I've been learning / doing with Django over
+another webapp I’ve been building (which I will launch in the next week or so),
+and used it as a way to reaffirm all I’ve been learning / doing with Django over
 the past several months.
 
 The app is extremely simple, but well-documented, and functional. It provides
 users a way to store quotes in their website database (you can add quotes
-manually through the Django admin panel if you'd like), as well as a simple
+manually through the Django admin panel if you’d like), as well as a simple
 template tag, `show_random_quote`, which displays a random quote right into your
 Django template.
 
-While django-quotes isn't complex, I've tried to write it using all of the
-best-practices I've learned along the way. Please let me know what you think,
+While django-quotes isn’t complex, I’ve tried to write it using all of the
+best-practices I’ve learned along the way. Please let me know what you think,
 and if you have any suggestions, let me know so I can fix it up.
+
+[Check out django-quotes on Github][]!
+
+#### Tags
+
+programming, python, django
+
+#### 893 views and 0 responses
+
+  [Previous]: ../../../posts/2010/05/new-site-backend.html
+  [Index]: ../../../index-7.html
+  [Next]: ../../../posts/2010/03/pycall-15-released.html
+  [Check out django-quotes on Github]: http://github.com/comradeb14ck/django-quotes

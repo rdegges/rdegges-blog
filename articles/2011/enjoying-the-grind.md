@@ -1,8 +1,12 @@
-Title: Enjoying the Grind
-Date: 2011-06-07 02:47
-Author: Randall Degges
-Tags: health, personaldevelopment, philosophy
+# Randall Degges
 
+## This is an archived post This is an archived post
+
+[Index][]   [Next][]
+
+### Enjoying the Grind
+
+June 6 2011, 7:47 PM  by Randall Degges
 
 A big part of accomplishing awesome things is dealing with the daily grind that
 makes them possible. Chances are, if you're attempting to do something awesome,
@@ -13,7 +17,7 @@ work, dedication, commitment, and perserverence--there's no way around it.
 One of my goals since last October has been to lose weight (specifically, to get
 down to 10% bodyfat). To me, that's a worthwhile goal. It will help me feel
 confident in myself, proud of my hard work, and teach me lots of new things
-along the way. Since October, I've lost ~80 lbs, and ~11% of my bodyfat (down
+along the way. Since October, I've lost \~80 lbs, and \~11% of my bodyfat (down
 from 35% to 24%).
 
 The daily grind was not easy (or pleasurable). It was extremely difficult to get
@@ -46,3 +50,12 @@ do something, whether it be health, personal, or work related--I now realize
 that it is up to me to determine the outcome. All the hard work, frustration,
 and dissapointments along the way are what make the journey worthwhile. It's the
 growing you do as you work towards your goals that makes you happy.
+
+#### Tags
+
+health, personaldevelopment, philosophy
+
+#### 1097 views and 0 responses
+
+  [Index]: ../../../index-5.html
+  [Next]: ../../../posts/2011/06/simplifying-my-jenkins-workflow.html

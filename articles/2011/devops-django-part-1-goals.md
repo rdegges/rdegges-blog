@@ -1,8 +1,12 @@
-Title: DevOps Django - Part 1 - Goals
-Date: 2011-12-05 18:25
-Author: Randall Degges
-Tags: programming, python, devops, django
+# Randall Degges
 
+## This is an archived post This is an archived post
+
+[Previous][]   [Index][]   [Next][]
+
+### DevOps Django - Part 1 - Goals
+
+December 5 2011, 10:25 AM  by Randall Degges
 
 A little over a month ago I published an article ([Deploying Django][])
 describing the state of [Django][] deployment. If you don't want to read the
@@ -31,8 +35,7 @@ my problems were, what solutions I've found, and what problems still exist--in
 hopes that my experiences will help guide other Djangonauts looking for
 a *better way*.
 
-
-## Deployment Goals
+Deployment Goals
 
 To kickstart this article, I'd like to explain where I'm coming from: what I do,
 what I value, and what my deployment goals are--as these are all crucial to the
@@ -71,7 +74,7 @@ In an perfect world, as a developer, I should be able to:
     that I can find problems and fix them based on facts, not assumptions.
 
 Furthermore, ***I want my application and all of its related infrastructure
-components to *just work*, and require NO maintenance. ***For instance, if I
+components to \*just work\*, and require NO maintenance. ***For instance, if I
 provision a redis server, I want to know that it will always be up and
 available, and that I will never need to make changes to it again (other than
 scaling it up or down).
@@ -84,7 +87,22 @@ detail, highlighting the pain points of deployment.
 
 **EDIT**: I finished Part 2, so you can continue reading [here][].
 
+#### Tags
 
+programming, python, devops, django
+
+#### 5825 views and 2 responses
+
+-   Dec 19 2011, 2:14 PM
+    Jeff responded:
+    Please revise the article and provide a link to the next in the series.
+-   Dec 19 2011, 2:18 PM
+    Randall Degges responded:
+    @Jeff, done. I'll update Part 2 shortly.
+
+  [Previous]: ../../../posts/2011/12/establishing-a-writing-habit.html
+  [Index]: ../../../index-4.html
+  [Next]: ../../../posts/2011/12/devops-django-part-2-the-pain-of-deployment.html
   [Deploying Django]: http://rdegges.com/deploying-django "Deploying Django"
   [Django]: https://www.djangoproject.com/ "Django"
   [memcached]: http://memcached.org/ "memcached"

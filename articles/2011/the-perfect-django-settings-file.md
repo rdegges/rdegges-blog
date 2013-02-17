@@ -1,8 +1,12 @@
-Title: The Perfect Django Settings File
-Date: 2011-04-29 08:25
-Author: Randall Degges
-Tags: programming, python, django
+# Randall Degges
 
+## This is an archived post This is an archived post
+
+[Previous][]   [Index][]   [Next][]
+
+### The Perfect Django Settings File
+
+April 29 2011, 1:25 AM  by Randall Degges
 
 I know this isn't the best way to start an article, but *I lied*. This article
 won't show you how to make the perfect Django settings file. Instead, it will
@@ -30,35 +34,22 @@ The approach to settings that I see many people take is simplistic--they'll
 define all of their values in their settings.py file, and then at the bottom of
 the file write something like this:
 
-~~~~ {.line_numbers}
-1
-2
-3
-4
-~~~~
-
-try:
-
-    from settings_local import *
-
-except ImportError:
-
-    pass
+[https://gist.github.com/948029][]
 
 What sucks about this approach is that you now need to maintain a file--in this
-case **settings_local.py** for each of your environments, and it isn't going to
+case **settings\_local.py** for each of your environments, and it isn't going to
 be easy to version control. Why? Because you have two choices in this scenario
 of fail:
 
-1.  Don't version control the **settings_local.py** files on your various
+1.  Don't version control the **settings\_local.py** files on your various
     servers. This sucks because now you've got stuff like database credentials
     that will lay around, and gradually break future deployments when you forget
     to update them. It also sucks because you've got to constantly worry about
     that file. It isn't part of your source repository, so you have to back it
     up manually, and take special care of it.
-2.  Version control the **settings_local.py** files for each environment you
+2.  Version control the **settings\_local.py** files for each environment you
     have, and then manually change the **settings.py** file (or
-    **__init__.py** file) in your project folder on each server. Now you've
+    **\_\_init\_\_.py** file) in your project folder on each server. Now you've
     got the same problem as before--you've got to manually manage some source
     files, and constantly worry about breaking shit.
 
@@ -68,900 +59,22 @@ Write a Settings Module
 
 Instead of maintaining multiple flat settings files, build a settings module. Go
 ahead and **rm** your **settings.py** file, and in its place, create a new
-directory, called **settings**, and put in a blank **__init__.py** file to
+directory, called **settings**, and put in a blank **\_\_init\_\_.py** file to
 start.
 
 The goal here will be to do meet all the criteria that I defined in the
 beginning of this article. In order to meet all those requirements, we need to:
 
 1.  Define a **common.py** file inside of our settings module. This file will
-    contain all of our 'shared' settings between all environments. For example:
+    contain all of our 'shared' settings between all environments. For example:\
 
-    ~~~~ {.line_numbers}
-    1
-    2
-    3
-    4
-    5
-    6
-    7
-    8
-    9
-    10
-    11
-    12
-    13
-    14
-    15
-    16
-    17
-    18
-    19
-    20
-    21
-    22
-    23
-    24
-    25
-    26
-    27
-    28
-    29
-    30
-    31
-    32
-    33
-    34
-    35
-    36
-    37
-    38
-    39
-    40
-    41
-    42
-    43
-    44
-    45
-    46
-    47
-    48
-    49
-    50
-    51
-    52
-    53
-    54
-    55
-    56
-    57
-    58
-    59
-    60
-    61
-    62
-    63
-    64
-    65
-    66
-    67
-    68
-    69
-    70
-    71
-    72
-    73
-    74
-    75
-    76
-    77
-    78
-    79
-    80
-    81
-    82
-    83
-    84
-    85
-    86
-    87
-    88
-    89
-    90
-    91
-    92
-    93
-    94
-    95
-    96
-    97
-    98
-    99
-    100
-    101
-    102
-    103
-    104
-    105
-    106
-    107
-    108
-    109
-    110
-    111
-    112
-    113
-    114
-    115
-    116
-    117
-    118
-    119
-    120
-    121
-    122
-    123
-    124
-    125
-    126
-    127
-    128
-    129
-    130
-    131
-    132
-    133
-    134
-    135
-    136
-    137
-    138
-    139
-    140
-    141
-    142
-    143
-    144
-    145
-    146
-    147
-    148
-    149
-    150
-    151
-    152
-    153
-    154
-    155
-    156
-    157
-    158
-    159
-    160
-    161
-    162
-    163
-    164
-    165
-    166
-    167
-    168
-    169
-    170
-    171
-    172
-    173
-    174
-    175
-    176
-    177
-    178
-    179
-    180
-    181
-    182
-    183
-    184
-    185
-    186
-    187
-    188
-    189
-    190
-    191
-    ~~~~
-
-    """Common settings and globals."""
-
-
-
-
-
-    import sys
-
-    from os.path import abspath, basename, dirname, join, normpath
-
-
-
-    from helpers import gen_secret_key
-
-
-
-
-
-    ########## PATH CONFIGURATION
-
-    # Absolute filesystem path to this Django project directory.
-
-    DJANGO_ROOT = dirname(dirname(abspath(__file__)))
-
-
-
-    # Site name.
-
-    SITE_NAME = basename(DJANGO_ROOT)
-
-
-
-    # Absolute filesystem path to the top-level project folder.
-
-    SITE_ROOT = dirname(DJANGO_ROOT)
-
-
-
-    # Absolute filesystem path to the secret file which holds this project's
-
-    # SECRET_KEY. Will be auto-generated the first time this file is
-    interpreted.
-
-    SECRET_FILE = normpath(join(SITE_ROOT, 'deploy', 'SECRET'))
-
-
-
-    # Add all necessary filesystem paths to our system path so that we can use
-
-    # python import statements.
-
-    sys.path.append(SITE_ROOT)
-
-    sys.path.append(normpath(join(DJANGO_ROOT, 'apps')))
-
-    sys.path.append(normpath(join(DJANGO_ROOT, 'libs')))
-
-    ########## END PATH CONFIGURATION
-
-
-
-
-
-    ########## DEBUG CONFIGURATION
-
-    # Disable debugging by default.
-
-    DEBUG = False
-
-    TEMPLATE_DEBUG = DEBUG
-
-    ########## END DEBUG CONFIGURATION
-
-
-
-
-
-    ########## MANAGER CONFIGURATION
-
-    # Admin and managers for this project. These people receive private site
-
-    # alerts.
-
-    ADMINS = (
-
-    ('Your Name', 'your_email@example.com'),
-
-    )
-
-
-
-    MANAGERS = ADMINS
-
-    ########## END MANAGER CONFIGURATION
-
-
-
-
-
-    ########## GENERAL CONFIGURATION
-
-    # Local time zone for this installation. Choices can be found here:
-
-    # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name although not
-    all
-
-    # choices may be available on all operating systems. On Unix systems, a
-    value
-
-    # of None will cause Django to use the same timezone as the operating
-    system.
-
-    # If running in a Windows environment this must be set to the same as your
-
-    # system time zone.
-
-    TIME_ZONE = 'America/Los_Angeles'
-
-
-
-    # Language code for this installation. All choices can be found here:
-
-    # http://www.i18nguy.com/unicode/language-identifiers.html.
-
-    LANGUAGE_CODE = 'en-us'
-
-
-
-    # The ID, as an integer, of the current site in the django_site database
-    table.
-
-    # This is used so that application data can hook into specific site(s) and
-    a
-
-    # single database can manage content for multiple sites.
-
-    SITE_ID = 1
-
-
-
-    # If you set this to False, Django will make some optimizations so as not
-
-    # to load the internationalization machinery.
-
-    USE_I18N = False
-
-
-
-    # If you set this to False, Django will not format dates, numbers and
-
-    # calendars according to the current locale.
-
-    USE_L10N = True
-
-    ########## END GENERAL CONFIGURATION
-
-
-
-
-
-    ########## MEDIA CONFIGURATION
-
-    # Absolute filesystem path to the directory that will hold user-uploaded
-    files.
-
-    MEDIA_ROOT = normpath(join(DJANGO_ROOT, 'media'))
-
-
-
-    # URL that handles the media served from MEDIA_ROOT.
-
-    MEDIA_URL = '/media/'
-
-    ########## END MEDIA CONFIGURATION
-
-
-
-
-
-    ########## STATIC FILE CONFIGURATION
-
-    # Absolute path to the directory static files should be collected to. Don't
-    put
-
-    # anything in this directory yourself; store your static files in apps'
-    static/
-
-    # subdirectories and in STATICFILES_DIRS.
-
-    STATIC_ROOT = normpath(join(DJANGO_ROOT, 'static'))
-
-
-
-    # URL prefix for static files.
-
-    STATIC_URL = '/static/'
-
-
-
-    # URL prefix for admin static files -- CSS, JavaScript and images.
-
-    ADMIN_MEDIA_PREFIX = '/static/admin/'
-
-
-
-    # Additional locations of static files.
-
-    STATICFILES_DIRS = (
-
-    normpath(join(DJANGO_ROOT, 'assets')),
-
-    )
-
-
-
-    # List of finder classes that know how to find static files in various
-
-    # locations.
-
-    STATICFILES_FINDERS = (
-
-    'django.contrib.staticfiles.finders.FileSystemFinder',
-
-    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
-
-    #'django.contrib.staticfiles.finders.DefaultStorageFinder',
-
-    )
-
-    ########## END STATIC FILE CONFIGURATION
-
-
-
-
-
-    ########## TEMPLATE CONFIGURATION
-
-    # List of callables that know how to import templates from various sources.
-
-    TEMPLATE_LOADERS = (
-
-    'django.template.loaders.filesystem.Loader',
-
-    'django.template.loaders.app_directories.Loader',
-
-    #'django.template.loaders.eggs.Loader',
-
-    )
-
-
-
-    # Directories to search when loading templates.
-
-    TEMPLATE_DIRS = (
-
-    normpath(join(DJANGO_ROOT, 'templates')),
-
-    )
-
-    ########## END TEMPLATE CONFIGURATION
-
-
-
-
-
-    ########## MIDDLEWARE CONFIGURATION
-
-    MIDDLEWARE_CLASSES = (
-
-    'django.middleware.common.CommonMiddleware',
-
-    'django.contrib.sessions.middleware.SessionMiddleware',
-
-    'django.middleware.csrf.CsrfViewMiddleware',
-
-    'django.contrib.auth.middleware.AuthenticationMiddleware',
-
-    'django.contrib.messages.middleware.MessageMiddleware',
-
-    )
-
-    ########## END MIDDLEWARE CONFIGURATION
-
-
-
-
-
-    ########## APP CONFIGURATION
-
-    INSTALLED_APPS = (
-
-    'django.contrib.auth',
-
-    'django.contrib.contenttypes',
-
-    'django.contrib.sessions',
-
-    'django.contrib.sites',
-
-    'django.contrib.messages',
-
-    'django.contrib.staticfiles',
-
-
-
-    # Admin panel and documentation.
-
-    'django.contrib.admin',
-
-    'django.contrib.admindocs',
-
-
-
-    # South migration tool.
-
-    'south',
-
-
-
-    # Celery task queue.
-
-    'djcelery',
-
-
-
-    # django-sentry log viewer.
-
-    'indexer',
-
-    'paging',
-
-    'sentry',
-
-    'sentry.client',
-
-    )
-
-    ########## END APP CONFIGURATION
-
-
-
-
-
-    ########## CELERY CONFIGURATION
-
-    import djcelery
-
-    djcelery.setup_loader()
-
-    ########## END CELERY CONFIGURATION
-
-
-
-
-
-    ########## URL CONFIGURATION
-
-    ROOT_URLCONF = '%s.urls' % SITE_NAME
-
-    ########## END URL CONFIGURATION
-
-
-
-
-
-    ########## KEY CONFIGURATION
-
-    # Try to load the SECRET_KEY from our SECRET_FILE. If that fails, then
-    generate
-
-    # a random SECRET_KEY and save it into our SECRET_FILE for future
-    loading. If
-
-    # everything fails, then just raise an exception.
-
-    try:
-
-    SECRET_KEY = open(SECRET_FILE).read().strip()
-
-    except IOError:
-
-    try:
-
-    with open(SECRET_FILE, 'w') as f:
-
-    f.write(gen_secret_key(50))
-
-    except IOError:
-
-    raise Exception('Cannot open file `%s` for writing.' % SECRET_FILE)
-
-    ########## END KEY CONFIGURATION
+    [https://gist.github.com/948038][]
 
 2.  Define as many environment-specific settings files as you need. Just make
     sure to import from **common** at the top of your file. For example--here's
-    a **dev.py** file:
+    a **dev.py** file:\
 
-    ~~~~ {.line_numbers}
-    1
-    2
-    3
-    4
-    5
-    6
-    7
-    8
-    9
-    10
-    11
-    12
-    13
-    14
-    15
-    16
-    17
-    18
-    19
-    20
-    21
-    22
-    23
-    24
-    25
-    26
-    27
-    28
-    29
-    30
-    31
-    32
-    33
-    34
-    35
-    36
-    37
-    38
-    39
-    40
-    41
-    42
-    43
-    44
-    45
-    46
-    47
-    48
-    49
-    50
-    51
-    52
-    53
-    54
-    55
-    56
-    57
-    58
-    59
-    60
-    61
-    62
-    63
-    64
-    65
-    66
-    67
-    68
-    69
-    70
-    71
-    72
-    73
-    74
-    75
-    76
-    77
-    78
-    79
-    80
-    81
-    82
-    83
-    84
-    85
-    86
-    87
-    88
-    89
-    90
-    91
-    92
-    93
-    94
-    95
-    96
-    97
-    ~~~~
-
-    """Development settings and globals."""
-
-
-
-
-
-    from common import *
-
-    from os.path import join, normpath
-
-
-
-
-
-    ########## DEBUG CONFIGURATION
-
-    DEBUG = True
-
-    TEMPLATE_DEBUG = DEBUG
-
-    ########## END DEBUG CONFIGURATION
-
-
-
-
-
-    ########## EMAIL CONFIGURATION
-
-    EMAIL_BACKEND = 'django.core.mail.backends.dummy.EmailBackend'
-
-    ########## END EMAIL CONFIGURATION
-
-
-
-
-
-    ########## DATABASE CONFIGURATION
-
-    DATABASES = {
-
-    'default': {
-
-    'ENGINE': 'django.db.backends.sqlite3',
-
-    'NAME': normpath(join(SITE_ROOT, 'db', 'default.db')),
-
-    'USER': '',
-
-    'PASSWORD': '',
-
-    'HOST': '',
-
-    'PORT': '',
-
-    }
-
-    }
-
-    ########## END DATABASE CONFIGURATION
-
-
-
-
-
-    ########## CACHE CONFIGURATION
-
-    CACHES = {
-
-    'default': {
-
-    'BACKEND': 'django.core.cache.backends.dummy.DummyCache',
-
-    }
-
-    }
-
-    ########## END CACHE CONFIGURATION
-
-
-
-
-
-    ########## DJANGO-DEBUG-TOOLBAR CONFIGURATION
-
-    MIDDLEWARE_CLASSES += (
-
-    'debug_toolbar.middleware.DebugToolbarMiddleware',
-
-    )
-
-
-
-    INSTALLED_APPS += (
-
-    'debug_toolbar',
-
-    )
-
-
-
-    # IPs allowed to see django-debug-toolbar output.
-
-    INTERNAL_IPS = ('127.0.0.1',)
-
-
-
-    DEBUG_TOOLBAR_CONFIG = {
-
-    # If set to True (default), the debug toolbar will show an intermediate
-
-    # page upon redirect so you can view any debug information prior to
-
-    # redirecting. This page will provide a link to the redirect destination
-
-    # you can follow when ready. If set to False, redirects will proceed as
-
-    # normal.
-
-    'INTERCEPT_REDIRECTS': False,
-
-
-
-    # If not set or set to None, the debug_toolbar middleware will use its
-
-    # built-in show_toolbar method for determining whether the toolbar should
-
-    # show or not. The default checks are that DEBUG must be set to True and
-
-    # the IP of the request must be in INTERNAL_IPS. You can provide your own
-
-    # method for displaying the toolbar which contains your custom logic. This
-
-    # method should return True or False.
-
-    'SHOW_TOOLBAR_CALLBACK': None,
-
-
-
-    # An array of custom signals that might be in your project, defined as the
-
-    # python path to the signal.
-
-    'EXTRA_SIGNALS': [],
-
-
-
-    # If set to True (the default) then code in Django itself won't be shown in
-
-    # SQL stacktraces.
-
-    'HIDE_DJANGO_SQL': True,
-
-
-
-    # If set to True (the default) then a template's context will be included
-
-    # with it in the Template debug panel. Turning this off is useful when you
-
-    # have large template contexts, or you have template contexts with lazy
-
-    # datastructures that you don't want to be evaluated.
-
-    'SHOW_TEMPLATE_CONTEXT': True,
-
-
-
-    # If set, this will be the tag to which debug_toolbar will attach the
-    debug
-
-    # toolbar. Defaults to 'body'.
-
-    'TAG': 'body',
-
-    }
-
-    ########## END DJANGO-DEBUG-TOOLBAR CONFIGURATION
-
-
-
-
-
-    ########## CELERY CONFIGURATION
-
-    INSTALLED_APPS += (
-
-    'djkombu',
-
-    )
-
-
-
-    BROKER_BACKEND = 'djkombu.transport.DatabaseTransport'
-
-    ########## END CELERY CONFIGURATION
+    [https://gist.github.com/948040][]
 
 3.  When you're using any sort of management command, just specify the settings
     module you want to use. For example: instead of running **python manage.py
@@ -979,3 +92,188 @@ not found any better ways to do it.
 Got Suggestions?
 
 If so, I'd love to hear them. Seriously.
+
+#### Tags
+
+programming, python, django
+
+#### 10413 views and 15 responses
+
+-   Apr 29 2011, 9:30 AM
+
+    tryptid (Twitter) responded:
+
+    This is nice. This is essentially what we do (after trying the
+    settings\_local way and finding it as awful as you said) except we haven't
+    been keeping them in a settings package, which is a nice idea (instead we've
+    just been keeping settings.py, development.py, production.py, etc in the
+    project root, which I must say isn't as clean looking).
+
+    One thing you could do is store your common settings in
+    settings/\_\_init\_\_.py (or import settings.common in that file) and have
+    your common settings work as sane defaults for a local environment (sqlite,
+    in-memory or no caching, etc), which would make running manage.py without a
+    --settings flag work fine locally since it loads myproject.settings by
+    default.
+
+    Another thing that makes things even nicer is if you set up your project
+    with buildout, then you get a bin/django script which replaces manage.py and
+    is already set up to use the correct settings file for the environment
+    you're in (this is what we do). Buildout definitely seems like some black
+    magic but once you get it set up it's quite nice.
+
+-   Apr 29 2011, 10:12 AM
+
+    Randall Degges responded:
+
+    @tryptid the \_\_init\_\_.py idea is pretty cool. I sometimes do that when
+    I'm working on projects by myself. I typcailly keep it in the structure I
+    defined for big projects though, that way there is no ambiguousness for
+    other developers.
+
+    Also--I use virtualenv, and virtualenvwrapper, but I do like buildout too!
+    Sounds like you've got a pretty sweet setup as well :)
+
+-   Apr 29 2011, 1:16 PM
+
+    odwyerrob (Twitter) responded:
+
+    I like this idea.
+
+    One suggestion for making it easier to use management commands (who wants to
+    type in the settings file every time?):
+
+    alias manage="python manage.py --settings=settings.dev"
+
+    Define this alias differently in each virtualenv or bashrc file so that each
+    project will automatically use the right one. For a virtualenv template, you
+    could even hardcode the path to manage.py so that it can be used from any
+    folder!
+
+-   May 3 2011, 12:19 AM
+    bel\_alex (Twitter) responded:
+    And what about database credentials, personal keys using such an approach ?\
+    You are probably creating a dev.py file and a similar file with filled
+    passwords and keys (which is not controlled by VCS)
+-   May 25 2011, 3:58 AM
+    pacek responded:
+    Great article, thanks. I'm using it from now :)
+-   Jun 21 2011, 3:38 PM
+
+    vvalbergg (Twitter) responded:
+
+    Hi Randall!
+
+    I'm really intrigued by your configuration - and that you've put it up for
+    grabs on github (i've already made a fork).
+
+    After playing a bit around with your configuration I wished I there was some
+    sort of "walkthrough" on how you use it. Here I'm thinking examples like why
+    you've defined something in settings.dev and not in settings.prod, and even
+    how you deploy using this setup.
+
+    So hereby an actual blogpost request on how you use your setup found at
+    [https://github.com/rdegges/django\_project][] :)
+
+    If you don't have the time or simply don't want to, I understand - it's at
+    least worth the try :)
+
+    Regards\
+    Víðir Valberg Guðmundsson
+
+-   Jun 22 2011, 11:36 AM
+    Randall Degges responded:
+    @vvalbergg Definitely. I'll do a follow-up post in the next few days
+    describing it in more detail :)
+-   Oct 1 2011, 1:26 PM
+    Michele responded:
+    You've lied :) however it's a really nice article, thanks.
+-   Oct 1 2011, 1:27 PM
+    Michele responded:
+    You've lied :) however it's a really nice article, thanks.
+-   May 16 2012, 1:06 AM
+
+    mbaechtold (Twitter) responded:
+
+    As bel\_alex points out, how do you handle database credentials? Those
+    values should not go into a VCS.
+
+    And how would you craft a settings module if you have to support a multi
+    site setup, i.e. how to have common settings for all sites and all
+    environments, common settings for all environments but just a specific site,
+    common settings for all sites but just a specific environment?
+
+-   Oct 10 2012, 11:40 AM
+    Tadeo responded:
+    Hi, I've been using a similar approach some time ago, I even used specific
+    settings files to features branches.\
+    To avoid having to define the --settings flag I called the folder
+    settings\_files where include common.py, dev.py, deploy.py, etc. In dev.py
+    and deploy.py I imported common.py and finally I just make a symbolic
+    settings.py link by hand in each environment to the desired specific file.
+    The symbolic link was ignored including it in .gitignore. Simple and
+    effective.\
+    Anyway, as was pointed out versioning sensible information is not a good
+    practice. So I moved to the plain local\_settings.py approach, where I
+    include just the sensible data as SECRET\_KEY and DATABASES and a few
+    specifics settings.\
+    Probably a mix of the two approaches was "the perfect" django settings, but
+    I think the development environment should be as equal as possible to the
+    deploy one, so the particular settings must be really a few.\
+    Thank you.
+-   Nov 8 2012, 3:08 PM
+
+    Mat responded:
+
+    With buildout usage, use 'djangoprojectrecipe', that use the same approche
+    from base.py to server\_live.py and how many env you need.
+
+    All your settings are located in \<project\>/settings/
+
+    [http://pypi.python.org/pypi/djangoprojectrecipe/1.1][]
+
+-   Nov 20 2012, 4:30 PM
+
+    Bifx responded:
+
+    How do you deal with FilePathFields in models, where the paths are different
+    in production and development, e.g. this used to work:\
+    datafile = models.FilePathField(path=settings.DATA\_DIR, max\_length=500)
+
+    But now I get a 'module' object has no attribute 'DATA\_DIR' because the
+    prefixes are now:\
+    settings.production.DATA\_DIR\
+    or\
+    settings.development.DATA\_DIR\
+    etc...
+
+    I don't see how the perfect django settings fits with this, any pointers
+    greatly appreciated.
+
+-   Feb 8 2013, 4:08 PM
+
+    Bevis responded:
+
+    Bifx: you should be importing settings like:
+
+    from django.conf import settings
+
+    If you do, then that problem goes away.
+
+-   Feb 8 2013, 5:43 PM
+
+    bifx responded:
+
+    Bevis: this is not a simple import issue. The issue is that the path will
+    always be wrong.
+
+    The solution I've implemented is Tadeo's symbolic link.
+
+  [Previous]: ../../../posts/2011/05/diet-updates.html
+  [Index]: ../../../index-5.html
+  [Next]: ../../../posts/2011/04/how-to-not-be-lean.html
+  [https://gist.github.com/948029]: https://gist.github.com/948029
+  [https://gist.github.com/948038]: https://gist.github.com/948038
+  [https://gist.github.com/948040]: https://gist.github.com/948040
+  [https://github.com/rdegges/django\_project]: https://github.com/rdegges/django_project
+  [http://pypi.python.org/pypi/djangoprojectrecipe/1.1]: http://pypi.python.org/pypi/djangoprojectrecipe/1.1

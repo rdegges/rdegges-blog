@@ -1,8 +1,12 @@
-Title: DevOps Django - Part 4 - Choosing Heroku
-Date: 2011-12-31 01:43
-Author: Randall Degges
-Tags: programming, python, devops, django
+# Randall Degges
 
+## This is an archived post This is an archived post
+
+[Previous][]   [Index][]   [Next][]
+
+### DevOps Django - Part 4 - Choosing Heroku
+
+December 30 2011, 5:43 PM  by Randall Degges
 
 This is the fourth article in a series I'm writing titled DevOps Django. If
 you're new, you may want to read the [first part][] of the series before this
@@ -15,8 +19,7 @@ was no easy task. As I'm sure you all know--moving infrastructure components is
 an enormous risk, even in the best of circumstances. However, despite the
 immense risk involved, a change was needed.
 
-
-## Time
+Time
 
 As I mentioned earlier in this series, I work for a tech startup. With a small
 team of people, you don't have much time to mess around. Our greatest expense as
@@ -61,8 +64,7 @@ With the ridiculous amount of time Heroku would save each day, my company would
 be able to ship insane amounts of code. When I discussed this with [my boss][],
 the decision seemed clear: use Heroku.
 
-
-## Price
+Price
 
 After calculating the manpower time Heroku would save, the next thing I wanted
 to calculate was the price. Exactly how much will it cost us to move to Heroku?
@@ -85,7 +87,7 @@ program that:
 
 For each application you have on Heroku, you get 1 free dyno per month. If you
 just want to run a small website, you can do it completely free of charge. For
-each additonal dyno you run, Heroku charges 35$ per month (5 cents per hour, at
+each additonal dyno you run, Heroku charges 35\$ per month (5 cents per hour, at
 the time of writing).
 
 Based on Heroku's simple pricing rules, you can easily gauge how much running
@@ -107,7 +109,7 @@ manages it for you. That means no data loss, full access to your backups, etc.
 Heroku's dedicated databases are much more robust than their free counterparts.
 In terms of pricing, their cost goes up based on the amount of allowed
 connections, RAM, and CPU units. Currently, the cheapest dedicated database plan
-costs 200$ per month, allows 16 concurrent connections, has 1.7G of RAM, and 1
+costs 200\$ per month, allows 16 concurrent connections, has 1.7G of RAM, and 1
 CPU unit.
 
 What's nice about the dedicated database plans (and what justifies their price,
@@ -126,12 +128,12 @@ you're getting an insanely good deal. My favorite feature is Heroku's concept of
 forking and following.
 
 Let's say you have a single paid database (with the name
-``**HEROKU_POSTGRESQL_GREEN**``), and you want to create a read slave.
+\`\`**HEROKU\_POSTGRESQL\_GREEN**\`\`), and you want to create a read slave.
 Heroku allows you to "*follow*" your existing database
-(``**HEROKU_POSTGRESQL_GREEN**``), and in doing so, automatically
+(\`\`**HEROKU\_POSTGRESQL\_GREEN**\`\`), and in doing so, automatically
 provisions your new database as a read slave. For instance, to provision a new
-read slave in the scenario I just described, I could simply run ``**heroku
-addons:add heroku-postgresql:ronin --follow HEROKU_POSTGRESQL_GREEN**``, and
+read slave in the scenario I just described, I could simply run \`\`**heroku
+addons:add heroku-postgresql:ronin --follow HEROKU\_POSTGRESQL\_GREEN**\`\`, and
 I'd have a new read slave up and running in a short period of time.
 
 Similarly to Heroku's "*follow*" feature is "*fork*". Forking a database gives
@@ -164,8 +166,7 @@ addition to fast provisioning--all addons can also be resized; you can downgrade
 or upgrade them at any time using the Heroku command line tool. This makes
 scaling your infrastructure components a one liner.
 
-
-## Hidden Cost
+Hidden Cost
 
 One thing that played an important role in our decision was the hidden cost of
 running our infrastructure ourselves.
@@ -175,8 +176,8 @@ case, Rackspace vs. Heroku), it's easy to miscalculate cost. In our case, we
 looked at the cost of Rackspace instances vs. the cost of Heroku dynos.
 
 Since Heroku dynos give you 512M of RAM to work with, I based my initial price
-comparison on this factor. A single Heroku dyno costs 35$ per month, and a 512M
-Rackspace server costs 21.90$ per month. According to this simplistic
+comparison on this factor. A single Heroku dyno costs 35\$ per month, and a 512M
+Rackspace server costs 21.90\$ per month. According to this simplistic
 analysis--Heroku looks approximately 1.5x's as expensive.
 
 The hidden costs show themselves in three primary areas:
@@ -185,8 +186,7 @@ The hidden costs show themselves in three primary areas:
 -   Scaling cost.
 -   Bandwidth.
 
-
-### Infrastructure Management Cost
+Infrastructure Management Cost
 
 Quite possibly the largest hidden cost for us was infrastructure management.
 
@@ -214,7 +214,7 @@ for time required to not only build working backup and failover programs for
 each piece of our infrastructure, but also to build (and test) the recovery
 software itself, to ensure that when we do fail over, it actually works.
 
-### Scaling Cost
+Scaling Cost
 
 While not nearly as devious infrastructure management cost--scaling cost is also
 infrequently mentioned.
@@ -248,7 +248,7 @@ procedures. You can instantly add and remove dynos with a single command.
 Furthermore, their scaling seems to be instant. There is no waiting to provision
 new servers, install puppet, etc.--it just works.
 
-### Bandwidth
+Bandwidth
 
 Depending on what sort of applications you run, bandwidth pricing may be a
 concern for you. In my case, we don't use much bandwidth, so it was never a
@@ -261,11 +261,11 @@ on this anywhere on their site).
 
 In comparison to Heroku, Rackspace charges for bandwidth in a per-gigabyte
 fashion. According to the [Rackspace pricing calculator][] I used on their site,
-2TB of bandwidth on Rackspace can cost you an additional $368.64 per month.
-That's a lot in comparison to the 0$ you'd pay for the same amount of bandwidth
+2TB of bandwidth on Rackspace can cost you an additional \$368.64 per month.
+That's a lot in comparison to the 0\$ you'd pay for the same amount of bandwidth
 using Heroku.
 
-## Summary
+Summary
 
 After analyzing the costs (both obvious and hidden) of both keeping our setup
 the way it was, or switching to Heroku; we decided overwhelmingly to move to
@@ -287,7 +287,156 @@ details, and explain the entire setup from start to finish.
 it out. It's called **The Heroku Hacker's Guide**, and you can buy it
 here: [http://www.theherokuhackersguide.com/][]
 
+#### Tags
 
+programming, python, devops, django
+
+#### 7056 views and 12 responses
+
+-   Jan 8 2012, 8:01 PM
+    Mark Liu responded:
+    Dude, thanks so much for this series. I have a production site I was
+    thinking of moving to Heroku so I tried it out and had a ton of issues so I
+    gave up really quick. My initial thought was heroku wasn't designed for
+    porting existing "complex infrastructure heavy" apps to their platform. I
+    ran across your article and it got me so pumped up I decided to give it
+    another go today and I've gotten it up and working! Great stuff.
+-   Jan 8 2012, 10:42 PM
+
+    Randall Degges responded:
+
+    @Mark Liu, thanks man, I'm glad you like it! The 5th part should be done in
+    a few days, and it has a ton of other great info :)
+
+    I'm planning on making this into a 10-part series, or something similar.
+    I'll also be covering useful addons, application monitoring, and stuff like
+    that:)
+
+-   Jan 9 2012, 5:25 AM
+    Mark Liu responded:
+    Awesome, I'm looking forward to it!\
+    \
+    \
+-   Jan 20 2012, 6:57 AM
+    Dan Sapala responded:
+    I'm sorry, but you're way off base about the 5MB limit. You say, "The free
+    database you get allows you store as much data as you want. The catch? The
+    free database only provides 5M of RAM for your data.", but in reality that
+    5MB limit is on db size. This is a soft limit and they will notify you, if
+    your database grows beyond that size, to tell you it's time to pony up.
+-   Jan 20 2012, 3:49 PM
+
+    Randall Degges responded:
+
+    @Dan Sapala, oh? I've run some free apps that have used far more than 5M of
+    db storage, but never gotten any emails or anything. Also: I could have
+    sworn I saw it say that it provides unlimited storage somewhere on the
+    Heroku wiki--however I can't seem to find that on google now.
+
+    Anyhow, thanks for the comment. If you're reading this and planning on
+    running a production app using the free shared database, you may want to
+    reconsider after you have some valuable data.
+
+-   Jan 20 2012, 3:58 PM
+    Mark Liu responded:
+    @Dan, I also have a DB over 5MB (It's around 9MB now) running on the Heroku
+    free plan and they haven't sent me any notifications either.
+-   Feb 2 2012, 12:22 AM
+    Gurteshwar responded:
+    Hi, Great post. Could you elaborate on your redis add on usage? I couldn't
+    justify the price for our project so we plan to host our redis instance on a
+    dedicated server elsewhere. This will require a ssh tunnel I think, is that
+    possible on the Heroku stack?
+-   Feb 2 2012, 12:35 AM
+
+    Randall Degges responded:
+
+    @Gurteshwar Thanks! I was using redis initially for caching only. It gets
+    pretty pricey, but we're using it as a cache, not a primary datastore--so we
+    don't need an expensive plan.
+
+    You can't run ssh tunnels on Heroku to my knowledge. If you want to host a
+    redis instance elsewhere, however, why not put it on an amazon ec2 instance
+    (that way your latency between Heroku servers is low), and just use your
+    normal redis credentials in your application?
+
+-   Feb 2 2012, 3:24 AM
+
+    Gurteshwar responded:
+
+    @Randall.
+
+    I could use ec2, but compared to some dedicated providers like hetzner for
+    example, ec2 is ridiculously expensive. RAM on the cloud is not a cheap
+    resource :(. And even within heroku and ec2, how secure is it? I mean are
+    you vulnerable to other co-tenants on the cloud sniffing your data?
+
+    Also, I see that you run a teleconference service. Do you have a datacenter
+    where you connect with the PSTN or is your entire operation pure SIP based.
+    I ask this because I am curious to know that if you have a datacenter for
+    voice interconnect and the rest of your infra on the cloud, do you have a db
+    slave running at your datacenter or does asterisk request your heroku db
+    each time a call comes in?
+
+-   Feb 18 2012, 9:09 PM
+
+    claymcclure (Twitter) responded:
+
+    You mentioned that your business requires high availability, and that, to
+    achieve that goal, you had to run multiple instances of infrastructure
+    services (database, queue, app server, etc). That's pretty standard for a
+    DIY infrastructure, using a combination of active/active load-balancing and
+    active/standby failover techniques.
+
+    How does the Heroku architecture compare? Don't you still need to run
+    multiple web dynos? Is high-availability baked into their PostgreSQL
+    offering? How about RabbitMQ—near as I can tell, that offering is in private
+    beta?
+
+-   Feb 18 2012, 10:52 PM
+
+    Randall Degges responded:
+
+    @claymcclure Heroku makes it significantly easier. In terms of web dynos,
+    you only need one--because HTTP requests that go to your Heroku app hit
+    their HTTP load balancer, which buffers the requests internally between your
+    dyno(s).
+
+    This way, even if your dyno goes down temporarily, incoming HTTP requests
+    will be held onto (for like 30 seconds top, I think) on the Heroku load
+    balancer. Their solution is good enough for me in that regard, so I'm not
+    doing anything additional there.
+
+    In regards to PostgreSQL, they aren't doing any HA stuff (as far as I know,
+    I could be wrong), but since you can create standby master servers at will,
+    and promote databases to be the 'default' master with a single command, I
+    think their solution is \*almost\* as good as running multiple db clusters
+    concurrently with one of those heartbeat monitoring solutions setup on the
+    master servers. Also: from what I understand, they have a pretty good track
+    recording with uptime for their DB service.
+
+    RabbitMQ is still in private beta, but it's a good service. I've been using
+    it in production since day 1, and haven't had any issues. The guy who wrote
+    celery (Ask Solem: @asksol) works on the service, so I'm assuming they are
+    doing some cool HA stuff internally that I'm not aware of.
+
+    In general, it's probably still a good idea to at least monitor / prepare
+    some failover stuff for the Heroku addons, that way if any of them die
+    (memcached or whatever) you can still run OK.
+
+    But in terms of the core Heroku stuff (eg: dynos), I think they execute it
+    perfectly. No need for any additional HA stuff \^\^
+
+-   Jan 22 2013, 12:38 PM
+    GN responded:
+    For those of us looking for a internal PaaS layer, any DJango deployment
+    options for OpenShift/Cloud Foundry/Etc? We came across Active State's
+    version of Cloud Foundry but have been burned by Active States python tools
+    in the past. Other internal DJango suggestions?
+
+  [Previous]: ../../../posts/2012/01/what-im-doing-in-2012.html
+  [Index]: ../../../index-4.html
+  [Next]: ../../../posts/2011/12/on-momentum.html
   [first part]: http://rdegges.com/devops-django-part-1-goals
     "DevOps Django - Part 1 - Goals"
   [previous article]: http://rdegges.com/devops-django-part-3-the-heroku-way
