@@ -3,8 +3,6 @@ Date: 2009-12-04
 Tags: git
 
 
-### My Git
-
 A few days back I ordered a copy of Scott Chacon’s book: Pro Git, which I am
 really enjoying reading. Scott is an excellent writer, and really does justice
 to Git. I was reflecting on his enthusiasm, and thinking about my own. Here are
@@ -19,7 +17,7 @@ get back to the best-practices way of doing things (using a VCS).
 When I first learned about VCSs, pretty much everyone used SVN or CVS. When I
 researched them both, there was no doubt in my mind that SVN was clearly the
 most popular, and so that’s what I decided to learn. I started using SVN for all
-of my code (most of it was hosted on Sourceforge at some point or another), and
+of my code (most of it was hosted on SourceForge at some point or another), and
 learned it well enough to push periodic updates to my projects and do basic
 collaboration with a few other people.
 
@@ -41,7 +39,7 @@ nobody could access the source or project history, which made team effort
 difficult.
 
 The other large issue I had (and still have) with SVN is that there are no good
-project hosting websites out there which meet my needs. Sourceforge, which is
+project hosting websites out there which meet my needs. SourceForge, which is
 probably the largest and most popular SVN project hosting site is slow, filled
 with ads, and has an un-intuitive interface. It also requires approval for every
 project which can sometimes take hours. What I want in a project hosting site is
