@@ -59,7 +59,7 @@ something that:
     any piece of code at their whim.
 -   Allows users to embed snippets of code in their web pages for display on
     other sites.
--   Has pretty URLs, none of that ?p=155 stuff.
+-   Has pretty URLs, none of that `?p=155` stuff.
 -   Has a wiki system that looks nice and is simple to navigate for users.
 -   Has detailed graphs and statistics for each project.
 -   Has some sort of ‘watch’ or ‘follow’ functionality which allows users to
