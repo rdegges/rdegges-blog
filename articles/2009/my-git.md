@@ -3,7 +3,7 @@ Date: 2009-12-04
 Tags: git
 
 
-A few days back I ordered a copy of Scott Chacon’s book: Pro Git, which I am
+A few days back I ordered a copy of [Scott Chacon][]'s book: Pro Git, which I am
 really enjoying reading. Scott is an excellent writer, and really does justice
 to Git. I was reflecting on his enthusiasm, and thinking about my own. Here are
 my thoughts on Git, and my experience with it over the years.
@@ -137,3 +137,5 @@ become a better programmer. Git has helped me remedy my bad habits by making the
 committing and merging systems thoughtless, and has given me the ability to
 really get the most out of my coding experiences. Git has also made running an
 contributing to open source projects fun again, and that what it is all about.
+
+  [Scott Chacon]: http://scottchacon.com/ "Scott Chacon"
