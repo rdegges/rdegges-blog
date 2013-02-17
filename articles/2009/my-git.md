@@ -93,46 +93,46 @@ notified, and the current working revision is put on hold until these errors are
 fixed or stashed. Git adds the appropriate conflict information to my files so I
 can see exactly what is conflicting, and how it needs to be changed to progress.
 
-Lastly, Git has an great community, and Github. Github is the ultimate project
+Lastly, Git has an great community, and GitHub. GitHub is the ultimate project
 hosting site. You can create projects instantly and store large files. You can
 also store all of your SSH keys for the various systems you work on, thereby
-showing different commit users and / or messages. Github has a simple and
+showing different commit users and / or messages. GitHub has a simple and
 intuitive web interface which looks great, and has clean functionality for
 users, developers, and people exploring the site.
 
-The Github source viewer is nice as well. It lets you browse the entire history
+The GitHub source viewer is nice as well. It lets you browse the entire history
 of the project, you can see a full snapshot of exactly what the source looked
 like at any given time. It also allows you to get a direct permalink to any
 particular source file from any revision in the project’s history. This is
 extremely useful for source review and any sort of online publishing /
 collaboration tools.
 
-One of my favorite Github features is the ability to instantly ‘fork’ a project.
+One of my favorite GitHub features is the ability to instantly ‘fork’ a project.
 Forking a project is extremely easy, simply click the ‘fork’ button on the
-project you’d like to fork. Github will instantly copy the projects source /
+project you’d like to fork. GitHub will instantly copy the projects source /
 history to your account, and automatically create your own Git repository for
 the project which you can change and modify all you like. This is very useful,
 as if you see a project you’d like to make a patch for, you can fork it, make
 the patch, and link the real project owner to your forked repository, where they
 can then merge in your changes! It’s also useful for people who just want to
-make their own modifications to a project. Github’s forking provides an elegant
+make their own modifications to a project. GitHub’s forking provides an elegant
 solution to a common problem.
 
-Yet another nice feature of Github is it’s social networking type feel. Every
+Yet another nice feature of GitHub is it’s social networking type feel. Every
 account can ‘watch projects’, send private messages, add and remove friends, and
 get instant updates when your friends add / remove code to their projects.
-Github is also releasing a resume searching tool on their site at some point in
+GitHub is also releasing a resume searching tool on their site at some point in
 the near future, and they have already implemented resume pages for each user
 who wishes to add to them. This means that in addition to providing project
 hosting, they’ll also be able to help companies find talented programmers based
 on their actual work!
 
-Github also has many other neat features including a wiki system, statistics
+GitHub also has many other neat features including a wiki system, statistics
 system for gathering project stats, and a language browsing feature which makes
 finding new projects in your favorite programming languages fun.
 
 Since learning Git, and discovering all the nice features that it offers (in
-addition to the general awesomeness of Github), I think that I’ve definitely
+addition to the general awesomeness of GitHub), I think that I’ve definitely
 become a better programmer. Git has helped me remedy my bad habits by making the
 committing and merging systems thoughtless, and has given me the ability to
 really get the most out of my coding experiences. Git has also made running an
