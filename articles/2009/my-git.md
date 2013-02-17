@@ -1,12 +1,9 @@
-# Randall Degges
+Title: My Git
+Date: 2009-12-04
+Tags: git
 
-## This is an archived post This is an archived post
-
-[Previous][]   [Index][]   [Next][]
 
 ### My Git
-
-December 4 2009, 9:00 PM  by Randall Degges
 
 A few days back I ordered a copy of Scott Chacon’s book: Pro Git, which I am
 really enjoying reading. Scott is an excellent writer, and really does justice
@@ -142,13 +139,3 @@ become a better programmer. Git has helped me remedy my bad habits by making the
 committing and merging systems thoughtless, and has given me the ability to
 really get the most out of my coding experiences. Git has also made running an
 contributing to open source projects fun again, and that what it is all about.
-
-#### Tags
-
-git, versioncontrol
-
-#### 1544 views and 0 responses
-
-  [Previous]: ../../../posts/2009/12/new-project-atkbot-for-irc-takeovers.html
-  [Index]: ../../../index-8.html
-  [Next]: ../../../posts/2010/07/creating-a-posterous-account-1.html
