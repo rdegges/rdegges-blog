@@ -3,10 +3,10 @@ Date: 2009-12-04
 Tags: git
 
 
-A few days back I ordered a copy of [Scott Chacon][]'s book: Pro Git, which I am
-really enjoying reading. Scott is an excellent writer, and really does justice
-to Git. I was reflecting on his enthusiasm, and thinking about my own. Here are
-my thoughts on Git, and my experience with it over the years.
+A few days back I ordered a copy of [Scott Chacon][]'s book: [Pro Git][], which
+I am really enjoying reading. Scott is an excellent writer, and really does
+justice to Git. I was reflecting on his enthusiasm, and thinking about my own.
+Here are my thoughts on Git, and my experience with it over the years.
 
 I started using Git around 2 years ago when I saw a screencast discussing it
 online. What initially drew me to Git was that it was created by Linus (who was
@@ -138,4 +138,6 @@ committing and merging systems thoughtless, and has given me the ability to
 really get the most out of my coding experiences. Git has also made running an
 contributing to open source projects fun again, and that what it is all about.
 
+
   [Scott Chacon]: http://scottchacon.com/ "Scott Chacon"
+  [Pro Git]: http://www.amazon.com/gp/product/1430218339/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1430218339&linkCode=as2&tag=rdegges-20 "Pro Git"
