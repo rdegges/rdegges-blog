@@ -3,6 +3,9 @@ Date: 2010-02-12
 Tags: personal development
 
 
+![Man Writing Sketch][]
+
+
 One thing I am absolutely horrible at is writing.  I may be able to throw a few
 sentences together, but I am absolutely horrible at writing.  Why is that?
 Mostly because I'm afraid.  There are so many things I'd like to write about,
@@ -24,3 +27,6 @@ I think it will be a great learning tool for me, to force myself to improve as a
 writer and a thinker, and I'm looking forward to it.
 
 Writing is hard.
+
+
+  [Man Writing Sketch]: |filename|/images/2010/man-writing-sketch.png "Man Writing Sketch"
