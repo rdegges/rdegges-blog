@@ -3,6 +3,9 @@ Date: 2010-02-17
 Tags: programming, python, django
 
 
+![Lock Sketch][]
+
+
 This article will teach you how to authenticate users with [Django][] in a
 simple, quick, and secure manner.  You'll also learn how to require
 authentication on certain pages of your website, and how to gracefully handle
@@ -290,7 +293,7 @@ def portal_main_page(request):
 ```
 
 This is where things get interesting.  Since we decided a while back that our
-`/portal/`` page was going to require users to be authenticated, we are going
+`/portal/` page was going to require users to be authenticated, we are going
 to import the `login_required` function from `django.contrib.auth`.  This
 decorator allows us to specify which views require users to be authenticated to
 use!  All we need to do is place `@login_required` above each view definition
@@ -340,9 +343,7 @@ Now that we have a base template, let's create the main page of the website
 ```django
 {% extends "base.html" %}
 {% comment %}
-
   Main page of django_consultant's website.
-
 {% endcomment %}
 
 {% block head %}
@@ -389,7 +390,7 @@ create a template for our user portal page.  So let's do that:
   {% block content %}{% endblock %}
 
   <footer>
-    <span>© 2010, Django Consultants</span>
+    <span>&copy; 2010, Django Consultants</span>
   </footer>
 {% endblock %}
 ```
@@ -402,9 +403,7 @@ lots more features!  Now we'll create the actual portal home page:
 ```django
 {% extends "portal/portal.html" %}
 {% comment %}
-
   Main page of the portal.
-
 {% endcomment %}
 
 {% block title %}
@@ -431,9 +430,7 @@ that it uses the magical view that we didn't have to write?)  Here it is:
 ```django
 {% extends "base.html" %}
 {% comment %}
-
   Main page to authenticate users.
-
 {% endcomment %}
 
 {% block head %}
@@ -538,6 +535,7 @@ anything else, feel free to [shoot me an email][], and I'll try to get back as
 quick as I can.
 
 
+  [Lock Sketch]: |filename|/images/2010/lock-sketch.png "Lock Sketch"
   [Django]: http://www.djangoproject.com/ "Django"
   [official documentation]: http://docs.djangoproject.com/en/dev/topics/auth/ "Django Authentication Documentation"
   [shoot me an email]: mailto:rdegges@gmail.com "Randall Degges' Email"
