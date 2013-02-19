@@ -167,10 +167,10 @@ Unfortunately, regardless of which tools you choose--managing infrastructure
 with any of the tools above is an enormous job. Sure, you could do what David
 did:
 
-> About three days into it, and I had learned how to use Chef (I don’t
+> About three days into it, and I had learned how to use Chef (I don't
 > write Ruby), brought up two full pluggable configurations for a db node and a
 > web node, written a deployment script in Fabric, migrated to the new hardware
-> and destroyed my Heroku and Linode instances. Three days, that’s all it took
+> and destroyed my Heroku and Linode instances. Three days, that's all it took
 > to replace the cloud.
 
 But all you end up with is a false sense of security in your new design.
@@ -237,7 +237,7 @@ and couldn't figure out why so many weird things were happening:
 >
 > -   Redis takes too much memory to reliably queue Sentry jobs.
 > -   Dynos are either memory or CPU bound, but we have no idea how or why.
-> -   The Postgres server can’t handle any reasonable level of concurrency.
+> -   The Postgres server can't handle any reasonable level of concurrency.
 > -   We randomly have to spin up 20 dynos to get anywhere in the queue backlog.
 
 ![][6]

@@ -277,7 +277,7 @@ programming, python, django
 
     Lindsay responded:
 
-    Hi Randall! I’m the Community Manager at DZone.com and I’d like to discuss
+    Hi Randall! I'm the Community Manager at DZone.com and I'd like to discuss
     our Most Valuable Bloggers program with you. It is a free program that
     promotes quality developer blogs such as this one. E-mail me at lgordon {at}
     dzone{dot}com if you are interested! I hope to hear from you.
@@ -369,7 +369,7 @@ programming, python, django
 
     Lindsay responded:
 
-    Hi Randall! I’m the Community Manager at DZone.com and I’d like to discuss
+    Hi Randall! I'm the Community Manager at DZone.com and I'd like to discuss
     our Most Valuable Bloggers program with you. It is a free program that
     promotes quality developer blogs such as this one. E-mail me at lgordon {at}
     dzone{dot}com if you are interested!

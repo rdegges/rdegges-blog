@@ -127,7 +127,7 @@ get instant updates when your friends add / remove code to their projects.
 GitHub is also releasing a resume searching tool on their site at some point in
 the near future, and they have already implemented resume pages for each user
 who wishes to add to them.  This means that in addition to providing project
-hosting, they’ll also be able to help companies find talented programmers based
+hosting, they'll also be able to help companies find talented programmers based
 on their actual work!
 
 GitHub also has many other neat features including a wiki system, statistics

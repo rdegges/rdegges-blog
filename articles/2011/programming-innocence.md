@@ -194,7 +194,7 @@ programming
     There is also a code of ethics:
     [http://www.apeg.bc.ca/resource/publications/actbylawscode.html][]
 
-    How can you regain your innocence? Become a Professional. Don’t devalue your
+    How can you regain your innocence? Become a Professional. Don't devalue your
     work or yourself by saying fuck it.
 
 -   Jan 12 2011, 9:49 AM
@@ -214,7 +214,7 @@ programming
     There is also a code of ethics:
     [http://www.apeg.bc.ca/resource/publications/actbylawscode.html][]
 
-    How can you regain your innocence? Become a Professional. Don’t devalue your
+    How can you regain your innocence? Become a Professional. Don't devalue your
     work or yourself by saying fuck it.
 
 -   Jan 12 2011, 10:45 AM
