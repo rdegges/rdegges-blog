@@ -11,7 +11,7 @@ sentences together, but I am absolutely horrible at writing.  Why is that?
 Mostly because I'm afraid.  There are so many things I'd like to write about,
 new programming ideas, new techniques learned, interesting technical and
 non-technical content, but I never make myself do it.  I'll get started, open up
-my editor, pick a topic, and start writing–but never find the will to finish.
+my editor, pick a topic, and start writing-but never find the will to finish.
 
 I was reflecting on this all last week, and came to the conclusion that I hate
 to fail.  When I start writing, I envision a perfect article / blog post / paper

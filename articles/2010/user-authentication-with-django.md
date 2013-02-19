@@ -489,7 +489,7 @@ Since `/portal/` requires authentication, it will direct the user to the URL
 user after they've logged in.
 
 Our code above says "If the user requests a page, and they are not
-authenticated–then direct them to the login page, and after they've logged in
+authenticated-then direct them to the login page, and after they've logged in
 send them back to the page they originally requested.  If the user simply
 visited the `/login/` page directly, then by default send them to `/portal/`
 once they've logged in."

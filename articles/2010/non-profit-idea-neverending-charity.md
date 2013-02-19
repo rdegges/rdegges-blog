@@ -68,17 +68,17 @@ high-yield savings account is 2%. This is an unrealistically low number given
 the amount of money that we'll be collecting interest on, but we'll use it for
 conservative purposes.
 
-**Money in Bank –\> Monthly Donations**
+**Money in Bank -\> Monthly Donations**
 
-\$10,000 –\> \$16.67
+\$10,000 -\> \$16.67
 
-\$100,000 –\> \$166.67
+\$100,000 -\> \$166.67
 
-\$1,000,000 –\> \$1,666.67
+\$1,000,000 -\> \$1,666.67
 
-\$10,000,000 –\> \$16,666.67
+\$10,000,000 -\> \$16,666.67
 
-\$1,000,000,000 –\> \$1,666,666.67
+\$1,000,000,000 -\> \$1,666,666.67
 
 The numbers required to make a big impact are large, but don't forget—once
 people donate, their donation will live on forever and continuously increase the

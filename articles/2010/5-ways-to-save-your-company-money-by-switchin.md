@@ -61,8 +61,8 @@ it?
 
 With Asterisk, you'll be paying only for your hardware. This usually includes:
 
--   A decent server to install Asterisk on: \~500\$ –\> \~1,000\$.
--   VoIP phones for each employee: \~30\$ –\> \~100\$.
+-   A decent server to install Asterisk on: \~500\$ -\> \~1,000\$.
+-   VoIP phones for each employee: \~30\$ -\> \~100\$.
 
 If you want to add a new employee to the system and get a phone, no problem.
 Just buy another phone, and plug it into the network.
@@ -108,7 +108,7 @@ Asterisk has an extremely active business community, filled with thousands of
 products specifically designed to work with Asterisk to add almost any
 functionality you can imagine to your PBX. Let's say you want to have a queue
 system where callers call in, and the system calls them back automatically when
-it is their turn in line–there's an app for that!
+it is their turn in line-there's an app for that!
 
 And if you can't find an app for what you need, you can always build it
 yourself, or hire an Asterisk developer for cheap online.
