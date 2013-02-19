@@ -8,12 +8,12 @@
 
 August 16 2010, 7:00 PM  by Randall Degges
 
-If you’ve been doing python for more than a month, then I’m sure you’re familiar
+If you've been doing python for more than a month, then I'm sure you're familiar
 with [PEP-8][], the *official* python style guide. If you look at PEP-8, it
-doesn’t explicitly define any docstring style guidelines, but instead recommends
-following [PEP-257][]’s rules.
+doesn't explicitly define any docstring style guidelines, but instead recommends
+following [PEP-257][]'s rules.
 
-In the python community, it is considered a sin if you don’t strictly follow
+In the python community, it is considered a sin if you don't strictly follow
 PEP-8. This is one of the things I really enjoy about python, the community
 helps encourage best practices, and good coding style. Nothing wrong with that.
 
@@ -21,12 +21,12 @@ However, I hate to say it, but: **PEP-257 is bullshit**.
 
 ## What I Like About PEP-257
 
-I don’t hate *everything* about PEP-257, so before I get to the bad part, let me
+I don't hate *everything* about PEP-257, so before I get to the bad part, let me
 start by talking briefly about what I like.
 
 -   PEP-257 encourages developers to write docstrings for all modules,
     functions, and classes. This is awesome. I totally agree. Docstrings are
-    extremely useful for developers, and help show off some of python’s awesome
+    extremely useful for developers, and help show off some of python's awesome
     self-documenting and introspection capabilities.
 
 -   PEP-257 encourages the use of triple double quotes (“”“) as docstring
@@ -35,8 +35,8 @@ start by talking briefly about what I like.
 
 -   PEP-257 suggests that very short one line docstrings be placed on a single
     line, but still use triple double quotes (“”“) as delimiters. Again, this
-    rocks. Let’s say you’re writing a private method for a class, and it is
-    pretty self explanatory, don’t kill yourself writing long docstrings:
+    rocks. Let's say you're writing a private method for a class, and it is
+    pretty self explanatory, don't kill yourself writing long docstrings:
 
         def _something_simple(x, y):
             """Adds x and y."""
@@ -44,14 +44,14 @@ start by talking briefly about what I like.
 
 -   PEP-257 says that you should NOT put your function signatures into your
     docstring, as they are already available through introspection. Makes
-    perfect sense: don’t be redundant:
+    perfect sense: don't be redundant:
 
         # Don't do this, please.
         def stupid_function(a):
             """stupid_function(a) -> int"""
             return 4
 
-So, as you can (hopefully) see, I’m not some crazy rebel who hates standard
+So, as you can (hopefully) see, I'm not some crazy rebel who hates standard
 conventions or anything. I love order just as much as the next programmer.
 
 ## Where PEP-257 Goes Crazy
@@ -60,7 +60,7 @@ The main bulk of PEP-257 is describing how multi-line docstrings should look,
 and this is where things get ugly.
 
 Basically, PEP-257 wants your multi-line docstrings to start immediatley after
-the opening triple quotes (“”“), and end with a blank line. Here’s an example:
+the opening triple quotes (“”“), and end with a blank line. Here's an example:
 
     # This example was stolen directly from PEP-257.
     def complex(real=0.0, imag=0.0):
@@ -73,7 +73,7 @@ the opening triple quotes (“”“), and end with a blank line. Here’s an ex
         """
         ...
 
-Here’s another example with a more full docstring:
+Here's another example with a more full docstring:
 
     def do_something(x=0.0, y=5):
         """Calculates your best friend's birthday by multiplying two numbers
@@ -86,18 +86,18 @@ Here’s another example with a more full docstring:
         """
         ...
 
-Now, like most programmers I know, I’m a bit of an organizational freak. I like
+Now, like most programmers I know, I'm a bit of an organizational freak. I like
 symmetry in my code, comments, and I have to have things perfectly aligned.
-PEP-257’s suggested multi-line docstring format drives me crazy.
+PEP-257's suggested multi-line docstring format drives me crazy.
 
-I have two big problems with PEP-257’s suggested format:
+I have two big problems with PEP-257's suggested format:
 
 1.  PEP-257 wants me to start my docstring **immediately** after the triple
     quotes.
 
 2.  PEP-257 wants me to leave a blank line at the end of my docstring.
 
-It doesn’t look *clean* or *organized* putting your comments immediately after
+It doesn't look *clean* or *organized* putting your comments immediately after
 the opening triple quotes. It also seems unnecessary to add an extra blank line
 at the end of each docstring.
 
@@ -120,13 +120,13 @@ This takes up the same amount of lines, except looks more symmetrical. We now
 have an uncluttered docstring, that is easier to scan over with your eyes, and
 looks nicer.
 
-The description of what you’re documenting goes on the line directly below the
+The description of what you're documenting goes on the line directly below the
 opening triple quotes, and there is no blank line before the end of the
 docstring.
 
 ## Thoughts?
 
-I will personally continue to keep using my own style for docstrings, but I’d
+I will personally continue to keep using my own style for docstrings, but I'd
 like to know what you think. Am I crazy? Is PEP-257 crazy? Do you not care?
 
 #### Tags

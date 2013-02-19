@@ -8,7 +8,7 @@
 
 June 25 2010, 1:00 PM  by Randall Degges
 
-At work, I’m the lead developer of a rather large, complex web application which
+At work, I'm the lead developer of a rather large, complex web application which
 interacts with many different technologies (Asterisk, Freeswitch, Cisco routers,
 python, XML-RPC, JSON, Django—to name a few). A few days ago, while implementing
 a ban system, I bumped into an interesting problem that was not trivial to find
@@ -16,7 +16,7 @@ a solution to. So, here it is :)
 
 ## Background
 
-The web application I’m developing is a private portal which allows users to
+The web application I'm developing is a private portal which allows users to
 manage teleconference lines real time. Since all of our telephony services are
 free of charge, we often get callers onto certain teleconference lines who want
 to abuse services (think of those trolls on the internet, except over the
@@ -39,7 +39,7 @@ something like:
             return '%s:%s' % (self.name, self.did)
 
 The newly added `bans` field stores a list of `Caller` objects which map to
-individual callers, and allow the web users to ban specific callers if they’re
+individual callers, and allow the web users to ban specific callers if they're
 causing trouble.
 
 ## Problem
@@ -125,7 +125,7 @@ this now seems an intuitive solution to me, I had a great deal of trouble
 initially figuring it out.
 
 The way that form defaults work for Foreign and ManyToMany fields is that they
-take in either a model’s `id` attribute for ForeignKeys, or a list of model
+take in either a model's `id` attribute for ForeignKeys, or a list of model
 `id`s for ManyToMany fields.
 
 ## Conclusion

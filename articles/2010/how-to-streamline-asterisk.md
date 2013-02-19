@@ -9,10 +9,10 @@
 August 16 2010, 2:30 AM  by Randall Degges
 
 So, you use [Asterisk][] professionally, for fun, or both, and you want to know
-how to optimize the shit out of your Asterisk platform? No problem, I’ve got you
+how to optimize the shit out of your Asterisk platform? No problem, I've got you
 covered.
 
-Grab a beer, free up the next 2 hours of your time, and let’s get to it!
+Grab a beer, free up the next 2 hours of your time, and let's get to it!
 
 ## Why Do This?
 
@@ -22,7 +22,7 @@ component that is in use adds additional overhead to your Asterisk system in the
 form of RAM, CPU, and sometimes disk space.
 
 To make your Asterisk PBX perform at its best, it is useful to strip out
-everything you don’t need, and force your Asterisk system to perform its best.
+everything you don't need, and force your Asterisk system to perform its best.
 
 ## Preparation
 
@@ -30,7 +30,7 @@ To make this quick, you should already have a box with Asterisk up and running,
 ideally with some working call routing code of some sort. If you manage an
 Asterisk server at work, that will do just fine.
 
-WARNING: Don’t attempt this stuff live on production servers unless you really
+WARNING: Don't attempt this stuff live on production servers unless you really
 like abuse.
 
 ## Approach
@@ -51,18 +51,18 @@ possible performance.
 If you are familiar with Asterisk installation, you can go ahead and skip to the
 next section. Good work, smart guy!
 
-If you’ve never installed Asterisk before, read [my guide][].
+If you've never installed Asterisk before, read [my guide][].
 
-If you installed Asterisk from your distro’s package manager (yum, apt, etc.),
+If you installed Asterisk from your distro's package manager (yum, apt, etc.),
 then you can also skip this section.
 
-So, I guess you installed Asterisk from source. Nice. That’s the best way (but
+So, I guess you installed Asterisk from source. Nice. That's the best way (but
 you already know that). Anyway, as I mentioned in the previous section, I like
 to install Asterisk with as many features enabled as possible. This way, if I
 ever need to get some extra functionality, I can simply enable it, and not have
 to completely re-install Asterisk from source.
 
-If you aren’t sure of how to selectively choose which features are installed
+If you aren't sure of how to selectively choose which features are installed
 when you are compiling Asterisk, all you have to do is run `make menuselect` in
 the Asterisk source directory (this also applies to asterisk-addons), after
 running `./configure`, but before running `make`.
@@ -75,14 +75,14 @@ While installing Asterisk, you might run the following commands:
     make
     sudo make install
 
-When you run `make menuselect`, you’ll see an ncurses based GUI window, that
+When you run `make menuselect`, you'll see an ncurses based GUI window, that
 lets you use the arrow keys, enter, and tab to navigate around and choose which
 components to install. You should choose as many as possible.
 
-## Figure Out Which Features You’re Using
+## Figure Out Which Features You're Using
 
 This step is **important**. You need to figure out what parts of Asterisk you
-**need** in order to do what you’re doing before you can even think about
+**need** in order to do what you're doing before you can even think about
 removing unnecessary junk.
 
 Here are some helpful tips for figuring out what parts of Asterisk you need:
@@ -101,7 +101,7 @@ Here are some helpful tips for figuring out what parts of Asterisk you need:
 -   Which configuration files have you explicitly put code into?
     `indications.conf`? `smdi.conf`? etc.?
 
-I suggest writing these all down somewhere. It’s not critical to have *all* of
+I suggest writing these all down somewhere. It's not critical to have *all* of
 them perfectly figured out at the start, you can always figure it out later via
 trial-and-error.
 
@@ -109,16 +109,16 @@ trial-and-error.
 
 We now need to get a list of all the Asterisk modules that are currently
 available on your system. If you compiled Asterisk from scratch, and read my
-‘Installing Asterisk’ section, you should have a ton.
+‘Installing Asterisk' section, you should have a ton.
 
 On most linux systems, you can get a list of all your Asterisk modules by
 running the following command: `ls /usr/lib/asterisk/modules/`. This *may* be
-different for you, depending on what operating system you’re using.
+different for you, depending on what operating system you're using.
 
 ## Disable Everything
 
-Before enabling the modules we need, we’re going to disable everything. This is
-part of our ‘whitelisting’ approach to Asterisk slimming.
+Before enabling the modules we need, we're going to disable everything. This is
+part of our ‘whitelisting' approach to Asterisk slimming.
 
 To do this, open up your `modules.conf` file (usually located in
 `/etc/asterisk/`). Your file should look something like:
@@ -171,8 +171,8 @@ The next thing you need to do is preload any required modules. As shown in the
 sample config above, if you need odbc support, you should put
 `preload => res_odbc.so` directly below your `autoload=yes` line.
 
-After you’ve gotten all the preloads finished, **delete everything else** in the
-file. Seriously. You won’t need it anymore :)
+After you've gotten all the preloads finished, **delete everything else** in the
+file. Seriously. You won't need it anymore :)
 
 ## Enable Only What You Need
 
@@ -199,12 +199,12 @@ got a list of all the Asterisk modules available on your system
         ;load => res_timing_dahdi.so
         ;load => res_timing_pthread.so
 
-    Wondering why you need to do all of the modules with ‘res’ first? Because
-    these modules are special, they are ‘resources’. Resource modules need to be
+    Wondering why you need to do all of the modules with ‘res' first? Because
+    these modules are special, they are ‘resources'. Resource modules need to be
     loaded before any other modules as they often satisfy dependency issues.
 
 2.  Now, feel free to insert `load => module_name.so` lines for your remaining
-    modules that don’t start with `res_`, ex:
+    modules that don't start with `res_`, ex:
 
         ;load => app_addon_sql_mysql.so
         ;load => app_adsiprog.so
@@ -347,20 +347,20 @@ got a list of all the Asterisk modules available on your system
         ;load => pbx_spool.so
 
 3.  Now, go through the list of modules you have in your `modules.conf`, and
-    uncomment the ones that you absolutely can’t live without.
+    uncomment the ones that you absolutely can't live without.
 
-I realize that the above steps aren’t exactly super descriptive, so keep
+I realize that the above steps aren't exactly super descriptive, so keep
 reading. The next section will give you some additional pointers.
 
 ## Tips for Slimming
 
-At some point during this article, you’ve probably thought to yourself, “How do
+At some point during this article, you've probably thought to yourself, “How do
 I know which modules are absolutely essential to my setup?”.
 
-If you aren’t able to figure it out, there’s one foolproof way to figure it out:
+If you aren't able to figure it out, there's one foolproof way to figure it out:
 trial-and-error.
 
-Don’t feel bad about doing trial-and-error here either, Asterisk can be complex.
+Don't feel bad about doing trial-and-error here either, Asterisk can be complex.
 
 1.  Configure your `logger.conf` to output with maximum verbosity to the full
     logfile. Your `logger.conf` file should have a line that looks like:
@@ -369,24 +369,24 @@ Don’t feel bad about doing trial-and-error here either, Asterisk can be comple
 2.  Try to restart Asterisk: `/etc/init.d/asterisk restart`. Then check your
     full logfile: `tail /var/log/asterisk/full`, and look for lines that contain
     **WARNING** or **ERROR**. Asterisk provides great error messages. So if you
-    aren’t loading a necessary module, it will tell you.
+    aren't loading a necessary module, it will tell you.
 
 3.  Load the modules you were missing, and go back to step 1.
 
-You know you’re done when you’ve gone through every single module on your
+You know you're done when you've gone through every single module on your
 system, and know exactly which ones you need to have enabled to make your system
 run.
 
 ## Results
 
 Streamlining your Asterisk installs has great benefits. Not only will your
-system run much faster, and more efficently than before, but you’ll also know a
+system run much faster, and more efficently than before, but you'll also know a
 lot more about Asterisk, how it works, and how to modify its behavior.
 
 One of the great strengths of Asterisk is its module system, which is extremely
 dynamic and provides a great interface for developers to add functionality.
 
-Got any questions? Post a comment and I’ll try to help.
+Got any questions? Post a comment and I'll try to help.
 
 #### Tags
 

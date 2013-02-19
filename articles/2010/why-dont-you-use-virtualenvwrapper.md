@@ -8,8 +8,8 @@
 
 September 8 2010, 9:15 PM  by Randall Degges
 
-If you’re a python programmer, you’ve most likely heard of [virtualenv][]. If
-you haven’t, then you need to check it out.
+If you're a python programmer, you've most likely heard of [virtualenv][]. If
+you haven't, then you need to check it out.
 
 > virtualenv is a tool to create isolated Python environments.
 
@@ -25,7 +25,7 @@ virtualenvwrapper (available via `pip` or `easy_install`), is a set of scripts
 that makes managing multiple virtual environments easier—much easier.
 
 In my day-to-day work, I typically use virtualenv to create various test
-environments. Let’s say I want to test out a new package in my project, I may do
+environments. Let's say I want to test out a new package in my project, I may do
 something like:
 
     rdegges@solitude:~/random_project$ virtualenv --no-site-packages env
@@ -46,7 +46,7 @@ something like:
     Cleaning up...
     # do some testing here ...
 
-I’ll often repeat this process numerous times, as I don’t want to clutter my
+I'll often repeat this process numerous times, as I don't want to clutter my
 *official* virtual environment which has my list of good packages and their
 resepective versions.
 
@@ -60,7 +60,7 @@ virtualenvwrapper allows you to store as many virtual environments as you want,
 in a single non-project location. It provides convenient scripts for creating,
 editing, switching, and removing virtual environments with ease.
 
-Here’s how I’d use virtualenvwrapper to create a new test environment and do a
+Here's how I'd use virtualenvwrapper to create a new test environment and do a
 bit of work in it:
 
     rdegges@solitude:~/random_project$ mkvirtualenv --no-site-packages testnose
@@ -87,8 +87,8 @@ bit of work in it:
     (testnose)rdegges@solitude:~/random_project$ deactivate
     rdegges@solitude:~/random_project$
 
-Nice, eh? Now, let’s say I want to work on another virtual environment that I’ve
-already defined, it’s as easy as:
+Nice, eh? Now, let's say I want to work on another virtual environment that I've
+already defined, it's as easy as:
 
     rdegges@solitude:~/random_project$ workon pycall
     (pycall)rdegges@solitude:~/random_project$
@@ -105,7 +105,7 @@ And bam, just like that, `testnose` is gone.
 ## Give virtualenvwrapper a Try
 
 It really is an awesome, extremely useful program. If you use virtualenv
-currently, you shouldn’t write another line of code before installing and using
+currently, you shouldn't write another line of code before installing and using
 it.
 
 virtualenvwrapper can be downloaded [here][]. The project website has great

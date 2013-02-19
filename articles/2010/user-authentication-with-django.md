@@ -515,7 +515,7 @@ the web portal.  So click the portal link, and since you are not authenticated,
 you will be directed to the login page.
 
 Now log in using the `username` and `password` you generated when you ran
-`python manage.py syncdb` and you’ll see the portal home page!  Feel free to
+`python manage.py syncdb` and you'll see the portal home page!  Feel free to
 play around with logout / login / etc.
 
 

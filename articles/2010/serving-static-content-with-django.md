@@ -13,17 +13,17 @@ serve static content (css, images, javascript) with the Django development
 server?”. This article is my attempt to answer that question by demonstrating
 the best practices way to do so.
 
-## Why Doesn’t Django Serve Static Content Automatically?
+## Why Doesn't Django Serve Static Content Automatically?
 
 Well, Django (and python in general) is built around the idea that it is better
 to be explicit than implicit. This concept means that you may need to write more
 code in order to do something, but that by doing it that way, you preserve code
 clarity and reduce complexity.
 
-This means that Django doesn’t force us to put all of static content into a
+This means that Django doesn't force us to put all of static content into a
 single, specific folder or tree, we can set it up however we like. If we want to
 serve all static content from a directory called `dontlookhere`, we can
-(although I wouldn’t recommend it). It also gives us flexibility as to *where*
+(although I wouldn't recommend it). It also gives us flexibility as to *where*
 our static content resides: we can place it on a remote server, another user
 account on our server, or in a directory completely outside of our project.
 
@@ -34,7 +34,7 @@ this article :)
 ## Where Should I Put My Static Content?
 
 In general, the convention I like to use is to put all static content in my
-project directory underneath the ‘static’ folder. This means that all of my new
+project directory underneath the ‘static' folder. This means that all of my new
 django projects look something like:
 
     crapola/
@@ -50,12 +50,12 @@ django projects look something like:
     |       \-- menu.js
     \-- urls.py
 
-Which allows me to have a good looking URL schema for my projects. This isn’t a
+Which allows me to have a good looking URL schema for my projects. This isn't a
 law (you can place it wherever you like), but this convention is followed by a
 good amount of developers, and seems like a logical location for static content.
 
-For the rest of this article, I’ll assume that your project is going to serve
-all static content from the ‘static’ directory shown in the output above.
+For the rest of this article, I'll assume that your project is going to serve
+all static content from the ‘static' directory shown in the output above.
 
 ## Configure Your Settings
 
@@ -69,7 +69,7 @@ editor and add the following code:
     MEDIA_ROOT = os.path.join(SITE_ROOT, 'static')
     MEDIA_URL = '/static/'
 
-If you’re unsure of where exactly to place that code, here’s a complete example
+If you're unsure of where exactly to place that code, here's a complete example
 of a brand new `settings.py` file for the fake project `crapola`:
 
     # Django settings for crapola project.
@@ -178,16 +178,16 @@ The code we added basically:
     pathname of our static content directory.
 -   Changes `MEDIA_URL` to reflect the URL location of our static content in our
     actual frontend code (HTML / CSS / JS / etc). This will be useful later when
-    you’re writing CSS mockup (it will save you the trouble of hardcoding the
+    you're writing CSS mockup (it will save you the trouble of hardcoding the
     location of your static content).
 
 ## Configure Your URLs
 
-Now that we’ve got our settings configured, we can move onto the last step,
-configuring our `urls.py` file. In this section, we’ll instruct the Django
+Now that we've got our settings configured, we can move onto the last step,
+configuring our `urls.py` file. In this section, we'll instruct the Django
 development server to serve our static content while we are in development mode
 only (eg: when `DEBUG=True` in our `settings.py` file). This will allow us the
-maximum amount of flexibility as we’ll be able to automatically serve the static
+maximum amount of flexibility as we'll be able to automatically serve the static
 files during development, but once we go into production let our webserver
 handle the serving of these files (apache, nginx, lighttpd, etc.).
 
@@ -202,19 +202,19 @@ So, open up your `urls.py` file and add the following to the very bottom:
         ))
 
 This will import the `DEBUG` variable from our `settings.py` file, and check its
-value to see if `DEBUG=True`. If `DEBUG` is true, then we’ll have the Django
-development server start serving static content—and if not, then we won’t do
+value to see if `DEBUG=True`. If `DEBUG` is true, then we'll have the Django
+development server start serving static content—and if not, then we won't do
 anything.
 
-As mentioned above, this will give us maximum flexibility later on. Once we’re
+As mentioned above, this will give us maximum flexibility later on. Once we're
 ready to deploy our website in production, we simply set `DEBUG=False` and bam,
-we’ll let our webserver handle all the static content serving (it is much faster
+we'll let our webserver handle all the static content serving (it is much faster
 that way).
 
 ## Conclusion
 
 As you can see, to serve static content is really not very difficult at all.
-It’s just a matter of configuring a few settings options, and then adding a URL
+It's just a matter of configuring a few settings options, and then adding a URL
 pattern if needed.
 
 #### Tags

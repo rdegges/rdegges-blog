@@ -8,7 +8,7 @@
 
 March 16 2010, 10:00 PM  by Randall Degges
 
-Recently I’ve been developing an API using python and Django for work, which
+Recently I've been developing an API using python and Django for work, which
 uses XML responses to speak to clients. One of my goals for the client was to be
 able to easily parse the XML responses that the server sends, so that I could
 appropriately handle errors.
@@ -19,12 +19,12 @@ LXML was a perfect match for what I needed. Unfortunately, I had a hard time
 figuring this out, as examples to just parse XML content was lacking in the
 official tutorial, and there were no good resources online with code samples.
 
-So let’s take a quick peek at a sample XML document, then we’ll analyze some
+So let's take a quick peek at a sample XML document, then we'll analyze some
 simple LXML code to see how it works. Of course, before you can run any of these
-code samples, you’ll need to download and install LXML (there are packages
+code samples, you'll need to download and install LXML (there are packages
 available on most linux systems already).
 
-Here’s are two sample XML responses that our server may send to the clients:
+Here's are two sample XML responses that our server may send to the clients:
 
     <?xml version="1.0" encoding="utf-8"?>
     <response version="1.0">
@@ -45,12 +45,12 @@ The first XML document shows a successful response. The code tag contains an
 HTTP 200 OK code, which means the operation succeeded, and the id tag contains
 an identification number which the client needs to store for later processing.
 
-Now, let’s quickly analyze the situation. We have an XML tag which will be
+Now, let's quickly analyze the situation. We have an XML tag which will be
 available whether the operation succeeds or fails, which is the code tag. So,
 for the client to be able to distinguish between a success or failure, it needs
 to first figure out what code was returned.
 
-Let’s write some python-lxml code to quickly output the value of the code tag:
+Let's write some python-lxml code to quickly output the value of the code tag:
 
     from lxml import etree
 
@@ -65,7 +65,7 @@ Let’s write some python-lxml code to quickly output the value of the code tag:
 
 In our code, we first build a XML document from our XML response string, then
 use the `findtext()` method (provided by LXML) to retrieve the value of the code
-tag. Run this example, play around with it, and you’ll see that you can pull up
+tag. Run this example, play around with it, and you'll see that you can pull up
 any value you want from the XML document.
 
 In my client code, the program flow looks something like:
@@ -98,11 +98,11 @@ everything went smoothly. If something goes wrong during the API call, then I
 will know about it, and can perform other actions to fix any problems or report
 errors.
 
-If you’d like to do more advanced XML parsing with LXML, read the [official
+If you'd like to do more advanced XML parsing with LXML, read the [official
 tutorial][]. It is very verbose, but contains excellent examples which clearly
 demonstrate how to both parse and generate XML.
 
-So the next time you’re looking for a quick way to process XML, check out LXML.
+So the next time you're looking for a quick way to process XML, check out LXML.
 
 #### Tags
 
