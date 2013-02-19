@@ -187,7 +187,7 @@ programming, philosophy
     - Is it that your application code works fine in dev, but then fails
     occasionally in production with a more complex configuration or when a
     service you rely on only in prod fails? In this case maybe you should focus
-    on testing your code more carefully… using fake services and/or simulating
+    on testing your code more carefully... using fake services and/or simulating
     service failures.
 
     - Or is your deployment process failing occasionally? Even with Heroku an

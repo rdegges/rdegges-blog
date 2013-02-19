@@ -23,7 +23,7 @@ The benefits of having a PBX are numerous and necessary:
 -   Configure auto attendants to route calls to the appropriate people.
 -   Allow employees to work remotely (even with their cell phones) and avoid the
     costs of renting office space.
--   And much more…
+-   And much more...
 
 So how can you save money for your company? Switch to [Asterisk][], the open
 source PBX.
