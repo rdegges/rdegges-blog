@@ -3,6 +3,9 @@ Date: 2010-02-13
 Tags: programming
 
 
+![Park Sketch][]
+
+
 The stereotype of a computer programmer is a harsh (and mostly true) one.  The
 typical computer programmer lives inside, in small dark rooms, typing away for
 hours at a time behind large monitors and drinking highly caffeinated drinks.
@@ -54,3 +57,6 @@ suggestions (learned from experience):
 
 So, in conclusion: get outside every now and then.  It'll clear your head, help
 you program better, and keep your sanity in check.
+
+
+  [Park Sketch]: |filename|/images/2010/park-sketch.png "Park Sketch"
