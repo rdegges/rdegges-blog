@@ -40,7 +40,7 @@ you want to call it, is to install Asterisk initially with as many features as
 possible, disable everything, then selectively enable the features I need, one
 at a time.
 
-This is called a ‘whitelisting\` approach, as you block everything by default,
+This is called a 'whitelisting\` approach, as you block everything by default,
 and then manually allow only certain features (think network security).
 
 This method requires more effort to setup and maintain, but leads to the best
@@ -109,7 +109,7 @@ trial-and-error.
 
 We now need to get a list of all the Asterisk modules that are currently
 available on your system. If you compiled Asterisk from scratch, and read my
-‘Installing Asterisk' section, you should have a ton.
+'Installing Asterisk' section, you should have a ton.
 
 On most linux systems, you can get a list of all your Asterisk modules by
 running the following command: `ls /usr/lib/asterisk/modules/`. This *may* be
@@ -118,7 +118,7 @@ different for you, depending on what operating system you're using.
 ## Disable Everything
 
 Before enabling the modules we need, we're going to disable everything. This is
-part of our ‘whitelisting' approach to Asterisk slimming.
+part of our 'whitelisting' approach to Asterisk slimming.
 
 To do this, open up your `modules.conf` file (usually located in
 `/etc/asterisk/`). Your file should look something like:
@@ -199,8 +199,8 @@ got a list of all the Asterisk modules available on your system
         ;load => res_timing_dahdi.so
         ;load => res_timing_pthread.so
 
-    Wondering why you need to do all of the modules with ‘res' first? Because
-    these modules are special, they are ‘resources'. Resource modules need to be
+    Wondering why you need to do all of the modules with 'res' first? Because
+    these modules are special, they are 'resources'. Resource modules need to be
     loaded before any other modules as they often satisfy dependency issues.
 
 2.  Now, feel free to insert `load => module_name.so` lines for your remaining

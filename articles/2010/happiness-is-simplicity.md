@@ -19,11 +19,11 @@ To fully explain what my happiness is (as it may be hard for some people to
 understand), I'll start by explaining several things that my happiness
 distinctly isn't.
 
-### ‘Fuck You' Money
+### 'Fuck You' Money
 
 I frequently see threads on [HackerNews][] where I see users discussing how they
 want to make their own successful startup, work hard for a year or two, then get
-bought out and live happily ever after. I like to call these people the ‘Paul
+bought out and live happily ever after. I like to call these people the 'Paul
 Grahammers'. They live and die by the philosophy (made famous by the really
 smart [Paul Graham][]), that you should create your own wealth by working on a
 startup, and eventually selling it to a larger company.

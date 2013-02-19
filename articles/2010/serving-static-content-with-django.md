@@ -34,7 +34,7 @@ this article :)
 ## Where Should I Put My Static Content?
 
 In general, the convention I like to use is to put all static content in my
-project directory underneath the ‘static' folder. This means that all of my new
+project directory underneath the 'static' folder. This means that all of my new
 django projects look something like:
 
     crapola/
@@ -55,7 +55,7 @@ law (you can place it wherever you like), but this convention is followed by a
 good amount of developers, and seems like a logical location for static content.
 
 For the rest of this article, I'll assume that your project is going to serve
-all static content from the ‘static' directory shown in the output above.
+all static content from the 'static' directory shown in the output above.
 
 ## Configure Your Settings
 

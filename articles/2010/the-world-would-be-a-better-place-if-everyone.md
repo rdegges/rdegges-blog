@@ -15,7 +15,7 @@ always will be problems with the world; this is unavoidable. By nature, humans
 are emotional at the core, which severely inhibits our decision making, and
 leads us to make poor choices.
 
-The question is, how can we make the world a better place? By ‘make the world a
+The question is, how can we make the world a better place? By 'make the world a
 better place', I simply mean improve every aspect of life. This can mean things
 like:
 
@@ -30,7 +30,7 @@ situation, think of ways to improve the situation, and then make the necessary
 changes to improve the situation.
 
 Now, let's say that the situation you consciously think about and plan on
-improving is large and generic, something like ‘make my neighborhood nicer'.
+improving is large and generic, something like 'make my neighborhood nicer'.
 There is not a direct path to making your neighborhood nicer, so you'll need to
 break the situation into smaller, sub-situations which are more easily managed.
 

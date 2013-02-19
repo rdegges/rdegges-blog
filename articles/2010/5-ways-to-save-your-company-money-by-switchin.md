@@ -119,7 +119,7 @@ Asterisk is a game changing tool for small and medium businesses. It allows your
 small company to operate like a large company, free.
 
 Many small companies get stuck in the 'small business syndrome' where they never
-grow beyond a small market audience because their ‘presentation' is small. When
+grow beyond a small market audience because their 'presentation' is small. When
 customers call your company, and hear a professional auto attendant, they
 instantly feel like they're dealing with a professional, organized company. When
 customers call a business, and wait for 50 rings before hearing a choppy

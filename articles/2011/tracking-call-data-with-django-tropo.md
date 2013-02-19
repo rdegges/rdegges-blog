@@ -66,7 +66,7 @@ what the unique callId and sessionId values are, etc.
 A `TropoSessionStep` object contains information about each unique call step. A
 call step is just JSON data that tropo sends you AFTER the session has been
 created. Complex call menus will frequently need a lot of back-and-fourth
-communication with tropo to finish a call, so for each ‘call step', a new
+communication with tropo to finish a call, so for each 'call step', a new
 `TropoSessionStep` will be created, and associated with the corresponding
 `TropoSession` object.
 

@@ -295,7 +295,7 @@ increases the size of the codebase, making it harder to maintain.
 
 Next, Asterisk attempts to detect the command and arguments for each call file
 directive. Since all call file directives are of the form `command: arguments`,
-Asterisk splits the line at ‘:', then tries to detect which command is being
+Asterisk splits the line at ':', then tries to detect which command is being
 called. This is exactly what we would expect to happen.
 
 In the process of splitting the lines into command and argument pairs, Asterisk

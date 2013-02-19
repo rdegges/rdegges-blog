@@ -20,7 +20,7 @@ only during the day.
 
 So, the question of course, is how can you reset your sleep schedule easily
 without any pain? Numerous web sites would have you believe that your sleep
-cycle can be ‘hacked', by doing some particular ritual.
+cycle can be 'hacked', by doing some particular ritual.
 
 [Wisebread][] suggests that if you don't eat for roughly 12 to 16 hours before
 you want to wake up, your body will automatically adjust to a new schedule
@@ -43,7 +43,7 @@ If you have the dedication and willpower to follow through with the sort of
 punishment that most sleep hacks require, then more power to you. But for most
 people, that is not a viable option.
 
-Instead of trying to ‘hack' your sleep, I recommend a more simple, natural
+Instead of trying to 'hack' your sleep, I recommend a more simple, natural
 approach:
 
 ## Go Camping
@@ -53,7 +53,7 @@ Camping is a great way to help reset your sleep schedule.
 First of all, it's fun (you can do it over a weekend). An important part of
 adjusting something major (like your sleep cycle) is to make it enjoyable. If
 you're a night owl trying to get into a 9 to 5 schedule, then you might as well
-do something that will not just ‘get you through the day' (eg: caffine
+do something that will not just 'get you through the day' (eg: caffine
 overdose), but will actually make you feel *normal* during those hours.
 
 Secondly, camping is cheap and natural. You don't need to starve yourself, you

@@ -3,12 +3,12 @@ Date: 2010-03-03
 Tags: programming, telephony, asterisk
 
 
-Welcome back to the Transparent Telephony series. If you're a new reader, you
+Welcome back to the Transparent Telephony series.  If you're a new reader, you
 may want to start at the beginning: [Part 1 - An Introduction][].
 
-In the [previous installment][], we walked through installing Asterisk. In this
-article, we'll be picking up where we left off and configuring Asterisk to make
-and receive phone calls using VoIP!
+In the [previous installment][], we walked through installing Asterisk.  In
+this article, we'll be picking up where we left off and configuring Asterisk to
+make and receive phone calls using VoIP!
 
 Specifically, we'll:
 
@@ -22,25 +22,26 @@ Specifically, we'll:
 
 So let's get started!
 
-## Getting a VoIP Account
+
+### Getting a VoIP Account
 
 The first thing we need to do is sign up with a VoIP (voice over IP) provider.
 To quote from Part 1 - An Introduction,
 
 > VoIP (voice over IP) is a relatively new way to connect to the PSTN using the
-> Internet. VoIP is extremely low-cost compared to other methods, and very easy
-> to set up as it only requires an active Internet connection to use. More and
-> more businesses are switching over to VoIP for cost reasons.
+> Internet.  VoIP is extremely low-cost compared to other methods, and very
+> easy to set up as it only requires an active Internet connection to use.
+> More and more businesses are switching over to VoIP for cost reasons.
 
-There are two main types of VoIP protocols that people use with Asterisk. There
-is SIP (session initiation protocol) and IAX (inter-asterisk exchange). While
-both of these protocols are still widely in use, SIP has become the dominant
-VoIP protocol in today's world. In fact, the term SIP has mostly replaced VoIP.
-When speaking to people in the telephony industry, it is common to hear people
-say ‘I have so and so as my SIP provider'. So from now on, we'll use that
+There are two main types of VoIP protocols that people use with Asterisk.
+There is SIP (session initiation protocol) and IAX (inter-asterisk exchange).
+While both of these protocols are still widely in use, SIP has become the
+dominant VoIP protocol in today's world.  In fact, the term SIP has mostly
+replaced VoIP.  When speaking to people in the telephony industry, it is common
+to hear people say 'I have so and so as my SIP provider'. So from now on, we'll use that
 terminology as well.
 
-Picking a SIP provider is a very important task. If you Google for ‘SIP
+Picking a SIP provider is a very important task. If you Google for 'SIP
 providers' you'll find thousands of options. Here are the top few I recommend
 (I've experimented with tons of different SIP providers):
 
@@ -77,9 +78,9 @@ Trunk meaning a single account connection to the PSTN.
 
 Now that we've got a SIP trunk ready for us to use, we need to hook it up to our
 Asterisk PBX. To get started, go to your Flowroute account management page, and
-navigate to the ‘Interconnection' page, then click on the ‘System Configurator'
+navigate to the 'Interconnection' page, then click on the 'System Configurator'
 link towards the middle of the page. Next click on the drop down menu and select
-‘Asterisk' as this is what we're using. The System Configurator will give us all
+'Asterisk' as this is what we're using. The System Configurator will give us all
 of the Asterisk settings we need to put into our PBX (with only slight
 modifications required).
 
@@ -155,7 +156,7 @@ information about our SIP connection later on.
 ## Create a SIP Extension
 
 Now that we've set up our SIP trunk, it's time to create an extension. An
-extension is just another term for ‘phone'. SIP extensions (IP phones) are the
+extension is just another term for 'phone'. SIP extensions (IP phones) are the
 most common type of extensions in use on modern phone systems. Sure, you can
 still hook up those old analog phones to your Asterisk PBX, but we'll save that
 for another day. Today we'll create a simple SIP extension which we will later
@@ -241,7 +242,7 @@ Our goal will be to write the following two rules:
     to our soft phone so we can talk to the person who called us.
 
 There are several ways to program Asterisk to handle call routing, but the
-simplest (and native) way to do it is via ‘dial plan'. Dial plan is the name of
+simplest (and native) way to do it is via 'dial plan'. Dial plan is the name of
 Asterisk's own scripting language. It is very simple, and easy to understand
 (even for non-programmers).
 
@@ -305,7 +306,7 @@ This is similar to the main() function in most programming languages.
 The context specified in our SIP extension plays an important role in routing
 outbound calls. It says (in human English):
 
-> When any extension who's ‘context' key is equal to ‘outgoing' dials a number,
+> When any extension who's 'context' key is equal to 'outgoing' dials a number,
 > send the number that was dialed to the `[outgoing]` context to be processed.
 > Let the `[outgoing]` context determine what to do at this point.
 
@@ -350,7 +351,7 @@ out of our Flowroute SIP trunk and connect the call to our extension (eg: make
 an outbound call)!
 
 Everything inside of the `${}` characters is a variable reference. Asterisk has
-several pre-defined ‘channel variables' which are always accessible. In our
+several pre-defined 'channel variables' which are always accessible. In our
 `Dial()` code, we reference the `${EXTEN}` channel variable, which contains the
 number that was dialed and pattern matched. If we dialed the number 18002223333,
 then `${EXTEN}` would expand to 18002223333.
@@ -437,7 +438,7 @@ DID (18182223333) from the PSTN.
 4.  Asterisk will receive the call from our Flowroute SIP trunk, and check to
     see what context it should use to route the call.
 5.  Asterisk will see that our `[flowroute]` trunk is configured to use the
-    context ‘inbound', and will send the DID number, 18182223333 to the
+    context 'inbound', and will send the DID number, 18182223333 to the
     `[inbound]` context for pattern matching.
 6.  Asterisk will match the pattern 18182223333 in our `[inbound]` context, and
     begin looking for priority 1.
@@ -480,8 +481,8 @@ Once you've got it installed, open it up. If you don't have your extension
 information in front of you, open up your SIP configuration file
 (/etc/asterisk/sip.conf) and look at your extension definition.
 
-Right click on the main window display in X-Lite and click on ‘SIP Account
-Settings'. Now click ‘Add…' to add a SIP account.
+Right click on the main window display in X-Lite and click on 'SIP Account
+Settings'. Now click 'Add…' to add a SIP account.
 
 Here are the values you should fill in:
 
@@ -491,14 +492,14 @@ Here are the values you should fill in:
 -   **Password**: Set this to your secret.
 -   **Authorization User Name**: Set this to your extension number (1000).
 -   **Domain**: Set this to the IP address of your Asterisk server.
--   Make sure the box next to ‘Register with domain and receive incoming calls'
+-   Make sure the box next to 'Register with domain and receive incoming calls'
     is checked.
 
 Once you've configured all those settings, press OK and then close out of the
 configuration menu.
 
 If your network and SIP configuration files have been properly configured, your
-X-Lite phone will now say ‘Registered' at the top of the window! If it is not
+X-Lite phone will now say 'Registered' at the top of the window! If it is not
 working, read back through the setup instructions and make sure you didn't miss
 anything. If you are using a virtual machine, also make sure your host network
 settings have been configured to receive incoming traffic.
