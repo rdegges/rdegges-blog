@@ -3,6 +3,9 @@ Date: 2010-03-03
 Tags: programming, telephony, asterisk
 
 
+![Old Telephone Sketch][]
+
+
 Welcome back to the Transparent Telephony series.  If you're a new reader, you
 may want to start at the beginning: [Part 1 - An Introduction][].
 
@@ -613,14 +616,15 @@ Telephony series, we'll have significantly shorter, more targeted articles, so
 following along should be easier.
 
 
+  [Old Telephone Sketch]: |filename|/images/2010/old-telephone-sketch.png "Old Telephone Sketch"
   [Part 1 - An Introduction]: |filename|/articles/2009/transparent-telephony-part-1-an-introduction.md "Transparent Telephony - Part 1 - An Introduction"
   [previous installment]: |filename|/articles/2010/transparent-telephony-part-2-installing-asterisk.md "Transparent Telephony - Part 2 - Installing Asterisk"
-  [Flowroute]: http://www.flowroute.com/
-  [voip.ms]: http://voip.ms/
-  [Vitelity]: http://vitelity.com/
-  [Bandwidth]: http://bandwidth.com/
-  [Voicepulse]: http://www.voicepulse.com/
-  [sign up page]: https://www.flowroute.com/accounts/signup/
-  [IP Chicken]: http://ipchicken.com/
-  [VoIP Info page]: http://www.voip-info.org/wiki/view/Asterisk+config+sip.conf
-  [download and install X-Lite]: http://www.counterpath.com/x-lite.html
+  [Flowroute]: http://www.flowroute.com/ "Flowroute"
+  [voip.ms]: http://voip.ms/ "Voip MS"
+  [Vitelity]: http://vitelity.com/ "Vitelity"
+  [Bandwidth]: http://bandwidth.com/ "Bandwidth"
+  [Voicepulse]: http://www.voicepulse.com/ "Voicepulse"
+  [sign up page]: https://www.flowroute.com/accounts/signup/ "Flowroute Sign Up Page"
+  [IP Chicken]: http://ipchicken.com/ "IP Chicken"
+  [VoIP Info page]: http://www.voip-info.org/wiki/view/Asterisk+config+sip.conf "Asterisk sip.conf Wiki Page"
+  [download and install X-Lite]: http://www.counterpath.com/x-lite.html "X-Lite Download Page"
