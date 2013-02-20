@@ -390,7 +390,7 @@ programming, python, devops, django
 
     How does the Heroku architecture compare? Don't you still need to run
     multiple web dynos? Is high-availability baked into their PostgreSQL
-    offering? How about RabbitMQ—near as I can tell, that offering is in private
+    offering? How about RabbitMQ-near as I can tell, that offering is in private
     beta?
 
 -   Feb 18 2012, 10:52 PM

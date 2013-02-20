@@ -43,7 +43,7 @@ in a meaningful way (eg: a database). This way you can figure out what buttons
 the caller pressed (did you ask them for their credit card number?), if callers
 hung up before the end of the call (maybe your app is not as cool as you
 thought), or a number of other things. Furthermore, tracking your calls gives
-you the maximum amount of data that you can have—for billing, statistics, or
+you the maximum amount of data that you can have-for billing, statistics, or
 whatever else you may need.
 
 This is why it is imperative that you be able to easily track this call data
@@ -71,7 +71,7 @@ communication with tropo to finish a call, so for each 'call step', a new
 `TropoSession` object.
 
 By analyzing a `TropoSession` object, we are able to see not only the session's
-identifying information—but also all of the related `TropoSessionStep` objects,
+identifying information-but also all of the related `TropoSessionStep` objects,
 each of which contains all tropo information for each step of the call as it was
 being processed. This lets us look back and get any bit of information we could
 possibly need about any call, at any time.

@@ -244,7 +244,7 @@ programming
     Um, no. I've been programming professionally for over thirty years, and what
     your describing is not "the real challenge". That's like saying the real
     challenge for a surgeon would be to do a liver transplant in an emergency
-    room— that's not a challenge, it's professional negligence. If you want
+    room- that's not a challenge, it's professional negligence. If you want
     quality work, you give professionals respect, and isolate them so that they
     can do the job without interruptions. If your reality is the one you
     describe, you should find another employer, or, if you are so inclined,

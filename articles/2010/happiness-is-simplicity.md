@@ -65,7 +65,7 @@ happier. For me, working is about learning. Everyday I devote myself to solving
 a new problem, and, along the way, learn new stuff.
 
 I'm not saying that I want to work 24 hours a day, 7 days a week, 365 days a
-year—I *highly* value time off—but I do enjoy working.
+year-I *highly* value time off-but I do enjoy working.
 
 ### Religion
 
@@ -107,7 +107,7 @@ I love silence.
 
 It seems to accentuate the beauty of the world. The sun quietly setting over the
 ocean, the sun rising over the mountains, the short time I lie in bed before
-falling asleep—they all make me happy.
+falling asleep-they all make me happy.
 
 ### Love
 

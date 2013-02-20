@@ -391,7 +391,7 @@ programming, python, devops, django
 
     claymcclure (Twitter) responded:
 
-    I think a book along the lines of "So I wrote my first Django app—now what?"
+    I think a book along the lines of "So I wrote my first Django app-now what?"
     would be useful to a lot of folks. Beyond deployment (which almost sounds
     like a solved problem with Heroku), it could talk about scaling, monitoring,
     maintenance, performance, security, and all the other things so often

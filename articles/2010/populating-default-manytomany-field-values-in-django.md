@@ -1,16 +1,14 @@
-# Randall Degges
+Title: Populating Default ManyToMany Field Values in Django
+Date: 2010-06-25
+Tags: programming, python, django
 
-## This is an archived post This is an archived post
 
-[Previous][]   [Index][]   [Next][]
+![Pony Sketch][]
 
-### Populating Default ManyToMany Field Values in Django
 
-June 25 2010, 1:00 PM  by Randall Degges
-
-At work, I'm the lead developer of a rather large, complex web application which
-interacts with many different technologies (Asterisk, Freeswitch, Cisco routers,
-python, XML-RPC, JSON, Django—to name a few). A few days ago, while implementing
+At work, I'm the lead developer of a rather large, complex web application
+which interacts with many different technologies ([Asterisk][], [Freeswitch][],
+Cisco routers, [Python][], XML-RPC, [JSON][], Django-to name a few). A few days ago, while implementing
 a ban system, I bumped into an interesting problem that was not trivial to find
 a solution to. So, here it is :)
 
@@ -134,12 +132,6 @@ Populating Django ManyToMany field default values can be a bit confusing, and
 somewhat undocumented. Hopefully the code presented above helps clarify how to
 do it properly, and why it works the way it does.
 
-#### Tags
 
-programming, python, django
-
-#### 1414 views and 0 responses
-
-  [Previous]: ../../../posts/2010/07/serving-static-content-with-django.html
-  [Index]: ../../../index-7.html
-  [Next]: ../../../posts/2010/06/the-asterisk-spooling-daemon.html
+  [Pony Sketch]: |filename|/images/2010/pony-sketch.png "Pony Sketch"
+  [JSON]: http://json.org/ "JSON"

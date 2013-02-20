@@ -80,7 +80,7 @@ conservative purposes.
 
 \$1,000,000,000 -\> \$1,666,666.67
 
-The numbers required to make a big impact are large, but don't forget—once
+The numbers required to make a big impact are large, but don't forget-once
 people donate, their donation will live on forever and continuously increase the
 monthly donation account.
 
@@ -111,7 +111,7 @@ could be an extremely popular premise.
 
 So, in a nutshell, Neverending Charity will be a non-profit group that leverages
 the power of the internet, large amounts of people, and banks to make the world
-a better place, one month at a time—forever.
+a better place, one month at a time-forever.
 
 What do you think?
 

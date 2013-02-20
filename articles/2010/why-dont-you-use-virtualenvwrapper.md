@@ -22,7 +22,7 @@ well as remove your programs' dependence on system packages and python versions.
 ## virtualenvwrapper Rocks!
 
 virtualenvwrapper (available via `pip` or `easy_install`), is a set of scripts
-that makes managing multiple virtual environments easier—much easier.
+that makes managing multiple virtual environments easier-much easier.
 
 In my day-to-day work, I typically use virtualenv to create various test
 environments. Let's say I want to test out a new package in my project, I may do

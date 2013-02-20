@@ -67,7 +67,7 @@ can adjust to natural day / night cycles, and how long those effects can last.
 ## How it Works
 
 The way that camping helps align your sleep cycle with day / night rotation, is
-simple—it exposes you to the elements.
+simple-it exposes you to the elements.
 
 When you spend most of your time inside your house (apartment, office, etc.),
 you are separated from most natural elements. This includes (among other

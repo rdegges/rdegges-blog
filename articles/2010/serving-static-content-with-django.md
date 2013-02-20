@@ -28,7 +28,7 @@ our static content resides: we can place it on a remote server, another user
 account on our server, or in a directory completely outside of our project.
 
 This flexibility is what Django provides for us at the cost of not being able to
-automatically detect / serve our static content—which is why you are reading
+automatically detect / serve our static content-which is why you are reading
 this article :)
 
 ## Where Should I Put My Static Content?
@@ -203,7 +203,7 @@ So, open up your `urls.py` file and add the following to the very bottom:
 
 This will import the `DEBUG` variable from our `settings.py` file, and check its
 value to see if `DEBUG=True`. If `DEBUG` is true, then we'll have the Django
-development server start serving static content—and if not, then we won't do
+development server start serving static content-and if not, then we won't do
 anything.
 
 As mentioned above, this will give us maximum flexibility later on. Once we're

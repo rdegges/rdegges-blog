@@ -437,7 +437,7 @@ programming, python, django
     no universal solutions. Techniques that emerge as best practices for some
     apps won't work at all for other apps.
 
-    So while I agree that Django deployment can—and should—be much easier, I am
+    So while I agree that Django deployment can-and should-be much easier, I am
     not convinced that scaling will ever be trivial. Nor am I sure that it
     should be, since sometimes the ability to scale an app is a competitive
     advantage. We have Facebook today and not Friendster or SixDegrees largely

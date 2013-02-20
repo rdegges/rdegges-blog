@@ -273,7 +273,7 @@ programming, webapplications
     \> book is that most of the techniques we're recommending are universal:\
     \> modularity applies to code, designs, documentation, and team\
     \> organization, for instance. When we wanted to use the conventional\
-    \> jargon word in a broader context, it got confusing—we couldn't seem to\
+    \> jargon word in a broader context, it got confusing-we couldn't seem to\
     \> overcome the baggage the original term brought with it. When this\
     \> happened, we contributed to the decline of the language by inventing \
     \> our own terms.
