@@ -354,8 +354,8 @@ reading. The next section will give you some additional pointers.
 
 ## Tips for Slimming
 
-At some point during this article, you've probably thought to yourself, “How do
-I know which modules are absolutely essential to my setup?”.
+At some point during this article, you've probably thought to yourself, "How do
+I know which modules are absolutely essential to my setup?".
 
 If you aren't able to figure it out, there's one foolproof way to figure it out:
 trial-and-error.

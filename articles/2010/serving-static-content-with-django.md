@@ -1,16 +1,14 @@
-# Randall Degges
+Title: Serving Static Content With Django
+Date: 2010-07-04
+Tags: programming, python, django
 
-## This is an archived post This is an archived post
 
-[Previous][]   [Index][]   [Next][]
+![Static Sketch][]
 
-### Serving Static Content With Django
 
-July 4 2010, 1:00 PM  by Randall Degges
-
-A question that is frequently asked by new Django programmers is: “How can I
+A question that is frequently asked by new Django programmers is: "How can I
 serve static content (css, images, javascript) with the Django development
-server?”. This article is my attempt to answer that question by demonstrating
+server?". This article is my attempt to answer that question by demonstrating
 the best practices way to do so.
 
 ## Why Doesn't Django Serve Static Content Automatically?
@@ -217,12 +215,5 @@ As you can see, to serve static content is really not very difficult at all.
 It's just a matter of configuring a few settings options, and then adding a URL
 pattern if needed.
 
-#### Tags
 
-programming, python, django
-
-#### 1547 views and 0 responses
-
-  [Previous]: ../../../posts/2010/07/the-purely-functional-python-brainfuck-challe.html
-  [Index]: ../../../index-7.html
-  [Next]: ../../../posts/2010/06/populating-default-manytomany-field-values-in.html
+  [Static Sketch]: |filename|/images/2010/static-sketch.png "Static Sketch"

@@ -29,12 +29,12 @@ start by talking briefly about what I like.
     extremely useful for developers, and help show off some of python's awesome
     self-documenting and introspection capabilities.
 
--   PEP-257 encourages the use of triple double quotes (“”“) as docstring
+-   PEP-257 encourages the use of triple double quotes (""") as docstring
     delimiters. I agree again. It is nice to have consistency across multiple
     programs.
 
 -   PEP-257 suggests that very short one line docstrings be placed on a single
-    line, but still use triple double quotes (“”“) as delimiters. Again, this
+    line, but still use triple double quotes (""") as delimiters. Again, this
     rocks. Let's say you're writing a private method for a class, and it is
     pretty self explanatory, don't kill yourself writing long docstrings:
 
@@ -60,7 +60,7 @@ The main bulk of PEP-257 is describing how multi-line docstrings should look,
 and this is where things get ugly.
 
 Basically, PEP-257 wants your multi-line docstrings to start immediatley after
-the opening triple quotes (“”“), and end with a blank line. Here's an example:
+the opening triple quotes ("""), and end with a blank line. Here's an example:
 
     # This example was stolen directly from PEP-257.
     def complex(real=0.0, imag=0.0):

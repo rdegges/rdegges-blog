@@ -28,7 +28,7 @@ tracking. Let's quickly take a look at the way tropo works for incoming calls:
 4.  Your web server gets a POST request from tropo, You build a JSON response
     which tells tropo what to do (eg: say hello world).
 5.  Tropo reads in your JSON response, parses it, and then does whatever you
-    tell it to (eg: tropo will play “hello world” to the caller).
+    tell it to (eg: tropo will play "hello world" to the caller).
 6.  Tropo then sends a request back to you with additional JSON data, and asks
     for the next set of instructions.
 7.  You analyze the new JSON data from tropo, figure out that it is a continuing
