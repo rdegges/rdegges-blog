@@ -1,71 +1,71 @@
-# Randall Degges
+Title: DevOps Django - Part 2 - The Pain of Deployment
+Date: 2011-12-12
+Tags: programming, devops, python, django
 
-## This is an archived post This is an archived post
 
-[Previous][]   [Index][]   [Next][]
+![Pyramid Head Sketch][]
 
-### DevOps Django - Part 2 - The Pain of Deployment
 
-December 12 2011, 10:30 PM  by Randall Degges
+This article is part of a series I'm writing called *DevOps Django*.  This
+series is meant to explain how to best deploy modern Django sites.  If you're
+new, you should probably read the [first article][] of the series before this
+one.
 
-This article is part of a series I'm writing called DevOps Django. This series
-is meant to explain how to best deploy modern Django sites. If you're new, you
-should probably read the [first article][] of the series before this one.
 
-What I Build
+### What I Build
 
 As I mentioned in the first article of the series, I work at a tech startup
-building telephony services. Our primary product is a hosted teleconferencing
-platform that hundreds of thousands of callers use each month. As all my
+building telephony services.  Our primary product is a hosted teleconferencing
+platform that hundreds of thousands of callers use each month.  As all my
 experience with deployment has (primarily) come from building and maintaining
 this platform, I'd like to take this opportunity to explain what I actually
 build.
 
 Our product is broken up in two primary components: a telephony layer that
 powers our core teleconferencing service, and a web layer that powers our API
-backend and user portal. Having two completely separate (and isolated)
+back end and user portal.  Having two completely separate (and isolated)
 infrastructures means having to deal with multiple deployment patterns.
 
 Our telephony infrastructure is built on top of:
 
--   [ubuntu-server][], a great Debian based operating system.
+-   [Ubuntu server][], a great Debian based operating system.
 -   [Asterisk][], the open source PBX engine.
 -   [OpenSIPS][], the open source SIP router.
--   Cisco hardware (for routing physical calls over multiple [DS3][] circuits).
+-   Cisco hardware (for routing physical calls over multiple DS3 circuits).
 -   [NFSd][], for storing large amounts of sound files.
 
 The majority of our telephony code is written in Asterisk's custom scripting
-language ([dialplan][]). This language lets us completely control call behavior.
-With it, we can do things like:
+language ([dial plan][]).  This language lets us completely control call
+behavior.  With it, we can do things like:
 
 -   Play sound files.
 -   Record sounds.
 -   Bridge multiple calls together.
 -   Recognize touch tone input and perform other actions.
 
-Here's a small diagram which shows how our physical infrastructure is
-architectured (excuse my poor diagrams, I'm awful with this stuff):
+Here's a small diagram which shows how our physical infrastructure is designed
+(excuse my poor diagrams, I'm awful with this stuff):
 
-![][]
+![Telephony Infrastructure][]
 
-The way things work here is that callers (eg: you) dial our phone number on your
-cell phone (or landline, whatever) and your call travels through
-the [PSTN][] (public telephone network). Your call eventually arrives at our
+The way things work here is that callers (e.g. you) dial our phone number on
+your cell phone (or land line, whatever) and your call travels through the
+[PSTN][] (public telephone network).  Your call eventually arrives at our
 Cisco equipment, which converts the calls from hard line formats into [VoIP][],
 so that we can easily move the call around our network.
 
 From there, your call is sent to our load balancer (OpenSIPS), which determines
-which Asterisk server should handle your call. At this point, your call is then
-sent to Asterisk, which does whatever needs to be done.
+which Asterisk server should handle your call.  At this point, your call is
+then sent to Asterisk, which does whatever needs to be done.
 
-The NFS server is used to store user generated soundfiles. This way, our
+The NFS server is used to store user generated sound files. This way, our
 Asterisk servers can remain stateless (we can simply plug more Asterisk servers
 into our network at any time to increase capacity).
 
-Where things get interesting is our web infrastructure. Our web stack provides
-lots of functionality to our systems, including:
+Where things get interesting is our web infrastructure.  Our web stack
+provides lots of functionality to our systems, including:
 
--   The ability to manage conference rooms in real time. This includes stuff
+-   The ability to manage conference rooms in real time.  This includes stuff
     like muting callers, banning callers, changing caller nick names for easy
     identification, etc.
 -   Centralized logging of all user metrics: which conference rooms they use,
@@ -76,12 +76,12 @@ lots of functionality to our systems, including:
 -   An API that our telephony infrastructure uses to communicate with us.
 -   Other cool features that I won't get into.
 
-Our web stack ***WAS*** built using the following technologies:
+Our web stack *was* built using the following technologies:
 
 **NOTE**: I'm choosing to list the old technologies here as this article is
-focused primarily on my original problems deploying Django. While I've solved a
-majority of my problems, that will be discussed in a future part of this article
-series.
+focused primarily on my original problems deploying Django.  While I've solved
+a majority of my problems, that will be discussed in a future part of this
+article series.
 
 -   [Python][], our favorite programming language.
 -   [Django][], our favorite web framework.
@@ -96,20 +96,20 @@ series.
 And this is a list of our old infrastructure tools (most of these are gone now
 in our new environment):
 
--   [Puppet][], a centralized configuration management service. Essentially, it
-    allows you to write scripts that automatically configure your servers in a
-    modular fashion.
+-   [Puppet][], a centralized configuration management service.  Essentially,
+    it allows you to write scripts that automatically configure your servers in
+    a modular fashion.
 -   [monit][], application monitoring software we used for automatically fixing
-    critical problems and sending alerts. It lets you do stuff like say "send me
-    an alert if the CPU usage on this box goes above 50%".
+    critical problems and sending alerts.  It lets you do stuff like say "send
+    me an alert if the CPU usage on this box goes above 50%".
 -   [munin][], a simple monitoring tool that generates useful graphs (network
     traffic, CPU usage, etc.).
 -   [nagios][], a popular system monitoring tool.
--   [HAproxy][], the fast HTTP load balancer.
--   [nginx][], our web server of choice for buffering HTTP requests locally to
+-   [HAProxy][], the fast HTTP load balancer.
+-   [Nginx][], our web server of choice for buffering HTTP requests locally to
     our [WSGI][] server.
--   [gunicorn][], a unicorn with a gun. OK, not really... It's actually a pretty
-    awesome pure python WSGI server.
+-   [Gunicorn][], a unicorn with a gun.  OK, not really... It's actually a
+    pretty awesome pure Python WSGI server.
 -   [Jenkins][], a simple continuous integration server for running tests and
     deploying code to production.
 -   [Rackspace][], our server host.
@@ -120,24 +120,25 @@ past two years (up until a few weeks ago).
 I've taken the liberty of drawing this up in a small diagram (again, excuse my
 poor diagramming skills):
 
-![][1]
+![Web Infrastructure][]
 
 As you can probably imagine, we use Python and Django to build our website and
-backend API. These are the core technologies that power our web services.
+back end API.  These are the core technologies that power our web services.
 RabbitMQ holds our queued tasks, and Celery processes the queued tasks and
-executes them on worker servers asynchronously. Memcached is used to store data
-in memory for fast retrieval (stuff like lists of banned callers, etc.) and
-MySQL was used to store all of our persistent data.
+executes them on worker servers asynchronously.  Memcached is used to store
+data in memory for fast retrieval (stuff like lists of banned callers, etc.)
+and MySQL was used to store all of our persistent data.
 
-FreeRADIUS is really in a leage of its own, as we use it exclusively to track
-call metrics from our physical Cisco devices. Most high end Cisco equpiment
+FreeRADIUS is really in a league of its own, as we use it exclusively to track
+call metrics from our physical Cisco devices.  Most high end Cisco equipment
 supports radius logging, so we have a FreeRADIUS instance running at all times
 to track our physical call metrics (which calls enter and leave our network
-before ever talking to our telephony servers), as this data is far more accurate
-than data that arrives via API calls (due to timing issues across the network).
+before ever talking to our telephony servers), as this data is far more
+accurate than data that arrives via API calls (due to timing issues across the
+network).
 
-In regards to our monitoring software (puppet, etc.) we used quite a mix. The
-reason being that no one piece covered all our basic requirements. For our
+In regards to our monitoring software (puppet, etc.) we used quite a mix.  The
+reason being that no one piece covered all our basic requirements.  For our
 services, we wanted to have the following:
 
 -   Alerts when stuff goes down.
@@ -145,28 +146,28 @@ services, we wanted to have the following:
     stopped, etc.).
 -   Graphs to show CPU usage, memory usage, etc., so that (as a devops guy) you
     can scale your infrastructure as necessary, spot bottlenecks, etc.
--   The ability to automatically provision new servers. Manually provisioning
+-   The ability to automatically provision new servers.  Manually provisioning
     servers is:
     -   A waste of time and energy.
     -   Error prone (what if you forget to do something?).
     -   Not scalable.
-
 -   The ability to quickly and easily confirm things are working.
 
-A lot of our core functionality comes from the integration between our telephony
-services (which are colocated at various datacenters around the US), and our
-centralized cloud platform. Due to the dynamic nature of our architecture, our
-web platform is extremely important. If our web platform goes down, our users
-see a majority of their features vanish instantly, as we can't log usage data,
-perform authentication checks against users, etc.
+A lot of our core functionality comes from the integration between our
+telephony services (which are co-located at various data centers around the
+US), and our centralized cloud platform.  Due to the dynamic nature of our
+architecture, our web platform is extremely important.  If our web platform
+goes down, our users see a majority of their features vanish instantly, as we
+can't log usage data, perform authentication checks against users, etc.
 
 With both parts of our stack working together, we're able to give our users a
 really great experience both through their phone and browser.
 
-Why Deployment was Painful
+
+### Why Deployment was Painful
 
 As our product focuses on real time user communication, we have a lot of
-technical challenges. Our service needs to:
+technical challenges.  Our service needs to:
 
 -   Provide fast interaction between our physical telephony infrastructure and
     cloud infrastructure.
@@ -182,27 +183,27 @@ maintaining our infrastructure and tools, updating components, automating
 components, or scaling our components.
 
 Given the fact that we have so many different technologies (a lot of them
-requiring their own servers and redundancy), complexity couldn't be helped--even
-using modern tools like puppet, monit, nagios, etc.
+requiring their own servers and redundancy), complexity couldn't be helped--
+even using modern tools like puppet, monit, nagios, etc.
 
 If you're into *devops* type stuff, you might be wondering what problems I had
-given my setup. After all, a majority of the technologies I was using are quite
-popular in high-tech circles. People look at you funny if you work at a tech
-company that ***doesn't*** use puppet (or chef) and nagios. These tools have a
-reputation for making your life easier (as a developer), and ***supposedly***
-let you focus more on coding than sysadmin taks.
+given my setup.  After all, a majority of the technologies I was using are
+quite popular in high-tech circles.  People look at you funny if you work at a
+tech company that *doesn't* use puppet (or chef) and nagios.  These tools have
+a reputation for making your life easier (as a developer), and *supposedly* let
+you focus more on coding than sysadmin tasks.
 
 **Despite the hype, building out your infrastructure and monitoring tools is
-hard. Really hard. If you want to do it right.**
+hard.  Really hard.  If you want to do it right.**
 
-Firstly, let's talk time. The time required to learn all of the infrastructure
-technologies we used was immense. As anyone who knows me can attest, I spend a
-ridiculous amount of time programming. Even with the insane hours I consistently
-pull hacking code, it took a long time before I was able to build quality puppet
-modules, monitoring scripts, and deployment tools.
+Firstly, let's talk time.  The time required to learn all of the infrastructure
+technologies we used was immense.  As anyone who knows me can attest, I spend a
+ridiculous amount of time programming.  Even with the insane hours I
+consistently pull hacking code, it took a long time before I was able to build
+quality puppet modules, monitoring scripts, and deployment tools.
 
-Once we started heavily using our infrastructure toolset: puppet, nagios, monit,
-etc., I found that I'd spend ***at least*** 90% of my time throughout the
+Once we started heavily using our infrastructure tool set: puppet, nagios,
+monit, etc., I found that I'd spend *at least* 90% of my time throughout the
 workday either:
 
 -   Writing new monitoring and deployment modules.
@@ -210,174 +211,104 @@ workday either:
 -   Dealing with random one-off issues that occur because of slight differences
     in production environments.
 
-**Since my company is small, and engineering time is our most valuable resource,
-this was a real killer.**
+**Since my company is small, and engineering time is our most valuable
+resource, this was a real killer.**
 
-Secondly, hosting cost becomes an issue. When you require high availability for
-your services, you can't run just one of anything. This led to a ton of overhead
-cost on Rackspace, as we had at least two of everything running constantly.
-Ouch. Not to mention the time it took to engineer the backups / restoration /
-monitoring tools so that they would actually be useful in the event that a
-service died.
+Secondly, hosting cost becomes an issue.  When you require high availability
+for your services, you can't run just one of anything.  This led to a ton of
+overhead cost on Rackspace, as we had at least two of everything running
+constantly.  Ouch.  Not to mention the time it took to engineer the backups /
+restoration / monitoring tools so that they would actually be useful in the
+event that a service died.
 
-For the longest time I always assumed builiding failproof services would be
-easy. How wrong I was! Even the simplest of services, take RabbitMQ for
+For the longest time I always assumed building fail proof services would be
+easy.  How wrong I was!  Even the simplest of services, take RabbitMQ for
 instance, requires an immense amount of planning, thought, and maintained focus
-to build properly. In an environment where you rely on that RabbitMQ server
+to build properly.  In an environment where you rely on that RabbitMQ server
 being available 24x7 with as many [nines of availability][] as possible, even
 the simplest of services can become an enormous pain.
 
-**Engineering failover that works is an art. A time consuming art.**
+**Engineering failover that works is an art.  A time consuming art.**
 
-Third, MySQL. ***ARG!*** Ever tried to automate MySQL deployments? I dare you to
-build a puppet module that can successfully spin up MySQL replication slaves on
-demand. It is so painful that I'd rather slap myself in the face with a
+Third, MySQL.  *ARG!*  Ever tried to automate MySQL deployments?  I dare you
+to build a puppet module that can successfully spin up MySQL replication slaves
+on demand.  It is so painful that I'd rather slap myself in the face with a
 porcupine than attempt that again.
 
-**NOTE**: I tried endlessly to find (and build) a decent puppet-mysql module. I
-found numerous semi-maintained ones on GitHub, but never found a single working
-one. The one I ended up building myself (and using) was so tightly coupled to my
-specific deployment scenario that I actually still wake up in hot sweats on
-occasion just from thinking about it.
+**NOTE**: I tried endlessly to find (and build) a decent `puppet-mysql` module.
+I found numerous semi-maintained ones on GitHub, but never found a single
+working one.  The one I ended up building myself (and using) was so tightly
+coupled to my specific deployment scenario that I actually still wake up in hot
+sweats on occasion just from thinking about it.
 
 **MySQL is annoying to manage in production.**
 
-Fourth, complexity. Having so many tools deployed just to keep things running is
-a real pain. Not only is it a time sink, expensive, and hard to maintain--it is
-complex.
+Fourth, complexity.  Having so many tools deployed just to keep things running
+is a real pain.  Not only is it a time sink, expensive, and hard to maintain--
+it is complex.
 
 **Complexity gets you in subtle ways.**
 
-For me, complexity manifested itself in coupling issues. With such a large
-amount of scripts, tools, and services--making a change anywhere in the codebase
-was likely to break some part of our deployment or monitoring toolset. This was
-especially annoying, as it diverted a lot of attention that could have been
-spent better elsewhere.
+For me, complexity manifested itself in coupling issues.  With such a large
+amount of scripts, tools, and services--making a change anywhere in the code
+base was likely to break some part of our deployment or monitoring tool set.
+This was especially annoying, as it diverted a lot of attention that could have
+been spent better elsewhere.
 
-Painful Lessons
+
+### Painful Lessons
 
 Since I first started building our teleconferencing service almost two full
-years ago, I've learned quite a bit about deploying Django. Before completely
+years ago, I've learned quite a bit about deploying Django.  Before completely
 overhauling our service and porting everything to Django, I was relatively
 inexperienced with production deployments, having only built small passion
 projects.
 
 What I learned through all of my experiences learning (and using) a variety of
 popular sysadmin and devops type tools is that nothing in the sysadmin (or
-devops) world is perfect. There are some great tools out there (puppet), but
+devops) world is perfect.  There are some great tools out there (puppet), but
 they've got a long way to go before they're simple enough that a single devops
 guy can build out an entire production infrastructure solo.
 
 By far the greatest hurdle I encountered over the past two years has been
-infrastructure. There is a huge time investment gap between building a basic
-infrastructure (installing nginx, gunicorn, celery, etc., on a single server),
-and automatically provisioning that same infrastructure (with puppet, etc.). In
-regards to the difficulty of actualy writing code that can scale across a large
-infrastructure, the challenges have been much simpler to overcome. In fact, I'm
-happy to say that using Django has been an excellent choice for us.
+infrastructure.  There is a huge time investment gap between building a basic
+infrastructure (installing Nginx, Gunicorn, celery, etc., on a single server),
+and automatically provisioning that same infrastructure (with puppet, etc.).
+In regards to the difficulty of actually writing code that can scale across a
+large infrastructure, the challenges have been much simpler to overcome.  In
+fact, I'm happy to say that using Django has been an excellent choice for us.
 
 Regardless of the difficulties I've had over the past two years in building out
-our infrastructure, and ***effectively*** deploying Django--it has been a great
-learning experience. I've learned more these past two years than at any previous
-point in my life.
+our infrastructure, and *effectively* deploying Django--it has been a great
+learning experience.  I've learned more these past two years than at any
+previous point in my life.
 
 But for me, what it really comes down to, is...
 
-I'm a programmer at heart. I like coding and building new things. At the end of
-the day, it hurts me inside to spend a ton of time working really hard to
+I'm a programmer at heart.  I like coding and building new things.  At the end
+of the day, it hurts me inside to spend a ton of time working really hard to
 maintain and scale your infrastructure, and then realize that through all your
-effort, you've only managed to fight off the chaos for another day. Bummer. I'd
-rather be hacking on new Django modules, or playing around with the latest async
-javascript framework.
+effort, you've only managed to fight off the chaos for another day.  Bummer.
+I'd rather be hacking on new Django modules, or playing around with the latest
+asynchronous Javascript framework.
 
 But that's just me.
 
 In the next part of the series, I'll be discussing the first part of the
 deployment solution I discovered.
 
-**EDIT**: I finished part 3, you can read it [here][].
 
-#### Tags
+**UPDATE**: I finished part 3 of the series, you can read it [here][].
 
-programming, python, devops, django
 
-#### 5905 views and 8 responses
-
--   Dec 13 2011, 3:25 AM
-    mjmein (Twitter) responded:
-    Thanks, I'm enjoying these posts, as automated deployment is something that
-    I'm also very interested in. I've recently started working with Chef, and I
-    agree with you that it does take a huge amount of effort to get started.
--   Dec 13 2011, 8:04 AM
-
-    asksol (Twitter) responded:
-
-    Keeping things running is a hell of a job. Even with the new tools of this
-    decade, it isn't anywhere mature enough. But in time, we all hope things
-    will be better. It certainly is better than when I was a sysadmin 10 years
-    ago :)
-
-    Btw, have you seen cyme?
-    [http://kombu.me/cyme/introduction.html\#synopsis][]
-
-    It's beta, and it's another component in the stack, but maybe you have\
-    some idea what iti could become, would love to hear them.
-
--   Dec 13 2011, 9:31 AM
-
-    Randall Degges responded:
-
-    Hey @asksol--thanks for the response! This is the first I've seen of cyme,
-    it looks awesome though. That would have been useful when I was still
-    building out the infrastructure described in this article, hah.
-
-    In my next one, I'm going to do a full writeup of the new deployment stuff
-    I'm doing now, and how it compares to the old way (described here). I'm
-    actually using your company's hosted rabbitmq instances as part of it \^\^
-
--   Dec 13 2011, 12:16 PM
-
-    esoesotracosa (Twitter) responded:
-
-    Nice series so far!
-
-    Please, do tell us your secret! I'm doing standard deployments using most of
-    your "old technologies" and I would love to know which ones you dismissed
-    and why.
-
-    And don't forget to post it on /r/django! :)
-
--   Dec 15 2011, 10:29 AM
-    Philip Johnson responded:
-    I am waiting with bated breath for the next installment. We are moving our
-    Django deployment off local servers to the cloud and I want to skip right to
-    the best current possible solution. :)
--   Dec 15 2011, 1:16 PM
-    Randall Degges responded:
-    @Philip awesome! Glad you like it so far. The next one should be out in a
-    few days. It's pretty long, so it's taking a while.
--   Dec 17 2011, 4:32 PM
-    Issac Kelly responded:
-    Hey Randall, So happy that you wrote these posts.
--   Dec 17 2011, 5:22 PM
-    Randall Degges responded:
-    Woa, thanks @Isaac. Glad you like them. I'm currently trying to finish up
-    part 3, but it's gonna be a few more days. \<3
-
-  [Previous]: ../../../posts/2011/12/devops-django-part-1-goals.html
-  [Index]: ../../../index-4.html
-  [Next]: ../../../posts/2011/10/deploying-django.html
-  [first article]: http://rdegges.com/devops-django-part-1-goals
-    "DevOps Django - Part 1 - Goals"
-  [ubuntu-server]: http://www.ubuntu.com/business/server/overview
-    "ubuntu-server"
+  [Pyramid Head Sketch]: |filename|/images/2011/pyramid-head-sketch.png "Pyramid Head Sketch"
+  [first article]: |filename|/articles/2011/devops-django-part-1-goals.md "DevOps Django - Part 1 - Goals"
+  [Ubuntu server]: http://www.ubuntu.com/business/server/overview "Ubuntu Server"
   [Asterisk]: http://www.asterisk.org/ "Asterisk"
   [OpenSIPS]: http://opensips.org/ "OpenSIPS"
-  [DS3]: http://en.wikipedia.org/wiki/Ds3 "DS3"
   [NFSd]: http://en.wikipedia.org/wiki/Network_File_System_(protocol) "NFS"
-  [dialplan]: http://www.voip-info.org/wiki/view/Asterisk+Dialplan+Introduction
-    "dialplan"
-  []: ../../../image/2011/12/35453561-TelephonyInfrastructure.png
+  [dial plan]: http://www.voip-info.org/wiki/view/Asterisk+Dialplan+Introduction "Dial Plan Wiki"
+  [Telephony Infrastructure]: |filename|/images/2011/telephony-infrastructure.png "Telephony Infrastructure"
   [PSTN]: http://en.wikipedia.org/wiki/Public_switched_telephone_network "PSTN"
   [VoIP]: http://en.wikipedia.org/wiki/Voice_over_IP "VoIP"
   [Python]: http://python.org/ "Python"
@@ -385,23 +316,20 @@ programming, python, devops, django
   [RabbitMQ]: http://www.rabbitmq.com/ "RabbitMQ"
   [Celery]: http://celeryproject.org/ "Celery"
   [Memcached]: http://memcached.org/ "memcached"
-  [FreeRADIUS]: http://freeradius.org/ "freeradius"
+  [FreeRADIUS]: http://freeradius.org/ "FreeRADIUS"
   [MySQL]: http://www.mysql.com/ "MySQL"
   [Git]: http://git-scm.com/ "Git"
   [GitHub]: https://github.com/ "GitHub"
-  [Puppet]: http://puppetlabs.com/ "puppet"
+  [Puppet]: https://puppetlabs.com/ "puppet"
   [monit]: http://mmonit.com/monit/ "monit"
   [munin]: http://munin-monitoring.org/ "munin"
   [nagios]: http://www.nagios.org/ "Nagios"
-  [HAproxy]: http://haproxy.1wt.eu/ "haproxy"
-  [nginx]: http://nginx.org/ "nginx"
+  [HAProxy]: http://haproxy.1wt.eu/ "haproxy"
+  [Nginx]: http://nginx.org/ "Nginx"
   [WSGI]: http://www.wsgi.org/en/latest/index.html "WSGI"
-  [gunicorn]: http://gunicorn.org/ "gunicorn"
+  [Gunicorn]: http://gunicorn.org/ "Gunicorn"
   [Jenkins]: http://jenkins-ci.org/ "Jenkins"
-  [Rackspace]: http://www.rackspace.com/ "Rackspace"
-  [1]: ../../../image/2011/12/35456456-WebInfrastructure.png
-  [nines of availability]: http://en.wikipedia.org/wiki/High_availability
-    "Five Nines"
-  [here]: http://rdegges.com/devops-django-part-3-the-heroku-way
-    "DevOps Django - Part 3 - The Heroku Way"
-  [http://kombu.me/cyme/introduction.html\#synopsis]: http://kombu.me/cyme/introduction.html#synopsis
+  [Rackspace]: http://www.rackspacecloud.com/3149.html "Rackspace"
+  [Web Infrastructure]: |filename|/images/2011/web-infrastructure.png "Web Infrastructure"
+  [nines of availability]: http://en.wikipedia.org/wiki/High_availability "Five Nines"
+  [here]: |filename|/articles/2011/devops-django-part-3-the-heroku-way.md "DevOps Django - Part 3 - The Heroku Way"
