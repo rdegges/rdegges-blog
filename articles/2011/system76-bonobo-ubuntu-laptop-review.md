@@ -1,183 +1,176 @@
-# Randall Degges
+Title: System76 "Bonobo" Ubuntu Laptop Review
+Date: 2011-12-14
+Tags: review
 
-## This is an archived post This is an archived post
 
-[Previous][]   [Index][]   [Next][]
+![System76 Lid][]
 
-### system76 "Bonobo" Ubuntu Laptop Review
+![System76 Screen][]
 
-December 14 2011, 8:00 PM  by Randall Degges
+![System76 Side][]
 
-![][] ![][1] ![][2] ![][3]
+![System76 Keyboard][]
+
 
 I don't normally write product reviews on my blog (although I do frequently
-write [amazon reviews][]), so this is a bit out of place. However, I feel the
-need to write about the [system76 laptop][] I recently purchased.
+write [amazon reviews][]), so this is a bit out of place.  However, I feel the
+need to write about the [System76 laptop][] I recently purchased.
 
-**NOTE**: I'm *not* making any money off this. I'm not in any way affiliated
-with system76. I don't have any affiliate links, or any of that jazz.
+**NOTE**: I'm *not* making any money off this.  I'm not in any way affiliated
+with System76.  I don't have any affiliate links, or any of that jazz.
 
 As a programmer (and more importantly, nerd) I spend a majority of my days (and
-nights) online. As a linux guy, finding a decent laptop that has full hardware
-compatibility can be a huge pain. Over the past year I've been using a laptop as
-my primary machine, which has compounded this issue and made it a nightmare for
-me to find new laptops when an old one dies. Incase you're wondering, I've gone
-through 4 laptops this past year, and each time spent no less than 4 days
-finding a suitable replacement.
+nights) online.  As a Linux guy, finding a decent laptop that has full hardware
+compatibility can be a huge pain.  Over the past year I've been using a laptop
+as my primary machine, which has compounded this issue and made it a nightmare
+for me to find new laptops when an old one dies.  In case you're wondering,
+I've gone through 4 laptops this past year, and each time spent no less than 4
+days finding a suitable replacement.
 
-The problem with finding a decent linux laptop is that even if you google the
+The problem with finding a decent Linux laptop is that even if you google the
 exact model you plan on purchasing before hand, there is no guarantee it will
-work. At least in my experience, googling laptop models before purchase is a lot
-like playing Russian roulette--you may get lucky, but it's a risk.
+work.  At least in my experience, Google'ing laptop models before purchase is a
+lot like playing Russian roulette--you may get lucky, but it's a risk.
 
 The last time I purchased a laptop earlier this year I spent quite a while
-online researching the best options, eventually settling with a high end HP that
-was within my price range. Fast forward two weeks to delivery day--I'm
+online researching the best options, eventually settling with a high end HP
+that was within my price range.  Fast forward two weeks to delivery day--I'm
 installing Ubuntu on the laptop, and to my dismay, there are no video card
-drivers available. Damnet.
+drivers available.  *Damn.*
 
-system76
 
-After having several awful linux laptop experiences, I asked some friends to
-recommend a decent hardware vendor with full linux support. That's when I first
-heard of [system76][]. They're a hardware vendor that builds and ships Ubuntu
-ready laptops, destkops, and servers.
+### System76
+
+After having several awful Linux laptop experiences, I asked some friends to
+recommend a decent hardware vendor with full Linux support.  That's when I
+first heard of [System76][].  They're a hardware vendor that builds and ships
+Ubuntu ready laptops, desktops, and servers.
 
 A few weeks back, when my current laptop started dying, I decided to give
-system76 a try and I ordered their [Bonobo][] model (their largest laptop). I
+System76 a try and I ordered their [Bonobo][] model (their largest laptop).  I
 got the base model with a couple small modifications:
 
 -   A 120G SSD drive (I like speed).
 -   8G of RAM.
 
 I decided to go with their largest model (it's a 17.3") because I love looking
-at lots of code on a single screen. I don't use any external monitors, so having
-a large screen is important for my day-to-day workflow.
+at lots of code on a single screen.  I don't use any external monitors, so
+having a large screen is important for my day-to-day work flow.
 
 With the background out of the way, here's my review of the actual laptop.
 
-First Impressions
 
-system76 did a great job on first impressions. You know how most laptops
-typically come in awful boxes, filled with tons of spam? system76 doesn't do
-that at all. The shipping box was simple, easy to open, and not cluttered.
+### First Impressions
+
+System76 did a great job on first impressions.  You know how most laptops
+typically come in awful boxes, filled with tons of spam?  System76 doesn't do
+that at all.  The shipping box was simple, easy to open, and not cluttered.
 
 Inside their shipping box there was simply the laptop, the carrying case, and a
-card with links to the system76 website for help. Elegant.
+card with links to the System76 website for help.  Elegant.
 
-My first thoughts upon seeing the actual laptop (once I pulled it out and set it
-on my table) was: *woa*. The laptop is really big and sturdy looking. It's got a
-metallic casing around it (not plastic), and looks expensive. The lid of the
-laptop has the system76 logo etched into it, which looks brilliant.
+My first thoughts upon seeing the actual laptop (once I pulled it out and set
+it on my table) was: *woa*.  The laptop is really big and sturdy looking.  It's
+got a metallic casing around it (not plastic), and looks expensive.  The lid of
+the laptop has the System76 logo etched into it, which looks brilliant.
 
-The screen on this thing is amazing. It's huge, clear, and surprisingly crisp.
-Maybe I've just been using shitty laptops 'till now, but this thing makes my old
-Sony Vaio look like a child's toy.
+The screen on this thing is amazing.  It's huge, clear, and surprisingly crisp.
+Maybe I've just been using shitty laptops 'till now, but this thing makes my
+old Sony Vaio look like a child's toy.
 
-The keyboard is sturdy with thick, responsive keys. This is a big win for me, as
-I type fast, and having highly responsive keys just feels **right**.
+The keyboard is sturdy with thick, responsive keys.  This is a big win for me,
+as I type fast, and having highly responsive keys just feels **right**.
 
-Also: there are no stickers on the laptop. I hate getting a new machine covered
-in Intel, Windows, and other ridiculous stickers. This gives the laptop a really
-nice clean look, and it's refreshing to not be bombarded by hardware ads.
+Also: there are no stickers on the laptop.  I hate getting a new machine
+covered in Intel, Windows, and other ridiculous stickers.  This gives the
+laptop a really nice clean look, and it's refreshing to not be bombarded by
+hardware ads.
 
-Software Support
 
-After working my way through the first boot process just to see what it was like
-(it was fine), I popped in my own Ubuntu 11.04 CD and formatted the box. I was
-curious to see if this laptop was truly linux compatible, or if it was just
-loaded with a bunch of special drivers to make things work decently.
+### Software Support
 
-Surprisingly, I had absolutly no issues installing Ubuntu. Everything worked
-perfectly out of the box. Webcam, microphone, video card drivers, etc. It was a
-pretty great feeling to get everything installed fresh with no issues
+After working my way through the first boot process just to see what it was
+like (it was fine), I popped in my own Ubuntu 11.04 CD and formatted the box.
+I was curious to see if this laptop was truly Linux compatible, or if it was
+just loaded with a bunch of special drivers to make things work decently.
+
+Surprisingly, I had absolutely no issues installing Ubuntu.  Everything worked
+perfectly out of the box.  Web cam, microphone, video card drivers, etc.  It
+was a pretty great feeling to get everything installed fresh with no issues
 whatsoever.
 
-Speed
 
-This thing is fast. Really, insanely fast. I don't have much else to say about
-this, except that I've never had such a fast system. Ubuntu boots in less than 2
-seconds, consistently.
+### Speed
 
-Pricing
+This thing is fast.  Really, insanely fast.  I don't have much else to say
+about this, except that I've never had such a fast System.  Ubuntu boots in
+less than 2 seconds, consistently.
 
-If you've ever purchased a laptop online from a major hardware vendor (Dell, HP,
-etc.), you'll notice that when customizing the laptop components, you've got a
-million choices. It's typical to be able to choose from at least 20 different
-CPUs, 30 times of RAM, etc.
 
-From what I saw, system76 takes a different approach. All their base systems
-have excellent hardware, and they only offer a few upgrade options. I prefer
-this a lot more to the traditional model. Why? Because pricing is a lot clearer.
-Instead of purchasing a laptop that you think will cost 500\$, and then
-upgrading it to make it decent and then realizing that the price is now
-3,000\$--you know right off the bat what sort of price you're looking at.
+### Pricing
 
-While this laptop was expensive (I paid \~1,800\$), its hardware stats are
+If you've ever purchased a laptop online from a major hardware vendor (Dell,
+HP, etc.), you'll notice that when customizing the laptop components, you've
+got a million choices.  It's typical to be able to choose from at least 20
+different CPUs, 30 times of RAM, etc.
+
+From what I saw, System76 takes a different approach.  All their base Systems
+have excellent hardware, and they only offer a few upgrade options.  I prefer
+this a lot more to the traditional model.  Why?  Because pricing is a lot
+clearer.  Instead of purchasing a laptop that you think will cost 500$, and
+then upgrading it to make it decent and then realizing that the price is now
+3,000$--you know right off the bat what sort of price you're looking at.
+
+While this laptop was expensive (I paid ~1,800$), its hardware stats are
 comparable to similarly priced HP laptops.
 
-Problems
 
-**NOTE**: I've only been using this laptop for two weeks so far. If I experience
-any other problems I'll update this post to include them.
+### Problems
 
-The power key. The most annoying problem I've had with the laptop to date is the
-power key. It's hard to press. I can push it down easily enough, but it seems
-like you have to push it down and hold it for a second for it to actually
-recognize your keypress. This is pretty annoying as it takes me at least two
+**NOTE**: I've only been using this laptop for two weeks so far.  If I
+experience any other problems I'll update this post to include them.
+
+The power key.  The most annoying problem I've had with the laptop to date is
+the power key.  It's hard to press.  I can push it down easily enough, but it
+seems like you have to push it down and hold it for a second for it to actually
+recognize your key press.  This is pretty annoying as it takes me at least two
 tries to turn the thing on.
 
 The caps lock / num lock / wifi icons that light up when they're on are ugly.
-They look like they're pixelated globe icons from the 1980s. system76--if you
-read this, consider using something a bit nicer looking. They really detract
+They look like they're pixelated globe icons from the 1980s.  System76--if you
+read this, consider using something a bit nicer looking.  They really detract
 from the clean, professional look of the laptop.
 
-Lastly, the power cable for this thing is massive. The laptop doesn't use your
+Lastly, the power cable for this thing is massive.  The laptop doesn't use your
 standard size power cord, it has a massive black box at least 3x's larger than
-any laptop cord I've owned before. While I understand this is the largest model
-of laptop, and it has high end power-hungry hardware, the cord size still
-matters (at least to me). I haven't carried this laptop anywhere with me yet,
+any laptop cord I've owned before.  While I understand this is the largest
+model of laptop, and it has high end power-hungry hardware, the cord size still
+matters (at least to me).  I haven't carried this laptop anywhere with me yet,
 but I assume that when I do, my carrying case will be at least a few pounds
 heavier with the cord inside.
 
-Conclusion
 
-system76 makes a damn good laptop, as far as I'm concerned. Despite a few minor
-flaws, this thing has been excellent. I can honstely say that I've never owned
-such a great laptop in my life.
+### Conclusion
 
-It's fast, sturdy, looks great, and has perfect linux hardware compatibility.
+System76 makes a damn good laptop, as far as I'm concerned.  Despite a few
+minor flaws, this thing has been excellent.  I can honestly say that I've never
+owned such a great laptop in my life.
 
-If you're a linux guy looking for a great laptop, I'd strongly recommend you
-give system76 a shot for your next purchase.
+It's fast, sturdy, looks great, and has perfect Linux hardware compatibility.
 
-You can check out all their systems on their main
-site: [http://www.system76.com/][]
+If you're a Linux guy looking for a great laptop, I'd strongly recommend you
+give System76 a shot for your next purchase.
 
-#### Tags
+You can check out all their systems on their main site:
+[http://www.system76.com/][]
 
-laptops, review
 
-#### 2474 views and 2 responses
-
--   Dec 18 2011, 5:03 PM
-    Herman responded:
-    Pictures speak a thousand words.
--   Dec 19 2011, 12:15 PM
-    Randall Degges responded:
-    @Herman, updated it with pictures. :)
-
-  [Previous]: ../../../posts/2011/12/devops-django-part-3-the-heroku-way.html
-  [Index]: ../../../index-4.html
-  [Next]: ../../../posts/2011/12/establishing-a-writing-habit.html
-  []: ../../../image/2011/12/35776075-product_images--bonobo-0d56b90b84e3dbb.png
-  [1]: ../../../image/2011/12/35776077-product_images--bonobo-4f12bc8ecf986ca.png
-  [2]: ../../../image/2011/12/35776079-product_images--bonobo-dd5ad28e128ed55.png
-  [3]: ../../../image/2011/12/35776078-product_images--bonobo-19fd027e5bc03f0.png
-  [amazon reviews]: http://www.amazon.com/gp/pdp/profile/A3E3Y9R7W5NAI8
-    "My Amazon Reviewer Profile"
-  [system76 laptop]: http://www.system76.com/laptops/model/bonobo
-    "system76 Bonobo Laptop"
-  [system76]: http://www.system76.com/home/ "system76 Ubuntu Systems"
-  [Bonobo]: http://www.system76.com/laptops/model/bonobo "system76 Bonobo"
-  [http://www.system76.com/]: http://www.system76.com/
+  [System76 Lid]: |filename|/images/2011/system76-lid.png "System76 Lid"
+  [System76 Screen]: |filename|/images/2011/system76-screen.png "System76 Screen"
+  [System76 Side]: |filename|/images/2011/system76-side.png "System76 Side"
+  [System76 Keyboard]: |filename|/images/2011/system76-keyboard.png "System76 Keyboard"
+  [amazon reviews]: http://www.amazon.com/gp/pdp/profile/A3E3Y9R7W5NAI8 "My Amazon Reviewer Profile"
+  [System76 laptop]: https://www.system76.com/laptops/model/bonx6 "System76 Bonobo Laptop"
+  [System76]: http://www.system76.com/home/ "System76 Ubuntu Systems"
+  [Bonobo]: https://www.system76.com/laptops/model/bonx6 "System76 Bonobo"
+  [http://www.system76.com/]: https://www.system76.com/home/ "System76"
