@@ -1,16 +1,12 @@
-# Randall Degges
+Title: My "Done" List
+Date: 2011-12-25
+Tags: programming
 
-## This is an archived post This is an archived post
 
-[Previous][]   [Index][]   [Next][]
+![Code Wolf Meme][]
 
-### My "Done" List
 
-December 25 2011, 12:08 AM  by Randall Degges
-
-![][]
-
-I really enjoy thinking and writing about programming. Since I started writing
+I really enjoy thinking and writing about programming.  Since I started writing
 code years ago, I've been obsessed with code quality and best practices--and I
 think it's safe to say that a lot of hackers out there feel the same.
 
@@ -18,20 +14,21 @@ I'm pretty sure my urge to write excellent code is driven by some innate desire
 to perfect everything; regardless, I stopped trying to fight it long ago, and
 started embracing it.
 
-**Disclaimer**: what I'm about to discuss is stupidly obvious. I actually feel
+**DISCLAIMER**: what I'm about to discuss is stupidly obvious.  I actually feel
 quite stupid writing this; however, since this has made such a large impact on
-my code quality and programming mentality, I figured I would share it despite my
-shame.
+my code quality and programming mentality, I figured I would share it despite
+my shame.
 
-Have a "Done" List
 
-One of the greatest productivity tricks I've learned has been this: **always
-have a "done" list**.
+### Have a "Done" List
 
-A "done" list is checklist that you use as a personal binding contract. Having a
-"done" list means making a commitment to yourself that each time you touch a
-piece of code, you don't consider it "done" until you've completely gone through
-your checklist.
+One of the greatest productivity tricks I've learned has been this: *always
+have a "done" list*.
+
+A "done" list is checklist that you use as a personal binding contract.  Having
+a "done" list means making a commitment to yourself that each time you touch a
+piece of code, you don't consider it "done" until you've completely gone
+through your checklist.
 
 For instance, my "done" list is:
 
@@ -44,25 +41,15 @@ For instance, my "done" list is:
 -   Documentation written.
 -   Deployed.
 
-If that means it takes a while longer to code, then so be it. A "done" list is a
-simple way to hold yourself to a high devleopment standard, and consistently
+If that means it takes a while longer to code, then so be it.  A "done" list is
+a simple way to hold yourself to a high development standard, and consistently
 write quality code.
 
-I've found that even when I'm not able to consistently go through my "done" list
-every time I touch code--through the process of trying to meet each of my "done"
-requirements, I write much better code than I would otherwise.
+I've found that even when I'm not able to consistently go through my "done"
+list every time I touch code--through the process of trying to meet each of my
+"done" requirements, I write much better code than I would otherwise.
 
-**Do you have a "done" list? If so, what's on it?**
 
-#### Tags
-
-programming
-
-#### 2059 views and 0 responses
-
-  [Previous]: ../../../posts/2011/12/on-momentum.html
-  [Index]: ../../../index-4.html
-  [Next]: ../../../posts/2011/12/what-ive-learned-about-writing-so-far.html
-  []: ../../../image/2011/12/35960906-code_wolf.jpg
+  [Code Wolf Meme]: |filename|/images/2011/code-wolf-meme.png "Code Wolf Meme"
   [GitHub]: https://github.com/ "GitHub"
-  [sprintly]: http://sprint.ly/ "sprintly"
+  [sprintly]: https://sprint.ly/ "sprintly"
