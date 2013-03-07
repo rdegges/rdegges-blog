@@ -1,6 +1,6 @@
 Title: A Year in Bakersfield
 Date: 2012-11-26
-Tags: personal development
+Tags: reviews
 
 
 ![Cow Skull Sketch][]
