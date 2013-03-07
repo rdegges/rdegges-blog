@@ -1,39 +1,35 @@
-# Randall Degges
+Title: No Regrets
+Date: 2012-10-10
+Tags: personal development
 
-## This is an archived post This is an archived post
 
-[Previous][]   [Index][]   [Next][]
+![Dark Mage Sketch][]
 
-### No Regrets
 
-October 10 2012, 4:35 PM  by Randall Degges
-
-![][]
-
-I've always been an extreme person. My internal motto has always been to either
-do something all the way, or not do it at all.
+I've always been an extreme person.  My internal motto has always been to
+either do something all the way, or not do it at all.
 
 When I was getting to know my wife (back when she was just my girlfriend), I
-think this scared her a bit. Always putting everything you have into everything
-you do is really draining (on yourself, and the people around you).
+think this scared her a bit.  Always putting everything you have into
+everything you do is really draining (on yourself, and the people around you).
 
 If you're on a strict diet, your friends may not like it when you can't go out
-to certain restaurants with them. If you're on a strict time schedule, your
-friends may not like it when you can't hang out on the weekends. If you're
+to certain restaurants with them.  If you're on a strict time schedule, your
+friends may not like it when you can't hang out on the weekends.  If you're
 building a company, your friends may not like the fact that you're always
-talking about your work. If you're lifting heavy weights six times a week, your
-friends may not like the fact that you're always completely exhausted.
+talking about your work.  If you're lifting heavy weights six times a week,
+your friends may not like the fact that you're always completely exhausted.
 
 No matter what the situation, giving 100% of your effort to any one task is
-hard. It requires dedication, commitment, and pain.
+hard.  It requires dedication, commitment, and pain.
 
 When my wife first told me how extreme I was from her point of view, I had to
-take a step back and think it over--was I really *that* extreme? Do I need to
-slow down? Should I pace myself more? So I did what anyone would do: I tried it.
-I slowed down, paced myself, and tried to relax more.
+take a step back and think it over--was I really *that* extreme?  Do I need to
+slow down?  Should I pace myself more?  So I did what anyone would do: I tried
+it.  I slowed down, paced myself, and tried to relax more.
 
 After going through a few phases of being *not-so-extreme*, I realized that it
-just wasn't for me. If I'm not giving what I'm doing 100% of my effort, I tend
+just wasn't for me.  If I'm not giving what I'm doing 100% of my effort, I tend
 to feel bad about myself--I tend to have regrets.
 
 There's nothing worse than looking back at:
@@ -42,16 +38,15 @@ There's nothing worse than looking back at:
 -   What you've accomplished.
 -   What you want to accomplish.
 
-And thinking about all the ways you've could've done better: "*I should have
-done this*", or "*I could have done that*", or "*I can't believe I didn't do
-...*".
+And thinking about all the ways you've could've done better: *I should have
+done this*, or *I could have done that*, or *I can't believe I didn't do ...*.
 
 To me, that is by far the worst feeling--knowing that you didn't give it your
 all, and feeling the regret sink in, day after day.
 
 Even though busting your ass every day and working as hard as you possibly can
-is painful, it is a lot *less painful* than not living up to your potential, and
-taking the easy way out.
+is painful, it is a lot *less painful* than not living up to your potential,
+and taking the easy way out.
 
 No matter how much you try to justify your actions to yourself: if you aren't
 always fighting yourself to be as good as you can be, struggling to get better,
@@ -60,25 +55,5 @@ have regrets.
 
 Don't settle for that.
 
-#### Tags
 
-personaldevelopment, philosophy
-
-#### 1118 views and 1 response
-
--   Oct 11 2012, 8:27 AM
-    Shrutarshi Basu responded:
-    I think you're generalizing a bit too much here. Personally I like the
-    streaks of full-out intense commitment but I find personally that I need to
-    punctuate it with days of doing nothing at all or else I burn out and get
-    cranky easily. Others I know work best on a 9-5 schedule. I think it's
-    possible to work to the best of your potential without busting your ass each
-    and every day. People have different habits and strategies and it's more
-    important to get results than it is to work for long hours every day.
-    Working hard and long is the means, not the end and all too often we forget
-    that.
-
-  [Previous]: ../../../posts/2012/10/service-oriented-flask.html
-  [Index]: ../../../index-2.html
-  [Next]: ../../../posts/2012/10/dont-panic-frustration-is-an-anti-pattern.html
-  []: ../../../image/2012/10/45027452-mage.jpg
+  [Dark Mage Sketch]: |filename|/images/2012/dark-mage-sketch.png "Dark Mage Sketch"
