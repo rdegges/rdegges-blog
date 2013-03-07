@@ -3,7 +3,7 @@ Date: 2012-11-25
 Tags: personal development
 
 
-![Improvement and Perfection][]
+![Tiger Sketch][]
 
 
 I just finished watching a truly excellent movie, [Jiro Dreams of Sushi][].  If
@@ -55,5 +55,5 @@ yourself to be better than the day before.  Strive for perfection in every act
 you perform.
 
 
-  [Improvement and Perfection]: |filename|/images/2012/improvement-and-perfection.png "Improvement and Perfection"
+  [Tiger Sketch]: |filename|/images/2012/tiger-sketch.png "Tiger Sketch"
   [Jiro Dreams of Sushi]: http://www.amazon.com/gp/product/B007UW9WOQ/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B007UW9WOQ&linkCode=as2&tag=rdegges-20 "Jiro Dreams of Sushi"
