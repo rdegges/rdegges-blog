@@ -1,24 +1,21 @@
-# Randall Degges
+Title: Become a Better Programmer - Monitoring
+Date: 2012-08-26
+Tags: programming
 
-## This is an archived post This is an archived post
 
-[Previous][]   [Index][]   [Next][]
+![Grim Reaper Gesturing][]
 
-### Become a Better Programmer - Monitoring
 
-August 26 2012, 4:57 PM  by Randall Degges
-
-![][]
-
-Becoming a better programmer is hard work. Luckily, there's one foolproof way to
-improve your programming skills while simultaneously getting real world
-feedback: monitoring. There are tons of other ways to improve your programming
+Becoming a better programmer is hard work.  Luckily, there's one foolproof way
+to improve your programming skills while simultaneously getting real world
+feedback: monitoring.  There are tons of other ways to improve your programming
 skills, but I'm only going to touch on one aspect (monitoring) in this post.
 
 *Before I continue, I just wanted to let you know I have absolutely no
 affiliation with [New Relic][] (I'm going to be talking about them a lot).*
 
-Prerequisites
+
+### Prerequisites
 
 There is really only one prerequisite to using monitoring to improving your
 programming skills: you need to write / maintain web software that people
@@ -30,7 +27,8 @@ pretty safe to assume you meet this prerequisites already.
 In the off chance you don't write web software, I'll be covering other
 strategies in future posts.
 
-How it Works
+
+### How it Works
 
 Learning is really *really* hard without feedback.
 
@@ -46,39 +44,41 @@ lessons that really affect your programming ability:
     properly, etc.
 
 The only way to learn and enhance these skills is to actively (and
-pragmatically) evaluate your code as users are using it. This is the*** absolute
-best***way to better your programming skills, as you immediately get real world
+pragmatically) evaluate your code as users are using it.  This is the *absolute
+best* way to better your programming skills, as you immediately get real world
 feedback about your code.
 
-A Scenario
+
+### A Scenario
 
 Let's say you're writing some blog software, and you'd like to know how your
 code can be improved.
 
-The first thing you do is write unit tests for your software. You think "this
-will help me flush out the bugs". So you spend some time writing tests, flush
+The first thing you do is write unit tests for your software.  You think "this
+will help me flush out the bugs".  So you spend some time writing tests, flush
 out a few edge cases, and think your code is absolutely flawless.
 
 Later that night you get an email from a user saying your blogging software is
-slow, and errors our constantly. You feel a bit of a rush: "what could have gone
-wrong?"
+slow, and errors our constantly.  You feel a bit of a rush: "what could have
+gone wrong?"
 
-So now you're looking at your code, trying to figure out what failed. You spin
+So now you're looking at your code, trying to figure out what failed.  You spin
 up a local instance of the site, do a lot of testing, but don't see any issues.
 Bummer.
 
 *This happens way too often.*
 
-The best way to become a better programmer is to monitor your application (using
-monitoring software) and use this information as a feedback tool.
+The best way to become a better programmer is to monitor your application
+(using monitoring software) and use this information as a feedback tool.
 
-New Relic - Monitoring for Hackers
+
+### New Relic - Monitoring for Hackers
 
 There are tons of application monitoring solutions out there, but my personal
-favorite is [New Relic][1]. Using New Relic to monitor your applications will
-undoubtedly make you feel like this dude:
+favorite is [New Relic][New Relic].  Using New Relic to monitor your
+applications will undoubtedly make you feel like this dude:
 
-![][2]
+![Oh Stop It You][]
 
 Just to enumerate some of the ways in which New Relic rocks:
 
@@ -99,17 +99,28 @@ Just to enumerate some of the ways in which New Relic rocks:
 -   They have a free tier (which varies depending on how you run your code, but
     is awesome).
 -   They let you create custom dashboards to track special metrics you define.
--   And they're real time. Yeah.
+-   And they're real time.  Yeah.
 
 Here are the obligatory screenshots:
 
-![][3] ![][4] ![][5] ![][6] ![][7] ![][8]
+![New Relic Map Screenshot][]
+
+![New Relic Pages Screenshot][]
+
+![New Relic Tasks Screenshot][]
+
+![New Relic Overview Screenshot][]
+
+![New Relic Web Screenshot][]
+
+![New Relic Task Breakdown Screenshot][]
 
 As you can see, the New Relic panel lets you see a ton of data and metrics about
 your application, making it really easy to identify issues, slow functions, code
 that needs to be refactored, slow infrastructure components, etc.
 
-Code, Push, Analyze, Repeat
+
+### Code, Push, Analyze, Repeat
 
 Learning is all about repeating the cycle.
 
@@ -118,7 +129,7 @@ Learning is all about repeating the cycle.
 -   You push your code live, and get users to use it.
 -   You look at your New Relic panel, hunting for issues.
 -   Can't find any issues? Pick a metric to improve: average application
-    response time, page load time, database query count, whatever. Since you
+    response time, page load time, database query count, whatever.  Since you
     have the stats in front of you, challenge yourself--find ways to make things
     faster, simpler, and more elegant.
 -   Make some code changes, and the process starts again.
@@ -127,39 +138,29 @@ Through this continuous process of tracking your code (and subsequently,
 yourself), you'll force yourself to learn new things, practice your skills, and
 get scientific feedback along the way.
 
-Push Yourself
 
-Without real world analysis, you'll only be able to push your skills so far. If
-you really want to further your programming skills, you should be actively
+### Push Yourself
+
+Without real world analysis, you'll only be able to push your skills so far.
+If you really want to further your programming skills, you should be actively
 monitoring and analyzing your applications--looking for ways to improve them.
 
 Don't be easy on yourself.
 
-Of course--monitoring isn't the only way to better yourself as a programmer--but
-it is a great way. If you're serious about practicing your craft, you should
-check out [New Relic][9].
+Of course--monitoring isn't the only way to better yourself as a programmer--
+but it is a great way.  If you're serious about practicing your craft, you
+should check out [New Relic][New Relic].
 
 In future posts I'm hoping to write about other methods to becoming a better
 programmer.
 
-#### Tags
 
-programming, philosophy, web
-
-#### 4243 views and 0 responses
-
-  [Previous]: ../../../posts/2012/09/my-heroku-book-is-finished.html
-  [Index]: ../../../index-2.html
-  [Next]: ../../../posts/2012/08/service-oriented-hacking-issues.html
-  []: ../../../image/2012/08/43971341-reaper.jpg
-  [New Relic]: http://newrelic.com/
-    "NewRelic - Shit just got real for programmers."
-  [1]: http://newrelic.com/ "NewRelic"
-  [2]: ../../../image/2012/08/43972055-oh-stop-it.png
-  [3]: ../../../image/2012/08/43976187-newrelic_map.png
-  [4]: ../../../image/2012/08/43976257-newrelic_pages.png
-  [5]: ../../../image/2012/08/43976260-newrelic_tasks.png
-  [6]: ../../../image/2012/08/43976256-newrelic_overview.png
-  [7]: ../../../image/2012/08/43976261-newrelic_web.png
-  [8]: ../../../image/2012/08/43976259-newrelic_task_breakdown.png
-  [9]: http://newrelic.com/ "New Relic"
+  [Grim Reaper Gesturing]: |filename|/images/2012/grim-reaper-gesturing.png "Grim Reaper Gesturing"
+  [New Relic]: http://newrelic.com/ "NewRelic - Shit just got real for programmers."
+  [Oh Stop It You]: |filename|/images/2012/oh-stop-it-you.png "Oh Stop It You"
+  [New Relic Map Screenshot]: |filename|/images/2012/newrelic-map-screenshot.png "New Relic Map Screenshot"
+  [New Relic Pages Screenshot]: |filename|/images/2012/newrelic-pages-screenshot.png "New Relic Pages Screenshot"
+  [New Relic Tasks Screenshot]: |filename|/images/2012/newrelic-tasks-screenshot.png "New Relic Tasks Screenshot"
+  [New Relic Overview Screenshot]: |filename|/images/2012/newrelic-overview-screenshot.png "New Relic Overview Screenshot"
+  [New Relic Web Screenshot]: |filename|/images/2012/newrelic-web-screenshot.png "New Relic Web Screenshot"
+  [New Relic Task Breakdown Screenshot]: |filename|/images/2012/newrelic-task-breakdown-screenshot.png "New Relic Task Breakdown Screenshot"
