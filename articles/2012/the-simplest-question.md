@@ -1,14 +1,10 @@
-# Randall Degges
+Title: The Simplest Question
+Date: 2012-09-27
+Tags: personal development
 
-## This is an archived post This is an archived post
 
-[Previous][]   [Index][]   [Next][]
+![Samurai in Hat Sketch][]
 
-### The Simplest Question
-
-September 27 2012, 2:49 PM  by Randall Degges
-
-![][]
 
 Improvement is something nearly everyone craves--you want to be better at your
 job, better at your relationships, better with your physical fitness--the lists
@@ -17,15 +13,15 @@ goes on endlessly.
 Regardless of what you're trying to improve, there are likely thousands of
 websites, books, and bits of advice available to you that will help you to
 analyze your desires, organize them in a healthy way, and slowly make progress
-towards one (or more) of these goals. Over time, with enough consistency, you'll
-improve in the areas you want to improve in, and feel better about it along the
-way.
+towards one (or more) of these goals.  Over time, with enough consistency,
+you'll improve in the areas you want to improve in, and feel better about it
+along the way.
 
-Despite the plethora of readily available information, I can't help but think of
-my own experiences with personal development over the past few years. I've spent
-hundreds of hours reading books, writing, and working to improve myself, but the
-most important lesson I learned along the way was to ask myself a simple
-question every day:
+Despite the plethora of readily available information, I can't help but think
+of my own experiences with personal development over the past few years.  I've
+spent hundreds of hours reading books, writing, and working to improve myself,
+but the most important lesson I learned along the way was to ask myself a
+simple question every day:
 
 "Is what I'm about to do taking me closer to my goals, or further away?"
 
@@ -34,26 +30,13 @@ I'm under, and no matter how crappy I'm feeling at the time--asking myself that
 simple question has without a doubt been the most effective way I've been able
 to keep moving forward.
 
-It is so easy to sabotage yourself and your desires. When you're tired,
+It is so easy to sabotage yourself and your desires.  When you're tired,
 frustrated, pressured, irritated, or generally feeling less-than-perfect, you
-tend to make mistakes. You'll eat that extra cheeseburger, skip that last
+tend to make mistakes.  You'll eat that extra cheeseburger, skip that last
 important email, and slowly move yourself further away from your goals.
 
 The next time you make a decision to do something, ask yourself that simple
 question, and keep yourself honest.
 
-#### Tags
 
-personaldevelopment, philosophy
-
-#### 1210 views and 2 responses
-
--   Sep 28 2012, 6:47 PM
-    arpit shah liked this post.
--   Oct 1 2012, 10:48 PM
-    Michele Degges liked this post.
-
-  [Previous]: ../../../posts/2012/09/service-oriented-side-effects.html
-  [Index]: ../../../index-2.html
-  [Next]: ../../../posts/2012/09/my-heroku-book-is-finished.html
-  []: ../../../image/2012/09/44731413-samurai.jpg
+  [Samurai in Hat Sketch]: |filename|/images/2012/samurai-in-hat-sketch.png "Samurai in Hat Sketch"
