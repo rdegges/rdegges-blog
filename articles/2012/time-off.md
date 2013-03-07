@@ -1,20 +1,16 @@
-# Randall Degges
+Title: Time Off
+Date: 2012-11-25
+Tags: personal development
 
-## This is an archived post This is an archived post
 
-[Previous][]   [Index][]   [Next][]
+![Turkey Sketch][]
 
-### Time Off
-
-November 25 2012, 12:03 PM  by Randall Degges
-
-![][]
 
 This year for Thanksgiving, I did something I don't normally do: I took some
 time away from the computer.
 
 Since both my work and hobby involve programming, it is rare that a day passes
-for me in which I don't do at least a little bit of coding. If I had to guess,
+for me in which I don't do at least a little bit of coding.  If I had to guess,
 I'd say that for the better part of the last 5 years I've gone at most a dozen
 days without programming overall.
 
@@ -24,29 +20,21 @@ as much as possible around the holidays so I could spend more time with my
 family, and attempt to loosen up a bit.
 
 From Wednesday through Saturday night, I didn't touch a computer (with a single
-exception, to correct an important issue). While this may sound hilariously
+exception, to correct an important issue).  While this may sound hilariously
 simple: I feel great!
 
 The first day was pretty hard to make it through--I had no idea what to do with
-myself. The second day was much easier--I accepted that I wasn't going to be
-doing any coding, and just went with the flow. Had a lot of fun with my family,
-ate a lot of turkey, and most of all, got to really relax for the first time in
-a while.
+myself.  The second day was much easier--I accepted that I wasn't going to be
+doing any coding, and just went with the flow.  Had a lot of fun with my
+family, ate a lot of turkey, and most of all, got to really relax for the first
+time in a while.
 
 On the third day, my brain kicked into creative mode, and since then I've had a
 ton of great ideas (for work, personal projects, and personal development
 things) which I'm excited to implement over the coming months.
 
 Although it is common knowledge, I now see exactly how effective taking a break
-can be. I'll definitely be doing this more frequently.
+can be.  I'll definitely be doing this more frequently.
 
-#### Tags
 
-philosophy
-
-#### 1184 views and 0 responses
-
-  [Previous]: ../../../posts/2012/11/why-you-might-enjoy-using-dnsimple.html
-  [Index]: ../../../index.html
-  [Next]: ../../../posts/2012/11/improvement-and-perfection.html
-  []: ../../../image/2012/11/45997705-turkey.jpg
+  [Turkey Sketch]: |filename|/images/2012/turkey-sketch.png "Turkey Sketch"
