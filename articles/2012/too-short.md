@@ -1,19 +1,15 @@
-# Randall Degges
+Title: Too Short
+Date: 2012-10-23
+Tags: personal development
 
-## This is an archived post This is an archived post
 
-[Previous][]   [Index][]   [Next][]
+![Owl Face Sketch][]
 
-### Too Short
-
-October 23 2012, 3:28 PM  by Randall Degges
-
-![][]
 
 Some quick thoughts about how life is just too short to do stuff you hate.
 
 If you're an engineer working on a product you can't stand, it really isn't
-worth it to stick around and keep working on the same thing. If you can code
+worth it to stick around and keep working on the same thing.  If you can code
 things, you have the power (quite literally) to build your own wealth, however
 you choose.
 
@@ -27,27 +23,19 @@ Since work is such a large part of life, slaving away on products you hate is
 probably the fastest way to build stress, burn yourself out, and lower your
 morale.
 
-If you're stuck in a position you don't want to be in, call in sick for a day or
-two and really think about what you want to do with your time:
+If you're stuck in a position you don't want to be in, call in sick for a day
+or two and really think about what you want to do with your time:
 
 -   Is there something amazing you want to build?
 -   Is there something you really enjoy doing that you're not doing now?
 -   Can you use your skills in a better way than you are now?
 
-Once you've thought it through, don't go easy on yourself. Make a decision. Hold
-your ground. Things always seems crazy at first (until you do them), so don't
-let your fear make your decisions for you.
+Once you've thought it through, don't go easy on yourself.  Make a decision.
+Hold your ground.  Things always seems crazy at first (until you do them), so
+don't let your fear make your decisions for you.
 
 There's just not enough time in life to do things you hate, so instead of
 wasting your time away, just do the things you love to do.
 
-#### Tags
 
-programming, philosophy
-
-#### 1785 views and 0 responses
-
-  [Previous]: ../../../posts/2012/11/ambitions.html
-  [Index]: ../../../index.html
-  [Next]: ../../../posts/2012/10/hack-things-at-the-la-hackathon.html
-  []: ../../../image/2012/10/45312025-owl.jpg
+  [Owl Face Sketch]: |filename|/images/2012/owl-face-sketch.png "Owl Face Sketch"
