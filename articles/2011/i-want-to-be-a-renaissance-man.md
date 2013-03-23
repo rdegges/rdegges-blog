@@ -15,7 +15,7 @@ Throughout my life, I've been extremely interested in several different things:
     equipment.
 -   **Video Games.**  When my family got our first computer system, it was
     preloaded with [Wolfenstein 3D][], Tyrant, and several other games.  I was
-    immediately addicted to them.  My brother and I would go to extrodinary
+    immediately addicted to them.  My brother and I would go to extraordinary
     lengths to extend our daily computer time beyond the 1 hour my parents
     alloted to us, and we would eventually dominate both games, and unlock all
     the fun cheat codes.  And don't even get me started on Diablo II and
