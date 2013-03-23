@@ -96,4 +96,4 @@ in detail, highlighting the pain points of deployment.
   [memcached]: http://memcached.org/ "memcached"
   [Redis]: http://redis.io/ "Redis"
   [postgresql]: http://www.postgresql.org/ "PostgreSQL"
-  [here]: |fliename|/articles/2011/devops-django-part-2-the-pain-of-deployment.md "DevOps Django - Part 2 - The Pain of Deployment"
+  [here]: |filename|/articles/2011/devops-django-part-2-the-pain-of-deployment.md "DevOps Django - Part 2 - The Pain of Deployment"
