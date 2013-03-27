@@ -150,7 +150,7 @@ Take small steps.  Here are some great ways to get started:
     things, stop reading news, and don't participate in negative conversations
     with friends and family.
 -   Keep your goal in mind at all times.  Throughout the day you should tell
-    yourself (especailly when you're feeling negative) that your goal is to
+    yourself (especially when you're feeling negative) that your goal is to
     become a better person, and the only way to do that is to consciously work
     at it!  If you need motivation, don't feel bad about getting help: watching
     motivational videos, listening to your favorite songs, etc.
