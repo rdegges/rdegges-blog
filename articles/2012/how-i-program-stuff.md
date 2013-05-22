@@ -32,7 +32,7 @@ I try to make every piece of code I touch a bit more like me (for better or
 worse).  With the above in mind, here's my method for programming stuff.
 
 
-### Step 1 - Isolate
+## Step 1 - Isolate
 
 ![Buddha Statue][]
 
@@ -68,7 +68,7 @@ researching relevant information, best practices, and learning skills that can
 help me do what needs to be done.
 
 
-### Step 2 - Eliminate
+## Step 2 - Eliminate
 
 ![rm -rf][]
 
@@ -89,7 +89,7 @@ simply stopping us from coding.  In this case, it is our duty to eliminate all
 distractions and return to our natural state!
 
 
-### Step 3 - Code Ruthlessly
+## Step 3 - Code Ruthlessly
 
 ![Fist][]
 

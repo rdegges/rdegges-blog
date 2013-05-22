@@ -13,7 +13,7 @@ coders interested in startups, best-practices, telephony, python, or any
 combination of those items may be interested.
 
 
-### Where I Work
+## Where I Work
 
 Several months ago (in early February, 2010), I took a job offer to work at
 *RCG Communications, LLC*, which is a small (but highly profitable)
@@ -28,7 +28,7 @@ code and services to our other companies (this will make code ownership rights
 far less confusing).
 
 
-### Why I Took the Job
+## Why I Took the Job
 
 At my previous job with [Fonality][] (an awesome mid-size tech company), I
 worked extensively with Asterisk, Linux, and all sorts of telephony stuff.  It
@@ -52,7 +52,7 @@ programmer with my qualifications, and I really needed a new project with lots
 of challenges and opportunity.
 
 
-### What Our Companies Do
+## What Our Companies Do
 
 *RCG Communications* and *RCI Telecommunications* both offer the same service:
 a free telephone-based conferencing service with a hosted web portal.
@@ -62,7 +62,7 @@ for other VoIP and telephony companies.  We offer domestic and international
 termination (in bulk) for fractions of the cost of other large providers.
 
 
-### Our Teleconferencing Platform
+## Our Teleconferencing Platform
 
 Our teleconferencing platform is currently the main focus of my work.  It is a
 pretty large system, which has been written using the latest tech and best
@@ -101,7 +101,7 @@ We have hundreds of users online at any given moment, and are madly trying to
 solve our growing pains and scale efficiently.
 
 
-### Current Status
+## Current Status
 
 Since I started working on the project, we've made a lot of changes.
 
@@ -120,7 +120,7 @@ details on this coming soon), and provide a truly awesome telephony core that
 will be easy to maintain, bug fix, and provide features for.
 
 
-### Life is Good
+## Life is Good
 
 I've really been enjoying these past few months.  I've had a chance to build
 some really awesome software, learn a lot of new techniques and best-practices,

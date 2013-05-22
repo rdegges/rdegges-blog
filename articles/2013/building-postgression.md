@@ -36,7 +36,7 @@ appreciate the technical aspects.  From here on out things are going to get
 technical :)
 
 
-### Tools
+## Tools
 
 To build postgression Alven and I used [Flask][], a popular Python web
 framework.  We ended up using the following Python libraries:
@@ -66,7 +66,7 @@ service.  If you're interested in a sexy dashboard for your company (or
 personal projects), you should check them out!
 
 
-### The Backbone of It All: Heroku
+## The Backbone of It All: Heroku
 
 As you can probably imagine (after seeing the tools listed above), Heroku is
 really the core of postgression, and is what makes the service possible (and
@@ -113,7 +113,7 @@ us to run postgression, along with a price breakdown:
 Total cost for running this service (per month)?  **~11$**
 
 
-### Flask and APIs
+## Flask and APIs
 
 As I mentioned earlier, we wrote the code for postgression in python and Flask.
 Why did we choose these technologies?  A few reasons:
@@ -162,7 +162,7 @@ Simple, right?  When it all comes together, we get the following behavior
 ![postgression API][]
 
 
-### Database Layout
+## Database Layout
 
 As I mentioned above, postgression uses PostgreSQL itself to keep track of all
 the Heroku resources it consumes.  This makes it easy for us to keep track of
@@ -189,7 +189,7 @@ Here's how they ended up looking:
 ![postgression Models][]
 
 
-### Management Commands and Monitoring
+## Management Commands and Monitoring
 
 In order to automatically send statistics to our shiny new ducksboard dashboard
 (pictured below), we used Flask-Script to write some simple management commands
@@ -206,7 +206,7 @@ we can run with the `python manage.py blah` command.
 Pretty easy, right?
 
 
-### Building our Website with GitHub Pages
+## Building our Website with GitHub Pages
 
 The last thing we did was throw together a simple website using GitHub Pages.
 While Alven and I can both throw together a simple website, we figured we'd
@@ -223,7 +223,7 @@ The end result?  We got the public website going
 ([http://www.postgression.com/][postgression]) in about 10 minutes.
 
 
-### Takeaways
+## Takeaways
 
 Building postgression has been really fun.  While it's not a complex project by
 any means, it's been on my TODO list for a while, and throwing it online has

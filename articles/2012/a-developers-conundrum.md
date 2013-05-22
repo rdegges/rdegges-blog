@@ -63,7 +63,7 @@ application design, I'm constantly battling with myself over factor 10,
 [dev-prod parity][].
 
 
-### Dev / Prod Parity
+## Dev / Prod Parity
 
 When you write software (web software in particular), the environment you're
 writing your code in is often very different from the environment which you're
@@ -93,7 +93,7 @@ whatever you use to host your sites).
 write good code, and minimize dev / prod parity.*
 
 
-### The Difficulty
+## The Difficulty
 
 The difficult thing about minimizing dev / prod parity (for me), is minimizing
 *pain*.  It is really painful, for example, to develop a site locally (on my
@@ -128,7 +128,7 @@ have to (among other things):
 Ugh.
 
 
-### Complexity
+## Complexity
 
 I realize that complexity is a major issue here.
 
@@ -142,7 +142,7 @@ configurations: one for development, and one for production.
 But which is worse?
 
 
-### What I'm Doing
+## What I'm Doing
 
 Up until now, I've always found it a lot *cleaner* to maintain different
 application environments: one for development and one for production.  This

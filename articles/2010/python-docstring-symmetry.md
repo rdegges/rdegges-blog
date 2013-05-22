@@ -19,7 +19,7 @@ that.
 However, I hate to say it, but: **PEP-257 is bullshit**.
 
 
-### What I Like About PEP-257
+## What I Like About PEP-257
 
 I don't hate *everything* about PEP-257, so before I get to the bad part, let
 me start by talking briefly about what I like.
@@ -59,7 +59,7 @@ So, as you can (hopefully) see, I'm not some crazy rebel who hates standard
 conventions or anything.  I love order just as much as the next programmer.
 
 
-### Where PEP-257 Goes Crazy
+## Where PEP-257 Goes Crazy
 
 The main bulk of PEP-257 is describing how multi-line docstrings should look,
 and this is where things get ugly.
@@ -112,7 +112,7 @@ the opening triple quotes.  It also seems unnecessary to add an extra blank
 line at the end of each docstring.
 
 
-### What I Propose
+## What I Propose
 
 Instead of listening to PEP-257, I suggest that Python developers instead adapt
 my style:

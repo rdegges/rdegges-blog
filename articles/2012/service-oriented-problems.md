@@ -14,7 +14,7 @@ For the rest of this article, I'm going to assume you have some basic web
 application programming experience.
 
 
-### Problem 1 - MVP
+## Problem 1 - MVP
 
 One of the largest complaints you'll hear about writing service oriented web
 applications is that it takes longer to build a working MVP (minimum viable
@@ -64,7 +64,7 @@ quicker to hack together a single monolithic project as opposed to a nicely
 modularized service oriented architecture.
 
 
-### Problem 2 - Authentication Implementation
+## Problem 2 - Authentication Implementation
 
 If you've never written service oriented web applications before, the first
 time you give it a try you'll likely bump into a frustrating problem: handling
@@ -109,7 +109,7 @@ framework), the solution is to use the wonderful third party application:
 Regardless of your tool set, this is almost always a problem people bump into.
 
 
-### Problem 3 - Cost
+## Problem 3 - Cost
 
 Another issue people frequently bring up when discussing SOA is cost.
 Depending on your application requirements, cost can quickly become a
@@ -133,7 +133,7 @@ scale up when your usage gets higher, and begin paying for higher levels of
 service as your application grows.
 
 
-### Problem 4 - Documentation
+## Problem 4 - Documentation
 
 Quite possibly the largest SOA issue you'll face if you decide to write service
 oriented web applications is that there is very little practical documentation
@@ -156,7 +156,7 @@ years there will be a large amount of books, tutorials, and guides written
 covering these topics in more depth.
 
 
-### Wrap Up
+## Wrap Up
 
 If you've read all the way down to here, you probably have a good understanding
 of the challenges you'll face writing service oriented web applications.

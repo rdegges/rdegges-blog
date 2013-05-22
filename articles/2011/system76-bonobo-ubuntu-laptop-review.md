@@ -39,7 +39,7 @@ installing Ubuntu on the laptop, and to my dismay, there are no video card
 drivers available.  *Damn.*
 
 
-### System76
+## System76
 
 After having several awful Linux laptop experiences, I asked some friends to
 recommend a decent hardware vendor with full Linux support.  That's when I
@@ -60,7 +60,7 @@ having a large screen is important for my day-to-day work flow.
 With the background out of the way, here's my review of the actual laptop.
 
 
-### First Impressions
+## First Impressions
 
 System76 did a great job on first impressions.  You know how most laptops
 typically come in awful boxes, filled with tons of spam?  System76 doesn't do
@@ -87,7 +87,7 @@ laptop a really nice clean look, and it's refreshing to not be bombarded by
 hardware ads.
 
 
-### Software Support
+## Software Support
 
 After working my way through the first boot process just to see what it was
 like (it was fine), I popped in my own Ubuntu 11.04 CD and formatted the box.
@@ -100,14 +100,14 @@ was a pretty great feeling to get everything installed fresh with no issues
 whatsoever.
 
 
-### Speed
+## Speed
 
 This thing is fast.  Really, insanely fast.  I don't have much else to say
 about this, except that I've never had such a fast System.  Ubuntu boots in
 less than 2 seconds, consistently.
 
 
-### Pricing
+## Pricing
 
 If you've ever purchased a laptop online from a major hardware vendor (Dell,
 HP, etc.), you'll notice that when customizing the laptop components, you've
@@ -125,7 +125,7 @@ While this laptop was expensive (I paid ~1,800$), its hardware stats are
 comparable to similarly priced HP laptops.
 
 
-### Problems
+## Problems
 
 **NOTE**: I've only been using this laptop for two weeks so far.  If I
 experience any other problems I'll update this post to include them.
@@ -150,7 +150,7 @@ but I assume that when I do, my carrying case will be at least a few pounds
 heavier with the cord inside.
 
 
-### Conclusion
+## Conclusion
 
 System76 makes a damn good laptop, as far as I'm concerned.  Despite a few
 minor flaws, this thing has been excellent.  I can honestly say that I've never

@@ -25,7 +25,7 @@ happy with the results.  Through the process of writing each day, I've learned
 a lot about writing, communication, and more importantly, myself.
 
 
-### Writing
+## Writing
 
 Writing is all about expression.  Probably the most important thing I've
 learned so far is that if you suck at writing then, chances are, you suck at
@@ -54,7 +54,7 @@ you know what?  It didn't happen.  Not until I decided to actually commit to
 writing each day, did I finally make the breakthrough I was looking for.
 
 
-### A Breakthrough
+## A Breakthrough
 
 By looking at writing as part of my life, as central piece of who I am--writing
 has become so much easier.  While I've mentioned this [before][], I think it
@@ -91,7 +91,7 @@ thoughts onto paper, I've become extremely attached.  The process of writing
 each day feels good, and has become a critical part of my daily routine.
 
 
-### Benefits
+## Benefits
 
 While I'm in **no way** a good writer now, I feel a lot more comfortable
 writing, explaining my ideas, and sharing information with other people.
@@ -124,7 +124,7 @@ made a profound impact in my day-to-day life, and I've found new ways to
 incorporate my new self understand into my habit building regimen.
 
 
-### Final Thoughts
+## Final Thoughts
 
 Of all the habits I've built, writing has been my favorite.  The benefits are
 vast, the payoff is great, and it's internally rewarding to work on.

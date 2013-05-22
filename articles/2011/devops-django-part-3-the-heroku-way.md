@@ -10,7 +10,7 @@ probably read the [first article][] of the series before this one.
 ![Deploying Django Meme][]
 
 
-### My Search for Solutions
+## My Search for Solutions
 
 In the [previous installment][] of this series, I discussed (in depth) the
 problems with deploying Django as a devops guy.  After struggling with
@@ -44,7 +44,7 @@ and see what the platform really had to offer other than what I used during my
 short sprint.
 
 
-### A Second Look
+## A Second Look
 
 Later that week, I had a few hours to kill, so I revisited Heroku's website,
 and read through all their [help resources][] and tutorials.  I also took an
@@ -78,7 +78,7 @@ So, I checked out a fresh copy of the teleconferencing service that I develop
 at work, and got to it.
 
 
-### How I Ported My Work Application to Heroku
+## How I Ported My Work Application to Heroku
 
 If you'd like to see details about what technologies the teleconferencing
 service uses, check out the [previous part][previous installment] of this
@@ -339,7 +339,7 @@ worker processes using: `heroku scale worker=x`, while keeping only a single
 scheduler.
 
 
-### A Quick Recap
+## A Quick Recap
 
 It took me a total of ~2 hours to:
 
@@ -363,7 +363,7 @@ puppet repository, or anything.
 Heroku makes deployment so easy, you don't even need a [fabfile][].
 
 
-### The Heroku Way
+## The Heroku Way
 
 Through the process of learning, using, and eventually moving my company's
 entire infrastructure over to Heroku, I learned quite a bit about Heroku's

@@ -14,7 +14,7 @@ I figured now would be a good time to reflect on what I've learned so far.
 Above all else, what I've learned so far is that
 
 
-### Practice Works
+## Practice Works
 
 I've read numerous books on skill building, including one of my all time
 favorites, [Talent is Overrated][].  The book discusses how people who are
@@ -50,7 +50,7 @@ thinking, gradually refining it.  This feels great.  It feels like the shackles
 that have held me back from expressing my thoughts are beginning to loosen.
 
 
-### Goals
+## Goals
 
 I don't have any specific goals in regards to my writing at the moment.  At
 least for a while, I'd like to simply continue writing for 30 minutes each day,

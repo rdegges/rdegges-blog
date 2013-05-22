@@ -11,7 +11,7 @@ like to take a few minutes to enumerate some of my favorite tools that help me
 write better Python code faster.
 
 
-### GitHub
+## GitHub
 
 Although you're likely already using [Github][] for hosting all of your
 projects (both open source, and closed source), if you aren't, you need to
@@ -21,7 +21,7 @@ for making your project easy to work on, easy to get assistance with, easy to
 discover, and tons of other things.
 
 
-### Vim + pyflakes
+## Vim + pyflakes
 
 Ok, so [Vim][] may not be entirely necessary, but [pyflakes][] definitely is.
 pyflakes is an awesome python project that integrates with Vim, and allows you
@@ -37,11 +37,10 @@ disturbing your train of thought.
 
 Here's a little screen shot of pyflakes in action:
 
-
 ![pyflakes Screenshot][]
 
 
-### Sphinx
+## Sphinx
 
 Writing good documentation is essential for good projects.  Good technical
 documentation is what separates decent projects from amazing projects.  If you
@@ -59,7 +58,7 @@ add a CSS file, and you can easily change the entire look and feel of your
 documentation.
 
 
-### Read The Docs
+## Read The Docs
 
 [ReadTheDocs][] is a relatively new (and highly regarded) Sphinx documentation
 hosting site.  It provides free documentation hosting for Sphinx projects,
@@ -74,7 +73,7 @@ you make updates, and lots of other goodies.  If you aren't using it, you
 should be.
 
 
-### virtualenv
+## virtualenv
 
 As any frequent Python programmer will tell you, having tons of Python packages
 installed on your OS of choice is a *pain-in-the-ass*.  Projects all require

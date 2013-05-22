@@ -17,7 +17,7 @@ otherwise.  Since I'm in a neutral mood right now, I figured I'd throw my
 opinions up here to contribute to the discussion.
 
 
-### Exhaustion
+## Exhaustion
 
 When I'm exhausted with personal development, I tend to not do much to fix it.
 Instead of consciously seeking out ways to get out of my slump, I'll usually
@@ -33,7 +33,7 @@ The real problem arises when after you've sufficiently recovered, you still
 can't get yourself back into the development phase again.
 
 
-### The War Motive
+## The War Motive
 
 To me, nothing is more motivating than a big life or death challenge.  We've
 all seen this in movies, and read about it in books.

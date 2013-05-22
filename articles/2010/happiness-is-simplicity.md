@@ -12,14 +12,14 @@ what makes everyone happy, as I'm certain that it is different for every
 individual, but I believe that I've discovered what makes me happy: simplicity.
 
 
-### What My Happiness Isn't
+## What My Happiness Isn't
 
 To fully explain what my happiness is (as it may be hard for some people to
 understand), I'll start by explaining several things that my happiness
 distinctly isn't.
 
 
-#### 'Fuck You' Money
+### 'Fuck You' Money
 
 I frequently see threads on [HackerNews][] where I see users discussing how
 they want to make their own successful startup, work hard for a year or two,
@@ -52,7 +52,7 @@ My only luxury purchases are books (but I've got a lot of catching up to do, so
 won't buy any others for a while).
 
 
-#### Short Workweeks
+### Short Workweeks
 
 I'm a big fan of books.  I read everyday, and love it.  Most of the
 [books I read][] are tech related, but I also enjoy business and lifestyle
@@ -70,7 +70,7 @@ I'm not saying that I want to work 24 hours a day, 7 days a week, 365 days a
 year--I *highly* value time off--but I do enjoy working.
 
 
-#### Religion
+### Religion
 
 Just some quick background: my father was a Christian minister for years, and
 is now the president of a large Christian organization.  My mother as well as
@@ -92,14 +92,14 @@ has been a very liberating experience in my life, and constantly reminds me how
 lucky I am to be here, and how precious every day is.
 
 
-### What My Happiness Is
+## What My Happiness Is
 
 The things that truly make me happy are simple pleasures.  Some of them I've
 only recently come to terms with, and some have been clear to me for as long as
 I can remember.
 
 
-#### Silence
+### Silence
 
 Silence is highly underrated.  I've noticed more and more as I've grown up,
 that most people tend to be afraid of silence.
@@ -116,7 +116,7 @@ the ocean, the sun rising over the mountains, the short time I lie in bed
 before falling asleep-they all make me happy.
 
 
-#### Love
+### Love
 
 I got married recently (April 3, 2010) to my high school sweetheart.  I've
 loved her for a long time, and couldn't possibly be happier with another
@@ -131,7 +131,7 @@ Falling asleep together at night, waking up together in the morning, and
 talking to each other throughout the day all make life so much better.
 
 
-#### Nature
+### Nature
 
 Another simple (and underrated) pleasure is nature.
 
@@ -148,7 +148,7 @@ Feeling that I'm a part of something much larger and more important than myself
 is a good feeling.  It makes me feel happy, peaceful, and relaxed.
 
 
-### Simplicity
+## Simplicity
 
 I like to think that I lead a simple life.  I eat, sleep, work, learn, and
 play.

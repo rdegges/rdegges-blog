@@ -36,7 +36,7 @@ remains friendly, accessible, and effective--we (as developers) need to do all
 we can to promote best practices and effective collaboration.
 
 
-### Maintainers
+## Maintainers
 
 Maintaining open source projects is hard--it requires time, energy, and good
 communication.  The principles outlined here should be applied to all open
@@ -54,7 +54,7 @@ going through and crossing off each requirement until your project is fully
 compliant.
 
 
-#### 1. Write Official Documentation
+### 1. Write Official Documentation
 
 The first requirement for any open source project is that it has good
 documentation for prospective users.  There is absolutely no excuse for not
@@ -121,7 +121,7 @@ Some things to take note of:
         project (v0.1, v0.2, etc...).
 
 
-#### 2. Use Git Flow
+### 2. Use Git Flow
 
 [git-flow][] is a popular Git branching model (and add-on) that provides a
 simple way to work with stable projects.  The idea of git-flow is that each
@@ -151,7 +151,7 @@ To learn more about git-flow, read the following posts (in order):
 -   [http://codesherpas.com/screencasts/on_the_path_gitflow.mov][]
 
 
-#### 3. Publish Test Runs
+### 3. Publish Test Runs
 
 If you don't write tests for your code, [read this][] before you go any
 further.  As I'm sure you know, tests are essentially worthless if they aren't
@@ -191,7 +191,7 @@ build your projects.  If you are using Jenkins, be sure to link users (from
 your documentation) to your Jenkins web page so they can view your test builds.
 
 
-#### 4. Use GitHub Issues
+### 4. Use GitHub Issues
 
 GitHub issues is the best way to track issues for your project, and you should
 encourage your users (and contributors) to use it for:
@@ -210,7 +210,7 @@ maintained also strongly encourages new contributors to work on the project, as
 they can easily find issues and fix them for you.
 
 
-### Contributors
+## Contributors
 
 Contributing code to open source projects can be difficult, exciting, scary,
 and rewarding.  This section is aimed at helping you successfully contribute
@@ -221,7 +221,7 @@ section--the tips below are ordered by importance, and can be followed as a
 checklist.
 
 
-#### 1. Read the Project Documentation
+### 1. Read the Project Documentation
 
 If the project you're attempting to contribute to has any official
 documentation, be sure to read all of it before submitting any code.  Often
@@ -237,7 +237,7 @@ containing code which adds Skype support--as the project is most likely
 focusing entirely on IRC.
 
 
-#### 2. Look at the Issue Tracker
+### 2. Look at the Issue Tracker
 
 Before writing your first line of code, be sure to scan through the project's
 issue tracker.
@@ -259,7 +259,7 @@ expects you to submit code, and has a good idea of what to look for and
 inspect.
 
 
-#### 3. Comply to Style Guidelines
+### 3. Comply to Style Guidelines
 
 Almost every project has a distinct style of code.  Whenever you submit code to
 a project, be sure that your code complies with the already existing style.
@@ -274,7 +274,7 @@ code will be uniform, easier to scan through, easier to debug, and easier to
 maintain over time.
 
 
-#### 4. Unsure? Ask!
+### 4. Unsure? Ask!
 
 If you're unsure about anything--whether it be coding style, development work
 flow, wording, whatever--try not to make assumptions, ask!
@@ -290,7 +290,7 @@ Discussing questions before submitting code is a great way to make new friends,
 learn cool things, and generally enjoy your open source experience a lot more.
 
 
-### Have Fun
+## Have Fun
 
 Maintaining and contributing to open source projects is a lot of fun.  There's
 nothing quite like the rush you get by creating something entirely new, and

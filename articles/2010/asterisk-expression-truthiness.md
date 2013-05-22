@@ -16,7 +16,7 @@ If you're unfamiliar with Asterisk coding, you should read this
 an older version of Asterisk, this may not be *completely* true.
 
 
-### Asterisk Expression Basics
+## Asterisk Expression Basics
 
 Asterisk [expressions][] are used in various Asterisk dial plan applications,
 to help control the flow of your program.  They are typically used as if
@@ -69,7 +69,7 @@ As you can see, expressions provide most common logical operators like `AND`,
 `OR`, `NOT`, etc.
 
 
-### Truthiness
+## Truthiness
 
 In an attempt to demonstrate the truthiness of Asterisk expression, I'll
 dissect the FreePBX code shown in the previous section.
@@ -88,7 +88,7 @@ take my answers to be true (I've tested them, I promise!), or test it for
 yourself.
 
 
-#### Test 1
+### Test 1
 
 The first thing we'll test is what happens if the `MOHCLASS` doesn't exist?
 
@@ -102,7 +102,7 @@ That means that, `$["${MOHCLASS}" = ""]` can be used to test whether or not the
 `MOHCLASS` variable exists.
 
 
-#### Test 2
+### Test 2
 
 In this test, we'll see what happens if `MOHCLASS` has been defined, and set to
 a line of text.
@@ -117,7 +117,7 @@ This time, the expressions returns false (0).  This makes sense, as we wouldn't
 expect Asterisk to think that both `""` and `hithere` are equal.
 
 
-#### Test 3
+### Test 3
 
 Now, let's see what happens if `MOHCLASS` is defined, and set to 0 (false).
 
@@ -130,7 +130,7 @@ exten => s,n(dial),NoOp()
 Surprisingly, the expressions resolves to false.  Therefore, `0` != `""`.
 
 
-#### Test 4
+### Test 4
 
 How about if `MOHCLASS` is defined, but not assigned any value?
 
@@ -145,7 +145,7 @@ checking of the variable is equal to an empty string, e.g. `""`, will return
 true.
 
 
-#### Test 5
+### Test 5
 
 And what if `MOHCLASS` is set to the empty string?
 
@@ -158,7 +158,7 @@ exten => s,n(dial),NoOp()
 Again, it resolves to true (1).  So, as expected, `""` = `""`.
 
 
-### Truthiness Table
+## Truthiness Table
 
 To summarize what we've learned, here's a simple truthiness table:
 
@@ -177,7 +177,7 @@ when it comes to truthiness.  The only surprising expression we encountered was
 the: `0 = ""` expression, which is *not* true.
 
 
-### Questions?
+## Questions?
 
 Got any questions?  Feel free to [shoot me an email][] or message me on
 [twitter][].

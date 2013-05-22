@@ -30,16 +30,16 @@ install the latest version of Asterisk stable, so we might as well update our
 operating system and packages.
 
 
-### Installing Dependencies
+## Installing Dependencies
 
-#### CentOS
+### CentOS
 
 You can skip this step as [Digium][] provides yum repositories which will
 automatically install the latest version of Asterisk for us as well as any
 dependencies.
 
 
-#### Ubuntu
+### Ubuntu
 
 First of all, let's install the appropriate kernel sources.  We will need these
 to build against.  To figure out what kernel version you're using, run the
@@ -109,7 +109,7 @@ adjustment with `ntpdate`.
 If you'd like to install `ntp`, just run: `apt-get install ntp`.
 
 
-### Installing Asterisk
+## Installing Asterisk
 
 Now that we've got our dependencies worked out, it's time to actually install
 Asterisk!  We'll install DAHDI, Asterisk, Asterisk Addons, and all of the
@@ -117,7 +117,7 @@ Asterisk default sound files.  We'll also ensure that Asterisk starts at boot,
 and runs as a system service.
 
 
-#### CentOS
+### CentOS
 
 As a disclaimer, these instructions have been largely taken from Digium's
 website.  They have excellent documentation for installing Asterisk using their
@@ -175,7 +175,7 @@ Asterisk 1.6.0.25 built by root @ localhost.localdomain on a i686 running Linux 
 ```
 
 
-### Ubuntu
+## Ubuntu
 
 To install Asterisk on Ubuntu, we need to compile it from source.
 
@@ -255,7 +255,7 @@ Asterisk 1.6.2.5 built by root @ ubuntu on a i686 running Linux on 2010-02-28 22
 ```
 
 
-### Conclusion
+## Conclusion
 
 Now that you've got DAHDI, Libpri, Asterisk, and Asterisk-Addons installed,
 your server is ready for production usage!

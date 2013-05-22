@@ -24,7 +24,7 @@ file(s) should allow me to:
 -   Easily test and deploy code to each specific environment.
 
 
-### Old Habits Die Hard
+## Old Habits Die Hard
 
 I'd like to quickly discuss why I think most people design their settings
 file(s) wrong.
@@ -60,7 +60,7 @@ scenario of fail:
 *There is a better way!*
 
 
-### Write a Settings Module
+## Write a Settings Module
 
 Instead of maintaining multiple flat settings files, build a settings module.
 Go ahead and `rm` your `settings.py` file, and in its place, create a new

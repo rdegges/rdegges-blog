@@ -12,7 +12,7 @@ deployment system.  I eventually hope to discuss the entire thing, how we
 built it, and what revisions we make.
 
 
-### Why Deploying Can Be Painful
+## Why Deploying Can Be Painful
 
 Most programmers hate deploying code.  I certainly did until this past year.
 Deploying code is (often times) much harder than writing the code itself.
@@ -53,7 +53,7 @@ something about it.  We wanted to build a deployment system to make our lives
 easier, our coding more effective, and our company more efficient.
 
 
-### Our Requirements
+## Our Requirements
 
 When we started planning out our deployment system and doing research, we
 generated a list of requirements that (more or less) must be met by the system
@@ -121,7 +121,7 @@ not end up wasting our time dealing with issues that are best solved
 automatically.
 
 
-### Conclusion
+## Conclusion
 
 What are your experiences with deployment?  I'm extremely glad that we decided
 to tackle this issue recently.  We've still got quite a while to go before our

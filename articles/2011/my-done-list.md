@@ -20,7 +20,7 @@ my code quality and programming mentality, I figured I would share it despite
 my shame.
 
 
-### Have a "Done" List
+## Have a "Done" List
 
 One of the greatest productivity tricks I've learned has been this: *always
 have a "done" list*.

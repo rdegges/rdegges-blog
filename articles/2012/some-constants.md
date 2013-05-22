@@ -20,7 +20,7 @@ These are the things that make me feel awesome every day, regardless of whether
 or not I'm feeling my best.
 
 
-### Lifting Weights
+## Lifting Weights
 
 *PICK STUFF UP, AND PUT IT DOWN AGAIN.*  I know that everyone has their
 preferred form of exercise, but for me, it is lifting weights.  The first thing
@@ -35,7 +35,7 @@ Getting a win early in the day feels good, keeps me motivated, and generally
 makes me feel more awesome.
 
 
-### Reading
+## Reading
 
 I read a lot of books.  I'm really into software best practices, programming,
 and theory books.  (*As a sidenote, basically every book
@@ -54,7 +54,7 @@ Get a [Kindle][], download some ebooks, visit your library--whatever.  Just
 read stuff.  More.
 
 
-### Eating Meat
+## Eating Meat
 
 *MEEEAAAATTTT!*  Meat tastes good, it's filled with protein, makes you feel
 full, and is low on calories.  What could be better?
@@ -65,7 +65,7 @@ favorite dishes at the moment are almond chicken, meatballs with sauteed
 onions, and everyone's favorite: bacon.
 
 
-### Writing
+## Writing
 
 Writing is very therapeutic.  The act of analyzing your thoughts, figuring out
 what they mean, and then translating that meaning into groupings of words that

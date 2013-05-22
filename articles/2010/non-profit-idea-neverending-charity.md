@@ -18,7 +18,7 @@ My first idea (I've had this floating around in the back of my head for quite
 some time now) is called...
 
 
-### Neverending Charity
+## Neverending Charity
 
 Neverending Charity is a non-profit organization that accepts monetary
 donations, and places them into high-yield savings accounts.
@@ -39,7 +39,7 @@ worry about recessions, or anything like that), and will be able to provide an
 eternity of awesomeness without worry.
 
 
-### The Problem With Current Charities
+## The Problem With Current Charities
 
 I really love charities.  Any group that can really change the world is a good
 thing.
@@ -57,7 +57,7 @@ fan pages, twitter accounts, and performing SEO optimization on the website can
 all be done with very little effort and cost.
 
 
-### The Math
+## The Math
 
 Obviously, the downside to Neverending Charity is that you aren't generating
 enormous donations every month (at least, not initially).  So let's do some
@@ -92,7 +92,7 @@ Since Neverending Charity will last forever, the cumulative effort of all
 contributers will make a large difference when combined.
 
 
-### Making it Interesting
+## Making it Interesting
 
 Neverending Charity really appeals to me (as a programmer), because it can be
 automated to such an enormous extent.  Given enough donations and popularity,
@@ -115,7 +115,7 @@ Democratizing the charity process is something I haven't seen done before, and
 could be an extremely popular premise.
 
 
-### Wrap Up
+## Wrap Up
 
 So, in a nutshell, Neverending Charity will be a non-profit group that
 leverages the power of the internet, large amounts of people, and banks to make

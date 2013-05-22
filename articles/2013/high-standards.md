@@ -15,7 +15,7 @@ standards will almost immediately force personal growth, and will help you live
 up to your potential day after day -- it's also *really simple* to execute.
 
 
-### Be Ruthless With Yourself
+## Be Ruthless With Yourself
 
 If you're anything like me, although you enjoy improving yourself (mentally,
 physically, whatever), you probably view yourself as a work in progress, and as
@@ -41,7 +41,7 @@ under pressure (from myself) to act or live up to a certain standard, it's much
 easier for me to accomplish my goals.
 
 
-### Developing Standards
+## Developing Standards
 
 If you've never formally listed what your personal goals are, you should take a
 few minutes to do so now.  Create a Google doc named *Growth*, and make a list
@@ -74,7 +74,7 @@ important because it motivates you to be more like those people you look up to
 so much.
 
 
-### Respect Yourself
+## Respect Yourself
 
 Once you've clearly defined the person you want to become, working towards your
 ideal self becomes that much easier.  Respect yourself for striving to reach

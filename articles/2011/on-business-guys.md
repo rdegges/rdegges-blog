@@ -19,7 +19,7 @@ experiences.  Furthermore: I'm not saying I'm right--I'm simply arguing my
 point of view.  Feel free to disagree with me!
 
 
-### Why Now?
+## Why Now?
 
 As most of you know, I'm a pretty big fan of [Hacker News][].  I've been
 extremely interested in the startup and tech community for many years, and the
@@ -56,7 +56,7 @@ the same patterns emerge over and over again, I figured now is as good a time
 as any to throw my thoughts out there into the mix, so here it goes.
 
 
-### Technical Guys are Fucking SMART
+## Technical Guys are Fucking SMART
 
 The kind of techies who work at startups, read Hacker News, and build side
 projects on their free time are *SMART*.  The amount of passion, dedication,
@@ -102,7 +102,7 @@ knowledge they've already acquired--learning business and marketing concepts
 are astoundingly simple in comparison.
 
 
-### Business Guys... Not So Much
+## Business Guys... Not So Much
 
 As a non-technical business guy, your knowledge is at best extremely limited.
 You're at a severe disadvantage:
@@ -123,7 +123,7 @@ necessary skills to build solutions to your problems.  This means that you are
 essentially replaceable by technology.
 
 
-### No Incentive
+## No Incentive
 
 What it comes down to is that technical guys really don't have any incentives
 to work with business guys.  Let's say that in a best-case scenario, a business
@@ -165,7 +165,7 @@ to problems without business guys, as the engineers will have:
     more successful over time.
 
 
-### What to Do
+## What to Do
 
 Although this post comes off as extremely hostile towards "business guys", that
 is really not my intention.  Instead, I hope to give "business guys" some true
@@ -179,7 +179,7 @@ willpower to "retrain" themselves.  While it definitely involves a lot of work
 and dedication, the benefits are lifelong.
 
 
-### TLDR;
+## TLDR;
 
 If you're a "business guy", instead of trying to find a "tech guy" to work
 with, consider working on yourself to become a "tech guy".

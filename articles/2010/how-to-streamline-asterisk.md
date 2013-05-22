@@ -13,7 +13,7 @@ you covered.
 Grab a beer, free up the next 2 hours of your time, and let's get to it!
 
 
-### Why Do This?
+## Why Do This?
 
 **To speed up your Asterisk platform.**  Asterisk is a large and complex PBX
 system with hundreds of features, commands, and various components.  Each
@@ -24,7 +24,7 @@ To make your Asterisk PBX perform at its best, it is useful to strip out
 everything you don't need, and force your Asterisk system to perform its best.
 
 
-### Preparation
+## Preparation
 
 To make this quick, you should already have a box with Asterisk up and running,
 ideally with some working call routing code of some sort.  If you manage an
@@ -34,7 +34,7 @@ Asterisk server at work, that will do just fine.
 really like abuse.
 
 
-### Approach
+## Approach
 
 The approach I like to take with my Asterisk slimming, streamlining, or
 whatever you want to call it, is to install Asterisk initially with as many
@@ -48,7 +48,7 @@ This method requires more effort to setup and maintain, but leads to the best
 possible performance.
 
 
-### Install Asterisk
+## Install Asterisk
 
 If you are familiar with Asterisk installation, you can go ahead and skip to
 the next section.  Good work, smart guy!
@@ -84,7 +84,7 @@ lets you use the arrow keys, enter, and tab to navigate around and choose which
 components to install.  You should choose as many as possible.
 
 
-### Figure Out Which Features You're Using
+## Figure Out Which Features You're Using
 
 This step is **important**.  You need to figure out what parts of Asterisk you
 **need** in order to do what you're doing before you can even think about
@@ -112,7 +112,7 @@ them perfectly figured out at the start, you can always figure it out later via
 trial-and-error.
 
 
-### Get a List of All Modules
+## Get a List of All Modules
 
 We now need to get a list of all the Asterisk modules that are currently
 available on your system.  If you compiled Asterisk from scratch, and read my
@@ -123,7 +123,7 @@ running the following command: `ls /usr/lib/asterisk/modules/`.  This *may* be
 different for you, depending on what operating system you're using.
 
 
-### Disable Everything
+## Disable Everything
 
 Before enabling the modules we need, we're going to disable everything.  This
 is part of our *whitelisting* approach to Asterisk slimming.
@@ -185,7 +185,7 @@ After you've gotten all the `preload`s finished, **delete everything else** in
 the file.  Seriously.  You won't need it anymore :)
 
 
-### Enable Only What You Need
+## Enable Only What You Need
 
 You should still be in your `modules.conf` file.  Now, remember before when you
 got a list of all the Asterisk modules available on your system
@@ -368,7 +368,7 @@ I realize that the above steps aren't exactly super descriptive, so keep
 reading.  The next section will give you some additional pointers.
 
 
-### Tips for Slimming
+## Tips for Slimming
 
 At some point during this article, you've probably thought to yourself, *How do
 I know which modules are absolutely essential to my setup?*.
@@ -395,7 +395,7 @@ system, and know exactly which ones you need to have enabled to make your
 system run.
 
 
-### Results
+## Results
 
 Streamlining your Asterisk installs has great benefits.  Not only will your
 system run much faster, and more efficiently than before, but you'll also know

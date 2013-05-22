@@ -21,7 +21,7 @@ If you're not yet a DNSimple customer, but are already sold, you can
 [sign up here][] and both you and I will get a free month of service.
 
 
-### Interface
+## Interface
 
 DNSimple has an awesome interface.  The company is built around the idea that
 DNS should be simple, and their interface reflects this.
@@ -60,7 +60,7 @@ domain name takes two clicks, and there are no spammy ads or any other junk
 preventing you from doing what you want to do: purchase your damn domain name!
 
 
-### URL Forwarding
+## URL Forwarding
 
 What has quickly become one of my favorite lesser known DNSimple features is
 their URL forwarding service.  This allows you to create a DNS 'URL' record
@@ -78,7 +78,7 @@ how it forwards.
 ![DNSimple URL Forwarding][]
 
 
-### SSL
+## SSL
 
 Another great thing about DNSimple is their excellent SSL handling.
 
@@ -98,7 +98,7 @@ paste your SSL details for usage with your provider.  If you're using Heroku,
 there's [a guide you can follow][] to get up and running with SSL and DNSimple.
 
 
-### API
+## API
 
 Another thing that really bugs me about most registrars is that they have no
 easily accessible API.  Since domain names are primarily managed by
@@ -112,7 +112,7 @@ API--worth checking out if you'd like to see some real-world DNSimple API
 examples.
 
 
-### Price
+## Price
 
 DNSimple is very reasonably priced.  They charge a small per-month membership
 fee depending on how many domains you have (see their [plan page][] for
@@ -120,7 +120,7 @@ details), and they support a long list of TLDs (see their [TLD pricing page][]
 here).
 
 
-### Support
+## Support
 
 Among registrars I've used, DNSimple has, by far, the best support.  I've sent
 them several support emails with questions over the past year or so, and each
@@ -130,7 +130,7 @@ Each time I've talked with someone at the company, I've been extremely
 impressed by the speed (and accuracy) of service.
 
 
-### Final Thoughts
+## Final Thoughts
 
 DNSimple is, without question, my favorite domain name registrar and DNS
 provider.  They've been able to live up to their name and really make

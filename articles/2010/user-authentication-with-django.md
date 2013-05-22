@@ -15,7 +15,7 @@ The target audience is people who have had minimal experience with Django, and
 are aware of how Django works in a basic manner.
 
 
-### What are We Building?
+## What are We Building?
 
 To demonstrate how user authentication works, we'll be building an extremely
 minimalistic website and user portal.  We'll create a home page that directs
@@ -27,12 +27,12 @@ websites, but merely to show you how simple user authentication can be with
 Django.
 
 
-### What's Needed?
+## What's Needed?
 
 Django 1.0 or later.
 
 
-### Create a New Project
+## Create a New Project
 
 Before we get started, create a new Django project.  For the rest of this
 article, we'll be building a website for the fictitious company 'Django
@@ -68,7 +68,7 @@ Be sure to create a user account when you run the `python manage.py syncdb`
 command, as you'll need that later to test your login.
 
 
-### Determine URLs
+## Determine URLs
 
 There are many ways to design a website, but I prefer to build the URL schema
 first, then build the site to match the URL schema.  So let's decide on what
@@ -81,7 +81,7 @@ this simple example, feel free to add whatever else you need.
 This should be sufficient for what we are doing.
 
 
-### Configure Django Settings
+## Configure Django Settings
 
 Below is my `settings.py` for the project.  Make changes where necessary.
 
@@ -152,7 +152,7 @@ URL we decided will supply users with a login page.
 Everything else is pretty standard, nothing special going on.
 
 
-### Write Our `urls.py`
+## Write Our `urls.py`
 
 Now let's write our main `urls.py` file which will control what content is
 served based on our URL schema.
@@ -194,7 +194,7 @@ applications will be a user portal, so we'll be making it into a separate
 application.
 
 
-### Writing the Views
+## Writing the Views
 
 Now that we've defined the URLs for our site, let's go ahead and write the
 views that our main site will use.  Here's the `views.py`:
@@ -230,7 +230,7 @@ this up (by adding a custom log out page or something), but for simplicity's
 sake, we will just send them back home.
 
 
-### Create the Portal Application
+## Create the Portal Application
 
 Now let's create our web portal application.  We'll call it portal and it will
 be used to display the portal homepage and other portal functionality (if you
@@ -245,7 +245,7 @@ rdegges@cora:~/code/django_consultants/portal$
 ```
 
 
-### Determine the Portal URLs
+## Determine the Portal URLs
 
 Again, let's quick write up a URL schema for our portal application.  If you
 are designing an actual website, you'll want to add more functionality.  For
@@ -255,7 +255,7 @@ now, all we will do is create a single page (that will be accessed via
 -   `/` Main page.  Will display the login portal and give users a menu of options.
 
 
-### Write the Portal `urls.py`
+## Write the Portal `urls.py`
 
 Now that we've come up with a schema for our portal application, let's
 implement it and write the `urls.py`:
@@ -275,7 +275,7 @@ urlpatterns = patterns('',
 Nothing complicated here, moving on.
 
 
-### Write the Portal Views
+## Write the Portal Views
 
 Now let's write our portal views:
 
@@ -307,7 +307,7 @@ value in your settings.py file called `LOGIN_URL` which currently contains
 Full user authentication in only 1 line of code!
 
 
-### Creating the Templates
+## Creating the Templates
 
 Now that we've done all the hard work, let's go ahead and write our templates.
 
@@ -503,7 +503,7 @@ using Django's authentication as long as you implement the login template as we
 did above.
 
 
-### Test It Out
+## Test It Out
 
 We're done.  So give everything a test.  Go to your `django_consultants`
 directory and run the command `python manage.py runserver` to start up the
@@ -519,14 +519,14 @@ Now log in using the `username` and `password` you generated when you ran
 play around with logout / login / etc.
 
 
-### Where to Go From Here
+## Where to Go From Here
 
 For more information and advanced usage of Django authentication, check out the
 [official documentation][].  The best way to learn is to play around with
 things, test them out, and get a good feel for how everything works.
 
 
-### Conclusion
+## Conclusion
 
 Hopefully this article has helped you understand how Django authentication
 works, and how easy it is to add secure authentication to your website without

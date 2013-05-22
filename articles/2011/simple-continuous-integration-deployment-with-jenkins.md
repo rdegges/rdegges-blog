@@ -29,7 +29,7 @@ For the rest of this tutorial, I expect that you:
 -   Have some code to test deploy.
 
 
-### Installing Jenkins
+## Installing Jenkins
 
 Installing Jenkins is ridiculously easy on Debian systems:
 
@@ -46,7 +46,7 @@ can do so with the rest of the system (via
 `aptitude -y update; aptitude -y safe-upgrade`).
 
 
-### Configure a HTTP Proxy With NGINX
+## Configure a HTTP Proxy With NGINX
 
 Since Jenkins by default runs on port `8080`, I like setting up an HTTP proxy
 so to that I can access it on port `80`.  My weapon of choice for proxying is
@@ -86,7 +86,7 @@ Now you should be able to visit `http://ci.yourcompany.com/` and see your
 Jenkins instance on the default HTTP port `80`.
 
 
-### Secure Jenkins
+## Secure Jenkins
 
 Jenkins has built-in user account management, which makes it easy to lock your
 interface down.  Below, we'll create two accounts: `admin` and `rdegges`.
@@ -121,7 +121,7 @@ permissions you supplied earlier.  If you want to change permissions, just log
 in as the `admin` user, and go through the same steps above.
 
 
-### Install and Configure Git
+## Install and Configure Git
 
 The core functionality of Jenkins is to use some form of version control
 software (I use [Git][]) to check out some release of code, and then do stuff
@@ -165,7 +165,7 @@ the web panel:
 You've now got Git ready to roll.
 
 
-### Configure a Project
+## Configure a Project
 
 In this step we'll configure Jenkins to check out the latest copy of our
 project's code, run the test suite, and then deploy our code live into
@@ -200,7 +200,7 @@ projects, and click through to see detailed information about builds, errors,
 and lots of other neat stuff.
 
 
-### RTFM
+## RTFM
 
 Obviously, a 5 minute walk-through is no excuse for not learning how to use
 Jenkins properly.  If you want to learn how to make the best use of Jenkins,

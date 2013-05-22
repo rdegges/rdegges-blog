@@ -15,7 +15,7 @@ achieve simplicity has been one of the greatest continuing practices of my life
 thus far.
 
 
-### Why is Life Complex?
+## Why is Life Complex?
 
 It seems that life in general has become more and more complex as time has
 passed.  The [first organisms][] on the planet (~4.5 billion years ago) were
@@ -36,7 +36,7 @@ require lots of time to develop, refine, and execute.  Life is not simple.
 Personal growth is hard.
 
 
-### Why is Complexity Bad?
+## Why is Complexity Bad?
 
 Let's assume for a minute that complexity is bad; bad in the sense that it
 leads to a more stressful, crisis-filled existence, and that it ultimately
@@ -85,7 +85,7 @@ feel productive, happy, thoughtful, and energetic for a few hours--all positive
 feelings, but for a short timespan only.
 
 
-### Why is Simplicity Good?
+## Why is Simplicity Good?
 
 Simplicity tends to *make sense*.  When I work on simple things, I feel like I
 have a grasp on what I'm doing, and that I'm in control of the situation, not
@@ -116,7 +116,7 @@ I've come to realize this over the years, my quest for simplicity in thought
 and action has yielded immense positive net results.
 
 
-### How to Live Simply
+## How to Live Simply
 
 Ok, so we know that simplicity is good and complexity is bad.  But how can we
 use this knowledge to live simply?  Since I'm no expert, and life is far too
@@ -124,7 +124,7 @@ complex to make bold statements that generalize simplicity for every
 individual, I'll *simply* share my own practices with you.
 
 
-### Keep an Open Mind
+## Keep an Open Mind
 
 One thing that leads to terrible complexity is misinformation.  There is more
 information available today than at any other time in history; the amount is
@@ -146,7 +146,7 @@ sort of power can greatly simplify your life by providing you with clear
 insights into whatever you're doing at the moment.
 
 
-### Pace Yourself
+## Pace Yourself
 
 As a person who is an all-or-nothing type of guy, this lesson has been
 particularly hard for me to apply to myself.  However, pacing yourself does
@@ -160,7 +160,7 @@ past my limits, the more complex everything seems.  Only when I pace myself and
 try to live a balanced life do things seem to fall back into place.
 
 
-### Be Conscious
+## Be Conscious
 
 It's extremely difficult to apply yourself consciously to the present.  I find
 that a majority of my time is spent in a semi-conscious state, just kind of
@@ -174,7 +174,7 @@ code), you're able to break down complexity when you see it, and find elegant
 ways to make yourself more efficient.
 
 
-### Break Complex Things
+## Break Complex Things
 
 Whenever I begin working on something complex, the first thing I do is try to
 break it.  I'll ask myself a few basic questions:
@@ -188,7 +188,7 @@ able to either completely eliminate it, or substantially reduce its complexity
 through analysis and breakdown.
 
 
-### Be Honest
+## Be Honest
 
 It's sometimes hard to be honest about things.  Maybe it's your project
 completion date.  Maybe it's your relationship's future.  Maybe it's something
@@ -198,7 +198,7 @@ time.  There's no need to complicate things by avoiding or subverting the
 truth.  Instead, try to be brutally honest with yourself, and move onwards.
 
 
-### Make Life Simple
+## Make Life Simple
 
 All things said, life will always be complex.  The best you can do is try to
 live simply, and enjoy your life moment to moment.  There is no single solution

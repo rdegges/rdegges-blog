@@ -28,7 +28,7 @@ I thought it'd be interesting to chronicle my mistakes here in hopes that
 you'll learn from my mistakes.
 
 
-### The Story
+## The Story
 
 This first lesson comes from my experiences building [OpenCNAM][] last year.
 
@@ -98,7 +98,7 @@ maintain the serialization formats I'd created, despite their added
 complexities.
 
 
-### The Lesson
+## The Lesson
 
 What you can take away from my mistake is simple: if you're building an API
 company, try to keep things as simple as possible.  In my case, I should have

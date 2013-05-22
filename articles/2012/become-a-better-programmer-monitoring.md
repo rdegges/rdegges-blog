@@ -15,7 +15,7 @@ skills, but I'm only going to touch on one aspect (monitoring) in this post.
 affiliation with [New Relic][] (I'm going to be talking about them a lot).*
 
 
-### Prerequisites
+## Prerequisites
 
 There is really only one prerequisite to using monitoring to improving your
 programming skills: you need to write / maintain web software that people
@@ -28,7 +28,7 @@ In the off chance you don't write web software, I'll be covering other
 strategies in future posts.
 
 
-### How it Works
+## How it Works
 
 Learning is really *really* hard without feedback.
 
@@ -49,7 +49,7 @@ best* way to better your programming skills, as you immediately get real world
 feedback about your code.
 
 
-### A Scenario
+## A Scenario
 
 Let's say you're writing some blog software, and you'd like to know how your
 code can be improved.
@@ -72,7 +72,7 @@ The best way to become a better programmer is to monitor your application
 (using monitoring software) and use this information as a feedback tool.
 
 
-### New Relic - Monitoring for Hackers
+## New Relic - Monitoring for Hackers
 
 There are tons of application monitoring solutions out there, but my personal
 favorite is [New Relic][New Relic].  Using New Relic to monitor your
@@ -120,7 +120,7 @@ your application, making it really easy to identify issues, slow functions, code
 that needs to be refactored, slow infrastructure components, etc.
 
 
-### Code, Push, Analyze, Repeat
+## Code, Push, Analyze, Repeat
 
 Learning is all about repeating the cycle.
 
@@ -139,7 +139,7 @@ yourself), you'll force yourself to learn new things, practice your skills, and
 get scientific feedback along the way.
 
 
-### Push Yourself
+## Push Yourself
 
 Without real world analysis, you'll only be able to push your skills so far.
 If you really want to further your programming skills, you should be actively

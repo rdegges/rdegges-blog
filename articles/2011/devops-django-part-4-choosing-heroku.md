@@ -18,7 +18,7 @@ components is an enormous risk, even in the best of circumstances.  However,
 despite the immense risk involved, a change was needed.
 
 
-### Time
+## Time
 
 As I mentioned earlier in this series, I work for a tech startup.  With a small
 team of people, you don't have much time to mess around.  Our greatest expense
@@ -66,7 +66,7 @@ be able to ship insane amounts of code.  When I discussed this with
 [my boss][], the decision seemed clear: use Heroku.
 
 
-### Price
+## Price
 
 After calculating the manpower time Heroku would save, the next thing I wanted
 to calculate was the price.  Exactly how much will it cost us to move to
@@ -175,7 +175,7 @@ downgrade or upgrade them at any time using the Heroku command line tool.  This
 makes scaling your infrastructure components a one liner.
 
 
-### Hidden Cost
+## Hidden Cost
 
 One thing that played an important role in our decision was the hidden cost of
 running our infrastructure ourselves.
@@ -196,7 +196,7 @@ The hidden costs show themselves in three primary areas:
 -   Bandwidth.
 
 
-#### Infrastructure Management Cost
+### Infrastructure Management Cost
 
 Quite possibly the largest hidden cost for us was infrastructure management.
 
@@ -226,7 +226,7 @@ each piece of our infrastructure, but also to build (and test) the recovery
 software itself, to ensure that when we do fail over, it actually works.
 
 
-#### Scaling Cost
+### Scaling Cost
 
 While not nearly as devious infrastructure management cost--scaling cost is
 also infrequently mentioned.
@@ -261,7 +261,7 @@ Furthermore, their scaling seems to be instant.  There is no waiting to
 provision new servers, install puppet, etc.--it just works.
 
 
-#### Bandwidth
+### Bandwidth
 
 Depending on what sort of applications you run, bandwidth pricing may be a
 concern for you.  In my case, we don't use much bandwidth, so it was never a
@@ -279,7 +279,7 @@ month.  That's a lot in comparison to the 0$ you'd pay for the same amount of
 bandwidth using Heroku.
 
 
-### Summary
+## Summary
 
 After analyzing the costs (both obvious and hidden) of both keeping our setup
 the way it was, or switching to Heroku; we decided overwhelmingly to move to

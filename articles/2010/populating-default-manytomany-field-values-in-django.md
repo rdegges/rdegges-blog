@@ -13,7 +13,7 @@ few days ago, while implementing a ban system, I bumped into an interesting
 problem that was not trivial to find a solution to.  So, here it is :)
 
 
-### Background
+## Background
 
 The web application I'm developing is a private portal which allows users to
 manage teleconference lines real time.  Since all of our telephony services are
@@ -44,7 +44,7 @@ individual callers, and allow the web users to ban specific callers if they're
 causing trouble.
 
 
-### Problem
+## Problem
 
 The problem came up when I was trying to finish the view which allows web
 admins to select which callers they want to ban.
@@ -90,7 +90,7 @@ After a bit of playing around, I was unable to find a solution, so I checked
 Google.  After ~20 minutes of Google, I was still stuck with the same problem.
 
 
-### Solution
+## Solution
 
 To resolve the issue, and successfully populate the default `bans` field
 values, I had to do:
@@ -136,7 +136,7 @@ that they take in either a model's `id` attribute for `ForeignKey`s, or a list
 of model `id`s for `ManyToMany` fields.
 
 
-### Conclusion
+## Conclusion
 
 Populating Django `ManyToMany` field default values can be a bit confusing, and
 somewhat undocumented.  Hopefully the code presented above helps clarify how to

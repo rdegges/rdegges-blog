@@ -19,7 +19,7 @@ as well as remove your programs' dependence on system packages and python
 versions.
 
 
-### virtualenvwrapper Rocks!
+## virtualenvwrapper Rocks!
 
 `virtualenvwrapper` (available via `pip` or `easy_install`), is a set of
 scripts that makes managing multiple virtual environments easier-much easier.
@@ -111,7 +111,7 @@ rdegges@solitude:~/random_project$
 And *bam*, just like that, `testnose` is gone.
 
 
-### Give virtualenvwrapper a Try
+## Give virtualenvwrapper a Try
 
 It really is an awesome, extremely useful program.  If you use `virtualenv`
 currently, you shouldn't write another line of code before installing and using

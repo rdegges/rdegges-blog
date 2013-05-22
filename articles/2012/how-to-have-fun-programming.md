@@ -13,7 +13,7 @@ makes me happy while programming, and serves as reminder to myself why I should
 keep pushing onwards!
 
 
-### Live for the Challenge
+## Live for the Challenge
 
 ![Byakuya Sketch][]
 
@@ -38,7 +38,7 @@ but in general, only when I'm working on a challenging project can I really
 utilize my skills.
 
 
-### Have a Warrior Mindset
+## Have a Warrior Mindset
 
 ![Kenpachi Alternate Sketch][]
 
@@ -69,7 +69,7 @@ incredibly difficult task is overwhelming.  It's certainly one of the greatest
 natural "highs" you can get.
 
 
-### Share Your Work
+## Share Your Work
 
 ![Kneeling Samurai Sketch][]
 
@@ -95,7 +95,7 @@ feel like I've contributed something useful to the world, regardless of how
 many people do (or don't) use my creations.
 
 
-### Don't Conform
+## Don't Conform
 
 ![Kenpachi Back Sketch][]
 
@@ -120,7 +120,7 @@ decisions, create your own path.  Find out what you enjoy by trying a wide
 variety of things, and always try to remain optimistic.
 
 
-### Read
+## Read
 
 ![Ichigo Hollow Sketch][]
 
@@ -146,7 +146,7 @@ A big part of the fun in programming (for me) is learning new things--and one of
 the best ways to learn new things is to read and gain perspective.
 
 
-### Be Mindful
+## Be Mindful
 
 ![Ichigo Hollow Screaming][]
 
@@ -165,7 +165,7 @@ your software for.  When I'm feeling unmotivated, all it takes is a few minutes
 of meditation on my purpose to get my hyped up inside, and propel me forward.
 
 
-### Talk With Other Hackers
+## Talk With Other Hackers
 
 ![Renji Sketch][]
 

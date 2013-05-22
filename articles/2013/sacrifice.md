@@ -15,7 +15,7 @@ about one method that works particularly well for me.  It's hard to do, but
 brings instant relief and opens up plenty of time to get things done.
 
 
-### Make a Sacrifice
+## Make a Sacrifice
 
 While this is obvious in retrospect, a great way to free up your time to work
 on something new is to give something up.
@@ -42,7 +42,7 @@ Don't delay!  Don't half-ass two things, whole-ass one thing (credit for this
 saying goes to [Ron Swanson][]).
 
 
-### Practical Advice
+## Practical Advice
 
 In my own experience, I find it really, *really* hard to let go of projects
 I've already started working on.  Most of them were my ideas, and as such, it's
@@ -55,7 +55,7 @@ I've made some great progress over the past year in this arena.  Here's how I
 do things.
 
 
-#### Keep a Project List
+### Keep a Project List
 
 Whenever I have a new idea for a project I think might be fun to work on
 (whether it's a website, open source project, business, article, etc.) I
@@ -72,7 +72,7 @@ This way, no matter what I decide, I've at least got a centralized collection
 of my ideas that I can refer to in the future.
 
 
-#### Keep a TODO List
+### Keep a TODO List
 
 In addition to my project list, I also keep a Google doc titled *TODO* open at
 all times.  This is where I store a list of the things I'm currently committed
@@ -97,7 +97,7 @@ more frequently, and if my list is getting too short (this has never happened),
 I'd know that I should probably get to work ;)
 
 
-#### Making Sacrifices
+### Making Sacrifices
 
 When I decide to pursue a new idea, I carefully analyze my TODO list and try to
 determine what is least important to me at the time.  It's incredibly difficult
@@ -127,7 +127,7 @@ to firmly decide on your sacrifices, and quickly kill them off immediately
 after you make your decision.
 
 
-### It's Difficult
+## It's Difficult
 
 Making sacrifices, especially when it comes to deciding what you're going to
 focus on with your time and energy, is a difficult thing to do.

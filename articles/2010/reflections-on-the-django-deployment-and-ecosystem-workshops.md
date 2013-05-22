@@ -19,7 +19,7 @@ scalability issues (which I'm currently solving at my work).
 If you're interested in attending one of these workshops, please keep reading.
 
 
-### Django Deployment Workshop
+## Django Deployment Workshop
 
 This workshop covered all areas of deployment for Django apps.  Some of the
 topics covered included:
@@ -72,7 +72,7 @@ have a chance to attend the Django Deployment Workshop, do so.  You won't
 regret it.
 
 
-### Django Ecosystem Workshop
+## Django Ecosystem Workshop
 
 The Django Ecosystem Workshop discussed various open source Django apps, why
 you should know about them, and how to use them.  I won't go into the details
@@ -88,7 +88,7 @@ As with the Django Deployment Workshop, Jacob was very thorough, and helped
 with any (and all) questions that everyone had.
 
 
-### My Thoughts
+## My Thoughts
 
 Both workshops were excellent, and well worth the money.  Jacob did an amazing
 job covering some very complex topics, and was careful to answer everyone's

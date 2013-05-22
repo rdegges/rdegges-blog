@@ -24,7 +24,7 @@ To get started, lets discuss the basics: the monolithic pattern and the service
 pattern.
 
 
-### The Monolithic Pattern
+## The Monolithic Pattern
 
 If I had to guess, I'd say that close to 99% of all active web applications are
 written as monolithic web apps.  Why?  I think that with so little practical
@@ -58,7 +58,7 @@ them happen naturally behind the scenes without delaying your web response
 time.
 
 
-### The Service Pattern
+## The Service Pattern
 
 While service oriented architecture is certainly a hot topic in tech circles,
 it has still not gained widespread adoption, primarily due to the fact that it
@@ -81,7 +81,7 @@ As you can probably see, building service oriented web applications essentially
 gives you many small moving parts as opposed to a single large part.
 
 
-### Effect 1: Maintainability
+## Effect 1: Maintainability
 
 The first side effect you get by writing service oriented web applications is
 simple: better maintainability for your web application.
@@ -104,7 +104,7 @@ more difficult for new developers to dive in (where do I get started?), and
 tricky to refactor without breaking things.
 
 
-### Effect 2: Scalability
+## Effect 2: Scalability
 
 One of my favorite effects of writing service oriented web applications is the
 passive effect it has on scalability.
@@ -149,7 +149,7 @@ which parts to leave alone (note: this isn't *entirely* true, but I'm saying
 it anyway).
 
 
-### Effect 3: Simplicity
+## Effect 3: Simplicity
 
 Another effect of writing service oriented web applications is that you
 generally have a much simpler back end system.
@@ -190,7 +190,7 @@ other services (this way, if you suddenly start doing a lot of transactions,
 you only need to focus on scaling a single small code base).
 
 
-### Wrap Up
+## Wrap Up
 
 In my experience, building service oriented web applications generally leads to
 simpler, faster, and more scalable web applications.  Without realizing it, you

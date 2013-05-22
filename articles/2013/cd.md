@@ -26,7 +26,7 @@ CD is something every programmer should be using 100% of the time, without
 exception.
 
 
-### Preface
+## Preface
 
 From the time I first learned about CD (~4 years ago) until last week, I
 honestly never thought I'd be writing about the subject.  When I first learned
@@ -46,7 +46,7 @@ their projects, all the time.
 With that said, here we go :)
 
 
-### Continuous Delivery
+## Continuous Delivery
 
 The concept of CD is simple: each time you write code, it is deployed
 automatically into your production environment.
@@ -69,7 +69,7 @@ Regardless of the type of software you're writing, CD has several enormous
 benefits that will help you become a better (more productive) programmer.
 
 
-#### Don't Break the Build
+### Don't Break the Build
 
 One of the most obvious benefits of using CD is that it forces you to *not break
 the build*.  This is something that (horrifyingly) seems to happen in
@@ -105,7 +105,7 @@ Maintaining a working code base is hard work!  But it's fun, challenging, and
 extremely useful to all involved.
 
 
-#### Less Shit Work
+### Less Shit Work
 
 Last week, I started working on a small project for work.  Specifically, I was
 writing a web scraper which iterates over millions of web pages and downloads
@@ -172,7 +172,7 @@ thousands of hours of shit work, and greatly increased my personal productivity
 on a day to day basis.
 
 
-#### Clear Value
+### Clear Value
 
 Another (more public) benefit of using CD in your projects is that you're able
 to clearly deliver value to whatever stakeholders you may have.
@@ -188,14 +188,14 @@ your customers exactly what they're paying for, and help prevent frequent
 *update meetings* which are primarily a drain on time (for everyone involved).
 
 
-### Continuous Delivery Suggestions
+## Continuous Delivery Suggestions
 
 We've talked about why CD is great, and *hopefully* I've convinced you to start
 practicing CD with all your projects.  If you've never before set up any CD
 software, you're likely curious about how to do so -- so let's talk about that.
 
 
-#### Software Choices
+### Software Choices
 
 You've got a lot of different options out there when it comes to setting up CD
 for your projects.
@@ -230,7 +230,7 @@ For all my work, I tend to use Jenkins to automatically deploy my projects, as
 it's cheap (free), reliable, and easy to configure.
 
 
-#### Other Resources
+### Other Resources
 
 If you're looking for other resources which talk about CD in depth, you may want
 to give the following books a read -- they're extremely great books, and I'd

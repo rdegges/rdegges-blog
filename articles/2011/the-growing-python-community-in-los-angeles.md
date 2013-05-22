@@ -31,7 +31,7 @@ together and forming *serious* communities meant to foster tech growth in the
 area.
 
 
-### Community Essentials
+## Community Essentials
 
 Let's face it, in order to have a successful tech community you need a strong
 group of passionate developers who are able to:
@@ -56,7 +56,7 @@ organizing kick-ass events:
 -   Other dudes who aren't linkable!
 
 
-### My Experience
+## My Experience
 
 Over the past few months, I've been participating more in the [LA Django][]
 and [Python Ladies][] groups.  Both meetups have been great.  They both have
@@ -76,7 +76,7 @@ can't help but snowball over the coming years.  All the ingredients seem to be
 in place, and excitement is in the air.
 
 
-### Get Involved
+## Get Involved
 
 If you're in the LA area, get involved!  Go to the Python meetups in the area,
 and meet the other developers.  Join the `#pyladies` IRC channel on Freenode,

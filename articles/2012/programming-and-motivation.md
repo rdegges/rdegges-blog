@@ -16,7 +16,7 @@ good day today, I thought I'd take a moment to reflect on programming and
 motivation.
 
 
-### What Makes Good Software?
+## What Makes Good Software?
 
 Good software is all about passion.  It doesn't matter if you're an excellent
 programmer--if you wake up each day and hate what you're working on, the way
@@ -35,7 +35,7 @@ get me kick started, and motivated to do some serious hacking on whatever
 project I'm working on at the moment.
 
 
-### Having Fun
+## Having Fun
 
 Programming is a mental exercise.  Like any mental exercise, it's easy to burn
 yourself out if you do it the wrong way.
@@ -68,7 +68,7 @@ have, and blast your favorite tunes.  While not sustainable, this is definitely
 a great way to have fun while building weekend projects =)
 
 
-### Caffeine
+## Caffeine
 
 While I'm definitely not a doctor, I can tell you with certainty that caffeine
 makes me feel better **awesome**.
@@ -85,7 +85,7 @@ sugar (no carbs), great flavor, and copious amounts of programmer blood
 caffeine, you should try the [Rockstar No Carb][] (my favorite).
 
 
-### Realize Your Ambitions
+## Realize Your Ambitions
 
 Everyone has their ambitions--what are yours?  Do you want your open source
 project to get a million followers on GitHub?  Do you want to launch that side

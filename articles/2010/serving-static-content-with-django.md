@@ -16,7 +16,7 @@ server?".  This article is my attempt to answer that question by demonstrating
 the best practices way to do so.
 
 
-### Why Doesn't Django Serve Static Content Automatically?
+## Why Doesn't Django Serve Static Content Automatically?
 
 Well, Django (and python in general) is built around the idea that it is better
 to be explicit than implicit.  This concept means that you may need to write
@@ -35,7 +35,7 @@ to automatically detect / serve our static content-which is why you are reading
 this article :)
 
 
-### Where Should I Put My Static Content?
+## Where Should I Put My Static Content?
 
 In general, the convention I like to use is to put all static content in my
 project directory underneath the `static` folder.  This means that all of my
@@ -65,7 +65,7 @@ For the rest of this article, I'll assume that your project is going to serve
 all static content from the `static` directory shown in the output above.
 
 
-### Configure Your Settings
+## Configure Your Settings
 
 The first thing we need to do is configure our `settings.py` file, to let
 Django know where our static content is located.  To do that, open up your
@@ -194,7 +194,7 @@ The code we added basically:
     hardcoding the location of your static content).
 
 
-### Configure Your URLs
+## Configure Your URLs
 
 Now that we've got our settings configured, we can move onto the last step,
 configuring our `urls.py` file.  In this section, we'll instruct the Django
@@ -227,7 +227,7 @@ ready to deploy our website in production, we simply set `DEBUG=False` and
 much faster that way).
 
 
-### Conclusion
+## Conclusion
 
 As you can see, to serve static content is really not very difficult at all.
 It's just a matter of configuring a few settings options, and then adding a URL

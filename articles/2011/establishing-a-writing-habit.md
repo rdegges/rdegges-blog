@@ -37,7 +37,7 @@ establishing a few great ones.
 Which brings me to the topic of this article...
 
 
-### Writing
+## Writing
 
 I've always enjoyed writing.  It appeals to my sentimental side.  There's
 something about writing that just feels great.  The best way I can describe the

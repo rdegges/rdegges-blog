@@ -21,7 +21,7 @@ Before I begin, I'd like to quickly note that I'm not in any way religious, but
 the story below contains quite a few truths.
 
 
-### The Buddha's Story
+## The Buddha's Story
 
 One of my favorite historical figures is [Siddhattha Buddha][].  If you've never
 read about his life, it's one of the more interesting historical tails, and
@@ -65,7 +65,7 @@ I think there is an important lesson to be learned from this story: your
 emotions can be controlled, and you have the ability to choose your feelings.
 
 
-### Perspective
+## Perspective
 
 Maintaining a positive attitude can be challenging, especially when most people
 are typically surrounded by negativity at all times:

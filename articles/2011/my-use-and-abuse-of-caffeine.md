@@ -27,7 +27,7 @@ Through years of experimentation, I've come to realize how much caffeine has
 changed me as a person.
 
 
-### My Normal (un-caffeinated) Self
+## My Normal (un-caffeinated) Self
 
 The *normal* Randall is a pretty awful guy.  He procrastinates, is easily
 distracted, and is typically negative by nature.  When I'm not caffeinated, I
@@ -59,7 +59,7 @@ chore.  This isn't always the case--but overall, I tend to be far more negative
 when I'm un-caffeinated.
 
 
-### The Better (caffeinated) Me
+## The Better (caffeinated) Me
 
 When I'm on caffeine--I feel amazing.  I've never done any hard drugs before,
 but I can't imagine that they'd make me feel any better than caffeine does.
@@ -101,7 +101,7 @@ able to enjoy each moment of life as I pass through it, which puts me at peace
 internally.
 
 
-### The (dirty) Details of My Caffeine Usage
+## The (dirty) Details of My Caffeine Usage
 
 It is actually rather hard for me to write about this, as I can't help but feel
 somewhat embarrassed at my caffeine usage--but here it goes anyway.
@@ -157,7 +157,7 @@ allow you to spread your caffeine intake out a bit more, instead of ingesting
 it all at once.
 
 
-### How I Feel When I Overdo It
+## How I Feel When I Overdo It
 
 There have been a few times when I've overdone it on the caffeine.  When this
 happens, I'll feel it the following morning when I wake up.  The feeling is
@@ -175,7 +175,7 @@ caffeine at the beginning of each month allows me to reap the benefits of
 extended caffeine usage everyday, without any bad days.
 
 
-### My Behavior
+## My Behavior
 
 I realize that I need to bring my caffeine usage down a lot.  While I don't
 consider caffeine to be bad in any way, I do realize that taking it in high

@@ -24,7 +24,7 @@ inspire you to play around with it on your own, and do cool things.
 Now that we've got the basics out of the way, let's get down to business...
 
 
-### PSTN
+## PSTN
 
 Before we get into any setup or detailed information, we need to cover the
 global network which allows interconnection between telephones.  This is
@@ -46,7 +46,7 @@ the purposes of this article, but there is a lot of interesting information on
 Wikipedia regarding the history and development of the PSTN.
 
 
-### Connecting to the PSTN
+## Connecting to the PSTN
 
 There are many ways to connect to the PSTN.  Chances are, you've probably only
 seen / used a few on a regular basis.
@@ -90,7 +90,7 @@ experiment with telephony and programming, that you get a VoIP line (I'll cover
 all this later).
 
 
-### Phone Servers (PBXs)
+## Phone Servers (PBXs)
 
 A PBX (private branch exchange) is a device which provides phone service to
 phones on a private network.  Think of a PBX as a router, it connects
@@ -123,7 +123,7 @@ Asterisk also supports all of the features of the proprietary PBXs, and many
 more.
 
 
-### Open Source Telephony With Asterisk
+## Open Source Telephony With Asterisk
 
 Back in 1999, Mark Spencer created Asterisk.  It's a free, open source PBX
 system that is easily installable and usable on any Linux based operating
@@ -151,7 +151,7 @@ so powerful, and why telephony rules.  Not because it's 'cool' to talk on the
 phone, but because we can integrate so many other things with it.
 
 
-### Putting it All Together
+## Putting it All Together
 
 Now that we've covered the core components that make telephony work, let's see
 how it all works together in a nice diagram :) Excuse my horrible art skills,
@@ -165,7 +165,7 @@ routing for calls via whatever PSTN connection you are using (PRI / BRI / T1 /
 E1 / POTS / VoIP).
 
 
-### Neat Things You Can Do With Telephony
+## Neat Things You Can Do With Telephony
 
 When I first started learning about telephony, it was for my work, and I didn't
 find it all that interesting.  That is, until I learned all the cool things
@@ -191,7 +191,7 @@ have any interest in this stuff, be sure to read the rest of this series, and
 -   Make international calls for cheap / free.
 
 
-### Sounds Cool, What Next?
+## Sounds Cool, What Next?
 
 Dive right into the action.  The next article in the series will cover setting
 up your very own Asterisk PBX system.  I'll have detailed setup information,
@@ -200,7 +200,7 @@ dedicated computer for this (even though it does make things a bit simpler),
 all you'll need is an Internet connection, and about 1 hour for setup.
 
 
-### Motivation
+## Motivation
 
 My motivation for writing this series is to get people involved in the
 telephony world.  There is a huge lack of telephony programmers, and as a

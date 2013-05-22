@@ -27,7 +27,7 @@ So how can you save money for your company?  Switch to [Asterisk][], the open
 source PBX.
 
 
-### What is Asterisk?
+## What is Asterisk?
 
 Asterisk is an extremely popular open source PBX system.  It costs nothing, can
 be installed on almost any computer system, and is stable and reliable.
@@ -39,7 +39,7 @@ So let's get down to business.  Here are 5 ways that Asterisk can save your
 company money:
 
 
-### 1. It's Free
+## 1. It's Free
 
 Obviously, the factor which drives most companies to ditch their current PBX is
 cost.  Asterisk is free, and it is hard to justify paying $10,000 or more for a
@@ -47,7 +47,7 @@ small office phone system when the competition offers better functionality,
 reliability, and costs nothing.
 
 
-### 2. Avoid Licensing
+## 2. Avoid Licensing
 
 With most commercial PBX systems, you have to buy into the licensing schemes
 that come with them.  For example, check out the
@@ -72,7 +72,7 @@ If you need to support video calls, no problem.  Just purchase a video phone,
 and plug it into the network.
 
 
-### 3. Make Your Company Portable
+## 3. Make Your Company Portable
 
 Let's face it, traditional business is dying out.  With high-speed internet
 widely available, there is no reason to have a centralized office.  There is a
@@ -89,7 +89,7 @@ they're instantly online.  All they have to do is plug their phone into their
 network and they're ready to work.
 
 
-### 4. Custom Functionality
+## 4. Custom Functionality
 
 With traditional PBX systems, getting unique and custom functionality can be
 not only time consuming, but very expensive.  And unfortunately, customizing
@@ -117,7 +117,7 @@ And if you can't find an app for what you need, you can always build it
 yourself, or hire an Asterisk developer for cheap online.
 
 
-### 5. Compete With the Big Players
+## 5. Compete With the Big Players
 
 Asterisk is a game changing tool for small and medium businesses.  It allows
 your small company to operate like a large company, free.
@@ -131,7 +131,7 @@ before hearing a choppy sounding answering machine, they are annoyed,
 frustrated, and far less likely to return.
 
 
-### Conclusion
+## Conclusion
 
 Asterisk is a great tool for companies looking to save money, and improve their
 communications infrastructure.  It has all the functionality (and more) that

@@ -12,7 +12,7 @@ retrospect, was nothing short of the perfect name for the event.  In my life,
 I've never attended such an artistic, well planned, and stylish event.
 
 
-### Surprise!
+## Surprise!
 
 If this isn't the first time you've visited my site, you probably know I
 primarily write about technical stuff.  Over the past few months I've been
@@ -37,7 +37,7 @@ Anyhow, despite the fact that I can't imagine why anyone from Heroku would
 invite me to their conference, I got in!
 
 
-### Waza
+## Waza
 
 Without a doubt, Waza was by far the nicest conference I've ever been to.  It
 was nothing like a traditional tech conference.
@@ -66,7 +66,7 @@ applications.  As a developer, I truly enjoyed the talks I got to attend.  They
 were all inspiring, well executed, and filled with lots of useful information.
 
 
-### People
+## People
 
 By far the best part of the event was the people.  In particular, I got to
 meet: [Craig Kerstiens][], [Kenneth Reitz][], [Curt Micol][], and
@@ -93,7 +93,7 @@ able to meet Dennis (he passed away last year), I'm extremely happy to have had
 the opportunity to meet Rob.
 
 
-### Tea
+## Tea
 
 ![Green Tea Leaves][]
 
@@ -117,7 +117,7 @@ If you're into tea at all, you should definitely check out the [teance][] site
 and order some.  I guarantee you won't be disappointed.
 
 
-### Overall
+## Overall
 
 Waza was a great event.  The venue was great, the whole thing was comfortable
 and relaxing, and there were tons of smart and interesting people all over the

@@ -31,7 +31,7 @@ relationship.
 Ok then!  Let's talk about Heroku!
 
 
-### Heroku is Just Unix
+## Heroku is Just Unix
 
 At its core, Heroku is just a simple UNIX platform; specifically, Ubuntu 10.04
 LTS.
@@ -61,7 +61,7 @@ much any Ubuntu compatible software you can think of.  It also means that
 there's really nothing *magical* going on here--it's just UNIX.
 
 
-### Heroku is Centered Around Apps
+## Heroku is Centered Around Apps
 
 Unlike most other cloud providers, Heroku isn't in the VPS business.  Their
 goal isn't to sell you virtual Ubuntu servers that you configure yourself.
@@ -107,7 +107,7 @@ If you want to do that stuff, Heroku isn't for you.  Heroku is for programmers
 who want to build applications.
 
 
-### Heroku Enforces Best Practices
+## Heroku Enforces Best Practices
 
 ![Twelve Factor Logo][]
 
@@ -127,7 +127,7 @@ The Heroku platform doesn't tolerate poorly designed applications, and doesn't
 cater to ineffective programmers.  Heroku isn't built for idiots.
 
 
-### Heroku is Modular
+## Heroku is Modular
 
 One of Heroku's greatest strengths as a platform is its modularity.  The core
 Heroku platform gives you a basic way to deploy and manage your code base and
@@ -147,7 +147,7 @@ multiple options (you can easily swap out add-on providers), and excellent
 monitoring tools available to you with a single click.
 
 
-### Let's Talk About Replacing the Cloud
+## Let's Talk About Replacing the Cloud
 
 If you want to build your own redundant, fully managed infrastructure services
 -- go right ahead.  Nobody is stopping you.  There are great tools like Chef,
@@ -213,7 +213,7 @@ David didn't successfully replace the cloud with his work.
 If anything, he simply localized his problems.
 
 
-### Let's Talk About Monitoring
+## Let's Talk About Monitoring
 
 One of the big points that David mentions in his
 [article][The Cloud is Not For You] is that he had no way of monitoring his
@@ -273,7 +273,7 @@ already have a good idea of where I'm going with this: **Heroku isn't the
 problem.  You are.**
 
 
-### Let's Talk About Bad Ideas
+## Let's Talk About Bad Ideas
 
 ![You're Gonna Have a Bad Time][]
 
@@ -294,7 +294,7 @@ However, what does it say (to your customers) when you tell them that:
 All in all, it just seems like a bad idea.
 
 
-### On the Shoulders of Giants
+## On the Shoulders of Giants
 
 ![Giant Sketch][]
 
@@ -359,7 +359,7 @@ Through this experience, I learned:
     to someone else who can do it much better than me.
 
 
-### Takeaways
+## Takeaways
 
 I hope you had fun reading this article.  I wrote it with humorous intent--not
 to be taken seriously or offensively by anyone; I have a lot of respect for

@@ -27,7 +27,7 @@ nightmare.  Frankly, we were tired of jumping through hoops to get simple
 caller ID data, and decided to do something about it.
 
 
-### OpenCNAM - Caller ID Made Simple
+## OpenCNAM - Caller ID Made Simple
 
 ![OpenCNAM Logo][]
 

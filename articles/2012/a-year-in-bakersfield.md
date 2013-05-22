@@ -26,7 +26,7 @@ I figured I'd take a few minutes to reflect on the past year of being here.
 Next time you hear about Bakersfield, you'll be able to relate :)
 
 
-### A Horrible Reputation
+## A Horrible Reputation
 
 Throughout California (unbeknownst to me at the time), Bakersfield has a pretty
 bad reputation.  When we got the news that we were moving to Bakersfield, my
@@ -46,7 +46,7 @@ crappy it may be.  When we loaded up our Uhaul and headed to an extended stay
 in Bakersfield's downtown area, we expected the worst.
 
 
-### First Impressions
+## First Impressions
 
 The place my wife's company put us up in when we moved was a really run-down
 extended stay hotel.  This was my first time staying in an extended stay hotel,
@@ -80,7 +80,7 @@ Angeles, having people say "hi" to you as you walk down the street is an odd
 feeling.  Both my wife and I were really surprised that everyone was so nice.
 
 
-### Exploring
+## Exploring
 
 Once my wife got acclimated to her new work, we started apartment hunting and
 exploring the city.  We looked at a ton of different apartment complexes in
@@ -112,7 +112,7 @@ been really nice.
 After a couple of months, we felt right at home.
 
 
-### The City
+## The City
 
 What a lot of people don't seem to realize about Bakersfield is that it isn't
 all that different from Los Angeles.  It wasn't obvious to me at first, but
@@ -145,7 +145,7 @@ are a ton of huge SUVs and trucks everywhere, and most people work in the oil
 fields all day.
 
 
-### Location
+## Location
 
 Bakersfield is in central California.  It's 1 -> 2 hours away from Los Angeles
 (depending on traffic), and 4 -> 5 hours away from the Bay Area (depending on
@@ -164,7 +164,7 @@ to go to an event, I have to take commute into heavy consideration, as it will
 be an all day affair.
 
 
-### Isolation
+## Isolation
 
 One of the things I've enjoyed most about my time in Bakersfield has been the
 isolation.  Since moving here last year, I've been more or less isolated from

@@ -11,7 +11,7 @@ thought it would be appropriate to do a brain dump of my plans and ideas for
 2011.
 
 
-### Goals
+## Goals
 
 I've never been a very "goal oriented" person, instead I tend to just live in
 the moment and let things happen naturally.  However, this year I'm going to be
@@ -41,7 +41,7 @@ I'm sure that I will do other things too (at least, I hope!), but these are my
 to sleep easily at night.
 
 
-### Tech Stuff
+## Tech Stuff
 
 2010 was a big year for me in terms of learning and using tech stuff.  In 2011
 I plan to spend a lot of time mastering the tech stuff that I use daily, namely
@@ -59,7 +59,7 @@ single day.  Over the next year, I'm looking forward to doing a lot of coding,
 interacting with other programmers, and having tech fun.
 
 
-### Travel
+## Travel
 
 I don't think a lot of people close to me know this, but I really enjoy
 traveling. I'm finally at a point where I can do a bit of travel casually, and
@@ -84,7 +84,7 @@ we have both really been wanting to see the frozen tundra for quite some time
 :)
 
 
-### Other Thoughts
+## Other Thoughts
 
 2010 was a good year.  I'm looking forward to doing cool stuff in 2011, and
 having fun.

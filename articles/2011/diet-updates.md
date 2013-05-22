@@ -19,7 +19,7 @@ If you want to read more about ketosis, check out the [wikipedia article][] or
 this [good summary][].
 
 
-### First Month Results
+## First Month Results
 
 For the past month I've been on a strict keto diet.  No cheat meals, nothing.
 It was a lot easier than I thought it would be.  I didn't crave any sugary
@@ -45,7 +45,7 @@ the week.  My average caloric intake this month was around 2000 calories per
 day.  I made it a point to eat until full almost every day in the month.
 
 
-### Thoughts
+## Thoughts
 
 I've really enjoyed maintaining ketosis for a solid month.  I've felt a lot
 healthier, happier, and more energetic.  Eating fatty foods has been really

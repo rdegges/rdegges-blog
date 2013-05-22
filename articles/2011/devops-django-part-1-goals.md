@@ -34,7 +34,7 @@ exist--in hopes that my experiences will help guide other Djangonauts looking
 for a *better way*.
 
 
-### Deployment Goals
+## Deployment Goals
 
 To kick start this article, I'd like to explain where I'm coming from: what I
 do, what I value, and what my deployment goals are--as these are all crucial to

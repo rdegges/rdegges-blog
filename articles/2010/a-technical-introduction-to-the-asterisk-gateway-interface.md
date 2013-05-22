@@ -21,7 +21,7 @@ programs, it will merely teach you what the AGI provides and how to use it
 high-level.
 
 
-### Why Use AGI?
+## Why Use AGI?
 
 One question that arises frequently is *Why do I need to use the AGI?*  This is
 a great question, worth discussing.  Asterisk provides several ways to perform
@@ -61,7 +61,7 @@ whatever programming language you are comfortable with, which can rapidly
 decrease development time.
 
 
-### The Four Types of AGI
+## The Four Types of AGI
 
 The AGI actually has four ways in which it can be used, each different from the
 other.  There is the standard AGI, dead AGI, fast AGI, and enhanced AGI.
@@ -90,7 +90,7 @@ access the audio channel directly for the calls being processed.  This is rarely
 used, but gives developers a way to analyze raw audio data.
 
 
-### How to Run an AGI Program
+## How to Run an AGI Program
 
 When calls come into the Asterisk server, the dial plan rules process the call
 and determine where to route it.  To launch an AGI program and hand off call
@@ -126,7 +126,7 @@ files to a system location, like `/etc/`, but Asterisk will be running in a
 restricted environment, so their programs will fail and they will not know why.
 
 
-### Testing AGI Scripts (live)
+## Testing AGI Scripts (live)
 
 Running AGI scripts, as explained in the previous section is a simple task.
 Sometimes, however, debugging AGI scripts can be difficult and time consuming.
@@ -207,7 +207,7 @@ The next few lines are dialog between our AGI application and Asterisk.  The
 following `Tx` lines show Asterisk responses.
 
 
-### AGI Hello World Application
+## AGI Hello World Application
 
 In the previous section, we looked at an AGI call log.  Now let's examine the
 AGI application which ran and generated that call log.  What follows is an
@@ -253,7 +253,7 @@ important information about the call being processed, but for this example, we
 don't care, so we didn't.
 
 
-### Passing Arguments to Your AGI Application
+## Passing Arguments to Your AGI Application
 
 Now that you know how to write and use basic AGI scripts, let's get a little
 more advanced.  Many complex AGI applications may need more advanced data given
@@ -317,7 +317,7 @@ This makes reading in these variables easy and doesn't require any extra effort
 on your part.
 
 
-### Where to Get AGI Information
+## Where to Get AGI Information
 
 Now that we've introduced and explained how AGI programs work, there is nothing
 left to do except start writing some for yourself!  The definitive reference to

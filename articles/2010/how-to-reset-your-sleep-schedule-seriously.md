@@ -31,7 +31,7 @@ There are a million websites (Google says there are ~7,570,000) with different
 suggestions for hacking your sleep cycle.
 
 
-### Why Most Sleep Hacks Don't Work
+## Why Most Sleep Hacks Don't Work
 
 Most sleep hacks don't work because they require a lot of hard work and
 willpower.  I can tell you from lots of experience, that after going to bed at
@@ -46,7 +46,7 @@ Instead of trying to *hack* your sleep, I recommend a more simple, natural
 approach:
 
 
-### Go Camping
+## Go Camping
 
 Camping is a great way to help reset your sleep schedule.
 
@@ -65,7 +65,7 @@ fall back into your old schedule.  You'd be surprised how easily the human body
 can adjust to natural day / night cycles, and how long those effects can last.
 
 
-### How it Works
+## How it Works
 
 The way that camping helps align your sleep cycle with day / night rotation, is
 simple-it exposes you to the elements.
@@ -98,7 +98,7 @@ to roast in your sleeping back, your body will quickly adjust and help you out
 of bed.
 
 
-### My Experiment
+## My Experiment
 
 My wife and I just got back from a short three day camping trip with some of my
 wife's family and friends.  Last weekend we left Friday for [San Simeon][]
@@ -111,7 +111,7 @@ So, one goal of this trip was to document my sleep schedule, and see whether or
 not it is possible to reset one's internal clock over a 3 day 2 night trip.
 
 
-#### Friday
+### Friday
 
 I wake up at 10AM, and hop into the shower.  About 45 minutes later my wife and
 I are on the road heading to the campgrounds (a 4.5 hour drive).
@@ -132,7 +132,7 @@ feels like it's 2AM.  It's probably 50F outside, and with the cold weather it
 feels especially good to be in a warm sleeping bag :)
 
 
-#### Saturday
+### Saturday
 
 The sun comes up early, probably 6 or 7AM, and I hear birds chirping loudly
 outside of the tent.  I try to stay in bed for a little while, and manage to go
@@ -153,7 +153,7 @@ sleeping bag feel all the more comfortable, and I just drifted off in several
 minutes.
 
 
-#### Sunday
+### Sunday
 
 I wake up a bit before 8AM, listening to birds chirping and feeling the sun on
 my face.  Feels good.  I feel rested.  We pack up the campsite, and drive back
@@ -163,14 +163,14 @@ After getting home and catching up on emails, I start feeling tired again, and
 doze off at 11PM with no problems.
 
 
-#### This Entire Week
+### This Entire Week
 
 So far, I've been going to bed at around 11PM, and waking up at 8AM every day
 this week, with no issues.  I feel great.  I haven't had any problems going to
 bed or waking up early.
 
 
-### What Will You Do?
+## What Will You Do?
 
 While some of the sleep hacks you'll read about online may seem more convenient
 than going camping for a weekend, I'd highly recommend camping to anyone who is

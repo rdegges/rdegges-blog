@@ -18,7 +18,7 @@ better.
 The sport of bodybuilding can teach us (as programmers) a lot about ourselves.
 
 
-### Nothing Great Comes Easily
+## Nothing Great Comes Easily
 
 In life, nothing great comes easily.  It doesn't matter how much of an
 advantage or disadvantage you have--everyone must work for their success and
@@ -34,7 +34,7 @@ continue working hard to become better, faster, and more creative.  If you want
 to be a better programmer, you need to program, every single day.
 
 
-### Be Consistent
+## Be Consistent
 
 Consistency is the largest ingredient in success.  Bodybuilders spend years
 (literally) working out every single day.  Doing lifts, cardio, eating proper
@@ -49,7 +49,7 @@ morning and program, or hit the gym, but that dedication is what pushes you
 past your natural limits and helps your mind and body continue to grow.
 
 
-### Know What You Want
+## Know What You Want
 
 One of the most difficult things to figure out is what you really want in life.
 Do you want to be the strongest person alive?  The most successful programmer
@@ -71,7 +71,7 @@ the way.  Having clear goals gives you something to work towards everyday and
 helps keep you focused.
 
 
-### Learn From Those Around You
+## Learn From Those Around You
 
 Don't ignore those around you.  Use knowledge you get from other people to
 increase your effectiveness in whatever you do.
@@ -99,7 +99,7 @@ much faster and more effectively, but when you stop absorbing knowledge you
 lose this edge.
 
 
-### Always Go For the Win
+## Always Go For the Win
 
 Bodybuilders need to break through mental and physical barriers everyday.  In
 order to win competitions, they go to extraordinary lengths that most people

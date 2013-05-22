@@ -16,7 +16,7 @@ Here's a story I've been saving up for a while.  It's a tale of the time I
 accidentally destroyed a production server.  I hope you enjoy it :)
 
 
-### What I Did
+## What I Did
 
 When I first came on board at BTS over year ago, I was working on production
 servers.  We didn't have any development or staging environments set up at the
@@ -82,7 +82,7 @@ data was lost.  I then duplicate the working setup to `r1`, make tons of
 backups of my configs, then get rid of the old freeradius server.
 
 
-### What I Learned
+## What I Learned
 
 -   No matter what, you always, **always** need to have a proper development
     environment.  If you don't, you're committing suicide.

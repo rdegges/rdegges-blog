@@ -38,7 +38,7 @@ of code, just to find that the author horribly overcomplicated the whole thing.
 It happens to all of us from time to time, but it can be avoided.
 
 
-### The One True Way
+## The One True Way
 
 ![Owl Sketch][]
 
@@ -71,7 +71,7 @@ when your software is small and simple.  Try applying those tools to complex
 software, and you will be in for a world of pain.
 
 
-### Takeaway
+## Takeaway
 
 The next time you're about to dive into some code, take a second or two and
 analyze what it is you're about to be doing.  Programming is insanely fun, but

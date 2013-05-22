@@ -24,7 +24,7 @@ everyone down =/
 Personally, I like to focus on the positive.  **^^**
 
 
-### The Problem with Negativity
+## The Problem with Negativity
 
 My problem with negativity comes primarily from personal experience.  I wasn't
 always as happy as I am now, and I certainly didn't have a positive attitude
@@ -60,7 +60,7 @@ anger eat away at me, I decided to take my future into my own hands and make
 whatever changes necessary to make myself a better person.
 
 
-### The Positive Programmer
+## The Positive Programmer
 
 In the beginning I had a really difficult time training myself to let go of my
 bad habits and negativity.  Your personal outlook and mental response to
@@ -116,7 +116,7 @@ feeling unhappy and discontent with myself, I've been able to build a great
 life that allows me to really enjoy each day.
 
 
-### Some Closing Thoughts
+## Some Closing Thoughts
 
 Living with a negative attitude is a horrible burden, something I wouldn't wish
 on anyone.  It really pains me to see so many of my peers stuck in a continuous

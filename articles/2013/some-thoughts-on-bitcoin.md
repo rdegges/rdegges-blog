@@ -13,7 +13,7 @@ share my thoughts about bitcoin at this early stage, for any of you with similar
 backgrounds and interest in bitcoin.
 
 
-### Why I Decided to Give it a Try
+## Why I Decided to Give it a Try
 
 I've been hearing about bitcoin since it was first mentioned way back in 2009.
 At the time, I read some of the introductory articles explaining bitcoin (what
@@ -36,7 +36,7 @@ only using bitcoin for hobby purposes, but as a real alternate currency.
 So, I decided to give it another go.
 
 
-### My Experience Getting Started
+## My Experience Getting Started
 
 Getting started with bitcoin last month was a *lot* easier than it was back in
 2010 when I tried it initially.
@@ -69,7 +69,7 @@ free bitcoin sites, and filled out a ton of captcha checks to see deposits come
 in -- it was actually pretty fun.
 
 
-### Attempting to Buy Bitcoin
+## Attempting to Buy Bitcoin
 
 After I had some free bitcoin in my wallet, I decided to purchase a couple of
 real bitcoin.  Unfortunately, this process was not nearly as easy as I thought
@@ -108,7 +108,7 @@ delay for reasons of which I'm not aware).
 A week later, I had my three bitcoin :)
 
 
-### Playing With Bitcoin
+## Playing With Bitcoin
 
 After I got a few bitcoin, and played around with some of the sites and services
 available, I immediately wanted to build some applications that use bitcoin (in
@@ -137,7 +137,7 @@ building some simple ones myself, and getting more involved in the bitcoin
 community over the past few weeks.
 
 
-### My Overall Impression of Bitcoin
+## My Overall Impression of Bitcoin
 
 After using bitcoin (buying, selling, and purchasing services with it) for a
 little over a month, I've come to like bitcoin.

@@ -24,7 +24,7 @@ and work stuff going on.  Last month I attended two amazing conferences
 To keep the story short: I was completely physically exhausted.
 
 
-### Working While Exhausted
+## Working While Exhausted
 
 While sick, I spent quite a lot of time in bed on my laptop.  Although I didn't
 have any energy, I was actually quite surprised to find myself routinely
@@ -39,7 +39,7 @@ actually finished a tremendous amount of work ahead of schedule!
 *How could this be?!*
 
 
-### What I Discovered
+## What I Discovered
 
 The following week I decided to carefully monitor my work progress and pay
 closer attention to my thought processes throughout the day while working.
@@ -73,7 +73,7 @@ up making a positive impact on the company even while feeling completely
 exhausted.
 
 
-### Reflecting on Exhaustion
+## Reflecting on Exhaustion
 
 After I analyzed my working patterns and noticed that I was able to really
 grind through a lot of straightforward tasks while completely exhausted, I

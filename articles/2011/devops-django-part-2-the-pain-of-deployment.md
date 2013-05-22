@@ -12,7 +12,7 @@ new, you should probably read the [first article][] of the series before this
 one.
 
 
-### What I Build
+## What I Build
 
 As I mentioned in the first article of the series, I work at a tech startup
 building telephony services.  Our primary product is a hosted teleconferencing
@@ -164,7 +164,7 @@ With both parts of our stack working together, we're able to give our users a
 really great experience both through their phone and browser.
 
 
-### Why Deployment was Painful
+## Why Deployment was Painful
 
 As our product focuses on real time user communication, we have a lot of
 technical challenges.  Our service needs to:
@@ -256,7 +256,7 @@ This was especially annoying, as it diverted a lot of attention that could have
 been spent better elsewhere.
 
 
-### Painful Lessons
+## Painful Lessons
 
 Since I first started building our teleconferencing service almost two full
 years ago, I've learned quite a bit about deploying Django.  Before completely

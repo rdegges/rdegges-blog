@@ -15,7 +15,7 @@ All information below has been gathered from the [latest Asterisk release][]
 article, as it is a bit geeky.
 
 
-### Brief Overview of Call File Code
+## Brief Overview of Call File Code
 
 First of all, it is important to note that Asterisk call files only work when
 the Asterisk module `pbx_spool.so` is loaded.
@@ -46,7 +46,7 @@ of the call file logic, and will help us learn a bit about call file internals.
 Look them over briefly.  In the next section, we'll dive right in.
 
 
-### The outgoing Struct
+## The outgoing Struct
 
 Let's start out by analyzing the `outgoing` struct, shown below (note: I've
 re-done the formatting and comments so that it displays in proper 80-column
@@ -102,7 +102,7 @@ Internally, Asterisk uses this struct throughout the `pbx_spool.c` module, as a
 way to store individual call file states and track statuses.
 
 
-### How The Spooling Daemon Works
+## How The Spooling Daemon Works
 
 Now, when users create a call file, the spooling daemon will process that file.
 But how does it do it?  Now that we've seen `struct outgoing`, let's look at
@@ -319,7 +319,7 @@ If everything worked OK, and the call file can be spooled, then
 `apply_outgoing` will return `0`, otherwise, it'll return `-1`.
 
 
-### What Did We Learn?
+## What Did We Learn?
 
 We've analyzed the core components that make call files work, and we've learned
 a few things.
@@ -364,7 +364,7 @@ a few things.
     `Channel: blah NextDirective: blah ...`
 
 
-### Conclusion
+## Conclusion
 
 I'm hoping to do a few more articles that demistify other parts of Asterisk in
 depth (with code and examples).  This is my first, and I know it doesn't touch

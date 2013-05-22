@@ -29,7 +29,7 @@ If you don't want to read all this, the important takeaway here is to, above
 all else, **have fun**.
 
 
-### Install Linux on Your Box
+## Install Linux on Your Box
 
 ![Linux Penguin][]
 
@@ -106,7 +106,7 @@ makes life worth living.  So enjoy it!
 Linux can help teach you these things, and more.
 
 
-### Have an Intense Desire
+## Have an Intense Desire
 
 ![Horse Painting][]
 
@@ -146,7 +146,7 @@ helped me break through the initial barriers and eventually become a half
 decent programmer.
 
 
-### Build Small Command Line Programs
+## Build Small Command Line Programs
 
 ![Snoopy Programming][]
 
@@ -192,7 +192,7 @@ writing a ton of small command line utilities.  Don't believe me?  Try it, and
 tell me you aren't addicted after the first one!
 
 
-### Write, Write, Write
+## Write, Write, Write
 
 ![Writer Sketch][]
 
@@ -238,7 +238,7 @@ provide a home for them that I won't mistakenly lose.  Don't make the same
 mistake I did!
 
 
-### Join an Online Community
+## Join an Online Community
 
 ![XKCD Impostor][]
 
@@ -266,7 +266,7 @@ in the off chance you're like me, and want to hang out in the same circle,
 you're invited to check out [#heapify][].
 
 
-### Have Fun
+## Have Fun
 
 ![Program All the Things][]
 
