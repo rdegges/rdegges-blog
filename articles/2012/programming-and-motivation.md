@@ -71,7 +71,7 @@ a great way to have fun while building weekend projects =)
 ## Caffeine
 
 While I'm definitely not a doctor, I can tell you with certainty that caffeine
-makes me feel better **awesome**.
+makes me feel **awesome**.
 
 Despite the fact that some people respond poorly to caffeine, to me it is a
 staple of programming motivation.  Not only do I feel great on caffeine (happy,
