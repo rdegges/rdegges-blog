@@ -449,6 +449,7 @@ that it uses the magical view that we didn't have to write?)  Here it is:
     {% endif %}
 
     <form method="post" action=".">
+      {% csrf_token %}
       <p>
         <label for="id_username">Username:</label>
         {{ form.username }}
