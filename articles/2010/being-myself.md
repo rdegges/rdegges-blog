@@ -59,5 +59,5 @@ I'm going to start living the way I want to, and keeping it real.  If you wanna
 hang out, [send me an email][]!
 
 
-  [Reaper Sketch]: |filename|/images/2010/reaper-sketch.png "Reaper Sketch"
+  [Reaper Sketch]: {filename}/images/2010/reaper-sketch.png "Reaper Sketch"
   [send me an email]: mailto:rdegges@gmail.com "Randall Degges' Email"

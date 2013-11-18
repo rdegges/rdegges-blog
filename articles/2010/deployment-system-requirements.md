@@ -132,5 +132,5 @@ Sometime in the next week or so I'll throw up another article on our deployment
 system, and dive into some technical details.
 
 
-  [Robot Sketch]: |filename|/images/2010/robot-sketch.png "Robot Sketch"
+  [Robot Sketch]: {filename}/images/2010/robot-sketch.png "Robot Sketch"
   [git flow]: http://jeffkreeftmeijer.com/2010/why-arent-you-using-git-flow/ "git flow"

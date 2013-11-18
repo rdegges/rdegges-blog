@@ -46,4 +46,4 @@ that broken library) without compromising your sanity.
 Just *let it go*.
 
 
-  [Warrior Face Sketch]: |filename|/images/2012/warrior-face-sketch.png "Warrior Face Sketch"
+  [Warrior Face Sketch]: {filename}/images/2012/warrior-face-sketch.png "Warrior Face Sketch"

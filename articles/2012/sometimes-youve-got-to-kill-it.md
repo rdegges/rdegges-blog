@@ -41,4 +41,4 @@ to advance, you're falling into the abyss.
 Get out there, and kill it.
 
 
-  [Lion Sketch]: |filename|/images/2012/lion-sketch.png "Lion Sketch"
+  [Lion Sketch]: {filename}/images/2012/lion-sketch.png "Lion Sketch"

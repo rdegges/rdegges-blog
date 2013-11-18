@@ -133,6 +133,6 @@ re-define traditional telephony services, and let us build rock solid, high
 performance telephony systems.
 
 
-  [Desk Sketch]: |filename|/images/2010/desk-sketch.png "Desk Sketch"
+  [Desk Sketch]: {filename}/images/2010/desk-sketch.png "Desk Sketch"
   [Fonality]: http://www.fonality.com/ "Fonality"
   [RCG's CEO]: http://www.chrisbrunner.com/ "Chris Brunner"

@@ -55,4 +55,4 @@ time.
 Regardless of how awesome you are, don't let it get to your head.
 
 
-  [Rooster Sketch]: |filename|/images/2011/rooster-sketch.png "Rooster Sketch"
+  [Rooster Sketch]: {filename}/images/2011/rooster-sketch.png "Rooster Sketch"

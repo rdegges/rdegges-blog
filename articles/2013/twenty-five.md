@@ -164,4 +164,4 @@ more compassionate, smarter, and more open minded.
 Life is a crazy journey, but I'm enjoying it so far :)
 
 
-  [Reaper Sketch]: |filename|/images/2013/reaper-sketch.jpg "Reaper Sketch"
+  [Reaper Sketch]: {filename}/images/2013/reaper-sketch.jpg "Reaper Sketch"

@@ -133,6 +133,6 @@ do some simple work, really push yourself to see *how good of a job you can do*,
 and make a difference.
 
 
-  [Shark Sketch]: |filename|/images/2013/shark-sketch.jpg "Shark Sketch"
+  [Shark Sketch]: {filename}/images/2013/shark-sketch.jpg "Shark Sketch"
   [The Passionate Programmer]: http://www.amazon.com/gp/product/1934356344/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1934356344&linkCode=as2&tag=rdegges-20 "The Passionate Programmer"
   [Ducksboard]: http://ducksboard.com/ "Ducksboard"

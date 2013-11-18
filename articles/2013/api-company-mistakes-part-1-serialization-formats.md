@@ -115,6 +115,6 @@ product documentation simpler, your client libraries much simpler, and will most
 definitely save you a headache or two.
 
 
-  [Angry Dragon Sketch]: |filename|/images/2013/angry-dragon-sketch.png "Angry Dragon Sketch"
+  [Angry Dragon Sketch]: {filename}/images/2013/angry-dragon-sketch.png "Angry Dragon Sketch"
   [OpenCNAM]: https://www.opencnam.com/ "OpenCNAM - A Simple Caller ID API"
   [postgression]: http://www.postgression.com/ "A PostgreSQL Database for Every Test Case"
