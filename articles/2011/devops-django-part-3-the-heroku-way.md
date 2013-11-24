@@ -419,9 +419,9 @@ next article I'll discuss my reasoning with you.
 you can do so here: [http://www.theherokuhackersguide.com/][].
 
 
-  [first article]: {filename}/articles/2011/devops-django-part-1-goals.md "DevOps Django - Part 1 - Goals"
-  [Deploying Django Meme]: {filename}/images/2011/deploying-django-meme.png "Deploying Django Meme"
-  [previous installment]: {filename}/articles/2011/devops-django-part-2-the-pain-of-deployment.md "DevOps Django - Part 2 - The Pain of Deployment"
+  [first article]: |filename|/articles/2011/devops-django-part-1-goals.md "DevOps Django - Part 1 - Goals"
+  [Deploying Django Meme]: |filename|/images/2011/deploying-django-meme.png "Deploying Django Meme"
+  [previous installment]: |filename|/articles/2011/devops-django-part-2-the-pain-of-deployment.md "DevOps Django - Part 2 - The Pain of Deployment"
   [Hacker News]: http://news.ycombinator.com/ "Hacker News"
   [Heroku]: http://www.heroku.com/ "Heroku"
   [Django tutorial]: https://devcenter.heroku.com/articles/django "Heroku Django Tutorial"
@@ -437,7 +437,7 @@ you can do so here: [http://www.theherokuhackersguide.com/][].
   [CLI tool]: https://toolbelt.heroku.com/ "Heroku CLI Tool"
   [Amazon S3]: http://aws.amazon.com/s3/ "Amazon S3"
   [fabfile]: http://docs.fabfile.org/en/latest/ "Python Fabric"
-  [initial article]: {filename}/articles/2011/deploying-django.md "Deploying Django"
-  [here]: {filename}/articles/2011/devops-django-part-4-choosing-heroku.md "DevOps Django - Part 4 - Choosing Heroku"
+  [initial article]: |filename|/articles/2011/deploying-django.md "Deploying Django"
+  [here]: |filename|/articles/2011/devops-django-part-4-choosing-heroku.md "DevOps Django - Part 4 - Choosing Heroku"
   [http://www.theherokuhackersguide.com/]: http://www.theherokuhackersguide.com/
   [rdegges@gmail.com]: mailto:rdegges@gmail.com "Randall Degges' Email"

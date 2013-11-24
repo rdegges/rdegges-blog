@@ -63,4 +63,4 @@ than the alternatives.
 Do the right thing.
 
 
-  [Dark Angel]: {filename}/images/2012/dark-angel.png "Dark Angel"
+  [Dark Angel]: |filename|/images/2012/dark-angel.png "Dark Angel"

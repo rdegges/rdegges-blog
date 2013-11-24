@@ -209,5 +209,5 @@ phreaking scene has all but completely died off, and I think it is time to
 reinvent the telephony hackers underground!
 
 
-  [Telephone Sketch]: {filename}/images/2009/telephone-sketch.png "Telephone Sketch"
-  [PSTN Diagram]: {filename}/images/2009/pstn-diagram.png "PSTN Diagram"
+  [Telephone Sketch]: |filename|/images/2009/telephone-sketch.png "Telephone Sketch"
+  [PSTN Diagram]: |filename|/images/2009/pstn-diagram.png "PSTN Diagram"

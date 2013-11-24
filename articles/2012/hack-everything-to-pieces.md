@@ -80,6 +80,6 @@ writing the right sorts of programs is even more fun.
 **Hack everything!**
 
 
-  [Axe Sketch]: {filename}/images/2012/axe-sketch.png "Axe Sketch"
-  [Owl Sketch]: {filename}/images/2012/owl-sketch.png "Owl Sketch"
+  [Axe Sketch]: |filename|/images/2012/axe-sketch.png "Axe Sketch"
+  [Owl Sketch]: |filename|/images/2012/owl-sketch.png "Owl Sketch"
   [the UNIX way]: http://en.wikipedia.org/wiki/Unix_philosophy "UNIX Philosophy"

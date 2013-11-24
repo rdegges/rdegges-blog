@@ -256,7 +256,7 @@ Heroku, [The Heroku Hacker's Guide][].  It covers ideal ways to deploy your web
 applications on Heroku to reduce the pain.
 
 
-  [Cookie Monster]: {filename}/images/2011/cookie-monster.png "Cookie Monster"
+  [Cookie Monster]: |filename|/images/2011/cookie-monster.png "Cookie Monster"
   [primary main objective]: http://www.southparkstudios.com/full-episodes/s03e10-chinpoko-mon "Primary Main Objective"
   [Rackspace]: http://www.rackspacecloud.com/3149.html "Rackspace"
   [Amazon]: http://aws.amazon.com/ "Amazon Web Services"
@@ -273,7 +273,7 @@ applications on Heroku to reduce the pain.
   [celeryd]: http://celeryproject.org/ "celery"
   [energy drinks]: http://www.amazon.com/gp/product/B000NGNEKY/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B000NGNEKY&linkCode=as2&tag=rdegges-20 "Rockstar No Carb Energy Drinks"
   [puppet]: https://puppetlabs.com/ "puppet"
-  [George Bush]: {filename}/images/2011/george-bush.png "George Bush"
+  [George Bush]: |filename|/images/2011/george-bush.png "George Bush"
   [Heroku]: http://www.heroku.com/ "Heroku"
   [Gondor]: https://gondor.io/ "Gondor"
   [large collection of add-ons]: https://addons.heroku.com/ "Heroku Addons"
@@ -281,5 +281,5 @@ applications on Heroku to reduce the pain.
   [BDFL]: http://en.wikipedia.org/wiki/Benevolent_Dictator_For_Life "BDFL Wiki"
   [devops]: http://en.wikipedia.org/wiki/DevOps "devops Wiki"
   [deployment documentation]: https://docs.djangoproject.com/en/dev/howto/deployment/ "Django Deployment Documentation"
-  [here]: {filename}/articles/2011/devops-django-part-1-goals.md "Devops Django - Part 1 - Goals"
+  [here]: |filename|/articles/2011/devops-django-part-1-goals.md "Devops Django - Part 1 - Goals"
   [The Heroku Hacker's Guide]: http://www.theherokuhackersguide.com/ "The Heroku Hacker's Guide"

@@ -162,7 +162,7 @@ My happiness has been defined by the removal of unnecessary and distracting
 things, as opposed to the collection and accumulation of more.
 
 
-  [Field Sketch]: {filename}/images/2010/field-sketch.png "Field Sketch"
+  [Field Sketch]: |filename|/images/2010/field-sketch.png "Field Sketch"
   [HackerNews]: http://news.ycombinator.com/ "Hacker News"
   [Paul Graham]: http://www.paulgraham.com/ "Paul Graham"
   [Amazon]: http://www.amazon.com/?_encoding=UTF8&camp=1789&creative=390957&linkCode=ur2&tag=rdegges-20 "Amazon"

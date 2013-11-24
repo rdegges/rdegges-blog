@@ -47,4 +47,4 @@ way too short for that.
 From now on I'm just going to do stuff, and have fun.  Forget everything else.
 
 
-  [Kangaroos]: {filename}/images/2012/kangaroos.png "Kangaroos"
+  [Kangaroos]: |filename|/images/2012/kangaroos.png "Kangaroos"

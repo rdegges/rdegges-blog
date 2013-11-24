@@ -105,8 +105,8 @@ document, give it a try!
 Got a better method?  [Drop me a line][].
 
 
-  [Broken Demon Sketch]: {filename}/images/2013/broken-demon-sketch.png "Broken Demon Sketch"
-  [written]: {filename}/articles/2010/basic-xml-parsing-with-python-and-lxml.md "Basic XML Parsing With Python and LXML"
+  [Broken Demon Sketch]: |filename|/images/2013/broken-demon-sketch.png "Broken Demon Sketch"
+  [written]: |filename|/articles/2010/basic-xml-parsing-with-python-and-lxml.md "Basic XML Parsing With Python and LXML"
   [lxml]: http://lxml.de/ "Python LXML"
   [xml.etree]: http://docs.python.org/2/library/xml.etree.elementtree.html "Python xml.etree"
   [XPath selector]: http://docs.python.org/2/library/xml.etree.elementtree.html#elementtree-xpath "XPath Selector"

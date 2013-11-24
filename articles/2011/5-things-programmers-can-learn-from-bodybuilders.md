@@ -128,4 +128,4 @@ Always keep pushing yourself beyond your limits, and you will achieve great
 things.
 
 
-  [Jay Cutler]: {filename}/images/2011/jay-cutler.png "Jay Cutler"
+  [Jay Cutler]: |filename|/images/2011/jay-cutler.png "Jay Cutler"

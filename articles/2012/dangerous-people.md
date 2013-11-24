@@ -41,4 +41,4 @@ If you've got the skills, ambition, and motivation to build something great,
 get out there and do it.  **Be dangerous**, now is the time.
 
 
-  [Barbarian Warrior Sketch]: {filename}/images/2012/barbarian-warrior-sketch.png "Barbarian Warrior Sketch"
+  [Barbarian Warrior Sketch]: |filename|/images/2012/barbarian-warrior-sketch.png "Barbarian Warrior Sketch"

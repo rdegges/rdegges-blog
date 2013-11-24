@@ -156,13 +156,13 @@ terminal work.
     read.
 
 
-  [Tools]: {filename}/images/2012/tools.png "Tools"
+  [Tools]: |filename|/images/2012/tools.png "Tools"
   [tmux]: http://tmux.sourceforge.net/ "tmux"
   [GNU screen]: http://www.gnu.org/software/screen/ "GNU screen"
-  [tmux Multiple Windows]: {filename}/images/2012/tmux-multiple-windows.png "tmux Multiple Windows"
-  [tmux Multiple Panes]: {filename}/images/2012/tmux-multiple-panes.png "tmux Multiple Panes"
-  [tmux Gallery 1]: {filename}/images/2012/tmux-gallery-1.png "tmux Gallery 1"
-  [tmux Gallery 2]: {filename}/images/2012/tmux-gallery-2.png "tmux Gallery 2"
-  [tmux Gallery 3]: {filename}/images/2012/tmux-gallery-3.png "tmux Gallery 3"
+  [tmux Multiple Windows]: |filename|/images/2012/tmux-multiple-windows.png "tmux Multiple Windows"
+  [tmux Multiple Panes]: |filename|/images/2012/tmux-multiple-panes.png "tmux Multiple Panes"
+  [tmux Gallery 1]: |filename|/images/2012/tmux-gallery-1.png "tmux Gallery 1"
+  [tmux Gallery 2]: |filename|/images/2012/tmux-gallery-2.png "tmux Gallery 2"
+  [tmux Gallery 3]: |filename|/images/2012/tmux-gallery-3.png "tmux Gallery 3"
   [tmux crash course]: http://robots.thoughtbot.com/post/2641409235/a-tmux-crash-course "tmux Crash Course"
   [tmux series]: http://blog.hawkhost.com/2010/06/28/tmux-the-terminal-multiplexer/ "tmux Series"

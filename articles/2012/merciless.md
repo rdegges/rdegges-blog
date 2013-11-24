@@ -77,5 +77,5 @@ So here goes nothing.
 Into the darkness we go.
 
 
-  [Berserk Sketch]: {filename}/images/2012/berserk-sketch.png "Berserk Sketch"
-  [absolute victory]: {filename}/articles/2011/absolute-victory.md "Absolute Victory"
+  [Berserk Sketch]: |filename|/images/2012/berserk-sketch.png "Berserk Sketch"
+  [absolute victory]: |filename|/articles/2011/absolute-victory.md "Absolute Victory"

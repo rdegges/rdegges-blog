@@ -247,8 +247,8 @@ If you'd like to know more about postgression, feel free to leave a comment or
 shoot me an email ([rdegges@gmail.com][]).
 
 
-  [Dragon Sketch]: {filename}/images/2013/dragon-sketch.png "Dragon Sketch"
-  [Last week]: {filename}/articles/2013/postgression-a-postgresql-database-for-every-test-case.md "Postgression - a PostgreSQL Database for Every Test Case"
+  [Dragon Sketch]: |filename|/images/2013/dragon-sketch.png "Dragon Sketch"
+  [Last week]: |filename|/articles/2013/postgression-a-postgresql-database-for-every-test-case.md "Postgression - a PostgreSQL Database for Every Test Case"
   [Alven]: https://twitter.com/zaidos "Alven on Twitter"
   [postgression]: http://www.postgression.com/ "postgression"
   [last article]: http://rdegges.com/postgression-a-postgresql-database-for-every "postgression"
@@ -272,11 +272,11 @@ shoot me an email ([rdegges@gmail.com][]).
   [Redis To Go]: https://addons.heroku.com/redistogo "Redistogo Add-on"
   [DNSimple]: https://dnsimple.com/r/d9a8f0b92dfb78 "DNSimple"
   [pgbackups]: https://devcenter.heroku.com/articles/pgbackups "PGbackups Add-on"
-  [postgression Core]: {filename}/images/2013/postgression-core.png "postgression Core"
+  [postgression Core]: |filename|/images/2013/postgression-core.png "postgression Core"
   [https://api-docs.heroku.com/addons]: https://api-docs.heroku.com/addons "Heroku Add-on API"
   [https://api-docs.heroku.com/apps]: https://api-docs.heroku.com/apps "Heroku Apps API"
-  [postgression API]: {filename}/images/2013/postgression-api.png "postgression API"
-  [postgression Models]: {filename}/images/2013/postgression-models.png "postgression Models"
-  [postgression Ducksboard]: {filename}/images/2013/postgression-ducksboard.png "postgression Ducksboard"
-  [postgression Script]: {filename}/images/2013/postgression-script.png "postgression Script"
+  [postgression API]: |filename|/images/2013/postgression-api.png "postgression API"
+  [postgression Models]: |filename|/images/2013/postgression-models.png "postgression Models"
+  [postgression Ducksboard]: |filename|/images/2013/postgression-ducksboard.png "postgression Ducksboard"
+  [postgression Script]: |filename|/images/2013/postgression-script.png "postgression Script"
   [rdegges@gmail.com]: mailto:rdegges@gmail.com "Randall Degges' Email"
