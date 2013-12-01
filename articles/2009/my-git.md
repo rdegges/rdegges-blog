@@ -1,6 +1,9 @@
 Title: My Git
 Date: 2009-12-04
 Tags: git
+Slug: my-git
+Author: Randall Degges
+Summary: A short, personal review of Scott Chacon's new book: Pro Git.
 
 
 ![Pro Git Book Cover][]
