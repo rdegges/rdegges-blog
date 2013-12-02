@@ -43,4 +43,4 @@ That's what I thought.
 Now get out there, and be awesome.
 
 
-  [Fear Sketch]: |filename|/images/2013/fear-sketch.jpg "Fear Sketch"
+  [Fear Sketch]: {filename}/images/2013/fear-sketch.jpg "Fear Sketch"
