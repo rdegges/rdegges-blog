@@ -75,5 +75,5 @@ middleware classes, it is necessary to have them executed last by Django (which
 means defining them first in `MIDDLEWARE_CLASSES`).
 
 
-  [Electron Sketch]: |filename|/images/2012/electron-sketch.png "Electron Sketch"
+  [Electron Sketch]: {filename}/images/2012/electron-sketch.png "Electron Sketch"
   [django-htmlmin]: https://github.com/cobrateam/django-htmlmin "django-htmlmin"

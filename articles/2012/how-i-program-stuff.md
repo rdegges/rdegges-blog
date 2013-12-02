@@ -118,9 +118,9 @@ move on.  There is no room for ego in success.
 ![I Regret Nothing][]
 
 
-  [Programmer Staring at Computer]: |filename|/images/2012/programmer-staring-at-computer.png "Programmer Staring at Computer"
+  [Programmer Staring at Computer]: {filename}/images/2012/programmer-staring-at-computer.png "Programmer Staring at Computer"
   [passionate programmer]: http://www.amazon.com/gp/product/1934356344/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1934356344&linkCode=as2&tag=rdegges-20 "The Passionate Programmer"
-  [Buddha Statue]: |filename|/images/2012/buddha-statue.png "Buddha Statue"
-  [rm -rf]: |filename|/images/2012/rm-rf.png "rm -rf"
-  [Fist]: |filename|/images/2012/fist.png "Fist"
-  [I Regret Nothing]: |filename|/images/2012/i-regret-nothing.gif "I Regret Nothing"
+  [Buddha Statue]: {filename}/images/2012/buddha-statue.png "Buddha Statue"
+  [rm -rf]: {filename}/images/2012/rm-rf.png "rm -rf"
+  [Fist]: {filename}/images/2012/fist.png "Fist"
+  [I Regret Nothing]: {filename}/images/2012/i-regret-nothing.gif "I Regret Nothing"

@@ -17,4 +17,4 @@ KICK ASS along the way.
 Don't yield for anyone.
 
 
-  [Fire Wolf Sketch]: |filename|/images/2012/fire-wolf-sketch.png "Fire Wolf Sketch"
+  [Fire Wolf Sketch]: {filename}/images/2012/fire-wolf-sketch.png "Fire Wolf Sketch"
