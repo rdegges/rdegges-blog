@@ -186,7 +186,7 @@ me via:
 
 
   [Bridge Sketch]: {filename}/images/2013/bridge-sketch.jpg "Bridge Sketch"
-  [shoot me an email]: mailto:rdegges@gmail.com "Randall Degges' Email"
+  [shoot me an email]: mailto:r@rdegges.com "Randall Degges' Email"
   [Twilio]: http://www.twilio.com/ "Twilio"
   [Asterisk]: http://www.asterisk.org/ "Asterisk"
   [Freeswitch]: http://freeswitch.org/ "Freeswitch"

@@ -55,7 +55,7 @@ Creating table django_site
 You just installed Django's auth system, which means you don't have any superusers defined.
 Would you like to create one now? (yes/no): yes
 Username (Leave blank to use 'rdegges'):
-E-mail address: rdegges@gmail.com
+E-mail address: r@rdegges.com
 Password:
 Password (again):
 Superuser created successfully.
@@ -92,7 +92,7 @@ DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
 ADMINS = (
-    ('Randall Degges', 'rdegges@gmail.com'),
+    ('Randall Degges', 'r@rdegges.com'),
 )
 MANAGERS = ADMINS
 
@@ -539,4 +539,4 @@ quick as I can.
   [Lock Sketch]: {filename}/images/2010/lock-sketch.png "Lock Sketch"
   [Django]: http://www.djangoproject.com/ "Django"
   [official documentation]: http://docs.djangoproject.com/en/dev/topics/auth/ "Django Authentication Documentation"
-  [shoot me an email]: mailto:rdegges@gmail.com "Randall Degges' Email"
+  [shoot me an email]: mailto:r@rdegges.com "Randall Degges' Email"

@@ -412,4 +412,4 @@ Got any questions? Feel free to [shoot me an email][], I'd be happy to help.
   [my guide]: {filename}/articles/2010/transparent-telephony-part-2-installing-asterisk.md "Transparent Telephony - Part 2 - Installing Asterisk"
   [this page]: http://www.voip-info.org/wiki/view/Asterisk+Slimming "Asterisk Slimming Wiki Page"
   [voip-info]: http://www.voip-info.org/ "VoIP Info Wiki"
-  [shoot me an email]: mailto:rdegges@gmail.com "Randall Degges' Email"
+  [shoot me an email]: mailto:r@rdegges.com "Randall Degges' Email"

@@ -33,4 +33,4 @@ know what you think][]!
   [Alven]: http://zaidox.com/ "Alven Diaz"
   [motivation.io]: http://www.motivation.io/ "motivation.io - Motivational Bodybuilding Videos"
   [YouTube]: http://www.youtube.com/ "YouTube"
-  [let me know what you think]: mailto:rdegges@gmail.com "Randall Degges' Email"
+  [let me know what you think]: mailto:r@rdegges.com "Randall Degges' Email"

@@ -193,9 +193,9 @@ heading south to LA again, or possibly going overseas.  In the next several
 months we'll choose a destination and head out.
 
 If you happen to be driving through Bakersfield in the near future, or want to
-chat about the city, feel free to shoot me an email: [rdegges@gmail.com][].
+chat about the city, feel free to shoot me an email: [r@rdegges.com][].
 
 
   [Cow Skull Sketch]: {filename}/images/2012/cow-skull-sketch.png "Cow Skull Sketch"
   [Bakersfield]: http://goo.gl/maps/4V9lQ "Bakersfield"
-  [rdegges@gmail.com]: mailto:rdegges@gmail.com "Randall Degges' Email"
+  [r@rdegges.com]: mailto:r@rdegges.com "Randall Degges' Email"

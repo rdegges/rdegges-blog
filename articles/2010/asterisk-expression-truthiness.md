@@ -188,5 +188,5 @@ Got any questions?  Feel free to [shoot me an email][] or message me on
   [awesome book]: http://www.amazon.com/gp/product/0596517343/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0596517343&linkCode=as2&tag=rdegges-20 "Asterisk: The Definitive Guide"
   [expressions]: http://www.voip-info.org/wiki/view/Asterisk+Expressions "Asterisk Expressions Wiki Page"
   [FreePBX]: http://www.freepbx.org/ "FreePBX"
-  [shoot me an email]: mailto:rdegges@gmail.com "Randall Degges' Email"
+  [shoot me an email]: mailto:r@rdegges.com "Randall Degges' Email"
   [twitter]: https://twitter.com/rdegges "Randall Degges' Twitter"

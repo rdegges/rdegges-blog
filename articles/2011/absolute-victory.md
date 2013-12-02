@@ -68,4 +68,4 @@ how it works out, I'm extremely interested in this sort of thing.
   [Ghengis Khan and the Making of the Modern World]: http://www.amazon.com/gp/product/0609809644/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=0609809644&linkCode=as2&tag=rdegges-20 "Ghengis Khan and the Making of the Modern World"
   [Ghengis Khan]: http://en.wikipedia.org/wiki/Ghengis_Khan "Ghengis Khan Wiki"
   [Mongols]: http://en.wikipedia.org/wiki/Mongols "Mongols Wiki"
-  [Let me know]: mailto:rdegges@gmail.com "Randall Degges' Email"
+  [Let me know]: mailto:r@rdegges.com "Randall Degges' Email"

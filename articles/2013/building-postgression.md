@@ -244,7 +244,7 @@ If you're interested in postgression at all, be sure to give it a go and check
 out our website: [http://www.postgression.com/][postgression]
 
 If you'd like to know more about postgression, feel free to leave a comment or
-shoot me an email ([rdegges@gmail.com][]).
+shoot me an email ([r@rdegges.com][]).
 
 
   [Dragon Sketch]: {filename}/images/2013/dragon-sketch.png "Dragon Sketch"
@@ -279,4 +279,4 @@ shoot me an email ([rdegges@gmail.com][]).
   [postgression Models]: {filename}/images/2013/postgression-models.png "postgression Models"
   [postgression Ducksboard]: {filename}/images/2013/postgression-ducksboard.png "postgression Ducksboard"
   [postgression Script]: {filename}/images/2013/postgression-script.png "postgression Script"
-  [rdegges@gmail.com]: mailto:rdegges@gmail.com "Randall Degges' Email"
+  [r@rdegges.com]: mailto:r@rdegges.com "Randall Degges' Email"

@@ -60,4 +60,4 @@ hang out, [send me an email][]!
 
 
   [Reaper Sketch]: {filename}/images/2010/reaper-sketch.png "Reaper Sketch"
-  [send me an email]: mailto:rdegges@gmail.com "Randall Degges' Email"
+  [send me an email]: mailto:r@rdegges.com "Randall Degges' Email"

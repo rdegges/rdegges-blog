@@ -440,4 +440,4 @@ you can do so here: [http://www.theherokuhackersguide.com/][].
   [initial article]: {filename}/articles/2011/deploying-django.md "Deploying Django"
   [here]: {filename}/articles/2011/devops-django-part-4-choosing-heroku.md "DevOps Django - Part 4 - Choosing Heroku"
   [http://www.theherokuhackersguide.com/]: http://www.theherokuhackersguide.com/
-  [rdegges@gmail.com]: mailto:rdegges@gmail.com "Randall Degges' Email"
+  [r@rdegges.com]: mailto:r@rdegges.com "Randall Degges' Email"

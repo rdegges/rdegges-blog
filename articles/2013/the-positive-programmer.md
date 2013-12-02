@@ -166,4 +166,4 @@ If you're stuck in a rut and want someone to chat with, feel free to
 
   [Kenpachi Smiling Sketch]: {filename}/images/2013/kenpachi-smiling-sketch.png "Kenpachi Smiling Sketch"
   [Hacker News]: https://news.ycombinator.com/ "Hacker News"
-  [shoot me an email]: mailto:rdegges@gmail.com "Randall Degges' Email"
+  [shoot me an email]: mailto:r@rdegges.com "Randall Degges' Email"

@@ -138,4 +138,4 @@ next 90 days, in order to share our insights, and help clarify my own thoughts
   [fabric]: http://docs.fabfile.org/en/latest/ "Fabric"
   [gunicorn]: http://gunicorn.org/ "Gunicorn"
   [nginx]: http://www.nginx.org/ "Nginx"
-  [share them]: mailto:rdegges@gmail.com "Randall Degges' Email"
+  [share them]: mailto:r@rdegges.com "Randall Degges' Email"

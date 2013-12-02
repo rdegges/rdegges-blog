@@ -155,4 +155,4 @@ Got any questions?  Feel free to [shoot me an email][], would be happy to help.
   [pg_trgm]: http://www.postgresql.org/docs/9.2/static/pgtrgm.html "PostgreSQL Fuzzy Text Searching"
   [Solr]: https://lucene.apache.org/solr/ "Apache Solr"
   [Elastic Search]: http://www.elasticsearch.org/ "Elastic Search"
-  [shoot me an email]: mailto:rdegges@gmail.com "Randall Degges' Email"
+  [shoot me an email]: mailto:r@rdegges.com "Randall Degges' Email"

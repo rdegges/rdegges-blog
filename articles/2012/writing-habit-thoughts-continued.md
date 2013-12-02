@@ -138,7 +138,7 @@ While my writing has matured quite a bit over the past few months, I still have
 many years to go before I reach the level of fluency that I'd like to attain.
 
 **ALSO:** Are you working on a writing habit?  If so, I'd love to hear how your
-journey is going.  Please send me an email ([rdegges@gmail.com][]), and let's
+journey is going.  Please send me an email ([r@rdegges.com][]), and let's
 keep in touch!
 
 
@@ -146,4 +146,4 @@ keep in touch!
   [writing]: {filename}/articles/2011/establishing-a-writing-habit.md "Establishing a Writing Habit"
   [before]: {filename}/articles/2012/writing-habit-complete.md "Writing Habit -- Complete"
   [irc.oftc.net/#heapify]: irc://irc.oftc.net/#heapify "#heapify"
-  [rdegges@gmail.com]: mailto:rdegges@gmail.com "Randall Degges' Email"
+  [r@rdegges.com]: mailto:r@rdegges.com "Randall Degges' Email"
