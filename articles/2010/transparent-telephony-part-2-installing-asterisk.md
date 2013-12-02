@@ -269,8 +269,8 @@ thorough book on Asterisk that you can find, and will teach you everything you
 need to know to get started with Asterisk.
 
 
-  [Telephone Sketch]: |filename|/images/2010/telephone-sketch.png "Telephone Sketch"
-  [Transparent Telephony - Part 1 - An Introduction]: |filename|/articles/2009/transparent-telephony-part-1-an-introduction.md "Transparent Telephony - Part 1 - An Introduction"
+  [Telephone Sketch]: {filename}/images/2010/telephone-sketch.png "Telephone Sketch"
+  [Transparent Telephony - Part 1 - An Introduction]: {filename}/articles/2009/transparent-telephony-part-1-an-introduction.md "Transparent Telephony - Part 1 - An Introduction"
   [Asterisk]: http://www.asterisk.org/ "Asterisk PBX"
   [CentOS]: http://centos.org/ "CentOS"
   [Ubuntu]: http://www.ubuntu.com/ "Ubuntu"

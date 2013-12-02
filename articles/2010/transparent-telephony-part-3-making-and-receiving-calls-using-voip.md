@@ -616,9 +616,9 @@ Telephony series, we'll have significantly shorter, more targeted articles, so
 following along should be easier.
 
 
-  [Old Telephone Sketch]: |filename|/images/2010/old-telephone-sketch.png "Old Telephone Sketch"
-  [Part 1 - An Introduction]: |filename|/articles/2009/transparent-telephony-part-1-an-introduction.md "Transparent Telephony - Part 1 - An Introduction"
-  [previous installment]: |filename|/articles/2010/transparent-telephony-part-2-installing-asterisk.md "Transparent Telephony - Part 2 - Installing Asterisk"
+  [Old Telephone Sketch]: {filename}/images/2010/old-telephone-sketch.png "Old Telephone Sketch"
+  [Part 1 - An Introduction]: {filename}/articles/2009/transparent-telephony-part-1-an-introduction.md "Transparent Telephony - Part 1 - An Introduction"
+  [previous installment]: {filename}/articles/2010/transparent-telephony-part-2-installing-asterisk.md "Transparent Telephony - Part 2 - Installing Asterisk"
   [Flowroute]: http://www.flowroute.com/ "Flowroute"
   [voip.ms]: http://voip.ms/ "Voip MS"
   [Vitelity]: http://vitelity.com/ "Vitelity"
