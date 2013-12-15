@@ -1,6 +1,9 @@
 Title: Dogs Are Great Programming Companions
 Date: 2012-01-09
 Tags: programming
+Summary:
+    Dogs are a programmer's best friend.  A short dedication to my dog,
+    Scribbles.  Love you!
 
 
 ![Hello This is Dog][]

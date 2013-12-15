@@ -1,6 +1,9 @@
 Title: Improvement and Perfection
 Date: 2012-11-25
 Tags: personal development
+Summary:
+    Striving for perfection is the only way to become the absolute best.  You've
+    got to keep pushing yourself if you want to improve.
 
 
 ![Tiger Sketch][]

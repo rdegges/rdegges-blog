@@ -1,12 +1,14 @@
 Title: Being Awesome
 Date: 2012-12-10
 Tags: personal development
+Summary:
+    If you want to be awesome, then go do it right now.  NO EXCUSES!
 
 
 ![Fire Wolf Sketch][]
 
 
-If you wan to be awesome, then go be awesome.
+If you want to be awesome, then go be awesome.
 
 Code the stuff you want to code.  Build the business you want to build.  Lift
 the weights.  Lose the weight.  Go the extra mile.

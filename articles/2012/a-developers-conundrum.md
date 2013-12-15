@@ -1,6 +1,10 @@
 Title: A Developer's Conundrum - Dev / Prod Parity
 Date: 2012-07-10
 Tags: programming
+Summary:
+    Want to make your life easier when writing production quality software?  You
+    should try to keep your development environment as similar to your
+    production environment as possible.
 
 
 ![Grim Reaper Bust][]

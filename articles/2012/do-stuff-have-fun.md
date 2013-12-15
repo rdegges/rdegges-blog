@@ -1,6 +1,8 @@
 Title: Do Stuff, Have Fun
 Date: 2012-03-23
 Tags: personal development
+Summary:
+    Give this a try: do stuff, and have fun.  Don't worry about anything else.
 
 
 ![Kangaroos][]

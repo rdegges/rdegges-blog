@@ -1,6 +1,9 @@
 Title: How I Learned to Program
 Date: 2012-02-03
 Tags: programming
+Summary:
+    This article talks about my experience learning to program and my general
+    development mindset.
 
 
 ![Glider][]

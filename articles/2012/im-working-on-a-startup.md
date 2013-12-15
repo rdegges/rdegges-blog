@@ -1,6 +1,8 @@
 Title: I'm Working on a Startup
 Date: 2012-04-08
 Tags: startups
+Summary:
+    I'm working on a new startup: OpenCNAM!  If you're interested, read on.
 
 
 ![Monk Sketch][]

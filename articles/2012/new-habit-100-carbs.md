@@ -1,6 +1,8 @@
 Title: New Habit - 100 Carbs
 Date: 2012-01-03
 Tags: personal development
+Summary:
+    I'm trying to build a new habit: eating less than 100 carbs per day.
 
 
 ![Meat Sketch][]

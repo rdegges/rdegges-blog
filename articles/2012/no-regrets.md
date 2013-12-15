@@ -1,6 +1,9 @@
 Title: No Regrets
 Date: 2012-10-10
 Tags: personal development
+Summary:
+    I can't stand the thought of doing anything less than 100%.  It's the only
+    way I can live with myself.
 
 
 ![Dark Mage Sketch][]

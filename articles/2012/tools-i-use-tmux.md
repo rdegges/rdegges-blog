@@ -1,6 +1,9 @@
 Title: Tools I Use - tmux
 Date: 2012-01-07
 Tags: programming
+Summary:
+    tmux is an amazingly useful tool.  Here's a quick look at what makes it
+    awesome.
 
 
 ![Tools][]

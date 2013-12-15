@@ -1,6 +1,8 @@
 Title: Hack Things at the LA Hackathon
 Date: 2012-10-22
 Tags: programming
+Summary:
+    If you miss the LA Hackathon, you're missing out; hardcore.
 
 
 ![Axe Warrior Sketch][]

@@ -1,6 +1,9 @@
 Title: Do the Right Thing
 Date: 2012-03-20
 Tags: personal development
+Summary:
+    Want to be a better person?  Do the right thing.  Have some personal
+    integrity, and make good decisions.
 
 
 ![Dark Angel][]
