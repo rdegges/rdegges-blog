@@ -1,6 +1,8 @@
 Title: Heroku Dynos (in Depth)
 Date: 2013-02-10
 Tags: programming
+Summary:
+    A technical look at Heroku's dynos, and how they work.
 
 
 ![T-Rex Sketch][]

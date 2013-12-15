@@ -1,6 +1,9 @@
 Title: Easy Fuzzy Text Searching With PostgreSQL
 Date: 2013-06-12
 Tags: programming
+Summary:
+    PostgreSQL has a really useful extension which allows you to easily do full
+    text fuzzy search.
 
 
 ![Monster in Disguise Sketch][]

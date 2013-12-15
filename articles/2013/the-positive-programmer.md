@@ -1,6 +1,8 @@
 Title: The Positive Programmer
 Date: 2013-03-26
 Tags: personal development, programming
+Summary:
+    My thoughts on all the negativity in the tech community.
 
 
 ![Kenpachi Smiling Sketch][]

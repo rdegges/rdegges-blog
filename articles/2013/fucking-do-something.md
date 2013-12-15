@@ -1,6 +1,8 @@
 Title: Fucking Do Something!
 Date: 2013-10-21
 Tags: personal development
+Summary:
+    Feeling down?  Get up and fucking do something!
 
 
 ![Fear Sketch][]

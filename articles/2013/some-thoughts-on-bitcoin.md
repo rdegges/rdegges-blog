@@ -1,6 +1,8 @@
 Title: Some Thoughts on Bitcoin
 Date: 2013-04-28
 Tags: bitcoin
+Summary:
+    I started using Bitcoin a while back, here are my thoughts.
 
 
 ![Thinking Mask Sketch][]

@@ -1,6 +1,9 @@
 Title: Sacrifice
 Date: 2013-03-28
 Tags: personal development
+Summary:
+    Sometimes you have to sacrifice other tasks and activities to make room for
+    new ones.
 
 
 ![Demon Sketch][]
