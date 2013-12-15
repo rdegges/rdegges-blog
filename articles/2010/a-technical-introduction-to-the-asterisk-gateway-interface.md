@@ -1,6 +1,9 @@
 Title: A Technical Introduction to the Asterisk Gateway Interface (AGI)
 Date: 2010-02-16
 Tags: programming, telephony, asterisk
+Summary:
+    Interested in the Asterisk AGI?  This article covers the AGI from the ground
+    up: what it does, how it works, and when you should use it.
 
 
 ![Gate Sketch][]

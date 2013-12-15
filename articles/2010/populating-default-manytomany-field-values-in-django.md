@@ -1,6 +1,9 @@
 Title: Populating Default ManyToMany Field Values in Django
 Date: 2010-06-25
 Tags: programming, python, django
+Summary:
+    A quick article discussing how populate ManyToManyField default values for
+    Django applications.
 
 
 ![Pony Sketch][]

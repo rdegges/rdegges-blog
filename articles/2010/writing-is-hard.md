@@ -1,6 +1,8 @@
 Title: Writing is Hard
 Date: 2010-02-12
 Tags: personal development
+Summary:
+    Writing is really hard stuff -- so I'm going to do it way more often!  >:)
 
 
 ![Man Writing Sketch][]

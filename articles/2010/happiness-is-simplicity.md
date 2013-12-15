@@ -1,6 +1,9 @@
 Title: Happiness is Simplicity
 Date: 2010-09-10
 Tags: personal development
+Summary:
+    I just had a realization: what makes me happy is the simple things in life.
+    This is my story.
 
 
 ![Field Sketch][]

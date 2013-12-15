@@ -1,6 +1,9 @@
 Title: Auto Generate Forms with Django's ModelForm
 Date: 2010-03-11
 Tags: programming, python, django
+Summary:
+    Django's ModelForm class is pretty useful.  Here we'll take a quick look at
+    using ModelForm appropriately.
 
 
 ![Mannequin Sketch][]

@@ -1,6 +1,9 @@
 Title: Being Myself
 Date: 2010-12-02
 Tags: personal development
+Summary:
+    I've been pretty lame lately, constantly working to please other people.
+    But not anymore!
 
 
 ![Reaper Sketch][]

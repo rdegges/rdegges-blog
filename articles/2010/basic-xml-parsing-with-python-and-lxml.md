@@ -1,6 +1,8 @@
 Title: Basic XML Parsing With Python and LXML
 Date: 2010-03-16
 Tags: programming, python
+Summary:
+    The simplest way to parse basic XML code with Python (hint: use LXML).
 
 
 ![Lumberjack Sketch][]

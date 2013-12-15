@@ -1,6 +1,9 @@
 Title: The Asterisk Spooling Daemon
 Date: 2010-06-06
 Tags: programming, telephony, asterisk, c
+Summary:
+    An informal code review and look at the Asterisk call file daemon
+    (pbx_spool.so).
 
 
 ![Daemon Sketch][]

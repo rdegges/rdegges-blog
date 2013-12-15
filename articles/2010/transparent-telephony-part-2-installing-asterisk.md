@@ -1,6 +1,9 @@
 Title: Transparent Telephony - Part 2 - Installing Asterisk
 Date: 2010-02-28
 Tags: programming, telephony, asterisk
+Summary:
+    The second part of my telephony series.  In this part, we'll install
+    Asterisk on a Linux server.
 
 
 ![Telephone Sketch][]

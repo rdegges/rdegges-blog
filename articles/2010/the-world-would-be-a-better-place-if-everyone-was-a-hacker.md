@@ -1,6 +1,9 @@
 Title: The World Would Be a Better Place if Everyone Was a Hacker
 Date: 2010-03-15
 Tags: personal development
+Summary:
+    Hackers make the world great!  What if there were more of them?  Make a
+    difference.  Get out there, and hack everything.
 
 
 ![Earth Sketch][]
