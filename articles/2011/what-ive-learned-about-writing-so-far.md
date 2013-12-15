@@ -1,6 +1,8 @@
 Title: What I've Learned About Writing (So Far)
 Date: 2011-12-19
 Tags: personal development
+Summary:
+    A look back at my writing habit progress so far.
 
 
 ![Writer Sketch][]

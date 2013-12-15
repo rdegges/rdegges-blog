@@ -1,6 +1,8 @@
 Title: 2011 Yearly Goals Update 1
 Date: 2011-04-24
 Tags: personal development
+Summary:
+    A quick update on my yearly goals.
 
 
 ![Pelican Sketch][]

@@ -1,6 +1,9 @@
 Title: My "Done" List
 Date: 2011-12-25
 Tags: programming
+Summary:
+    Having a done list is a pretty great way to keep yourself on track with work
+    and maintain a consistent level of quality.
 
 
 ![Code Wolf Meme][]

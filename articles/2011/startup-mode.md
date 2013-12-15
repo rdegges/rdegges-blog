@@ -1,6 +1,8 @@
 Title: Startup Mode
 Date: 2011-01-06
 Tags: programming, telephony, startups
+Summary:
+    STARTUP MODE!  Let's do this shit.
 
 
 ![Monster Sketch][]

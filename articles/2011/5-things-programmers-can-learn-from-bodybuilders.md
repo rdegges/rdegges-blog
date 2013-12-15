@@ -1,6 +1,9 @@
 Title: 5 Things Programmers Can Learn From Bodybuilders
 Date: 2011-03-26
 Tags: programming, personal development
+Summary:
+    You'd be surprised to learn how inspirational bodybuilders can be to
+    programmers like me.
 
 
 ![Jay Cutler][]

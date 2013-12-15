@@ -1,6 +1,9 @@
 Title: DevOps Django - Part 2 - The Pain of Deployment
 Date: 2011-12-12
 Tags: programming, devops, python, django
+Summary:
+    The second part of my DevOps Django series.  In this article, I discuss how
+    painful deployment is, and why it is the way it is.
 
 
 ![Pyramid Head Sketch][]

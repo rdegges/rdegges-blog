@@ -1,6 +1,10 @@
 Title: Programming Innocence
 Date: 2011-01-11
 Tags: programming, personal development
+Summary:
+    There's something special about the mindset of a new programmer: new
+    programmers have no fear at all.  How awesome would it be to feel like that
+    again?
 
 
 ![Warrior Sketch][]

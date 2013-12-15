@@ -1,6 +1,9 @@
 Title: Essential Tools for Pythonistas
 Date: 2011-04-17
 Tags: programming, python
+Summary:
+    A list of essential tools that all Python programmers should be using on a
+    daily basis.
 
 
 ![Python Sketch][]

@@ -1,6 +1,8 @@
 Title: Building a Better Body
 Date: 2011-04-03
 Tags: personal development
+Summary:
+    My experiences lifting weights, losing weight, and dieting.
 
 
 ![Bodybuilder Sketch][]

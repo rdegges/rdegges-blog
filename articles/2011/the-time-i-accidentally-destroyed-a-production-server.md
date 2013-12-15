@@ -1,6 +1,9 @@
 Title: The Time I Accidentally Destroyed a Production Server
 Date: 2011-04-29
 Tags: programming, devops
+Summary:
+    The story of the time I accidentally destroyed a live production server, and
+    how I managed to recover from the disaster without too much bloodshed.
 
 
 ![Horseman Sketch][]

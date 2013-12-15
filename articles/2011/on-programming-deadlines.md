@@ -1,6 +1,9 @@
 Title: On Programming Deadlines
 Date: 2011-06-23
 Tags: programming
+Summary:
+    Programming deadlines are the stuff of nightmares.  Luckily, I've found some
+    ways to make them a little less scary.
 
 
 ![Computer Sketch][]

@@ -1,6 +1,8 @@
 Title: Absolute Victory
 Date: 2011-07-17
 Tags: personal development
+Summary:
+    Fuck mediocrity.  Go all or nothing.
 
 
 ![Barbarian Sketch][]

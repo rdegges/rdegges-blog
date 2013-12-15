@@ -1,6 +1,10 @@
 Title: DevOps Django - Part 4 - Choosing Heroku
 Date: 2011-12-30
 Tags: programming, devops, python, django
+Summary:
+    The last part of my DevOps Django series.  In this installment, I discuss
+    why Heroku is a kickass solution to many of Django's deployment problems,
+    and how you can benefit from using it.
 
 
 ![Troll Sketch][]

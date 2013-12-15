@@ -1,6 +1,8 @@
 Title: The Perfect Django Settings File
 Date: 2011-04-29
 Tags: programming, python, django
+Summary:
+    There's only one way to make a perfect Django settings file -- my way >:)
 
 
 ![Turtle Sketch][]

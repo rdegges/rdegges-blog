@@ -1,6 +1,8 @@
 Title: Don't Get Too Cocky
 Date: 2011-03-06
 Tags: personal development
+Summary:
+    Don't be cocky.  Been there and done that!
 
 
 ![Rooster Sketch][]
