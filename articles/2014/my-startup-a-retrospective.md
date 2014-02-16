@@ -222,7 +222,7 @@ me was something similar to the following (your mileage may vary):
 >
 > I'm the CTO at a small tech startup, OpenCNAM (https://www.opencnam.com/).  We
 > just built an experimental new Caller ID API service.  The way it works is
-> sipmle: you query our public API endpoint with a phone number (ex:
+> simple: you query our public API endpoint with a phone number (ex:
 > https://api.opencnam.com/v2/+16502530000), and we'll give you back that phone's
 > Caller ID ("GOOGLE INC" in this case).
 >
