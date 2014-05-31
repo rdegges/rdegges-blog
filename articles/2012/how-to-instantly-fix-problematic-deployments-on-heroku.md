@@ -1,5 +1,5 @@
 Title: How to Instantly Fix Problematic Deployments on Heroku
-Date: 2012-01-07
+Date: 2012-01-08
 Tags: programming, devops
 Summary:
     Instantly fix broken Heroku deployments with the awesome rollback tool.
