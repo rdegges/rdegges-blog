@@ -1,5 +1,5 @@
 Title: My Bane - Multiple Projects
-Date: 2012-10-14
+Date: 2012-10-13
 Tags: personal development
 Summary:
     I suck at multi-tasking.  It's a lot easier to focus on a single thing at a
