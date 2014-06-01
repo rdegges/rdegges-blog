@@ -312,7 +312,7 @@ rollbacks enabled.  I've integrated monit, cacti, nagios, and munin monitoring.
 
 At the time, I thought it was an awesome idea.  After I jumped over the initial
 learning curve, it all seemed like a piece of cake.  *This is the way everyone
-should do it!  It's so cheap!  It's really awesome!*.  But after a while,
+should do it!  It's so cheap!  It's really awesome!*  But after a while,
 things changed.
 
 I found myself spending tons of time every month dealing with:
