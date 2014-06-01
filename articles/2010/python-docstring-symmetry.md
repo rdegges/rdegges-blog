@@ -1,5 +1,5 @@
 Title: Python Docstring Symmetry
-Date: 2010-08-16
+Date: 2010-08-17
 Tags: programming, python
 Summary:
     A short PEP-257 rant about docstring style.
