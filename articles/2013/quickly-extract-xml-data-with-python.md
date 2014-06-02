@@ -85,7 +85,7 @@ if value:
 
 Which outputs:
 
-```
+```console
 $ parse.py
 Found value: SOMETHING IMPORTANT!
 ```
