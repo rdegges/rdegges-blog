@@ -75,7 +75,7 @@ conservative purposes.
 
 **Money in Bank -> Monthly Donations**
 
-```console
+```
 $10,000         -> $16.67
 
 $100,000        -> $166.67

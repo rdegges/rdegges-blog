@@ -102,8 +102,7 @@ AGI.  Below is an extremely simple example dial plan which passes all calls to
 an AGI script for processing.
 
 ```ini
-; This dial plan code passes all call processing to the call-processor.sh
-shell
+; This dial plan code passes all call processing to the call-processor.sh shell
 ; script.
 
 [incoming]

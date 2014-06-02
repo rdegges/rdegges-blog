@@ -55,50 +55,50 @@ a list of packages, install the appropriate `linux-headers`, `linux-image`, and
 was:
 
 ```console
-apt-get install linux-headers-2.6.31-14-generic
-apt-get install linux-image-2.6.31-14-generic
-apt-get install linux-source-2.6.31
+$ apt-get install linux-headers-2.6.31-14-generic
+$ apt-get install linux-image-2.6.31-14-generic
+$ apt-get install linux-source-2.6.31
 ```
 
 Now install the SSL libraries required for encryption.  We'll also install SSH
 so that you can remotely administrate your server:
 
 ```console
-apt-get install openssl libssl-dev ssh
+$ apt-get install openssl libssl-dev ssh
 ```
 
 Next we'll install all of the tools required to build Asterisk:
 
 ```console
-apt-get install gcc
-apt-get install g++
-apt-get install make
-apt-get install automake
-apt-get install autoconf
-apt-get install build-essential
-apt-get install bison
-apt-get install flex
-apt-get install libtool
-apt-get install libncurses5
-apt-get install libncurses5-dev
-apt-get install libgsm1
-apt-get install libgsm1-dev
-apt-get install libnewt-dev
-apt-get install libnewt-pic
-apt-get install curl
-apt-get install libcurl3
-apt-get install tclcurl
-apt-get install libwww-dev
-apt-get install mysql-common
-apt-get install mysql-client
-apt-get install libmysqlclient16
-apt-get install libmysqlclient16-dev
-apt-get install sox
-apt-get install libsox-fmt-all
-apt-get install madplay
-apt-get install libxml2
-apt-get install libxml2-dev
-apt-get install doxygen
+$ apt-get install gcc
+$ apt-get install g++
+$ apt-get install make
+$ apt-get install automake
+$ apt-get install autoconf
+$ apt-get install build-essential
+$ apt-get install bison
+$ apt-get install flex
+$ apt-get install libtool
+$ apt-get install libncurses5
+$ apt-get install libncurses5-dev
+$ apt-get install libgsm1
+$ apt-get install libgsm1-dev
+$ apt-get install libnewt-dev
+$ apt-get install libnewt-pic
+$ apt-get install curl
+$ apt-get install libcurl3
+$ apt-get install tclcurl
+$ apt-get install libwww-dev
+$ apt-get install mysql-common
+$ apt-get install mysql-client
+$ apt-get install libmysqlclient16
+$ apt-get install libmysqlclient16-dev
+$ apt-get install sox
+$ apt-get install libsox-fmt-all
+$ apt-get install madplay
+$ apt-get install libxml2
+$ apt-get install libxml2-dev
+$ apt-get install doxygen
 ```
 
 You may also want to install `ntp` as it's a safer alternative to `ntpdate`
@@ -155,12 +155,12 @@ gpgcheck=0
 -   Install Asterisk and its dependencies:
 
 ```console
-yum install asterisk16
-yum install asterisk16-configs
-yum install asterisk16-voicemail
-yum install dahdi-linux
-yum install dahdi-tools
-yum install libpri
+$ yum install asterisk16
+$ yum install asterisk16-configs
+$ yum install asterisk16-voicemail
+$ yum install dahdi-linux
+$ yum install dahdi-tools
+$ yum install libpri
 ```
 
 -   Make Asterisk and DAHDI start at boot.  Then reboot the server to make sure
@@ -189,56 +189,56 @@ To install Asterisk on Ubuntu, we need to compile it from source.
     downloading (current at the time of writing):
 
 ```console
-wget http://downloads.asterisk.org/pub/telephony/asterisk/releases/asterisk-1.6.2.5.tar.gz
-wget http://downloads.asterisk.org/pub/telephony/asterisk/asterisk-addons-1.6.2.0.tar.gz
-wget http://downloads.asterisk.org/pub/telephony/dahdi-linux-complete/releases/dahdi-linux-complete-2.2.1+2.2.1.tar.gz
-wget http://downloads.asterisk.org/pub/telephony/libpri/releases/libpri-1.4.10.2.tar.gz
+$ wget http://downloads.asterisk.org/pub/telephony/asterisk/releases/asterisk-1.6.2.5.tar.gz
+$ wget http://downloads.asterisk.org/pub/telephony/asterisk/asterisk-addons-1.6.2.0.tar.gz
+$ wget http://downloads.asterisk.org/pub/telephony/dahdi-linux-complete/releases/dahdi-linux-complete-2.2.1+2.2.1.tar.gz
+$ wget http://downloads.asterisk.org/pub/telephony/libpri/releases/libpri-1.4.10.2.tar.gz
 ```
 
 -   Now, let's install DAHDI Linux / DAHDI Tools. Always install this before
     Asterisk:
 
 ```console
-tar zxvf dahdi-linux-complete-2.2.1+2.2.1.tar.gz
-cd dahdi-linux-complete-2.2.1+2.2.1
-make
-make install
-make config
+$ tar zxvf dahdi-linux-complete-2.2.1+2.2.1.tar.gz
+$ cd dahdi-linux-complete-2.2.1+2.2.1
+$ make
+$ make install
+$ make config
 ```
 
 -   Now we'll install Libpri:
 
 ```console
-tar zxvf libpri-1.4.10.2.tar.gz
-cd libpri-1.4.10.2/
-make
-make install
+$ tar zxvf libpri-1.4.10.2.tar.gz
+$ cd libpri-1.4.10.2/
+$ make
+$ make install
 ```
 
 -   Now that we've got both DAHDI and Libpri installed, let's install
     Asterisk:
 
 ```console
-tar zxvf asterisk-1.6.2.5.tar.gz
-cd asterisk-1.6.2.5/
-./configure
-make
-make install
-make config
-make samples
-make progdocs
+$ tar zxvf asterisk-1.6.2.5.tar.gz
+$ cd asterisk-1.6.2.5/
+$ ./configure
+$ make
+$ make install
+$ make config
+$ make samples
+$ make progdocs
 ```
 
 -   Finally, we'll install Asterisk-Addons which includes some useful
     functionality:
 
 ```console
-tar zxvf asterisk-addons-1.6.2.0.tar.gz
-cd asterisk-addons-1.6.2.0/
-./configure
-make
-make install
-make samples
+$ tar zxvf asterisk-addons-1.6.2.0.tar.gz
+$ cd asterisk-addons-1.6.2.0/
+$ ./configure
+$ make
+$ make install
+$ make samples
 ```
 
 Now that we've got everything installed, go ahead and reboot the system to make
@@ -246,8 +246,8 @@ sure that everything starts up automatically on boot.  Once the system is back
 up and running, run the following two commands:
 
 ```console
-/etc/init.d/dahdi status
-asterisk -rx 'core show version'
+$ /etc/init.d/dahdi status
+$ asterisk -rx 'core show version'
 ```
 
 If all is working, you should see something similar to:

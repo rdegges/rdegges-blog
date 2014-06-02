@@ -36,10 +36,10 @@ For the rest of this tutorial, I expect that you:
 Installing Jenkins is ridiculously easy on Debian systems:
 
 ```console
-wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
-sudo echo "deb http://pkg.jenkins-ci.org/debian binary/" > /etc/apt/sources.list.d/jenkins.list
-sudo aptitude -y update
-sudo aptitude -y install jenkins
+$ wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
+$ sudo echo "deb http://pkg.jenkins-ci.org/debian binary/" > /etc/apt/sources.list.d/jenkins.list
+$ sudo aptitude -y update
+$ sudo aptitude -y install jenkins
 ```
 
 Congratulations, you now have Jenkins running!  To visit your new Jenkins
@@ -55,10 +55,10 @@ so to that I can access it on port `80`.  My weapon of choice for proxying is
 NGINX, so let's set that up now:
 
 ```console
-sudo aptitude -y install nginx
-cd /etc/nginx/sites-available
-sudo rm default
-sudo cat > jenkins
+$ sudo aptitude -y install nginx
+$ cd /etc/nginx/sites-available
+$ sudo rm default
+$ sudo cat > jenkins
 upstream app_server {
     server 127.0.0.1:8080 fail_timeout=0;
 }
@@ -80,8 +80,8 @@ server {
     }
 }
 ^D # Hit CTRL + D to finish writing the file
-sudo ln -s /etc/nginx/sites-available/jenkins /etc/nginx/sites-enabled/
-sudo service nginx restart
+$ sudo ln -s /etc/nginx/sites-available/jenkins /etc/nginx/sites-enabled/
+$ sudo service nginx restart
 ```
 
 Now you should be able to visit `http://ci.yourcompany.com/` and see your
@@ -134,16 +134,16 @@ Firstly, you'll want to run the following commands on your server to install
 Git.  You'll obviously need to make changes to this code for your environment:
 
 ```console
-sudo aptitude -y install git
-sudo su - jenkins
-git config --global user.name "Jenkins CI"
-git config --global user.email "ci@yourcompany.com"
-ssh-keygen -t rsa -C "ci@yourcompany.com" # Use all the default options, don't specify
+$ sudo aptitude -y install git
+$ sudo su - jenkins
+$ git config --global user.name "Jenkins CI"
+$ git config --global user.email "ci@yourcompany.com"
+$ ssh-keygen -t rsa -C "ci@yourcompany.com" # Use all the default options, don't specify
                                           # a password.
-cat .ssh/id_rsa.pub # Grant this SSH key access to your Git repositories.
+$ cat .ssh/id_rsa.pub # Grant this SSH key access to your Git repositories.
 
 # If you're using github, you'll also want to do:
-ssh git@github.com
+$ ssh git@github.com
 # And accept the connection so that you add github.com to your known_hosts file.
 ```
 

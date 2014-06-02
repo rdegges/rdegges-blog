@@ -326,7 +326,7 @@ Next, let's define a generic template (`base.html`) for our main pages to use
 as a generic template.  Since I like to do things fancy, we might as well make
 it HTML 5 :)
 
-```html
+```django
 <!DOCTYPE html>
 <html>
   <head>

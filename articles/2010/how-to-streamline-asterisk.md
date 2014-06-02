@@ -75,11 +75,11 @@ running `./configure`, but before running `make`.
 While installing Asterisk, you might run the following commands:
 
 ```console
-cd asterisk-latest
-./configure
-make menuselect
-make
-sudo make install
+$ cd asterisk-latest
+$ ./configure
+$ make menuselect
+$ make
+$ sudo make install
 ```
 
 When you run `make menuselect`, you'll see an `ncurses` based GUI window, that

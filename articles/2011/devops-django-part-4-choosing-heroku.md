@@ -143,7 +143,7 @@ instance, to provision a new read slave in the scenario I just described, I
 could simply run:
 
 ```console
-heroku addons:add heroku-postgresql:ronin --follow HEROKU_POSTGRESQL_GREEN
+$ heroku addons:add heroku-postgresql:ronin --follow HEROKU_POSTGRESQL_GREEN
 ```
 
 And I'd have a new read slave up and running in a short period of time.

@@ -53,8 +53,8 @@ installing the new version on the two new servers.  Then I go grab a glass of
 water, and come back.  As I'm sitting down, I type:
 
 ```console
-aptitude -y update
-aptitude -y safe-upgrade
+$ aptitude -y update
+$ aptitude -y safe-upgrade
 ```
 
 To update the new `r0` server before installing freeradius.  As I'm watching

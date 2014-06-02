@@ -105,7 +105,7 @@ rdegges@solitude:~/random_project$ workon pycall
 Just use the `workon` command to instantly switch into an already defined
 virtual environment.  And if I want to remove a virtual environment?
 
-```python
+```console
 (pycall)rdegges@solitude:~/random_project$ deactivate
 rdegges@solitude:~/random_project$ rmvirtualenv testnose
 rdegges@solitude:~/random_project$

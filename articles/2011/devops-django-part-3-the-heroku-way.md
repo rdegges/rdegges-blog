@@ -293,8 +293,8 @@ credentials, etc.).  To add these environment variables to my Heroku
 application, I simply ran:
 
 ```console
-heroku config:add SECRET_KEY=xxx
-heroku config:add AWS_ACCESS_KEY_ID=xxx
+$ heroku config:add SECRET_KEY=xxx
+$ heroku config:add AWS_ACCESS_KEY_ID=xxx
 ...
 ```
 
@@ -327,7 +327,7 @@ requests across the three.
 After defining my `Procfile`, I just ran:
 
 ```console
-heroku scale web=1 scheduler=1 worker=1
+$ heroku scale web=1 scheduler=1 worker=1
 ```
 
 And Heroku instantly spun up my entire cloud infrastructure.
