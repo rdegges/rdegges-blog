@@ -1,6 +1,6 @@
 Title: Heroku and SOA
 Date: 2014-06-04
-Tags: startups, programming, devops
+Tags: programming, devops
 Summary:
     Heroku's platform was designed with services in mind.  If you're building a
     service oriented web app, you might find this interesting.
