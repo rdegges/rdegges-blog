@@ -44,7 +44,7 @@ instead like to become a person known for the *quality* of his output.
 
 ## What I'm Aiming For
 
-I realize that saying vague things like *"I intend to foucs on quality over
+I realize that saying vague things like *"I intend to focus on quality over
 quantity"* is not much use, so I've decided to make my journey a little more
 actionable.
 
