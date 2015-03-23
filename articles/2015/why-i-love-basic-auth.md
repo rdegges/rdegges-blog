@@ -36,6 +36,9 @@ well supported in every language and framework since the 1990's.
 
 ## How Basic Auth Works
 
+![Wall-e and Eve Sketch][]
+
+
 Let's talk about Basic Auth:
 
 - It's a well and clearly defined [specification][].
@@ -113,6 +116,9 @@ When used properly, Basic Auth can be a great choice for securing REST APIs.
 
 ## It's Simple
 
+![Wall-e Eyes Sketch][]
+
+
 My favorite thing about Basic Auth is that it's *simple*.
 
 Unlike OAuth, there's no intermediary steps you need to go through to get an
@@ -149,6 +155,9 @@ I just love it.
 
 
 ## It's Secure
+
+![Wall-e Upside Down Sketch][]
+
 
 Basic Auth gets a bad reputation for being *"insecure"*, but this isn't
 necessarily true.
@@ -195,6 +204,9 @@ right way, check out [AWS][].
 
 ## Universally Supported
 
+![Wall-e Happy Sketch][]
+
+
 Another great thing about Basic Auth is that there's only one implementation
 everyone uses -- this means that there's never any ambiguity about how to craft
 requests or server-side components: it's always the same.
@@ -226,6 +238,9 @@ audited libraries for using Basic Auth as both a producer and consumer.
 
 ## My Hope
 
+![Wall-e Love Sketch][]
+
+
 My hope is that while OAuth continues to rise in popularity, developers continue
 to support Basic Auth to the maximum possible extent.
 
@@ -249,6 +264,11 @@ in-depth technical reasons for my opinions.*
 
 
   [Wall-e Sketch]: {filename}/images/2015/wall-e-sketch.jpg "Wall-e Sketch"
+  [Wall-e and Eve Sketch]: {filename}/images/2015/wall-e-and-eve-sketch.jpg "Wall-e and Eve Sketch"
+  [Wall-e Eyes Sketch]: {filename}/images/2015/wall-e-eyes-sketch.png "Wall-e Eyes Sketch"
+  [Wall-e Love Sketch]: {filename}/images/2015/wall-e-love-sketch.jpg "Wall-e Love Sketch"
+  [Wall-e Happy Sketch]: {filename}/images/2015/wall-e-happy-sketch.jpg "Wall-e Happy Sketch"
+  [Wall-e Upside Down Sketch]: {filename}/images/2015/wall-e-upside-down-sketch.jpg "Wall-e Upside Down Sketch"
   [OAuth]: http://oauth.net/ "OAuth"
   [specification]: http://tools.ietf.org/html/rfc2617 "HTTP Basic Auth / Digest Auth Spec"
   [uuid]: http://en.wikipedia.org/wiki/Universally_unique_identifier "UUID on Wikipedia"
