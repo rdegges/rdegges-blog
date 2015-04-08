@@ -9,6 +9,11 @@ Summary:
 ![Electron Sketch][]
 
 
+**NOTE**: Since writing this post, it has been brought to my attention that as
+of 2013, there is a new potential attack vector on sites using gzip.  Please
+read this [Django security comment][] for more information after reading this
+article.
+
 I've been working on a lot of website optimization stuff recently for my Django
 projects, and thought I'd share a cool utility I found for compressing your
 entire site's HTML code.
@@ -79,4 +84,5 @@ means defining them first in `MIDDLEWARE_CLASSES`).
 
 
   [Electron Sketch]: {filename}/images/2012/electron-sketch.png "Electron Sketch"
+  [Django security comment]: https://docs.djangoproject.com/en/1.8/ref/middleware/#module-django.middleware.gzip "Django GZip Middleware"
   [django-htmlmin]: https://github.com/cobrateam/django-htmlmin "django-htmlmin"
