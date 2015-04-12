@@ -17,7 +17,7 @@ Heroku hosts all sorts of applications (*large and small*), and does so in a
 best practices way.
 
 If you want to learn more about Heroku, you might enjoy reading an old post I
-wrote on it: [Heroku Isn't for Idiots][], or possibly even check out my book: 
+wrote on it: [Heroku Isn't for Idiots][], or possibly even check out my book:
 [The Heroku Hacker's Guide][].
 
 But...  Enough messing around.  Let's get into this.
