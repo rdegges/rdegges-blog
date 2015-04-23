@@ -89,8 +89,8 @@ Building addons is quite simple.  And fun!  So I figured why not build one out
 in the open?
 
 Through this series I'll be walking you through the process of building my new
-Heroku addon: [Request Counter][] (*don't bother checking out the domain,
-there's nothing there yet!*).
+Heroku addon: [Vanity][] (*don't bother checking out the domain, there's nothing
+there yet!*).
 
 The idea for this addon is simple: I want to create an addon which counts all my
 Heroku request traffic: and that's basically it.  I love vanity metrics, and
@@ -144,10 +144,14 @@ Overall, it should be quite fun.
 
 So...  Stay tuned!  More to come =)
 
+**UPDATE**: The next part of this series is now available!  You can
+[find it here][].
+
 
   [Retro Robot Sketch]: {filename}/images/2015/retro-robot-sketch.jpg "Retro Robot Sketch"
   [Heroku]: https://www.heroku.com/ "Heroku"
   [Heroku Isn't for Idiots]: http://www.rdegges.com/heroku-isnt-for-idiots/ "Heroku Isn't for Idiots"
   [The Heroku Hacker's Guide]: http://www.theherokuhackersguide.com/ "The Heroku Hacker's Guide"
   [addons.heroku.com]: https://addons.heroku.com/ "Heroku Addon Marketplace"
-  [Request Counter]: http://www.requestcounter.com "Heroku Request Counter"
+  [Vanity]: http://www.vanityaddon.com "Heroku Vanity Addon"
+  [find it here]: {filename}/articles/2015/building-a-heroku-addon-planning.md "Building a Heroku Addon - Planning"
