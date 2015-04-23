@@ -53,7 +53,7 @@ specification.  This will allow Heroku developers to run commands like:
 
 ```console
 $ heroku addons:add vanity
-$ heroku addons:upgrrade vanity <planname>
+$ heroku addons:upgrade vanity <planname>
 $ heroku addons:remove vanity
 ```
 
