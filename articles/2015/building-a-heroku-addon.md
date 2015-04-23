@@ -65,7 +65,7 @@ Addons are awesome because they allow Heroku developers to:
 
 - Instantly provision infrastructure / additional services.
 - Scale these services up and down instantly.
-- Pay for services with their Heroku account (*this means addons usage is
+- Pay for services with their Heroku account (*this means addon usage is
   pro-rated to the second*) -- if you spin up a paid addon service for 10
   seconds, you'll pay for exactly 10 seconds worth of usage.
 
