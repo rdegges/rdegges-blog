@@ -1,8 +1,7 @@
 Title: Serving Static Content With Django
 Date: 2010-07-04
 Tags: programming, python, django
-Summary:
-    A quick article on serving static content with Django.
+Summary: A quick article on serving static content with Django.
 
 
 ![Static Sketch][]

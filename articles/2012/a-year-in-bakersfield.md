@@ -1,9 +1,7 @@
 Title: A Year in Bakersfield
 Date: 2012-11-26
 Tags: reviews
-Summary:
-    A quick article discussing the past year I spent in Bakersfield, California,
-    and how it went.
+Summary: A quick article discussing the past year I spent in Bakersfield, California, and how it went.
 
 
 ![Cow Skull Sketch][]

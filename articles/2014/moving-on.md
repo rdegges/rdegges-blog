@@ -1,9 +1,7 @@
 Title: Moving On
 Date: 2014-02-03
 Tags: startups, programming, personal development
-Summary:
-    I'm officially moving on from my startup to do something new!  Here's my
-    story.
+Summary: I'm officially moving on from my startup to do something new!  Here's my story.
 
 
 ![Barbarian Sketch][]

@@ -1,9 +1,7 @@
 Title: How Hard Can You Work?
 Date: 2013-07-18
 Tags: personal development, programming
-Summary:
-    Here's a trick to getting through those boring days at work: see how hard
-    you can possibly work.  Make it a game.
+Summary: Here's a trick to getting through those boring days at work: see how hard you can possibly work.  Make it a game.
 
 
 ![Shark Sketch][]

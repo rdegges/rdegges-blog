@@ -1,8 +1,7 @@
 Title: Reflections on Heroku's Waza Event
 Date: 2012-01-15
 Tags: programming
-Summary:
-    Some reflections on Heroku's Waza conference: it was insanely awesome.
+Summary: Some reflections on Heroku's Waza conference: it was insanely awesome.
 
 
 ![Heroku Logo][]

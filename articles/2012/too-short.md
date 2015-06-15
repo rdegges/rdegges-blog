@@ -1,8 +1,7 @@
 Title: Too Short
 Date: 2012-10-23
 Tags: personal development
-Summary:
-    Life is too short to do stuff you hate.  Use everyday wisely!
+Summary: Life is too short to do stuff you hate.  Use everyday wisely!
 
 
 ![Owl Face Sketch][]

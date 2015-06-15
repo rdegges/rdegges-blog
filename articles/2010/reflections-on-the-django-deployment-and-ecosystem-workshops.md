@@ -1,8 +1,7 @@
 Title: Reflections on the Django Deployment and Ecosystem Workshops
 Date: 2010-12-12
 Tags: programming, python, django
-Summary:
-    My review of the Django Deployment and Ecosystem workshop.  It was great!
+Summary: My review of the Django Deployment and Ecosystem workshop.  It was great!
 
 
 ![Dump Truck Sketch][]

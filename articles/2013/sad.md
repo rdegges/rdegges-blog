@@ -2,9 +2,7 @@ Title: :(
 Date: 2013-01-25
 Tags: programming
 Slug: sad
-Summary:
-    Don't be an asshat.  Be nice to your fellow developers!  We're all total
-    noobs, finding our way through this crazy world.
+Summary: Don't be an asshat.  Be nice to your fellow developers!  We're all total noobs, finding our way through this crazy world.
 
 
 ![Ichigo Hollow Sketch][]

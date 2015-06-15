@@ -1,10 +1,7 @@
 Title: The Root of all Change
 Date: 2011-07-16
 Tags: personal development
-Summary:
-    Making changes in your life is hard.  Research has shown that the best way
-    to build lasting change is to add new habits into your life, and make them
-    second nature.
+Summary: Making changes in your life is hard.  Research has shown that the best way to build lasting change is to add new habits into your life, and make them second nature.
 
 
 ![Tree Sketch][]

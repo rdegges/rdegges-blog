@@ -1,8 +1,7 @@
 Title: Never Stop Hacking
 Date: 2012-04-16
 Tags: personal development, programming
-Summary:
-    You know what's fun?  Programming.  Don't let the passion fade.
+Summary: You know what's fun?  Programming.  Don't let the passion fade.
 
 
 ![Grim Reaper Sketch][]

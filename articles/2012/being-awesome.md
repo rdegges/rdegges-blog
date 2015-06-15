@@ -1,8 +1,7 @@
 Title: Being Awesome
 Date: 2012-12-10
 Tags: personal development
-Summary:
-    If you want to be awesome, then go do it right now.  NO EXCUSES!
+Summary: If you want to be awesome, then go do it right now.  NO EXCUSES!
 
 
 ![Fire Wolf Sketch][]

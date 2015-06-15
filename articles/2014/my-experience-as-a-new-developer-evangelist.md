@@ -1,9 +1,7 @@
 Title: My Experience as a New Developer Evangelist
 Date: 2014-02-22
 Tags: startups, programming, personal development
-Summary:
-    Reflections and thoughts about my first three weeks as a Developer
-    Evangelist at Stormpath.
+Summary: Reflections and thoughts about my first three weeks as a Developer Evangelist at Stormpath.
 
 
 ![Blah Sketch][]

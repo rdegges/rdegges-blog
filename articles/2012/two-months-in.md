@@ -1,9 +1,7 @@
 Title: Two Months In
 Date: 2012-08-22
 Tags: startups
-Summary:
-    I'm two months into my new startup.  Here are some of the things I've been
-    thinking about.
+Summary: I'm two months into my new startup.  Here are some of the things I've been thinking about.
 
 
 ![Samurai in Robes Sketch][]

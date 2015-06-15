@@ -1,8 +1,7 @@
 Title: What I'm Doing in 2012
 Date: 2012-01-01
 Tags: personal development
-Summary:
-    2012 is going to be an epic year -- I FEEL IT!
+Summary: 2012 is going to be an epic year -- I FEEL IT!
 
 
 ![Dentist Wolf Meme][]

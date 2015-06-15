@@ -1,8 +1,7 @@
 Title: Some Constants
 Date: 2012-10-14
 Tags: personal development
-Summary:
-    Some of the things I try to do on a daily basis to keep myself sane.
+Summary: Some of the things I try to do on a daily basis to keep myself sane.
 
 
 ![Tree Sketch][]

@@ -1,9 +1,7 @@
 Title: Deploying Django
 Date: 2011-10-30
 Tags: programming, devops, python, django
-Summary:
-    Deploying Django code is insanely hard.  There's no simple way to solve a
-    lot of these issues.
+Summary: Deploying Django code is insanely hard.  There's no simple way to solve a lot of these issues.
 
 
 ![Cookie Monster][]

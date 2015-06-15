@@ -1,9 +1,7 @@
 Title: Twenty Five
 Date: 2013-06-28
 Tags: personal development
-Summary:
-    Holy shit.  I'm 25 years old.  How did this happen?  Anyway, here are some
-    things I've learned.
+Summary: Holy shit.  I'm 25 years old.  How did this happen?  Anyway, here are some things I've learned.
 
 
 ![Reaper Sketch][]

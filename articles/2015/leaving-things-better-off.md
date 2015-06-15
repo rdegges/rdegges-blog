@@ -1,9 +1,7 @@
 Title: Leaving Things Better Off
 Date: 2015-03-15
 Tags: personal development
-Summary:
-    An easy way to accomplish little wins throughout the day is to try and
-    always leave things better off than they were before you got there.
+Summary: An easy way to accomplish little wins throughout the day is to try and always leave things better off than they were before you got there.
 
 
 ![Robot Character Sketch][]

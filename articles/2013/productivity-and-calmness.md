@@ -1,8 +1,7 @@
 Title: Productivity and Calmness
 Date: 2013-02-09
 Tags: personal development
-Summary:
-    When I'm in a calm state of mind I tend to do my best work -- how about you?
+Summary: When I'm in a calm state of mind I tend to do my best work -- how about you?
 
 
 ![Monk Meditating Sketch][]

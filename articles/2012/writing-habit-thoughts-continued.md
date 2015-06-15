@@ -1,8 +1,7 @@
 Title: Writing Habit -- Thoughts (continued)
 Date: 2012-03-05
 Tags: personal development
-Summary:
-    What I learned while building my writing habit.
+Summary: What I learned while building my writing habit.
 
 
 ![Old Fashioned Writer Sketch][]

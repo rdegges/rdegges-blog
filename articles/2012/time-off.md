@@ -1,8 +1,7 @@
 Title: Time Off
 Date: 2012-11-25
 Tags: personal development
-Summary:
-    A quick reflection on the time I took off for Thanksgiving this year.
+Summary: A quick reflection on the time I took off for Thanksgiving this year.
 
 
 ![Turkey Sketch][]

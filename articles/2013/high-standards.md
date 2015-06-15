@@ -1,9 +1,7 @@
 Title: High Standards
 Date: 2013-04-01
 Tags: personal development
-Summary:
-    Want to improve yourself?  It doesn't hurt to have high standards for
-    yourself.
+Summary: Want to improve yourself?  It doesn't hurt to have high standards for yourself.
 
 
 ![Samurai Tipping Hat Sketch][]

@@ -1,9 +1,7 @@
 Title: Going to War
 Date: 2012-01-07
 Tags: personal development
-Summary:
-    Feeling burned out, but need to keep going?  Make it an all-or-nothing fight
-    to the death.  You can conquer whatever it is you're doing.
+Summary: Feeling burned out, but need to keep going?  Make it an all-or-nothing fight to the death.  You can conquer whatever it is you're doing.
 
 
 ![Beast Sketch][]

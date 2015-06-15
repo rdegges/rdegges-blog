@@ -1,9 +1,7 @@
 Title: Instantly Improve Your Month
 Date: 2013-12-16
 Tags: personal development
-Summary:
-    A few ways you can instantly improve your month, cut back on stress, and
-    feel happier.
+Summary: A few ways you can instantly improve your month, cut back on stress, and feel happier.
 
 
 ![Hollow Sketch][]

@@ -1,8 +1,7 @@
 Title: Merciless
 Date: 2012-02-26
 Tags: personal development
-Summary:
-    Be merciless with yourself if you want have no regrets.
+Summary: Be merciless with yourself if you want have no regrets.
 
 
 ![Berserk Sketch][]

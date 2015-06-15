@@ -1,8 +1,7 @@
 Title: Successful GitHub Development
 Date: 2012-04-14
 Tags: programming
-Summary:
-    A guide to being a successful GitHub hacker and open source developer.
+Summary: A guide to being a successful GitHub hacker and open source developer.
 
 
 ![Octocat][]

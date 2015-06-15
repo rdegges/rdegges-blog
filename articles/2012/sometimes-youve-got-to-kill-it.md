@@ -1,10 +1,7 @@
 Title: Sometimes You've Got To Kill It
 Date: 2012-11-20
 Tags: personal development
-Summary:
-    Every now and then it's good to 'let go' and give whatever you're doing
-    everything you have.  Stay up all night, take a vacation day, whatever is
-    needed.
+Summary: Every now and then it's good to 'let go' and give whatever you're doing everything you have.  Stay up all night, take a vacation day, whatever is needed.
 
 
 ![Lion Sketch][]

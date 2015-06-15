@@ -1,7 +1,6 @@
 Title: My New Office
 Date: 2011-03-16
-Summary:
-    Some photos of my new home office!
+Summary: Some photos of my new home office!
 
 
 As a programmer, I spend a lot of time in my office.  It's my sanctuary.  It's

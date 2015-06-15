@@ -1,9 +1,7 @@
 Title: Live Simply
 Date: 2011-09-05
 Tags: personal development
-Summary:
-    Complexity is the enemy of progress.  Learn to live simply and you'll make
-    your life a lot easier.
+Summary: Complexity is the enemy of progress.  Learn to live simply and you'll make your life a lot easier.
 
 
 ![Monk Sketch][]

@@ -1,8 +1,7 @@
 Title: Hack Everything ... To Pieces!
 Date: 2012-06-12
 Tags: programming
-Summary:
-    Build modular, simple software!  It's simpler, more useful, and more fun!
+Summary: Build modular, simple software!  It's simpler, more useful, and more fun!
 
 
 ![Axe Sketch][]

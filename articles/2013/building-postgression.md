@@ -1,8 +1,7 @@
 Title: Building postgression (an API Development Story)
 Date: 2013-01-29
 Tags: programming
-Summary:
-    How I built postgression, the free PostgreSQL database service.
+Summary: How I built postgression, the free PostgreSQL database service.
 
 
 ![Dragon Sketch][]

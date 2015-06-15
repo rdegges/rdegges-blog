@@ -1,8 +1,7 @@
 Title: Writing Habit -- Complete
 Date: 2012-01-02
 Tags: personal development
-Summary:
-    My writing habit is now complete!
+Summary: My writing habit is now complete!
 
 
 ![Scroll Sketch][]

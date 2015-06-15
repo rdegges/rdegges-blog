@@ -1,7 +1,6 @@
 Title: Diet Updates
 Date: 2011-05-01
-Summary:
-    A quick update on my diet progress.
+Summary: A quick update on my diet progress.
 
 
 ![Steak Sketch][]

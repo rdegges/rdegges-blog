@@ -1,9 +1,7 @@
 Title: Enjoying the Grind
 Date: 2011-06-06
 Tags: personal development
-Summary:
-    Sometimes it's relaxing to stop worrying about all of your goals and
-    aspirations and just enjoy the present.
+Summary: Sometimes it's relaxing to stop worrying about all of your goals and aspirations and just enjoy the present.
 
 
 ![Runner Sketch][]

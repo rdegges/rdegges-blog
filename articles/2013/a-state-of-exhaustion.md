@@ -1,9 +1,7 @@
 Title: A State of Exhaustion
 Date: 2013-03-24
 Tags: personal development
-Summary:
-    How I've been crawling out of my own exhaustion by focusing on the basics
-    and keeping things simple.
+Summary: How I've been crawling out of my own exhaustion by focusing on the basics and keeping things simple.
 
 
 ![Skeleton Hanging Sketch][]

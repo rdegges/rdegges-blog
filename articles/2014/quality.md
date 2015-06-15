@@ -1,8 +1,7 @@
 Title: Quality
 Date: 2014-05-30
 Tags: personal development, programming
-Summary:
-    Thoughts on building a life focused around quality.
+Summary: Thoughts on building a life focused around quality.
 
 
 ![Warrior with Sword Sketch][]

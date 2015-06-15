@@ -1,8 +1,7 @@
 Title: CD
 Date: 2013-05-14
 Tags: programming
-Summary:
-    Some thoughts on continuous delivery, and why it is awesome.
+Summary: Some thoughts on continuous delivery, and why it is awesome.
 
 
 ![Tron Light Cycle Sketch][]

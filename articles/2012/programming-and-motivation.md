@@ -1,9 +1,7 @@
 Title: Programming and Motivation
 Date: 2012-10-02
 Tags: programming
-Summary:
-    A few days I've devised to keep myself motivated for writing code over the
-    years.
+Summary: A few days I've devised to keep myself motivated for writing code over the years.
 
 
 ![Bleach Sketch][]

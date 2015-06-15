@@ -1,8 +1,7 @@
 Title: What I'm Doing in 2011
 Date: 2010-12-23
 Tags: personal development
-Summary:
-    My new year's post about goals and stuff.
+Summary: My new year's post about goals and stuff.
 
 
 ![Wolf Sketch][]

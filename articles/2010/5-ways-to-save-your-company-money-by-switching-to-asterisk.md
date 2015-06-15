@@ -1,8 +1,7 @@
 Title: 5 Ways to Save Your Company Money by Switching to Asterisk
 Date: 2010-03-11
 Tags: telephony, asterisk
-Summary:
-    5 quick ways you can use Asterisk to save your company money.
+Summary: 5 quick ways you can use Asterisk to save your company money.
 
 
 ![Money Sketch][]

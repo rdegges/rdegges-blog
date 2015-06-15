@@ -1,8 +1,7 @@
 Title: What I Do At Work
 Date: 2010-08-15
 Tags: programming, telephony
-Summary:
-    My best attempt at explaining what I actually do at work.
+Summary: My best attempt at explaining what I actually do at work.
 
 
 ![Desk Sketch][]

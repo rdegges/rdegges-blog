@@ -1,8 +1,7 @@
 Title: I Want to Be a Renaissance Man
 Date: 2011-05-30
 Tags: personal development
-Summary:
-    Why can't I be good at a ton of stuff?  I want to do everything!
+Summary: Why can't I be good at a ton of stuff?  I want to do everything!
 
 
 ![DaVinci Sketch][]

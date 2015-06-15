@@ -1,8 +1,7 @@
 Title: Building an API Company - A Series
 Date: 2013-06-29
 Tags: programming, startups
-Summary:
-    Come build an API company with me!
+Summary: Come build an API company with me!
 
 
 ![Bridge Sketch][]

@@ -1,9 +1,7 @@
 Title: Service Oriented Side Effects
 Date: 2012-09-28
 Tags: programming
-Summary:
-    A quick look at some of the side effects you'll encounter when writing
-    service oriented applications.  Many of them are positive.
+Summary: A quick look at some of the side effects you'll encounter when writing service oriented applications.  Many of them are positive.
 
 
 ![Robot Warrior Sketch][]

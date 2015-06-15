@@ -1,9 +1,7 @@
 Title: How Caller ID Works
 Date: 2013-12-18
 Tags: telephony, programming, startups
-Summary:
-    An in-depth look at how Caller ID works.  TLDR: Caller ID is horribly broken
-    and totally sucks.
+Summary: An in-depth look at how Caller ID works.  TLDR: Caller ID is horribly broken and totally sucks.
 
 
 ![Demon Horse Sketch][]

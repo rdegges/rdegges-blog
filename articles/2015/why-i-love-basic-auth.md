@@ -1,9 +1,7 @@
 Title: Why I Love Basic Auth
 Date: 2015-03-23
 Tags: programming
-Summary:
-    I love HTTP Basic Authentication.  It's simple, secure, and a pleasure to
-    use.
+Summary: I love HTTP Basic Authentication.  It's simple, secure, and a pleasure to use.
 
 
 ![Wall-e Sketch][]

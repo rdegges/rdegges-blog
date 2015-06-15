@@ -1,8 +1,7 @@
 Title: My Heroku Book is Finished
 Date: 2012-09-10
 Tags: programming
-Summary:
-    I just wrote a book!  On Heroku!
+Summary: I just wrote a book!  On Heroku!
 
 
 ![The Heroku Hacker's Guide Cover][]

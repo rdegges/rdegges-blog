@@ -1,9 +1,7 @@
 Title: Don't Panic! Frustration is an Anti-Pattern
 Date: 2012-10-04
 Tags: personal development
-Summary:
-    The next time you get frustrated, take a deep breath and relax.  Coding when
-    you're frustrated isn't going to help anyone.
+Summary: The next time you get frustrated, take a deep breath and relax.  Coding when you're frustrated isn't going to help anyone.
 
 
 ![Warrior Face Sketch][]

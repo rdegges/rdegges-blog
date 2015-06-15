@@ -1,9 +1,7 @@
 Title: On Business Guys
 Date: 2011-09-18
 Tags: startups, rant
-Summary:
-    Business guys?  Boo!  Who needs them?  If you're a smart dude, what's
-    stopping you from killing it on all fronts: tech, business, etc?
+Summary: Business guys?  Boo!  Who needs them?  If you're a smart dude, what's stopping you from killing it on all fronts: tech, business, etc?
 
 
 ![Old Man Monster Sketch][]

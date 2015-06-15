@@ -1,9 +1,7 @@
 Title: Establishing a Writing Habit
 Date: 2011-12-13
 Tags: personal development
-Summary:
-    I'm starting a writing habit to improve my writing skills -- you should join
-    me!
+Summary: I'm starting a writing habit to improve my writing skills -- you should join me!
 
 
 ![Feather Pen Sketch][]

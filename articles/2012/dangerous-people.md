@@ -1,9 +1,7 @@
 Title: Dangerous People
 Date: 2012-10-03
 Tags: programming
-Summary:
-    Programmers are the most dangerous people on the planet: they have the power
-    to change the world -- solo.
+Summary: Programmers are the most dangerous people on the planet: they have the power to change the world -- solo.
 
 
 ![Barbarian Warrior Sketch][]

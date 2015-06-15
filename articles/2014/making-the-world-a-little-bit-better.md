@@ -1,9 +1,7 @@
 Title: Making the World a Little Bit Better
 Date: 2014-01-22
 Tags: personal development
-Summary:
-    Some thoughts on how you can make the world a better place by improving your
-    immediate environment.
+Summary: Some thoughts on how you can make the world a better place by improving your immediate environment.
 
 
 ![Golden Gate Bridge Sketch][]
