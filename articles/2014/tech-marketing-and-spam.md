@@ -1,7 +1,10 @@
-Title: Tech Marketing and Spam
-Date: 2014-06-05
-Tags: programming
-Summary: A story on how I unknowingly spammed Reddit, and reflections on what is and isn't considered spam in the world of tech.
+---
+title: "Tech Marketing and Spam"
+date: "2014-06-05"
+tags: ["programming"]
+slug: "tech-marketing-and-spam"
+description: "A story on how I unknowingly spammed Reddit, and reflections on what is and isn't considered spam in the world of tech."
+---
 
 
 ![Horse Creature Sketch][]

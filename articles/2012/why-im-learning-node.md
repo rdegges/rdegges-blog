@@ -1,7 +1,10 @@
-Title: Why I'm Learning Node
-Date: 2012-04-07
-Tags: programming, javascript, nodejs
-Summary: I'm learning node.js because not only is it awesome, but it's a great way to improve my Javascript chops while concurrently writing backend code.  It's a two for one deal.
+---
+title: "Why I'm Learning Node"
+date: "2012-04-07"
+tags: ["programming", "javascript", "nodejs"]
+slug: "why-im-learning-node"
+description: "I'm learning node.js because not only is it awesome, but it's a great way to improve my Javascript chops while concurrently writing backend code.  It's a two for one deal."
+---
 
 
 ![Ninja Warrior][]

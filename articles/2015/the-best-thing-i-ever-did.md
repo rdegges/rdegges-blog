@@ -1,7 +1,10 @@
-Title: The Best Thing I Ever Did
-Date: 2015-01-25
-Tags: personal development
-Summary: Some personal reflections on the best thing I ever did for myself and my own personal growth.
+---
+title: "The Best Thing I Ever Did"
+date: "2015-01-25"
+slug: "the-best-thing-i-ever-did"
+tags: ["personal development"]
+description: "Some personal reflections on the best thing I ever did for myself and my own personal growth."
+---
 
 
 ![Bodybuilder Back Sketch][]

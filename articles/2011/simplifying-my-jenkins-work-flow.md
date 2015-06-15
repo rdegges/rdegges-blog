@@ -1,7 +1,10 @@
-Title: Simplifying My Jenkins Work Flow
-Date: 2011-06-01
-Tags: devops
-Summary: A quick hack to allow Jenkins to auto-accept all new SSH keys.
+---
+title: "Simplifying My Jenkins Work Flow"
+date: "2011-06-01"
+tags: ["devops"]
+slug: "simplifying-my-jenkins-work-flow"
+description: "A quick hack to allow Jenkins to auto-accept all new SSH keys."
+---
 
 
 ![Arrow Sketch][]

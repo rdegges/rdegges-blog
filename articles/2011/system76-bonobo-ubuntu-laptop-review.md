@@ -1,7 +1,10 @@
-Title: System76 "Bonobo" Ubuntu Laptop Review
-Date: 2011-12-14
-Tags: review
-Summary: My review of the System76 Bonobo laptop.  It's pretty great, I'd recommend it for any developers who love Linux as much as I do.
+---
+title: "System76 'Bonobo' Ubuntu Laptop Review"
+date: "2011-12-14"
+tags: ["review"]
+slug: "system76-bonobo-ubuntu-laptop-review"
+description: "My review of the System76 Bonobo laptop.  It's pretty great, I'd recommend it for any developers who love Linux as much as I do."
+---
 
 
 ![System76 Lid][]

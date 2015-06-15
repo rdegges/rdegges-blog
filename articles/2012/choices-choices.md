@@ -1,7 +1,10 @@
-Title: Choices, Choices
-Date: 2012-07-02
-Tags: personal development
-Summary: Think about this: you can improve your life starting right now by making positive choices.  What will you have for dinner?  A donut, or some chicken?  What will you do when you get home: play video games or build that company you've been thinking about?
+---
+title: "Choices, Choices"
+date: "2012-07-02"
+tags: ["personal development"]
+slug: "choices-choices"
+description: "Think about this: you can improve your life starting right now by making positive choices.  What will you have for dinner?  A donut, or some chicken?  What will you do when you get home: play video games or build that company you've been thinking about?"
+---
 
 
 ![Sad Grim Reaper Sketch][]

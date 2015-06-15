@@ -1,7 +1,10 @@
-Title: Get Outside
-Date: 2010-02-13
-Tags: programming
-Summary: Are you a programmer?  GET OUTSIDE MORE!  Seriously dude.  It's good for you!
+---
+title: "Get Outside"
+date: "2010-02-13"
+tags: ["programming"]
+slug: "get-outside"
+description: "Are you a programmer?  GET OUTSIDE MORE!  Seriously dude.  It's good for you!"
+---
 
 
 ![Park Sketch][]

@@ -1,7 +1,10 @@
-Title: DevOps Django - Part 3 - The Heroku Way
-Date: 2011-12-18
-Tags: programming, devops, python, django
-Summary: The third part of my DevOps Django series.  In this article, I discuss Heroku as a best practices solution for deploying Django projects.
+---
+title: "DevOps Django - Part 3 - The Heroku Way"
+date: "2011-12-18"
+tags: ["programming", "devops", "python", "django"]
+slug: "devops-django-part-3-the-heroku-way"
+description: "The third part of my DevOps Django series.  In this article, I discuss Heroku as a best practices solution for deploying Django projects."
+---
 
 
 This article is part of a series I'm writing called *DevOps Django*, which

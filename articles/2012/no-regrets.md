@@ -1,7 +1,10 @@
-Title: No Regrets
-Date: 2012-10-10
-Tags: personal development
-Summary: I can't stand the thought of doing anything less than 100%.  It's the only way I can live with myself.
+---
+title: "No Regrets"
+date: "2012-10-10"
+tags: ["personal development"]
+slug: "no-regrets"
+description: "I can't stand the thought of doing anything less than 100%.  It's the only way I can live with myself."
+---
 
 
 ![Dark Mage Sketch][]

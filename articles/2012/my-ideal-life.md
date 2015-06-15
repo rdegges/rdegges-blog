@@ -1,7 +1,10 @@
-Title: My Ideal Life
-Date: 2012-01-18
-Tags: personal development
-Summary: Some personal reflection on what my ideal life might look like.
+---
+title: "My Ideal Life"
+date: "2012-01-18"
+tags: ["personal development"]
+slug: "my-ideal-life"
+description: "Some personal reflection on what my ideal life might look like."
+---
 
 
 ![Tyrael Sketch][]

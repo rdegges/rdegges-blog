@@ -1,7 +1,10 @@
-Title: Being Myself
-Date: 2010-12-02
-Tags: personal development
-Summary: I've been pretty lame lately, constantly working to please other people.  But not anymore!
+---
+title: "Being Myself"
+date: "2010-12-02"
+tags: "personal development"
+slug: "being-myself"
+description: "I've been pretty lame lately, constantly working to please other people.  But not anymore!"
+---
 
 
 ![Reaper Sketch][]

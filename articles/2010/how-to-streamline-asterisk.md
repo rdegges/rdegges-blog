@@ -1,7 +1,10 @@
-Title: How to Streamline Asterisk
-Date: 2010-08-16
-Tags: programming, telephony, asterisk
-Summary: This article walks users through optimizing their Asterisk systems for maximum performance.
+---
+title: "How to Streamline Asterisk"
+date: "2010-08-16"
+tags: ["programming", "telephony", "asterisk"]
+slug: "how-to-streamline-asterisk"
+description: "This article walks users through optimizing their Asterisk systems for maximum performance."
+---
 
 
 ![Scuba Diving Sketch][]

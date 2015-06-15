@@ -1,7 +1,10 @@
-Title: Some Constants
-Date: 2012-10-14
-Tags: personal development
-Summary: Some of the things I try to do on a daily basis to keep myself sane.
+---
+title: "Some Constants"
+date: "2012-10-14"
+tags: ["personal development"]
+slug: "some-constants"
+description: "Some of the things I try to do on a daily basis to keep myself sane."
+---
 
 
 ![Tree Sketch][]

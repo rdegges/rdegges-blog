@@ -1,7 +1,10 @@
-Title: My Bane - Multiple Projects
-Date: 2012-10-13
-Tags: personal development
-Summary: I suck at multi-tasking.  It's a lot easier to focus on a single thing at a time.
+---
+title: "My Bane - Multiple Projects"
+date: "2012-10-13"
+tags: ["personal development"]
+slug: "my-bane-multiple-projects"
+description: "I suck at multi-tasking.  It's a lot easier to focus on a single thing at a time."
+---
 
 
 ![Bane Sketch][]

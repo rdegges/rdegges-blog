@@ -1,7 +1,10 @@
-Title: Building a Heroku Addon - Planning
-Date: 2015-04-22
-Tags: programming, devops
-Summary: In this part of the series, we'll lay out our Heroku addon plans, take a look at mockups, and cover high-level functionalities.
+---
+title: "Building a Heroku Addon - Planning"
+date: "2015-04-22"
+tags: ["programming", "devops"]
+slug: "building-a-heroku-addon-planning"
+description: "In this part of the series, we'll lay out our Heroku addon plans, take a look at mockups, and cover high-level functionalities."
+---
 
 
 ![Robot with Chaingun Arm Sketch][]

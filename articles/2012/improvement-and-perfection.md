@@ -1,7 +1,10 @@
-Title: Improvement and Perfection
-Date: 2012-11-24
-Tags: personal development
-Summary: Striving for perfection is the only way to become the absolute best.  You've got to keep pushing yourself if you want to improve.
+---
+title: "Improvement and Perfection"
+date: "2012-11-24"
+slug: "improvement-and-perfection"
+tags: ["personal development"]
+description: "Striving for perfection is the only way to become the absolute best.  You've got to keep pushing yourself if you want to improve."
+---
 
 
 ![Tiger Sketch][]

@@ -1,7 +1,10 @@
-Title: Why You Might Enjoy Using DNSimple
-Date: 2012-11-27
-Tags: reviews
-Summary: DNSimple is the greatest DNS provider in the history of the universe.  You'd be crazy not to use them.  Here's why.
+---
+title: "Why You Might Enjoy Using DNSimple"
+date: "2012-11-27"
+tags: ["reviews"]
+slug: "why-you-might-enjoy-using-dnsimple"
+description: "DNSimple is the greatest DNS provider in the history of the universe.  You'd be crazy not to use them.  Here's why."
+---
 
 
 ![Saturn Sketch][]

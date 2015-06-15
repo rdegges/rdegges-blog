@@ -1,7 +1,10 @@
-Title: Transparent Telephony - Part 1 - An Introduction
-Date: 2009-08-31
-Tags: programming, telephony, asterisk
-Summary: The first part of my new series introducing technical folk to Asterisk and telephony.
+---
+title: "Transparent Telephony - Part 1 - An Introduction"
+date: "2009-08-31"
+tags: ["programming", "telephony", "asterisk"]
+slug: "transparent-telephony-part-1-an-introduction"
+description: "The first part of my new series introducing technical folk to Asterisk and telephony."
+---
 
 
 ![Telephone Sketch][]

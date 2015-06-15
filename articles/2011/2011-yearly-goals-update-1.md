@@ -1,7 +1,10 @@
-Title: 2011 Yearly Goals Update 1
-Date: 2011-04-24
-Tags: personal development
-Summary: A quick update on my yearly goals.
+---
+title: "2011 Yearly Goals Update 1"
+date: "2011-04-24"
+tags: ["personal development"]
+slug: "2011-yearly-goals-update-1"
+description: "A quick update on my yearly goals."
+---
 
 
 ![Pelican Sketch][]

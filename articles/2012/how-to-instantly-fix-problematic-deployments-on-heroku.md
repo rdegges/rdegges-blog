@@ -1,7 +1,10 @@
-Title: How to Instantly Fix Problematic Deployments on Heroku
-Date: 2012-01-08
-Tags: programming, devops
-Summary: Instantly fix broken Heroku deployments with the awesome rollback tool.
+---
+title: "How to Instantly Fix Problematic Deployments on Heroku"
+date: "2012-01-08"
+tags: "programming, devops"
+slug: "how-to-instantly-fix-problematic-deployments-on-heroku"
+description: "Instantly fix broken Heroku deployments with the awesome rollback tool."
+---
 
 
 ![Broke Production][]

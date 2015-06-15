@@ -1,7 +1,10 @@
-Title: Hack Things at the LA Hackathon
-Date: 2012-10-22
-Tags: programming
-Summary: If you miss the LA Hackathon, you're missing out; hardcore.
+---
+title: "Hack Things at the LA Hackathon"
+date: "2012-10-22"
+tags: ["programming"]
+slug: "hack-things-at-the-la-hackathon"
+description: "If you miss the LA Hackathon, you're missing out; hardcore."
+---
 
 
 ![Axe Warrior Sketch][]

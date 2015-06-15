@@ -1,7 +1,10 @@
-Title: For Loops in Node
-Date: 2014-09-23
-Tags: programming
-Summary: A story in which I discover that writing simple for loops in Node.js isn't always so simple.
+---
+title: "For Loops in Node"
+date: "2014-09-23"
+tags: ["programming"]
+slug: "for-loops-in-node"
+description: "A story in which I discover that writing simple for loops in Node.js isn't always so simple."
+---
 
 
 ![Plague Sketch][]

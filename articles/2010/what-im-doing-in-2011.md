@@ -1,7 +1,10 @@
-Title: What I'm Doing in 2011
-Date: 2010-12-23
-Tags: personal development
-Summary: My new year's post about goals and stuff.
+---
+title: "What I'm Doing in 2011"
+date: "2010-12-23"
+tags: ["personal development"]
+slug: "what-im-doing-in-2011"
+description: "My new year's post about goals and stuff."
+---
 
 
 ![Wolf Sketch][]

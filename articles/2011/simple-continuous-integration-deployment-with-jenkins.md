@@ -1,7 +1,10 @@
-Title: Simple Continuous Integration / Deployment With Jenkins
-Date: 2011-04-10
-Tags: programming, devops
-Summary: A quick walkthrough showing you how to get Jenkins up and running.
+---
+title: "Simple Continuous Integration / Deployment With Jenkins"
+date: "2011-04-10"
+tags: ["programming", "devops"]
+slug: "simple-continuous-integration-deployment-with-jenkins"
+description: "A quick walkthrough showing you how to get Jenkins up and running."
+---
 
 
 ![Butler Sketch][]

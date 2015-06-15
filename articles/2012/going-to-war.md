@@ -1,7 +1,10 @@
-Title: Going to War
-Date: 2012-01-07
-Tags: personal development
-Summary: Feeling burned out, but need to keep going?  Make it an all-or-nothing fight to the death.  You can conquer whatever it is you're doing.
+---
+title: "Going to War"
+date: "2012-01-07"
+tags: ["personal development"]
+slug: "going-to-war"
+description: "Feeling burned out, but need to keep going?  Make it an all-or-nothing fight to the death.  You can conquer whatever it is you're doing."
+---
 
 
 ![Beast Sketch][]

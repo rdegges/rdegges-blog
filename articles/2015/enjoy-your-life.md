@@ -1,7 +1,10 @@
-Title: Enjoy Your Life
-Date: 2015-03-07
-Tags: personal development
-Summary: A bit of discussion about my mindset, and a little bit of advice for people not already enjoying their lives.
+---
+title: "Enjoy Your Life"
+date: "2015-03-07"
+tags: ["personal development"]
+slug: "enjoy-your-life"
+description: "A bit of discussion about my mindset, and a little bit of advice for people not already enjoying their lives."
+---
 
 
 ![Crane Sketch][]

@@ -1,7 +1,10 @@
-Title: Building a Better Body
-Date: 2011-04-03
-Tags: personal development
-Summary: My experiences lifting weights, losing weight, and dieting.
+---
+title: "Building a Better Body"
+date: "2011-04-03"
+tags: ["personal development"]
+slug: "building-a-better-body"
+description: "My experiences lifting weights, losing weight, and dieting."
+---
 
 
 ![Bodybuilder Sketch][]

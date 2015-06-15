@@ -1,7 +1,10 @@
-Title: Some Thoughts on Bitcoin
-Date: 2013-04-28
-Tags: bitcoin
-Summary: I started using Bitcoin a while back, here are my thoughts.
+---
+title: "Some Thoughts on Bitcoin"
+date: "2013-04-28"
+tags: ["bitcoin"]
+slug: "some-thoughts-on-bitcoin"
+description: "I started using Bitcoin a while back, here are my thoughts."
+---
 
 
 ![Thinking Mask Sketch][]

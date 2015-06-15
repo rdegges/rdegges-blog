@@ -1,7 +1,10 @@
-Title: Automation as Motivation
-Date: 2012-05-21
-Tags: personal development
-Summary: The thought of automating all my work and making my life as simple as possible is really motivating to me.
+---
+title: "Automation as Motivation"
+date: "2012-05-21"
+tags: ["personal development"]
+slug: "automation-as-motivation"
+description: "The thought of automating all my work and making my life as simple as possible is really motivating to me."
+---
 
 
 ![Robot Sketch][]

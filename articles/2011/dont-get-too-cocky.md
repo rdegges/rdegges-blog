@@ -1,7 +1,10 @@
-Title: Don't Get Too Cocky
-Date: 2011-03-06
-Tags: personal development
-Summary: Don't be cocky.  Been there and done that!
+---
+title: "Don't Get Too Cocky"
+date: "2011-03-06"
+tags: ["personal development"]
+slug: "dont-get-too-cocky"
+description: "Don't be cocky.  Been there and done that!"
+---
 
 
 ![Rooster Sketch][]

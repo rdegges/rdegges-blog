@@ -1,7 +1,10 @@
-Title: My Use (and Abuse) of Caffeine
-Date: 2011-09-29
-Tags: personal development
-Summary: An in-depth look at caffeine cycling and abuse.  I love this shit, but it's definitely not safe to try at home, kids.
+---
+title: "My Use (and Abuse) of Caffeine"
+date: "2011-09-29"
+tags: ["personal development"]
+slug: "my-use-and-abuse-of-caffeine"
+description: "An in-depth look at caffeine cycling and abuse.  I love this shit, but it's definitely not safe to try at home, kids."
+---
 
 
 ![Caffeine Chart][]

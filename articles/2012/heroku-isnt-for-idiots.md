@@ -1,7 +1,10 @@
-Title: Heroku Isn't for Idiots
-Date: 2012-06-03
-Tags: programming
-Summary: A little rant about Heroku, David Cramer, and 'cloud' myths.  Heroku is awesome, learn why.
+---
+title: "Heroku Isn't for Idiots"
+date: "2012-06-03"
+tags: ["programming"]
+slug: "heroku-isnt-for-idiots"
+description: "A little rant about Heroku, David Cramer, and 'cloud' myths.  Heroku is awesome, learn why."
+---
 
 
 **WARNING**: This is a *bit* of a rant.  I'm going to assume you have a basic

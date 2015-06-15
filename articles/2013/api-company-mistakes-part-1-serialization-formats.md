@@ -1,7 +1,10 @@
-Title: API Company Mistakes - Part 1 - Serialization Formats
-Date: 2013-03-25
-Tags: programming, startups
-Summary: Some mistakes I've made while building my API company, OpenCNAM.
+---
+title: "API Company Mistakes - Part 1 - Serialization Formats"
+date: "2013-03-25"
+tags: ["programming", "startups"]
+slug: "api-company-mistakes-part-1-serialization-formats"
+description: "Some mistakes I've made while building my API company, OpenCNAM."
+---
 
 
 ![Angry Dragon Sketch][]

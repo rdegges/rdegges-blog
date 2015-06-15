@@ -1,7 +1,10 @@
-Title: motivation.io
-Date: 2013-04-16
-Tags: programming
-Summary: A look at my newest project: motivation.io, a motivational bodybuilding site.
+---
+title: "motivation.io"
+date: "2013-04-16"
+tags: ["programming"]
+slug: "motivation-io"
+description: "A look at my newest project: motivation.io, a motivational bodybuilding site."
+---
 
 
 ![Thor Sketch][]

@@ -1,7 +1,10 @@
-Title: DevOps Django - Part 1 - Goals
-Date: 2011-12-05
-Tags: programming, devops, python, django
-Summary: The first part of my series discussing Django deployment best practices and devops strategies.
+---
+title: "DevOps Django - Part 1 - Goals"
+date: "2011-12-05"
+tags: ["programming", "devops", "python", "django"]
+slug: "devops-django-part-1-goals"
+description: "The first part of my series discussing Django deployment best practices and devops strategies."
+---
 
 
 ![Airplane Sketch][]

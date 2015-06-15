@@ -1,7 +1,10 @@
-Title: Ambitions
-Date: 2012-11-13
-Tags: personal development
-Summary: It's hard to choose between following my ambitions and just being content where I am.  Hard choices.
+---
+title: "Ambitions"
+date: "2012-11-13"
+tags: ["personal development"]
+slug: "ambitions"
+description: "It's hard to choose between following my ambitions and just being content where I am.  Hard choices."
+---
 
 
 ![Old Man Sketch][]

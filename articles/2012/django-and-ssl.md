@@ -1,7 +1,10 @@
-Title: Django and SSL
-Date: 2012-05-31
-Tags: programming, python, django
-Summary: This article shows you the simplest possible way to force your Django site to run over SSL.
+---
+title: "Django and SSL"
+date: "2012-05-31"
+tags: ["programming", "python", "django"]
+slug: "django-and-ssl"
+description: "This article shows you the simplest possible way to force your Django site to run over SSL."
+---
 
 
 ![Hooded Figure Sketch][]

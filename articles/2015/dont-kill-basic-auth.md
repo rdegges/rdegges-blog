@@ -1,8 +1,11 @@
-Title: Don't Kill Basic Auth
-Date: 2015-03-18
-Tags: programming
-Status: draft
-Summary: A small rant on why you should continue to allow HTTP Basic Authentication for your API services, and why it matters.
+---
+title: "Don't Kill Basic Auth"
+date: "2015-03-18"
+tags: ["programming"]
+slug: "dont-kill-basic-auth"
+status: "draft"
+description: "A small rant on why you should continue to allow HTTP Basic Authentication for your API services, and why it matters."
+---
 
 
 ![Wall-e Sketch][]

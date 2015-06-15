@@ -1,7 +1,10 @@
-Title: Heroku Dynos (in Depth)
-Date: 2013-02-10
-Tags: programming
-Summary: A technical look at Heroku's dynos, and how they work.
+---
+title: "Heroku Dynos (in Depth)"
+date: "2013-02-10"
+tags: ["programming"]
+slug: "heroku-dynos-in-depth"
+description: "A technical look at Heroku's dynos, and how they work."
+---
 
 
 ![T-Rex Sketch][]

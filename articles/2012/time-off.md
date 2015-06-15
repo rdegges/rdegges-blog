@@ -1,7 +1,10 @@
-Title: Time Off
-Date: 2012-11-25
-Tags: personal development
-Summary: A quick reflection on the time I took off for Thanksgiving this year.
+---
+title: "Time Off"
+date: "2012-11-25"
+tags: ["personal development"]
+slug: "time-off"
+description: "A quick reflection on the time I took off for Thanksgiving this year."
+---
 
 
 ![Turkey Sketch][]

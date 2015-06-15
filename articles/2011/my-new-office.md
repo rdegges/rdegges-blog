@@ -1,6 +1,9 @@
-Title: My New Office
-Date: 2011-03-16
-Summary: Some photos of my new home office!
+---
+title: "My New Office"
+date: "2011-03-16"
+slug: "my-new-office"
+description: "Some photos of my new home office!"
+---
 
 
 As a programmer, I spend a lot of time in my office.  It's my sanctuary.  It's

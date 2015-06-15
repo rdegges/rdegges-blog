@@ -1,7 +1,10 @@
-Title: Productivity and Calmness
-Date: 2013-02-09
-Tags: personal development
-Summary: When I'm in a calm state of mind I tend to do my best work -- how about you?
+---
+title: "Productivity and Calmness"
+date: "2013-02-09"
+tags: ["personal development"]
+slug: "productivity-and-calmness"
+description: "When I'm in a calm state of mind I tend to do my best work -- how about you?"
+---
 
 
 ![Monk Meditating Sketch][]

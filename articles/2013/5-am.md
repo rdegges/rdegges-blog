@@ -1,7 +1,10 @@
-Title: 5 AM
-Date: 2013-05-22
-Tags: personal development
-Summary: I've been waking up at 5am, trying to change things up a bit.  These are my thoughts.
+---
+title: "5 AM"
+date: "2013-05-22"
+tags: ["personal development"]
+slug: "5-am"
+description: "I've been waking up at 5am, trying to change things up a bit.  These are my thoughts."
+---
 
 
 ![Luffy Sketch][]

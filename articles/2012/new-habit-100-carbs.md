@@ -1,7 +1,10 @@
-Title: New Habit - 100 Carbs
-Date: 2012-01-03
-Tags: personal development
-Summary: I'm trying to build a new habit: eating less than 100 carbs per day.
+---
+title: "New Habit - 100 Carbs"
+date: "2012-01-03"
+slug: "new-habit-100-carbs"
+tags: ["personal development"]
+description: "I'm trying to build a new habit: eating less than 100 carbs per day."
+---
 
 
 ![Meat Sketch][]

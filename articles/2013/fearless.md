@@ -1,7 +1,10 @@
-Title: Fearless
-Date: 2013-05-24
-Tags: personal development
-Summary: A motivational short about living a fearless life.
+---
+title: "Fearless"
+date: "2013-05-24"
+tags: ["personal development"]
+slug: "fearless"
+description: "A motivational short about living a fearless life."
+---
 
 
 ![Zoro Sketch][]

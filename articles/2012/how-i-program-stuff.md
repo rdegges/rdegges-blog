@@ -1,7 +1,10 @@
-Title: How I Program Stuff
-Date: 2012-01-16
-Tags: programming
-Summary: Everyone has their own method for writing awesome code.  This is mine.
+---
+title: "How I Program Stuff"
+date: "2012-01-16"
+tags: ["programming"]
+slug: "how-i-program-stuff"
+description: "Everyone has their own method for writing awesome code.  This is mine."
+---
 
 
 ![Programmer Staring at Computer][]

@@ -1,7 +1,10 @@
-Title: My Desktop Environment
-Date: 2011-02-12
-Tags: programming
-Summary: A quick look at my standard work environment :)
+---
+title: "My Desktop Environment"
+date: "2011-02-12"
+tags: ["programming"]
+slug: "my-desktop-environment"
+description: "A quick look at my standard work environment :)"
+---
 
 
 I love reading about the tools that other people use daily, what sort of

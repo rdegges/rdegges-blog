@@ -1,7 +1,10 @@
-Title: Programming and Motivation
-Date: 2012-10-02
-Tags: programming
-Summary: A few days I've devised to keep myself motivated for writing code over the years.
+---
+title: "Programming and Motivation"
+date: "2012-10-02"
+tags: ["programming"]
+slug: "programming-and-motivation"
+description: "A few days I've devised to keep myself motivated for writing code over the years."
+---
 
 
 ![Bleach Sketch][]

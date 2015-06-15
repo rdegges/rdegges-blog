@@ -1,7 +1,10 @@
-Title: Non-Profit Idea: Neverending Charity
-Date: 2010-10-15
-Tags: ideas
-Summary: A quick non-profit idea -- what if you accepted donations, then paid out interest generated each month to a user-voted charity?
+---
+title: "Non-Profit Idea: Neverending Charity"
+date: "2010-10-15"
+tags: ["ideas"]
+slug: "non-profit-idea-neverending-charity"
+description: "A quick non-profit idea -- what if you accepted donations, then paid out interest generated each month to a user-voted charity?"
+---
 
 
 ![Waterfall Sketch][]

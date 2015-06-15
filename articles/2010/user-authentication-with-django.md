@@ -1,7 +1,10 @@
-Title: User Authentication With Django
-Date: 2010-02-17
-Tags: programming, python, django
-Summary: A quick guide to successfully using Django's authentication module.
+---
+title: "User Authentication With Django"
+date: "2010-02-17"
+tags: ["programming", "python", "django"]
+slug: "user-authentication-with-django"
+description: "A quick guide to successfully using Django's authentication module."
+---
 
 
 ![Lock Sketch][]

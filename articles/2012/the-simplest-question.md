@@ -1,7 +1,10 @@
-Title: The Simplest Question
-Date: 2012-09-27
-Tags: personal development
-Summary: "Is what I'm about to do taking me closer to my goals, or further away?"
+---
+title: "The Simplest Question"
+date: "2012-09-27"
+tags: ["personal development"]
+slug: "the-simplest-question"
+description: "Is what I'm about to do taking me closer to my goals, or further away?"
+---
 
 
 ![Samurai in Hat Sketch][]

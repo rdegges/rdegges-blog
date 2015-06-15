@@ -1,7 +1,10 @@
-Title: Quickly Extract XML Data with Python
-Date: 2013-09-04
-Tags: programming, python
-Summary: The simplest way to extract XML data with Python.
+---
+title: "Quickly Extract XML Data with Python"
+date: "2013-09-04"
+tags: ["programming", "python"]
+slug: "quickly-extract-xml-data-with-python"
+description: "The simplest way to extract XML data with Python."
+---
 
 
 ![Broken Demon Sketch][]

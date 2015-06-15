@@ -1,7 +1,10 @@
-Title: Writing Habit -- Thoughts (continued)
-Date: 2012-03-05
-Tags: personal development
-Summary: What I learned while building my writing habit.
+---
+title: "Writing Habit -- Thoughts (continued)"
+date: "2012-03-05"
+tags: ["personal development"]
+slug: "writing-habit-thoughts-continued"
+description: "What I learned while building my writing habit."
+---
 
 
 ![Old Fashioned Writer Sketch][]

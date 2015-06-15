@@ -1,7 +1,10 @@
-Title: Instantly Improve Your Month
-Date: 2013-12-16
-Tags: personal development
-Summary: A few ways you can instantly improve your month, cut back on stress, and feel happier.
+---
+title: "Instantly Improve Your Month"
+date: "2013-12-16"
+tags: ["personal development"]
+slug: "instantly-improve-your-month"
+description: "A few ways you can instantly improve your month, cut back on stress, and feel happier."
+---
 
 
 ![Hollow Sketch][]

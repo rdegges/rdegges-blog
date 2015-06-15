@@ -1,7 +1,10 @@
-Title: Why Don't You Use virtualenvwrapper?
-Date: 2010-09-08
-Tags: programming, python
-Summary: virtualenvwrapper is such an amazingly useful Python tool.  This article shows you why it rocks so hard, and why you should be using it right now.
+---
+title: "Why Don't You Use virtualenvwrapper?"
+date: "2010-09-08"
+tags: ["programming", "python"]
+slug: "why-dont-you-use-virtualenvwrapper"
+description: "virtualenvwrapper is such an amazingly useful Python tool.  This article shows you why it rocks so hard, and why you should be using it right now."
+---
 
 
 ![Crumpled Paper Sketch][]

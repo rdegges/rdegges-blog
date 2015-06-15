@@ -1,7 +1,10 @@
-Title: Absolute Victory
-Date: 2011-07-17
-Tags: personal development
-Summary: Fuck mediocrity.  Go all or nothing.
+---
+title: "Absolute Victory"
+date: "2011-07-17"
+tags: ["personal development"]
+slug: "absolute-victory"
+description: "Fuck mediocrity.  Go all or nothing."
+---
 
 
 ![Barbarian Sketch][]

@@ -1,7 +1,10 @@
-Title: Building an API Company - A Series
-Date: 2013-06-29
-Tags: programming, startups
-Summary: Come build an API company with me!
+---
+title: "Building an API Company - A Series"
+date: "2013-06-29"
+tags: ["programming", "startups"]
+slug: "building-an-api-company-a-series"
+description: "Come build an API company with me!"
+---
 
 
 ![Bridge Sketch][]

@@ -1,7 +1,10 @@
-Title: Finding Your Passion
-Date: 2015-01-20
-Tags: personal development
-Summary: How do you find that thing you were meant to do? The thing that you love spending your time on?  Your passion?
+---
+title: "Finding Your Passion"
+date: "2015-01-20"
+tags: ["personal development"]
+slug: "finding-your-passion"
+description: "How do you find that thing you were meant to do? The thing that you love spending your time on?  Your passion?"
+---
 
 
 ![Soul Inside Sketch][]

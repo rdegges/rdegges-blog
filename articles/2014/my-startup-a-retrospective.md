@@ -1,7 +1,10 @@
-Title: My Startup, A Retrospective
-Date: 2014-01-31
-Tags: startups
-Summary: A quick look back at my startup: what things worked, what didn't, and what I learned along the way.
+---
+title: "My Startup, A Retrospective"
+date: "2014-01-31"
+tags: ["startups"]
+slug: "my-startup-a-retrospective"
+description: "A quick look back at my startup: what things worked, what didn't, and what I learned along the way."
+---
 
 
 ![Cute Monster Sketch][]

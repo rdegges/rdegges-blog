@@ -1,7 +1,10 @@
-Title: Freeing Up Your Time
-Date: 2012-10-19
-Tags: personal development
-Summary: A great way to free up your time is to automate everything: from buying groceries to running repetitive tasks at work.
+---
+title: "Freeing Up Your Time"
+date: "2012-10-19"
+tags: ["personal development"]
+slug: "freeing-up-your-time"
+description: "A great way to free up your time is to automate everything: from buying groceries to running repetitive tasks at work."
+---
 
 
 ![Samurai Meditating Sketch][]

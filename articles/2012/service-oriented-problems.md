@@ -1,7 +1,10 @@
-Title: Service Oriented Problems
-Date: 2012-10-01
-Tags: programming
-Summary: A look at some of the problems you'll encounter when writing service oriented applications.
+---
+title: "Service Oriented Problems"
+date: "2012-10-01"
+tags: ["programming"]
+slug: "service-oriented-problems"
+description: "A look at some of the problems you'll encounter when writing service oriented applications."
+---
 
 
 ![Grim Reaper Smoking Sketch][]

@@ -1,7 +1,10 @@
-Title: Building a Heroku Addon
-Date: 2015-04-06
-Tags: programming, devops
-Summary: I'm buiding a Heroku addon, and you'll do it with me!  In this series we'll build a Heroku addon together!
+---
+title: "Building a Heroku Addon"
+date: "2015-04-06"
+tags: ["programming", "devops"]
+slug: "building-a-heroku-addon"
+description: "I'm buiding a Heroku addon, and you'll do it with me!  In this series we'll build a Heroku addon together!"
+---
 
 
 ![Retro Robot Sketch][]

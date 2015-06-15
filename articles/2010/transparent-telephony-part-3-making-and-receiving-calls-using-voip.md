@@ -1,7 +1,10 @@
-Title: Transparent Telephony - Part 3 - Making and Receiving Calls Using VoIP
-Date: 2010-03-03
-Tags: programming, telephony, asterisk
-Summary: The third part of my telephony series.  In this installment we'll connect Asterisk to Flowroute, and make internet calls!
+---
+title: "Transparent Telephony - Part 3 - Making and Receiving Calls Using VoIP"
+date: "2010-03-03"
+tags: ["programming", "telephony", "asterisk"]
+slug: "transparent-telephony-part-3-making-and-receiving-calls-using-voip"
+description: "The third part of my telephony series.  In this installment we'll connect Asterisk to Flowroute, and make internet calls!"
+---
 
 
 ![Old Telephone Sketch][]

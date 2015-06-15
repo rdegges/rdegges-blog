@@ -1,7 +1,10 @@
-Title: My Heroku Book is Finished
-Date: 2012-09-10
-Tags: programming
-Summary: I just wrote a book!  On Heroku!
+---
+title: "My Heroku Book is Finished"
+date: "2012-09-10"
+tags: ["programming"]
+slug: "my-heroku-book-is-finished"
+description: "I just wrote a book!  On Heroku!"
+---
 
 
 ![The Heroku Hacker's Guide Cover][]

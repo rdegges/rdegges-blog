@@ -1,7 +1,10 @@
-Title: It's All Perspective
-Date: 2013-03-31
-Tags: personal development
-Summary: Your perspective on everyday situations makes all the difference in life.
+---
+title: "It's All Perspective"
+date: "2013-03-31"
+tags: ["personal development"]
+slug: "its-all-perspective"
+description: "Your perspective on everyday situations makes all the difference in life."
+---
 
 
 ![Buddha Sketch][]

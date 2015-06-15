@@ -1,7 +1,10 @@
-Title: Asterisk Expression Truthiness
-Date: 2010-08-18
-Tags: programming, telephony, asterisk
-Summary: A quick look at what Asterisk considers 'truth'.  We'll look at source code and plenty of examples.
+---
+title: "Asterisk Expression Truthiness"
+date: "2010-08-18"
+tags: ["programming", "telephony", "asterisk"]
+slug: "asterisk-expression-truthiness"
+description: "A quick look at what Asterisk considers 'truth'.  We'll look at source code and plenty of examples."
+---
 
 
 ![Stephen Colbert Sketch][]

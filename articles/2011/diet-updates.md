@@ -1,6 +1,10 @@
-Title: Diet Updates
-Date: 2011-05-01
-Summary: A quick update on my diet progress.
+---
+title: "Diet Updates"
+date: "2011-05-01"
+tags: ["personal development"]
+slug: "diet-updates"
+description: "A quick update on my diet progress."
+---
 
 
 ![Steak Sketch][]

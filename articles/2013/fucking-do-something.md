@@ -1,7 +1,10 @@
-Title: Fucking Do Something!
-Date: 2013-10-21
-Tags: personal development
-Summary: Feeling down?  Get up and fucking do something!
+---
+title: "Fucking Do Something!"
+date: "2013-10-21"
+tags: ["personal development"]
+slug: "fucking-do-something"
+description: "Feeling down?  Get up and fucking do something!"
+---
 
 
 ![Fear Sketch][]

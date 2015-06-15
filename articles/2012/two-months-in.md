@@ -1,7 +1,10 @@
-Title: Two Months In
-Date: 2012-08-22
-Tags: startups
-Summary: I'm two months into my new startup.  Here are some of the things I've been thinking about.
+---
+title: "Two Months In"
+date: "2012-08-22"
+tags: ["startups"]
+slug: "two-months-in"
+description: "I'm two months into my new startup.  Here are some of the things I've been thinking about."
+---
 
 
 ![Samurai in Robes Sketch][]

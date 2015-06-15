@@ -1,7 +1,10 @@
-Title: postgression - A PostgreSQL Database for Every Test Case
-Date: 2013-01-20
-Tags: programming
-Summary: Introducing postgression: a free PostgreSQL database service.
+---
+title: "postgression - A PostgreSQL Database for Every Test Case"
+date: "2013-01-20"
+tags: ["programming"]
+slug: "postgression-a-postgresql-database-for-every-test-case"
+description: "Introducing postgression: a free PostgreSQL database service."
+---
 
 
 ![Monkey Sketch][]

@@ -1,7 +1,10 @@
-Title: What I Do At Work
-Date: 2010-08-15
-Tags: programming, telephony
-Summary: My best attempt at explaining what I actually do at work.
+---
+title: "What I Do At Work"
+date: "2010-08-15"
+tags: ["programming", "telephony"]
+slug: "what-i-do-at-work"
+description: "My best attempt at explaining what I actually do at work."
+---
 
 
 ![Desk Sketch][]

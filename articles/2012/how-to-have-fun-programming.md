@@ -1,7 +1,10 @@
-Title: How to Have Fun Programming
-Date: 2012-06-02
-Tags: programming
-Summary: Having fun programming is something that a lot of programmers forget how to do -- and that makes me sad.  Check this shit out.
+---
+title: "How to Have Fun Programming"
+date: "2012-06-02"
+tags: ["programming"]
+slug: "how-to-have-fun-programming"
+description: "Having fun programming is something that a lot of programmers forget how to do -- and that makes me sad.  Check this shit out."
+---
 
 
 ![Kenpachi Sketch][]

@@ -1,7 +1,10 @@
-Title: Become a Better Programmer - Monitoring
-Date: 2012-08-26
-Tags: programming
-Summary: One way to become a better programmer is to increase your usage of application monitoring software.  You'd be surprised how much you'll learn!  My suggestion: use New Relic.
+---
+title: "Become a Better Programmer - Monitoring"
+date: "2012-08-26"
+tags: ["programming"]
+slug: "become-a-better-programmer-monitoring"
+description: "One way to become a better programmer is to increase your usage of application monitoring software.  You'd be surprised how much you'll learn!  My suggestion: use New Relic."
+---
 
 
 ![Grim Reaper Gesturing][]

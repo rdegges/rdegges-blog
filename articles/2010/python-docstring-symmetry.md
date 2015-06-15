@@ -1,7 +1,10 @@
-Title: Python Docstring Symmetry
-Date: 2010-08-17
-Tags: programming, python
-Summary: A short PEP-257 rant about docstring style.
+---
+title: "Python Docstring Symmetry"
+date: "2010-08-17"
+tags: ["programming", "python"]
+slug: "python-docstring-symmetry"
+description: "A short PEP-257 rant about docstring style."
+---
 
 
 ![Ruler Sketch][]

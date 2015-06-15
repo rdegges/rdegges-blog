@@ -1,7 +1,10 @@
-Title: Sacrifice
-Date: 2013-03-28
-Tags: personal development
-Summary: Sometimes you have to sacrifice other tasks and activities to make room for new ones.
+---
+title: "Sacrifice"
+date: "2013-03-28"
+tags: ["personal development"]
+slug: "sacrifice"
+description: "Sometimes you have to sacrifice other tasks and activities to make room for new ones."
+---
 
 
 ![Demon Sketch][]
