@@ -107,7 +107,7 @@ incredibly horrible sinking feeling in my stomach when I ran that update
 command.
 
 
-  [Horseman Sketch]: {filename}/images/2011/horseman-sketch.png "Horseman Sketch"
+  [Horseman Sketch]: /static/images/2011/horseman-sketch.png "Horseman Sketch"
   [freeradius]: http://freeradius.org/ "FreeRADIUS"
   [Rackspace]: http://www.rackspace.com/index.php "Rackspace"
   [puppet]: https://puppetlabs.com/ "puppet"

@@ -60,4 +60,4 @@ have regrets.
 Don't settle for that.
 
 
-  [Dark Mage Sketch]: {filename}/images/2012/dark-mage-sketch.png "Dark Mage Sketch"
+  [Dark Mage Sketch]: /static/images/2012/dark-mage-sketch.png "Dark Mage Sketch"

@@ -434,7 +434,7 @@ TOC:
 
 
 
-  [Wall-e Sketch]: {filename}/images/2015/wall-e-sketch.jpg "Wall-e Sketch"
+  [Wall-e Sketch]: /static/images/2015/wall-e-sketch.jpg "Wall-e Sketch"
   [OAuth]: http://oauth.net/ "OAuth"
   [specification]: http://tools.ietf.org/html/rfc2617 "HTTP Basic Auth / Digest Auth Spec"
   [uuid]: http://en.wikipedia.org/wiki/Universally_unique_identifier "UUID on Wikipedia"
